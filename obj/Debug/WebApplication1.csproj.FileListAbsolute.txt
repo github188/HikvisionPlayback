@@ -1,0 +1,15 @@
+c:\users\camba one\documents\visual studio 2012\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+c:\users\camba one\documents\visual studio 2012\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+c:\users\camba one\documents\visual studio 2012\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+c:\users\camba one\documents\visual studio 2012\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\camba one\documents\visual studio 2012\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Data.Edm.xml
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Data.OData.xml
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Data.Services.xml
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Data.Services.Client.xml
+C:\Users\Camba One\Desktop\WebApplication1\WebApplication1\bin\System.Spatial.xml

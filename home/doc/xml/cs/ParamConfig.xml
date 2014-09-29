@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<ParamConfig>
+	<Common>
+		<Page>
+			<laParamConfig>Konfigurace</laParamConfig>
+			<Tree>
+				<laLocalConfig tag="label;" length="125">Místní konfigurace</laLocalConfig>
+				<laBaseConfig tag="label;" length="125">Zákl. nastavení</laBaseConfig>
+				<laAdvanceConfig tag="label;" length="125">Pokročilá konfigurace</laAdvanceConfig>
+				<aLocalConfig tag="a;" length="139">Místní konfigurace</aLocalConfig>
+				<aSystem tag="a;" length="139">Systém</aSystem>
+				<aNetwork tag="a;" length="139">Síť</aNetwork>
+				<aAudioAndVideo tag="a;" length="139">Video/Audio</aAudioAndVideo>
+				<aVideoSettings tag="a;" length="139">Snímek</aVideoSettings>
+				<aSecurity tag="a;" length="139">Zabezpečení</aSecurity>
+				<aEvent tag="a;" length="139">Události</aEvent>
+				<aStorage tag="a;" length="139">Ukládání</aStorage>
+				<DVR>
+					<tree1>Konfigurace</tree1>
+					<tree2>Místní konfigurace</tree2>
+					<tree3>Vzdál. konfigurace</tree3>
+					<tree300>Param. zařízení</tree300>
+					<tree3000>Info o zařízení</tree3000>
+					<tree3001>Nastavení času</tree3001>
+					<tree3002>Stav zařízení</tree3002>
+					<tree3003>Menu Output</tree3003>
+					<tree301>Nastavení kamery</tree301>
+					<tree3010>Nastavení monitoru</tree3010>
+					<tree3011>Nastavení videa</tree3011>
+					<tree3012>Nastavení rozvrhu</tree3012>
+					<tree3013>Detekce pohybu</tree3013>
+					<tree3014>Ztráta videa</tree3014>
+					<tree3015>Privátní maska</tree3015>
+					<tree3016>Zajištění proti úpravám</tree3016>
+					<tree3017>Překrytí textu</tree3017>
+					<tree3018>Nastavení svátků</tree3018>
+					<tree3019>Přední parametr</tree3019>
+					<tree30191>Snímek</tree30191>
+					<tree302>Nastavení sítě</tree302>
+					<tree3020>TCP/IP</tree3020>
+					<tree3021>PPPoE</tree3021>
+					<tree3022>DDNS</tree3022>
+					<tree3023>Email</tree3023>
+					<tree3024>NetHDD</tree3024>
+					<tree3025>SNMP</tree3025>
+					<tree3028>Port</tree3028>
+					<tree3029>FTP</tree3029>
+					<tree30291>QoS</tree30291>
+					<tree30292>SOCKS</tree30292>
+					<tree30293>UPnP™</tree30293>
+					<tree30294>HTTPS</tree30294>
+					<tree30295>Bonjour</tree30295>
+					<tree303>Nastavení sér. portu</tree303>
+					<tree3030>Sér. port 232</tree3030>
+					<tree3031>Sér. port 485</tree3031>
+					<tree304>Nastavení alarmu</tree304>
+					<tree3040>Vstup alarmu</tree3040>
+					<tree3041>Výstup alarmu</tree3041>
+					<tree305>Výjimka</tree305>
+					<tree306>Správa uživatele</tree306>
+					<tree307>Správa HDD</tree307>
+					<tree3070>Zákl. nastavení</tree3070>
+					<tree308>Údržba</tree308>
+					<tree309>Restart</tree309>
+					<tree310>Vzdál. aktualizace</tree310>
+					<tree311>Správa kamery</tree311>
+					<tree3110>Analog. kamera</tree3110>
+					<tree3111>IP kamera</tree3111>
+					<tree3112>Kanál nula</tree3112>
+				</DVR>
+			</Tree>
+			<StartWeekDayOpt1 tag="label;a;" length="29">Po</StartWeekDayOpt1>
+			<StartWeekDayOpt2 tag="label;a;" length="27">Út</StartWeekDayOpt2>
+			<StartWeekDayOpt3 tag="label;a;" length="31">St</StartWeekDayOpt3>
+			<StartWeekDayOpt4 tag="label;a;" length="27">Čt</StartWeekDayOpt4>
+			<StartWeekDayOpt5 tag="label;a;" length="20">Pá</StartWeekDayOpt5>
+			<StartWeekDayOpt6 tag="label;a;" length="24">So</StartWeekDayOpt6>
+			<StartWeekDayOpt0 tag="label;a;" length="31">Ne</StartWeekDayOpt0>
+			<laMonday tag="label;a;" length="29">Po</laMonday>
+			<laTuesday tag="label;a;" length="27">Út</laTuesday>
+			<laWednesday tag="label;a;" length="31">St</laWednesday>
+			<laThursday tag="label;a;" length="27">Čt</laThursday>
+			<laFriday tag="label;a;" length="20">Pá</laFriday>
+			<laSaturday tag="label;a;" length="24">So</laSaturday>
+			<laSunday tag="label;a;" length="31">Ne</laSunday>
+			<laHoliday>Svátek</laHoliday>
+			<laSelectAll tag="label;" length="40">Zvolit vše</laSelectAll>
+			<CopyTo tag="input;" length="88">Kopírovat</CopyTo>
+			<laMacAddress tag="label;" length="150">MAC adresa</laMacAddress>
+			<laChannelName>Název kamery</laChannelName>
+			<laCheckPwd tag="label;" length="150">Potvrdit</laCheckPwd>
+			<laProtocolType tag="label;" length="150">Protokol</laProtocolType>
+			<laState tag="label;" length="100">Stav</laState>
+			<StartMonthOpt1 tag="option;" length="58">Leden</StartMonthOpt1>
+			<StartMonthOpt2 tag="option;" length="58">Únor</StartMonthOpt2>
+			<StartMonthOpt3 tag="option;" length="58">Březen</StartMonthOpt3>
+			<StartMonthOpt4 tag="option;" length="58">Duben</StartMonthOpt4>
+			<StartMonthOpt5 tag="option;" length="58">Květen</StartMonthOpt5>
+			<StartMonthOpt6 tag="option;" length="58">Červen</StartMonthOpt6>
+			<StartMonthOpt7 tag="option;" length="58">Červenec</StartMonthOpt7>
+			<StartMonthOpt8 tag="option;" length="58">Srpen</StartMonthOpt8>
+			<StartMonthOpt9 tag="option;" length="58">Září</StartMonthOpt9>
+			<StartMonthOpt10 tag="option;" length="58">Říjen</StartMonthOpt10>
+			<StartMonthOpt11 tag="option;" length="58">Listopad</StartMonthOpt11>
+			<StartMonthOpt12 tag="option;" length="58">Prosinec</StartMonthOpt12>
+			<MdfDigitalIpBtn tag="input;" length="74">Upravit</MdfDigitalIpBtn>
+			<AddDigitalIpBtn>Přidat</AddDigitalIpBtn>
+			<laDay tag="option;" length="78">Den</laDay>
+			<StartWeekOpt1 tag="option;" length="68">První</StartWeekOpt1>
+			<StartWeekOpt2 tag="option;" length="68">Druhý</StartWeekOpt2>
+			<StartWeekOpt3 tag="option;" length="68">Třetí</StartWeekOpt3>
+			<StartWeekOpt4 tag="option;" length="68">Čtvrtý</StartWeekOpt4>
+			<StartWeekOpt5 tag="option;" length="68">Poslední</StartWeekOpt5>
+			<laEnable>Povolit</laEnable>
+			<btnBrowse tag="input;" length="74">Procházení</btnBrowse>
+			<laVideoResolution tag="label;" length="150">Rozlišení</laVideoResolution>
+			<laCopyToWeek tag="label;" length="78">Kopírování do týdne</laCopyToWeek>
+			<GoBackListBtn tag="input;" length="88">Zpět</GoBackListBtn>
+			<laEdit>Editace</laEdit>
+			<laNoCopy tag="label;" length="517">(nelze kop.)</laNoCopy>
+			<laProcess tag="label;" length="100">Naplánovat</laProcess>
+			<aModeManual tag="option;" length="176">Manuální</aModeManual>
+			<aLevelLow tag="option;" length="176">Nízký</aLevelLow>
+			<aLevelNormal tag="option;" length="176">Normální</aLevelNormal>
+			<aLevelHigh tag="option;" length="176">Vysoké</aLevelHigh>
+			<optionSecond tag="option;" length="78">druhý</optionSecond>
+			<laType tag="label;" length="100">Typ</laType>
+			<laOClock>hodin</laOClock>
+			<aStyleClose tag="option;" length="176">Zavřít</aStyleClose>
+			<aModeAuto tag="option;" length="176">Auto</aModeAuto>
+			<laDelay tag="label;" length="150">Doba pozdr.</laDelay>
+			<OptPirORWlsensorORCallhelp>PIR|Bezdrátová|Nouzová</OptPirORWlsensorORCallhelp>
+			<OptAllEvent>Detekce|Popl. vstup</OptAllEvent>
+			<laAuthType tag="label;" length="150">Autentifikace</laAuthType>
+			<laAttribute>Vlastnost</laAttribute>
+			<aEmail tag="a;" length="9999">Email</aEmail>
+			<laMountType>Typ upevnění</laMountType>
+			<laCelling>Strop</laCelling>
+			<laWall>Zeď</laWall>
+			<laFloor>Země</laFloor>
+			<laAnonymous>Anonymní</laAnonymous>
+			<laUploadCertificate>Upload</laUploadCertificate>
+		</Page>
+		<Js>
+			<laparamCfg>Konfigurace</laparamCfg>
+			<AnalogChannelNameTips>Analog. kamera</AnalogChannelNameTips>
+			<DigitalChannelNameTips>IP kamera</DigitalChannelNameTips>
+			<InputTips>Vstup </InputTips>
+			<RangeTips> rozsah </RangeTips>
+			<WrongTips>Špatně </WrongTips>
+			<LengthTips> Délka nesmí přesáhnout </LengthTips>
+			<NullTips> nesmí být prázdné.</NullTips>
+			<WithTimeSegmentTips> s periodou </WithTimeSegmentTips>
+			<UserNameCharTips>Uzivatelske jmeno muze obsahovat jen pismena (a-z, A-Z), cisla(O-9) a podtrzitko(_)</UserNameCharTips>
+			<CoverStopMapbuttonTips>Zast. kreslení</CoverStopMapbuttonTips>
+			<ClearRegionTips>Vymazat všechny oblasti?</ClearRegionTips>
+			<DeleteRegionFailedTips>Vyčištění se nezdařilo</DeleteRegionFailedTips>
+			<DeleteRegionSuccessTips>Vyčištěno</DeleteRegionSuccessTips>
+			<DevNameLengthTips>Délka názvu nemůže být delší než 32 znaků.</DevNameLengthTips>
+			<DevNameNullTips>Název nemůže být prázdný.</DevNameNullTips>
+			<DevNameWrongCharTips>Invalid characters: </DevNameWrongCharTips>
+			<jsPwdCheckMismatch>Hesla nesouhlasí</jsPwdCheckMismatch>
+			<jsTimeSegmentErrorSegTips> počáteční čas musí předcházet koncový.</jsTimeSegmentErrorSegTips>
+			<laCopyToChannel>Kopírování do kamery</laCopyToChannel>
+			<UserNameLengthTips> Délka nesmí přesáhnout 16.</UserNameLengthTips>
+			<OffLineTips>Offline</OffLineTips>
+			<OverlappedTips> nesmí se překrývat.</OverlappedTips>
+			<LocalTips>Místní</LocalTips>
+			<DIPAddInvalidTips>První část IP musí být celé číslo v rozsahu 1-233.</DIPAddInvalidTips>
+			<tipsNormal>Normální</tipsNormal>
+			<jsEmailAdd>Emailová adresa</jsEmailAdd>
+			<jsUploadSuc>Úspěšně nahráno</jsUploadSuc>
+			<jsUploadFailed>Nahrát soubor</jsUploadFailed>
+		</Js>
+		<General>
+			<geUserName tag="label;" length="150">Uživ. jméno</geUserName>
+			<gePassword tag="label;" length="150">Heslo</gePassword>
+			<laTimerange tag="label;" length="100">Období</laTimerange>
+			<CoverStartMapbutton tag="input;" length="74">Nakr. obl.</CoverStartMapbutton>
+			<CoverTimebutton tag="input;" length="74">Vyčistit vše</CoverTimebutton>
+			<laServerAdd tag="label;" length="150">Adresa serveru</laServerAdd>
+			<laIpAddress>IP adresa</laIpAddress>
+			<aMoveDetection tag="a;" length="9999">Detekce pohybu</aMoveDetection>
+			<laVideoTabDivBtn tag="label;" length="670">Nastavení oblasti</laVideoTabDivBtn>
+			<trDisabled>Vypnuto</trDisabled>
+			<WholeDayRecordTypeOpt1 tag="option;" length="118">Normální</WholeDayRecordTypeOpt1>
+			<WholeDayRecordTypeOpt3 tag="option;" length="118">Alarm</WholeDayRecordTypeOpt3>
+			<WholeDayRecordTypeOpt4 tag="option;" length="118">Pohyb | Alarm</WholeDayRecordTypeOpt4>
+			<WholeDayRecordTypeOpt5 tag="option;" length="118">Pohyb a alarm</WholeDayRecordTypeOpt5>
+			<laEnableWholeDayRecord tag="label;" length="87">Celý den</laEnableWholeDayRecord>
+			<laEnableWholeDayCapture tag="label;" length="87">Celý den</laEnableWholeDayCapture>
+			<laSectionRecord tag="label;" length="578">Přizpůsobení</laSectionRecord>
+			<laSectionCapture tag="label;" length="578">Přizpůsobení</laSectionCapture>
+			<laWholeDayRecordType tag="label;" length="149">Typ záznamu</laWholeDayRecordType>
+			<laWholeDayCaptureType tag="label;" length="149">Typ snímku</laWholeDayCaptureType>
+			<constantBitRateOpt23>Přizpůsobení</constantBitRateOpt23>
+			<Other>Ostatní</Other>
+		</General>
+	</Common>
+	<ParamConfig>
+		<Page>
+		</Page>
+		<Js>
+			<Success1>Úspěšně uloženo.</Success1>
+			<Success2>Úspěšně uloženo. Restartovat?</Success2>
+			<DeleteSuccTips>Soubor smazán.</DeleteSuccTips>
+			<Success4>Soubor smazán. Restartovat zařízení?</Success4>
+			<Success5>Úspěšně dokončeno! Nové nastavení se projeví po restartování zařízení.</Success5>
+			<Error1>Nastavení parametrů nebylo úspěšné</Error1>
+			<Error2>Parametry nebyly získány.</Error2>
+			<Error3>Neplatný obsah XML</Error3>
+			<Error4>Neplatný formát XML</Error4>
+			<Error5>Neplatná operace</Error5>
+			<Error6>Chyba zařízení</Error6>
+			<Error7>Zařízení je zaneprázdněno</Error7>
+			<jsNetworkAbnormal>Nestandardní síť</jsNetworkAbnormal>
+			<Error10>Kanál bez alarmu vstupu/výstupu.</Error10>
+			<Error11>Chyba uživ. hesla</Error11>
+			<Error12>Chyba metody</Error12>
+			<Error13>Chyba parametru</Error13>
+			<Error14>Neplatné URL nebo HTTP</Error14>
+			<Error400>Chyba: síť odpojena nebo nestandardní</Error400>
+			<Error44> Parametry selhaly</Error44>
+			<Error55>Nastavit kameru</Error55>
+			<Error66>Nastavit parametry alarmu</Error66>
+			<Error77>    Kamera tuto funkci nepodporuje.</Error77>
+			<Ask>Po uložení parametrů se zařízení automaticky restartuje. Pokračovat?</Ask>
+			<Ask1>Vymazat tohoto uživatele?</Ask1>
+			<RestartTips>Parametry jsou změněny. Restartovat?</RestartTips>
+			<RestartSuccessTips>Restartování…</RestartSuccessTips>
+			<RestartFailedTips>Neúspěšný restart zařízení</RestartFailedTips>
+		</Js>
+	</ParamConfig>
+</ParamConfig>

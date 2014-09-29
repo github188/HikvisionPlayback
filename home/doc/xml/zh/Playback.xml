@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>录像回放</title>
+		<SlowlyForward>慢放</SlowlyForward>
+		<FastForward>快放</FastForward>
+		<SingleFrame>单帧</SingleFrame>
+		<laCurrentSpeed tag="label;" length="48">当前状态</laCurrentSpeed>
+		<laGotoTime>定位</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">回放时间点定位</laPlaybackTimeLocalizer>
+		<imgGotoTime>定位时间回放</imgGotoTime>
+		<RecordType1 tag="label;" length="704">命令触发录像</RecordType1>
+		<RecordType2 tag="label;" length="704">定时录像</RecordType2>
+		<RecordType3 tag="label;" length="704">报警录像</RecordType3>
+		<RecordType4 tag="label;" length="704">手动录像</RecordType4>
+		<PictureDownload tag="input;" length="32">下载图片</PictureDownload>
+		<RecordDownload tag="input;" length="32">下载录像</RecordDownload>
+		<DVR>
+			<stopAll>全部停止回放</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>暂停失败</pausefailed>
+		<resumefailed>恢复回放失败</resumefailed>
+		<stoprecord>停止剪辑</stoprecord>
+		<startRecord>开始剪辑</startRecord>
+		<stoprecordfailed>停止剪辑失败</stoprecordfailed>
+		<startplayfailed>开启回放失败</startplayfailed>
+		<stopplayfailed>停止回放失败</stopplayfailed>
+		<jssingleframe>单帧回放</jssingleframe>
+		<jssingleframefailed>单帧回放失败</jssingleframefailed>
+		<stopCurrentWndPlay>请先停止当前窗口的回放</stopCurrentWndPlay>
+		<szTips1>搜索录像失败！</szTips1>
+		<szTips3>没有录像文件</szTips3>
+		<jsSearchFile>请先搜索文件</jsSearchFile>
+		<jsSpeed>倍速</jsSpeed>
+		<jsPauseAlready>已暂停</jsPauseAlready>
+		<jsPause>暂停</jsPause>
+		<jsResume>恢复</jsResume>
+		<jsPlayBackError>回放异常</jsPlayBackError>
+		<jsRecordError>剪辑失败</jsRecordError>
+		<jsPlaybackStop>回放结束</jsPlaybackStop>
+		<jsPlayStopAbnormal>回放异常结束</jsPlayStopAbnormal>
+		<jsDownload>请先查找回放文件再下载！</jsDownload>
+		<jsDownloadWnd>下载窗口已经打开！</jsDownloadWnd>
+		<jsNotSupportDown>该设备不支持下载！</jsNotSupportDown>
+		<jsClipSucc>剪辑成功</jsClipSucc>
+		<jsZoomIn>放大</jsZoomIn>
+		<jsZoomOut>缩小</jsZoomOut>
+		<jsReversePlay>倒放</jsReversePlay>
+		<DVR>
+			<jsSelectChan>请选择一个通道</jsSelectChan>
+			<jsPlayChannel>通道 </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>播放</gePlay>
+	</General>
+</Playback>
+

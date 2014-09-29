@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<ParamConfig>
+	<Common>
+		<Page>
+			<laParamConfig>Configuratie</laParamConfig>
+			<Tree>
+				<laLocalConfig tag="label;" length="125">Lokale configuratie</laLocalConfig>
+				<laBaseConfig tag="label;" length="125">Basisconfiguratie</laBaseConfig>
+				<laAdvanceConfig tag="label;" length="125">Gevorderde configuratie</laAdvanceConfig>
+				<aLocalConfig tag="a;" length="139">Lokale configuratie</aLocalConfig>
+				<aSystem tag="a;" length="139">Systeem</aSystem>
+				<aNetwork tag="a;" length="139">Netwerk  </aNetwork>
+				<aAudioAndVideo tag="a;" length="139">Video/Audio</aAudioAndVideo>
+				<aVideoSettings tag="a;" length="139">Beeld</aVideoSettings>
+				<aSecurity tag="a;" length="139">Beveiliging</aSecurity>
+				<aEvent tag="a;" length="139">Gebeurtenissen</aEvent>
+				<aStorage tag="a;" length="139">Opslag</aStorage>
+				<DVR>
+					<tree1>Configuratie</tree1>
+					<tree2>Lokale configuratie</tree2>
+					<tree3>Op afstand configureren</tree3>
+					<tree300>Apparaatinstellingen</tree300>
+					<tree3000>Apparaatinformatie</tree3000>
+					<tree3001>Tijdinstellingen</tree3001>
+					<tree3002>Status van apparaat</tree3002>
+					<tree3003>Menu Output</tree3003>
+					<tree301>Camera-instellingen</tree301>
+					<tree3010>Scherminstellingen</tree3010>
+					<tree3011>Video-instellingen</tree3011>
+					<tree3012>Schemainstellingen</tree3012>
+					<tree3013>Bewegingsdetectie</tree3013>
+					<tree3014>Videoverlies</tree3014>
+					<tree3015>Privacy Mask</tree3015>
+					<tree3016>Tamper-proof</tree3016>
+					<tree3017>Tekstoverlap</tree3017>
+					<tree3018>Vakantie-instellingen</tree3018>
+					<tree3019>Frontinstel.</tree3019>
+					<tree30191>Snapshot</tree30191>
+					<tree302>Netwerkinstellingen</tree302>
+					<tree3020>TCP/IP</tree3020>
+					<tree3021>PPPoE</tree3021>
+					<tree3022>DDNS</tree3022>
+					<tree3023>E-mail</tree3023>
+					<tree3024>NetHDD</tree3024>
+					<tree3025>SNMP</tree3025>
+					<tree3028>Poort</tree3028>
+					<tree3029>FTP</tree3029>
+					<tree30291>QoS</tree30291>
+					<tree30292>SOCKS</tree30292>
+					<tree30293>UPnP™</tree30293>
+					<tree30294>HTTPS</tree30294>
+					<tree30295>Bonjour</tree30295>
+					<tree303>Instellingen seriële poort</tree303>
+					<tree3030>Seriële 232-uitgang</tree3030>
+					<tree3031>Seriële 485-uitgang</tree3031>
+					<tree304>Alarminstellingen</tree304>
+					<tree3040>Alarmingang</tree3040>
+					<tree3041>Alarmuitgang</tree3041>
+					<tree305>Uitzondering</tree305>
+					<tree306>Gebruikersbeheer</tree306>
+					<tree307>HDD-beheer</tree307>
+					<tree3070>Basisinstellingen </tree3070>
+					<tree308>Onderhoud</tree308>
+					<tree309>Opnieuw starten </tree309>
+					<tree310>Upgraden op afstand</tree310>
+					<tree311>Camerabeheer</tree311>
+					<tree3110>Analoge camera</tree3110>
+					<tree3111>IP-camera</tree3111>
+					<tree3112>Kanaal nul</tree3112>
+				</DVR>
+			</Tree>
+			<StartWeekDayOpt1 tag="label;a;" length="29">Ma</StartWeekDayOpt1>
+			<StartWeekDayOpt2 tag="label;a;" length="27">Di</StartWeekDayOpt2>
+			<StartWeekDayOpt3 tag="label;a;" length="31">Wo</StartWeekDayOpt3>
+			<StartWeekDayOpt4 tag="label;a;" length="27">Do</StartWeekDayOpt4>
+			<StartWeekDayOpt5 tag="label;a;" length="20">Vr</StartWeekDayOpt5>
+			<StartWeekDayOpt6 tag="label;a;" length="24">Za</StartWeekDayOpt6>
+			<StartWeekDayOpt0 tag="label;a;" length="31">Zo</StartWeekDayOpt0>
+			<laMonday tag="label;a;" length="29">Ma</laMonday>
+			<laTuesday tag="label;a;" length="27">Di</laTuesday>
+			<laWednesday tag="label;a;" length="31">Wo</laWednesday>
+			<laThursday tag="label;a;" length="27">Do</laThursday>
+			<laFriday tag="label;a;" length="20">Vr</laFriday>
+			<laSaturday tag="label;a;" length="24">Za</laSaturday>
+			<laSunday tag="label;a;" length="31">Zo</laSunday>
+			<laHoliday>Vakantie</laHoliday>
+			<laSelectAll tag="label;" length="40">Alles selecteren</laSelectAll>
+			<CopyTo tag="input;" length="88">Kopieer</CopyTo>
+			<laMacAddress tag="label;" length="150">Mac-adres</laMacAddress>
+			<laChannelName>Cameranaam</laChannelName>
+			<laCheckPwd tag="label;" length="150">Bevestigen</laCheckPwd>
+			<laProtocolType tag="label;" length="150">Protocol</laProtocolType>
+			<laState tag="label;" length="100">Status </laState>
+			<StartMonthOpt1 tag="option;" length="58">Jan </StartMonthOpt1>
+			<StartMonthOpt2 tag="option;" length="58">Feb</StartMonthOpt2>
+			<StartMonthOpt3 tag="option;" length="58">Mrt</StartMonthOpt3>
+			<StartMonthOpt4 tag="option;" length="58">Apr</StartMonthOpt4>
+			<StartMonthOpt5 tag="option;" length="58">Mei</StartMonthOpt5>
+			<StartMonthOpt6 tag="option;" length="58">Jun</StartMonthOpt6>
+			<StartMonthOpt7 tag="option;" length="58">Jul</StartMonthOpt7>
+			<StartMonthOpt8 tag="option;" length="58">Aug</StartMonthOpt8>
+			<StartMonthOpt9 tag="option;" length="58">Sep</StartMonthOpt9>
+			<StartMonthOpt10 tag="option;" length="58">Okt</StartMonthOpt10>
+			<StartMonthOpt11 tag="option;" length="58">Nov</StartMonthOpt11>
+			<StartMonthOpt12 tag="option;" length="58">Dec</StartMonthOpt12>
+			<MdfDigitalIpBtn tag="input;" length="74">Aanpassen</MdfDigitalIpBtn>
+			<AddDigitalIpBtn>Toevoegen</AddDigitalIpBtn>
+			<laDay tag="option;" length="78">Dag </laDay>
+			<StartWeekOpt1 tag="option;" length="68">Eerste</StartWeekOpt1>
+			<StartWeekOpt2 tag="option;" length="68">Tweede</StartWeekOpt2>
+			<StartWeekOpt3 tag="option;" length="68">Derde</StartWeekOpt3>
+			<StartWeekOpt4 tag="option;" length="68">Vierde</StartWeekOpt4>
+			<StartWeekOpt5 tag="option;" length="68">Laatste </StartWeekOpt5>
+			<laEnable>Ingeschakeld</laEnable>
+			<btnBrowse tag="input;" length="74">Browse</btnBrowse>
+			<laVideoResolution tag="label;" length="150">Resolutie </laVideoResolution>
+			<laCopyToWeek tag="label;" length="78">Kopieer naar week</laCopyToWeek>
+			<GoBackListBtn tag="input;" length="88">Terug</GoBackListBtn>
+			<laEdit>Bewerken</laEdit>
+			<laNoCopy tag="label;" length="517">Fout! Kan niet kopiëren</laNoCopy>
+			<laProcess tag="label;" length="100">Voortgang</laProcess>
+			<aModeManual tag="option;" length="176">Handmatig</aModeManual>
+			<aLevelLow tag="option;" length="176">Laag</aLevelLow>
+			<aLevelNormal tag="option;" length="176">Normaal</aLevelNormal>
+			<aLevelHigh tag="option;" length="176">Hoog </aLevelHigh>
+			<optionSecond tag="option;" length="78">seconde</optionSecond>
+			<laType tag="label;" length="100">Type</laType>
+			<laOClock>Uur </laOClock>
+			<aStyleClose tag="option;" length="176">Sluiten</aStyleClose>
+			<aModeAuto tag="option;" length="176">Automatisch</aModeAuto>
+			<laDelay tag="label;" length="150">Houd Voor</laDelay>
+			<OptPirORWlsensorORCallhelp>PIR|Draadloos|Nood</OptPirORWlsensorORCallhelp>
+			<OptAllEvent>Alarm Ingang</OptAllEvent>
+			<laAuthType tag="label;" length="150">Verificatie</laAuthType>
+			<laAttribute>Eigenschap</laAttribute>
+			<aEmail tag="a;" length="9999">E-mail</aEmail>
+			<laMountType>Type koppeling</laMountType>
+			<laCelling>Plafond</laCelling>
+			<laWall>Wand</laWall>
+			<laFloor>Vloer</laFloor>
+			<laAnonymous>Anoniem</laAnonymous>
+			<laUploadCertificate>Upload</laUploadCertificate>
+		</Page>
+		<Js>
+			<laparamCfg>Configuratie</laparamCfg>
+			<AnalogChannelNameTips>Analoge camera</AnalogChannelNameTips>
+			<DigitalChannelNameTips>IP-camera</DigitalChannelNameTips>
+			<InputTips>Invoer </InputTips>
+			<RangeTips> Bereik </RangeTips>
+			<WrongTips>Verkeerd </WrongTips>
+			<LengthTips> maximale lengte is </LengthTips>
+			<NullTips> kan niet leeg zijn.</NullTips>
+			<WithTimeSegmentTips> met periode </WithTimeSegmentTips>
+			<UserNameCharTips>Alleen letters(a-z, A-Z), numeriek(0-9) en onderlijn(_) mag in Gebruikernaam voor komen.</UserNameCharTips>
+			<CoverStopMapbuttonTips>Stop tekenen</CoverStopMapbuttonTips>
+			<ClearRegionTips>Alle gebieden wissen?</ClearRegionTips>
+			<DeleteRegionFailedTips>Fout bij wissen</DeleteRegionFailedTips>
+			<DeleteRegionSuccessTips>Gewist</DeleteRegionSuccessTips>
+			<DevNameLengthTips>De naam mag max. 32 tekens lang zijn.</DevNameLengthTips>
+			<DevNameNullTips>De naam mag niet leeg zijn.</DevNameNullTips>
+			<DevNameWrongCharTips>Invalid characters: </DevNameWrongCharTips>
+			<jsPwdCheckMismatch>Wachtwoorden komen niet overeen.</jsPwdCheckMismatch>
+			<jsTimeSegmentErrorSegTips> Starttijd moet eerder zijn dan eindtijd.</jsTimeSegmentErrorSegTips>
+			<laCopyToChannel>Kopieer naar camera</laCopyToChannel>
+			<UserNameLengthTips> lengte mag maximaal 16 zijn.</UserNameLengthTips>
+			<OffLineTips>Offline</OffLineTips>
+			<OverlappedTips> kan niet overlappen.</OverlappedTips>
+			<LocalTips>Lokaal</LocalTips>
+			<DIPAddInvalidTips>Het eerste deel van het IP-adres moet een geheel getal zijn tussen 1 en 233.</DIPAddInvalidTips>
+			<tipsNormal>Normaal</tipsNormal>
+			<jsEmailAdd>E-mailadres</jsEmailAdd>
+			<jsUploadSuc>Uploaden geslaagd</jsUploadSuc>
+			<jsUploadFailed>Upload mislukt</jsUploadFailed>
+		</Js>
+		<General>
+			<geUserName tag="label;" length="150">Gebruikersnaam</geUserName>
+			<gePassword tag="label;" length="150">Wachtwoord</gePassword>
+			<laTimerange tag="label;" length="100">Periode</laTimerange>
+			<CoverStartMapbutton tag="input;" length="74">Tekengebied</CoverStartMapbutton>
+			<CoverTimebutton tag="input;" length="74">Alles wissen</CoverTimebutton>
+			<laServerAdd tag="label;" length="150">Serveradres</laServerAdd>
+			<laIpAddress>IP-adres</laIpAddress>
+			<aMoveDetection tag="a;" length="9999">Bewegingsdetectie</aMoveDetection>
+			<laVideoTabDivBtn tag="label;" length="670">Gebiedsinstellingen</laVideoTabDivBtn>
+			<trDisabled>Uitgezet</trDisabled>
+			<WholeDayRecordTypeOpt1 tag="option;" length="118">Normaal</WholeDayRecordTypeOpt1>
+			<WholeDayRecordTypeOpt3 tag="option;" length="118">Alarm</WholeDayRecordTypeOpt3>
+			<WholeDayRecordTypeOpt4 tag="option;" length="118">Beweging &amp; Alarm</WholeDayRecordTypeOpt4>
+			<WholeDayRecordTypeOpt5 tag="option;" length="118">Beweging &amp; Alarm</WholeDayRecordTypeOpt5>
+			<laEnableWholeDayRecord tag="label;" length="87">Hele dag</laEnableWholeDayRecord>
+			<laEnableWholeDayCapture tag="label;" length="87">Hele dag</laEnableWholeDayCapture>
+			<laSectionRecord tag="label;" length="578">Aanpassen</laSectionRecord>
+			<laSectionCapture tag="label;" length="578">Aanpassen</laSectionCapture>
+			<laWholeDayRecordType tag="label;" length="149">Recordtype</laWholeDayRecordType>
+			<laWholeDayCaptureType tag="label;" length="149">Vastlegtype</laWholeDayCaptureType>
+			<constantBitRateOpt23>Aanpassen</constantBitRateOpt23>
+			<Other>Overigen</Other>
+		</General>
+	</Common>
+	<ParamConfig>
+		<Page>
+		</Page>
+		<Js>
+			<Success1>Opslaan geslaagd.</Success1>
+			<Success2>Opslaan geslaagd. Opnieuw starten?</Success2>
+			<DeleteSuccTips>Bestand verwijderd.</DeleteSuccTips>
+			<Success4>Bestand verwijderd. Apparaat opnieuw starten?</Success4>
+			<Success5>Geslaagd! Start opnieuw op om nieuwe instellingen te activeren.</Success5>
+			<Error1>Fout! Instellingen invoeren mislukt.</Error1>
+			<Error2>Fout! Ophalen van gegevens mislukt.</Error2>
+			<Error3>Fout! Onjuiste XML-inhoud.</Error3>
+			<Error4>Fout! Onjuist XML-formaat.</Error4>
+			<Error5>Fout! Onjuiste handeling.</Error5>
+			<Error6>Fout in apparaat.</Error6>
+			<Error7>Apparaat is bezig</Error7>
+			<jsNetworkAbnormal>Netwerk abnormaal</jsNetworkAbnormal>
+			<Error10>Geen alarm-ingang/uitgangkanaal.</Error10>
+			<Error11>Fout! Gebruikerswachtwoord is onjuist.</Error11>
+			<Error12>Fout! Methodefout.</Error12>
+			<Error13>Fout! Instellingsfout.</Error13>
+			<Error14>Fout! Onjuiste URL of HTTP.</Error14>
+			<Error400>Fout! Netwerk is niet verbonden of wijkt af.</Error400>
+			<Error44> Fout! Instellingen mislukt</Error44>
+			<Error55>Stel camera in</Error55>
+			<Error66>Stel alarminstellingen in</Error66>
+			<Error77>De camera ondersteunt de functie niet.</Error77>
+			<Ask>Apparaat start opnieuw na het opslaan van de instellingen. Doorgaan?</Ask>
+			<Ask1>Deze gebruiker verwijderen?</Ask1>
+			<RestartTips>Eenheid opnieuw starten?</RestartTips>
+			<RestartSuccessTips>Opnieuw starten …</RestartSuccessTips>
+			<RestartFailedTips>Fout! Apparaat opnieuw starten mislukt.</RestartFailedTips>
+		</Js>
+	</ParamConfig>
+</ParamConfig>

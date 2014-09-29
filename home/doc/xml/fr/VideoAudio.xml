@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<VideoAudio>
+	<Common>
+		<Page>
+			<aVideo tag="a;" length="9999">Vidéo</aVideo>
+			<aAudio tag="a;" length="9999">Audio</aAudio>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<Video>
+		<Page>
+			<DVR>
+				<laSpanTitle>Réglages vidéo</laSpanTitle>
+				<laSaving>Enregistrement en cours...</laSaving>
+				<laEffectParam>Type d'entrée vidéo</laEffectParam>
+			</DVR>
+			<laInputResolution tag="label;" length="150">Résolution caméra</laInputResolution>
+			<StreamTypeInOpt1 tag="option;" length="198">Flux principal (normal)</StreamTypeInOpt1>
+			<StreamTypeInOpt2 tag="option;" length="198">Sous-flux binaire</StreamTypeInOpt2>
+			<StreamTypeInOpt3>Flux principal (anomalie)</StreamTypeInOpt3>
+			<laUseEventPram>Activer paramètres évènement</laUseEventPram>
+			<StreamTypeOpt1 tag="option;" length="198">Flux vidéo</StreamTypeOpt1>
+			<StreamTypeOpt2 tag="option;" length="198">Vidéo et audio</StreamTypeOpt2>
+			<laVideoQualityControlType tag="label;" length="150">Type de débit binaire</laVideoQualityControlType>
+			<videoQualityControlTypeOpt1 tag="option;" length="198">Variable</videoQualityControlTypeOpt1>
+			<videoQualityControlTypeOpt2 tag="option;" length="198">Constant</videoQualityControlTypeOpt2>
+			<lafixedQuality tag="label;" length="150">Qualité vidéo</lafixedQuality>
+			<fixedQualityOpt1 tag="option;" length="198">Supérieur</fixedQualityOpt1>
+			<fixedQualityOpt2 tag="option;" length="198">Plus haut</fixedQualityOpt2>
+			<fixedQualityOpt3 tag="option;" length="198">Moyen</fixedQualityOpt3>
+			<fixedQualityOpt4 tag="option;" length="198">Faible</fixedQualityOpt4>
+			<fixedQualityOpt5 tag="option;" length="198">Plus bas</fixedQualityOpt5>
+			<fixedQualityOpt6 tag="option;" length="198">Inférieur</fixedQualityOpt6>
+			<laVideoFrameRate tag="label;" length="150">Fréquence d'image</laVideoFrameRate>
+			<maxFrameRateOpt1>Fréquence d'image maxi</maxFrameRateOpt1>
+			<laconstantBitRate tag="label;" length="150">Débit binaire maxi </laconstantBitRate>
+			<laVideoCodeType tag="label;" length="150">Encodage vidéo</laVideoCodeType>
+			<laIntervalBPFrame tag="label;" length="150">Type d'image</laIntervalBPFrame>
+			<laCodecComplexity tag="label;" length="150">Profil</laCodecComplexity>
+			<optionQuality1>Profil de base</optionQuality1>
+			<optionQuality2>Profil principal</optionQuality2>
+			<optionQuality3>Profil élevé</optionQuality3>
+			<trVideoType>Type de vidéo</trVideoType>
+			<laEnableEventParam>Activer paramètres de compression d’événement</laEnableEventParam>
+		</Page>
+		<Js>
+			<jsCustonBitRate>Débit binaire personnalisé</jsCustonBitRate>
+		</Js>
+		<General>
+			<laIntervalFrameI tag="label;" length="150">Intervalle image I</laIntervalFrameI>
+			<laMulticast tag="label;" length="150">Adresse de multidiffusion</laMulticast>
+		</General>
+	</Video>
+	<Audio>
+		<Page>
+			<laAudioEncoding tag="label;" length="150">Encodage audio</laAudioEncoding>
+			<laAudioInput tag="label;" length="150">Entrée audio</laAudioInput>
+			<laAudioVolume>Volume</laAudioVolume>
+		</Page>
+		<Js>
+		</Js>
+	</Audio>
+</VideoAudio>

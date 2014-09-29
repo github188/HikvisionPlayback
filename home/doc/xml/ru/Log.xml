@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<Log>
+	<Page>
+		<title>Поиск по журналу</title>
+		<laLogSearch tag="label;" length="196">Поиск по журналу</laLogSearch>
+		<laSaveLog tag="label;" length="216">Сохранить журнал</laSaveLog>
+		<laLogTime tag="label;" length="131">Time</laLogTime>
+		<laLogMajorType tag="label;" length="109">Основ. тип</laLogMajorType>
+		<laLogMinorType tag="label;" length="109">Подтип</laLogMinorType>
+		<laLogRemoteUser tag="label;" length="109">Локальный/удаленный пользователь</laLogRemoteUser>
+		<laLogRemoteIP tag="label;" length="109">Удаленно: Хост IP</laLogRemoteIP>
+		<laLogLocalUser>Локальное имя пользователя</laLogLocalUser>
+		<ImgSearch>Поиск</ImgSearch>
+		<MajorTypeOptions>
+			<MajorTypeOpt1 tag="option;" length="198">Все типы</MajorTypeOpt1>
+			<MajorTypeOpt2 tag="option;" length="198">Тревога</MajorTypeOpt2>
+			<MajorTypeOpt4 tag="option;" length="198">Операция</MajorTypeOpt4>
+		</MajorTypeOptions>
+		<MinorTypeAlarm>
+			<MinorTypeAlarmOpt1>All:Все типы</MinorTypeAlarmOpt1>
+			<MinorTypeAlarmOpt2>alarmIn:Тревожный вход</MinorTypeAlarmOpt2>
+			<MinorTypeAlarmOpt3>alarmOut:Тревожный выход</MinorTypeAlarmOpt3>
+			<MinorTypeAlarmOpt4>motionStart:Начать детекцию движения</MinorTypeAlarmOpt4>
+			<MinorTypeAlarmOpt5>motionStop:Остановить детекцию движения</MinorTypeAlarmOpt5>
+			<MinorTypeAlarmOpt6>hideStart:Активировать детекцию заслона</MinorTypeAlarmOpt6>
+			<MinorTypeAlarmOpt7>hideStop:Остановить детекцию заслона</MinorTypeAlarmOpt7>
+			<MinorTypeAlarmOpt8>vcaStart:Активировать тревогу VCA</MinorTypeAlarmOpt8>
+			<MinorTypeAlarmOpt9>vcaStop:Тревога VCA</MinorTypeAlarmOpt9>
+			<pirStart>Запуск PIR сигнализации</pirStart>
+			<pirStop>Остановить PIR сигнализацию</pirStop>
+			<wlsensorStart>Запуск беспроводной сигнализации</wlsensorStart>
+			<wlsensorStop>Остановить беспроводную сигнализацию</wlsensorStop>
+			<callhelpStart>Запуск Аварийной сигнализации</callhelpStart>
+			<callhelpStop>Остановить Аварийную сигнализацию</callhelpStop>
+		</MinorTypeAlarm>
+		<MinorTypeException>
+			<MinorTypeExpOpt1>All:Все типы</MinorTypeExpOpt1>
+			<MinorTypeExpOpt2>videoLost:Потеря видеосигнала</MinorTypeExpOpt2>
+			<MinorTypeExpOpt3>illlegealAccess:Некорректная авторизация</MinorTypeExpOpt3>
+			<MinorTypeExpOpt4>hdFull:HDD переполнен</MinorTypeExpOpt4>
+			<MinorTypeExpOpt5>hdError:Ошибка HDD</MinorTypeExpOpt5>
+			<MinorTypeExpOpt6>netBroken:Сеть отключена</MinorTypeExpOpt6>
+			<MinorTypeExpOpt7>recordError:Ошибка записи/захвата изображения</MinorTypeExpOpt7>
+			<MinorTypeExpOpt8>ipConflict:Конфликт IP-адресов</MinorTypeExpOpt8>
+			<MinorTypeExpOpt9>videoException:Исключение сигнала видео</MinorTypeExpOpt9>
+			<MinorTypeExpOpt10>videoFormatMismatch:Несовпадение форматов видео</MinorTypeExpOpt10>
+			<MinorTypeExpOpt11>ipcDisconnect:IP камера отключена от сети</MinorTypeExpOpt11>
+			<MinorTypeExpOpt12>ipcIpConfilict:Конфликт IP-адреса IP камеры</MinorTypeExpOpt12>
+			<MinorTypeExpOpt13>viAndResMismatch:Несовпадение разрешений</MinorTypeExpOpt13>
+		</MinorTypeException>
+		<MinorTypeInformation>
+			<MinorTypeInforOpt1>All:Все типы</MinorTypeInforOpt1>
+			<MinorTypeInforOpt2>hddInfo:Информация HDD</MinorTypeInforOpt2>
+			<MinorTypeInforOpt3>startRec:Начать запись</MinorTypeInforOpt3>
+			<MinorTypeInforOpt4>stopRec:Остановить запись</MinorTypeInforOpt4>
+			<MinorTypeInforOpt5>delExpiredRec:Удалить просроченный файл видео</MinorTypeInforOpt5>
+			<MinorTypeInforOpt6>nasInfo:Информация NetHDD</MinorTypeInforOpt6>
+			<MinorTypeInforOpt7>smartInfo:S.M.A.R.T. Информация</MinorTypeInforOpt7>
+			<MinorTypeInforOpt8>startPic:Начать захват изображений</MinorTypeInforOpt8>
+			<MinorTypeInforOpt9>stopPic:Остановить захват изображений</MinorTypeInforOpt9>
+			<MinorTypeInforOpt10>raidInfo:RAID</MinorTypeInforOpt10>
+		</MinorTypeInformation>
+		<MinorTypeOperation>
+			<MinorTypeOperationOpt1>All:Все типы</MinorTypeOperationOpt1>
+			<MinorTypeOperationOpt2>devicePowerOn:Включение</MinorTypeOperationOpt2>
+			<MinorTypeOperationOpt3>stopAbnormal:Некорректное завершение работы</MinorTypeOperationOpt3>
+			<MinorTypeOperationOpt4>remotePowerOff:Удаленно: отключение</MinorTypeOperationOpt4>
+			<MinorTypeOperationOpt5>remotePowerRecycle:Удаленно: перезагрузка</MinorTypeOperationOpt5>
+			<MinorTypeOperationOpt6>remoteLogin:Удаленно: Авторизация</MinorTypeOperationOpt6>
+			<MinorTypeOperationOpt7>remoteLogout:Удаленно: завершение сеанса</MinorTypeOperationOpt7>
+			<MinorTypeOperationOpt8>remoteCfgPara:Удаленно: Конфигурация параметров</MinorTypeOperationOpt8>
+			<MinorTypeOperationOpt9>remoteUpgrade:Удаленно: Обновление</MinorTypeOperationOpt9>
+			<MinorTypeOperationOpt10>remoteStartRec:Удаленно: начать запись</MinorTypeOperationOpt10>
+			<MinorTypeOperationOpt11>remoteStopRec:Удаленно: Остановить запись</MinorTypeOperationOpt11>
+			<MinorTypeOperationOpt12>remoteCtrlPtz:Удаленно: PTZ управление</MinorTypeOperationOpt12>
+			<MinorTypeOperationOpt13>remoteLockFile:Удаленно: заблокировать файл</MinorTypeOperationOpt13>
+			<MinorTypeOperationOpt14>remoteUnlockFile:Удаленно: разблокировать файл</MinorTypeOperationOpt14>
+			<MinorTypeOperationOpt15>remoteManulAlarm:Удаленно: активация тревожного выхода</MinorTypeOperationOpt15>
+			<MinorTypeOperationOpt16>remoteFormatHd:Удаленно: инициализация HDD</MinorTypeOperationOpt16>
+			<MinorTypeOperationOpt17>remotePlayByFile:Удаленно: воспроизведение по файлам</MinorTypeOperationOpt17>
+			<MinorTypeOperationOpt18>remotePlayByTime:Удаленно: воспроизведение по времени</MinorTypeOperationOpt18>
+			<MinorTypeOperationOpt19>remoteDownloadCfgFile:Удаленно: экспорт файла конфигурации</MinorTypeOperationOpt19>
+			<MinorTypeOperationOpt20>remoteUploadCfgFile:Удаленно: импорт файла конфигурации</MinorTypeOperationOpt20>
+			<MinorTypeOperationOpt21>remoteDownloadRecFile:Удаленно: экспорт записи</MinorTypeOperationOpt21>
+			<MinorTypeOperationOpt22>remotePicBackUp:Удаленно: Экспорт изображения</MinorTypeOperationOpt22>
+			<MinorTypeOperationOpt23>remoteGetPara:Удаленно: получить параметры</MinorTypeOperationOpt23>
+			<MinorTypeOperationOpt24>remoteGetStatus:Удаленно: Получение статуса работы</MinorTypeOperationOpt24>
+			<MinorTypeOperationOpt25>remoteStartTransChan:Установка сквозной петли</MinorTypeOperationOpt25>
+			<MinorTypeOperationOpt26>remoteStopTransChan:закрытие прозрачного канала</MinorTypeOperationOpt26>
+			<MinorTypeOperationOpt27>startVoiceTalk:Начать двухстороннее аудио</MinorTypeOperationOpt27>
+			<MinorTypeOperationOpt28>stopVoiceTalk:Остановить друхстороннее аудио</MinorTypeOperationOpt28>
+			<MinorTypeOperationOpt29>remoteArm:Удаленно: активация тревожного режима</MinorTypeOperationOpt29>
+			<MinorTypeOperationOpt30>remoteDisArm:Удаленно: деактивация тревоги</MinorTypeOperationOpt30>
+			<MinorTypeOperationOpt31>remoteAddNas:Удаленно: добавить NetHDD</MinorTypeOperationOpt31>
+			<MinorTypeOperationOpt32>remoteDelNas:Удаленно: удаление NetHDD</MinorTypeOperationOpt32>
+			<MinorTypeOperationOpt33>remoteSetNas:Удаленно: параметры NetHDD</MinorTypeOperationOpt33>
+			<MinorTypeOperationOpt34>remoteStartPicRec:Удаленно: начать захват изображений</MinorTypeOperationOpt34>
+			<MinorTypeOperationOpt35>remoteStopPicRec:Удаленно:  остановить захват изображений</MinorTypeOperationOpt35>
+			<MinorTypeOperationOpt36>remoteTagOperation:Удаленно: управление ярлыками</MinorTypeOperationOpt36>
+			<MinorTypeOperationOpt37>remoteAddIpc:Удаленно: добавить IP камеру</MinorTypeOperationOpt37>
+			<MinorTypeOperationOpt38>remoteDelIpc:Удаленно: удаление IP камеры</MinorTypeOperationOpt38>
+			<MinorTypeOperationOpt39>remoteSetIpc:Удаленно: параметры IP камеры</MinorTypeOperationOpt39>
+			<MinorTypeOperationOpt40>remoteSetSnmp:Удаленно: параметры SNMP</MinorTypeOperationOpt40>
+			<DVR>
+				<DVRMinorTypeOperationOpt1>All:Все типы</DVRMinorTypeOperationOpt1>
+				<DVRMinorTypeOperationOpt2>devicePowerOn:Включение</DVRMinorTypeOperationOpt2>
+				<DVRMinorTypeOperationOpt3>devicePowerOff:Локально: отключение</DVRMinorTypeOperationOpt3>
+				<DVRMinorTypeOperationOpt4>deviceRecycle:Локально: перезагрузка</DVRMinorTypeOperationOpt4>
+				<DVRMinorTypeOperationOpt5>stopAbnormal:Локально: Некорректное завершение работы</DVRMinorTypeOperationOpt5>
+				<DVRMinorTypeOperationOpt6>localLogin:Локально: авторизация</DVRMinorTypeOperationOpt6>
+				<DVRMinorTypeOperationOpt7>localLogOut:Локально: завершение сеанса</DVRMinorTypeOperationOpt7>
+				<DVRMinorTypeOperationOpt8>localCfgPara:Локально: конфигурация параметров</DVRMinorTypeOperationOpt8>
+				<DVRMinorTypeOperationOpt9>localUpdate:Локально: Обновление</DVRMinorTypeOperationOpt9>
+				<DVRMinorTypeOperationOpt10>localStartRec:Локально: начать запись</DVRMinorTypeOperationOpt10>
+				<DVRMinorTypeOperationOpt11>localStopRec:Локально: остановить запись</DVRMinorTypeOperationOpt11>
+				<DVRMinorTypeOperationOpt12>localStartPicRec:Локально: начать захват изобр.</DVRMinorTypeOperationOpt12>
+				<DVRMinorTypeOperationOpt13>localStopPicRec:Локально: остановить захват изображений</DVRMinorTypeOperationOpt13>
+				<DVRMinorTypeOperationOpt14>localCtrlPtz:Локально: PTZ управление</DVRMinorTypeOperationOpt14>
+				<DVRMinorTypeOperationOpt15>localLockFile:Локально: заблокировать файл</DVRMinorTypeOperationOpt15>
+				<DVRMinorTypeOperationOpt16>localUnlockFile:Локально: разблокировать файл</DVRMinorTypeOperationOpt16>
+				<DVRMinorTypeOperationOpt17>localManulAlarm:Локально: активировать тревогу</DVRMinorTypeOperationOpt17>
+				<DVRMinorTypeOperationOpt18>localFormatDisk:Локально: инициализация HDD</DVRMinorTypeOperationOpt18>
+				<DVRMinorTypeOperationOpt19>localPlayByFile:Локально: воспроизведение по файлам</DVRMinorTypeOperationOpt19>
+				<DVRMinorTypeOperationOpt20>localPlayByTime:Локально: воспроизведение по времени</DVRMinorTypeOperationOpt20>
+				<DVRMinorTypeOperationOpt21>localDownloadCfgFile: Локально: экспорт файла конфигурации</DVRMinorTypeOperationOpt21>
+				<DVRMinorTypeOperationOpt22>localUploadCfgFile:Локально: импорт файла конфигурации</DVRMinorTypeOperationOpt22>
+				<DVRMinorTypeOperationOpt23>localDownloadRecFile:Локально: Экспорт записи</DVRMinorTypeOperationOpt23>
+				<DVRMinorTypeOperationOpt24>localDownloadPicFile:Локально: экспорт изображения</DVRMinorTypeOperationOpt24>
+				<DVRMinorTypeOperationOpt25>localAddNas:Локально: добавить NetHDD</DVRMinorTypeOperationOpt25>
+				<DVRMinorTypeOperationOpt26>localDelNas:Локально: Удалить NetHDD</DVRMinorTypeOperationOpt26>
+				<DVRMinorTypeOperationOpt27>localSetNas:Локально: конфигурация NetHDD</DVRMinorTypeOperationOpt27>
+				<DVRMinorTypeOperationOpt28>localResetPasswd:Локально: восстановить пароль администратора</DVRMinorTypeOperationOpt28>
+				<DVRMinorTypeOperationOpt29>localTagOperation:Локально: управление ярлыками</DVRMinorTypeOperationOpt29>
+				<DVRMinorTypeOperationOpt30>remotePowerOff:Удаленно: отключение</DVRMinorTypeOperationOpt30>
+				<DVRMinorTypeOperationOpt31>remotePowerRecycle:Удаленно: перезагрузка</DVRMinorTypeOperationOpt31>
+				<DVRMinorTypeOperationOpt32>remoteLogin:Удаленно: Авторизация</DVRMinorTypeOperationOpt32>
+				<DVRMinorTypeOperationOpt33>remoteLogout:Удаленно: завершение сеанса</DVRMinorTypeOperationOpt33>
+				<DVRMinorTypeOperationOpt34>remoteCfgPara:Удаленно: Конфигурация параметров</DVRMinorTypeOperationOpt34>
+				<DVRMinorTypeOperationOpt35>remoteUpgrade:Удаленно: Обновление</DVRMinorTypeOperationOpt35>
+				<DVRMinorTypeOperationOpt36>remoteStartRec:Удаленно: начать запись</DVRMinorTypeOperationOpt36>
+				<DVRMinorTypeOperationOpt37>remoteStopRec:Удаленно: Остановить запись</DVRMinorTypeOperationOpt37>
+				<DVRMinorTypeOperationOpt38>remoteCtrlPtz:Удаленно: PTZ управление</DVRMinorTypeOperationOpt38>
+				<DVRMinorTypeOperationOpt39>remoteLockFile:Удаленно: заблокировать файл</DVRMinorTypeOperationOpt39>
+				<DVRMinorTypeOperationOpt40>remoteUnlockFile:Удаленно: разблокировать файл</DVRMinorTypeOperationOpt40>
+				<DVRMinorTypeOperationOpt41>remoteManulAlarm:Удаленно: активация тревожного выхода</DVRMinorTypeOperationOpt41>
+				<DVRMinorTypeOperationOpt42>remoteFormatHd:Удаленно: инициализация HDD</DVRMinorTypeOperationOpt42>
+				<DVRMinorTypeOperationOpt43>remotePlayByFile:Удаленно: воспроизведение по файлам</DVRMinorTypeOperationOpt43>
+				<DVRMinorTypeOperationOpt44>remotePlayByTime:Удаленно: воспроизведение по времени</DVRMinorTypeOperationOpt44>
+				<DVRMinorTypeOperationOpt45>remoteDownloadCfgFile:Удаленно: экспорт файла конфигурации</DVRMinorTypeOperationOpt45>
+				<DVRMinorTypeOperationOpt46>remoteUploadCfgFile:Удаленно: импорт файла конфигурации</DVRMinorTypeOperationOpt46>
+				<DVRMinorTypeOperationOpt47>remoteDownloadRecFile:Удаленно: экспорт записи</DVRMinorTypeOperationOpt47>
+				<DVRMinorTypeOperationOpt48>remotePicBackUp:Удаленно: Экспорт изображения</DVRMinorTypeOperationOpt48>
+				<DVRMinorTypeOperationOpt49>remoteGetPara:Удаленно: получить параметры</DVRMinorTypeOperationOpt49>
+				<DVRMinorTypeOperationOpt50>remoteGetStatus:Удаленно: Получение статуса работы</DVRMinorTypeOperationOpt50>
+				<DVRMinorTypeOperationOpt51>remoteStartTransChan:Установка сквозной петли</DVRMinorTypeOperationOpt51>
+				<DVRMinorTypeOperationOpt52>remoteStopTransChan:закрытие прозрачного канала</DVRMinorTypeOperationOpt52>
+				<DVRMinorTypeOperationOpt53>startVoiceTalk:Начать двухстороннее аудио</DVRMinorTypeOperationOpt53>
+				<DVRMinorTypeOperationOpt54>stopVoiceTalk:Остановить друхстороннее аудио</DVRMinorTypeOperationOpt54>
+				<DVRMinorTypeOperationOpt55>remoteArm:Удаленно: активация тревожного режима</DVRMinorTypeOperationOpt55>
+				<DVRMinorTypeOperationOpt56>remoteDisArm:Удаленно: деактивация тревоги</DVRMinorTypeOperationOpt56>
+				<DVRMinorTypeOperationOpt57>remoteAddNas:Удаленно: добавить NetHDD</DVRMinorTypeOperationOpt57>
+				<DVRMinorTypeOperationOpt58>remoteDelNas:Удаленно: удаление NetHDD</DVRMinorTypeOperationOpt58>
+				<DVRMinorTypeOperationOpt59>remoteSetNas:Удаленно: параметры NetHDD</DVRMinorTypeOperationOpt59>
+				<DVRMinorTypeOperationOpt60>remoteStartPicRec:Удаленно: начать захват изображений</DVRMinorTypeOperationOpt60>
+				<DVRMinorTypeOperationOpt61>remoteStopPicRec:Удаленно:  остановить захват изображений</DVRMinorTypeOperationOpt61>
+				<DVRMinorTypeOperationOpt62>remoteTagOperation:Удаленно: управление ярлыками</DVRMinorTypeOperationOpt62>
+				<DVRMinorTypeOperationOpt63>localAddIpc:Локально: добавить IP камеру</DVRMinorTypeOperationOpt63>
+				<DVRMinorTypeOperationOpt64>localDelIpc:Локально: Удалить IP камеру</DVRMinorTypeOperationOpt64>
+				<DVRMinorTypeOperationOpt65>localSetIpc:Локально: параметры IP камеры</DVRMinorTypeOperationOpt65>
+				<DVRMinorTypeOperationOpt66>remoteAddIpc:Удаленно: добавить IP камеру</DVRMinorTypeOperationOpt66>
+				<DVRMinorTypeOperationOpt67>remoteDelIpc:Удаленно: удаление IP камеры</DVRMinorTypeOperationOpt67>
+				<DVRMinorTypeOperationOpt68>remoteSetIpc:Удаленно: параметры IP камеры</DVRMinorTypeOperationOpt68>
+				<DVRMinorTypeOperationOpt69>localSetSnmp:Локально: конфигурация SNMP</DVRMinorTypeOperationOpt69>
+				<DVRMinorTypeOperationOpt70>remoteSetSnmp:Удаленно: параметры SNMP</DVRMinorTypeOperationOpt70>
+			</DVR>
+		</MinorTypeOperation>
+	</Page>
+	<Js>
+		<szTips1>Поиск по журналу успешно завершен</szTips1>
+		<szTips3>Ошибка поиска.</szTips3>
+		<szTips5>Ошибка создания файла</szTips5>
+		<Alarm>Тревога</Alarm>
+		<motionStart>Начало детекции движения</motionStart>
+		<motionStop>Окончание детекции движения</motionStop>
+		<hideStart>вкл. Защиту тампером</hideStart>
+		<hideStop>выкл. Защиту тампером</hideStop>
+		<vcaStart>Тревога VCA</vcaStart>
+		<vcaStop>Остановить тревогу VCA</vcaStop>
+		<videoException>Исключение видео сигнала</videoException>
+		<videoFormatMismatch>Несоответствие стандарта видео выхода</videoFormatMismatch>
+		<viAndResMismatch>Несовпадение разрешений</viAndResMismatch>
+		<ipcDisconnect>IP камера отключена от сети</ipcDisconnect>
+		<ipcIpConfilict>Конфликт IP-адреса IP камеры</ipcIpConfilict>
+		<illlegealAccess>Неверный Логин</illlegealAccess>
+		<netBroken>Сеть отключена</netBroken>
+		<recordError>Исключение Записи/Захвата</recordError>
+		<ipConflict>Конфликт IP-адресов</ipConflict>
+		<Infomation>Информация</Infomation>
+		<hddInfo>Информация HDD</hddInfo>
+		<smartInfo>Информация S.M.A.R.T.</smartInfo>
+		<startRec>Начать запись</startRec>
+		<stopRec>Остановить запись</stopRec>
+		<delExpiredRec>Удалить просроченный файл видео</delExpiredRec>
+		<nasInfo>Информация о сетевом диске</nasInfo>
+		<startPic>Начать захват</startPic>
+		<stopPic>Остановить захват</stopPic>
+		<raidInfo>RAID</raidInfo>
+		<Operation>Операция</Operation>
+		<devicePowerOn>Включение </devicePowerOn>
+		<devicePowerOff>Локально: Отключение</devicePowerOff>
+		<deviceRecycle>Локально: перезагрузка</deviceRecycle>
+		<stopAbnormal>Локально: Некорректное завершение работы</stopAbnormal>
+		<localLogin>Локально: авторизация</localLogin>
+		<localLogOut>Локально: завершение сеанса</localLogOut>
+		<localCfgPara>Локально: конфигурация параметров</localCfgPara>
+		<localUpdate>Локально: Обновление</localUpdate>
+		<localStartRec>Локально: начать запись</localStartRec>
+		<localStopRec>Локально: остановить запись</localStopRec>
+		<localStartPicRec>Локально: начать захват изобр.</localStartPicRec>
+		<localStopPicRec>Локально: остановить захват изображений</localStopPicRec>
+		<localCtrlPtz>Локально: PTZ управление</localCtrlPtz>
+		<localLockFile>Локально: заблокировать файл</localLockFile>
+		<localUnlockFile>Локально: разблокировать файл</localUnlockFile>
+		<localManulAlarm>Локально: активировать тревогу</localManulAlarm>
+		<localFormatDisk>Локально: инициализация HDD</localFormatDisk>
+		<localAddIpc>Локально: добавить IP камеру</localAddIpc>
+		<localDelIpc>Локально: Удалить IP камеру</localDelIpc>
+		<localSetIpc>Локально: параметры IP камеры</localSetIpc>
+		<localPlayByFile>Локально: воспроизведение по файлам</localPlayByFile>
+		<localPlayByTime>Локально: воспроизведение по времени</localPlayByTime>
+		<localDownloadCfgFile>Локально: экспорт файла конфигурации</localDownloadCfgFile>
+		<localUploadCfgFile>Локально: импорт файла конфигурации</localUploadCfgFile>
+		<localDownloadRecFile>Локально: Экспорт записи</localDownloadRecFile>
+		<localDownloadPicFile>Локально: экспорт изображения</localDownloadPicFile>
+		<localAddNas>Локально: добавить NetHDD</localAddNas>
+		<localDelNas>Локально: Удалить NetHDD</localDelNas>
+		<localSetNas>Локально: установить NetHDD</localSetNas>
+		<localSetSnmp>Локально: конфигурация SNMP</localSetSnmp>
+		<localResetPasswd>Локально: восстановить пароль администратора</localResetPasswd>
+		<localTagOperation>Локально: управление ярлыками</localTagOperation>
+		<remotePowerOff>Удаленно: Выключеие</remotePowerOff>
+		<remotePowerRecycle>Удаленно: Перезагрузка</remotePowerRecycle>
+		<remoteLogin>Удаленно: Логин</remoteLogin>
+		<remoteLogout>Удаленно: Выход</remoteLogout>
+		<remoteCfgPara>Удаленно: Настройка параметров</remoteCfgPara>
+		<remoteUpgrade>Удаленно: Обновление</remoteUpgrade>
+		<remoteStartRec>Удаленно: Начать запись</remoteStartRec>
+		<remoteStopRec>Удаленно: Остановка записи</remoteStopRec>
+		<remoteCtrlPtz>Удаленно: Управление PTZ</remoteCtrlPtz>
+		<remoteLockFile>Удаленно: Добавление IP камеры</remoteLockFile>
+		<remoteUnlockFile>Удаленно: Зразблокировать файл</remoteUnlockFile>
+		<remoteManulAlarm>Удаленно: Переключатель выхода тревоги</remoteManulAlarm>
+		<remoteFormatHd>Удаленно: Форматирование диска</remoteFormatHd>
+		<remoteAddIpc>Удаленно: Добавление IP камеры</remoteAddIpc>
+		<remoteDelIpc>Удаленно: Удалить IP камеру</remoteDelIpc>
+		<remoteSetIpc>Удаленно: Настройки IP камеры</remoteSetIpc>
+		<remotePlayByFile>Удаленно: Воспроизведение по файлам</remotePlayByFile>
+		<remotePlayByTime>Удаленно: Воспроизведение по времени</remotePlayByTime>
+		<remoteDownloadCfgFile>Удаленно: Сохранить файл конфигурации</remoteDownloadCfgFile>
+		<remoteUploadCfgFile>Удаленно: Загрузить файл конфигурации</remoteUploadCfgFile>
+		<remoteDownloadRecFile>Удаленно: Экспорт видеозаписи</remoteDownloadRecFile>
+		<remoteGetPara>Удаленно: Получить параметры</remoteGetPara>
+		<remoteGetStatus>Удаленно: Получить рабочий статус</remoteGetStatus>
+		<remoteStartTransChan>Установка сквозной петли</remoteStartTransChan>
+		<remoteStopTransChan>закрытие прозрачного канала</remoteStopTransChan>
+		<startVoiceTalk>Начало двустороннего аудио</startVoiceTalk>
+		<stopVoiceTalk>Окончание двустороннего аудио</stopVoiceTalk>
+		<remoteArm>Удаленно: Активация тревожного режима</remoteArm>
+		<remoteDisArm>Удаленно: Отключение тревоги</remoteDisArm>
+		<remoteAddNas>Удаленно: Добавление сетевого диска</remoteAddNas>
+		<remoteDelNas>Удаленно: Удалить сетевой диск</remoteDelNas>
+		<remoteSetNas>Удаленно: Настройки сетевого диска</remoteSetNas>
+		<remotePicBackUp>Удаленно: Экспорт изображения</remotePicBackUp>
+		<remoteStartPicRec>Удаленно: Захват картинки</remoteStartPicRec>
+		<remoteStopPicRec>Удаленно: Остановка захвата картинки</remoteStopPicRec>
+		<remoteSetSnmp>Удаленно: Настроить SNMP</remoteSetSnmp>
+		<remoteTagOperation>Удаленно: Ярлык операции</remoteTagOperation>
+		<ExportFailedTips>Ошибка экспорта журнала</ExportFailedTips>
+	</Js>
+</Log>

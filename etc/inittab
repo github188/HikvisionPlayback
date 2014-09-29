@@ -1,0 +1,8 @@
+::wait:/bin/mount -t proc proc /proc
+::wait:/bin/mount -t sysfs none /sys
+::wait:/bin/mount -t ramfs ramfs /home
+::wait:/bin/inetd &
+#::wait:-/bin/sh
+::respawn:-/bin/sh
+::restart:/bin/init
+

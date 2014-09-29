@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Wiedergabe</title>
+		<SlowlyForward>Langsam vorwärts</SlowlyForward>
+		<FastForward>Schnell vor</FastForward>
+		<SingleFrame>Einzelbild</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Status</laCurrentSpeed>
+		<laGotoTime>Gehe zu</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Wiedergabezeit einstellen</laPlaybackTimeLocalizer>
+		<imgGotoTime>Wiedergabe nach Zeitleiste</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Befehl</RecordType1>
+		<RecordType2 tag="label;" length="704">Zeitplan</RecordType2>
+		<RecordType3 tag="label;" length="704">Alarm</RecordType3>
+		<RecordType4 tag="label;" length="704">Handbuch</RecordType4>
+		<PictureDownload tag="input;" length="32">Bilder herunterladen</PictureDownload>
+		<RecordDownload tag="input;" length="32">Aufzeichnung herunterladen</RecordDownload>
+		<DVR>
+			<stopAll>Alle Wiedergaben stoppen</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Wiedergabepause fehlgeschlagen</pausefailed>
+		<resumefailed>Wiederherstellen der Wiedergabe fehlgeschlagen.</resumefailed>
+		<stoprecord>Beschneiden stoppen</stoprecord>
+		<startRecord>Beschneiden starten</startRecord>
+		<stoprecordfailed>Beschneiden-stoppen fehlgeschlagen.</stoprecordfailed>
+		<startplayfailed>Wiedergabe fehlgeschlagen</startplayfailed>
+		<stopplayfailed>Wiedergabe-stoppen fehlgeschlagen.</stopplayfailed>
+		<jssingleframe>Wiedergabe nach Bild</jssingleframe>
+		<jssingleframefailed>Wiedergabe nach Bild fehlgeschlagen.</jssingleframefailed>
+		<stopCurrentWndPlay>Stoppen Sie bitte die Wiedergabe des aktuellen Fensters, bevor Sie fortfahren.</stopCurrentWndPlay>
+		<szTips1>Videodatei-Suche fehlgeschlagen.</szTips1>
+		<szTips3>Keine Aufzeichnung vorhanden.</szTips3>
+		<jsSearchFile>Suchen Sie bitte zuerst die Datei.</jsSearchFile>
+		<jsSpeed>Geschwindigkeit</jsSpeed>
+		<jsPauseAlready>Angehalten</jsPauseAlready>
+		<jsPause>Pause</jsPause>
+		<jsResume>Wiederherstellen</jsResume>
+		<jsPlayBackError>Wiedergabe unnormal.</jsPlayBackError>
+		<jsRecordError>Beschneiden fehlgeschlagen.</jsRecordError>
+		<jsPlaybackStop> Wiedergabe beendet.</jsPlaybackStop>
+		<jsPlayStopAbnormal> Wiedergabe unnormal beendet.</jsPlayStopAbnormal>
+		<jsDownload>Suchen Sie bitte die herunterzuladende Datei.</jsDownload>
+		<jsNotSupportDown>Gerät unterstützt keinen Download.</jsNotSupportDown>
+		<jsDownloadWnd>Das Download-Fenster wird geöffnet.</jsDownloadWnd>
+		<jsClipSucc>Beschneiden erfolgreich.</jsClipSucc>
+		<jsZoomIn>Vergrößern</jsZoomIn>
+		<jsZoomOut>Verkleinern</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Wählen Sie bitte einen Kanal.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Wiedergeben</gePlay>
+	</General>
+</Playback>

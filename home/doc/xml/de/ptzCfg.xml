@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<PTZCfg>
+	<Common>
+		<Page>
+			<aPtzBasic tag="a;" length="9999">Grundlagen</aPtzBasic>
+			<aPtzLimit tag="a;" length="9999">Begrenzung</aPtzLimit>
+			<aPtzHomePos tag="a;" length="9999">Anfangsposition</aPtzHomePos>
+			<aPtzParkAction tag="a;" length="9999">Parkaktion</aPtzParkAction>
+			<aPtzPrivacyMask tag="a;" length="9999">Privatzonen-Maskierung</aPtzPrivacyMask>
+			<aPtzTimeTasks tag="a;" length="9999">Geplante Aufgaben</aPtzTimeTasks>
+			<aPtzClearCfg tag="a;" length="9999">Konfiguration löschen</aPtzClearCfg>
+			<btnGoto tag="input;" length="80">Gehe zu</btnGoto>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<autoScan tag="option;" length="200">Auto-Scan</autoScan>
+			<frameScan tag="option;" length="200">Frame-Scan</frameScan>
+			<randomScan tag="option;" length="200">Zufalls-Scan</randomScan>
+			<patrolScan tag="option;" length="200">Patrouille</patrolScan>
+			<panoramaScan tag="option;" length="200">Panorama-Scan</panoramaScan>
+			<tiltScan>Neigungs-Scan</tiltScan>
+			<periodReboot>Dome-Neustart</periodReboot>
+			<periodAdjust>Dome-Anpassung</periodAdjust>
+			<auxOutput>AUX-Ausgang</auxOutput>
+			<autoTrack>Automatisch verfolgen</autoTrack>
+		</General>
+	</Common>
+	<PtzBasic>
+		<Page>
+			<laPtzBasic tag="label;">Grundparameter</laPtzBasic>
+			<laProportionZoom tag="label;">Proportionalschwenk aktivieren</laProportionZoom>
+			<laImageFreeze tag="label;">Preset-Freezing akt.</laImageFreeze>
+			<laPresetSpeed tag="label;" length="150">Preset-Geschw.</laPresetSpeed>
+			<laControlSpeed tag="label;" length="150">Tastatur-Geschw.</laControlSpeed>
+			<laAutoScanSpeed tag="label;" length="150">Auto-Scan-Geschw.</laAutoScanSpeed>
+			<laPtzOSDDis tag="label;">PTZ-OSD</laPtzOSDDis>
+			<laZoomLabel tag="label;" length="150">Zoom-Status</laZoomLabel>
+			<laAzimuth tag="label;" length="150">PT-Status</laAzimuth>
+			<laPresetLable tag="label;" length="150">Preset-Status</laPresetLable>
+			<speedLevelOpt1 tag="option;" length="200">2 s</speedLevelOpt1>
+			<speedLevelOpt2 tag="option;" length="200">5 s</speedLevelOpt2>
+			<speedLevelOpt3 tag="option;" length="200">10 s</speedLevelOpt3>
+			<speedLevelOpt4 tag="option;" length="200">Immer schließen</speedLevelOpt4>
+			<speedLevelOpt5 tag="option;" length="200">Immer öffnen</speedLevelOpt5>
+			<laSavePowerOff tag="label;">Abschalt-Speicher</laSavePowerOff>
+			<laSavePowerType tag="label;" length="150">Fortsetzungszeit konf.</laSavePowerType>
+			<savePowerTypeOpt2 tag="option;" length="200">30 s</savePowerTypeOpt2>
+			<savePowerTypeOpt3 tag="option;" length="200">60 s</savePowerTypeOpt3>
+			<savePowerTypeOpt4 tag="option;" length="200">300 s</savePowerTypeOpt4>
+			<savePowerTypeOpt5 tag="option;" length="200">600 s</savePowerTypeOpt5>
+		</Page>
+		<Js>
+		</Js>
+	</PtzBasic>
+	<PtzLimiteds>
+		<Page>
+			<laEnableLimit tag="label;" length="134">Begrenzung akt.</laEnableLimit>
+			<laLimitType tag="label;" length="150">Begrenzungstyp</laLimitType>
+			<limitTypeOpt1 tag="option;" length="198">Man. Stopps</limitTypeOpt1>
+			<limitTypeOpt2 tag="option;" length="198">Suchlauf-Stopps</limitTypeOpt2>
+			<laLimitStatus tag="label;" length="150">Typstatus</laLimitStatus>
+		</Page>
+		<Js>
+			<jsLimited>Begrenzt</jsLimited>
+			<jsNoLimited>Unbegrenzt</jsNoLimited>
+		</Js>
+	</PtzLimiteds>
+	<ParkAction>
+		<Page>
+			<laEnabledPark tag="label;">Parkaktion aktivieren </laEnabledPark>
+			<laParkTime tag="label;" length="150">Parkdauer</laParkTime>
+			<laActionType tag="label;" length="150">Aktionstyp</laActionType>
+			<laActionNum tag="label;" length="150">Aktionstyp-ID</laActionNum>
+		</Page>
+		<Js>
+		</Js>
+	</ParkAction>
+	<PrivacyMask>
+		<Page>
+			<laEnablePrivacyMask tag="label;">Privatzonen-Maskierung aktivieren</laEnablePrivacyMask>
+			<laPrivacyMaskList tag="label;">Privatzonen-Maskierungsliste</laPrivacyMaskList>
+			<laPrivacyMaskTitle tag="label;" length="246">Name</laPrivacyMaskTitle>
+			<gray tag="option;">grau</gray>
+			<red tag="option;">rot</red>
+			<green tag="option;">grün</green>
+			<blue tag="option;">blau</blue>
+			<orange tag="option;">orange</orange>
+			<yellow tag="option;">gelb</yellow>
+			<mosaic tag="option;">Mosaik</mosaic>
+		</Page>
+		<Js>
+			<tipsSelectPrimary>Zum Aufrufen dieser Privatzone hier klicken</tipsSelectPrimary>
+		</Js>
+	</PrivacyMask>
+	<TimeTasks>
+		<Page>
+			<laEnabledTimeTasks tag="label;">Geplante Aufgabe aktivieren</laEnabledTimeTasks>
+			<laTimeTask tag="label;" length="150">Parkdauer</laTimeTask>
+			<laTimingTasks tag="label;" length="150">Zeitplanaufgaben</laTimingTasks>
+			<btnEditingTasks tag="input;" length="80">Aufg. bearb.</btnEditingTasks>
+			<laTaskCaption tag="label;">Das Upgrade dauert 5 bis 10 Minuten. Gerät währenddessen bitte nicht ausschalten. Es wird anschließend automatisch neu gestartet.</laTaskCaption>
+			<trTaskType>Aufgabentyp</trTaskType>
+			<trTaskNum>Aufgabentyp-ID</trTaskNum>
+		</Page>
+		<Js>
+		</Js>
+	</TimeTasks>
+	<ClearCfg>
+		<Page>
+			<laAllPreset tag="label;" length="654">Alle Voreinstellungen löschen</laAllPreset>
+			<laAllPatrol tag="label;" length="654">Alle Patrouillen löschen</laAllPatrol>
+			<laAllPattern tag="label;" length="654">Alle Muster deaktivieren</laAllPattern>
+			<laAllMasks tag="label;" length="654">Alle Privatzonen-Maskierungen löschen</laAllMasks>
+			<laAllLimit tag="label;" length="654">Alle PTZ-begrenzten löschen</laAllLimit>
+			<laAllTasks tag="label;" length="654">Alle geplanten Aufgaben löschen</laAllTasks>
+			<laAllPark>Alle Parkaktionen löschen</laAllPark>
+		</Page>
+		<Js>
+		</Js>
+	</ClearCfg>
+</PTZCfg>

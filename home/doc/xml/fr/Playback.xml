@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Lecture</title>
+		<SlowlyForward>Avance lente</SlowlyForward>
+		<FastForward>Avance rapide</FastForward>
+		<SingleFrame>Image simple</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Etat</laCurrentSpeed>
+		<laGotoTime>Démarrer</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Régler l'heure de lecture</laPlaybackTimeLocalizer>
+		<imgGotoTime>Lecture par barre temporelle</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Commande</RecordType1>
+		<RecordType2 tag="label;" length="704">Programme</RecordType2>
+		<RecordType3 tag="label;" length="704">Alarme</RecordType3>
+		<RecordType4 tag="label;" length="704">Manuel</RecordType4>
+		<PictureDownload tag="input;" length="32">Télécharger images</PictureDownload>
+		<RecordDownload tag="input;" length="32">Télécharger enregistrement</RecordDownload>
+		<DVR>
+			<stopAll>Arrêter tous les opérations de lecture</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Echec de mise en pause</pausefailed>
+		<resumefailed>Echec de restauration de la lecture</resumefailed>
+		<stoprecord>Arrêter découpage</stoprecord>
+		<startRecord>Démarrer le découpage</startRecord>
+		<stoprecordfailed>Echec arrêt découpage</stoprecordfailed>
+		<startplayfailed>Echec de lecture</startplayfailed>
+		<stopplayfailed>Echec arrêt lecture</stopplayfailed>
+		<jssingleframe>Lecture par image</jssingleframe>
+		<jssingleframefailed>Echec de lecture par image.</jssingleframefailed>
+		<stopCurrentWndPlay>Arrêtez la lecture dans la fenêtre active avant de continuer.</stopCurrentWndPlay>
+		<szTips1>Echec de recherche de fichiers vidéo.</szTips1>
+		<szTips3>Fichier d'enregistrement absent.</szTips3>
+		<jsSearchFile>Recherchez d'abord le fichier.</jsSearchFile>
+		<jsSpeed>Vitesse</jsSpeed>
+		<jsPauseAlready>En pause</jsPauseAlready>
+		<jsPause>Pause</jsPause>
+		<jsResume>Restaurer</jsResume>
+		<jsPlayBackError>Anomalie de lecture.</jsPlayBackError>
+		<jsRecordError>Echec du découpage.</jsRecordError>
+		<jsPlaybackStop> Lecture terminée</jsPlaybackStop>
+		<jsPlayStopAbnormal> lecture terminée anormalement.</jsPlayStopAbnormal>
+		<jsDownload>Recherchez d'abord le fichier à télécharger.</jsDownload>
+		<jsNotSupportDown>Appareil n'acceptant pas les données téléchargées.</jsNotSupportDown>
+		<jsDownloadWnd>La fenêtre de téléchargement est ouverte.</jsDownloadWnd>
+		<jsClipSucc>Découpage effectué.</jsClipSucc>
+		<jsZoomIn>Zoom avant</jsZoomIn>
+		<jsZoomOut>Zoom arrière</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Sélectionnez un canal.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Lire</gePlay>
+	</General>
+</Playback>

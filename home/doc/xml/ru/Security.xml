@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Security>
+	<Common>
+		<Page>
+			<aUser tag="a;" length="9999">Пользователь</aUser>
+			<aRTSPAuth tag="a;" length="9999">Авторизация RTSP</aRTSPAuth>
+			<aAnonymousVisit>Анонимный запрос</aAnonymousVisit>
+			<aIPFilter>Фильтр IP адресов</aIPFilter>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<User>
+		<Page>
+			<DVR>
+				<laSpanTitle>Информ. о польз.</laSpanTitle>
+				<laIpBind>Привязка IP адреса</laIpBind>
+				<laLocalColonConfig tag="label;" length="125">Локально: конфигурация</laLocalColonConfig>
+				<laLocalUpgrade>Локально: Обновление/Форматирование</laLocalUpgrade>
+				<laLocalReboot>Локально: отключение/перезагрузка</laLocalReboot>
+				<laLocalSetParam>Локально: параметры</laLocalSetParam>
+				<laLocalLog>Локально: поиск по журналу</laLocalLog>
+				<laLocalIPCCfg>Локально: параметры IP камеры</laLocalIPCCfg>
+				<laLocalPlayback>Локал. воспр.</laLocalPlayback>
+				<laLocalManualRecord>Локально: ручная операция</laLocalManualRecord>
+				<laLocalPTZControl>Лок. PTZ упр.</laLocalPTZControl>
+				<laLocalBackup>Локально: экспорт видео</laLocalBackup>
+				<laRemoteConfig>Удал. конфиг.</laRemoteConfig>
+			</DVR>
+			<laUserType tag="label;" length="150">Level</laUserType>
+			<PriorityOpt1 tag="label;" length="411">Администратор</PriorityOpt1>
+			<PriorityOpt2 tag="option;" length="198">Оператор</PriorityOpt2>
+			<PriorityOpt3 tag="option;" length="198">Пользователь</PriorityOpt3>
+			<laBasicPermissionBtn tag="label;" length="399">Основные права</laBasicPermissionBtn>
+			<laChanPermissionBtn tag="label;" length="148">Управление камерой</laChanPermissionBtn>
+			<laRemoteSetParam tag="label;" length="370">Удаленно: Настройка параметров</laRemoteSetParam>
+			<laRemoteLog tag="label;" length="370">Поис зап/сос</laRemoteLog>
+			<laRemoteUpgrade tag="label;" length="370">Удаленно: Обновление / Форматирование</laRemoteUpgrade>
+			<laRemoteTalk tag="label;" length="370">Удаленно: Двухсторонний звук</laRemoteTalk>
+			<laRemoteReboot tag="label;" length="370">Удаленно: Выключеие / Перезагрузка</laRemoteReboot>
+			<laRemoteAlarm tag="label;" length="370">Удаленно: Уведомить центр наблюдения/трев. выход</laRemoteAlarm>
+			<laRemoteCtrl tag="label;" length="370">Удаленно: Настройки видеовыхода</laRemoteCtrl>
+			<laRemoteRS tag="label;" length="370">Удаленно: Настройки последовательного порта</laRemoteRS>
+			<laRemotePreview tag="label;" length="119">Удаленно: Трансляция</laRemotePreview>
+			<laRemoteManualRecord tag="label;" length="119">Удаленно: Ручн запись</laRemoteManualRecord>
+			<laRemotePTZControl tag="label;" length="119">Удаленно: Упр PTZ</laRemotePTZControl>
+			<laRemotePlayback tag="label;" length="122">Удаленно: Воспр</laRemotePlayback>
+			<laPermissionConfig>Параметры доступа</laPermissionConfig>
+		</Page>
+		<Js>
+			<UserAddTips>Добавить пользователя</UserAddTips>
+			<UserExistTips>Имя пользователя уже существует</UserExistTips>
+			<jsPasswordDifferenceTips>Пароли не совпадают</jsPasswordDifferenceTips>
+			<WrongCharTips> не может содержать</WrongCharTips>
+		</Js>
+		<General>
+			<laUserModify tag="label;" length="550">Изменить пользователя</laUserModify>
+		</General>
+	</User>
+	<RTSPAuth>
+		<Page>
+		</Page>
+		<Js>
+		</Js>
+	</RTSPAuth>
+	<IPFilter>
+		<Page>
+			<laEnableIPFilter>Включить фильтр IP адресов</laEnableIPFilter>
+			<laIPFilterType>Тип фильтра IP адресов</laIPFilterType>
+			<optAllow>Разрешено</optAllow>
+			<optDeny>Запрещено</optDeny>
+			<laAddIPAddress>Добавить IP-адрес</laAddIPAddress>
+			<laModifyIPAddress>Изменить IP-адрес</laModifyIPAddress>
+		</Page>
+		<Js>
+		</Js>
+	</IPFilter>
+</Security>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Ρυθμ. αργ.</laSpanTitle>
+		<laPrompt>Οι περίοδοι αργιών δεν μπορούν να επικαλύπτονται.</laPrompt>
+		<laHolidayName>Όνομα αργ.</laHolidayName>
+		<laHolidayFun>Ενεργ. αργ</laHolidayFun>
+		<HolidayTypeOpt1>Κατά ημερομηνία</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Κατά εβδομάδα</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Κατά μήνα</HolidayTypeOpt3>
+		<laStartDate>Ημ/νία έναρξ</laStartDate>
+		<laEndDate>Ημ/νία λήξ</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Επεξ. αργ</EditHolidayTips>
+		<LastTips>Τελευταίο</LastTips>
+		<DayTips>Ημερομηνία</DayTips>
+		<MonthTips>Μήνας</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

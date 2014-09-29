@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Main>
+	<Common>
+		<Page>
+			<DVR>
+				<paStartAllView>全部开始预览</paStartAllView>
+				<paStartAllRecord>全部开始录像</paStartAllRecord>
+			</DVR>
+			<laPlugin>请点击此处下载插件，安装时请关闭浏览器</laPlugin>
+			<laNotWin32Plugin>未检测到插件</laNotWin32Plugin>
+			<streamTypeOpt1 tag="label;option;" length="104">主码流</streamTypeOpt1>
+			<streamTypeOpt2 tag="label;option;" length="104">子码流</streamTypeOpt2>
+			<StreamTypeInOpt4 tag="label;option;" length="104">第三码流</StreamTypeInOpt4>
+			<windowProportionOpt1 tag="label;option;" length="104">原始尺寸</windowProportionOpt1>
+			<windowAuto tag="label;option;" length="104">自适应</windowAuto>
+			<laStreamType tag="label;" length="90">码流类型</laStreamType>
+			<lawindowProportion tag="label;" length="90">图像尺寸</lawindowProportion>
+			<laPlayParams tag="label;" length="48">播放参数</laPlayParams>
+			<opensound>打开声音</opensound>
+			<closesound>关闭声音</closesound>
+			<volume>音量</volume>
+			<stop>停止</stop>
+			<laSearch tag="label;" length="200">查找</laSearch>
+			<DownloadBtn tag="input;" length="32">下载</DownloadBtn>
+			<laChannelNum tag="label;" length="148">通道个数</laChannelNum>
+			<laChannelNo tag="label;" length="109">通道号</laChannelNo>
+			<laStartTime tag="label;" length="140">开始时间</laStartTime>
+			<laEndTime tag="label;" length="140">结束时间</laEndTime>
+			<laHue tag="label;" length="122">色度 </laHue>
+			<SetPreset>设置</SetPreset>
+			<CleanPreset>清除</CleanPreset>
+			<laSerialNumber tag="label;" length="67">序号</laSerialNumber>
+			<Pattern>花样扫描</Pattern>
+			<laWirelessAlarm>无线报警</laWirelessAlarm>
+			<laPIRAlarm>PIR报警</laPIRAlarm>
+			<OptCallHelp>呼救报警</OptCallHelp>
+			<laSharpness tag="label;" length="120">锐度</laSharpness>
+			<laEnableZoom>启用电子放大</laEnableZoom>
+			<laDisableZoom>停止电子放大</laDisableZoom>
+		</Page>
+		<Js>
+			<jsUpdatePlugin>插件检测到新版本，是否更新？</jsUpdatePlugin>
+			<jsUpdateNotWin32>插件检测到新版本，请与供应商联系更新。</jsUpdateNotWin32>
+			<exit>是否注销</exit>
+			<jsPreview>预览</jsPreview>
+			<jsRecord>录像</jsRecord>
+			<previewfailed>预览失败</previewfailed>
+			<capturefailed>抓图失败</capturefailed>
+			<stopAllRecord>全部停止录像</stopAllRecord>
+			<FreeSpaceTips>剩余空间不足</FreeSpaceTips>
+			<jsCreateFileFailed>创建文件失败</jsCreateFileFailed>
+			<jsNoOperationRight>操作无权限</jsNoOperationRight>
+			<jsOpenSoundFailed>开启声音失败</jsOpenSoundFailed>
+			<jsCaptureSucc>抓图成功</jsCaptureSucc>
+			<TotalTips>共 </TotalTips>
+			<TiaoTips> 条</TiaoTips>
+			<jsFirstPageTips>首页</jsFirstPageTips>
+			<jsLastPageTips>末页</jsLastPageTips>
+			<jsPrevPageTips>上一页</jsPrevPageTips>
+			<jsNextPageTips>下一页</jsNextPageTips>
+			<tipsTooLong>文件路径过长，请重新选择</tipsTooLong>
+			<jsVideoDefault>是否确认恢复默认</jsVideoDefault>
+			<jsTrue>是</jsTrue>
+			<jsFalse>否</jsFalse>
+			<jsTimeSegmentErrorTips>开始时间不能大于结束时间！</jsTimeSegmentErrorTips>
+			<ptzSpeed>云台速度</ptzSpeed>
+			<videoLost>视频信号丢失</videoLost>
+			<ExcutePreset>调用</ExcutePreset>
+			<laZoom>调焦</laZoom>
+			<laFocus>聚焦</laFocus>
+			<laIris>光圈</laIris>
+			<CurrentAddTips>目前最多可添加</CurrentAddTips>
+		</Js>
+		<General>
+			<capture>抓图</capture>
+			<laOK tag="input;label;" length="88">确定</laOK>
+			<laCancel tag="input;label;" length="88">取消</laCancel>
+			<hdFull tag="option;" length="198">硬盘满</hdFull>
+			<hdError tag="option;" length="198">硬盘错误</hdError>
+			<Exception>异常</Exception>
+			<laBrightness tag="label;" length="122">亮度</laBrightness>
+			<laContrast tag="label;" length="122">对比度</laContrast>
+			<laSaturation tag="label;" length="122">饱和度</laSaturation>
+			<geDefault>恢复默认值</geDefault>
+			<alarmIn>报警输入</alarmIn>
+			<alarmOut>报警输出</alarmOut>
+			<laLensInit tag="label;" length="609">镜头初始化</laLensInit>
+			<laPreset tag="label;" length="75">预置点</laPreset>
+			<SearchingTips>正在查询……</SearchingTips>
+			<laSaveBtn>保存</laSaveBtn>
+			<DelDigitalIpBtn>删除</DelDigitalIpBtn>
+		</General>
+	</Common>
+	<Main>
+		<Page>
+			<laPreview tag="label;" length="165">预  览</laPreview>
+			<laPlayback tag="label;" length="165">回  放</laPlayback>
+			<laLog tag="label;" length="165">日  志</laLog>
+			<laConfig tag="label;" length="165">配  置</laConfig>
+			<laExit tag="label;" length="974">注  销</laExit>
+			<DVR>
+				<laHelp>帮助</laHelp>
+				<laVersion>版本</laVersion>
+			</DVR>
+		</Page>
+		<Js>
+		</Js>
+	</Main>
+</Main>
+

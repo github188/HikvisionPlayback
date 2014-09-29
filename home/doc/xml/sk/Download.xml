@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>Stiahnuť súbor</title>
+		<picturetitle>Stiahnuť obrázok</picturetitle>
+		<laFileName tag="label;" length="140">Názov súborov</laFileName>
+		<laFileSize tag="label;" length="90">Veľkosť súboru</laFileSize>
+		<laPictureData tag="label;" length="90">Dátum súboru</laPictureData>
+		<laDownloadProcess tag="label;" length="90">Priebeh</laDownloadProcess>
+		<PictureType1>Plánovač ukladania snímkov</PictureType1>
+		<PictureType2>Alarm</PictureType2>
+		<PictureType3>Pohyb</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>Stiahnuté</Downloaded>
+		<jsNoPictureTip>Žiadne obrazové súbory</jsNoPictureTip>
+		<jsSearchPicFailed>Hľadanie obrázku zlyhalo.</jsSearchPicFailed>
+		<jsDownloadFailed>Sťahovanie zlyhalo.</jsDownloadFailed>
+		<jsTips1>Zastaviť sťahovanie?</jsTips1>
+		<jsTips2>Vyberte súbor, ktorý chcete prevziať.</jsTips2>
+	</Js>
+</Download>

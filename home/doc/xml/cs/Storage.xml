@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">Rozvrh záznamu</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Správa ukládání</aHardDisk>
+			<laAdvancedRecordCfg>Pokročilé</laAdvancedRecordCfg>
+			<laExtractFrame>Vyjmutí snímku</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">Č. HDD</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Stejný NetHDD nelze přidat dvakrát.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Cesta k souboru</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Pokročilé</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Povolit rozvrh záznamu</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Povolit plánování snímku</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Předzáznam</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Žádný předzáznam</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5 s</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10 s</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15 s</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20 s</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25 s</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30 s</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Bez omezení</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Následný záznam</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1min</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2 min</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5 min</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10 min</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Nadbytečný záznam</laRedundancyRec>
+			<laRecordOverWrite>Prepisovatelny</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Ne</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Ano</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Záznam audia</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Upravit rozvrh záznamu</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Čas vypršel</geRecorderDuration>
+			<EndTimeRangeTips>Čas konce nemůže překročit 24:00</EndTimeRangeTips>
+			<AdvancedTips>Pokročilé</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>Správa HDD</laSpanTitle>
+				<laHardDiskNo>Č. HDD</laHardDiskNo>
+				<laDiskProperty>Vlastnost</laDiskProperty>
+				<laDiskGroup>Skupina HDD</laDiskGroup>
+				<laDiskInit>Inicializace HDD</laDiskInit>
+				<laInitState>Poč. stav</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">Seznam HDD zařízení</laDiskTitle>
+			<laCapacity tag="label;" length="100">Kapacita</laCapacity>
+			<laFreeSpace tag="label;" length="100">Volné místo</laFreeSpace>
+			<formatDisk tag="input;" length="74">Formát</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>Vlastnost HDD nelze v aktuálním režimu ukládání editovat.</tipsNotSupportEdit>
+				<tipsFormatRo>Chyba inicializace. Nelze zvolit HDD pouze pro čtení.</tipsFormatRo>
+				<tipsDisk>HDD</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Neinicializovaný</tipsUnformatted>
+			<tipsError>Chyba</tipsError>
+			<tipsIdle>Stav klidu</tipsIdle>
+			<tipsMismatch>Nesouhlasí</tipsMismatch>
+			<tipsFormatting>Formátování</tipsFormatting>
+			<tipsNotexist>Neexistuje</tipsNotexist>
+			<tipsFormatSelect>Formátovat HDD?</tipsFormatSelect>
+			<tipsFormatAll>Formátování HDD ukončeno.</tipsFormatAll>
+			<tipsFormatFailed>Inicializace HDD selhala</tipsFormatFailed>
+			<tipsFormattingWait>Formátování, prosím čekejte...</tipsFormattingWait>
+			<tipsSelectDisk>Zvolte HDD pro formátování.</tipsSelectDisk>
+			<tipsStorageMode>Nastavení režimu ukládání</tipsStorageMode>
+			<tipsArray>Virtuální disk</tipsArray>
+			<jsComplete>Kompletovat</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>Číst/psát</tipsRW>
+			<tipsRO>Jen čtení</tipsRO>
+			<tipsRedund>Nadbytečnost</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>NetHDD</laSpanTitle>
+				<Property1Opt1>Číst/psát</Property1Opt1>
+				<Property1Opt2>Jen čtení</Property1Opt2>
+				<Property1Opt3>Nadbytečnost</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Nastavit disk</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

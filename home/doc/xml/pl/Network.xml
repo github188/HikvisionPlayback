@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Network>
+	<Common>
+		<Page>
+			<laNetWorkMode>Model pracy</laNetWorkMode>
+			<laEAPOLVersion tag="label;" length="150">Wersja EAPOL</laEAPOLVersion>
+			<laFriendlyName>Nazwa</laFriendlyName>
+		</Page>
+		<Js>
+		    <jsPortConflict>Konflikt portów</jsPortConflict>
+		</Js>
+		<General>
+			<gePort tag="label;" length="150">Port</gePort>
+		</General>
+	</Common>
+	<IpConfig>
+		<Page>
+			<NetworkModeOpt1>Odporność sieci na awarie</NetworkModeOpt1>
+			<NetworkModeOpt2>Wczytaj balans</NetworkModeOpt2>
+			<NetworkModeOpt3>Wiele adresów</NetworkModeOpt3>
+			<laNetCardConfig tag="label;" length="670">Ustawienia karty sieciowej</laNetCardConfig>
+			<laSelectNetCard>Wybierz kartę sieciową</laSelectNetCard>
+			<laNetworkType tag="label;" length="150">Typ karty sieciowej</laNetworkType>
+			<NetworkTypeOpt1 tag="option;" length="198">10M Półdupleks</NetworkTypeOpt1>
+			<NetworkTypeOpt2 tag="option;" length="198">10M Pełny Dupleks</NetworkTypeOpt2>
+			<NetworkTypeOpt3 tag="option;" length="198">100M Półdupleks</NetworkTypeOpt3>
+			<NetworkTypeOpt4 tag="option;" length="198">100M Pełny Dupleks</NetworkTypeOpt4>
+			<NetworkTypeOpt5 tag="option;" length="198">10M/100M/1000M Auto</NetworkTypeOpt5>
+			<NetworkTypeOpt6 tag="option;" length="198">1000M Pełny Dupleks</NetworkTypeOpt6>
+			<laDeviceIpAdd tag="label;" length="150">Adres IPv4</laDeviceIpAdd>
+			<laDHCP tag="label;" length="670">DHCP</laDHCP>
+			<laSubNetMask tag="label;" length="150">Maska podsieci IPv4</laSubNetMask>
+			<laDefaultGateWay tag="label;" length="150">Brama domyślna IPv4</laDefaultGateWay>
+			<laDeviceIpV6Add>Adres IPv6</laDeviceIpV6Add>
+			<laDefaultV6GateWay>Brama domyślna IPv6</laDefaultV6GateWay>
+			<laDNSServerConfig tag="label;" length="670">Serwer DNS</laDNSServerConfig>
+			<laPrimaryDNS tag="label;" length="150">Preferowany DNS</laPrimaryDNS>
+			<laDNSServer2IP tag="label;" length="150">Alternatywny DNS</laDNSServer2IP>
+			<laPrimayEthernet>Gł. karta sieciowa</laPrimayEthernet>
+			<laMulticast tag="label;" length="150">Adres multicastu</laMulticast>
+		</Page>
+		<Js>
+			<jsMaskAdd>Maska podsieci</jsMaskAdd>
+			<jsGateAdd>Brama sieciowa</jsGateAdd>
+			<jsMtuParam>MTU</jsMtuParam>
+			<jsFirstDNS>Preferowany DNS - adres</jsFirstDNS>
+			<jsSecondDNS>Alternatywny adres DNS</jsSecondDNS>
+			<MaskAddInvalidTips>Błędny adres maski podsieci.</MaskAddInvalidTips>
+			<jsMulticastRange>Pierwszy człon adresu IP musi być liczbą całkowitą pomiędzy 224 a 239.</jsMulticastRange>
+		</Js>
+	</IpConfig>
+	<PortConfig>
+		<Page>
+			<laHttpPort tag="label;" length="150">Port HTTP</laHttpPort>
+			<laRtspPort tag="label;" length="150">Port RTSP</laRtspPort>
+			<laHttpsPort tag="label;" length="150">Port HTTPS</laHttpsPort>
+			<laSDKPort>Port SDK</laSDKPort>
+		</Page>
+		<Js>
+			<jsHttpPortParam>Port HTTP </jsHttpPortParam>
+			<jsRtspPortParam>Port RTSP </jsRtspPortParam>
+			<jsHttpsPortParam>Port HTTPS </jsHttpsPortParam>
+		</Js>
+	</PortConfig>
+	<DDNS>
+		<Page>
+			<laUseDDNS tag="label;" length="670">Włącz DDNS</laUseDDNS>
+			<laDDNSType tag="label;" length="150">Rodzaj DDNS</laDDNSType>
+		</Page>
+		<Js>
+			<jsDomainAlreadyExist>Podana domena już istnieje</jsDomainAlreadyExist>
+		</Js>
+		<General>
+			<laDeviceDomain tag="label;" length="150">Domena</laDeviceDomain>
+		</General>
+	</DDNS>
+	<PPPoE>
+		<Page>
+			<laUsePPPOE tag="label;" length="670">Włącz PPPoE</laUsePPPOE>
+			<laDevicePPPOEIP tag="label;" length="150">Dynamiczny adres IP</laDevicePPPOEIP>
+		</Page>
+		<Js>
+			<jsPPPOEName>Nazwa PPPoE</jsPPPOEName>
+			<jsPPPOEPassword>Hasło PPPoE</jsPPPOEPassword>
+		</Js>
+	</PPPoE>
+	<SNMP>
+		<Page>
+			<laEnableV1 tag="label;" length="150">Włącz SNMPv1</laEnableV1>
+			<laEnableV2c tag="label;" length="150">Włącz SNMPv2c</laEnableV2c>
+			<laRwCommunity tag="label;" length="150">Wpisz wspólnotę SNMP</laRwCommunity>
+			<laRCommunity tag="label;" length="150">Odczyt wspólnoty SNMP</laRCommunity>
+			<laTrapIP tag="label;" length="150">Adres pułapek</laTrapIP>
+			<laTrapPort tag="label;" length="150">Port pułapek</laTrapPort>
+			<laTrapCommunity tag="label;" length="150">Wspólnota pułapek</laTrapCommunity>
+			<laEnableV3c tag="label;" length="150">Włącz SNMPv3</laEnableV3c>
+			<laRUserName tag="label;" length="150">Odczyt użytkownika</laRUserName>
+			<laRwUserName tag="label;" length="150">Wpisz nazwę użytkownika</laRwUserName>
+			<laSecurityLevel tag="label;" length="150">Poziom zabezpieczeń</laSecurityLevel>
+			<laAuthAlg tag="label;" length="150">Algorytm autoryzacji</laAuthAlg>
+			<laAuthPsd tag="label;" length="150">Hasło autoryzacji</laAuthPsd>
+			<laPrivacyAlg tag="label;" length="150">Al. z kl. pryw.</laPrivacyAlg>
+			<laPrivacyPsd tag="label;" length="150">Hasło klucza prywatnego</laPrivacyPsd>
+			<laSNMPPort tag="label;" length="150">Port SNMP</laSNMPPort>
+			<laSNMPMore tag="label;" length="670">Inne ustawienia SNMP</laSNMPMore>
+		</Page>
+		<Js>
+			<jsOneLeast>Należy aktywować przynajmniej jeden rodzaj SNMP.</jsOneLeast>
+			<jsTrapIp>Adres IP pułapek</jsTrapIp>
+		</Js>
+	</SNMP>
+	<P8021x>
+		<Page>
+			<laEnable8021x tag="label;" length="131">Włącz IEEE 802.1X</laEnable8021x>
+		</Page>
+		<Js>
+		</Js>
+	</P8021x>
+	<QoS>
+		<Page>
+			<laVideoDSCP tag="label;" length="150">DSCP dla obr./dźw.</laVideoDSCP>
+			<laEADSCP tag="label;" length="150">Zdarzenie/Alarm DSCP</laEADSCP>
+			<laManageDSCP tag="label;" length="150">Zarządzanie DSCP</laManageDSCP>
+			<laEnableQoS>Uaktywnij QoS</laEnableQoS>
+		</Page>
+		<Js>
+		</Js>
+	</QoS>
+	<Socks>
+		<Page>
+			<laEnableSocks>Uaktywnij protokół SOCKS</laEnableSocks>
+			<laSocksServerAddr>Serwer</laSocksServerAddr>
+			<laSocksServerPort>Port serwera</laSocksServerPort>
+			<laSocksVersion>Typ serwera</laSocksVersion>
+			<laLocalList>Sieci lokalne</laLocalList>
+			<laLocalTips>Rozdziel sieci lokalne za pomocą średnika (;)</laLocalTips>
+		</Page>
+		<Js>
+		</Js>
+	</Socks>
+	<UPnP>
+		<Page>
+			<laEnableUPnP>Enable UPnP</laEnableUPnP>
+			<laHttpPortMap>Mapowanie portów HTTP</laHttpPortMap>
+			<laManagePortMap>Mapowanie portów urządzeń</laManagePortMap>
+			<laRtspPortMap>Mapowanie portów RTSP</laRtspPortMap>
+			<laHttpsPortMap>Mapowanie portów HTTPS</laHttpsPortMap>
+			<laNatRouterLanAddr>Adres NAT routera</laNatRouterLanAddr>
+			<laEnableUPnPNat>Uaktywnij UPnP™ NAT</laEnableUPnPNat>
+			<laUPnPMapType>Mapping Port Type</laUPnPMapType>
+			<laPortsMap>Mapowanie portów</laPortsMap>
+			<laProtocolName>Protocol Name</laProtocolName>
+			<laExternalPort>Port zewn.</laExternalPort>
+			<laEnablePortMap>Enable Mapping Port</laEnablePortMap>
+			<laNatMapType>Typ map. NAT</laNatMapType>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<geValid>Ważny</geValid>
+			<geNotValid>Nieważny</geNotValid>
+		</General>
+	</UPnP>
+	<Bonjour>
+		<Page>
+			<laEnableBonjour>Uaktywnij Bonjour</laEnableBonjour>
+		</Page>
+		<Js>
+		</Js>
+	</Bonjour>
+	<HTTPS>
+		<Page>
+			<laCreate>Utwórz</laCreate>
+			<laCreateSelfCertificate>Utwórz podpisany przez Ciebie certyfikat</laCreateSelfCertificate>
+			<laCreateCertificateReq>Utwórz prośbę o certyfikat</laCreateCertificateReq>
+			<laInstallSignedCertificate>Zainstaluj podpisany certyfikat</laInstallSignedCertificate>
+			<laCreatedRequest>Utworzono prośbę</laCreatedRequest>
+			<laInstalledCertificate>Zainstalowano certyfikat</laInstalledCertificate>
+			<laRemove>Usuń</laRemove>
+			<laValidity>Ważność</laValidity>
+			<laCountry>Kraj</laCountry>
+			<laStateOrProvince>Stan, prowincja lub region</laStateOrProvince>
+			<laLocality>Jednostka terytorialna</laLocality>
+			<laOrganization>Organizacja</laOrganization>
+			<laOrganizationalUnit>Jednostka organizacyjna</laOrganizationalUnit>
+			<laCommonName>IP/Nazwa domeny</laCommonName>
+			<laCertificatePath>Ścieżka dostępu do certyfikatu</laCertificatePath>
+			<laExample>przykład</laExample>
+			<laConfirmInstall>Upewnij się, że certyfikat jest zainstalowany</laConfirmInstall>
+		</Page>
+		<Js>
+		</Js>
+	</HTTPS>
+	<FTP>
+		<Page>
+			<laPathDepth tag="label;" length="150">Struktura katalogu</laPathDepth>
+			<laTopPath tag="label;" length="150">Katalog nadrzędny</laTopPath>
+			<laSubPath tag="label;" length="150">Katalog podrzędny</laSubPath>
+			<laUploadType tag="label;" length="150">Rodzaj wgrywania</laUploadType>
+			<laUploadPicture tag="label;" length="150">Wyślij obraz</laUploadPicture>
+			<laUploadVideoClip>Wgraj plik wideo</laUploadVideoClip>
+			<optPathDepth1 tag="option;" length="198">Zapisz w katalogu głównym.</optPathDepth1>
+			<optPathDepth2 tag="option;" length="198">Zapisz w katalogu nadrzędnym.</optPathDepth2>
+			<optPathDepth3 tag="option;" length="198">Zapisz w katalogu podrzędnym.</optPathDepth3>
+			<optTopPath1 tag="option;" length="198">Użyj nazwy urządzenia</optTopPath1>
+			<optTopPath2 tag="option;" length="198">Użyj numeru urządzenia</optTopPath2>
+			<optTopPath3 tag="option;" length="198">Użyj adresu IP urządzenia</optTopPath3>
+			<optSubPath1 tag="option;" length="198">Użyj nazwy kamery</optSubPath1>
+			<optSubPath2 tag="option;" length="198">Użyj numeru kamery</optSubPath2>
+			<laSelectFtp>Wybierz FTP</laSelectFtp>
+			<laEnableFTP tag="label;" length="670">Uaktywnij FTP</laEnableFTP>
+		</Page>
+		<Js>
+		</Js>
+	</FTP>
+	<WIFI>
+		<Page>
+			<laWirelessList>Lista sieci bezprzewodowych</laWirelessList>
+			<laSecurityMode>Tryb zabezpieczeń</laSecurityMode>
+			<laChannel>Kanał</laChannel>
+			<laSignalStrength>Siła sygnału</laSignalStrength>
+			<laSpeed>Szybkość</laSpeed>
+			<laWirelessNetworkMode>Tryb pracy sieci</laWirelessNetworkMode>
+			<laEncryptionType>Rodzaj szyfrowania</laEncryptionType>
+			<laOpen>Otwarta</laOpen>
+			<laShared>Współdzielona</laShared>
+			<laKeyLength>Długość klucza</laKeyLength>
+			<laKeyType>Rodzaj klucza</laKeyType>
+			<laHex>Hex</laHex>
+			<laKey>Klucz</laKey>
+			<laPEAPVersion>Wersja PEAP</laPEAPVersion>
+			<laPEAPLabel>Etykieta PEAP</laPEAPLabel>
+			<laInnerAuthenticationMode>Autoryzacja wewnętrzna</laInnerAuthenticationMode>
+			<laAnonymousID>Anonimowa tożsamość</laAnonymousID>
+			<laIdentify>Zidentyfikuj</laIdentify>
+			<laPrivateKeyPassword>Prywatne hasło-klucz</laPrivateKeyPassword>
+			<laCACertificate>Certyfikat CA</laCACertificate>
+			<laUserCertificate>Certyfikat użytkownika</laUserCertificate>
+			<laPrivateKeyCertificate>Prywatny klucz</laPrivateKeyCertificate>
+			<laEnableWPS>Uaktywnij WPS</laEnableWPS>
+			<laPinCode>Kod PIN</laPinCode>
+			<pinCodeGenerate>Generuj</pinCodeGenerate>
+			<autoConnect>Łączenie za pośrednictwem PBC</autoConnect>
+			<manuConnect>Użyj kodu PIN routera</manuConnect>
+			<laApPinCode>Kod PIN routera</laApPinCode>
+			<laConnect>Połącz</laConnect>
+			<laSSID>SSID</laSSID>
+		</Page>
+		<Js>
+			<jsTenHex>Proszę wpisać 10 wartości heksadecymalnych</jsTenHex>
+			<jsXXVIHex>Proszę wpisać 26 wartości heksadecymalnych</jsXXVIHex>
+			<jsFiveASCII>Proszę wpisać 5 znaków ASCII</jsFiveASCII>
+			<jsTenASCII>Proszę wpisać 13 znaków ASCII</jsTenASCII>
+			<jsEightMoreChar>Proszę wpisać 8-63 znaków</jsEightMoreChar>
+			<jsConnectSuc>Połączenie nawiązano pomyślnie</jsConnectSuc>
+			<jsConnectFail>Połączenie nie powiodło się.</jsConnectFail>
+			<jsConnecting>Łączenie...</jsConnecting>
+		</Js>
+	</WIFI>
+</Network>

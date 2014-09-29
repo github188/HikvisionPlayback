@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<PTZCfg>
+	<Common>
+		<Page>
+			<aPtzBasic tag="a;" length="9999">Základní</aPtzBasic>
+			<aPtzLimit tag="a;" length="9999">Limit</aPtzLimit>
+			<aPtzHomePos tag="a;" length="9999">Počáteční pozice</aPtzHomePos>
+			<aPtzParkAction tag="a;" length="9999">Park. akce</aPtzParkAction>
+			<aPtzPrivacyMask tag="a;" length="9999">Privátní maska</aPtzPrivacyMask>
+			<aPtzTimeTasks tag="a;" length="9999">Naplánované akce</aPtzTimeTasks>
+			<aPtzClearCfg tag="a;" length="9999">Vyčistit konfiguraci</aPtzClearCfg>
+			<btnGoto tag="input;" length="80">Jít na</btnGoto>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<autoScan tag="option;" length="200">Auto scan</autoScan>
+			<frameScan tag="option;" length="200">Scan snímku</frameScan>
+			<randomScan tag="option;" length="200">Náhodný scan</randomScan>
+			<patrolScan tag="option;" length="200">Hlídka</patrolScan>
+			<panoramaScan tag="option;" length="200">Panoram. scan</panoramaScan>
+			<tiltScan>Scanování naklonění</tiltScan>
+			<periodReboot>Restart Dome</periodReboot>
+			<periodAdjust>Nastavení Dome</periodAdjust>
+			<auxOutput>Výstup AUX</auxOutput>
+			<autoTrack>Automatické sledování</autoTrack>
+		</General>
+	</Common>
+	<PtzBasic>
+		<Page>
+			<laPtzBasic tag="label;">Základní parametr</laPtzBasic>
+			<laProportionZoom tag="label;">Povolit proporční pan.</laProportionZoom>
+			<laImageFreeze tag="label;">Povolení zmrazení přednastavení</laImageFreeze>
+			<laPresetSpeed tag="label;" length="150">Rychlost přednastavení</laPresetSpeed>
+			<laControlSpeed tag="label;" length="150">Rychlost ovládání klávesnice</laControlSpeed>
+			<laAutoScanSpeed tag="label;" length="150">Rychlost autoscanu</laAutoScanSpeed>
+			<laPtzOSDDis tag="label;">OSD PTZ</laPtzOSDDis>
+			<laZoomLabel tag="label;" length="150">Stav přiblížení</laZoomLabel>
+			<laAzimuth tag="label;" length="150">Stav PT</laAzimuth>
+			<laPresetLable tag="label;" length="150">Stav přednastavení</laPresetLable>
+			<speedLevelOpt1 tag="option;" length="200">2 s</speedLevelOpt1>
+			<speedLevelOpt2 tag="option;" length="200">5 s</speedLevelOpt2>
+			<speedLevelOpt3 tag="option;" length="200">10 s</speedLevelOpt3>
+			<speedLevelOpt4 tag="option;" length="200">Vždy zavřít</speedLevelOpt4>
+			<speedLevelOpt5 tag="option;" length="200">Vždy otevřít</speedLevelOpt5>
+			<laSavePowerOff tag="label;">Paměť vypnutí</laSavePowerOff>
+			<laSavePowerType tag="label;" length="150">Nastavit bod obnovy času</laSavePowerType>
+			<savePowerTypeOpt2 tag="option;" length="200">30 s</savePowerTypeOpt2>
+			<savePowerTypeOpt3 tag="option;" length="200">60 s</savePowerTypeOpt3>
+			<savePowerTypeOpt4 tag="option;" length="200">300 s</savePowerTypeOpt4>
+			<savePowerTypeOpt5 tag="option;" length="200">600 s</savePowerTypeOpt5>
+		</Page>
+		<Js>
+		</Js>
+	</PtzBasic>
+	<PtzLimiteds>
+		<Page>
+			<laEnableLimit tag="label;" length="134">Povolení limitu</laEnableLimit>
+			<laLimitType tag="label;" length="150">Typ limitu</laLimitType>
+			<limitTypeOpt1 tag="option;" length="198">Manuál. zastavení</limitTypeOpt1>
+			<limitTypeOpt2 tag="option;" length="198">Zastavení scanu</limitTypeOpt2>
+			<laLimitStatus tag="label;" length="150">Stav limitu</laLimitStatus>
+		</Page>
+		<Js>
+			<jsLimited>Omezeno</jsLimited>
+			<jsNoLimited>Bez limitu</jsNoLimited>
+		</Js>
+	</PtzLimiteds>
+	<ParkAction>
+		<Page>
+			<laEnabledPark tag="label;">Povolit park. akci</laEnabledPark>
+			<laParkTime tag="label;" length="150">Čas parkování</laParkTime>
+			<laActionType tag="label;" length="150">Typ akce</laActionType>
+			<laActionNum tag="label;" length="150">ID typu akce</laActionNum>
+		</Page>
+		<Js>
+		</Js>
+	</ParkAction>
+	<PrivacyMask>
+		<Page>
+			<laEnablePrivacyMask tag="label;">Povolit privátní masky</laEnablePrivacyMask>
+			<laPrivacyMaskList tag="label;">Seznam privátních masek</laPrivacyMaskList>
+			<laPrivacyMaskTitle tag="label;" length="246">Název</laPrivacyMaskTitle>
+			<gray tag="option;">šedá</gray>
+			<red tag="option;">červená</red>
+			<green tag="option;">zelená</green>
+			<blue tag="option;">modrá</blue>
+			<orange tag="option;">oranžová</orange>
+			<yellow tag="option;">žlutá</yellow>
+			<mosaic tag="option;">mozaika</mosaic>
+		</Page>
+		<Js>
+			<tipsSelectPrimary>Klikněte pro vyvolání této masky privátních zón</tipsSelectPrimary>
+		</Js>
+	</PrivacyMask>
+	<TimeTasks>
+		<Page>
+			<laEnabledTimeTasks tag="label;">Povolit naplánované akce</laEnabledTimeTasks>
+			<laTimeTask tag="label;" length="150">Čas parkování</laTimeTask>
+			<laTimingTasks tag="label;" length="150">Časové akce</laTimingTasks>
+			<btnEditingTasks tag="input;" length="80">Upravit akce</btnEditingTasks>
+			<laTaskCaption tag="label;">Pozn.: Červená a zelená barva se používají k rozlišení sousedních připravených akcí.</laTaskCaption>
+			<trTaskType>Typ akce</trTaskType>
+			<trTaskNum>ID typu akce</trTaskNum>
+		</Page>
+		<Js>
+		</Js>
+	</TimeTasks>
+	<ClearCfg>
+		<Page>
+			<laAllPreset tag="label;" length="654">Vyčistit všechny přednastavené</laAllPreset>
+			<laAllPatrol tag="label;" length="654">Vyčistit všechny hlídky</laAllPatrol>
+			<laAllPattern tag="label;" length="654">Vyčistit všechna schémata</laAllPattern>
+			<laAllMasks tag="label;" length="654">Vyčistit všechny privátní masky</laAllMasks>
+			<laAllLimit tag="label;" length="654">Vyčistit VŠECHNY limitované PTZ</laAllLimit>
+			<laAllTasks tag="label;" length="654">Vyčistit vš. naplán. akce</laAllTasks>
+			<laAllPark>Vyčistit všechny park. akce</laAllPark>
+		</Page>
+		<Js>
+		</Js>
+	</ClearCfg>
+</PTZCfg>

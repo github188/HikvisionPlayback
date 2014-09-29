@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<Log>
+	<Page>
+		<title>Vyhledat deník</title>
+		<laLogSearch tag="label;" length="196">Vyhledat deník</laLogSearch>
+		<laSaveLog tag="label;" length="216">Uložit deník</laSaveLog>
+		<laLogTime tag="label;" length="131">Cas</laLogTime>
+		<laLogMajorType tag="label;" length="109">Zákl. typ</laLogMajorType>
+		<laLogMinorType tag="label;" length="109">Vedl. typ</laLogMinorType>
+		<laLogRemoteUser tag="label;" length="109">Místní/vzdálený uživatel</laLogRemoteUser>
+		<laLogRemoteIP tag="label;" length="109">Vzdál. host IP</laLogRemoteIP>
+		<laLogLocalUser>Místní uživatel</laLogLocalUser>
+		<ImgSearch>Vyhledat</ImgSearch>
+		<MajorTypeOptions>
+			<MajorTypeOpt1 tag="option;" length="198">Všechny typy</MajorTypeOpt1>
+			<MajorTypeOpt2 tag="option;" length="198">Alarm</MajorTypeOpt2>
+			<MajorTypeOpt4 tag="option;" length="198">Operace</MajorTypeOpt4>
+		</MajorTypeOptions>
+		<MinorTypeAlarm>
+			<MinorTypeAlarmOpt1>All: Všechny typy</MinorTypeAlarmOpt1>
+			<MinorTypeAlarmOpt2>alarmIn: Vstup alarmu</MinorTypeAlarmOpt2>
+			<MinorTypeAlarmOpt3>alarmOut: Výstup alarmu</MinorTypeAlarmOpt3>
+			<MinorTypeAlarmOpt4>motionStart: Spustit detekci pohybu</MinorTypeAlarmOpt4>
+			<MinorTypeAlarmOpt5>motionStop: Zastavit detekci pohybu</MinorTypeAlarmOpt5>
+			<MinorTypeAlarmOpt6>hideStart: Spustit zajištění proti úpravám</MinorTypeAlarmOpt6>
+			<MinorTypeAlarmOpt7>hideStop: Zastavit zajištění proti úpravám</MinorTypeAlarmOpt7>
+			<MinorTypeAlarmOpt8>vcaStart: Spustit VCA alarm</MinorTypeAlarmOpt8>
+			<MinorTypeAlarmOpt9>vcaStop: Zastavit VCA alarm</MinorTypeAlarmOpt9>
+			<pirStart>Spustit PIR signalizaci</pirStart>
+			<pirStop>Zastavit PIR signalizaci</pirStop>
+			<wlsensorStart>Spustit bezdrátovou signalizaci</wlsensorStart>
+			<wlsensorStop>Zastavit bezdrátovou signalizaci</wlsensorStop>
+			<callhelpStart>Spustit nouzovou signalizaci</callhelpStart>
+			<callhelpStop>Zastavit nouzovou signalizaci</callhelpStop>
+		</MinorTypeAlarm>
+		<MinorTypeException>
+			<MinorTypeExpOpt1>All: Všechny typy</MinorTypeExpOpt1>
+			<MinorTypeExpOpt2>videoLost: ztráta video signálu</MinorTypeExpOpt2>
+			<MinorTypeExpOpt3>illlegealAccess: Neplatné přihlášení</MinorTypeExpOpt3>
+			<MinorTypeExpOpt4>hdFull: HDD plný</MinorTypeExpOpt4>
+			<MinorTypeExpOpt5>hdError: Chyba HDD</MinorTypeExpOpt5>
+			<MinorTypeExpOpt6>netBroken: Síť odpojena</MinorTypeExpOpt6>
+			<MinorTypeExpOpt7>recordError: Chyba nahrávání/zachycení</MinorTypeExpOpt7>
+			<MinorTypeExpOpt8>ipConflict: Konflikt IP adresy</MinorTypeExpOpt8>
+			<MinorTypeExpOpt9>videoException: Výjimka video signálu</MinorTypeExpOpt9>
+			<MinorTypeExpOpt10>videoFormatMismatch: Neshoda vstupu/výstupu video standardu</MinorTypeExpOpt10>
+			<MinorTypeExpOpt11>ipcDisconnect: IP kamera odpojena</MinorTypeExpOpt11>
+			<MinorTypeExpOpt12>ipcIpConfilict: Konflikt IP adresy IPC</MinorTypeExpOpt12>
+			<MinorTypeExpOpt13>viAndResMismatch: Neshoda rozlišení</MinorTypeExpOpt13>
+		</MinorTypeException>
+		<MinorTypeInformation>
+			<MinorTypeInforOpt1>All: Všechny typy</MinorTypeInforOpt1>
+			<MinorTypeInforOpt2>hddInfo: Informace o HDD</MinorTypeInforOpt2>
+			<MinorTypeInforOpt3>startRec: Spustit nahrávání</MinorTypeInforOpt3>
+			<MinorTypeInforOpt4>stopRec: Zastavit nahrávání</MinorTypeInforOpt4>
+			<MinorTypeInforOpt5>delExpiredRec: Smazat starý video soubor</MinorTypeInforOpt5>
+			<MinorTypeInforOpt6>nasInfo: Informace o NetHDD</MinorTypeInforOpt6>
+			<MinorTypeInforOpt7>smartInfo: S.M.A.R.T. informace</MinorTypeInforOpt7>
+			<MinorTypeInforOpt8>startPic: Spustit zachycení</MinorTypeInforOpt8>
+			<MinorTypeInforOpt9>stopPic: Zastavit zachycení</MinorTypeInforOpt9>
+			<MinorTypeInforOpt10>raidInfo: RAID</MinorTypeInforOpt10>
+		</MinorTypeInformation>
+		<MinorTypeOperation>
+			<MinorTypeOperationOpt1>All: Všechny typy</MinorTypeOperationOpt1>
+			<MinorTypeOperationOpt2>devicePowerOn: Zapnout</MinorTypeOperationOpt2>
+			<MinorTypeOperationOpt3>stopAbnormal: Místní: Nestandardní vypnutí</MinorTypeOperationOpt3>
+			<MinorTypeOperationOpt4>remotePowerOff: Vzdálené: Vypnout</MinorTypeOperationOpt4>
+			<MinorTypeOperationOpt5>remotePowerRecycle: Vzdálené: Restartovat</MinorTypeOperationOpt5>
+			<MinorTypeOperationOpt6>remoteLogin: Vzdálené: Přihlásit</MinorTypeOperationOpt6>
+			<MinorTypeOperationOpt7>remoteLogout: Vzdálené: Odhlásit</MinorTypeOperationOpt7>
+			<MinorTypeOperationOpt8>remoteCfgPara: Vzdálené: Konfigurovat parametrů</MinorTypeOperationOpt8>
+			<MinorTypeOperationOpt9>remoteUpgrade: Vzdálené: Aktualizace</MinorTypeOperationOpt9>
+			<MinorTypeOperationOpt10>remoteStartRec: Vzdálené: Spustit nahrávání</MinorTypeOperationOpt10>
+			<MinorTypeOperationOpt11>remoteStopRec: Vzdálené: Ukončit nahrávání</MinorTypeOperationOpt11>
+			<MinorTypeOperationOpt12>remoteCtrlPtz: Vzdálené: Ovládání PTZ</MinorTypeOperationOpt12>
+			<MinorTypeOperationOpt13>remoteLockFile: Vzdálené: Uzamknout soubor</MinorTypeOperationOpt13>
+			<MinorTypeOperationOpt14>remoteUnlockFile: Vzdálené: Odemknout soubor</MinorTypeOperationOpt14>
+			<MinorTypeOperationOpt15>remoteManulAlarm: Vzdálené: Spustit výstup alarmu</MinorTypeOperationOpt15>
+			<MinorTypeOperationOpt16>remoteFormatHd: Vzdálené: Inicializovat HDD</MinorTypeOperationOpt16>
+			<MinorTypeOperationOpt17>remotePlayByFile: Vzdálené: Přehrát dle souboru</MinorTypeOperationOpt17>
+			<MinorTypeOperationOpt18>remotePlayByTime: Vzdálené: Přehrát dle času</MinorTypeOperationOpt18>
+			<MinorTypeOperationOpt19>remoteDownloadCfgFile: Vzdálené: Exportovat konfig. soubor</MinorTypeOperationOpt19>
+			<MinorTypeOperationOpt20>remoteUploadCfgFile: Vzdálené: Importovat konfig. soubor</MinorTypeOperationOpt20>
+			<MinorTypeOperationOpt21>remoteDownloadRecFile: Vzdálené: Exportovat soubor záznamu</MinorTypeOperationOpt21>
+			<MinorTypeOperationOpt22>remotePicBackUp: Vzdálené: Exportovat soubor obrázku</MinorTypeOperationOpt22>
+			<MinorTypeOperationOpt23>remoteGetPara: Vzdálené: Načíst parametry</MinorTypeOperationOpt23>
+			<MinorTypeOperationOpt24>remoteGetStatus: Vzdálené: Načíst provozní stav</MinorTypeOperationOpt24>
+			<MinorTypeOperationOpt25>remoteStartTransChan:Establish Transparent Channel</MinorTypeOperationOpt25>
+			<MinorTypeOperationOpt26>remoteStopTransChan:Disconnect Transparent Channel</MinorTypeOperationOpt26>
+			<MinorTypeOperationOpt27>startVoiceTalk: Spustit dvoucestné audio</MinorTypeOperationOpt27>
+			<MinorTypeOperationOpt28>stopVoiceTalk: Zastavit dvoucestné audio</MinorTypeOperationOpt28>
+			<MinorTypeOperationOpt29>remoteArm: Vzdálené: Aktivovat alarm</MinorTypeOperationOpt29>
+			<MinorTypeOperationOpt30>remoteDisArm: Vzdálené: Deaktivovat alarm</MinorTypeOperationOpt30>
+			<MinorTypeOperationOpt31>remoteAddNas: Vzdálené Přidat NetHDD</MinorTypeOperationOpt31>
+			<MinorTypeOperationOpt32>remoteDelNas: Vzdálené: Smazat NetHDD</MinorTypeOperationOpt32>
+			<MinorTypeOperationOpt33>remoteSetNas: Vzdálené: Nastavit NetHDD</MinorTypeOperationOpt33>
+			<MinorTypeOperationOpt34>remoteStartPicRec: Vzdálené: Spustit zachycení obrázku</MinorTypeOperationOpt34>
+			<MinorTypeOperationOpt35>remoteStopPicRec: Vzdálené: Ukončit zachycení obrázku</MinorTypeOperationOpt35>
+			<MinorTypeOperationOpt36>remoteTagOperation: Vzdálené: Provést štítek</MinorTypeOperationOpt36>
+			<MinorTypeOperationOpt37>remoteAddIpc: Vzdálené: Přidat IP kameru</MinorTypeOperationOpt37>
+			<MinorTypeOperationOpt38>remoteDelIpc: Vzdálené: Smazat IP kameru</MinorTypeOperationOpt38>
+			<MinorTypeOperationOpt39>remoteSetIpc: Vzdálené Nastavit IP kameru</MinorTypeOperationOpt39>
+			<MinorTypeOperationOpt40>remoteSetSnmp: Vzdálené: Nastavit SNMP</MinorTypeOperationOpt40>
+			<DVR>
+				<DVRMinorTypeOperationOpt1>All: Všechny typy</DVRMinorTypeOperationOpt1>
+				<DVRMinorTypeOperationOpt2>devicePowerOn: Zapnout</DVRMinorTypeOperationOpt2>
+				<DVRMinorTypeOperationOpt3>devicePowerOff: Místní: Vypnout</DVRMinorTypeOperationOpt3>
+				<DVRMinorTypeOperationOpt4>deviceRecycle: Místní: Restartovat</DVRMinorTypeOperationOpt4>
+				<DVRMinorTypeOperationOpt5>stopAbnormal: Místní: Nestandardní vypnutí</DVRMinorTypeOperationOpt5>
+				<DVRMinorTypeOperationOpt6>localLogin: Místní: Přihlásit</DVRMinorTypeOperationOpt6>
+				<DVRMinorTypeOperationOpt7>localLogOut: Místní: Odhlásit</DVRMinorTypeOperationOpt7>
+				<DVRMinorTypeOperationOpt8>localCfgPara: Místní: Nastavit parametrů</DVRMinorTypeOperationOpt8>
+				<DVRMinorTypeOperationOpt9>localUpdate: Místní: Aktualizace</DVRMinorTypeOperationOpt9>
+				<DVRMinorTypeOperationOpt10>localStartRec: Místní: Spustit nahrávání</DVRMinorTypeOperationOpt10>
+				<DVRMinorTypeOperationOpt11>localStopRec: Místní: Ukončit nahrávání</DVRMinorTypeOperationOpt11>
+				<DVRMinorTypeOperationOpt12>localStartPicRec: Místní: Spustit snímání</DVRMinorTypeOperationOpt12>
+				<DVRMinorTypeOperationOpt13>localStopPicRec: Místní: Ukončit zachycení</DVRMinorTypeOperationOpt13>
+				<DVRMinorTypeOperationOpt14>localCtrlPtz: Místní: Ovládání PTZ</DVRMinorTypeOperationOpt14>
+				<DVRMinorTypeOperationOpt15>localLockFile: Místní: Zamknout soubor</DVRMinorTypeOperationOpt15>
+				<DVRMinorTypeOperationOpt16>localUnlockFile: Místní: Odemknout soubor</DVRMinorTypeOperationOpt16>
+				<DVRMinorTypeOperationOpt17>localManulAlarm: Místní: Spustit Alarm</DVRMinorTypeOperationOpt17>
+				<DVRMinorTypeOperationOpt18>localFormatDisk: Místní: Inicializovat HDD</DVRMinorTypeOperationOpt18>
+				<DVRMinorTypeOperationOpt19>localPlayByFile: Místní: Přehrát dle souboru</DVRMinorTypeOperationOpt19>
+				<DVRMinorTypeOperationOpt20>localPlayByTime: Místní: Přehrát dle času</DVRMinorTypeOperationOpt20>
+				<DVRMinorTypeOperationOpt21>localDownloadCfgFile: Místní: Export konfig. souboru</DVRMinorTypeOperationOpt21>
+				<DVRMinorTypeOperationOpt22>localUploadCfgFile: Místní: Importovat konfig. soubor</DVRMinorTypeOperationOpt22>
+				<DVRMinorTypeOperationOpt23>localDownloadRecFile: Místní: Exportovat soubor záznamu</DVRMinorTypeOperationOpt23>
+				<DVRMinorTypeOperationOpt24>localDownloadPicFile: Místní: Exportovat soubor obrázku</DVRMinorTypeOperationOpt24>
+				<DVRMinorTypeOperationOpt25>localAddNas: Místní: Přidat NetHDD</DVRMinorTypeOperationOpt25>
+				<DVRMinorTypeOperationOpt26>localDelNas: Místní: Smazat NetHDD</DVRMinorTypeOperationOpt26>
+				<DVRMinorTypeOperationOpt27>localSetNas: Místní: Nastavit NetHDD</DVRMinorTypeOperationOpt27>
+				<DVRMinorTypeOperationOpt28>localResetPasswd: Místní: Obnovit heslo správce</DVRMinorTypeOperationOpt28>
+				<DVRMinorTypeOperationOpt29>localTagOperation: Místní:: Provést štítek</DVRMinorTypeOperationOpt29>
+				<DVRMinorTypeOperationOpt30>remotePowerOff: Vzdálené: Vypnout</DVRMinorTypeOperationOpt30>
+				<DVRMinorTypeOperationOpt31>remotePowerRecycle: Vzdálené: Restartovat</DVRMinorTypeOperationOpt31>
+				<DVRMinorTypeOperationOpt32>remoteLogin: Vzdálené: Přihlásit</DVRMinorTypeOperationOpt32>
+				<DVRMinorTypeOperationOpt33>remoteLogout: Vzdálené: Odhlásit</DVRMinorTypeOperationOpt33>
+				<DVRMinorTypeOperationOpt34>remoteCfgPara: Vzdálené: Konfigurovat parametrů</DVRMinorTypeOperationOpt34>
+				<DVRMinorTypeOperationOpt35>remoteUpgrade: Vzdálené: Aktualizace</DVRMinorTypeOperationOpt35>
+				<DVRMinorTypeOperationOpt36>remoteStartRec: Vzdálené: Spustit nahrávání</DVRMinorTypeOperationOpt36>
+				<DVRMinorTypeOperationOpt37>remoteStopRec: Vzdálené: Ukončit nahrávání</DVRMinorTypeOperationOpt37>
+				<DVRMinorTypeOperationOpt38>remoteCtrlPtz: Vzdálené: Ovládání PTZ</DVRMinorTypeOperationOpt38>
+				<DVRMinorTypeOperationOpt39>remoteLockFile: Vzdálené: Uzamknout soubor</DVRMinorTypeOperationOpt39>
+				<DVRMinorTypeOperationOpt40>remoteUnlockFile: Vzdálené: Odemknout soubor</DVRMinorTypeOperationOpt40>
+				<DVRMinorTypeOperationOpt41>remoteManulAlarm: Vzdálené: Spustit výstup alarmu</DVRMinorTypeOperationOpt41>
+				<DVRMinorTypeOperationOpt42>remoteFormatHd: Vzdálené: Inicializovat HDD</DVRMinorTypeOperationOpt42>
+				<DVRMinorTypeOperationOpt43>remotePlayByFile: Vzdálené: Přehrát dle souboru</DVRMinorTypeOperationOpt43>
+				<DVRMinorTypeOperationOpt44>remotePlayByTime: Vzdálené: Přehrát dle času</DVRMinorTypeOperationOpt44>
+				<DVRMinorTypeOperationOpt45>remoteDownloadCfgFile: Vzdálené: Exportovat konfig. soubor</DVRMinorTypeOperationOpt45>
+				<DVRMinorTypeOperationOpt46>remoteUploadCfgFile: Vzdálené: Importovat konfig. soubor</DVRMinorTypeOperationOpt46>
+				<DVRMinorTypeOperationOpt47>remoteDownloadRecFile: Vzdálené: Exportovat soubor záznamu</DVRMinorTypeOperationOpt47>
+				<DVRMinorTypeOperationOpt48>remotePicBackUp: Vzdálené: Exportovat soubor obrázku</DVRMinorTypeOperationOpt48>
+				<DVRMinorTypeOperationOpt49>remoteGetPara: Vzdálené: Načíst parametry</DVRMinorTypeOperationOpt49>
+				<DVRMinorTypeOperationOpt50>remoteGetStatus: Vzdálené: Načíst provozní stav</DVRMinorTypeOperationOpt50>
+				<DVRMinorTypeOperationOpt51>remoteStartTransChan:Připojit transparentní kanál</DVRMinorTypeOperationOpt51>
+				<DVRMinorTypeOperationOpt52>remoteStopTransChan:Odpojit transparentní kanál</DVRMinorTypeOperationOpt52>
+				<DVRMinorTypeOperationOpt53>startVoiceTalk: Spustit dvoucestné audio</DVRMinorTypeOperationOpt53>
+				<DVRMinorTypeOperationOpt54>stopVoiceTalk: Zastavit dvoucestné audio</DVRMinorTypeOperationOpt54>
+				<DVRMinorTypeOperationOpt55>remoteArm: Vzdálené: Aktivovat alarm</DVRMinorTypeOperationOpt55>
+				<DVRMinorTypeOperationOpt56>remoteDisArm: Vzdálené: Deaktivovat alarm</DVRMinorTypeOperationOpt56>
+				<DVRMinorTypeOperationOpt57>remoteAddNas: Vzdálené Přidat NetHDD</DVRMinorTypeOperationOpt57>
+				<DVRMinorTypeOperationOpt58>remoteDelNas: Vzdálené: Smazat NetHDD</DVRMinorTypeOperationOpt58>
+				<DVRMinorTypeOperationOpt59>remoteSetNas: Vzdálené: Nastavit NetHDD</DVRMinorTypeOperationOpt59>
+				<DVRMinorTypeOperationOpt60>remoteStartPicRec: Vzdálené: Spustit zachycení obrázku</DVRMinorTypeOperationOpt60>
+				<DVRMinorTypeOperationOpt61>remoteStopPicRec: Vzdálené: Ukončit zachycení obrázku</DVRMinorTypeOperationOpt61>
+				<DVRMinorTypeOperationOpt62>remoteTagOperation: Vzdálené: Provést štítek</DVRMinorTypeOperationOpt62>
+				<DVRMinorTypeOperationOpt63>localAddIpc: Místní: Přidat IP kameru</DVRMinorTypeOperationOpt63>
+				<DVRMinorTypeOperationOpt64>localDelIpc: Místní: Smazat IP kameru</DVRMinorTypeOperationOpt64>
+				<DVRMinorTypeOperationOpt65>localSetIpc: Místní: Nastavit IP kameru</DVRMinorTypeOperationOpt65>
+				<DVRMinorTypeOperationOpt66>remoteAddIpc: Vzdálené: Přidat IP kameru</DVRMinorTypeOperationOpt66>
+				<DVRMinorTypeOperationOpt67>remoteDelIpc: Vzdálené: Smazat IP kameru</DVRMinorTypeOperationOpt67>
+				<DVRMinorTypeOperationOpt68>remoteSetIpc: Vzdálené Nastavit IP kameru</DVRMinorTypeOperationOpt68>
+				<DVRMinorTypeOperationOpt69>localSetSnmp: Místní: Nastavit SNMP</DVRMinorTypeOperationOpt69>
+				<DVRMinorTypeOperationOpt70>remoteSetSnmp: Vzdálené: Nastavit SNMP</DVRMinorTypeOperationOpt70>
+			</DVR>
+		</MinorTypeOperation>
+	</Page>
+	<Js>
+		<szTips1>Prohledání deníku ukončeno.</szTips1>
+		<szTips3>Vyhledávání selhalo.</szTips3>
+		<szTips5>Vytvoření souboru se nezdařilo.</szTips5>
+		<Alarm>Alarm</Alarm>
+		<motionStart>Spustit detekci pohybu</motionStart>
+		<motionStop>Ukončit detekci pohybu</motionStop>
+		<hideStart>Začátek zajištění proti úpravám</hideStart>
+		<hideStop>Konec zajištění proti úpravám</hideStop>
+		<vcaStart>Spustit VCA alarm</vcaStart>
+		<vcaStop>Ukončit VCA alarm</vcaStop>
+		<videoException>Výjimka videosignálu</videoException>
+		<videoFormatMismatch>Nesoulad standardu video vstupu/výstupu</videoFormatMismatch>
+		<viAndResMismatch>Neshoda rozlišení</viAndResMismatch>
+		<ipcDisconnect>IP kamera odpojena</ipcDisconnect>
+		<ipcIpConfilict>Konflikt IP adresy IPC</ipcIpConfilict>
+		<illlegealAccess>Nelegální přihlášení</illlegealAccess>
+		<netBroken>Síť odpojena</netBroken>
+		<recordError>Výjimka záznamu/zachycení</recordError>
+		<ipConflict>Konfliktní IP adresa</ipConflict>
+		<Infomation>Informace</Infomation>
+		<hddInfo>Info o HDD</hddInfo>
+		<smartInfo>S.M.A.R.T. informace</smartInfo>
+		<startRec>Spustit záznam</startRec>
+		<stopRec>Zastavit záznam</stopRec>
+		<delExpiredRec>Smazat prošlý video soubor</delExpiredRec>
+		<nasInfo>Info o NetHDD</nasInfo>
+		<startPic>Spustit zachycení</startPic>
+		<stopPic>Zastavit zachycování</stopPic>
+		<raidInfo>RAID</raidInfo>
+		<Operation>Operace</Operation>
+		<devicePowerOn>Zapnout</devicePowerOn>
+		<devicePowerOff>Místní: Vypnutí</devicePowerOff>
+		<deviceRecycle>Místní: restart</deviceRecycle>
+		<stopAbnormal>Místní.: Nestand. vypnutí</stopAbnormal>
+		<localLogin>Místní: Přihlášení</localLogin>
+		<localLogOut>Místní: odhlásit</localLogOut>
+		<localCfgPara>Místní: Nastavení parametrů</localCfgPara>
+		<localUpdate>Místní: Aktualizace</localUpdate>
+		<localStartRec>Místní: Spustit nahrávání</localStartRec>
+		<localStopRec>Místní: zastavit záznam</localStopRec>
+		<localStartPicRec>Místní: Spustit zachycení</localStartPicRec>
+		<localStopPicRec>Místní: zastavit snímání</localStopPicRec>
+		<localCtrlPtz>Místní: kontrola PTZ</localCtrlPtz>
+		<localLockFile>Místní: Uzamknout souhlas</localLockFile>
+		<localUnlockFile>Místní: Odemknout soubor</localUnlockFile>
+		<localManulAlarm>Místní: Spustit alarm</localManulAlarm>
+		<localFormatDisk>Místní: Inicializovat HDD</localFormatDisk>
+		<localAddIpc>Místní: Přidat IP kameru</localAddIpc>
+		<localDelIpc>Místní: Smazat IP kamery</localDelIpc>
+		<localSetIpc>Místní: Nastavit IP kameru</localSetIpc>
+		<localPlayByFile>Místní: Přehrát dle souboru</localPlayByFile>
+		<localPlayByTime>Místní: Přehrát dle času</localPlayByTime>
+		<localDownloadCfgFile>Místní: Export konfig. souboru</localDownloadCfgFile>
+		<localUploadCfgFile>Místní: Import konfig. souboru</localUploadCfgFile>
+		<localDownloadRecFile>Místní: Exportovat soubor záznamu</localDownloadRecFile>
+		<localDownloadPicFile>Místní: Exportovat soubor obrázku</localDownloadPicFile>
+		<localAddNas>Místní: Přidat NetHDD</localAddNas>
+		<localDelNas>Místní: Smazat NetHDD</localDelNas>
+		<localSetNas>Místní: Nastavit NetHDD</localSetNas>
+		<localSetSnmp>Místní: Nastavit SNMP</localSetSnmp>
+		<localResetPasswd>Místní: Obnovit heslo správce</localResetPasswd>
+		<localTagOperation>Místní: Provést štítek</localTagOperation>
+		<remotePowerOff>Vzdál.: Vypnout</remotePowerOff>
+		<remotePowerRecycle>Vzdál.: Restart</remotePowerRecycle>
+		<remoteLogin>Vzdál.: Přihlásit se</remoteLogin>
+		<remoteLogout>Vzdál.: Odhlásit</remoteLogout>
+		<remoteCfgPara>Vzdál.: Konfig.parametru</remoteCfgPara>
+		<remoteUpgrade>Vzdál.: Aktualizovat</remoteUpgrade>
+		<remoteStartRec>Vzdál.: Spustit záznam</remoteStartRec>
+		<remoteStopRec>Vzdál.: Zastav. záznam</remoteStopRec>
+		<remoteCtrlPtz>Vzdál.: Ovlád. PTZ</remoteCtrlPtz>
+		<remoteLockFile>Vzdál.: Uzamk. soub.</remoteLockFile>
+		<remoteUnlockFile>Vzdál.: Odemknout soubor</remoteUnlockFile>
+		<remoteManulAlarm>Vzdál.: Spustit výstup alarmu</remoteManulAlarm>
+		<remoteFormatHd>Vzdál.: Spustit HDD</remoteFormatHd>
+		<remoteAddIpc>Vzdál.: Přidat IP kameru</remoteAddIpc>
+		<remoteDelIpc>Vzdál.: Vymaz. IP kameru</remoteDelIpc>
+		<remoteSetIpc>Vzdál.: Nast. IP kameru</remoteSetIpc>
+		<remotePlayByFile>Vzdál.: Přehrát dle souboru</remotePlayByFile>
+		<remotePlayByTime>Vzdál.: Přehrát dle času</remotePlayByTime>
+		<remoteDownloadCfgFile>Vzdál.: Exportovat konfig. soubor</remoteDownloadCfgFile>
+		<remoteUploadCfgFile>Vzdál.: Importovat konfig. soubor</remoteUploadCfgFile>
+		<remoteDownloadRecFile>Vzdál.: Exportovat soubor záznamu</remoteDownloadRecFile>
+		<remoteGetPara>Vzdál.: Získat parametry</remoteGetPara>
+		<remoteGetStatus>Vzdál.: Získat provozní stav</remoteGetStatus>
+		<remoteStartTransChan>Otevřít transparentní kanál</remoteStartTransChan>
+		<remoteStopTransChan>Odpojit transparentní kanál</remoteStopTransChan>
+		<startVoiceTalk>Spustit dvoucestné audio</startVoiceTalk>
+		<stopVoiceTalk>Ukončit dvoucest. audio</stopVoiceTalk>
+		<remoteArm>Vzdál.: Aktiv. alarmu</remoteArm>
+		<remoteDisArm>Vzdál.: Deakt. alarm</remoteDisArm>
+		<remoteAddNas>Vzdál.: Přidat NetHDD</remoteAddNas>
+		<remoteDelNas>Vzdál.: Vymaz. NetHDD</remoteDelNas>
+		<remoteSetNas>Vzdál.: Nastav. NetHDD</remoteSetNas>
+		<remotePicBackUp>Vzdál.: Exportovat soubor obrázku</remotePicBackUp>
+		<remoteStartPicRec>Vzdál.: Spustit zachycení snímku</remoteStartPicRec>
+		<remoteStopPicRec>Vzdál.: Zastav. zachycení</remoteStopPicRec>
+		<remoteSetSnmp>Vzdál.: Konfig. SNMP</remoteSetSnmp>
+		<remoteTagOperation>Vzdál.: Provoz štítku</remoteTagOperation>
+		<ExportFailedTips>Export deníku se nezdařil.</ExportFailedTips>
+	</Js>
+</Log>

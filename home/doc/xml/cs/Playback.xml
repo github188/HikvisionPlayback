@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Přehrávání</title>
+		<SlowlyForward>Pomalu vpřed</SlowlyForward>
+		<FastForward>Rychle vpřed</FastForward>
+		<SingleFrame>Jeden snímek</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Stav</laCurrentSpeed>
+		<laGotoTime>Jít</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Nastavit čas přehrávání</laPlaybackTimeLocalizer>
+		<imgGotoTime>Přehrávání dle ukazatele času</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Příkaz</RecordType1>
+		<RecordType2 tag="label;" length="704">Rozvrh</RecordType2>
+		<RecordType3 tag="label;" length="704">Alarm</RecordType3>
+		<RecordType4 tag="label;" length="704">Manuální</RecordType4>
+		<PictureDownload tag="input;" length="32">Stáhnout obrázky</PictureDownload>
+		<RecordDownload tag="input;" length="32">Stáhnout záznam</RecordDownload>
+		<DVR>
+			<stopAll>Zastavit všechna přehrávání</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Neúspěšné pozastavení přehrávání</pausefailed>
+		<resumefailed>Obnova přehrávání se nezdařila.</resumefailed>
+		<stoprecord>Zastavení klipu</stoprecord>
+		<startRecord>Spustit střih</startRecord>
+		<stoprecordfailed>Chyba zastavení klipu</stoprecordfailed>
+		<startplayfailed>Chyba přehrávání</startplayfailed>
+		<stopplayfailed>Chyba zastavení přehrávání</stopplayfailed>
+		<jssingleframe>Přehrávání po snímcích</jssingleframe>
+		<jssingleframefailed>Přehrávání po snímcích se nezdařilo.</jssingleframefailed>
+		<stopCurrentWndPlay>Před pokračování prosím zastavte přehrávání aktuálního okna.</stopCurrentWndPlay>
+		<szTips1>Chyba vyhledávání video souborů</szTips1>
+		<szTips3>Bez souboru záznamu.</szTips3>
+		<jsSearchFile>Nejdříve prosím vyhledejte soubor.</jsSearchFile>
+		<jsSpeed>Rychlost</jsSpeed>
+		<jsPauseAlready>Pozastaveno</jsPauseAlready>
+		<jsPause>Pozastavit</jsPause>
+		<jsResume>Obnovit</jsResume>
+		<jsPlayBackError>Netypické přehrávání</jsPlayBackError>
+		<jsRecordError>Střih nebyl úspěšný.</jsRecordError>
+		<jsPlaybackStop> Přehrávání ukončeno.</jsPlaybackStop>
+		<jsPlayStopAbnormal> netypické ukončení přehrávání.</jsPlayStopAbnormal>
+		<jsDownload>Vyhledejte prosím soubor pro stažení.</jsDownload>
+		<jsNotSupportDown>Zařízení nepodporuje stahování</jsNotSupportDown>
+		<jsDownloadWnd>Okno stahování je otevřeno</jsDownloadWnd>
+		<jsClipSucc>Střih proběhl úspěšně</jsClipSucc>
+		<jsZoomIn>Přiblížit</jsZoomIn>
+		<jsZoomOut>Oddálit</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Zvolte prosím kanál.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Přehrát</gePlay>
+	</General>
+</Playback>

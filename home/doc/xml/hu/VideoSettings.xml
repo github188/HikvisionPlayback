@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<VideoSettings>
+	<Common>
+		<Page>
+			<aBaseVideoSettings tag="a;" length="9999">Kijelző beállítása</aBaseVideoSettings>
+			<aOSDSettings tag="a;" length="9999">OSD beállítások</aOSDSettings>
+			<aTextOverlay tag="a;" length="9999">Egyéni szöveg</aTextOverlay>
+			<aVideoMask tag="a;" length="9999">Privát maszk</aVideoMask>
+			<aModeCenter tag="option;" length="176">Közép</aModeCenter>
+			<aOSDFontSizeOpt2 tag="option;" length="178">Közepes</aOSDFontSizeOpt2>
+			<apicinformChannel>Válassza a kamerát</apicinformChannel>
+			<laVideoPreview>Előkép</laVideoPreview>
+			<aPictureOverlay>Képfelirat</aPictureOverlay>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laXpos>X  koordináta</laXpos>
+			<laYpos>Y koordináta</laYpos>
+		</General>
+	</Common>
+	<BaseVideoSettings>
+		<Page>
+			<laSpanTitle>A fényképezőgép paramétereinek beállítása</laSpanTitle>
+			<laVideoEffect>fényképezőgép paraméter</laVideoEffect>
+			<laGain tag="label;" length="120">Erősítés</laGain>
+			<laShutter tag="label;" length="120">Exp. idő</laShutter>
+			<laFocusMode tag="label;" length="308">Fókusz mód</laFocusMode>
+			<laFocusLimited tag="label;" length="308">Legkisebb fókusztávolság</laFocusLimited>
+			<laIrisMode tag="label;" length="120">Exp. módja</laIrisMode>
+			<laIrisLevel tag="label;" length="308">Fényrekesz</laIrisLevel>
+			<laPowerLine tag="label;" length="120">Képnorma</laPowerLine>
+			<laDayNightFilter tag="label;" length="120">Nappal/Éjjel kapcsoló</laDayNightFilter>
+			<laDayToNight tag="label;" length="120">Érzékenység</laDayToNight>
+			<laFilterTime tag="label;" length="120">Kapcsolási idő</laFilterTime>
+			<laImageFlip tag="label;" length="120">Tükrözés</laImageFlip>
+			<laDSS tag="label;" length="308">Lassú zár</laDSS>
+			<laDSSLevel tag="label;" length="308">Lassú zár szint</laDSSLevel>
+			<laWDR tag="label;" length="120">WDR</laWDR>
+			<laWDRLevel1 tag="label;" length="308">Széles dinamika 1. szint</laWDRLevel1>
+			<laWDRLevel2 tag="label;" length="308">Széles dinamika 2. szint</laWDRLevel2>
+			<laWDRContrast tag="label;" length="308">WDR kontraszt szint</laWDRContrast>
+			<laBLC>BLC</laBLC>
+			<laBLCMode tag="label;" length="308">BLC terület</laBLCMode>
+			<laBLCLevel tag="label;" length="308">BLC szint</laBLCLevel>
+			<laWhiteBlance tag="label;" length="120">Fehéregyensúly</laWhiteBlance>
+			<laWhiteBlanceRed tag="label;" length="308">Szélessávú erősítés R</laWhiteBlanceRed>
+			<laWhiteBlanceBlue tag="label;" length="308">Szélessávú erősítés B</laWhiteBlanceBlue>
+			<laNosiseReduce tag="label;" length="308">Digitális zajszűrés</laNosiseReduce>
+			<laGeneralLevel tag="label;" length="308">Zajcsökkentés szintje</laGeneralLevel>
+			<laInterFrameNoiseReduce tag="label;" length="308">DNR szint idő</laInterFrameNoiseReduce>
+			<laFrameNoiseReduce tag="label;" length="308">Terület DNR szintje</laFrameNoiseReduce>
+			<IrisFirst>A fényrekesz elsődlegesség</IrisFirst>
+			<ShutterFirst>Zár-prioritás</ShutterFirst>
+			<GainFirst>Erősítés elsőbbség</GainFirst>
+			<FocusModeAutoManual>Félautomatikus</FocusModeAutoManual>
+			<IrcutFilterTypeDay tag="option;" length="176">Nap</IrcutFilterTypeDay>
+			<IrcutFilterTypeNight tag="option;" length="176">Éjszaka</IrcutFilterTypeNight>
+			<ImageFlipStyleLR tag="option;" length="176">Bal/Jobb</ImageFlipStyleLR>
+			<ImageFlipStyleUD tag="option;" length="176">Fel/Le</ImageFlipStyleUD>
+			<BLCModeUp>Fel</BLCModeUp>
+			<BLCModeDown>Le</BLCModeDown>
+			<BLCModeLeft>Bal</BLCModeLeft>
+			<BLCModeRight>Jobb</BLCModeRight>
+			<WhiteBlanceStyleAuto tag="option;" length="176">Auto</WhiteBlanceStyleAuto>
+			<WhiteBlanceStyle1 tag="option;" length="176">AWB1</WhiteBlanceStyle1>
+			<WhiteBlanceStyle2 tag="option;" length="176">AWB2</WhiteBlanceStyle2>
+			<WhiteBlanceStyleManual>MWB</WhiteBlanceStyleManual>
+			<AutoTracing>Autotrace WB</AutoTracing>
+			<NosiseReduceGeneral>Normál mód</NosiseReduceGeneral>
+			<NosiseReduceAdvanced>Haladó mód</NosiseReduceAdvanced>
+			<ImageResetbutton>Mechanikai mozgatás vissszaállítása</ImageResetbutton>
+			<ImageRestorebutton>Visszaállítás</ImageRestorebutton>
+			<laScene tag="label;" length="120">Beltéri/kültéri üzemmód</laScene>
+			<SceneOptionIndoor tag="option;" length="176">Beltér</SceneOptionIndoor>
+			<SceneOptionOutdoor tag="option;" length="176">Kültér</SceneOptionOutdoor>
+			<laAutoIrisLevel tag="label;" length="308">Auto fényrekesz szint</laAutoIrisLevel>
+			<laEnableDehaze>Fátyolosság engedélyezése</laEnableDehaze>
+			<laDehazeLevel>Fátyolosság szintje</laDehazeLevel>
+			<laEPTZ>E-PTZ</laEPTZ>
+			<laZoomLimit>Nagyítási korlát</laZoomLimit>
+			<laEIS>EIS</laEIS>
+			<SodiumLight>Incandescent Lamp</SodiumLight>
+			<MercuryLight>Higanygőzlámpa</MercuryLight>
+			<Onepush>egygombos</Onepush>
+			<laIRLightMode>IR mód</laIRLightMode>
+			<laIRLightBright>IR fényesség</laIRLightBright>
+			<laIRLightSen>IR érzékenység</laIRLightSen>
+			<laExposureType>Expozíciós mód</laExposureType>
+			<laShutterLevel>Zár</laShutterLevel>
+			<laEISLevel>EIS szint</laEISLevel>
+			<laChromaSuppress>Kroma. elnyomás</laChromaSuppress>
+			<laHLC>HLC</laHLC>
+			<laHLCLevel>HLC szint</laHLCLevel>
+			<laExpComp>Exp. komp.</laExpComp>
+			<laGamaCorrect>Gamma korrekció</laGamaCorrect>
+			<laSharpnessMode>Élességi mód</laSharpnessMode>
+			<laDecodeMode>Korrekciós mód</laDecodeMode>
+			<laSoftware>Szoftver</laSoftware>
+			<laHardware>Hardver</laHardware>
+			<laEnhancement>Megvilágítás kibővítése</laEnhancement>
+			<laGrayScale>Szürkeskála</laGrayScale>
+			<Schedule>Ütemezés</Schedule>
+			<EventTrigger>Kioldás esemény hatására</EventTrigger>
+			<laOverExposeSuppress>Túlexponálás megakadályozása</laOverExposeSuppress>
+			<daylightLamp>Fénycső</daylightLamp>
+			<laTriggerMode>Állapot</laTriggerMode>
+			<OutdoorAuto>Auto.kültéri</OutdoorAuto>
+			<SodiumLightAuto>Auto.nátriumlámpa</SodiumLightAuto>
+			<WarmLightLamp>Meleg fényű lámpa</WarmLightLamp>
+			<NaturalLight>Term.-es fény</NaturalLight>
+			<IncandescentLamp>Incandescent Lamp</IncandescentLamp>
+			<WBLocked>Lezárt WB</WBLocked>
+		</Page>
+		<Js>
+			<jsResetimage>Újraindítja?</jsResetimage>
+			<jsResetSucceed>Sikerült, a visszaállítás kész.</jsResetSucceed>
+			<jsResetFailed>A mechanikai mozgatás visszaállítása sikertelen.</jsResetFailed>
+			<jsResetWaiting>Mechanikai mozgatás visszaállítva..</jsResetWaiting>
+			<jsRestoreimage>Visszaállítja az alapértelmezett beállításokat?</jsRestoreimage>
+			<jsRestoreSucceed>A mechanikai mozgatás visszaállítása az alapértelmezettre sikeres.</jsRestoreSucceed>
+			<jsRestoreFailed>A mechanikai mozgatás visszaállítása az alapértelmezettre sikertelen.</jsRestoreFailed>
+			<jsRestoreWaiting>A mechanikai mozgatás az alapértelmezett beállítások között található…</jsRestoreWaiting>
+			<jsScheduleTimeRange>A kezdő és a záró időpont között legalább 10 másodpercnek kell lennie.</jsScheduleTimeRange>
+		</Js>
+	</BaseVideoSettings>
+	<OSDSettings>
+		<Page>
+			<laSpanTitle>Kijelző beállítása</laSpanTitle>
+			<laOSDConfig>OSD beállítások</laOSDConfig>
+			<laIsShowChanNme tag="label;" length="120">Név megjelenítése</laIsShowChanNme>
+			<laIsShowOSD tag="label;" length="120">Dátum megjelenítése</laIsShowOSD>
+			<laIsShowWeek tag="label;" length="120">Hét megjelenítése</laIsShowWeek>
+			<laHourOSDType tag="label;" length="120">Időformátum</laHourOSDType>
+			<HourOSDTypeOpt1 tag="option;" length="176">12 óra</HourOSDTypeOpt1>
+			<HourOSDTypeOpt2 tag="option;" length="176">24 órás</HourOSDTypeOpt2>
+			<laOSDType tag="label;" length="120">Dátumformátum</laOSDType>
+			<OSDTypeOpt1 tag="option;" length="176">ÉÉÉÉ-HH-NN</OSDTypeOpt1>
+			<OSDTypeOpt2 tag="option;" length="176">HH-NN-ÉÉÉÉ</OSDTypeOpt2>
+			<OSDTypeOpt3 tag="option;" length="176">ÉÉÉÉ HH NN</OSDTypeOpt3>
+			<OSDTypeOpt4 tag="option;" length="176">HH NN ÉÉÉÉ</OSDTypeOpt4>
+			<OSDTypeOpt5 tag="option;" length="176">NN-HH-ÉÉÉÉ</OSDTypeOpt5>
+			<OSDTypeOpt6 tag="option;" length="176">NN HH ÉÉÉÉ</OSDTypeOpt6>
+			<OSDTypeOpt7 tag="option;" length="176">HH/NN/ÉÉÉÉ</OSDTypeOpt7>
+			<OSDTypeOpt8 tag="option;" length="176">ÉÉÉÉ/HH/NN</OSDTypeOpt8>
+			<OSDTypeOpt9 tag="option;" length="176">NN/HH/ÉÉÉÉ</OSDTypeOpt9>
+			<laChannelNameXPos>Kameranév X koord.</laChannelNameXPos>
+			<laChannelNameYPos>Kameranév Y koord.</laChannelNameYPos>
+			<laOSDAttrib tag="label;" length="120">Megjelenítési mód</laOSDAttrib>
+			<OSDAttribOpt1 tag="option;" length="176">Átlátszó és villog</OSDAttribOpt1>
+			<OSDAttribOpt2 tag="option;" length="176">Átlátszó, nem villog</OSDAttribOpt2>
+			<OSDAttribOpt3 tag="option;" length="176">Nem átlátszó, villog</OSDAttribOpt3>
+			<OSDAttribOpt4 tag="option;" length="176">Nem átlátszó, nem villog</OSDAttribOpt4>
+			<laOSDFontSize tag="label;" length="609">OSD méret</laOSDFontSize>
+			<OSDFontSizeOpt1 tag="option;" length="178">Kicsi</OSDFontSizeOpt1>
+			<OSDFontSizeOpt3 tag="option;" length="178">nagy</OSDFontSizeOpt3>
+		</Page>
+		<Js>
+			<ChannelNameXTips>Név X-koordinátája</ChannelNameXTips>
+			<ChannelNameYTips>Név Y-koordinátája</ChannelNameYTips>
+		</Js>
+		<General>
+			<laOSDXPos>Dátum X-koordináta</laOSDXPos>
+			<laOSDYPos>Dátum Y-koordináta</laOSDYPos>
+		</General>
+	</OSDSettings>
+	<TextOverlay>
+		<Page>
+			<laStringOverLay>Szöveg átfedés beállításai</laStringOverLay>
+			<laStrContent>Szöveg</laStrContent>
+		</Page>
+		<Js>
+			<CharNameLengthTips>A maximális hossz: 44</CharNameLengthTips>
+		</Js>
+	</TextOverlay>
+	<VideoMask>
+		<Page>
+			<laUseCover tag="label;" length="308">Privát maszk engedélyezése</laUseCover>
+		</Page>
+		<Js>
+		</Js>
+	</VideoMask>
+	<PictureOverlay>
+		<Page>
+			<laPicUpload>Kép feltöltése</laPicUpload>
+			<laOverlaySetting>Felirat-paraméterek beállítása</laOverlaySetting>
+			<laEnablePicOverlay>Képfelirat engedélyezése</laEnablePicOverlay>
+			<laPicWidth>Kép szélessége</laPicWidth>
+			<laPicHeight>Kép magassága</laPicHeight>
+		</Page>
+		<Js>
+		</Js>
+	</PictureOverlay>
+</VideoSettings>

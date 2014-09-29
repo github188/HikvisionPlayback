@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Events>
+	<Common>
+		<Page>
+			<aBlockAlarm tag="a;" length="9999">遮蔽警報</aBlockAlarm>
+			<aVideoLost tag="a;" length="9999">影像遺失</aVideoLost>
+			<aCapturePlan tag="a;" length="9999">擷圖</aCapturePlan>
+			<aOtherAlarm>其他警報</aOtherAlarm>
+			<laTimeTabDivBtn tag="label;" length="670">警戒時間</laTimeTabDivBtn>
+			<laLinkageTabDivBtn tag="label;" length="670">聯動方式</laLinkageTabDivBtn>
+			<laSensitivity tag="label;" length="85">靈敏度</laSensitivity>
+			<!--<laCommonLinkage>Alarm Linking</laCommonLinkage>-->
+			<!--DVR的，需要修改DVR网页name-->
+			<laNormalLink tag="label;" length="215">常規聯動</laNormalLink>
+			<laMonitorAlarm>全螢幕監控</laMonitorAlarm>
+			<laSoundAlarm tag="label;" length="130">聲音警報</laSoundAlarm>
+			<laUpload tag="label;" length="130">上傳中心</laUpload>
+			<laEmail tag="label;" length="130">郵件發送</laEmail>
+			<laLinkageAlarmOutput tag="label;" length="116">聯動警報輸出</laLinkageAlarmOutput>
+			<laScheduleEdit tag="label;">編輯排程設定</laScheduleEdit>
+			<laOtherLink tag="label;" length="271">其他聯動</laOtherLink>
+			<BlockSensitiveOpt1>低</BlockSensitiveOpt1>
+			<BlockSensitiveOpt2>中</BlockSensitiveOpt2>
+			<BlockSensitiveOpt3>高</BlockSensitiveOpt3>
+			<laAlarmname tag="label;" length="150">警報名稱</laAlarmname>
+			<laCopyalarm tag="label;" length="670">複製到警報量</laCopyalarm>
+			<laTrigglerecord tag="label;" length="130">錄影聯動</laTrigglerecord>
+			<laUpdateToFTP tag="label;" length="130">上傳FTP</laUpdateToFTP>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laCaptureInterval tag="label;" length="100">擷圖間隔</laCaptureInterval>
+		</General>
+	</Common>
+	<MotionDetection>
+		<Page>
+			<laUseMotion tag="label;" length="133">啟用移動偵測</laUseMotion>
+			<laHighLight>啟用動態分析</laHighLight>
+		</Page>
+		<Js>
+		</Js>
+	</MotionDetection>
+	<TamperProof>
+		<Page>
+			<laUseKeepout tag="label;" length="671">啟用遮蔽警報</laUseKeepout>
+		</Page>
+		<Js>
+		</Js>
+	</TamperProof>
+	<VideoLoss>
+		<Page>
+			<laUseVideoLost tag="label;" length="671">啟用影像遺失</laUseVideoLost>
+		</Page>
+		<Js>
+		</Js>
+	</VideoLoss>
+	<AlarmInput>
+		<Page>
+			<DVR>
+				<laSpanTitle>警報輸入設定</laSpanTitle>
+			</DVR>
+			<laAlarminnumber tag="label;" length="150">警報輸入編號</laAlarminnumber>
+			<laAlarmtype tag="label;" length="150">警報類型</laAlarmtype>
+			<triggeringOpt1 tag="option;" length="198">常關</triggeringOpt1>
+			<triggeringOpt2 tag="option;" length="198">常開</triggeringOpt2>
+			<laTriggleptz tag="label;" length="212">PTZ聯動攝影機</laTriggleptz>
+			<laPresetnumer tag="label;" length="100">預設點編號</laPresetnumer>
+			<laCurisenumber tag="label;" length="100">巡邏編號</laCurisenumber>
+			<laTrackid tag="label;" length="100">軌跡編號</laTrackid>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmInput>
+	<AlarmOutput>
+		<Page>
+			<DVR>
+				<laSpanTitle>警報輸出設定</laSpanTitle>
+			</DVR>
+			<laAlarmoutnumber tag="label;" length="150">警報輸出設定</laAlarmoutnumber>
+			<laDefaultstate tag="label;" length="150">預設狀態</laDefaultstate>
+			<defaultStateOpt1 tag="option;" length="198">高電平</defaultStateOpt1>
+			<defaultStateOpt2 tag="option;" length="198">低電平</defaultStateOpt2>
+			<laTrigglestate tag="label;" length="150">觸發狀態</laTrigglestate>
+			<outputState1 tag="option;" length="198">脈衝</outputState1>
+			<pulseDurationOpt1 tag="option;" length="198">5秒</pulseDurationOpt1>
+			<pulseDurationOpt2 tag="option;" length="198">10秒</pulseDurationOpt2>
+			<pulseDurationOpt3 tag="option;" length="198">30秒</pulseDurationOpt3>
+			<pulseDurationOpt4 tag="option;" length="198">1min</pulseDurationOpt4>
+			<pulseDurationOpt5 tag="option;" length="198">2分</pulseDurationOpt5>
+			<pulseDurationOpt6 tag="option;" length="198">5分</pulseDurationOpt6>
+			<pulseDurationOpt7 tag="option;" length="198">10分</pulseDurationOpt7>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmOutput>
+	<Exception>
+		<Page>
+			<DVR>
+				<laSpanTitle>異常設定</laSpanTitle>
+			</DVR>
+			<laExceptionType tag="label;" length="150">異常類型</laExceptionType>
+			<ExceptionTypeOpt3 tag="option;" length="198">網路中斷</ExceptionTypeOpt3>
+			<ExceptionTypeOpt4 tag="option;" length="198">IP位址衝突</ExceptionTypeOpt4>
+			<ExceptionTypeOpt5 tag="option;" length="198">非法登入</ExceptionTypeOpt5>
+			<ExceptionTypeOpt6>影像輸入/輸出格式不一致</ExceptionTypeOpt6>
+			<ExceptionTypeOpt7>影像信號異常</ExceptionTypeOpt7>
+			<ExceptionTypeOpt8>錄影/擷圖異常</ExceptionTypeOpt8>
+			<ExceptionTypeOpt9>前端/錄影解析度不一致</ExceptionTypeOpt9>
+		</Page>
+		<Js>
+		</Js>
+	</Exception>
+	<Email>
+		<Page>
+			<DVR>
+				<laSpanTitle>郵件</laSpanTitle>
+			</DVR>
+			<laServerAuthentication tag="label;" length="670">伺服器認證</laServerAuthentication>
+			<laSMTPServer>SMTP伺服器</laSMTPServer>
+			<laUseSSL tag="label;" length="670">啟用SSL</laUseSSL>
+			<laMailInterval tag="label;" length="150">擷圖間隔</laMailInterval>
+			<MailIntervalOpt1 tag="option;" length="198">2秒</MailIntervalOpt1>
+			<MailIntervalOpt2 tag="option;" length="198">3秒</MailIntervalOpt2>
+			<MailIntervalOpt3 tag="option;" length="198">4秒</MailIntervalOpt3>
+			<MailIntervalOpt4 tag="option;" length="198">5秒</MailIntervalOpt4>
+			<laAttachment tag="label;" length="314">圖片附件</laAttachment>
+			<laEmailAdd>E-mail位址</laEmailAdd>
+			<laChooseReceiver tag="label;" length="150">選擇收件人</laChooseReceiver>
+			<laReceiver tag="label;" length="670">收件人</laReceiver>
+			<laSender tag="label;" length="670">發件人</laSender>
+			<ReceiverNumOpt1 tag="option;" length="198">收件人1名稱</ReceiverNumOpt1>
+			<ReceiverNumOpt2 tag="option;" length="198">收件人2名稱</ReceiverNumOpt2>
+			<ReceiverNumOpt3 tag="option;" length="198">收件人3</ReceiverNumOpt3>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laSenderName tag="label;" length="150">發件人</laSenderName>
+			<laSenderAddress tag="label;" length="150">發件人位址</laSenderAddress>
+			<laReceiverName tag="label;" length="150">收件人</laReceiverName>
+			<laReceiverAddress tag="label;" length="150">收件人位址</laReceiverAddress>
+			<laReceiverName1 tag="label;" length="150">收件人1名稱</laReceiverName1>
+			<laReceiverName2 tag="label;" length="150">收件人2名稱</laReceiverName2>
+			<laReceiverAddress1 tag="label;" length="150">收件人1位址</laReceiverAddress1>
+			<laReceiverAddress2 tag="label;" length="150">收件人2位址</laReceiverAddress2>
+			<laSMTPPort tag="label;" length="150">SMTP埠</laSMTPPort>
+		</General>
+	</Email>
+	<CapturePlan>
+		<Page>
+			<laTimingCapture tag="label;" length="670">排程</laTimingCapture>
+			<laEventCapture tag="label;" length="670">事件觸發</laEventCapture>
+			<laUseTimingCapture tag="label;" length="651">啟用定時擷圖</laUseTimingCapture>
+			<laUseEventCapture tag="label;" length="651">啟用事件擷圖</laUseEventCapture>
+			<laPictureCodecType tag="label;" length="100">格式化</laPictureCodecType>
+			<laPictureQuality tag="label;" length="100">圖片品質</laPictureQuality>
+			<laMillisecond>毫秒</laMillisecond>
+			<optionMillisecond tag="option;" length="78">毫秒</optionMillisecond>
+			<optionMinute tag="option;" length="78">分鐘</optionMinute>
+			<optionHour tag="option;" length="78">小時</optionHour>
+			<laCaptureNum>擷圖數量</laCaptureNum>
+		</Page>
+	</CapturePlan>
+	<OtherAlarm>
+		<Page>
+			<laEnableWirelessAlarm>是否啟用無線警報</laEnableWirelessAlarm>
+			<laEnablePIRAlarm>是否啟用PIR警報</laEnablePIRAlarm>
+			<laTriggerWirelessAlarm>聯動無線警報</laTriggerWirelessAlarm>
+			<laLightAudioAlarm>無線聲光警報器</laLightAudioAlarm>
+			<laSelWirelessAlarm>選擇無線警報</laSelWirelessAlarm>
+		</Page>
+	</OtherAlarm>
+</Events>

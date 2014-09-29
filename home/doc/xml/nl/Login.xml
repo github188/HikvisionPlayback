@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">Gebruiker</lausername>
+		<lapassword tag="label;" length="70">Wachtwoord</lapassword>
+		<lalogin tag="label;" length="70">Inloggen</lalogin>
+		<laAnonymous>Anoniem</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>Voer de gebruikersnaam in.</LoginTips1>
+		<LoginTips2>Gebruikersnaam mag niet langer zijn dan 16 tekens.</LoginTips2>
+		<LoginTips3>Het wachtwoord mag maximaal 16 tekens lang zijn.</LoginTips3>
+		<LoginTips4>Gebruikersnaam of wachtwoord is onjuist. Probeer opnieuw.</LoginTips4>
+		<LoginTips5>Voer het wachtwoord in.</LoginTips5>
+		<NetworkErrorTips>Netwerk abnormaal</NetworkErrorTips>
+		<ConnectTimeoutTips>Verbindingsonderbreking.</ConnectTimeoutTips>
+		<CookieTips>Zet de cookie van de browser eerst aan.</CookieTips>
+	</Js>
+</Login>

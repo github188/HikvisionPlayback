@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Network>
+	<Common>
+		<Page>
+			<laNetWorkMode>Λειτ. εργασίας</laNetWorkMode>
+			<laEAPOLVersion tag="label;" length="150">Έκδοση EAPOL</laEAPOLVersion>
+			<laFriendlyName>Ονομα</laFriendlyName>
+		</Page>
+		<Js>
+		    <jsPortConflict>Υπάρχει διένεξη θυρών.</jsPortConflict>
+		</Js>
+		<General>
+			<gePort tag="label;" length="150">Θύρα</gePort>
+		</General>
+	</Common>
+	<IpConfig>
+		<Page>
+			<NetworkModeOpt1>Περιθ. σφάλμ. δικτ.</NetworkModeOpt1>
+			<NetworkModeOpt2>Ισορροπία φορτίου</NetworkModeOpt2>
+			<NetworkModeOpt3>Πολλαπλ. διευθύνσ.</NetworkModeOpt3>
+			<laNetCardConfig tag="label;" length="670">Ρυθμίσεις NIC</laNetCardConfig>
+			<laSelectNetCard>Επιλογή NIC</laSelectNetCard>
+			<laNetworkType tag="label;" length="150">Τύπος NIC</laNetworkType>
+			<NetworkTypeOpt1 tag="option;" length="198">10M Ημιαμφίδρομο</NetworkTypeOpt1>
+			<NetworkTypeOpt2 tag="option;" length="198">10M Πλήρως αμφίδρομο</NetworkTypeOpt2>
+			<NetworkTypeOpt3 tag="option;" length="198">100M Ημιαμφίδρομο</NetworkTypeOpt3>
+			<NetworkTypeOpt4 tag="option;" length="198">100M Πλήρως αμφίδρ.</NetworkTypeOpt4>
+			<NetworkTypeOpt5 tag="option;" length="198">10M/100M/1000M Auto</NetworkTypeOpt5>
+			<NetworkTypeOpt6 tag="option;" length="198">1000M Πλήρως αμφίδρ.</NetworkTypeOpt6>
+			<laDeviceIpAdd tag="label;" length="150">Διεύθυνση IPv4</laDeviceIpAdd>
+			<laDHCP tag="label;" length="670">DHCP</laDHCP>
+			<laSubNetMask tag="label;" length="150">Μάσκα υποδ. IPv4</laSubNetMask>
+			<laDefaultGateWay tag="label;" length="150">Προεπιλ. πύλη IPv4</laDefaultGateWay>
+			<laDeviceIpV6Add>Διεύθυνση IPv6</laDeviceIpV6Add>
+			<laDefaultV6GateWay>Προεπιλ. πύλη IPv6</laDefaultV6GateWay>
+			<laDNSServerConfig tag="label;" length="670">Διακομιστής DNS</laDNSServerConfig>
+			<laPrimaryDNS tag="label;" length="150">Προτιμ. διακ. DNS</laPrimaryDNS>
+			<laDNSServer2IP tag="label;" length="150">Εφεδρ. διακ. DNS</laDNSServer2IP>
+			<laPrimayEthernet>Κύριο NIC</laPrimayEthernet>
+			<laMulticast tag="label;" length="150">Διεύθ. πολλ. διαν.</laMulticast>
+		</Page>
+		<Js>
+			<jsMaskAdd>Μάσκα υποδ</jsMaskAdd>
+			<jsGateAdd>Πύλη</jsGateAdd>
+			<jsMtuParam>MTU</jsMtuParam>
+			<jsFirstDNS>Προτιμώμενη διεύθυνση DNS</jsFirstDNS>
+			<jsSecondDNS>Εναλλακτική διεύθυνση DNS</jsSecondDNS>
+			<MaskAddInvalidTips>Μη έγκυρη διεύθυνση μάσκας υποδικτύου.</MaskAddInvalidTips>
+			<jsMulticastRange>Το πρώτο τμήμα της διεύθυνσης IP πρέπει να είναι ακέραιος μεταξύ 224 και 239.</jsMulticastRange>
+		</Js>
+	</IpConfig>
+	<PortConfig>
+		<Page>
+			<laHttpPort tag="label;" length="150">Θύρα HTTP</laHttpPort>
+			<laRtspPort tag="label;" length="150">Θύρα RTSP</laRtspPort>
+			<laHttpsPort tag="label;" length="150">Θύρα HTTPS</laHttpsPort>
+			<laSDKPort>Θύρα SDK</laSDKPort>
+		</Page>
+		<Js>
+			<jsHttpPortParam>Θύρα HTTP </jsHttpPortParam>
+			<jsRtspPortParam>Θύρα RTSP </jsRtspPortParam>
+			<jsHttpsPortParam>Θύρα HTTPS </jsHttpsPortParam>
+		</Js>
+	</PortConfig>
+	<DDNS>
+		<Page>
+			<laUseDDNS tag="label;" length="670">Ενεργοπ. DDNS</laUseDDNS>
+			<laDDNSType tag="label;" length="150">Τύπος DDNS</laDDNSType>
+		</Page>
+		<Js>
+			<jsDomainAlreadyExist>Ο τομέας υπάρχει ήδη</jsDomainAlreadyExist>
+		</Js>
+		<General>
+			<laDeviceDomain tag="label;" length="150">Τομέας</laDeviceDomain>
+		</General>
+	</DDNS>
+	<PPPoE>
+		<Page>
+			<laUsePPPOE tag="label;" length="670">Ενεργοπ. PPPoE</laUsePPPOE>
+			<laDevicePPPOEIP tag="label;" length="150">Δυναμική IP</laDevicePPPOEIP>
+		</Page>
+		<Js>
+			<jsPPPOEName>Όνομα PPPoE </jsPPPOEName>
+			<jsPPPOEPassword>Κωδικός πρόσβασης PPPoE </jsPPPOEPassword>
+		</Js>
+	</PPPoE>
+	<SNMP>
+		<Page>
+			<laEnableV1 tag="label;" length="150">Ενεργ. SNMPv1</laEnableV1>
+			<laEnableV2c tag="label;" length="150">Ενεργ. SNMP v2c</laEnableV2c>
+			<laRwCommunity tag="label;" length="150">Εγγ. κοιν. SNMP</laRwCommunity>
+			<laRCommunity tag="label;" length="150">Ανάγν. κοιν. SNMP</laRCommunity>
+			<laTrapIP tag="label;" length="150">Διεύθ. παγίδας</laTrapIP>
+			<laTrapPort tag="label;" length="150">Θύρα παγίδας</laTrapPort>
+			<laTrapCommunity tag="label;" length="150">Κοινότ. παγίδων</laTrapCommunity>
+			<laEnableV3c tag="label;" length="150">Ενεργοπ. SNMPv3</laEnableV3c>
+			<laRUserName tag="label;" length="150">Ανάγν. ονόμ. χρ</laRUserName>
+			<laRwUserName tag="label;" length="150">Εγγρ. ονόμ. χρ.</laRwUserName>
+			<laSecurityLevel tag="label;" length="150">Επίπ. ασφάλειας</laSecurityLevel>
+			<laAuthAlg tag="label;" length="150">Αλγόρ. ελ. ταυτ</laAuthAlg>
+			<laAuthPsd tag="label;" length="150">Κωδ. πρ. ελ. ταυτ</laAuthPsd>
+			<laPrivacyAlg tag="label;" length="150">Αλγ. ιδιωτ. κλ.</laPrivacyAlg>
+			<laPrivacyPsd tag="label;" length="150">Κωδ. ιδιωτ. κλ.</laPrivacyPsd>
+			<laSNMPPort tag="label;" length="150">Θύρα SNMP</laSNMPPort>
+			<laSNMPMore tag="label;" length="670">Άλλες ρυθμ SNMP</laSNMPMore>
+		</Page>
+		<Js>
+			<jsOneLeast>Πρέπει να ενεργοποιηθεί τουλάχιστον ένας τύπος SNMP.</jsOneLeast>
+			<jsTrapIp>Διεύθυνση IP παγίδας</jsTrapIp>
+		</Js>
+	</SNMP>
+	<P8021x>
+		<Page>
+			<laEnable8021x tag="label;" length="131">Ενεργ. IEEE 802.1X</laEnable8021x>
+		</Page>
+		<Js>
+		</Js>
+	</P8021x>
+	<QoS>
+		<Page>
+			<laVideoDSCP tag="label;" length="150">Εικόνα/Ήχος DSCP</laVideoDSCP>
+			<laEADSCP tag="label;" length="150">Συμβ./Συν. DSCP</laEADSCP>
+			<laManageDSCP tag="label;" length="150">DSCP διαχείρ.</laManageDSCP>
+			<laEnableQoS>Ενεργοποίηση QoS</laEnableQoS>
+		</Page>
+		<Js>
+		</Js>
+	</QoS>
+	<Socks>
+		<Page>
+			<laEnableSocks>Ενεργοποίηση SOCKS</laEnableSocks>
+			<laSocksServerAddr>Διακομιστής</laSocksServerAddr>
+			<laSocksServerPort>Θύρα διακομιστή</laSocksServerPort>
+			<laSocksVersion>Τύπος διακομιστή</laSocksVersion>
+			<laLocalList>Τοπικά δίκτυα</laLocalList>
+			<laLocalTips>Χρησιμοποιήστε το ερωτηματικό (;) για το διαχωρισμό τοπικών δικτύων</laLocalTips>
+		</Page>
+		<Js>
+		</Js>
+	</Socks>
+	<UPnP>
+		<Page>
+			<laEnableUPnP>Ενεργοποίηση UPnP</laEnableUPnP>
+			<laHttpPortMap>Αντιστοίχιση θυρών HTTP</laHttpPortMap>
+			<laManagePortMap>Αντιστοίχιση θυρών συσκευής</laManagePortMap>
+			<laRtspPortMap>Αντιστοίχιση θυρών RTSP</laRtspPortMap>
+			<laHttpsPortMap>Αντιστοίχιση θυρών HTTPS</laHttpsPortMap>
+			<laNatRouterLanAddr>Διεύθυνση δρομολογητή NAT</laNatRouterLanAddr>
+			<laEnableUPnPNat>Ενεργοποίηση UPnP™ NAT</laEnableUPnPNat>
+			<laUPnPMapType>Τύπος Mapping Port</laUPnPMapType>
+			<laPortsMap>Αντιστοίχιση θυρών</laPortsMap>
+			<laProtocolName>Πρωτόκολλο</laProtocolName>
+			<laExternalPort>Εξωτ. θύρα</laExternalPort>
+			<laEnablePortMap>Ενεργ. αντ. θυρών</laEnablePortMap>
+			<laNatMapType>Τύπ. αντιστ NAT</laNatMapType>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<geValid>Έγκυρο</geValid>
+			<geNotValid>Μη έγκυρο</geNotValid>
+		</General>
+	</UPnP>
+	<Bonjour>
+		<Page>
+			<laEnableBonjour>Ενεργοποίηση Bonjour</laEnableBonjour>
+		</Page>
+		<Js>
+		</Js>
+	</Bonjour>
+	<HTTPS>
+		<Page>
+			<laCreate>Δημιου</laCreate>
+			<laCreateSelfCertificate>Δημιουργία αυτο-υπογεγραμμένου πιστοποιητικού</laCreateSelfCertificate>
+			<laCreateCertificateReq>Δημιουργία αίτησης πιστοποιητικού</laCreateCertificateReq>
+			<laInstallSignedCertificate>Εγκατάσταση υπογεγραμμένου πιστοποιητικού</laInstallSignedCertificate>
+			<laCreatedRequest>Αίτηση που δημιουργήθηκε</laCreatedRequest>
+			<laInstalledCertificate>Εγκατεστημένο πιστοποιητικό</laInstalledCertificate>
+			<laRemove>Διαγραφή</laRemove>
+			<laValidity>Εγκυρότητα</laValidity>
+			<laCountry>Χώρα</laCountry>
+			<laStateOrProvince>Νομός ή επαρχία</laStateOrProvince>
+			<laLocality>Τοποθεσία</laLocality>
+			<laOrganization>Οργανισμός</laOrganization>
+			<laOrganizationalUnit>Οργανωτική μονάδα</laOrganizationalUnit>
+			<laCommonName>IP /  Ονομα Domain</laCommonName>
+			<laCertificatePath>Διαδρομή πιστοποιητικού</laCertificatePath>
+			<laExample>παράδειγμα</laExample>
+			<laConfirmInstall>Βεβαιωθείτε ότι το πιστοποιητικό είναι ήδη εγκατεστημένο</laConfirmInstall>
+		</Page>
+		<Js>
+		</Js>
+	</HTTPS>
+	<FTP>
+		<Page>
+			<laPathDepth tag="label;" length="150">Δομή καταλόγου</laPathDepth>
+			<laTopPath tag="label;" length="150">Γονικός κατάλ.</laTopPath>
+			<laSubPath tag="label;" length="150">Θυγατρ. κατάλ.</laSubPath>
+			<laUploadType tag="label;" length="150">Τύπος αποστολής</laUploadType>
+			<laUploadPicture tag="label;" length="150">Αποστολή εικ.</laUploadPicture>
+			<laUploadVideoClip>Αποστ. κλιπ βίντ</laUploadVideoClip>
+			<optPathDepth1 tag="option;" length="198">Αποθ. στο ριζ. κατάλ</optPathDepth1>
+			<optPathDepth2 tag="option;" length="198">Αποθ. στο γον. κατ.</optPathDepth2>
+			<optPathDepth3 tag="option;" length="198">Αποθ. στο θυγ. κατ.</optPathDepth3>
+			<optTopPath1 tag="option;" length="198">Χρήση ονόμ. συσκευής</optTopPath1>
+			<optTopPath2 tag="option;" length="198">Χρήση αρ. συσκευής</optTopPath2>
+			<optTopPath3 tag="option;" length="198">Χρήση διεύθ. IP συσκ</optTopPath3>
+			<optSubPath1 tag="option;" length="198">Χρήση ονόμ. κάμερας</optSubPath1>
+			<optSubPath2 tag="option;" length="198">Χρήση αρ. κάμερας</optSubPath2>
+			<laSelectFtp>Επιλογή FTP</laSelectFtp>
+			<laEnableFTP tag="label;" length="670">Ενεργοποίηση FTP</laEnableFTP>
+		</Page>
+		<Js>
+		</Js>
+	</FTP>
+	<WIFI>
+		<Page>
+			<laWirelessList>Λίστα ασύρματων</laWirelessList>
+			<laSecurityMode>Λειτ. ασφάλειας</laSecurityMode>
+			<laChannel>Κανάλι</laChannel>
+			<laSignalStrength>Ισχύς σήματος</laSignalStrength>
+			<laSpeed>Ταχύτητα</laSpeed>
+			<laWirelessNetworkMode>Λειιτ. δικτύου</laWirelessNetworkMode>
+			<laEncryptionType>Τύπος κωδικοπ.</laEncryptionType>
+			<laOpen>Άνοιγμα</laOpen>
+			<laShared>Κοινόχρηστο</laShared>
+			<laKeyLength>Μήκος κλειδιού</laKeyLength>
+			<laKeyType>Τύπος κλειδιού</laKeyType>
+			<laHex>HEX</laHex>
+			<laKey>Κλειδί</laKey>
+			<laPEAPVersion>Έκδοση PEAP</laPEAPVersion>
+			<laPEAPLabel>Ετικέτα PEAP</laPEAPLabel>
+			<laInnerAuthenticationMode>Εσωτερικός έλεγχος ταυτότητας</laInnerAuthenticationMode>
+			<laAnonymousID>Ανώνυμη ταυτότητα</laAnonymousID>
+			<laIdentify>Ταυτότητα</laIdentify>
+			<laPrivateKeyPassword>Κωδικός πρόσβασης ιδιωτικού κλειδιού</laPrivateKeyPassword>
+			<laCACertificate>Πιστοποιητικό CA</laCACertificate>
+			<laUserCertificate>Πιστοποιητικό χρήστη</laUserCertificate>
+			<laPrivateKeyCertificate>Ιδιωτικό κλειδί</laPrivateKeyCertificate>
+			<laEnableWPS>Ενεργοποίηση WPS</laEnableWPS>
+			<laPinCode>Κωδικός PIN</laPinCode>
+			<pinCodeGenerate>Δημιουργία</pinCodeGenerate>
+			<autoConnect>Σύνδεση PBC</autoConnect>
+			<manuConnect>Χρήση κωδικού PIN δρομολογητή</manuConnect>
+			<laApPinCode>Κωδικός PIN δρομολογητή</laApPinCode>
+			<laConnect>Σύνδεση</laConnect>
+			<laSSID>SSID</laSSID>
+		</Page>
+		<Js>
+			<jsTenHex>Εισαγάγετε 10 δεκαεξαδικούς χαρακτήρες</jsTenHex>
+			<jsXXVIHex>Εισαγάγετε 26 δεκαεξαδικούς χαρακτήρες</jsXXVIHex>
+			<jsFiveASCII>Εισαγάγετε 5 χαρακτήρες ASCII</jsFiveASCII>
+			<jsTenASCII>Εισαγάγετε 13 χαρακτήρες ASCII</jsTenASCII>
+			<jsEightMoreChar>Εισαγάγετε 8-63 χαρακτήρες</jsEightMoreChar>
+			<jsConnectSuc>Επιτυχής σύνδεση</jsConnectSuc>
+			<jsConnectFail>Ανεπιτυχής σύνδεση.</jsConnectFail>
+			<jsConnecting>Σύνδεση...</jsConnecting>
+		</Js>
+	</WIFI>
+</Network>

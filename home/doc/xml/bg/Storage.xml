@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">График Запис</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Управление дискове</aHardDisk>
+			<laAdvancedRecordCfg>Разширени настр.</laAdvancedRecordCfg>
+			<laExtractFrame>Извличане на кадър</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">Ном. HDD</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Един и същ NetHDD не може да се добави два пъти.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Път на файл</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Разширени</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Активиране график запис</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Активиране план снимки</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Преди-запис</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Без пред-запис</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5 сек</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10сек</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15 сек</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20 сек</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25 сек</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30 сек</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Неограничено</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">След-запис</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1мин</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2мин</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5мин</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10мин</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Резервен Запис</laRedundancyRec>
+			<laRecordOverWrite>Презапис</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Не</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Да</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Запис на звук</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Редактиране график запис</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Давност запис</geRecorderDuration>
+			<EndTimeRangeTips>Крайно време не може да превиши 24:00</EndTimeRangeTips>
+			<AdvancedTips>Разширени</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>HDD управление</laSpanTitle>
+				<laHardDiskNo>Ном. HDD</laHardDiskNo>
+				<laDiskProperty>Свойства</laDiskProperty>
+				<laDiskGroup>HDD група</laDiskGroup>
+				<laDiskInit>HDD инициализация</laDiskInit>
+				<laInitState>Статус иниц-я</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">Списък HDD у-ва</laDiskTitle>
+			<laCapacity tag="label;" length="100">Капацитет</laCapacity>
+			<laFreeSpace tag="label;" length="100">Своб. място</laFreeSpace>
+			<formatDisk tag="input;" length="74">Формат</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>HDD св-вата не могат да се редактират в този режим.</tipsNotSupportEdit>
+				<tipsFormatRo>Неуспешна инициализация. Не може да избирате HDD само за четене.</tipsFormatRo>
+				<tipsDisk>HDD</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Неинициализиран</tipsUnformatted>
+			<tipsError>Грешка</tipsError>
+			<tipsIdle>Покой</tipsIdle>
+			<tipsMismatch>Некоректен</tipsMismatch>
+			<tipsFormatting>Форматиране</tipsFormatting>
+			<tipsNotexist>Не съществува</tipsNotexist>
+			<tipsFormatSelect>Форматиране на HDD?</tipsFormatSelect>
+			<tipsFormatAll>HDD формат приключен</tipsFormatAll>
+			<tipsFormatFailed>Неуспешна HDD инициализация</tipsFormatFailed>
+			<tipsFormattingWait>Форматиране... Моля почакайте...</tipsFormattingWait>
+			<tipsSelectDisk>Моля, изберете HDD за формат</tipsSelectDisk>
+			<tipsStorageMode>Настройки дисково пространство</tipsStorageMode>
+			<tipsArray>Виртуален диск</tipsArray>
+			<jsComplete>Завършен</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>R/W</tipsRW>
+			<tipsRO>Само за четене</tipsRO>
+			<tipsRedund>Резервираност</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>Мрежов HDD</laSpanTitle>
+				<Property1Opt1>R/W</Property1Opt1>
+				<Property1Opt2>Само за четене</Property1Opt2>
+				<Property1Opt3>Резервираност</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Настр. Диск</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

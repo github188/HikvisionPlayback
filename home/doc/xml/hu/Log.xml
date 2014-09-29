@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<Log>
+	<Page>
+		<title>Napló keresése</title>
+		<laLogSearch tag="label;" length="196">Napló keresése</laLogSearch>
+		<laSaveLog tag="label;" length="216">Napló mentése</laSaveLog>
+		<laLogTime tag="label;" length="131">Idő</laLogTime>
+		<laLogMajorType tag="label;" length="109">Fő típus</laLogMajorType>
+		<laLogMinorType tag="label;" length="109">Másodrendű típus</laLogMinorType>
+		<laLogRemoteUser tag="label;" length="109">Távoli/helyi felh.</laLogRemoteUser>
+		<laLogRemoteIP tag="label;" length="109">Távoli host IP</laLogRemoteIP>
+		<laLogLocalUser>Helyi felhasználó</laLogLocalUser>
+		<ImgSearch>Keresés</ImgSearch>
+		<MajorTypeOptions>
+			<MajorTypeOpt1 tag="option;" length="198">Minden típus</MajorTypeOpt1>
+			<MajorTypeOpt2 tag="option;" length="198">Riasztás</MajorTypeOpt2>
+			<MajorTypeOpt4 tag="option;" length="198">Művelet</MajorTypeOpt4>
+		</MajorTypeOptions>
+		<MinorTypeAlarm>
+			<MinorTypeAlarmOpt1>All:Minden típus</MinorTypeAlarmOpt1>
+			<MinorTypeAlarmOpt2>alarmIn:Riasztás bemenet</MinorTypeAlarmOpt2>
+			<MinorTypeAlarmOpt3>alarmOut:Riasztás kimenet</MinorTypeAlarmOpt3>
+			<MinorTypeAlarmOpt4>motionStart:Mozgásérzékelés indítása</MinorTypeAlarmOpt4>
+			<MinorTypeAlarmOpt5>motionStop:Mozgásérzékelés leállítása. </MinorTypeAlarmOpt5>
+			<MinorTypeAlarmOpt6>hideStart:Biztonsági ellenőrzés indul</MinorTypeAlarmOpt6>
+			<MinorTypeAlarmOpt7>hideStop:Biztonsági ellenőrzés állj</MinorTypeAlarmOpt7>
+			<MinorTypeAlarmOpt8>vcaStart: VCA riasztás indul</MinorTypeAlarmOpt8>
+			<MinorTypeAlarmOpt9>vcaStop: VCA riasztás leáll</MinorTypeAlarmOpt9>
+			<pirStart>PIR riasztás indítása</pirStart>
+			<pirStop>PIR riasztás leállítása</pirStop>
+			<wlsensorStart>Vezeték nélküli riasztás indítása</wlsensorStart>
+			<wlsensorStop>Vezeték nélküli riasztás leállítása</wlsensorStop>
+			<callhelpStart>Vészriasztás indítása</callhelpStart>
+			<callhelpStop>Vészriasztás leállítása</callhelpStop>
+		</MinorTypeAlarm>
+		<MinorTypeException>
+			<MinorTypeExpOpt1>All:Minden típus</MinorTypeExpOpt1>
+			<MinorTypeExpOpt2>videoLost:Videójel-vesztés</MinorTypeExpOpt2>
+			<MinorTypeExpOpt3>illlegealAccess:Jogtalan bejelentkezés</MinorTypeExpOpt3>
+			<MinorTypeExpOpt4>hdFull:A HDD megtelt</MinorTypeExpOpt4>
+			<MinorTypeExpOpt5>hdError:HDD hiba</MinorTypeExpOpt5>
+			<MinorTypeExpOpt6>netBroken:Nincs hálózat</MinorTypeExpOpt6>
+			<MinorTypeExpOpt7>recordError:Felvételi/képrögzítési hiba</MinorTypeExpOpt7>
+			<MinorTypeExpOpt8>ipConflict:IP címütközés</MinorTypeExpOpt8>
+			<MinorTypeExpOpt9>videoException: videójel kivétel</MinorTypeExpOpt9>
+			<MinorTypeExpOpt10>videoFormatMismatch: Bemenet/Kimenet eltér a videó szabványtól</MinorTypeExpOpt10>
+			<MinorTypeExpOpt11>ipcDisconnect:IP kamera leválasztva</MinorTypeExpOpt11>
+			<MinorTypeExpOpt12>ipcIpConfilict:IP kamera címütközés</MinorTypeExpOpt12>
+			<MinorTypeExpOpt13>viAndResMismatch: Felbontási hiba</MinorTypeExpOpt13>
+		</MinorTypeException>
+		<MinorTypeInformation>
+			<MinorTypeInforOpt1>All:Minden típus</MinorTypeInforOpt1>
+			<MinorTypeInforOpt2>hddInfo:HDD info</MinorTypeInforOpt2>
+			<MinorTypeInforOpt3>startRec:Felvétel indul</MinorTypeInforOpt3>
+			<MinorTypeInforOpt4>stopRec:Felvétel leáll</MinorTypeInforOpt4>
+			<MinorTypeInforOpt5>delExpiredRec:Lejárt videófelvétel törlése</MinorTypeInforOpt5>
+			<MinorTypeInforOpt6>nasInfo:NetHDD info</MinorTypeInforOpt6>
+			<MinorTypeInforOpt7>smartInfo:S.M.A.R.T. információ</MinorTypeInforOpt7>
+			<MinorTypeInforOpt8>startPic:Képrögzítés indul</MinorTypeInforOpt8>
+			<MinorTypeInforOpt9>stopPic:Képrögzítés leáll</MinorTypeInforOpt9>
+			<MinorTypeInforOpt10>raidInfo:RAID</MinorTypeInforOpt10>
+		</MinorTypeInformation>
+		<MinorTypeOperation>
+			<MinorTypeOperationOpt1>All:Minden típus</MinorTypeOperationOpt1>
+			<MinorTypeOperationOpt2>devicePowerOn:Bekapcsolás</MinorTypeOperationOpt2>
+			<MinorTypeOperationOpt3>stopAbnormal:Rendellenes leállás</MinorTypeOperationOpt3>
+			<MinorTypeOperationOpt4>remotePowerOff:Távolról történő leállítás</MinorTypeOperationOpt4>
+			<MinorTypeOperationOpt5>remotePowerRecycle:Távolról történő újraindítás</MinorTypeOperationOpt5>
+			<MinorTypeOperationOpt6>remoteLogin: Távolról történő belépés</MinorTypeOperationOpt6>
+			<MinorTypeOperationOpt7>remoteLogout: Távolról történő kijelentkezés</MinorTypeOperationOpt7>
+			<MinorTypeOperationOpt8>remoteCfgPara:Paraméter távolról történő beállítása</MinorTypeOperationOpt8>
+			<MinorTypeOperationOpt9>remoteUpgrade:Távolról történő frissítés</MinorTypeOperationOpt9>
+			<MinorTypeOperationOpt10>remoteStartRec:Felvétel távolról történő indítása</MinorTypeOperationOpt10>
+			<MinorTypeOperationOpt11>remoteStopRec:Felvétel távolról történő leállítása</MinorTypeOperationOpt11>
+			<MinorTypeOperationOpt12>remoteCtrlPtz:PTZ távolról történő vezérlése</MinorTypeOperationOpt12>
+			<MinorTypeOperationOpt13>remoteLockFile:Távolról történő fájl lezárás</MinorTypeOperationOpt13>
+			<MinorTypeOperationOpt14>remoteUnlockFile:Fájl távolról történő feloldása</MinorTypeOperationOpt14>
+			<MinorTypeOperationOpt15>remoteManulAlarm: Riasztási kimenet távolról történő bekapcsolása</MinorTypeOperationOpt15>
+			<MinorTypeOperationOpt16>remoteFormatHd:Távolról történő HDD inicializálás</MinorTypeOperationOpt16>
+			<MinorTypeOperationOpt17>remotePlayByFile:Távolról történő lejátszás fájlok szerint</MinorTypeOperationOpt17>
+			<MinorTypeOperationOpt18>remotePlayByTime:Távolról történő lejátszás idő szerint</MinorTypeOperationOpt18>
+			<MinorTypeOperationOpt19>remoteDownloadCfgFile:Konfigurációs fájl távolról történő exportálása</MinorTypeOperationOpt19>
+			<MinorTypeOperationOpt20>remoteUploadCfgFile:Konfigurációs fájl távolról történő importálása</MinorTypeOperationOpt20>
+			<MinorTypeOperationOpt21>remoteDownloadRecFile:Felvétel távolról történő exportálása</MinorTypeOperationOpt21>
+			<MinorTypeOperationOpt22>remotePicBackUp:Képfájlok távolról történő exportálása</MinorTypeOperationOpt22>
+			<MinorTypeOperationOpt23>remoteGetPara:Távolról történő paraméterlekérés</MinorTypeOperationOpt23>
+			<MinorTypeOperationOpt24>remoteGetStatus: Távolról történő állapotlekérés</MinorTypeOperationOpt24>
+			<MinorTypeOperationOpt25>remoteStartTransChan:Csatlakozás a transzparens csatornához</MinorTypeOperationOpt25>
+			<MinorTypeOperationOpt26>remoteStopTransChan:Transzparens csatorna bontása</MinorTypeOperationOpt26>
+			<MinorTypeOperationOpt27>startVoiceTalk:Félduplex kapcsolat indul</MinorTypeOperationOpt27>
+			<MinorTypeOperationOpt28>stopVoiceTalk: félduplex kapcsolat leáll</MinorTypeOperationOpt28>
+			<MinorTypeOperationOpt29>remoteArm:Riasztás távolról történő élesítése</MinorTypeOperationOpt29>
+			<MinorTypeOperationOpt30>remoteDisArm:Riasztás távolról történő kikapcsolása</MinorTypeOperationOpt30>
+			<MinorTypeOperationOpt31>remoteAddNas:NetHDD távolról történő hozzáadása </MinorTypeOperationOpt31>
+			<MinorTypeOperationOpt32>remoteDelNas:NetHDD távolról történő törlése</MinorTypeOperationOpt32>
+			<MinorTypeOperationOpt33>remoteSetNas:NetHDD távolról történő beállítása</MinorTypeOperationOpt33>
+			<MinorTypeOperationOpt34>remoteStartPicRec:Képrögzítés távolról történő indítása</MinorTypeOperationOpt34>
+			<MinorTypeOperationOpt35>remoteStopPicRec:Képrögzítés távolról történő leállítása</MinorTypeOperationOpt35>
+			<MinorTypeOperationOpt36>remoteTagOperation:Távoli címke művelet</MinorTypeOperationOpt36>
+			<MinorTypeOperationOpt37>remoteAddIpc:IP kamera távolról történő hozzáadása </MinorTypeOperationOpt37>
+			<MinorTypeOperationOpt38>remoteDelIpc:IP kamera távolról történő törlése</MinorTypeOperationOpt38>
+			<MinorTypeOperationOpt39>remoteSetIpc:IP kamera távolról történő beállítása</MinorTypeOperationOpt39>
+			<MinorTypeOperationOpt40>remoteSetSnmp:SNMP távolról történő beállítása</MinorTypeOperationOpt40>
+			<DVR>
+				<DVRMinorTypeOperationOpt1>All:Minden típus</DVRMinorTypeOperationOpt1>
+				<DVRMinorTypeOperationOpt2>devicePowerOn:Bekapcsolás</DVRMinorTypeOperationOpt2>
+				<DVRMinorTypeOperationOpt3>devicePowerOff:Helyi kikapcsolás.</DVRMinorTypeOperationOpt3>
+				<DVRMinorTypeOperationOpt4>deviceRecycle:Helyi újraindítás</DVRMinorTypeOperationOpt4>
+				<DVRMinorTypeOperationOpt5>stopAbnormal:Local:Rendellenes leállás</DVRMinorTypeOperationOpt5>
+				<DVRMinorTypeOperationOpt6>localLogin:Helyi bejelentkezés</DVRMinorTypeOperationOpt6>
+				<DVRMinorTypeOperationOpt7>localLogOut:Helyi kijelentkezés</DVRMinorTypeOperationOpt7>
+				<DVRMinorTypeOperationOpt8>localCfgPara:Helyi paraméterek</DVRMinorTypeOperationOpt8>
+				<DVRMinorTypeOperationOpt9>localUpdate:Helyi frissítés</DVRMinorTypeOperationOpt9>
+				<DVRMinorTypeOperationOpt10>localStartRec:Helyi felvétel indul </DVRMinorTypeOperationOpt10>
+				<DVRMinorTypeOperationOpt11>localStopRec:Helyi felvétel leáll</DVRMinorTypeOperationOpt11>
+				<DVRMinorTypeOperationOpt12>localStartPicRec:Helyi képrögzítés indul</DVRMinorTypeOperationOpt12>
+				<DVRMinorTypeOperationOpt13>localStopPicRec:Helyi képrögzítés leáll</DVRMinorTypeOperationOpt13>
+				<DVRMinorTypeOperationOpt14>localCtrlPtz:PTZ helyi vezérlése</DVRMinorTypeOperationOpt14>
+				<DVRMinorTypeOperationOpt15>localLockFile:Fájl helyi zárolása</DVRMinorTypeOperationOpt15>
+				<DVRMinorTypeOperationOpt16>localUnlockFile:Helyi fájl feloldás</DVRMinorTypeOperationOpt16>
+				<DVRMinorTypeOperationOpt17>localManulAlarm:Helyi riasztás indítás</DVRMinorTypeOperationOpt17>
+				<DVRMinorTypeOperationOpt18>localFormatDisk:HDD helyi inicializálása</DVRMinorTypeOperationOpt18>
+				<DVRMinorTypeOperationOpt19>localPlayByFile:Visszajátszás helyben fájlok szerint</DVRMinorTypeOperationOpt19>
+				<DVRMinorTypeOperationOpt20>localPlayByTime:Visszajátszás helyben idő szerint</DVRMinorTypeOperationOpt20>
+				<DVRMinorTypeOperationOpt21>localDownloadCfgFile: Helyi konfigurációs fájl export</DVRMinorTypeOperationOpt21>
+				<DVRMinorTypeOperationOpt22>localUploadCfgFile:Helyi konfigurációs fájl import</DVRMinorTypeOperationOpt22>
+				<DVRMinorTypeOperationOpt23>localDownloadRecFile:Video helyi exportálása</DVRMinorTypeOperationOpt23>
+				<DVRMinorTypeOperationOpt24>localDownloadPicFile:Képfájl helyi exportálása</DVRMinorTypeOperationOpt24>
+				<DVRMinorTypeOperationOpt25>localAddNas:NetHDD helyi hozzáadása</DVRMinorTypeOperationOpt25>
+				<DVRMinorTypeOperationOpt26>localDelNas:NetHDD helyi törlése</DVRMinorTypeOperationOpt26>
+				<DVRMinorTypeOperationOpt27>localSetNas:NetHDD helyi beállítása</DVRMinorTypeOperationOpt27>
+				<DVRMinorTypeOperationOpt28>localResetPasswd:Helyi admin jelszó visszaállítása</DVRMinorTypeOperationOpt28>
+				<DVRMinorTypeOperationOpt29>localTagOperation:Helyi címkekezelés</DVRMinorTypeOperationOpt29>
+				<DVRMinorTypeOperationOpt30>remotePowerOff:Távolról történő leállítás</DVRMinorTypeOperationOpt30>
+				<DVRMinorTypeOperationOpt31>remotePowerRecycle:Távolról történő újraindítás</DVRMinorTypeOperationOpt31>
+				<DVRMinorTypeOperationOpt32>remoteLogin: Távolról történő belépés</DVRMinorTypeOperationOpt32>
+				<DVRMinorTypeOperationOpt33>remoteLogout: Távolról történő kijelentkezés</DVRMinorTypeOperationOpt33>
+				<DVRMinorTypeOperationOpt34>remoteCfgPara:Paraméter távolról történő beállítása</DVRMinorTypeOperationOpt34>
+				<DVRMinorTypeOperationOpt35>remoteUpgrade:Távolról történő frissítés</DVRMinorTypeOperationOpt35>
+				<DVRMinorTypeOperationOpt36>remoteStartRec:Felvétel távolról történő indítása</DVRMinorTypeOperationOpt36>
+				<DVRMinorTypeOperationOpt37>remoteStopRec:Felvétel távolról történő leállítása</DVRMinorTypeOperationOpt37>
+				<DVRMinorTypeOperationOpt38>remoteCtrlPtz:PTZ távolról történő vezérlése</DVRMinorTypeOperationOpt38>
+				<DVRMinorTypeOperationOpt39>remoteLockFile:Távolról történő fájl lezárás</DVRMinorTypeOperationOpt39>
+				<DVRMinorTypeOperationOpt40>remoteUnlockFile:Fájl távolról történő feloldása</DVRMinorTypeOperationOpt40>
+				<DVRMinorTypeOperationOpt41>remoteManulAlarm: Riasztási kimenet távolról történő bekapcsolása</DVRMinorTypeOperationOpt41>
+				<DVRMinorTypeOperationOpt42>remoteFormatHd:Távolról történő HDD inicializálás</DVRMinorTypeOperationOpt42>
+				<DVRMinorTypeOperationOpt43>remotePlayByFile:Távolról történő lejátszás fájlok szerint</DVRMinorTypeOperationOpt43>
+				<DVRMinorTypeOperationOpt44>remotePlayByTime:Távolról történő lejátszás idő szerint</DVRMinorTypeOperationOpt44>
+				<DVRMinorTypeOperationOpt45>remoteDownloadCfgFile:Konfigurációs fájl távolról történő exportálása</DVRMinorTypeOperationOpt45>
+				<DVRMinorTypeOperationOpt46>remoteUploadCfgFile:Konfigurációs fájl távolról történő importálása</DVRMinorTypeOperationOpt46>
+				<DVRMinorTypeOperationOpt47>remoteDownloadRecFile:Felvétel távolról történő exportálása</DVRMinorTypeOperationOpt47>
+				<DVRMinorTypeOperationOpt48>remotePicBackUp:Képfájlok távolról történő exportálása</DVRMinorTypeOperationOpt48>
+				<DVRMinorTypeOperationOpt49>remoteGetPara:Távolról történő paraméterlekérés</DVRMinorTypeOperationOpt49>
+				<DVRMinorTypeOperationOpt50>remoteGetStatus: Távolról történő állapotlekérés</DVRMinorTypeOperationOpt50>
+				<DVRMinorTypeOperationOpt51>remoteStartTransChan:Csatlakozás a transzparens csatornához</DVRMinorTypeOperationOpt51>
+				<DVRMinorTypeOperationOpt52>remoteStopTransChan:Transzparens csatorna bontása</DVRMinorTypeOperationOpt52>
+				<DVRMinorTypeOperationOpt53>startVoiceTalk:Félduplex kapcsolat indul</DVRMinorTypeOperationOpt53>
+				<DVRMinorTypeOperationOpt54>stopVoiceTalk: félduplex kapcsolat leáll</DVRMinorTypeOperationOpt54>
+				<DVRMinorTypeOperationOpt55>remoteArm:Riasztás távolról történő élesítése</DVRMinorTypeOperationOpt55>
+				<DVRMinorTypeOperationOpt56>remoteDisArm:Riasztás távolról történő kikapcsolása</DVRMinorTypeOperationOpt56>
+				<DVRMinorTypeOperationOpt57>remoteAddNas:NetHDD távolról történő hozzáadása </DVRMinorTypeOperationOpt57>
+				<DVRMinorTypeOperationOpt58>remoteDelNas:NetHDD távolról történő törlése</DVRMinorTypeOperationOpt58>
+				<DVRMinorTypeOperationOpt59>remoteSetNas:NetHDD távolról történő beállítása</DVRMinorTypeOperationOpt59>
+				<DVRMinorTypeOperationOpt60>remoteStartPicRec:Képrögzítés távolról történő indítása</DVRMinorTypeOperationOpt60>
+				<DVRMinorTypeOperationOpt61>remoteStopPicRec:Képrögzítés távolról történő leállítása</DVRMinorTypeOperationOpt61>
+				<DVRMinorTypeOperationOpt62>remoteTagOperation:Távoli címke művelet</DVRMinorTypeOperationOpt62>
+				<DVRMinorTypeOperationOpt63>localAddIpc:IP kamera helyi hozzáadása</DVRMinorTypeOperationOpt63>
+				<DVRMinorTypeOperationOpt64>localDelIpc:IP kamera helyi törlése</DVRMinorTypeOperationOpt64>
+				<DVRMinorTypeOperationOpt65>localSetIpc:IP kamera helyi beállítása</DVRMinorTypeOperationOpt65>
+				<DVRMinorTypeOperationOpt66>remoteAddIpc:IP kamera távolról történő hozzáadása </DVRMinorTypeOperationOpt66>
+				<DVRMinorTypeOperationOpt67>remoteDelIpc:IP kamera távolról történő törlése</DVRMinorTypeOperationOpt67>
+				<DVRMinorTypeOperationOpt68>remoteSetIpc:IP kamera távolról történő beállítása</DVRMinorTypeOperationOpt68>
+				<DVRMinorTypeOperationOpt69>localSetSnmp:SNMP helyi beállítása</DVRMinorTypeOperationOpt69>
+				<DVRMinorTypeOperationOpt70>remoteSetSnmp:SNMP távolról történő beállítása</DVRMinorTypeOperationOpt70>
+			</DVR>
+		</MinorTypeOperation>
+	</Page>
+	<Js>
+		<szTips1>Napló keresését befejezte.</szTips1>
+		<szTips3>Sikertelen keresés.</szTips3>
+		<szTips5>Nem sikerült létrehozni a fájlt.</szTips5>
+		<Alarm>Riasztás</Alarm>
+		<motionStart>Mozgásérzékelés indul</motionStart>
+		<motionStop>Mozgásérzékelés vége</motionStop>
+		<hideStart>Biztonsági ellenőrzés indul</hideStart>
+		<hideStop>Biztonsági ellenőrzés leáll</hideStop>
+		<vcaStart>VCA riasztás indul</vcaStart>
+		<vcaStop>VCA riasztás vége</vcaStop>
+		<videoException>Videójel kizárása</videoException>
+		<videoFormatMismatch>Videó ki/bemenet szabványa eltér</videoFormatMismatch>
+		<viAndResMismatch>Eltérő felbontás</viAndResMismatch>
+		<ipcDisconnect>IP kamera  leválasztása</ipcDisconnect>
+		<ipcIpConfilict>IP kamera címütközés</ipcIpConfilict>
+		<illlegealAccess>Jogtalan bejelentkezés</illlegealAccess>
+		<netBroken>Nincs hálózat</netBroken>
+		<recordError>Felvételi/képrögzítési kivétel</recordError>
+		<ipConflict>IP címütközés</ipConflict>
+		<Infomation>Információ</Infomation>
+		<hddInfo>HDD információ</hddInfo>
+		<smartInfo>S.M.A.R.T. információ</smartInfo>
+		<startRec>Felvétel indul</startRec>
+		<stopRec>Felvétel vége</stopRec>
+		<delExpiredRec>Törli a lejárt videófájlt</delExpiredRec>
+		<nasInfo>NetHDD információ</nasInfo>
+		<startPic>Képrögzítés indítása</startPic>
+		<stopPic>Képrögzítés vége</stopPic>
+		<raidInfo>RAID</raidInfo>
+		<Operation>Művelet</Operation>
+		<devicePowerOn>Bekapcsolás</devicePowerOn>
+		<devicePowerOff>Helyi leállítás</devicePowerOff>
+		<deviceRecycle>Helyi újraindítás</deviceRecycle>
+		<stopAbnormal>Helyi: rendellenes leállítás</stopAbnormal>
+		<localLogin>Helyi belépés</localLogin>
+		<localLogOut>Helyi kilépés</localLogOut>
+		<localCfgPara>Helyi paraméter beállítás</localCfgPara>
+		<localUpdate>Helyi frissítés</localUpdate>
+		<localStartRec>Helyi felvétel indítás</localStartRec>
+		<localStopRec>Helyi felvétel leáll</localStopRec>
+		<localStartPicRec>Hely rögzítés indítás</localStartPicRec>
+		<localStopPicRec>Helyi képrögzítés leáll</localStopPicRec>
+		<localCtrlPtz>Helyi PTZ vezérlés</localCtrlPtz>
+		<localLockFile>Helyi zárolt fájl</localLockFile>
+		<localUnlockFile>Helyi fájl feloldás</localUnlockFile>
+		<localManulAlarm>Helyi alarm start</localManulAlarm>
+		<localFormatDisk>Helyi HDD inicializálás</localFormatDisk>
+		<localAddIpc>Helyi IP kamera hozzáadása</localAddIpc>
+		<localDelIpc>Helyi IP kamera törlés</localDelIpc>
+		<localSetIpc>IP kamera helyi beállítása</localSetIpc>
+		<localPlayByFile>Helyi fájl lejátszás</localPlayByFile>
+		<localPlayByTime>Helyi idő szerinti lejátszás</localPlayByTime>
+		<localDownloadCfgFile>Helyi konfigurációs fájl export</localDownloadCfgFile>
+		<localUploadCfgFile>Helyi konfigurációs fájl import</localUploadCfgFile>
+		<localDownloadRecFile>Helyi felvétel export</localDownloadRecFile>
+		<localDownloadPicFile>Helyi képfájl export</localDownloadPicFile>
+		<localAddNas>Helyi NetHDD hozzáadása</localAddNas>
+		<localDelNas>Helyi NetHDD törlés</localDelNas>
+		<localSetNas>Hely NetHDD beállítás</localSetNas>
+		<localSetSnmp>Helyi SNMP beállítás</localSetSnmp>
+		<localResetPasswd>Helyi admin jelszó visszaállítása</localResetPasswd>
+		<localTagOperation>Helyi címke kezelés</localTagOperation>
+		<remotePowerOff>Távoli leállítás</remotePowerOff>
+		<remotePowerRecycle>Távoli újraindítás.</remotePowerRecycle>
+		<remoteLogin>Távoli belépés</remoteLogin>
+		<remoteLogout>Távoli kilépés</remoteLogout>
+		<remoteCfgPara>Távoli paraméter-beáll.</remoteCfgPara>
+		<remoteUpgrade>Távoli frissítés</remoteUpgrade>
+		<remoteStartRec>Távoli felvétel indítása start</remoteStartRec>
+		<remoteStopRec>Távoli rögzítés-leáll.</remoteStopRec>
+		<remoteCtrlPtz>Távoli PTZ vezérlés</remoteCtrlPtz>
+		<remoteLockFile>Távoli fájl zárolás</remoteLockFile>
+		<remoteUnlockFile>Fájl-zár törlése</remoteUnlockFile>
+		<remoteManulAlarm>Távoli alarm kimenet kapcsolás</remoteManulAlarm>
+		<remoteFormatHd>Távoli HDD inicializálás</remoteFormatHd>
+		<remoteAddIpc>Távoli új IP kamera</remoteAddIpc>
+		<remoteDelIpc>IP kamera távoli törlése</remoteDelIpc>
+		<remoteSetIpc>Távoli IP kamera beáll.</remoteSetIpc>
+		<remotePlayByFile>Távoli fájl lejátszás</remotePlayByFile>
+		<remotePlayByTime>Távoli idő lejátszás</remotePlayByTime>
+		<remoteDownloadCfgFile>Távoli konfig export</remoteDownloadCfgFile>
+		<remoteUploadCfgFile>Távoli konfig import</remoteUploadCfgFile>
+		<remoteDownloadRecFile>Távoli felvétel export</remoteDownloadRecFile>
+		<remoteGetPara>Távoli paraméter-lekérés</remoteGetPara>
+		<remoteGetStatus>Távoli állapot-lekérés</remoteGetStatus>
+		<remoteStartTransChan>Transzparens csatorna létrehozása</remoteStartTransChan>
+		<remoteStopTransChan>Transzparens csatorna kikapcsolása</remoteStopTransChan>
+		<startVoiceTalk>Félduplex audio be</startVoiceTalk>
+		<stopVoiceTalk>Kétirányú hang KI</stopVoiceTalk>
+		<remoteArm>Távoli alarm bekapcs.</remoteArm>
+		<remoteDisArm>Távoli alarm kikapcs.</remoteDisArm>
+		<remoteAddNas>Távoli új NetHDD</remoteAddNas>
+		<remoteDelNas>Távoli NetHDD törlés</remoteDelNas>
+		<remoteSetNas>Távoli NetHDD beállítás</remoteSetNas>
+		<remotePicBackUp>Távoli kép export</remotePicBackUp>
+		<remoteStartPicRec>Távoli képrögzítés indítása</remoteStartPicRec>
+		<remoteStopPicRec>Távoli képmentés-leáll.</remoteStopPicRec>
+		<remoteSetSnmp>Távoli SNMP konfiguráció</remoteSetSnmp>
+		<remoteTagOperation>Távoli címke kezelés</remoteTagOperation>
+		<ExportFailedTips>A napló exportálás sikertelen.</ExportFailedTips>
+	</Js>
+</Log>

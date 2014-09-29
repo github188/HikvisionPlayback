@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">Felvétel ütemezése</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Tárolókezelés</aHardDisk>
+			<laAdvancedRecordCfg>Haladó</laAdvancedRecordCfg>
+			<laExtractFrame>Képeltávolítás</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">HDD száma</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Ugyanaz NetHDD nem adható hozzá kétszer.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Elérési út</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Haladó</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Felvétel ütem. enged.</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Képrögz. terv eng. </laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Előrögzítés</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Nincs előfelvétel</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5 mp</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10 mp</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15 mp</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20 mp</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25 mp</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30 mp</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Nincs korlátozva</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Utólagos felvétel</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1 perc</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2 perc</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5 perc</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10 perc</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Redundáns felvétel</laRedundancyRec>
+			<laRecordOverWrite>Felülír</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Nem</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Igen</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Hangrögzítés</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">A felvétel ütemezésének szerkesztése</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Lejárati idő</geRecorderDuration>
+			<EndTimeRangeTips>A befejezés ideje nem lehet 24:00 utáni.</EndTimeRangeTips>
+			<AdvancedTips>Haladó</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>HDD-k kezelése</laSpanTitle>
+				<laHardDiskNo>HDD száma</laHardDiskNo>
+				<laDiskProperty>Tulajdonság</laDiskProperty>
+				<laDiskGroup>HDD csoport</laDiskGroup>
+				<laDiskInit>HDD inic.</laDiskInit>
+				<laInitState>Inicializálás állapota</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">HDD eszközlista</laDiskTitle>
+			<laCapacity tag="label;" length="100">Kapacitás</laCapacity>
+			<laFreeSpace tag="label;" length="100">Szabad terület</laFreeSpace>
+			<formatDisk tag="input;" length="74">Formázás</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>HDD tulajdonságai nem szerkeszthetők a jelenlegi adattárolási módban.</tipsNotSupportEdit>
+				<tipsFormatRo>Sikertelen inicializálás. Csak olvasható HDD nem választható.</tipsFormatRo>
+				<tipsDisk>HDD</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Formázatlan</tipsUnformatted>
+			<tipsError>Hiba</tipsError>
+			<tipsIdle>Alvó</tipsIdle>
+			<tipsMismatch>Eltér</tipsMismatch>
+			<tipsFormatting>Formázás</tipsFormatting>
+			<tipsNotexist>Nem létezik</tipsNotexist>
+			<tipsFormatSelect>Formázza a HDD-t?</tipsFormatSelect>
+			<tipsFormatAll>HDD formázás kész.</tipsFormatAll>
+			<tipsFormatFailed>HDD inicializálás sikertelen.</tipsFormatFailed>
+			<tipsFormattingWait>Formázás… kérem, várjon…</tipsFormattingWait>
+			<tipsSelectDisk>Válassza ki a formázandó HDD-t.</tipsSelectDisk>
+			<tipsStorageMode>Tárolási mód beállítások</tipsStorageMode>
+			<tipsArray>Virtuális lemez</tipsArray>
+			<jsComplete>Kész</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>R/W</tipsRW>
+			<tipsRO>Csak olvasható</tipsRO>
+			<tipsRedund>Redundancia</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>NetHDD</laSpanTitle>
+				<Property1Opt1>R/W</Property1Opt1>
+				<Property1Opt2>Csak olvasható</Property1Opt2>
+				<Property1Opt3>Redundancia</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Lemez beállítása</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

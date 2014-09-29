@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<VideoSettings>
+	<Common>
+		<Page>
+			<aBaseVideoSettings tag="a;" length="9999">Εμφάνιση ρυθμίσεων</aBaseVideoSettings>
+			<aOSDSettings tag="a;" length="9999">Ρυθμίσεις OSD </aOSDSettings>
+			<aTextOverlay tag="a;" length="9999">Υπέρθ. κειμ</aTextOverlay>
+			<aVideoMask tag="a;" length="9999">Μάσκα απόκρ</aVideoMask>
+			<aModeCenter tag="option;" length="176">Κέντρο</aModeCenter>
+			<aOSDFontSizeOpt2 tag="option;" length="178">Μεσαία</aOSDFontSizeOpt2>
+			<apicinformChannel>Επιλογή κάμερ.</apicinformChannel>
+			<laVideoPreview>Ζωντανή προβολή</laVideoPreview>
+			<aPictureOverlay>Υπέρθεση εικόνων</aPictureOverlay>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laXpos>Συντεταγμένη Χ</laXpos>
+			<laYpos>Συντεταγμένη Υ</laYpos>
+		</General>
+	</Common>
+	<BaseVideoSettings>
+		<Page>
+			<laSpanTitle>Ρύθμιση παραμέτρων κάμερας</laSpanTitle>
+			<laVideoEffect>Παρ. κάμ</laVideoEffect>
+			<laGain tag="label;" length="120">Απολαβή</laGain>
+			<laShutter tag="label;" length="120">Χρόνος έκθεσ</laShutter>
+			<laFocusMode tag="label;" length="308">Λειτ. εστίασ</laFocusMode>
+			<laFocusLimited tag="label;" length="308">Ελάχιστη eστίαση</laFocusLimited>
+			<laIrisMode tag="label;" length="120">Τύπος έκθεσ.</laIrisMode>
+			<laIrisLevel tag="label;" length="308">Ίριδα</laIrisLevel>
+			<laPowerLine tag="label;" length="120">Πρότυπο βίντ.</laPowerLine>
+			<laDayNightFilter tag="label;" length="120">Εναλλ. μέρας/νύχτ</laDayNightFilter>
+			<laDayToNight tag="label;" length="120">Ευαισθησία</laDayToNight>
+			<laFilterTime tag="label;" length="120">Ώρα εναλλ.</laFilterTime>
+			<laImageFlip tag="label;" length="120">Είδωλο</laImageFlip>
+			<laDSS tag="label;" length="308">Αργό κλείστρο</laDSS>
+			<laDSSLevel tag="label;" length="308">Επίπ. αργ. κλείστρου</laDSSLevel>
+			<laWDR tag="label;" length="120">WDR</laWDR>
+			<laWDRLevel1 tag="label;" length="308">Wide Dynamic Level 1</laWDRLevel1>
+			<laWDRLevel2 tag="label;" length="308">Wide Dynamic Level 2</laWDRLevel2>
+			<laWDRContrast tag="label;" length="308">Επ. αντίθ. WDR</laWDRContrast>
+			<laBLC>BLC</laBLC>
+			<laBLCMode tag="label;" length="308">Περιοχή BLC</laBLCMode>
+			<laBLCLevel tag="label;" length="308">Επίπεδο BLC</laBLCLevel>
+			<laWhiteBlance tag="label;" length="120">Ισορρ. λευκ.</laWhiteBlance>
+			<laWhiteBlanceRed tag="label;" length="308">Κύκλ. R απολ. ισορρ. λευκ.</laWhiteBlanceRed>
+			<laWhiteBlanceBlue tag="label;" length="308">Κύκλ. Β απολ. ισορρ. λευκ.</laWhiteBlanceBlue>
+			<laNosiseReduce tag="label;" length="308">Ψηφ. μείωση θορ.</laNosiseReduce>
+			<laGeneralLevel tag="label;" length="308">Επ. μείωσ. θορ.</laGeneralLevel>
+			<laInterFrameNoiseReduce tag="label;" length="308">Χρον. επ. DNR</laInterFrameNoiseReduce>
+			<laFrameNoiseReduce tag="label;" length="308">Χωρ. επ. DNR</laFrameNoiseReduce>
+			<IrisFirst>Προτεραιότ. ίριδας</IrisFirst>
+			<ShutterFirst>Προτερ. κλείστρου</ShutterFirst>
+			<GainFirst>Προτερ. απολαβής</GainFirst>
+			<FocusModeAutoManual>Ημιαυατόματα</FocusModeAutoManual>
+			<IrcutFilterTypeDay tag="option;" length="176">Ημέρα</IrcutFilterTypeDay>
+			<IrcutFilterTypeNight tag="option;" length="176">Νύχτα</IrcutFilterTypeNight>
+			<ImageFlipStyleLR tag="option;" length="176">Αριστερά/Δεξιά</ImageFlipStyleLR>
+			<ImageFlipStyleUD tag="option;" length="176">Πάνω/Κάτω</ImageFlipStyleUD>
+			<BLCModeUp>Πάνω</BLCModeUp>
+			<BLCModeDown>Κάτω</BLCModeDown>
+			<BLCModeLeft>Αριστερά</BLCModeLeft>
+			<BLCModeRight>Δεξιά</BLCModeRight>
+			<WhiteBlanceStyleAuto tag="option;" length="176">Αυτόματο</WhiteBlanceStyleAuto>
+			<WhiteBlanceStyle1 tag="option;" length="176">AWB1</WhiteBlanceStyle1>
+			<WhiteBlanceStyle2 tag="option;" length="176">AWB2</WhiteBlanceStyle2>
+			<WhiteBlanceStyleManual>MWB</WhiteBlanceStyleManual>
+			<AutoTracing>Ανιχνευση WB</AutoTracing>
+			<NosiseReduceGeneral>Κανονική λειτ.</NosiseReduceGeneral>
+			<NosiseReduceAdvanced>Λειτουργία ειδικού</NosiseReduceAdvanced>
+			<ImageResetbutton>Επαναφορά μηχανικής κίνησης</ImageResetbutton>
+			<ImageRestorebutton>Επαναφορά</ImageRestorebutton>
+			<laScene tag="label;" length="120">Λειτ. εξ.χ/εσ.χ</laScene>
+			<SceneOptionIndoor tag="option;" length="176">Εσωτερικός χώρος</SceneOptionIndoor>
+			<SceneOptionOutdoor tag="option;" length="176">Εξωτερικός χώρος</SceneOptionOutdoor>
+			<laAutoIrisLevel tag="label;" length="308">Επ. αυτ. ίριδας</laAutoIrisLevel>
+			<laEnableDehaze>Ενεργ. θολώμ.</laEnableDehaze>
+			<laDehazeLevel>Απενεργ. θολώμ.</laDehazeLevel>
+			<laEPTZ>E-PTZ</laEPTZ>
+			<laZoomLimit>Όριο ζουμ</laZoomLimit>
+			<laEIS>EIS</laEIS>
+			<SodiumLight>Λάμπα πυρακτώσεως</SodiumLight>
+			<MercuryLight>Λαμπτήρ. υδραργ</MercuryLight>
+			<Onepush>ένα πάτημα</Onepush>
+			<laIRLightMode>Λειτ. υπερύθρου</laIRLightMode>
+			<laIRLightBright>Φωτειν. υπερύθρ</laIRLightBright>
+			<laIRLightSen>Ευαισθ. υπερύθρ</laIRLightSen>
+			<laExposureType>Λειτ. έκθεσης</laExposureType>
+			<laShutterLevel>Κλείστρο</laShutterLevel>
+			<laEISLevel>Επίπεδο EIS</laEISLevel>
+			<laChromaSuppress>Εξάλειψη χρώματος</laChromaSuppress>
+			<laHLC>HLC</laHLC>
+			<laHLCLevel>Επίπεδο HLC</laHLCLevel>
+			<laExpComp>Αντιστάθμιση έκθεσης</laExpComp>
+			<laGamaCorrect>Διόρθωση Gamma</laGamaCorrect>
+			<laSharpnessMode>Λειτουργία ευκρίνειας</laSharpnessMode>
+			<laDecodeMode>Λειτουργία διόρθωσης</laDecodeMode>
+			<laSoftware>Λογισμικό</laSoftware>
+			<laHardware>Υλικό</laHardware>
+			<laEnhancement>Βελτίωση φωτισμού</laEnhancement>
+			<laGrayScale>Κλίμακα του γκρι</laGrayScale>
+			<Schedule>Πρόγραμμα</Schedule>
+			<EventTrigger>Σκανδ. κατά είσ. συναγ.</EventTrigger>
+			<laOverExposeSuppress>Προστασία υπερέκθεσης</laOverExposeSuppress>
+			<daylightLamp>Λάμπα φθορισμού</daylightLamp>
+			<laTriggerMode>Κατάσταση</laTriggerMode>
+			<OutdoorAuto>Αυτόμ.-Εξ. χώρ.</OutdoorAuto>
+			<SodiumLightAuto>Αυτ.-Λάμπα νατρ</SodiumLightAuto>
+			<WarmLightLamp>Λάμπα θερμ. φωτ</WarmLightLamp>
+			<NaturalLight>Φυσικό φως</NaturalLight>
+			<IncandescentLamp>Incandescent Lamp</IncandescentLamp>
+			<WBLocked>Κλειδωμένο WB</WBLocked>
+		</Page>
+		<Js>
+			<jsResetimage>Να γίνει επανεκκίνηση του μηχανισμού;</jsResetimage>
+			<jsResetSucceed>Η επαναφορά ολοκληρώθηκε με επιτυχία.</jsResetSucceed>
+			<jsResetFailed>Ανεπιτυχής επαναφορά μηχανικής κίνησης.</jsResetFailed>
+			<jsResetWaiting>Η μηχανική κίνηση εκτελεί επαναφορά...</jsResetWaiting>
+			<jsRestoreimage>Να γίνει επαναφορά του μηχανισμού στις προεπιλεγμένες ρυθμίσεις;</jsRestoreimage>
+			<jsRestoreSucceed>Η επαναφορά της μηχανικής κίνησης στις προεπιλεγμένες ρυθμίσεις ολοκληρώθηκε με επιτυχία.</jsRestoreSucceed>
+			<jsRestoreFailed>Η επαναφορά της μηχανικής κίνησης στις προεπιλεγμένες ρυθμίσεις απέτυχε.</jsRestoreFailed>
+			<jsRestoreWaiting>Η μηχανική κίνηση επαναφέρει τις προεπιλεγμένες ρυθμίσεις...</jsRestoreWaiting>
+			<jsScheduleTimeRange>Το ελάχιστο χρονικό διάστημα μεταξύ της ώρας έναρξης και της ώρας λήξης είναι 10 δευτερόλεπτα.</jsScheduleTimeRange>
+		</Js>
+	</BaseVideoSettings>
+	<OSDSettings>
+		<Page>
+			<laSpanTitle>Εμφάνιση ρυθμίσεων</laSpanTitle>
+			<laOSDConfig>Ρυθμίσεις OSD </laOSDConfig>
+			<laIsShowChanNme tag="label;" length="120">Εμφάν. ονόμ.</laIsShowChanNme>
+			<laIsShowOSD tag="label;" length="120">Εμφ. ημερομ.</laIsShowOSD>
+			<laIsShowWeek tag="label;" length="120">Εμφάν. εβδομ</laIsShowWeek>
+			<laHourOSDType tag="label;" length="120">Μορφή ώρας</laHourOSDType>
+			<HourOSDTypeOpt1 tag="option;" length="176">12-ωρη</HourOSDTypeOpt1>
+			<HourOSDTypeOpt2 tag="option;" length="176">24-ωρη</HourOSDTypeOpt2>
+			<laOSDType tag="label;" length="120">Μορφή ημερ.</laOSDType>
+			<OSDTypeOpt1 tag="option;" length="176">ΕΕΕΕ-MM-ΗΗ</OSDTypeOpt1>
+			<OSDTypeOpt2 tag="option;" length="176">ΜΜ-ΗΗ-ΕΕΕΕ</OSDTypeOpt2>
+			<OSDTypeOpt3 tag="option;" length="176">ΕΕΕΕ ΜΜ ΗΗ</OSDTypeOpt3>
+			<OSDTypeOpt4 tag="option;" length="176">ΜΜ ΗΗ ΕΕΕΕ</OSDTypeOpt4>
+			<OSDTypeOpt5 tag="option;" length="176">ΗΗ-ΜΜ-ΕΕΕΕ</OSDTypeOpt5>
+			<OSDTypeOpt6 tag="option;" length="176">ΗΗ MM ΕΕΕΕ</OSDTypeOpt6>
+			<OSDTypeOpt7 tag="option;" length="176">MM/ΗΗ/ΕΕΕΕ</OSDTypeOpt7>
+			<OSDTypeOpt8 tag="option;" length="176">ΕΕΕΕ/ΜΜ/ΗΗ</OSDTypeOpt8>
+			<OSDTypeOpt9 tag="option;" length="176">ΗΗ/ΜΜ/ΕΕΕΕ</OSDTypeOpt9>
+			<laChannelNameXPos>Συντ. Χ ονόμ. κάμ.</laChannelNameXPos>
+			<laChannelNameYPos>Συντ. Υ ονόμ. κάμ.</laChannelNameYPos>
+			<laOSDAttrib tag="label;" length="120">Τύπος οθόνης</laOSDAttrib>
+			<OSDAttribOpt1 tag="option;" length="176">Διαφ. &amp; αναβοσβ.</OSDAttribOpt1>
+			<OSDAttribOpt2 tag="option;" length="176">Διαφ. &amp; δεν αναβοσβ</OSDAttribOpt2>
+			<OSDAttribOpt3 tag="option;" length="176">Αδιαφ. &amp; αναβοσβ</OSDAttribOpt3>
+			<OSDAttribOpt4 tag="option;" length="176">Αδιαφ. &amp; δεν αναβοσβ</OSDAttribOpt4>
+			<laOSDFontSize tag="label;" length="609">Μέγεθος OSD</laOSDFontSize>
+			<OSDFontSizeOpt1 tag="option;" length="178">μικρό</OSDFontSizeOpt1>
+			<OSDFontSizeOpt3 tag="option;" length="178">μεγάλο</OSDFontSizeOpt3>
+		</Page>
+		<Js>
+			<ChannelNameXTips>Συντεταγμένη Χ ονόματος</ChannelNameXTips>
+			<ChannelNameYTips>Συντεταγμένη Υ ονόματος </ChannelNameYTips>
+		</Js>
+		<General>
+			<laOSDXPos>Συντεταγμένη Χ ημερομηνίας</laOSDXPos>
+			<laOSDYPos>Συντεταγμένη Υ ημερομηνίας</laOSDYPos>
+		</General>
+	</OSDSettings>
+	<TextOverlay>
+		<Page>
+			<laStringOverLay>Ρυθμίσεις υπέρθεσης κειμένου</laStringOverLay>
+			<laStrContent>Περιεχόμενο κειμένου</laStrContent>
+		</Page>
+		<Js>
+			<CharNameLengthTips>Το μήκος δεν μπορεί να είναι μεγαλύτερο από 44.</CharNameLengthTips>
+		</Js>
+	</TextOverlay>
+	<VideoMask>
+		<Page>
+			<laUseCover tag="label;" length="308">Ενεργοποίηση μάσκας απόκρυψης</laUseCover>
+		</Page>
+		<Js>
+		</Js>
+	</VideoMask>
+	<PictureOverlay>
+		<Page>
+			<laPicUpload>Αποστολή εικ.</laPicUpload>
+			<laOverlaySetting>Διαμόρφωση παραμέτρων υπέρθεσης</laOverlaySetting>
+			<laEnablePicOverlay>Ενεργοποίηση υπέρθεσης εικόνων</laEnablePicOverlay>
+			<laPicWidth>Πλάτος εικόνας</laPicWidth>
+			<laPicHeight>Ύψος εικόνας</laPicHeight>
+		</Page>
+		<Js>
+		</Js>
+	</PictureOverlay>
+</VideoSettings>

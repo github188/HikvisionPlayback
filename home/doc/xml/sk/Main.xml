@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Main>
+	<Common>
+		<Page>
+			<DVR>
+				<paStartAllView>Spustiť zobrazenie všetkých kanálov</paStartAllView>
+				<paStartAllRecord>Spustiť záznam všetkých kanálov</paStartAllRecord>
+			</DVR>
+			<laPlugin>Kliknutím sem stiahnete a nainštalujete zásuvný modul. Pri inštalácii modulu zatvorte prehliadač.</laPlugin>
+			<laNotWin32Plugin>Zásuvný modul nie je rozpoznaný.</laNotWin32Plugin>
+			<streamTypeOpt1 tag="label;option;" length="134">Hl. dát. tok</streamTypeOpt1>
+			<streamTypeOpt2 tag="label;option;" length="134">Sub Stream</streamTypeOpt2>
+			<StreamTypeInOpt4 tag="label;option;" length="104">Tretí prúd</StreamTypeInOpt4>
+			<windowProportionOpt1 tag="label;option;" length="134">Originál</windowProportionOpt1>
+			<windowAuto tag="label;option;" length="104">Auto</windowAuto>
+			<laStreamType tag="label;" length="90">Typ streamu</laStreamType>
+			<lawindowProportion tag="label;" length="90">Veľkosť obrazu</lawindowProportion>
+			<laPlayParams tag="label;" length="91">Param. zobrazenia</laPlayParams>
+			<opensound>Zapni zvuk</opensound>
+			<closesound>Vypni zvuk</closesound>
+			<volume>Hlasitosť</volume>
+			<stop>Zastav</stop>
+			<laSearch tag="label;" length="200">Vyhľadať</laSearch>
+			<DownloadBtn tag="input;" length="80">Stiahnuť</DownloadBtn>
+			<laChannelNum tag="label;" length="148">Počet kanálov</laChannelNum>
+			<laChannelNo tag="label;" length="109">Kanál č.</laChannelNo>
+			<laStartTime tag="label;" length="140">Počiatočný čas</laStartTime>
+			<laEndTime tag="label;" length="140">Koncový čas</laEndTime>
+			<laHue tag="label;" length="122">Odtieň</laHue>
+			<SetPreset>Nastaviť</SetPreset>
+			<CleanPreset>Vymaž</CleanPreset>
+			<laSerialNumber tag="label;" length="67">Č.</laSerialNumber>
+			<Pattern>Trasa</Pattern>
+			<laWirelessAlarm>Bezdrôtová signalizácia</laWirelessAlarm>
+			<laPIRAlarm>Signalizácia PIR</laPIRAlarm>
+			<OptCallHelp>Núdzová signalizácia</OptCallHelp>
+			<laSharpness tag="label;" length="120">Ostrosť</laSharpness>
+			<laEnableZoom>Aktivovať e-PTZ</laEnableZoom>
+			<laDisableZoom>Deaktivovať e-PTZ</laDisableZoom>
+		</Page>
+		<Js>
+			<jsUpdatePlugin>Je dostupná nová verzia zásuvného modulu,chcete vykonať aktualizáciu?</jsUpdatePlugin>
+			<jsUpdateNotWin32>Je dostupná nová verzia zásuvného modulu, na vykonanie aktualizácie, prosím, kontaktujte svojho dodávateľa.</jsUpdateNotWin32>
+			<exit>Chcete sa odhlásiť?</exit>
+			<jsPreview>Živý obraz</jsPreview>
+			<jsRecord>Záznam</jsRecord>
+			<previewfailed>Zobrazenie zlyhalo.</previewfailed>
+			<capturefailed>Uloženie snímky zlyhalo.</capturefailed>
+			<stopAllRecord>Zastav záznam všetkých kanálov</stopAllRecord>
+			<FreeSpaceTips>Nedostatok voľného miesta</FreeSpaceTips>
+			<jsCreateFileFailed>Vytvorenie súboru zlyhalo.</jsCreateFileFailed>
+			<jsNoOperationRight>Bez oprávnenia</jsNoOperationRight>
+			<jsOpenSoundFailed>Zapnutie zvuku zlyhalo.</jsOpenSoundFailed>
+			<jsCaptureSucc>Snímok uložený</jsCaptureSucc>
+			<TotalTips>Celkom </TotalTips>
+			<TiaoTips> Položky</TiaoTips>
+			<jsFirstPageTips>Domovská stránka</jsFirstPageTips>
+			<jsLastPageTips>Posledná strana</jsLastPageTips>
+			<jsPrevPageTips>Predošlá stránka</jsPrevPageTips>
+			<jsNextPageTips>Nasledujúca strana</jsNextPageTips>
+			<tipsTooLong>Cesta súboru je príliž dlhá. Opakujte zadanie, prosím.</tipsTooLong>
+			<jsVideoDefault>Chcete obnoviť predvolené nastavenia?</jsVideoDefault>
+			<jsTrue>Áno</jsTrue>
+			<jsFalse>Nie</jsFalse>
+			<jsTimeSegmentErrorTips>Počiatočný čas musí byť menší ako koncový čas.</jsTimeSegmentErrorTips>
+			<ptzSpeed>Rýchlosť PTZ</ptzSpeed>
+			<videoLost>Strata video signálu</videoLost>
+			<ExcutePreset>Zavolať</ExcutePreset>
+			<laZoom>Zoom</laZoom>
+			<laFocus>Zaostrenie</laFocus>
+			<laIris>Clona</laIris>
+			<CurrentAddTips>Momentálne až do </CurrentAddTips>
+		</Js>
+		<General>
+			<capture>Zachytiť</capture>
+			<laOK tag="input;label;" length="88">OK</laOK>
+			<laCancel tag="input;label;" length="88">Zruš</laCancel>
+			<hdFull tag="option;" length="198">Plný disk</hdFull>
+			<hdError tag="option;" length="198">Chyba HDD</hdError>
+			<Exception>Výnimka</Exception>
+			<laBrightness tag="label;" length="122">Jas</laBrightness>
+			<laContrast tag="label;" length="122">Kontrast</laContrast>
+			<laSaturation tag="label;" length="122">Sýtosť</laSaturation>
+			<geDefault>Pôvodné</geDefault>
+			<alarmIn>Alarmový vstup</alarmIn>
+			<alarmOut>Alarm výstup</alarmOut>
+			<laLensInit tag="label;" length="308">Test objektívu</laLensInit>
+			<laPreset tag="label;" length="31">Preset</laPreset>
+			<SearchingTips>Prebieha vyhľadávanie ...</SearchingTips>
+			<laSaveBtn>Ulož</laSaveBtn>
+			<DelDigitalIpBtn tag="input;" length="74">Vymazať</DelDigitalIpBtn>
+		</General>
+	</Common>
+	<Main>
+		<Page>
+			<laPreview tag="label;" length="165">Živý obraz</laPreview>
+			<laPlayback tag="label;" length="165">Prehrávanie</laPlayback>
+			<laLog tag="label;" length="165">Log</laLog>
+			<laConfig tag="label;" length="165">Konfigurácia</laConfig>
+			<laExit tag="label;" length="974">Odhlásiť sa</laExit>
+			<DVR>
+				<laHelp>Pomoc</laHelp>
+				<laVersion>Verzia</laVersion>
+			</DVR>
+		</Page>
+		<Js>
+		</Js>
+	</Main>
+</Main>

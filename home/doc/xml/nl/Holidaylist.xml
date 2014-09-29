@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Vakantie-instellingen</laSpanTitle>
+		<laPrompt>De vakantieperioden mogen niet overlappen.</laPrompt>
+		<laHolidayName>Vakantienaam</laHolidayName>
+		<laHolidayFun>Vakantie aan</laHolidayFun>
+		<HolidayTypeOpt1>Op datum</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Op week</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Op maand</HolidayTypeOpt3>
+		<laStartDate>Startdatum</laStartDate>
+		<laEndDate>Einddatum</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Bewerken vakantie</EditHolidayTips>
+		<LastTips>Laatste </LastTips>
+		<DayTips>Datum</DayTips>
+		<MonthTips>Maand</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

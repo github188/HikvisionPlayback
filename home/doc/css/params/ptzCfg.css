@@ -1,0 +1,174 @@
+
+#ptzCfg .checkbox
+{
+    vertical-align:text-bottom;
+    cursor:pointer;
+	margin-right:3px;
+}
+
+.ptzmainParams
+{
+	height:26px;
+	line-height:26px;
+    padding-left:10px;
+    background:#eaeaea;
+    font-weight:bold;
+}
+.ptzsubParamsWhite
+{
+	height:26px;
+	padding-left:10px;
+	line-height:26px;
+    background:#ffffff;
+}
+.ptzsubParamsGray
+{
+	height:26px;
+	padding-left:10px;
+	line-height:26px;
+    background:#f5f5f5;
+}
+#ptzCfg span
+{
+	display:inline-block;
+}
+.presetpane
+{
+	border:1px solid #C2C2C2;
+	border-width:0 1px 1px 1px;
+	height:150px;
+	width:194px;
+	background-color:#FFFFFF;
+	overflow-y:auto;
+	overflow-x:hidden;
+	padding:0;
+	margin-top:5px;
+}
+#ptzArea
+{
+	height:288px;
+}
+/*****************PTZ*******************/
+#ptzControl
+{
+	width:196px;
+	border:1px solid #C4C4C4;
+	background-color:#E0E0E0;
+	padding:10px;
+	margin-left:10px;
+	float:left;
+}
+/*****************基本配置*******************/
+
+/*****************限位*******************/
+#ptzlimiteds .setArea
+{
+	margin-top:15px;
+}
+/*****************零方位角*******************/
+#homePos
+{
+	padding-top:15px;
+}
+/*****************守望*******************/
+#actionNumArea
+{
+	display:none;
+}
+/*****************隐私遮蔽*******************/
+#privacyMask .right
+{
+	float:right;
+}
+#privacyMask .head
+{
+	background-color:#F5F5F5;
+	height:24px;
+	padding-top:3px;
+	margin-top:5px;
+	padding-left:10px;
+}
+#privacyMask .listHead
+{
+	background-color:#EAEAEA;
+	height:24px;
+	line-height:24px;
+	vertical-align:central;
+}
+#privacyMask .first
+{
+	width:74px;
+	text-align:left;
+	border-right:1px solid #EFEEE5;
+	padding-left:2px;
+}
+#privacyMask .second
+{
+	width:244px;
+	text-align:left;
+	border-right:1px solid #EFEEE5;
+	padding-left:2px;
+}
+#privacyMask .third
+{
+	width:94px;
+	text-align:left;
+	border-right:1px solid #EFEEE5;
+	padding-left:2px;
+}
+#privacyMask .fouth
+{
+	width:88px;
+	text-align:left;
+	border-right:1px solid #EFEEE5;
+	padding-left:2px;
+}
+#privacyMaskList
+{
+	height:100px;
+	overflow:auto;
+}
+#privacyMaskList div
+{
+	border:1px solid #E2E0D3;
+	border-width:0px 1px 1px 1px;
+	height:24px;
+	cursor:pointer;
+}
+#privacyMaskList span
+{
+	height:24px;
+	/*padding-top:4px;*/
+	line-height:24px;
+	vertical-align:central;
+	float:left;
+}
+
+#privacyMaskList div.even
+{
+	background-color:#F8F8F8;
+}
+#privacyMaskList div.enter
+{
+	background-color:#FBFBC2;
+}
+#privacyMaskList div.select
+{
+	background-color:#C0C0C0;
+}
+#enablePMArea
+{
+	display:none;
+	margin-bottom:10px;
+}
+/*****************配置清除*******************/
+
+/*****************定时任务*******************/
+#timeTasks .right
+{
+	float:right;
+}
+#dvTimeTasks
+{
+	height:218px;
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<VideoAudio>
+	<Common>
+		<Page>
+			<aVideo tag="a;" length="9999">Video </aVideo>
+			<aAudio tag="a;" length="9999">Audio</aAudio>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<Video>
+		<Page>
+			<DVR>
+				<laSpanTitle>Video-instellingen</laSpanTitle>
+				<laSaving>Opslaan ...</laSaving>
+				<laEffectParam>Video-ingangstype</laEffectParam>
+			</DVR>
+			<laInputResolution tag="label;" length="150">Front-end resolutie</laInputResolution>
+			<StreamTypeInOpt1 tag="option;" length="198">Hoofdstream (Normaal)</StreamTypeInOpt1>
+			<StreamTypeInOpt2 tag="option;" length="198">Substream</StreamTypeInOpt2>
+			<StreamTypeInOpt3>Hoofdstream (gebeurtenis)</StreamTypeInOpt3>
+			<laUseEventPram>Gebeurtenisparameters aanzetten</laUseEventPram>
+			<StreamTypeOpt1 tag="option;" length="198">Video-stream</StreamTypeOpt1>
+			<StreamTypeOpt2 tag="option;" length="198">Video &amp; Audio</StreamTypeOpt2>
+			<laVideoQualityControlType tag="label;" length="150">Bitratetype</laVideoQualityControlType>
+			<videoQualityControlTypeOpt1 tag="option;" length="198">Variabele</videoQualityControlTypeOpt1>
+			<videoQualityControlTypeOpt2 tag="option;" length="198">Constant</videoQualityControlTypeOpt2>
+			<lafixedQuality tag="label;" length="150">Videokwaliteit</lafixedQuality>
+			<fixedQualityOpt1 tag="option;" length="198">Hoogste</fixedQualityOpt1>
+			<fixedQualityOpt2 tag="option;" length="198">Hoger</fixedQualityOpt2>
+			<fixedQualityOpt3 tag="option;" length="198">Gemiddeld</fixedQualityOpt3>
+			<fixedQualityOpt4 tag="option;" length="198">Laag</fixedQualityOpt4>
+			<fixedQualityOpt5 tag="option;" length="198">Lager</fixedQualityOpt5>
+			<fixedQualityOpt6 tag="option;" length="198">Laagste</fixedQualityOpt6>
+			<laVideoFrameRate tag="label;" length="150">Beeldsnelheid</laVideoFrameRate>
+			<maxFrameRateOpt1>Full Frame Rate</maxFrameRateOpt1>
+			<laconstantBitRate tag="label;" length="150">Maximale bitsnelheid/bitrate</laconstantBitRate>
+			<laVideoCodeType tag="label;" length="150">Video-opname</laVideoCodeType>
+			<laIntervalBPFrame tag="label;" length="150">Beeldtype</laIntervalBPFrame>
+			<laCodecComplexity tag="label;" length="150">Profiel</laCodecComplexity>
+			<optionQuality1>Basisprofiel</optionQuality1>
+			<optionQuality2>Hoofdprofiel</optionQuality2>
+			<optionQuality3>Hoog profiel</optionQuality3>
+			<trVideoType>Videotype</trVideoType>
+			<laEnableEventParam>Parameters voor gebeurteniscompressie aanzetten</laEnableEventParam>
+		</Page>
+		<Js>
+			<jsCustonBitRate>Aangepaste BitRate</jsCustonBitRate>
+		</Js>
+		<General>
+			<laIntervalFrameI tag="label;" length="150">I Frame-interval</laIntervalFrameI>
+			<laMulticast tag="label;" length="150">Multicast-adres</laMulticast>
+		</General>
+	</Video>
+	<Audio>
+		<Page>
+			<laAudioEncoding tag="label;" length="150">Audiocodering</laAudioEncoding>
+			<laAudioInput tag="label;" length="150">Audio-uitgang</laAudioInput>
+			<laAudioVolume>Volume</laAudioVolume>
+		</Page>
+		<Js>
+		</Js>
+	</Audio>
+</VideoAudio>

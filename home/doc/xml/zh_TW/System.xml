@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<System>
+	<Common>
+		<Page>
+			<aDeviceInfo tag="a;" length="9999">基本資訊</aDeviceInfo>
+			<aTimeSettings tag="a;" length="9999">時間設定</aTimeSettings>
+			<aMaintain tag="a;" length="9999">系統維護</aMaintain>
+			<aTelecontrol>遙控器</aTelecontrol>
+			<laDuplexmode>雙工模式</laDuplexmode>
+			<duplexModeOpt1>半雙工</duplexModeOpt1>
+			<duplexModeOpt2>全雙工</duplexModeOpt2>
+			<laBaudRate tag="label;" length="150">串列傳輸速率</laBaudRate>
+			<laDataBits tag="label;" length="150">數據位元</laDataBits>
+			<laStopRate tag="label;" length="150">停止位元</laStopRate>
+			<laParityType tag="label;" length="150">同位檢查</laParityType>
+			<parityTypeOpt1 tag="option;" length="198">無</parityTypeOpt1>
+			<parityTypeOpt2 tag="option;" length="198">偶同位檢查</parityTypeOpt2>
+			<parityTypeOpt3 tag="option;" length="198">奇同位檢查</parityTypeOpt3>
+			<laFlowControl tag="label;" length="150">流控</laFlowControl>
+			<dataFlowControlOpt1 tag="option;" length="198">無</dataFlowControlOpt1>
+			<dataFlowControlOpt2 tag="option;" length="198">硬解</dataFlowControlOpt2>
+			<dataFlowControlOpt3 tag="option;" length="198">軟體控制流量</dataFlowControlOpt3>
+			<laDST tag="label;" length="670">夏令時節</laDST>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<DeviceInfo>
+		<Page>
+			<laBaseInfo tag="label;" length="670">基本資訊</laBaseInfo>
+			<laDeviceName tag="label;" length="150">設備名稱</laDeviceName>
+			<laDeviceType tag="label;" length="148">設備型號</laDeviceType>
+			<laDeviceSn tag="label;" length="148">設備序列號</laDeviceSn>
+			<laFirmwareVersion tag="label;" length="148">韌體版本</laFirmwareVersion>
+			<laLogicVersion tag="label;" length="148">編碼版本</laLogicVersion>
+			<laDiskNum tag="label;" length="148">硬碟數量</laDiskNum>
+			<laAlarmInNum tag="label;" length="148">警報輸入個數</laAlarmInNum>
+			<laAlarmOutNum tag="label;" length="148">警報輸出個數</laAlarmOutNum>
+			<laParamType tag="label;" length="155">參數類型</laParamType>
+			<laParamValue tag="label;" length="526">參數值</laParamValue>
+			<laSupportPnp>IPC隨插即用</laSupportPnp>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laDeviceID tag="label;" length="150">設備編號</laDeviceID>
+		</General>
+	</DeviceInfo>
+	<DeviceStatus>
+		<Page>
+			<laDeviceStatus>設備狀態</laDeviceStatus>
+			<laRecordStatus>錄影狀態</laRecordStatus>
+			<laCodeStatus>編碼狀態</laCodeStatus>
+			<laConnectStatus>連接數</laConnectStatus>
+			<laRefresh>重新整理</laRefresh>
+		</Page>
+		<Js>
+			<tipsBusy>忙碌</tipsBusy>
+			<RecordStatus1>開啟</RecordStatus1>
+			<RecordStatus2>關閉</RecordStatus2>
+		</Js>
+	</DeviceStatus>
+	<MenuOutput>
+		<Page>
+			<laMenuOutputMode>選單輸出</laMenuOutputMode>
+			<mainCVBS>主CVBS</mainCVBS>
+		</Page>
+	</MenuOutput>
+	<TimeSettings>
+		<Page>
+			<DVR>
+				<laSpanTitle>時間設定</laSpanTitle>
+				<laEnableDST tag="label;" length="670">啟用夏令時節</laEnableDST>
+			</DVR>
+			<laNtpTimeSync tag="label;" length="654">NTP校時</laNtpTimeSync>
+			<laNtpPort tag="label;" length="150">NTP埠</laNtpPort>
+			<laNtpInterval tag="label;" length="150">擷圖間隔</laNtpInterval>
+			<laSecond tag="label;" length="360">分鐘</laSecond>
+			<laManualTimeSync tag="label;" length="670">手動時間設定</laManualTimeSync>
+			<laDeviceTime tag="label;" length="150">設備時間</laDeviceTime>
+			<laTimeZoneConfig>時區設定</laTimeZoneConfig>
+			<laTimeZone tag="label;" length="150">時區</laTimeZone>
+			<laDSTBias tag="label;" length="150">偏移時間</laDSTBias>
+			<timezoneOpt1 tag="option;" length="274">(GMT-12:00) 日界線西</timezoneOpt1>
+			<timezoneOpt2 tag="option;" length="274">(GMT-11:00) 中途島，薩摩亞群島</timezoneOpt2>
+			<timezoneOpt3 tag="option;" length="274">(GMT-10:00) 夏威夷</timezoneOpt3>
+			<timezoneOpt4 tag="option;" length="274">(GMT-09:00) 阿拉斯加</timezoneOpt4>
+			<timezoneOpt5 tag="option;" length="274">(GMT-08:00) 太平洋時間(美國和加拿大)</timezoneOpt5>
+			<timezoneOpt6 tag="option;" length="274">(GMT-07:00) 山地時間(美國和加拿大)</timezoneOpt6>
+			<timezoneOpt7 tag="option;" length="274">(GMT-06:00) 中部時間(美國和加拿大)</timezoneOpt7>
+			<timezoneOpt8 tag="option;" length="274">(GMT-05:00) 東部時間(美國和加拿大)</timezoneOpt8>
+			<timezoneOpt9 tag="option;" length="274">(GMT-04:30) 加拉斯加</timezoneOpt9>
+			<timezoneOpt10 tag="option;" length="274">(GMT-04:00) 大西洋時間(加拿大)</timezoneOpt10>
+			<timezoneOpt11 tag="option;" length="274">(GMT-03:30) 紐芬蘭</timezoneOpt11>
+			<timezoneOpt12 tag="option;" length="274">(GMT-03:00) 喬治敦、巴西利亞</timezoneOpt12>
+			<timezoneOpt13 tag="option;" length="274">(GMT-02:00) 中大西洋</timezoneOpt13>
+			<timezoneOpt14 tag="option;" length="274">(GMT-01:00) 佛德角群島、亞速爾群島</timezoneOpt14>
+			<timezoneOpt15 tag="option;" length="274">(GMT+00:00) 都柏林、愛丁堡、倫敦</timezoneOpt15>
+			<timezoneOpt16 tag="option;" length="274">(GMT+01:00) 阿姆斯特丹、柏林、羅馬、巴黎</timezoneOpt16>
+			<timezoneOpt17 tag="option;" length="274">(GMT+02:00) 雅典、耶路撒冷、伊斯坦布爾</timezoneOpt17>
+			<timezoneOpt18 tag="option;" length="274">(GMT+03:00) 巴格達、科威特、莫斯科</timezoneOpt18>
+			<timezoneOpt19 tag="option;" length="274">(GMT+03:30) 德黑蘭</timezoneOpt19>
+			<timezoneOpt20 tag="option;" length="274">(GMT+04:00) 高加索標準時間</timezoneOpt20>
+			<timezoneOpt21 tag="option;" length="274">(GMT+04:30) 喀布爾</timezoneOpt21>
+			<timezoneOpt22 tag="option;" length="274">(GMT+05:00) 伊斯蘭堡、卡拉奇、塔什干</timezoneOpt22>
+			<timezoneOpt23 tag="option;" length="274">(GMT+05:30) 馬德拉斯、孟買、新德里</timezoneOpt23>
+			<timezoneOpt24 tag="option;" length="274">(GMT+05:45) 加德滿都</timezoneOpt24>
+			<timezoneOpt25 tag="option;" length="274">(GMT+06:00) 阿拉木圖、新西伯利亞、達卡</timezoneOpt25>
+			<timezoneOpt26 tag="option;" length="274">(GMT+06:30) 仰光</timezoneOpt26>
+			<timezoneOpt27 tag="option;" length="274">(GMT+07:00) 曼谷、河內、雅加達</timezoneOpt27>
+			<timezoneOpt28 tag="option;" length="274">(GMT+08:00) 北京、烏魯木齊、新加坡</timezoneOpt28>
+			<timezoneOpt29 tag="option;" length="274">(GMT+09:00) 漢城、東京、大阪、札幌</timezoneOpt29>
+			<timezoneOpt30 tag="option;" length="274">(GMT+09:30) 阿德萊德、達爾文</timezoneOpt30>
+			<timezoneOpt31 tag="option;" length="274">(GMT+10:00) 墨爾本、悉尼、坎培拉</timezoneOpt31>
+			<timezoneOpt32 tag="option;" length="274">(GMT+11:00) 馬加丹、索羅門群島</timezoneOpt32>
+			<timezoneOpt33 tag="option;" length="274">(GMT+12:00) 奧克蘭、惠靈頓</timezoneOpt33>
+			<timezoneOpt34 tag="option;" length="274">(GMT+13:00) 努庫阿洛化</timezoneOpt34>
+			<DSTBiasOpt1 tag="option;" length="266">30分鐘</DSTBiasOpt1>
+			<DSTBiasOpt2 tag="option;" length="266">60分鐘</DSTBiasOpt2>
+			<DSTBiasOpt3 tag="option;" length="266">90分鐘</DSTBiasOpt3>
+			<DSTBiasOpt4 tag="option;" length="266">120分鐘</DSTBiasOpt4>
+			<laSelectTime tag="label;" length="150">設定時間</laSelectTime>
+			<laTimeSyncWithPC tag="label;" length="296">與電腦時間同步</laTimeSyncWithPC>
+			<trTimeSync>校時</trTimeSync>
+		</Page>
+		<Js>
+			<TimeIsNuLLTips>時間不能為空</TimeIsNuLLTips>
+			<NtpPortRangeTips>NTP埠</NtpPortRangeTips>
+			<DSTBiasIsNullTips>偏移時間不能為空</DSTBiasIsNullTips>
+			<DSTMonthSameTips>夏令時節的起始月份和結束月份不能相同</DSTMonthSameTips>
+			<NTPIntervalRangeTips>擷圖間隔</NTPIntervalRangeTips>
+		</Js>
+	</TimeSettings>
+	<Maintain>
+		<Page>
+			<laParamImport tag="label;" length="670">參數匯入</laParamImport>
+			<laImportFile tag="label;" length="150">設定檔</laImportFile>
+			<laParamExport tag="label;" length="670">參數匯出</laParamExport>
+			<btnImport tag="input;" length="74">匯入</btnImport>
+			<btnExportFile tag="input;" length="74">參數匯出</btnExportFile>
+			<laRemoteUpgrade tag="label;" length="670">遠端升級</laRemoteUpgrade>
+			<laUpgradeFile tag="label;" length="150">韌體</laUpgradeFile>
+			<laUpgradeExplain tag="label;" length="33">說明：</laUpgradeExplain>
+			<laUpgradeExplains tag="label;" length="540">更新過程需要5-10分鐘，請不要關閉電源，完成更新後將自動重啟</laUpgradeExplains>
+			<btnUpgrade tag="input;" length="74">更新</btnUpgrade>
+			<laRestart tag="input;label;" length="74">重新啟動</laRestart>
+			<btnCompleteRestore tag="input;" length="74">預設順序</btnCompleteRestore>
+			<btnSimpleRestore tag="input;" length="74">恢復</btnSimpleRestore>
+			<laRestartDevice tag="label;" length="670">重新啟動設備。</laRestartDevice>
+			<laSimpleReStore tag="label;" length="670">簡單恢復設備參數。</laSimpleReStore>
+			<laCompleteReStore tag="label;" length="670">完全恢復設備參數到出廠設定。</laCompleteReStore>
+		</Page>
+		<Js>
+			<tipsNoUpgradeFile>沒有指定韌體更新檔</tipsNoUpgradeFile>
+			<tipsUpgradeFailed>更新失敗</tipsUpgradeFailed>
+			<tipsLanguageMismatch>更新語言不一致</tipsLanguageMismatch>
+			<tipsGetProgress>獲取更新進度失敗</tipsGetProgress>
+			<tipsGetStatus>獲取更新狀態失敗</tipsGetStatus>
+			<tipsUpdating>正在更新……</tipsUpdating>
+			<tipsUpdateSucc>更新成功，重啟後生效！</tipsUpdateSucc>
+			<tipsUpgradeReboot>更新完成後設備將自動重啟，確定更新？</tipsUpgradeReboot>
+			<ImportRebootTips>匯入設定參數設備將自動重啟，確定匯入？</ImportRebootTips>
+			<ImportSuccessTips>匯入設定參數成功</ImportSuccessTips>
+			<ImportFailedTips>匯入設定參數失敗</ImportFailedTips>
+			<ExportSuccessTips>匯出設定檔案成功</ExportSuccessTips>
+			<ExportFailedTips>匯出設定檔案失敗</ExportFailedTips>
+			<tipsRestoreSucc>恢復預設值成功</tipsRestoreSucc>
+			<tipsRestoreFailed>恢復預設值失敗</tipsRestoreFailed>
+			<tipsRestoreReboot>恢復預設值成功，重啟後生效</tipsRestoreReboot>
+			<tipsRestoreReboot1>恢復預設值完成後設備將自動重新啟動，確定？</tipsRestoreReboot1>
+		</Js>
+	</Maintain>
+	<RS232Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>RS-232設定</laSpanTitle>
+				<laPortnumber>RS-232埠號</laPortnumber>
+			</DVR>
+			<laUsemode tag="label;" length="150">控制模式</laUsemode>
+			<workModeOpt1 tag="option;" length="198">控制臺(參數控制)</workModeOpt1>
+			<workModeOpt2 tag="option;" length="198">透明攝影機</workModeOpt2>
+		</Page>
+		<Js>
+		</Js>
+	</RS232Config>
+	<RS485Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>RS-485設定</laSpanTitle>
+			</DVR>
+			<laDecoderType485 tag="label;" length="150">PTZ協定</laDecoderType485>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<DecoderaddrTips tag="label;" length="150">PTZ位址</DecoderaddrTips>
+		</General>
+	</RS485Config>
+	<Telecontrol>
+		<Page>
+			<laStudy>學習</laStudy>
+			<laOpenStartSduty>開啟遙控器按鍵學習</laOpenStartSduty>
+			<laArmDesc>警戒PIR</laArmDesc>
+			<laDisarmDesc>解除警戒PIR</laDisarmDesc>
+			<btnArm>警戒</btnArm>
+			<btnDisarm>解除警戒</btnDisarm>
+		</Page>
+		<Js>
+		</Js>
+	</Telecontrol>
+</System>

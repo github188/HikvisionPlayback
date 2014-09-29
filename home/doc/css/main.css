@@ -1,0 +1,256 @@
+body 
+{ 
+    width:100%;
+	height:100%;
+    margin: 0px;
+    padding: 0px;
+}
+/*************************************************
+                 主页面头部 begin
+*************************************************/
+.header
+{ 
+	margin:0 auto;
+	width:974px;
+	height:64px;
+	position:relative;
+}
+/*************************************************
+                 语言栏模块 begin
+*************************************************/
+.languagepart
+{
+    float:right;
+	height:25px;
+	margin-top:30px;
+	z-index:9;
+}
+.languageshow
+{
+	width:90px;
+	height:20px;
+	position:relative;
+	padding-left:10px;
+	line-height:20px;  
+	cursor:pointer; 
+	background:#fff url(../script/menu/expanded.gif) no-repeat 97% 50%;
+	border:1px solid #d8d8d8;
+	z-index:9;
+}
+.languagechange
+{
+    display:none;
+	position:absolute;
+	top:52px;
+	right:0px;
+	width:100px;
+	height:105px;
+	_height:60px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background:#fff;
+	border: 1px solid #c1c1c1; 
+	z-index:9;
+}
+.mouseoverlan
+{
+    width:90px;
+	height:20px;
+	padding-left:10px;
+	line-height:20px;
+	cursor:pointer;
+	background:#f5f3f3;
+}
+.mouseoutlan
+{
+    width:90px;
+	height:20px;
+	line-height:20px;
+	padding-left:10px;
+	cursor:pointer;  
+}
+/*************************************************
+                 语言栏模块 end
+*************************************************/
+.logo
+{
+    float:left;
+	width:192px;
+	height:48px;
+	margin-top:5px;
+    margin-bottom:0px;
+	background:url(../images/login/smaller-black_logo.png) no-repeat;
+}
+.logo_1
+{
+    width: auto; /*97.222%;*//*700px;*/
+    height: 46px;
+    padding: 10px;
+    background:url(../images/login/smaller-black_logo.png) no-repeat;
+}
+.devicetype
+{
+	display:inline-block;
+	width:300px;
+	height:27px;
+	line-height:27px;
+	font-size:20px;
+	color:#964444;
+	margin:18px 0 0 15px;
+    
+}
+.help
+{
+    float:right;
+	margin:29px 5px 0 0;
+	padding-left:30px;
+	height:25px;
+	line-height:25px;
+	background:url(../images/main/help.png) no-repeat left;
+	_background:none; 
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/main/help.png" ,sizingMethod="crop");	
+	_margin:31px 5px 0 0;	
+	cursor:pointer;
+}
+.edtioncolumn
+{
+    position:absolute;
+	top:50px;
+	right:100px;
+	width:135px;
+	height:50px;
+	background:#ffffff;
+	border:1px solid #959595;
+	display:none;
+}
+.edition
+{
+    height:25px; 
+	line-height:25px; 
+	padding-left:10px; 
+	color:#757575;
+}
+/*************************************************
+                 主页面头部 end
+*************************************************/
+/*************************************************
+                 主页面菜单栏 begin
+*************************************************/
+.nav
+{
+    margin:0 auto;
+	width:974px;
+	height:41px;
+	color:#757575;	
+	background:#eaeaea;
+	border:1px solid #b1b1b1; 
+}
+.menu
+{
+    float:left;
+	width:165px;
+	height:41px;
+	line-height:41px;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	cursor:pointer;
+	border-right:1px solid #dfdfdf;
+}
+.riser
+{
+    float:right;
+	padding-right:5px;
+	line-height:41px;
+	text-align:center;
+}
+.logout
+{
+    float:right;
+	padding-right:12px;
+	line-height:41px;
+	text-align:center;
+	cursor:pointer;
+}
+.logoutimg
+{
+    float:right;
+	width:20px;
+	height:41px;
+	margin-right:5px;
+	cursor:pointer;
+	background:url(../images/main/logout.gif) no-repeat 0% 50%;
+}
+.loginuser
+{
+    float:right;
+	padding-right:5px;
+	line-height:41px;
+	text-align:center;
+}
+.loginuserimg
+{
+    float:right;
+	width:20px;
+	height:41px;
+	margin-right:5px;
+	background:url(../images/main/user.gif) no-repeat 0% 50%;
+}
+.menuBackground
+{
+	color:#a73737;
+	background:url(../images/main/menutab.gif);
+}
+/*************************************************
+                 主页面菜单栏 end
+*************************************************/
+.content
+{
+    margin:5px auto 0 auto;
+	width:974px;
+	height:655px;
+	border:1px solid #b1b1b1;
+	position:relative;
+}
+.contentMovie
+{
+    margin:5px auto 0 auto;
+	width:974px;
+	height:auto;
+	
+	position:fixed;
+}
+.contentframe
+{
+	margin:18px 18px 18px 18px;
+	width:838px;
+	height:619px;
+}
+.contentframeMovie
+{
+	
+	width:938px;
+	height:300px;
+}
+.contentframeMovie2
+{
+
+	width:938px;
+	height:400px;
+}
+.footer
+{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.updateblock
+{
+    position:absolute; 
+	top:0; 
+	left:0; 
+	background-color:#343434;
+	filter:Alpha(opacity=40);
+	display:none;opacity:0.4;
+	z-index:10000;
+}

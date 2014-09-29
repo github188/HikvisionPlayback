@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Ζωντανή προβολή</title>
+		<voiceTalk>Έν. αμφ. ήχου</voiceTalk>
+		<StopvoiceTalk>Διακοπή φωνητικής συνομιλίας</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Κανάλι αμφίδρομου ήχου</laTalkNum>
+		<laLight>Φωτισμός</laLight>
+		<laWiper>Υαλοκαθαριστήρας</laWiper>
+		<laOneKeyFocus>Εστίαση μιας κίνησης</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Παράμετροι βίντεο</laVideoEffect>
+		<Patrol>Περιπολία</Patrol>
+		<laTrack>Διαδρομή</laTrack>
+		<laPatrolTime tag="label;" length="75">Διάρκεια περιπολίας</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Ταχύτητα περιπολίας</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Προσθήκη διαδρομής περιπολίας</laAddPatrolPath>
+		<raVideoParamMode1>βασικο</raVideoParamMode1>
+		<raVideoParamMode2>εσωτερικ</raVideoParamMode2>
+		<raVideoParamMode3>εξωτερικο</raVideoParamMode3>
+		<raVideoParamMode4>χαμηλ φωτ</raVideoParamMode4>
+		<laNoiseReduce>αφαίρεση θορύβου</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Διακοπή ζωντανής προβολής</stoppreview>
+		<recordfailed>Ανεπιτυχής εγγραφή.</recordfailed>
+		<stoprecord>Διακοπή εγγραφής</stoprecord>
+		<jsSetVideoParam>Αποτυχία ρύθμισης παραμέτρων βίντεο.</jsSetVideoParam>
+		<jsNetError>Η ενέργεια απέτυχε ή δεν επιτρέπεται.</jsNetError>
+		<VoiceTalkFailed>Ανεπιτυχής χρήση αμφίδρομου ήχου.</VoiceTalkFailed>
+		<ChooseTalkChan>Επιλέξτε κανάλι ομιλίας.</ChooseTalkChan>
+		<jsRecordSucc>Επιτυχημένη εγγραφή.</jsRecordSucc>
+		<jsRecordAllSucc>Όλες οι εγγραφές επιτυχείς.</jsRecordAllSucc>
+		<Start>Έναρξη</Start>
+		<StartSave>Έναρξη εγγραφής</StartSave>
+		<StopSave>Διακοπή εγγραφής</StopSave>
+		<Start3DZoom>Έναρξη ζουμ 3D</Start3DZoom>
+		<Stop3DZoom>Διακοπή ζουμ 3D</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Παύση όλων των ζωντανών προβολών</geStopAllViewing>
+	</General>
+</Preview>

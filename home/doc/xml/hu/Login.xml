@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">Felhasználónév</lausername>
+		<lapassword tag="label;" length="70">Jelszó</lapassword>
+		<lalogin tag="label;" length="70">Belépés</lalogin>
+		<laAnonymous>Névtelen</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>Adja meg a felhasználónevet.</LoginTips1>
+		<LoginTips2>A felhasználónév max. 16 karakter lehet</LoginTips2>
+		<LoginTips3>A jelszó max. 16 karakter hosszú lehet.</LoginTips3>
+		<LoginTips4>A felhasználónév vagy a jelszó érvénytelen. Próbálja újra.</LoginTips4>
+		<LoginTips5>Adja meg a jelszót.</LoginTips5>
+		<NetworkErrorTips>Rendellenes hálózat</NetworkErrorTips>
+		<ConnectTimeoutTips>Kapcsolati időtúllépés.</ConnectTimeoutTips>
+		<CookieTips>Először engedélyezze böngészőjében a sütiket.</CookieTips>
+	</Js>
+</Login>

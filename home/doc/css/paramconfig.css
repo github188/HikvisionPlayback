@@ -1,0 +1,848 @@
+/*************************************************
+                 配置主页面 begin
+*************************************************/
+body 
+{ 
+    width:100%;
+	height:100%;
+	overflow:hidden; 
+}
+.container 
+{ 
+    width:938px; 
+}
+.contentleft
+{
+	float:left;
+	width:201px;
+	overflow:auto;
+}
+.contentright
+{
+	float:right;
+	width:732px;
+}
+.editcontent
+{
+	width:732px;
+}
+.footer
+{
+	height:40px;
+	text-align:right;
+	padding:10px 0 0 0;
+}
+/*************************************************
+                 配置主页面 end
+*************************************************/
+/*************************************************
+                 配置子页面公共部分 begin
+*************************************************/
+.savebtn /*保存按钮*/
+{
+	display:inline-block;
+	width:88px;
+	height:24px;
+	_height:27px;
+	vertical-align:middle;
+	border:0px;
+	color:#000000;
+	background:url(../images/config/Button.png) no-repeat;
+	cursor:pointer;
+}
+.formtips 
+{
+    color:#457735;
+}
+/*弹出框样式 begin*/
+#simplemodal-overlay {filter:Alpha(opacity=30);background-color:#D2D2D2; cursor:auto; width:800px;}
+#simplemodal-container {width:820px; height:538px; overflow:auto;}
+/*弹出框样式 end*/
+.skybluefont /*淡蓝色字体*/
+{
+    color: #50A3DF;
+}
+/*滑动条样式 begin*/
+.imageslider1 
+{ 
+	margin:10px 0 0 0;
+    height:6px; 
+    width:100%; 
+    background:url(../images/config/scrollvol.png) repeat-x; 
+}
+.imageBar2    
+{   
+	margin:6px 0 0 0;
+    height:13px; 
+    width:10px; 
+    background:url(../images/config/Scrollvol1.png) no-repeat;
+	_background:none; 
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/config/Scrollvol1.png" ,sizingMethod="crop");		
+}
+.boxBar
+{
+	margin:3px 0 0 170px;
+	height:14px; 
+	width:22px;
+	text-align:center;
+}
+/*滑动条样式 end*/
+.ptzlinkedit
+{ 
+    width:100px;
+	font-size:12px;
+	vertical-align:middle;
+}
+.pluginLink
+{
+	display:inline-block;
+	width:325px;
+	word-wrap:break-word;
+	color: #457735;
+	font-size:12px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.pluginLinkSel
+{
+	display:inline-block;
+	width:325px;
+	word-wrap:break-word;	
+	color: #0FF;
+	font-size:12px;
+	text-decoration:underline;	
+	cursor:pointer;
+}
+.verticalmiddle
+{
+	vertical-align:middle;
+}
+.panewidth /*tab页内容的宽度*/
+{
+    width:690px;
+}
+.mainparams
+{
+	height:26px;
+	line-height:26px;
+    padding-left:10px;
+	margin-bottom:2px;
+    background:#eaeaea;
+    font-weight:bold;
+}
+.subparamswhite
+{
+	height:26px;
+	padding-left:10px;
+	margin-bottom:2px;
+	line-height:26px;
+    background:#ffffff;
+}
+.subparamsgray
+{
+	height:26px;
+	padding-left:10px;
+	margin-bottom:2px;
+	line-height:26px;
+    background:#f5f5f5;
+}
+.firstspan
+{
+    display:inline-block;
+	width:150px;    
+}
+.checkbox
+{
+    vertical-align:text-bottom;
+    cursor:pointer;
+}
+.button
+{
+    width:85px;
+	height:24px;
+	margin-left:5px;
+	line-height:20px; /*IE*/
+	vertical-align:middle;
+    cursor:pointer;
+}
+.button::-moz-focus-inner
+{ /*Firefox*/
+	border:none;
+}
+.radio
+{
+    vertical-align:text-bottom;
+    cursor:pointer;
+}
+.paramplugin
+{
+    width:352px;
+    height:288px;
+	text-align:center;
+	display:table-cell; 
+    vertical-align:middle;
+    background-color:#343434;  
+}
+.margintop26
+{
+    margin-top:26px;
+}
+.margintop13
+{
+    margin-top:13px;
+}
+.width54
+{
+    width:54px;
+}
+.width60
+{
+    width:60px;
+}
+.width65
+{
+    width:65px;
+}
+.width70
+{
+    width:70px;
+}
+.width75
+{
+    width:75px;
+}
+.width85
+{
+    width:85px;
+}
+.width92
+{
+    width:92px;
+}
+.width95
+{
+    width:95px;
+}
+.width100
+{
+    width:100px;
+}
+.width156
+{
+    width:156px;
+}
+.width268
+{
+    width:268px;
+}
+.width300
+{
+    width:300px;
+}
+.width505
+{
+    width:505px;
+}
+.widthpersent100
+{
+    width:100%;
+}
+.height25
+{
+    height:25px;
+}
+.lineheight25
+{
+    line-height:25px;
+}
+.ie6bug1 /*ie6下firstspan不对齐*/
+{
+    _width:147px;
+}
+.borderc0c0c0
+{
+    border:1px solid #c0c0c0;
+}
+.borderd7d7d7
+{
+    border:1px solid #d7d7d7;
+}
+.bgeaeaea
+{
+    background:#eaeaea;
+}
+.inlineblock
+{
+    display:inline-block;
+}
+/*************************************************
+                 本地配置 begin
+*************************************************/
+.localsecondspan
+{
+    display:inline-block;
+	width:130px;    
+}
+.pathsecondspan
+{
+    display:inline-block;
+	width:430px;   
+}
+.paththirdspan
+{
+    display:inline-block;
+	width:80px;   
+}
+/*************************************************
+                 本地配置 end
+*************************************************/
+/*************************************************
+                 系统子页面 begin
+*************************************************/
+.deviceinfotable
+{
+    width:690px;
+    height:25px;
+    margin:10px 0 0 0;
+    line-height:25px;
+    over-flow:hidden;
+    border-collapse:collapse;
+}
+.deviceinfotd
+{
+	padding-left:10px;
+	border:1px solid #e8e6d7;
+}
+.rowheader
+{
+    width:150px;
+    background:#f8f8f8;
+}
+.upexplains
+{
+	display:inline-block;
+	vertical-align:top;
+	font-weight:bold;
+	width:555px;
+	word-wrap:break-word;
+}
+.upgradelabel
+{
+	_display:inline-block;
+	_vertical-align:top;
+	font-weight:bold;
+}
+.timetext
+{
+    width:200px;
+    vertical-align:middle\9;
+}
+.maintaintext
+{
+    width:330px;
+    margin-left:5px;
+	vertical-align:middle;
+    cursor:text;
+} 
+/*************************************************
+                 系统子页面 end
+*************************************************/
+/*************************************************
+                 网络子页面 begin
+*************************************************/
+/*******WIFI begin*******/
+.wifihead
+{
+	background-color:#F5F5F5;
+	height:30px;
+	line-height:30px;
+	vertical-align:central;
+	padding-left:10px;
+}
+#dvWifiList
+{
+	border:1px solid #E2E0D3;
+	height:135px;
+	overflow:auto;
+}
+.wifilisteven
+{
+	border-bottom:1px solid #E2E0D3;
+	height:26px;
+	line-height:26px;
+	cursor:pointer;	
+	background-color:#F8F8F8;
+}
+.wifilistodd
+{
+	border-bottom:1px solid #E2E0D3;
+	height:26px;
+	line-height:26px;
+	cursor:pointer;	
+	background-color:#FFFFFF;
+}
+.wifilistenter
+{
+	border-bottom:1px solid #E2E0D3;
+	height:26px;
+	line-height:26px;
+	cursor:pointer;		
+	background-color:#FBFBC2;
+}
+.wifilistselect
+{
+	border-bottom:1px solid #E2E0D3;
+	height:26px;
+	line-height:26px;
+	cursor:pointer;		
+	background-color:#C0C0C0;
+	cursor:default;
+}
+.wifilisttitle
+{
+	background-color:#EAEAEA;
+	height:24px;
+	line-height:24px;
+	vertical-align:central;
+}
+.wifiline
+{
+	float:left;
+	text-align:left;
+	padding-left:2px;
+	border-right:1px solid #EEEBDF;
+	overflow:hidden;
+	white-space:nowrap;
+}
+/*******WIFI end*******/
+.netradio
+{
+    vertical-align:text-bottom;
+    cursor:pointer;	
+	margin-right:2px;
+	margin-left:5px;
+}
+/*******UPnP start*******/
+.upnpfirst
+{
+	width:134px;
+	text-align:left;
+	border-right:1px solid #EFEEE5;
+	padding-left:5px;
+}
+.upnpsecond
+{
+	width:204px;
+	text-align:left;
+	border-right:1px solid #EFEEE5;
+	padding-left:5px;
+}
+.upnpthird
+{
+	width:134px;
+	text-align:left;
+	border-right:1px solid #EFEEE5;
+	padding-left:5px;
+	cursor:pointer;
+}
+.upnpfouth
+{
+	padding-left:5px;
+}
+#divPortsMapList div
+{
+	border:1px solid #E2E0D3;
+	border-width:0px 1px 1px 1px;
+	height:24px;
+}
+#divPortsMapList span
+{
+	height:24px;
+	/*padding-top:4px;*/
+	line-height:24px;
+	vertical-align:central;
+	float:left;
+}
+
+#divPortsMapList div.even
+{
+	background-color:#F8F8F8;
+}
+#divPortsMapList div.enter
+{
+	background-color:#FBFBC2;
+}
+#divPortsMapList div.select
+{
+	background-color:#C0C0C0;
+}
+/*******UPnP end*******/
+/*************************************************
+                 网络子页面 end
+*************************************************/
+/*************************************************
+                 图像子页面 begin
+*************************************************/
+.imageleft
+{
+    float:left;
+	width:360px;
+}
+.imageright
+{
+    float:left;
+	margin-left:8px;
+	width:318px;
+}
+.imagefirstspan
+{
+    float:left;
+	width:130px;   
+}
+.imagesecondspan
+{
+    float:right;
+	margin-right:10px;
+	width:168px;   
+}
+.imgsubparamswhite
+{
+	height:26px;
+	line-height:26px;
+	margin-bottom:2px;
+    background:#ffffff;
+}
+.imgselectwidth
+{
+    width:168px;
+	font-size:12px;
+}
+.imgbutton
+{
+	width:70px;
+	height:22px;
+	margin-left:5px;
+	line-height:18px; /*IE*/
+	vertical-align:middle;
+    cursor:pointer;
+}
+.imgbutton::-moz-focus-inner
+{ /*Firefox*/
+	border:none;
+}
+.videoinputwidth
+{
+    width:164px;
+}
+/*************************************************
+                 图像子页面 end
+*************************************************/
+/*************************************************
+                 安全子页面 begin
+*************************************************/
+.usercontent
+{
+    margin:0 auto;
+	width: 570px;
+	border:1px solid #959595;
+	background:#ffffff;
+}
+.windowtile
+{
+	height:26px;
+	line-height:26px;
+    padding-left:10px;
+    background:#d8d8d8;
+    font-weight:bold;
+}
+.usertable
+{
+    border-collapse:collapse; 
+	width:550px; 
+	margin:10px 0 0 10px;
+}
+.permissiontitle
+{
+    padding-left:5px;
+	background:#eaeaea;
+}
+.userfoot
+{
+	margin-top:10px;
+	padding-right:10px;
+	height:32px;
+	text-align:right;
+	line-height:32px;
+    background:#eaeaea; 
+}
+.usercheckbox
+{
+    vertical-align:text-bottom;
+	margin-left:5px;
+    cursor:pointer;
+}
+.ipcontent
+{
+	margin:0 auto;
+	width: 470px;
+	border:1px solid #959595;
+	background:#ffffff;
+}
+.ipfilterhead
+{
+	height:24px;
+	padding-top:3px;
+	padding-left:10px;
+	margin-top:10px;
+}
+.listHead
+{
+	background-color:#EAEAEA;
+	height:24px;
+	line-height:24px;
+	vertical-align:central;
+}
+.first
+{
+	width:104px;
+	text-align:left;
+	border-right:1px solid #EFEEE5;
+	padding-left:5px;
+}
+.second
+{
+	width:284px;
+	text-align:left;
+	border-right:1px solid #EFEEE5;
+	padding-left:5px;
+}
+#divIPAddressFilterList
+{
+	height:200px;
+	overflow:auto;
+	border:1px solid #E2E0D3;
+}
+#divIPAddressFilterList div
+{
+	border:1px solid #E2E0D3;
+	border-width:0px 1px 1px 1px;
+	height:24px;
+	cursor:pointer;
+}
+#divIPAddressFilterList span
+{
+	height:24px;
+	/*padding-top:4px;*/
+	line-height:24px;
+	vertical-align:central;
+	float:left;
+}
+
+#divIPAddressFilterList div.even
+{
+	background-color:#F8F8F8;
+}
+#divIPAddressFilterList div.enter
+{
+	background-color:#FBFBC2;
+}
+#divIPAddressFilterList div.select
+{
+	background-color:#C0C0C0;
+}
+/*************************************************
+                 安全子页面 end
+*************************************************/
+/*************************************************
+                 事件子页面 begin
+*************************************************/
+.videocontrolslabel
+{
+    width:85px; 
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	float:left;
+}
+.videocontrols
+{
+    width:85px; 
+	height:25px;
+	line-height:25px;
+	float:left;
+}
+.schedulebtn
+{
+    width:515px;
+	text-align:right;
+	margin-bottom:5px;
+}
+.schedulecanvas
+{
+    width:520px;
+	height:285px;
+}
+.linkagetable
+{
+    width:515px;
+	border-collapse:collapse;
+}
+.linkagetitle
+{
+    height:25px;
+	background:#eaeaea;
+}
+.scheduleeditdiv
+{
+    width:600px; 
+	height:350px; 
+	margin:0 auto; 
+	border:1px solid #8e8e8e; 
+	background:#e7e7e7;
+}
+.scheduleedittitlediv
+{
+    height:35px; 
+	background:#d8d8d8; 
+	line-height:35px; 
+	padding-left:10px;
+}
+.scheduletd
+{
+    padding-left:5px;
+	cursor:pointer;
+	border:1px solid #c2c2c2;
+}
+.scheduletdbackground
+{
+    background:url(../images/config/timeIcon.png) no-repeat right center;
+}
+/*************************************************
+                 事件子页面 end
+*************************************************/
+/*************************************************
+                 存储子页面 begin
+*************************************************/
+/************录像计划页面 begin************/
+.recordschedulebtn
+{
+    width:525px;
+	text-align:right;
+	margin:10px 0 5px 0;
+}
+.recordschedulecanvas
+{
+	width:675px;
+	height:285px;
+}
+/************录像计划页面 end************/
+/***********磁盘管理页面 begin***********/
+.storagelist
+{
+	border:1px solid #EBE8D9;
+	border-width:0 1px 1px 1px;
+	height:26px;
+}
+.storagerowfirst
+{
+	width:84px;
+	border-right:1px solid #EBE8D9;
+	height:21px;
+	padding-top:5px;
+	padding-left:9px;
+	float:left;	
+}
+.storagerowother
+{
+	width:85px;
+	border-right:1px solid #EBE8D9;
+	height:21px;
+	padding-top:5px;
+	padding-left:5px;
+	float:left;	
+}
+.storagerowlast
+{
+	width:128px;
+	height:21px;
+	padding-top:5px;
+	padding-left:5px;
+	float:left;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.seldiskcheck
+{
+	margin-right:3px;
+	vertical-align:text-bottom;
+    cursor:pointer;
+}
+/***********磁盘管理页面 end**********/
+/**************NAS begin************/
+.nasline
+{
+	height:24px;
+	border:1px solid #ECE9DC;
+	border-width:0px 1px 1px 1px;
+}
+.nasrow
+{
+	padding-top:3px;
+	padding-left:5px;
+	height:20px;
+	border-right:1px solid #ECE9DC;
+	float:left;
+}
+.nasfoot
+{
+	height:30px;
+	line-height:30px;
+	border:none;
+}
+.nasrowfirst
+{
+	width:71px;
+}
+.nasrowsecond
+{
+	width:145px;
+}
+.nasrowthird
+{
+	width:195px;
+	cursor:pointer;
+	overflow:hidden;
+}
+.nasrowfouth
+{
+	width:254px;
+	border-right:none;
+	cursor:pointer;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.nasformtips 
+{
+	width:auto;
+    color:#457735;
+	border:none;
+}
+.nasedittext
+{
+	display:none;
+	position:absolute;
+}
+/**************NAS end************/
+/*************************************************
+                 存储子页面 end
+*************************************************/
+#scheduleplan .linkagetable tr
+{
+    height:25px;
+}
+#scheduleplan .linkagetable td
+{
+    padding-left:5px;
+	cursor:pointer;
+	border:1px solid #c2c2c2;
+}

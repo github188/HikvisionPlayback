@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<ParamConfig>
+	<Common>
+		<Page>
+			<laParamConfig>Конфиг системы</laParamConfig>
+			<Tree>
+				<laLocalConfig tag="label;" length="125">Локал. конфиг.</laLocalConfig>
+				<laBaseConfig tag="label;" length="125">Основная конфигурация</laBaseConfig>
+				<laAdvanceConfig tag="label;" length="125">Расшир конфигурация</laAdvanceConfig>
+				<aLocalConfig tag="a;" length="139">Локал. конфиг.</aLocalConfig>
+				<aSystem tag="a;" length="139">Сис.</aSystem>
+				<aNetwork tag="a;" length="139">Сеть</aNetwork>
+				<aAudioAndVideo tag="a;" length="139">Видео/Аудио</aAudioAndVideo>
+				<aVideoSettings tag="a;" length="139">изображение</aVideoSettings>
+				<aSecurity tag="a;" length="139">безопасность</aSecurity>
+				<aEvent tag="a;" length="139">События</aEvent>
+				<aStorage tag="a;" length="139">Хранилище</aStorage>
+				<DVR>
+					<tree1>Конфиг системы</tree1>
+					<tree2>Локал. конфиг.</tree2>
+					<tree3>Удал. конфиг.</tree3>
+					<tree300>Параметры устройства</tree300>
+					<tree3000>Информации</tree3000>
+					<tree3001>Настройки времени</tree3001>
+					<tree3002>Статус устройства</tree3002>
+					<tree3003>Menu Output</tree3003>
+					<tree301>Настройки камеры</tree301>
+					<tree3010>Параметры экрана</tree3010>
+					<tree3011>Настройки изображения</tree3011>
+					<tree3012>Параметры расписания</tree3012>
+					<tree3013>Детектор движения</tree3013>
+					<tree3014>Потеря видео</tree3014>
+					<tree3015>Маска</tree3015>
+					<tree3016>Защита тампером</tree3016>
+					<tree3017>Наложенный текст</tree3017>
+					<tree3018>Настройки выходного</tree3018>
+					<tree3019>Параметры изображения</tree3019>
+					<tree30191>Снимок экрана</tree30191>
+					<tree302>Настройки сети</tree302>
+					<tree3020>TCP/IP</tree3020>
+					<tree3021>PPPOE</tree3021>
+					<tree3022>DDNS</tree3022>
+					<tree3023>E-mail</tree3023>
+					<tree3024>Сетевой HDD</tree3024>
+					<tree3025>SNMP</tree3025>
+					<tree3028>Порт</tree3028>
+					<tree3029>FTP</tree3029>
+					<tree30291>QoS</tree30291>
+					<tree30292>SOCKS</tree30292>
+					<tree30293>UPnP™</tree30293>
+					<tree30294>HTTPS</tree30294>
+					<tree30295>Bonjour</tree30295>
+					<tree303>Настр. Порта</tree303>
+					<tree3030>232 порт</tree3030>
+					<tree3031>485 порт</tree3031>
+					<tree304>Настройки тревог</tree304>
+					<tree3040>Тревожный вход</tree3040>
+					<tree3041>Выход тревоги</tree3041>
+					<tree305>Исключение</tree305>
+					<tree306>Управление аккаунтом</tree306>
+					<tree307>Жесткий диск</tree307>
+					<tree3070>Основ. парам.</tree3070>
+					<tree308>Обслуживание</tree308>
+					<tree309>Перезагрузка</tree309>
+					<tree310>удалённое обновление</tree310>
+					<tree311>Управление камерами</tree311>
+					<tree3110>Аналоговая камера</tree3110>
+					<tree3111>IP камера</tree3111>
+					<tree3112>Канал Ноля</tree3112>
+				</DVR>
+			</Tree>
+			<StartWeekDayOpt1 tag="label;a;" length="29">Пон</StartWeekDayOpt1>
+			<StartWeekDayOpt2 tag="label;a;" length="27">Вто</StartWeekDayOpt2>
+			<StartWeekDayOpt3 tag="label;a;" length="31">Сре</StartWeekDayOpt3>
+			<StartWeekDayOpt4 tag="label;a;" length="27">Чет</StartWeekDayOpt4>
+			<StartWeekDayOpt5 tag="label;a;" length="20">Пят</StartWeekDayOpt5>
+			<StartWeekDayOpt6 tag="label;a;" length="24">Суб</StartWeekDayOpt6>
+			<StartWeekDayOpt0 tag="label;a;" length="31">Вск</StartWeekDayOpt0>
+			<laMonday tag="label;a;" length="29">Пон</laMonday>
+			<laTuesday tag="label;a;" length="27">Вто</laTuesday>
+			<laWednesday tag="label;a;" length="31">Сре</laWednesday>
+			<laThursday tag="label;a;" length="27">Чет</laThursday>
+			<laFriday tag="label;a;" length="20">Пят</laFriday>
+			<laSaturday tag="label;a;" length="24">Суб</laSaturday>
+			<laSunday tag="label;a;" length="31">Вск</laSunday>
+			<laHoliday>Выходной</laHoliday>
+			<laSelectAll tag="label;" length="40">Выбрать все</laSelectAll>
+			<CopyTo tag="input;" length="88">Копия</CopyTo>
+			<laMacAddress tag="label;" length="150">MAC адрес</laMacAddress>
+			<laChannelName>Имя камеры</laChannelName>
+			<laCheckPwd tag="label;" length="150">Подтвержд парол</laCheckPwd>
+			<laProtocolType tag="label;" length="150">Протокол</laProtocolType>
+			<laState tag="label;" length="100">Статус</laState>
+			<StartMonthOpt1 tag="option;" length="58">Янв</StartMonthOpt1>
+			<StartMonthOpt2 tag="option;" length="58">Фев</StartMonthOpt2>
+			<StartMonthOpt3 tag="option;" length="58">Март</StartMonthOpt3>
+			<StartMonthOpt4 tag="option;" length="58">Апр</StartMonthOpt4>
+			<StartMonthOpt5 tag="option;" length="58">Май</StartMonthOpt5>
+			<StartMonthOpt6 tag="option;" length="58">Июнь</StartMonthOpt6>
+			<StartMonthOpt7 tag="option;" length="58">Июль</StartMonthOpt7>
+			<StartMonthOpt8 tag="option;" length="58">Авг</StartMonthOpt8>
+			<StartMonthOpt9 tag="option;" length="58">Сент</StartMonthOpt9>
+			<StartMonthOpt10 tag="option;" length="58">Окт</StartMonthOpt10>
+			<StartMonthOpt11 tag="option;" length="58">Нояб</StartMonthOpt11>
+			<StartMonthOpt12 tag="option;" length="58">Дек</StartMonthOpt12>
+			<MdfDigitalIpBtn tag="input;" length="74">Измен.</MdfDigitalIpBtn>
+			<AddDigitalIpBtn>Добав.</AddDigitalIpBtn>
+			<laDay tag="option;" length="78">День</laDay>
+			<StartWeekOpt1 tag="option;" length="68">Перв.</StartWeekOpt1>
+			<StartWeekOpt2 tag="option;" length="68">Втор.</StartWeekOpt2>
+			<StartWeekOpt3 tag="option;" length="68">Тр.</StartWeekOpt3>
+			<StartWeekOpt4 tag="option;" length="68">Четв.</StartWeekOpt4>
+			<StartWeekOpt5 tag="option;" length="68">последнее</StartWeekOpt5>
+			<laEnable>Вкл.</laEnable>
+			<btnBrowse tag="input;" length="74">Выбор</btnBrowse>
+			<laCopyToChannel>Скопировать для камеры</laCopyToChannel>
+			<laVideoResolution tag="label;" length="150">Разрешение</laVideoResolution>
+			<laCopyToWeek tag="label;" length="78">Скопировать на неделю</laCopyToWeek>
+			<GoBackListBtn tag="input;" length="88">Назад</GoBackListBtn>
+			<laEdit>Ред.</laEdit>
+			<laNoCopy tag="label;" length="517">(невозможно копировать)</laNoCopy>
+			<laProcess tag="label;" length="100">Прогресс</laProcess>
+			<aModeManual tag="option;" length="176">Вручную</aModeManual>
+			<aLevelLow tag="option;" length="176">Низ.</aLevelLow>
+			<aLevelNormal tag="option;" length="176">Норм.</aLevelNormal>
+			<aLevelHigh tag="option;" length="176">Выс.</aLevelHigh>
+			<optionSecond tag="option;" length="78">Втор.</optionSecond>
+			<laType tag="label;" length="100">Тип</laType>
+			<laOClock>час.</laOClock>
+			<aStyleClose tag="option;" length="176">Закрыто</aStyleClose>
+			<aModeAuto tag="option;" length="176">Авто</aModeAuto>
+			<laDelay tag="label;" length="150">Задержка</laDelay>
+			<OptPirORWlsensorORCallhelp>PIR|Wireless|Manual</OptPirORWlsensorORCallhelp>
+			<OptAllEvent>Motion|Alarm Input|PIR|Wireless|Emergency</OptAllEvent>
+			<laAuthType tag="label;" length="150">Авторизация</laAuthType>
+			<laAttribute>Property</laAttribute>
+			<aEmail tag="a;" length="9999">Email</aEmail>
+			<laMountType>Тип крепления</laMountType>
+			<laCelling>Потолок</laCelling>
+			<laWall>Стена</laWall>
+			<laFloor>Пол</laFloor>
+			<laAnonymous>Анонимный</laAnonymous>
+			<laUploadCertificate>Добавить</laUploadCertificate>
+		</Page>
+		<Js>
+			<laparamCfg>Конфиг системы</laparamCfg>
+			<AnalogChannelNameTips>Аналоговая камера</AnalogChannelNameTips>
+			<DigitalChannelNameTips>IP камера</DigitalChannelNameTips>
+			<InputTips>Вход </InputTips>
+			<RangeTips> диапазон </RangeTips>
+			<WrongTips>Некоррект. </WrongTips>
+			<LengthTips> длина не может превышать </LengthTips>
+			<NullTips> не может быть пустым.</NullTips>
+			<WithTimeSegmentTips> с периодом </WithTimeSegmentTips>
+			<UserNameCharTips> Возможны только символы, цифры не доступны</UserNameCharTips>
+			<CoverStopMapbuttonTips>Остановить рис</CoverStopMapbuttonTips>
+			<ClearRegionTips>Очистить зоны?</ClearRegionTips>
+			<DeleteRegionFailedTips>Ошибка очистки</DeleteRegionFailedTips>
+			<DeleteRegionSuccessTips>Очищено</DeleteRegionSuccessTips>
+			<DevNameLengthTips>Длина имени не может быть более 32 символов</DevNameLengthTips>
+			<DevNameNullTips>Имя не может быть пустым</DevNameNullTips>
+			<DevNameWrongCharTips>Имя не может содержать следующие символы: </DevNameWrongCharTips>
+			<jsPwdCheckMismatch>Пароли не совпадают</jsPwdCheckMismatch>
+			<jsTimeSegmentErrorSegTips> Время начала должно быть раньше времени оконч..</jsTimeSegmentErrorSegTips>
+			<laCopyToChannel>Скопировать для камеры</laCopyToChannel>
+			<UserNameLengthTips> длина не может превышать 16</UserNameLengthTips>
+			<OffLineTips>не в сети</OffLineTips>
+			<OverlappedTips> Не может пересекаться.</OverlappedTips>
+			<LocalTips>Лок.</LocalTips>
+			<DIPAddInvalidTips>Первый сегмент IP адреса должен быть целым числом в диапазоне между 1 и 233</DIPAddInvalidTips>
+			<tipsNormal>Норм.</tipsNormal>
+			<jsEmailAdd>Адрес электронной почты</jsEmailAdd>
+			<jsUploadSuc>Добавление успешно</jsUploadSuc>
+			<jsUploadFailed>Сбой при загрузке</jsUploadFailed>
+		</Js>
+		<General>
+			<geUserName tag="label;" length="150">Имя польз.</geUserName>
+			<gePassword tag="label;" length="150">Пароль</gePassword>
+			<laTimerange tag="label;" length="100">Период</laTimerange>
+			<CoverStartMapbutton tag="input;" length="74">Зона рис</CoverStartMapbutton>
+			<CoverTimebutton tag="input;" length="74">Удалить все</CoverTimebutton>
+			<laServerAdd tag="label;" length="150">Адрес сервера</laServerAdd>
+			<laIpAddress>IP адрес</laIpAddress>
+			<aMoveDetection tag="a;" length="9999">Детектор движения</aMoveDetection>
+			<laVideoTabDivBtn tag="label;" length="670">Параметры зоны</laVideoTabDivBtn>
+			<trDisabled>Откл.</trDisabled>
+			<WholeDayRecordTypeOpt1 tag="option;" length="118">Норм.</WholeDayRecordTypeOpt1>
+			<WholeDayRecordTypeOpt3 tag="option;" length="118">Тревога</WholeDayRecordTypeOpt3>
+			<WholeDayRecordTypeOpt4 tag="option;" length="118">Движ|Трев</WholeDayRecordTypeOpt4>
+			<WholeDayRecordTypeOpt5 tag="option;" length="118">Движ&amp;Трев</WholeDayRecordTypeOpt5>
+			<laEnableWholeDayRecord tag="label;" length="87">Весь день</laEnableWholeDayRecord>
+			<laEnableWholeDayCapture tag="label;" length="87">Весь день</laEnableWholeDayCapture>
+			<laSectionRecord tag="label;" length="578">Изменить</laSectionRecord>
+			<laSectionCapture tag="label;" length="578">Изменить</laSectionCapture>
+			<laWholeDayRecordType tag="label;" length="149">Тип видео</laWholeDayRecordType>
+			<laWholeDayCaptureType tag="label;" length="149">Тип захвата</laWholeDayCaptureType>
+			<constantBitRateOpt23>Настройка</constantBitRateOpt23>
+			<Other>Другой</Other>
+		</General>
+	</Common>
+	<ParamConfig>
+		<Page>
+		</Page>
+		<Js>
+			<Success1>Сохранение успешно.</Success1>
+			<Success2>Сохранение успешно. Перезагрузить устройство?</Success2>
+			<DeleteSuccTips>Файл удален.</DeleteSuccTips>
+			<Success4>Файл удален. Перезагрузить устройство?</Success4>
+			<Success5>Успешно! Перезагрузите устройство для вступления параметров в силу.</Success5>
+			<Error1>Ошибка установки параметров</Error1>
+			<Error2>Ошибка получения параметров</Error2>
+			<Error3>Некорректное содержимое XML</Error3>
+			<Error4>Неверный XML формат</Error4>
+			<Error5>Некорректная операция</Error5>
+			<Error6>Ошибка устройства</Error6>
+			<Error7>Устройство занято.</Error7>
+			<jsNetworkAbnormal>Проблемы с сетью</jsNetworkAbnormal>
+			<Error10>Нет каналов тревожных входов/выходов</Error10>
+			<Error11>Ошибка пароля пользователя.</Error11>
+			<Error12>Ошибка метода</Error12>
+			<Error13>Ошибка параметра</Error13>
+			<Error14>Неверный URL или HTTP</Error14>
+			<Error400>Ошибка: сеть отключена или имеются ошибки</Error400>
+			<Error44> ошиб. параметров</Error44>
+			<Error55>Настр. Камеры</Error55>
+			<Error66>Настройки параметров тревоги</Error66>
+			<Error77>Камера на поддерживает данную функцию</Error77>
+			<Ask>Устройство будет перезагружено автоматически после окончания сохранения параметров. Продолжить?</Ask>
+			<Ask1>Удалить этого пользователя?</Ask1>
+			<RestartTips>Вы хотите перезагрузить устройство?</RestartTips>
+			<RestartSuccessTips>Перезагрузка…</RestartSuccessTips>
+			<RestartFailedTips>Ошибка перезагрузки</RestartFailedTips>
+		</Js>
+	</ParamConfig>
+</ParamConfig>

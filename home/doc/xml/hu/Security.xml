@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Security>
+	<Common>
+		<Page>
+			<aUser tag="a;" length="9999">Felhasználó</aUser>
+			<aRTSPAuth tag="a;" length="9999">RTSP azonosítás</aRTSPAuth>
+			<aAnonymousVisit>Névtelen látogatás</aAnonymousVisit>
+			<aIPFilter>IP-címszűrő</aIPFilter>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<User>
+		<Page>
+			<DVR>
+				<laSpanTitle>Felhasználó info</laSpanTitle>
+				<laIpBind>IP cím kapcsolás</laIpBind>
+				<laLocalColonConfig tag="label;" length="125">Helyi beállítások</laLocalColonConfig>
+				<laLocalUpgrade>Helyi frissítés/formázás</laLocalUpgrade>
+				<laLocalReboot>Helyi leállítás/újraindítás</laLocalReboot>
+				<laLocalSetParam>Helyi paraméter beállítás</laLocalSetParam>
+				<laLocalLog>Helyi napló keresés</laLocalLog>
+				<laLocalIPCCfg>IP kamera helyi beállítása</laLocalIPCCfg>
+				<laLocalPlayback>Helyi lejátszás</laLocalPlayback>
+				<laLocalManualRecord>Helyi kézi művelet</laLocalManualRecord>
+				<laLocalPTZControl>Helyi PTZ vezérlés</laLocalPTZControl>
+				<laLocalBackup>Helyi video export</laLocalBackup>
+				<laRemoteConfig>Távoli konfiguráció</laRemoteConfig>
+			</DVR>
+			<laUserType tag="label;" length="150">Felhasználó típus</laUserType>
+			<PriorityOpt1 tag="label;" length="411">Rendszergazda</PriorityOpt1>
+			<PriorityOpt2 tag="option;" length="198">Kezelő</PriorityOpt2>
+			<PriorityOpt3 tag="option;" length="198">Felhasználó</PriorityOpt3>
+			<laBasicPermissionBtn tag="label;" length="399">Alap jogosultságok</laBasicPermissionBtn>
+			<laChanPermissionBtn tag="label;" length="148">A kamera beállítása</laChanPermissionBtn>
+			<laRemoteSetParam tag="label;" length="370">Távoli paraméter-beállítás</laRemoteSetParam>
+			<laRemoteLog tag="label;" length="370">Távoli napló keresés / lehallgatás</laRemoteLog>
+			<laRemoteUpgrade tag="label;" length="370">Távoli frissítés/formázás</laRemoteUpgrade>
+			<laRemoteTalk tag="label;" length="370">Távoli félduplex audió</laRemoteTalk>
+			<laRemoteReboot tag="label;" length="370">Távoli leállítás / újraindítás</laRemoteReboot>
+			<laRemoteAlarm tag="label;" length="370">Jelzés a Felügyeleti Központnak / Riasztási kimenet indítása</laRemoteAlarm>
+			<laRemoteCtrl tag="label;" length="370">Távoli video kimenet vezérlés</laRemoteCtrl>
+			<laRemoteRS tag="label;" length="370">Távoli soros port vezérlés</laRemoteRS>
+			<laRemotePreview tag="label;" length="119">Távoli élőkép</laRemotePreview>
+			<laRemoteManualRecord tag="label;" length="119">Távoli kézi rögzítés</laRemoteManualRecord>
+			<laRemotePTZControl tag="label;" length="119">Távoli PTZ vezérlés</laRemotePTZControl>
+			<laRemotePlayback tag="label;" length="122">Távoli visszajátszás</laRemotePlayback>
+			<laPermissionConfig>Jogosultság-beállítások</laPermissionConfig>
+		</Page>
+		<Js>
+			<UserAddTips>Új felhasználó</UserAddTips>
+			<UserExistTips>A felhasználónév már létezik.</UserExistTips>
+			<jsPasswordDifferenceTips>Jelszavak nem egyeznek.</jsPasswordDifferenceTips>
+			<WrongCharTips> nem tartalmazhat</WrongCharTips>
+		</Js>
+		<General>
+			<laUserModify tag="label;" length="550">Felhasználó szerkesztése</laUserModify>
+		</General>
+	</User>
+	<RTSPAuth>
+		<Page>
+		</Page>
+		<Js>
+		</Js>
+	</RTSPAuth>
+	<IPFilter>
+		<Page>
+			<laEnableIPFilter>IP-címszűrő engedélyezése</laEnableIPFilter>
+			<laIPFilterType>IP-címszűrő típusa</laIPFilterType>
+			<optAllow>Megengedett</optAllow>
+			<optDeny>Tiltott</optDeny>
+			<laAddIPAddress>IP-cím hozzáadása</laAddIPAddress>
+			<laModifyIPAddress>IP-cím módosítása</laModifyIPAddress>
+		</Page>
+		<Js>
+		</Js>
+	</IPFilter>
+</Security>

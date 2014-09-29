@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">Πρόγραμμα εγγραφής</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Διαχείριση αποθήκευσης</aHardDisk>
+			<laAdvancedRecordCfg>Σύνθετο</laAdvancedRecordCfg>
+			<laExtractFrame>Εξαγωγή καρέ</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">Αρ. σκλ. δίσκ.</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Δεν μπορεί να προστεθεί δύο φορές ο ίδιος δικτυακός σκληρός δίσκος.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Διαδρομή αρχείου</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Σύνθετο</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Ενεργ. προγρ. εγγρ.</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Ενεργ. πλ. λήψ.</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Προ-εγγραφή</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Καμία προεγγραφή</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5 δευτ.</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10 δευτ.</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15 δευτ.</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20 δευτ.</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25 δευτ.</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30 δευτ.</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Χωρίς όριο</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Μετά την εγγραφή</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1 λεπτά</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2 λεπτά</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5 λεπτά</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10 λεπτά</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Πλεονάζ. εγγραφ</laRedundancyRec>
+			<laRecordOverWrite>Αντικατάσταση</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Όχι</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Ναι</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Ήχος εγγραφής</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Επεξ. προγρ. εγγρ</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Χρόνος λήξης</geRecorderDuration>
+			<EndTimeRangeTips>Ο χρόνος λήξης δεν μπορεί να υπερβαίνει τις 24:00.</EndTimeRangeTips>
+			<AdvancedTips>Σύνθετο</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>Διαχείριση σκληρού δίσκου</laSpanTitle>
+				<laHardDiskNo>Αρ. σκλ. δίσκ.</laHardDiskNo>
+				<laDiskProperty>Ιδιότητα</laDiskProperty>
+				<laDiskGroup>Ομάδα σκλ. δίσκ.</laDiskGroup>
+				<laDiskInit>Αρχικ. σκλ. δίσκ.</laDiskInit>
+				<laInitState>Κατ. αρχ.</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">Λίστα συσκευών σκληρού δίσκου</laDiskTitle>
+			<laCapacity tag="label;" length="100">Χωρητικότ.</laCapacity>
+			<laFreeSpace tag="label;" length="100">Ελ. χώρος</laFreeSpace>
+			<formatDisk tag="input;" length="74">Μορφή</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>Δεν είναι δυνατή η επεξεργασία των ιδιοτήτων του σκληρού δίσκου στην τρέχουσα λειτουργία αποθήκευσης.</tipsNotSupportEdit>
+				<tipsFormatRo>Η αρχικοποίηση απέτυχε. Δεν μπορεί να επιλεγεί σκληρός ή σκληροί δίσκοι μόνο για ανάγνωση.</tipsFormatRo>
+				<tipsDisk>Σκληρός δίσκος</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Μη αρχικοπ.</tipsUnformatted>
+			<tipsError>Σφάλμα</tipsError>
+			<tipsIdle>Σε αναμονή</tipsIdle>
+			<tipsMismatch>Με ασυμφ.</tipsMismatch>
+			<tipsFormatting>Μορφοποίηση...</tipsFormatting>
+			<tipsNotexist>Δεν υπάρχει</tipsNotexist>
+			<tipsFormatSelect>Να γίνει διαμόρφωση του σκληρού δίσκου;</tipsFormatSelect>
+			<tipsFormatAll>Η διαμόρφωση σκληρού δίσκου ολοκληρώθηκε.</tipsFormatAll>
+			<tipsFormatFailed>Η αρχικοποίηση του σκληρού δίσκου απέτυχε.</tipsFormatFailed>
+			<tipsFormattingWait>Μορφοποίηση... παρακαλώ περιμένετε...</tipsFormattingWait>
+			<tipsSelectDisk>Επιλέξτε σκληρό δίσκο προς διαμόρφωση.</tipsSelectDisk>
+			<tipsStorageMode>Ρυθμίσεις λειτουργίας αποθήκευσης </tipsStorageMode>
+			<tipsArray>Εικονικός δίσκος</tipsArray>
+			<jsComplete>Ολοκλήρωση</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>Ανάγν./Εγγρ</tipsRW>
+			<tipsRO>Μόνο ανάγν.</tipsRO>
+			<tipsRedund>Πλεονασμός</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>Δικτυακός σκληρός δίσκος</laSpanTitle>
+				<Property1Opt1>Ανάγν./Εγγρ</Property1Opt1>
+				<Property1Opt2>Μόνο ανάγν.</Property1Opt2>
+				<Property1Opt3>Πλεονασμός</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Ρύθμ. δίσκ</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

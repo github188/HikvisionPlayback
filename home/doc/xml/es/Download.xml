@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>Descargar fichero</title>
+		<picturetitle>Descargar imagen</picturetitle>
+		<laFileName tag="label;" length="140">Nombre fich.</laFileName>
+		<laFileSize tag="label;" length="90">Tamaño fichero</laFileSize>
+		<laPictureData tag="label;" length="90">Fecha del archivo</laPictureData>
+		<laDownloadProcess tag="label;" length="90">Progreso</laDownloadProcess>
+		<PictureType1>Horario</PictureType1>
+		<PictureType2>Alarma</PictureType2>
+		<PictureType3>Movimiento</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>Descargado</Downloaded>
+		<jsNoPictureTip>No hay archivos de imágenes.</jsNoPictureTip>
+		<jsSearchPicFailed>Busqueda de imágenes fallida.</jsSearchPicFailed>
+		<jsDownloadFailed>Fallo descarga</jsDownloadFailed>
+		<jsTips1>¿Parar descarga?</jsTips1>
+		<jsTips2>Seleccionar un fichero para descargar</jsTips2>
+	</Js>
+</Download>

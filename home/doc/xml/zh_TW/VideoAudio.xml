@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<VideoAudio>
+	<Common>
+		<Page>
+			<aVideo tag="a;" length="9999">影像</aVideo>
+			<aAudio tag="a;" length="9999">音頻</aAudio>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<Video>
+		<Page>
+			<DVR>
+				<laSpanTitle>影像設定</laSpanTitle>
+				<laSaving>正在儲存……</laSaving>
+				<laEffectParam>前端輸入類型</laEffectParam>
+			</DVR>
+			<laInputResolution tag="label;" length="150">前端解析度</laInputResolution>
+			<StreamTypeInOpt1 tag="option;" length="198">主串流（定時）</StreamTypeInOpt1>
+			<StreamTypeInOpt2 tag="option;" length="198">子串流</StreamTypeInOpt2>
+			<StreamTypeInOpt3>主串流（事件）</StreamTypeInOpt3>
+			<laUseEventPram>啟用事件參數</laUseEventPram>
+			<StreamTypeOpt1 tag="option;" length="198">影像串流</StreamTypeOpt1>
+			<StreamTypeOpt2 tag="option;" length="198">複合串流</StreamTypeOpt2>
+			<laVideoQualityControlType tag="label;" length="150">位元率類型</laVideoQualityControlType>
+			<videoQualityControlTypeOpt1 tag="option;" length="198">變碼率</videoQualityControlTypeOpt1>
+			<videoQualityControlTypeOpt2 tag="option;" length="198">定位元率</videoQualityControlTypeOpt2>
+			<lafixedQuality tag="label;" length="150">影像品質</lafixedQuality>
+			<fixedQualityOpt1 tag="option;" length="198">最高</fixedQualityOpt1>
+			<fixedQualityOpt2 tag="option;" length="198">較高</fixedQualityOpt2>
+			<fixedQualityOpt3 tag="option;" length="198">中</fixedQualityOpt3>
+			<fixedQualityOpt4 tag="option;" length="198">低</fixedQualityOpt4>
+			<fixedQualityOpt5 tag="option;" length="198">較低</fixedQualityOpt5>
+			<fixedQualityOpt6 tag="option;" length="198">最低</fixedQualityOpt6>
+			<laVideoFrameRate tag="label;" length="150">影像幀率</laVideoFrameRate>
+			<maxFrameRateOpt1>全幀率</maxFrameRateOpt1>
+			<laconstantBitRate tag="label;" length="150">位元率上限</laconstantBitRate>
+			<laVideoCodeType tag="label;" length="150">影像編碼</laVideoCodeType>
+			<laIntervalBPFrame tag="label;" length="150">影格類型</laIntervalBPFrame>
+			<laCodecComplexity tag="label;" length="150">編碼複雜度</laCodecComplexity>
+			<optionQuality1>低</optionQuality1>
+			<optionQuality2>中</optionQuality2>
+			<optionQuality3>高</optionQuality3>
+			<trVideoType>影像類型</trVideoType>
+			<laEnableEventParam>啟用事件壓縮參數</laEnableEventParam>
+		</Page>
+		<Js>
+			<jsCustonBitRate>自訂位元率</jsCustonBitRate>
+		</Js>
+		<General>
+			<laIntervalFrameI tag="label;" length="150">I幀間隔</laIntervalFrameI>
+			<laMulticast tag="label;" length="150">多播位址</laMulticast>
+		</General>
+	</Video>
+	<Audio>
+		<Page>
+			<laAudioEncoding tag="label;" length="150">音頻編碼</laAudioEncoding>
+			<laAudioInput tag="label;" length="150">音頻輸入</laAudioInput>
+			<laAudioVolume>音量</laAudioVolume>
+		</Page>
+		<Js>
+		</Js>
+	</Audio>
+</VideoAudio>

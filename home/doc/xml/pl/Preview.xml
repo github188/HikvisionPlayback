@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Live</title>
+		<voiceTalk>Aktywacja funkcji interkom</voiceTalk>
+		<StopvoiceTalk>Zakończ komunikację głosową</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Dwukier. kanał audio</laTalkNum>
+		<laLight>Oświetlenie</laLight>
+		<laWiper>Wycieraczka</laWiper>
+		<laOneKeyFocus>Ostrość za jednym dotknięciem</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Parametry obrazu</laVideoEffect>
+		<Patrol>Patrol</Patrol>
+		<laTrack>Ścieżka</laTrack>
+		<laPatrolTime tag="label;" length="75">Czas patrolowania</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Szybkość patrolowania</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Dodaj ścieżkę patrolu</laAddPatrolPath>
+		<raVideoParamMode1>Standard</raVideoParamMode1>
+		<raVideoParamMode2>Wewn.</raVideoParamMode2>
+		<raVideoParamMode3>Na zewn.</raVideoParamMode3>
+		<raVideoParamMode4>Sł. ośw.</raVideoParamMode4>
+		<laNoiseReduce>Odszumianie</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Zakończ podgląd na żywo</stoppreview>
+		<recordfailed>Zapis się nie powiódł.</recordfailed>
+		<stoprecord>Koniec nagryw.</stoprecord>
+		<jsSetVideoParam>Nie udało się zapisać parametrów obrazu.</jsSetVideoParam>
+		<jsNetError>Działanie nieudane lub brak uprawnień.</jsNetError>
+		<VoiceTalkFailed>Błąd interkomu.</VoiceTalkFailed>
+		<ChooseTalkChan>Wybierz kanał audio.</ChooseTalkChan>
+		<jsRecordSucc>Nagrywanie się powiodło.</jsRecordSucc>
+		<jsRecordAllSucc>Wszystkie zapisy się powiodły.</jsRecordAllSucc>
+		<Start>Rozpocznij</Start>
+		<StartSave>Rozpocznij nagrywanie</StartSave>
+		<StopSave>Zatrzymaj nagrywanie</StopSave>
+		<Start3DZoom>Uruchom powiększenie 3D</Start3DZoom>
+		<Stop3DZoom>Zatrzymaj powiększenie 3D</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Zatrzymaj wszystkie podglądy na żywo</geStopAllViewing>
+	</General>
+</Preview>

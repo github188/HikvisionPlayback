@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>假日配置</laSpanTitle>
+		<laPrompt>同等类型的假日时间不能交叉</laPrompt>
+		<laHolidayName>假日名称</laHolidayName>
+		<laHolidayFun>假日使能</laHolidayFun>
+		<HolidayTypeOpt1>按日期</HolidayTypeOpt1>
+		<HolidayTypeOpt2>按星期</HolidayTypeOpt2>
+		<HolidayTypeOpt3>按月份</HolidayTypeOpt3>
+		<laStartDate>开始日期</laStartDate>
+		<laEndDate>结束日期</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>编辑假日</EditHolidayTips>
+		<LastTips>末</LastTips>
+		<DayTips>日</DayTips>
+		<MonthTips>月</MonthTips>
+		<MonthAndIndexTips>月第</MonthAndIndexTips>
+		<WeekAndIndexTips>个周</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

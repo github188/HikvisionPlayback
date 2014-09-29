@@ -1,0 +1,36 @@
+#!/bin/sh
+
+/bin/mount -t tmpfs udev /dev > /dev/null 2>&1
+mkdir -p /dev/shm
+mkdir -p /dev/pts
+/bin/mount -t devpts devpts /dev/pts > /dev/null 2>&1
+
+#[ -e /dev/msmouse ] || /bin/mknod -m 660 /dev/msmouse c 10 2
+#[ -e /dev/dsplink ] || /bin/mknod -m 660 /dev/dsplink c 230 0
+#[ -e /dev/cmem ]    || /bin/mknod -m 660 /dev/cmem c 232 0
+[ -e /dev/console ] || /bin/mknod -m 660 /dev/console c 5 1 
+[ -e /dev/core ]    || /bin/mknod -m 660 /dev/core c 1 6
+[ -e /dev/dsp ]     || /bin/mknod -m 660 /dev/dsp c 14 3
+[ -e /dev/eeprom ]  || /bin/mknod -m 660 /dev/eeprom c 240 0
+[ -e /dev/edma ]  || /bin/mknod -m 660 /dev/edma c 244 0
+[ -e /dev/hikio ]   || /bin/mknod -m 660 /dev/hikio c 253 0
+[ -e /dev/iop ]     || /bin/mknod -m 660 /dev/iop c 241 0
+[ -e /dev/mixer ]   || /bin/mknod -m 660 /dev/mixer c 14 0
+[ -e /dev/tty0 ]    || /bin/mknod -m 660 /dev/tty0 c 4 0
+[ -e /dev/ttyS1 ]    || /bin/mknod -m 660 /dev/ttyS1 c 4 65
+[ -e /dev/mmc0 ]    || /bin/mknod -m 660 /dev/mmc0 b 254 0
+[ -e /dev/mmc01 ]    || /bin/mknod -m 660 /dev/mmc01 b 254 1
+[ -e /dev/mmc02 ]    || /bin/mknod -m 660 /dev/mmc02 b 254 2
+#[ -e /dev/mmc03 ]    || /bin/mknod -m 660 /dev/mmc03 b 8 3
+#[ -e /dev/mmc04 ]    || /bin/mknod -m 660 /dev/mmc04 b 8 4
+#[ -e /dev/mmc05 ]    || /bin/mknod -m 660 /dev/mmc05 b 8 5
+#[ -e /dev/mmc06 ]    || /bin/mknod -m 660 /dev/mmc06 b 8 6
+
+echo "/sbin/udev" > /proc/sys/kernel/hotplug
+
+# udevd will run by udevsend if it not run
+# /sbin/udevd -d 
+#echo "/sbin/udevsend" > /proc/sys/kernel/hotplug
+
+/etc/init.d/udev.init start
+

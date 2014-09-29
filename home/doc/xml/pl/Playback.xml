@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Odtwarzanie</title>
+		<SlowlyForward>Wolno do przodu</SlowlyForward>
+		<FastForward>Szybko do przodu</FastForward>
+		<SingleFrame>Pojedyncza klatka</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Stan</laCurrentSpeed>
+		<laGotoTime>Idź</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Ustaw czas odtwarzania</laPlaybackTimeLocalizer>
+		<imgGotoTime>Odtwarzanie wg osi czasu</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Polecenie</RecordType1>
+		<RecordType2 tag="label;" length="704">Harmonogram</RecordType2>
+		<RecordType3 tag="label;" length="704">Alarm</RecordType3>
+		<RecordType4 tag="label;" length="704">Ręcznie</RecordType4>
+		<PictureDownload tag="input;" length="32">Pobierz obrazy</PictureDownload>
+		<RecordDownload tag="input;" length="32">Pobierz nagranie</RecordDownload>
+		<DVR>
+			<stopAll>Zatrzymaj wszystkie odtwarzania</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Nie udało się zatrzymać odtwarzania.</pausefailed>
+		<resumefailed>Wznowienie odtwarzania się nie powiodło.</resumefailed>
+		<stoprecord>Zakończ nagranie</stoprecord>
+		<startRecord>Początek klipu</startRecord>
+		<stoprecordfailed>Nie udało się zakończyć nagrania.</stoprecordfailed>
+		<startplayfailed>Błąd odtwarzania.</startplayfailed>
+		<stopplayfailed>Nie udało się zatrzymać odtwarzania.</stopplayfailed>
+		<jssingleframe>Odtwarzanie poklatkowe</jssingleframe>
+		<jssingleframefailed>Błąd odtwarzania poklatkowego.</jssingleframefailed>
+		<stopCurrentWndPlay>Najpierw zakończ odtwarzanie w bieżącym oknie.</stopCurrentWndPlay>
+		<szTips1>Wyszukiwanie plików wideo się nie powiodło.</szTips1>
+		<szTips3>Brak pliku z nagraniem.</szTips3>
+		<jsSearchFile>Najpierw wyszukaj plik.</jsSearchFile>
+		<jsSpeed>Szybkość</jsSpeed>
+		<jsPauseAlready>Zatrzymany</jsPauseAlready>
+		<jsPause>Pauza</jsPause>
+		<jsResume>Wznów</jsResume>
+		<jsPlayBackError>Odtwarzanie z błędem.</jsPlayBackError>
+		<jsRecordError>Nie udało się nagrać.</jsRecordError>
+		<jsPlaybackStop> Odtwarzanie zakończone.</jsPlaybackStop>
+		<jsPlayStopAbnormal> odtwarzanie zakończono z błędem.</jsPlayStopAbnormal>
+		<jsDownload>Wyszukaj plik do pobrania.</jsDownload>
+		<jsNotSupportDown>Urządzenie nie obsługuje pobierania.</jsNotSupportDown>
+		<jsDownloadWnd>Okno pobierania zostało otwarte.</jsDownloadWnd>
+		<jsClipSucc>Nagranie się powiodło.</jsClipSucc>
+		<jsZoomIn>Przybliżenie</jsZoomIn>
+		<jsZoomOut>Oddalenie</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Wybierz kanał.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Odtwarzanie</gePlay>
+	</General>
+</Playback>

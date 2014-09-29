@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<VideoSettings>
+	<Common>
+		<Page>
+			<aBaseVideoSettings tag="a;" length="9999">Display Settings</aBaseVideoSettings>
+			<aOSDSettings tag="a;" length="9999">OSD Settings</aOSDSettings>
+			<aTextOverlay tag="a;" length="9999">Text Overlay</aTextOverlay>
+			<aVideoMask tag="a;" length="9999">Privacy Mask</aVideoMask>
+			<aModeCenter tag="option;" length="176">Center</aModeCenter>
+			<aOSDFontSizeOpt2 tag="option;" length="178">Medium</aOSDFontSizeOpt2>
+			<apicinformChannel>Select Camera</apicinformChannel>
+			<laVideoPreview>Live View</laVideoPreview>
+			<aPictureOverlay>Picture Overlay</aPictureOverlay>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laXpos>X Coordinate</laXpos>
+			<laYpos>Y Coordinate</laYpos>
+		</General>
+	</Common>
+	<BaseVideoSettings>
+		<Page>
+			<laSpanTitle>Front-end Parameter Configuration</laSpanTitle>
+			<laVideoEffect>Front-end Parameter</laVideoEffect>
+			<laGain tag="label;" length="120">Gain</laGain>
+			<laShutter tag="label;" length="120">Exposure Time</laShutter>
+			<laFocusMode tag="label;" length="308">Focus Mode</laFocusMode>
+			<laFocusLimited tag="label;" length="308">Minimum Focusing</laFocusLimited>
+			<laIrisMode tag="label;" length="120">Iris Mode</laIrisMode>
+			<laIrisLevel tag="label;" length="308">Iris</laIrisLevel>
+			<laPowerLine tag="label;" length="120">Video Standard</laPowerLine>
+			<laDayNightFilter tag="label;" length="120">Day/Night Switch</laDayNightFilter>
+			<laDayToNight tag="label;" length="120">Sensitivity</laDayToNight>
+			<laFilterTime tag="label;" length="120">Switch Time</laFilterTime>
+			<laImageFlip tag="label;" length="120">Mirror</laImageFlip>
+			<laDSS tag="label;" length="308">Slow Shutter</laDSS>
+			<laDSSLevel tag="label;" length="308">Slow Shutter Level</laDSSLevel>
+			<laWDR tag="label;" length="120">WDR</laWDR>
+			<laWDRLevel1 tag="label;" length="308">Wide Dynamic Level 1</laWDRLevel1>
+			<laWDRLevel2 tag="label;" length="308">Wide Dynamic Level 2</laWDRLevel2>
+			<laWDRContrast tag="label;" length="308">Wide Dynamic Contrast</laWDRContrast>
+			<laBLC>BLC</laBLC>
+			<laBLCMode tag="label;" length="308">BLC Area</laBLCMode>
+			<laBLCLevel tag="label;" length="308">BLC Level</laBLCLevel>
+			<laWhiteBlance tag="label;" length="120">White Balance</laWhiteBlance>
+			<laWhiteBlanceRed tag="label;" length="308">WB Gain Circuit R</laWhiteBlanceRed>
+			<laWhiteBlanceBlue tag="label;" length="308">WB Gain Circuit B</laWhiteBlanceBlue>
+			<laNosiseReduce tag="label;" length="308">Digital Noise Reduction</laNosiseReduce>
+			<laGeneralLevel tag="label;" length="308">Noise Reduction Level</laGeneralLevel>
+			<laInterFrameNoiseReduce tag="label;" length="308">Time DNR Level</laInterFrameNoiseReduce>
+			<laFrameNoiseReduce tag="label;" length="308">Space DNR Level</laFrameNoiseReduce>
+			<IrisFirst>Iris Priority</IrisFirst>
+			<ShutterFirst>Shutter Priority</ShutterFirst>
+			<GainFirst>Gain Priority</GainFirst>
+			<FocusModeAutoManual>Semi-auto</FocusModeAutoManual>
+			<IrcutFilterTypeDay tag="option;" length="176">Day</IrcutFilterTypeDay>
+			<IrcutFilterTypeNight tag="option;" length="176">Night</IrcutFilterTypeNight>
+			<ImageFlipStyleLR tag="option;" length="176">Left/Right</ImageFlipStyleLR>
+			<ImageFlipStyleUD tag="option;" length="176">Up/Down</ImageFlipStyleUD>
+			<BLCModeUp>Up</BLCModeUp>
+			<BLCModeDown>Down</BLCModeDown>
+			<BLCModeLeft>Left</BLCModeLeft>
+			<BLCModeRight>Right</BLCModeRight>
+			<WhiteBlanceStyleAuto tag="option;" length="176">Auto</WhiteBlanceStyleAuto>
+			<WhiteBlanceStyle1 tag="option;" length="176">AWB1</WhiteBlanceStyle1>
+			<WhiteBlanceStyle2 tag="option;" length="176">AWB2</WhiteBlanceStyle2>
+			<WhiteBlanceStyleManual>MWB</WhiteBlanceStyleManual>
+			<AutoTracing>Auto Tracing</AutoTracing>
+			<NosiseReduceGeneral>Normal Mode</NosiseReduceGeneral>
+			<NosiseReduceAdvanced>Expert Mode</NosiseReduceAdvanced>
+			<ImageResetbutton>Mechnical Movement Reset</ImageResetbutton>
+			<ImageRestorebutton>Restore</ImageRestorebutton>
+			<laScene tag="label;" length="120">Scene Mode</laScene>
+			<SceneOptionIndoor tag="option;" length="176">Indoor</SceneOptionIndoor>
+			<SceneOptionOutdoor tag="option;" length="176">Outdoor</SceneOptionOutdoor>
+			<laAutoIrisLevel tag="label;" length="308">Auto Iris Level</laAutoIrisLevel>
+			<laEnableDehaze>Enable Dehaze</laEnableDehaze>
+			<laDehazeLevel>Dehaze Level</laDehazeLevel>
+			<laEPTZ>EPTZ</laEPTZ>
+			<laZoomLimit>Zoom Limit</laZoomLimit>
+			<laEIS>EIS</laEIS>
+			<SodiumLight>Sodium Lamp</SodiumLight>
+			<MercuryLight>Mercury Lamp</MercuryLight>
+			<Onepush>One Push</Onepush>
+			<laIRLightMode>IR Light Mode</laIRLightMode>
+			<laIRLightBright>IR Light Bright</laIRLightBright>
+			<laIRLightSen>IR Light Sensitivity</laIRLightSen>
+			<laExposureType>Exposure Mode</laExposureType>
+			<laShutterLevel>Shutter</laShutterLevel>
+			<laEISLevel>EIS Level</laEISLevel>
+			<laChromaSuppress>Chroma Suppress</laChromaSuppress>
+			<laHLC>HLC</laHLC>
+			<laHLCLevel>HLC Level</laHLCLevel>
+			<laExpComp>Exp Comp</laExpComp>
+			<laGamaCorrect>Gamma Correction</laGamaCorrect>
+			<laSharpnessMode>Sharpness Mode</laSharpnessMode>
+			<laDecodeMode>Correction Mode</laDecodeMode>
+			<laSoftware>Software</laSoftware>
+			<laHardware>Hardware</laHardware>
+			<laEnhancement>Illumination Enhancement</laEnhancement>
+			<laGrayScale>Gray Scale</laGrayScale>
+			<Schedule>Schedule</Schedule>
+			<EventTrigger>Triggered by Alarm Input</EventTrigger>
+			<laOverExposeSuppress>Overexposure Prevention</laOverExposeSuppress>
+			<daylightLamp>Fluorescent Lamp</daylightLamp>
+			<laTriggerMode>Status</laTriggerMode>
+			<OutdoorAuto>Auto-Outdoor</OutdoorAuto>
+			<SodiumLightAuto>Auto-Sodiumlight</SodiumLightAuto>
+			<WarmLightLamp>Warm Light Lamp</WarmLightLamp>
+			<NaturalLight>Natural Light</NaturalLight>
+			<IncandescentLamp>Incandescent Lamp</IncandescentLamp>
+			<WBLocked>Locked WB</WBLocked>
+		</Page>
+		<Js>
+			<jsResetimage>Reboot the mechanism?</jsResetimage>
+			<jsResetSucceed>Successful, reset completed.</jsResetSucceed>
+			<jsResetFailed>Mechanical movement reset failed.</jsResetFailed>
+			<jsResetWaiting>Mechanical movement is reseting...</jsResetWaiting>
+			<jsRestoreimage>Restore mechanism default settings?</jsRestoreimage>
+			<jsRestoreSucceed>Restoring mechanical movement to default succeeded.</jsRestoreSucceed>
+			<jsRestoreFailed>Restoring mechanical movement to default settings failed.</jsRestoreFailed>
+			<jsRestoreWaiting>Mechanical movement is restoring default settings...</jsRestoreWaiting>
+			<jsScheduleTimeRange>The minimum interval between the start time and the end time is 10 seconds.</jsScheduleTimeRange>
+		</Js>
+	</BaseVideoSettings>
+	<OSDSettings>
+		<Page>
+			<laSpanTitle>Display Settings</laSpanTitle>
+			<laOSDConfig>OSD Settings</laOSDConfig>
+			<laIsShowChanNme tag="label;" length="120">Display Name</laIsShowChanNme>
+			<laIsShowOSD tag="label;" length="120">Display Date</laIsShowOSD>
+			<laIsShowWeek tag="label;" length="120">Display Week</laIsShowWeek>
+			<laHourOSDType tag="label;" length="120">Time Format</laHourOSDType>
+			<HourOSDTypeOpt1 tag="option;" length="176">12-hour</HourOSDTypeOpt1>
+			<HourOSDTypeOpt2 tag="option;" length="176">24-hour</HourOSDTypeOpt2>
+			<laOSDType tag="label;" length="120">Date Format</laOSDType>
+			<OSDTypeOpt1 tag="option;" length="176">YYYY-MM-DD</OSDTypeOpt1>
+			<OSDTypeOpt2 tag="option;" length="176">MM-DD-YYYY</OSDTypeOpt2>
+			<OSDTypeOpt3 tag="option;" length="176">YYYY MM DD</OSDTypeOpt3>
+			<OSDTypeOpt4 tag="option;" length="176">MM DD YYYY</OSDTypeOpt4>
+			<OSDTypeOpt5 tag="option;" length="176">DD-MM-YYYY</OSDTypeOpt5>
+			<OSDTypeOpt6 tag="option;" length="176">DD MM YYYY</OSDTypeOpt6>
+			<OSDTypeOpt7 tag="option;" length="176">MM/DD/YYYY</OSDTypeOpt7>
+			<OSDTypeOpt8 tag="option;" length="176">YYYY/MM/DD</OSDTypeOpt8>
+			<OSDTypeOpt9 tag="option;" length="176">DD/MM/YYYY</OSDTypeOpt9>
+			<laChannelNameXPos>Camera Name X-Coord.</laChannelNameXPos>
+			<laChannelNameYPos>Camera Name Y-Coord.</laChannelNameYPos>
+			<laOSDAttrib tag="label;" length="120">Display Mode</laOSDAttrib>
+			<OSDAttribOpt1 tag="option;" length="176">Transparent &amp; Flashing</OSDAttribOpt1>
+			<OSDAttribOpt2 tag="option;" length="176">Transparent &amp; Not flashing</OSDAttribOpt2>
+			<OSDAttribOpt3 tag="option;" length="176">Not transparent &amp; Flashing</OSDAttribOpt3>
+			<OSDAttribOpt4 tag="option;" length="176">Not transparent &amp; Not flashing</OSDAttribOpt4>
+			<laOSDFontSize tag="label;" length="609">OSD Size</laOSDFontSize>
+			<OSDFontSizeOpt1 tag="option;" length="178">small</OSDFontSizeOpt1>
+			<OSDFontSizeOpt3 tag="option;" length="178">large</OSDFontSizeOpt3>
+		</Page>
+		<Js>
+			<ChannelNameXTips>Name X-Coord</ChannelNameXTips>
+			<ChannelNameYTips>Name Y-Coord</ChannelNameYTips>
+		</Js>
+		<General>
+			<laOSDXPos>Date X-Coord</laOSDXPos>
+			<laOSDYPos>Date Y-Coord</laOSDYPos>
+		</General>
+	</OSDSettings>
+	<TextOverlay>
+		<Page>
+			<laStringOverLay>Text Overlay Settings</laStringOverLay>
+			<laStrContent>Text Content</laStrContent>
+		</Page>
+		<Js>
+			<CharNameLengthTips>The length cannot exceed 44.</CharNameLengthTips>
+		</Js>
+	</TextOverlay>
+	<VideoMask>
+		<Page>
+			<laUseCover tag="label;" length="308">Enable Privacy Mask</laUseCover>
+		</Page>
+		<Js>
+		</Js>
+	</VideoMask>
+	<PictureOverlay>
+		<Page>
+			<laPicUpload>Upload Picture</laPicUpload>
+			<laOverlaySetting>Configure Overlay Parameters</laOverlaySetting>
+			<laEnablePicOverlay>Enable Picture Overlay</laEnablePicOverlay>
+			<laPicWidth>Picture Width</laPicWidth>
+			<laPicHeight>Picture Height</laPicHeight>
+		</Page>
+		<Js>
+		</Js>
+	</PictureOverlay>
+</VideoSettings>
+

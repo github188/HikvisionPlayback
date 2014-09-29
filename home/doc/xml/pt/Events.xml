@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Events>
+	<Common>
+		<Page>
+			<aBlockAlarm tag="a;" length="9999">À prova de falsific.</aBlockAlarm>
+			<aVideoLost tag="a;" length="9999">Perda de vídeo</aVideoLost>
+			<aCapturePlan tag="a;" length="9999">Instantâneo</aCapturePlan>
+			<aOtherAlarm>Outro alarme</aOtherAlarm>
+			<laTimeTabDivBtn tag="label;" length="670">Tempo de Armar</laTimeTabDivBtn>
+			<laLinkageTabDivBtn tag="label;" length="670">Método ligação</laLinkageTabDivBtn>
+			<laSensitivity tag="label;" length="85">Sensibilid.</laSensitivity>
+			<!--<laCommonLinkage>Alarm Linking</laCommonLinkage>-->
+			<!--DVR的，需要修改DVR网页name-->
+			<laNormalLink tag="label;" length="215">Ligação Normal</laNormalLink>
+			<laMonitorAlarm>Visualizar em ecrã inteiro</laMonitorAlarm>
+			<laSoundAlarm tag="label;" length="130">Aviso sonoro</laSoundAlarm>
+			<laUpload tag="label;" length="130">Notificar o Centro de Vigilância</laUpload>
+			<laEmail tag="label;" length="130">Enviar e-mail</laEmail>
+			<laLinkageAlarmOutput tag="label;" length="116">Disparo de Saída de Alarme</laLinkageAlarmOutput>
+			<laScheduleEdit tag="label;">Editar Calendário</laScheduleEdit>
+			<laOtherLink tag="label;" length="271">Outro link</laOtherLink>
+			<BlockSensitiveOpt1>Baixo</BlockSensitiveOpt1>
+			<BlockSensitiveOpt2>Médio</BlockSensitiveOpt2>
+			<BlockSensitiveOpt3>Alto</BlockSensitiveOpt3>
+			<laAlarmname tag="label;" length="150">Nome alarme</laAlarmname>
+			<laCopyalarm tag="label;" length="670">Copiar alarme</laCopyalarm>
+			<laTrigglerecord tag="label;" length="130">Trigger de Canal</laTrigglerecord>
+			<laUpdateToFTP tag="label;" length="130">Carregar p/ FTP</laUpdateToFTP>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laCaptureInterval tag="label;" length="100">Intervalo</laCaptureInterval>
+		</General>
+	</Common>
+	<MotionDetection>
+		<Page>
+			<laUseMotion tag="label;" length="133">Ativar Deteção de Movimento</laUseMotion>
+			<laHighLight>Ativar Análise dinâmica do movimento</laHighLight>
+		</Page>
+		<Js>
+		</Js>
+	</MotionDetection>
+	<TamperProof>
+		<Page>
+			<laUseKeepout tag="label;" length="671">Ativar função à prova de falsificação</laUseKeepout>
+		</Page>
+		<Js>
+		</Js>
+	</TamperProof>
+	<VideoLoss>
+		<Page>
+			<laUseVideoLost tag="label;" length="671">Ativar Deteção de perda de vídeo</laUseVideoLost>
+		</Page>
+		<Js>
+		</Js>
+	</VideoLoss>
+	<AlarmInput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Definições entrada de alarme</laSpanTitle>
+			</DVR>
+			<laAlarminnumber tag="label;" length="150">N.º entr.alarme</laAlarminnumber>
+			<laAlarmtype tag="label;" length="150">Tipo alarme</laAlarmtype>
+			<triggeringOpt1 tag="option;" length="198">NC</triggeringOpt1>
+			<triggeringOpt2 tag="option;" length="198">NÃO</triggeringOpt2>
+			<laTriggleptz tag="label;" length="212">Ligação PTZ</laTriggleptz>
+			<laPresetnumer tag="label;" length="100">N.º predef.</laPresetnumer>
+			<laCurisenumber tag="label;" length="100">Ronda N.º</laCurisenumber>
+			<laTrackid tag="label;" length="100">Padrão n.º</laTrackid>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmInput>
+	<AlarmOutput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Configurar Saída de Alarme</laSpanTitle>
+			</DVR>
+			<laAlarmoutnumber tag="label;" length="150">Saída Alarme</laAlarmoutnumber>
+			<laDefaultstate tag="label;" length="150">Modo padrão</laDefaultstate>
+			<defaultStateOpt1 tag="option;" length="198">Nível alto</defaultStateOpt1>
+			<defaultStateOpt2 tag="option;" length="198">Nível Baixo</defaultStateOpt2>
+			<laTrigglestate tag="label;" length="150">Est.disparo</laTrigglestate>
+			<outputState1 tag="option;" length="198">Pulsar</outputState1>
+			<pulseDurationOpt1 tag="option;" length="198">5s</pulseDurationOpt1>
+			<pulseDurationOpt2 tag="option;" length="198">10s</pulseDurationOpt2>
+			<pulseDurationOpt3 tag="option;" length="198">30s</pulseDurationOpt3>
+			<pulseDurationOpt4 tag="option;" length="198">1min</pulseDurationOpt4>
+			<pulseDurationOpt5 tag="option;" length="198">2 min</pulseDurationOpt5>
+			<pulseDurationOpt6 tag="option;" length="198">5 min</pulseDurationOpt6>
+			<pulseDurationOpt7 tag="option;" length="198">10 min</pulseDurationOpt7>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmOutput>
+	<Exception>
+		<Page>
+			<DVR>
+				<laSpanTitle>Exceção</laSpanTitle>
+			</DVR>
+			<laExceptionType tag="label;" length="150">Tipo de exceção</laExceptionType>
+			<ExceptionTypeOpt3 tag="option;" length="198">Rede Deslig.</ExceptionTypeOpt3>
+			<ExceptionTypeOpt4 tag="option;" length="198">Conflito ender.IP</ExceptionTypeOpt4>
+			<ExceptionTypeOpt5 tag="option;" length="198">Login inválido</ExceptionTypeOpt5>
+			<ExceptionTypeOpt6>Incomp.padrão entrada/saída vídeo</ExceptionTypeOpt6>
+			<ExceptionTypeOpt7>Exceção sinal vídeo</ExceptionTypeOpt7>
+			<ExceptionTypeOpt8>Exceção Grav./Capt.</ExceptionTypeOpt8>
+			<ExceptionTypeOpt9>Resol.incompat.</ExceptionTypeOpt9>
+		</Page>
+		<Js>
+		</Js>
+	</Exception>
+	<Email>
+		<Page>
+			<DVR>
+				<laSpanTitle>E-mail</laSpanTitle>
+			</DVR>
+			<laServerAuthentication tag="label;" length="670">Autenticação</laServerAuthentication>
+			<laSMTPServer>Servidor SMTP</laSMTPServer>
+			<laUseSSL tag="label;" length="670">Ativar SSL</laUseSSL>
+			<laMailInterval tag="label;" length="150">Intervalo</laMailInterval>
+			<MailIntervalOpt1 tag="option;" length="198">2 Segundos</MailIntervalOpt1>
+			<MailIntervalOpt2 tag="option;" length="198">3s</MailIntervalOpt2>
+			<MailIntervalOpt3 tag="option;" length="198">4s</MailIntervalOpt3>
+			<MailIntervalOpt4 tag="option;" length="198">5s</MailIntervalOpt4>
+			<laAttachment tag="label;" length="314">Imagem anexa</laAttachment>
+			<laEmailAdd>Ender. e-mail</laEmailAdd>
+			<laChooseReceiver tag="label;" length="150">Selec.Recetor</laChooseReceiver>
+			<laReceiver tag="label;" length="670">Destinatário</laReceiver>
+			<laSender tag="label;" length="670">Remetente</laSender>
+			<ReceiverNumOpt1 tag="option;" length="198">Recetor1</ReceiverNumOpt1>
+			<ReceiverNumOpt2 tag="option;" length="198">Recetor2</ReceiverNumOpt2>
+			<ReceiverNumOpt3 tag="option;" length="198">Recetor3</ReceiverNumOpt3>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laSenderName tag="label;" length="150">Remetente</laSenderName>
+			<laSenderAddress tag="label;" length="150">E-mail remet.</laSenderAddress>
+			<laReceiverName tag="label;" length="150">Destinatário</laReceiverName>
+			<laReceiverAddress tag="label;" length="150">Receiver's Address</laReceiverAddress>
+			<laReceiverName1 tag="label;" length="150">Recetor1</laReceiverName1>
+			<laReceiverName2 tag="label;" length="150">Recetor2</laReceiverName2>
+			<laReceiverAddress1 tag="label;" length="150">Ender.Recetor 1</laReceiverAddress1>
+			<laReceiverAddress2 tag="label;" length="150">Ender.Recetor 2</laReceiverAddress2>
+			<laSMTPPort tag="label;" length="150">Porta SMTP</laSMTPPort>
+		</General>
+	</Email>
+	<CapturePlan>
+		<Page>
+			<laTimingCapture tag="label;" length="670">Cronometrar</laTimingCapture>
+			<laEventCapture tag="label;" length="670">Acionado por evento</laEventCapture>
+			<laUseTimingCapture tag="label;" length="651">Ativar tempo de instantâneo</laUseTimingCapture>
+			<laUseEventCapture tag="label;" length="651">Ativar instantâneo acionado por evento</laUseEventCapture>
+			<laPictureCodecType tag="label;" length="100">Formato</laPictureCodecType>
+			<laPictureQuality tag="label;" length="100">Qualidade</laPictureQuality>
+			<laMillisecond>miliseg.</laMillisecond>
+			<optionMillisecond tag="option;" length="78">miliseg.</optionMillisecond>
+			<optionMinute tag="option;" length="78">Minuto</optionMinute>
+			<optionHour tag="option;" length="78">hora</optionHour>
+			<laCaptureNum>Número da captura</laCaptureNum>
+		</Page>
+	</CapturePlan>
+	<OtherAlarm>
+		<Page>
+			<laEnableWirelessAlarm>Ativar Alarme wireless</laEnableWirelessAlarm>
+			<laEnablePIRAlarm>Ativar Alarme PIR</laEnablePIRAlarm>
+			<laTriggerWirelessAlarm>Acionar Alarme wireless</laTriggerWirelessAlarm>
+			<laLightAudioAlarm>Alarme wireless sonoro e visual</laLightAudioAlarm>
+			<laSelWirelessAlarm>Selecionar Alarme wireless</laSelWirelessAlarm>
+		</Page>
+	</OtherAlarm>
+</Events>

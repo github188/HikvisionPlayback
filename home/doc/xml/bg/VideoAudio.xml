@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<VideoAudio>
+	<Common>
+		<Page>
+			<aVideo tag="a;" length="9999">Видео</aVideo>
+			<aAudio tag="a;" length="9999">Аудио</aAudio>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<Video>
+		<Page>
+			<DVR>
+				<laSpanTitle>Настройки Камера</laSpanTitle>
+				<laSaving>Запис...</laSaving>
+				<laEffectParam>Тип видео вход</laEffectParam>
+			</DVR>
+			<laInputResolution tag="label;" length="150">Резолюция на клиент</laInputResolution>
+			<StreamTypeInOpt1 tag="option;" length="198">Осн. стрийм (Нормален)</StreamTypeInOpt1>
+			<StreamTypeInOpt2 tag="option;" length="198">Втори стрийм</StreamTypeInOpt2>
+			<StreamTypeInOpt3>Осн. стрийм (Събитие)</StreamTypeInOpt3>
+			<laUseEventPram>Активиране параметри събитие</laUseEventPram>
+			<StreamTypeOpt1 tag="option;" length="198">Видео стрийм</StreamTypeOpt1>
+			<StreamTypeOpt2 tag="option;" length="198">Видео&amp;Аудио</StreamTypeOpt2>
+			<laVideoQualityControlType tag="label;" length="150">Побитова скорост</laVideoQualityControlType>
+			<videoQualityControlTypeOpt1 tag="option;" length="198">Променлив</videoQualityControlTypeOpt1>
+			<videoQualityControlTypeOpt2 tag="option;" length="198">Постоянен</videoQualityControlTypeOpt2>
+			<lafixedQuality tag="label;" length="150">Видео качество</lafixedQuality>
+			<fixedQualityOpt1 tag="option;" length="198">Най-висок</fixedQualityOpt1>
+			<fixedQualityOpt2 tag="option;" length="198">По-висок</fixedQualityOpt2>
+			<fixedQualityOpt3 tag="option;" length="198">Средно</fixedQualityOpt3>
+			<fixedQualityOpt4 tag="option;" length="198">Ниско</fixedQualityOpt4>
+			<fixedQualityOpt5 tag="option;" length="198">По-нисък</fixedQualityOpt5>
+			<fixedQualityOpt6 tag="option;" length="198">Най-нисък</fixedQualityOpt6>
+			<laVideoFrameRate tag="label;" length="150">Кадри/сек.</laVideoFrameRate>
+			<maxFrameRateOpt1>Пълни кадри/сек.</maxFrameRateOpt1>
+			<laconstantBitRate tag="label;" length="150">Макс. поб. скорост</laconstantBitRate>
+			<laVideoCodeType tag="label;" length="150">Видео енкодинг</laVideoCodeType>
+			<laIntervalBPFrame tag="label;" length="150">Тип кадър</laIntervalBPFrame>
+			<laCodecComplexity tag="label;" length="150">Профил</laCodecComplexity>
+			<optionQuality1>Основен профил</optionQuality1>
+			<optionQuality2>Осн. профил</optionQuality2>
+			<optionQuality3>Висок профил</optionQuality3>
+			<trVideoType>Тип видео</trVideoType>
+			<laEnableEventParam>Разрешаване на параметри за компресиране на събития</laEnableEventParam>
+		</Page>
+		<Js>
+			<jsCustonBitRate>Конкретен Bitrate</jsCustonBitRate>
+		</Js>
+		<General>
+			<laIntervalFrameI tag="label;" length="150">I Frame интервал</laIntervalFrameI>
+			<laMulticast tag="label;" length="150">Multicast Адрес</laMulticast>
+		</General>
+	</Video>
+	<Audio>
+		<Page>
+			<laAudioEncoding tag="label;" length="150">Аудио енкодинг</laAudioEncoding>
+			<laAudioInput tag="label;" length="150">Аудио вход</laAudioInput>
+			<laAudioVolume>Сила на звука</laAudioVolume>
+		</Page>
+		<Js>
+		</Js>
+	</Audio>
+</VideoAudio>

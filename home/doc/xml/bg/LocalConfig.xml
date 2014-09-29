@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Размер файл запис</lapackSize>
+		<lanetsPreach tag="label;" length="150">Производителност на живо</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Запис към</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Запис снимка на живо видео на</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Запис на клип на</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Запис при въз.</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Запис на сваления файл на</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Реално време</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Балансиран</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Най-гладко</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Настройки файл запис</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Настройки снимка и клип</laCaptureClipParams>
+		<trFullFill>Попълване</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

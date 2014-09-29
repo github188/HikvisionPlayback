@@ -1,0 +1,194 @@
+﻿<?xml version="1.0"?>
+<VideoSettings>
+	<Common>
+		<Page>
+			<aBaseVideoSettings tag="a;" length="9999">顯示設定</aBaseVideoSettings>
+			<aOSDSettings tag="a;" length="9999">OSD疊加設定</aOSDSettings>
+			<aTextOverlay tag="a;" length="9999">字元疊加</aTextOverlay>
+			<aVideoMask tag="a;" length="9999">影像遮蔽</aVideoMask>
+			<aModeCenter tag="option;" length="176">中心</aModeCenter>
+			<aOSDFontSizeOpt2 tag="option;" length="178">中</aOSDFontSizeOpt2>
+			<apicinformChannel>攝影機選擇</apicinformChannel>
+			<laVideoPreview>影像預覽</laVideoPreview>
+			<aPictureOverlay>圖片疊加</aPictureOverlay>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laXpos>X座標</laXpos>
+			<laYpos>Y座標</laYpos>
+		</General>
+	</Common>
+	<BaseVideoSettings>
+		<Page>
+			<laSpanTitle>前端參數設定</laSpanTitle>
+			<laVideoEffect>前端參數</laVideoEffect>
+			<laGain tag="label;" length="120">增益</laGain>
+			<laShutter tag="label;" length="120">曝光時間</laShutter>
+			<laFocusMode tag="label;" length="308">聚焦模式</laFocusMode>
+			<laFocusLimited tag="label;" length="308">最小聚焦限制</laFocusLimited>
+			<laIrisMode tag="label;" length="120">光圈類型</laIrisMode>
+			<laIrisLevel tag="label;" length="308">光圈</laIrisLevel>
+			<laPowerLine tag="label;" length="120">影像格式</laPowerLine>
+			<laDayNightFilter tag="label;" length="120">日夜轉換</laDayNightFilter>
+			<laDayToNight tag="label;" length="120">靈敏度</laDayToNight>
+			<laFilterTime tag="label;" length="120">轉換時間</laFilterTime>
+			<laImageFlip tag="label;" length="120">鏡像</laImageFlip>
+			<laDSS tag="label;" length="308">低照度電子快門</laDSS>
+			<laDSSLevel tag="label;" length="308">低照度電子快門級別</laDSSLevel>
+			<laWDR tag="label;" length="120">寬動態</laWDR>
+			<laWDRLevel1 tag="label;" length="308">寬動態等級1</laWDRLevel1>
+			<laWDRLevel2 tag="label;" length="308">寬動態等級2</laWDRLevel2>
+			<laWDRContrast tag="label;" length="308">寬動態對比度</laWDRContrast>
+			<laBLC>背光補償</laBLC>
+			<laBLCMode tag="label;" length="308">背光補償區域</laBLCMode>
+			<laBLCLevel tag="label;" length="308">背光補償等級</laBLCLevel>
+			<laWhiteBlance tag="label;" length="120">白平衡</laWhiteBlance>
+			<laWhiteBlanceRed tag="label;" length="308">白平衡R增益</laWhiteBlanceRed>
+			<laWhiteBlanceBlue tag="label;" length="308">白平衡B增益</laWhiteBlanceBlue>
+			<laNosiseReduce tag="label;" length="308">數位降噪</laNosiseReduce>
+			<laGeneralLevel tag="label;" length="308">降噪等級</laGeneralLevel>
+			<laInterFrameNoiseReduce tag="label;" length="308">時域降噪級別</laInterFrameNoiseReduce>
+			<laFrameNoiseReduce tag="label;" length="308">空域降噪級別</laFrameNoiseReduce>
+			<IrisFirst>光圈優先</IrisFirst>
+			<ShutterFirst>快門優先</ShutterFirst>
+			<GainFirst>增益優先</GainFirst>
+			<FocusModeAutoManual>半自動</FocusModeAutoManual>
+			<IrcutFilterTypeDay tag="option;" length="176">白天</IrcutFilterTypeDay>
+			<IrcutFilterTypeNight tag="option;" length="176">夜晚</IrcutFilterTypeNight>
+			<ImageFlipStyleLR tag="option;" length="176">左右</ImageFlipStyleLR>
+			<ImageFlipStyleUD tag="option;" length="176">上下</ImageFlipStyleUD>
+			<BLCModeUp>上</BLCModeUp>
+			<BLCModeDown>下</BLCModeDown>
+			<BLCModeLeft>左</BLCModeLeft>
+			<BLCModeRight>右</BLCModeRight>
+			<WhiteBlanceStyleAuto tag="option;" length="176">自動</WhiteBlanceStyleAuto>
+			<WhiteBlanceStyle1 tag="option;" length="176">自動白平衡1</WhiteBlanceStyle1>
+			<WhiteBlanceStyle2 tag="option;" length="176">自動白平衡2</WhiteBlanceStyle2>
+			<WhiteBlanceStyleManual>手動白平衡</WhiteBlanceStyleManual>
+			<AutoTracing>自動跟蹤白平衡</AutoTracing>
+			<NosiseReduceGeneral>普通模式</NosiseReduceGeneral>
+			<NosiseReduceAdvanced>專家模式</NosiseReduceAdvanced>
+			<ImageResetbutton>機器重置</ImageResetbutton>
+			<ImageRestorebutton>恢復</ImageRestorebutton>
+			<laScene tag="label;" length="120">場景模式</laScene>
+			<SceneOptionIndoor tag="option;" length="176">室內</SceneOptionIndoor>
+			<SceneOptionOutdoor tag="option;" length="176">室外</SceneOptionOutdoor>
+			<laAutoIrisLevel tag="label;" length="308">自動光圈靈敏度</laAutoIrisLevel>
+			<laEnableDehaze>啟用去霧</laEnableDehaze>
+			<laDehazeLevel>去霧等級</laDehazeLevel>
+			<laEPTZ>電子PTZ</laEPTZ>
+			<laZoomLimit>變焦限制</laZoomLimit>
+			<laEIS>電子防抖</laEIS>
+			<SodiumLight>鈉光</SodiumLight>
+			<MercuryLight>汞燈</MercuryLight>
+			<Onepush>一次白平衡</Onepush>
+			<laIRLightMode>紅外線模式</laIRLightMode>
+			<laIRLightBright>紅外線亮度</laIRLightBright>
+			<laIRLightSen>紅外線靈敏度</laIRLightSen>
+			<laExposureType>曝光模式</laExposureType>
+			<laShutterLevel>快門</laShutterLevel>
+			<laEISLevel>電子防抖等級</laEISLevel>
+			<laChromaSuppress>色彩抑制</laChromaSuppress>
+			<laHLC>強光抑制</laHLC>
+			<laHLCLevel>強光抑制等級</laHLCLevel>
+			<laExpComp>曝光補償</laExpComp>
+			<laGamaCorrect>Gamma校正</laGamaCorrect>
+			<laSharpnessMode>銳度模式</laSharpnessMode>
+			<laDecodeMode>校正方式</laDecodeMode>
+			<laSoftware>軟解</laSoftware>
+			<laHardware>硬解</laHardware>
+			<laEnhancement>低照度增強</laEnhancement>
+			<laGrayScale>灰階範圍</laGrayScale>
+			<Schedule>排程</Schedule>
+			<EventTrigger>事件觸發</EventTrigger>
+			<laOverExposeSuppress>防止過度曝光</laOverExposeSuppress>
+			<daylightLamp>日光燈</daylightLamp>
+			<laTriggerMode>觸發模式</laTriggerMode>
+			<OutdoorAuto>室外自動</OutdoorAuto>
+			<SodiumLightAuto>鈉燈自動</SodiumLightAuto>
+			<WarmLightLamp>暖光燈</WarmLightLamp>
+			<NaturalLight>自然光</NaturalLight>
+			<IncandescentLamp>白熾燈</IncandescentLamp> 
+            <WBLocked>鎖定白平衡</WBLocked> 
+		</Page>
+		<Js>
+			<jsResetimage>確定重啟機器？</jsResetimage>
+			<jsResetSucceed>成功，系統重置完成</jsResetSucceed>
+			<jsResetFailed>機器重置失敗！</jsResetFailed>
+			<jsResetWaiting>機器正在重置……</jsResetWaiting>
+			<jsRestoreimage>確定恢復機器出廠設定？</jsRestoreimage>
+			<jsRestoreSucceed>恢復機器出廠預設值成功</jsRestoreSucceed>
+			<jsRestoreFailed>恢復機器出廠預設值失敗</jsRestoreFailed>
+			<jsRestoreWaiting>機器正在恢復預設值……</jsRestoreWaiting>
+			<jsScheduleTimeRange>結束時間必須大於起始時間且最短間隔為10s</jsScheduleTimeRange>
+		</Js>
+	</BaseVideoSettings>
+	<OSDSettings>
+		<Page>
+			<laSpanTitle>顯示設定</laSpanTitle>
+			<laOSDConfig>OSD疊加設定</laOSDConfig>
+			<laIsShowChanNme tag="label;" length="120">顯示名稱</laIsShowChanNme>
+			<laIsShowOSD tag="label;" length="120">顯示日期</laIsShowOSD>
+			<laIsShowWeek tag="label;" length="120">顯示星期</laIsShowWeek>
+			<laHourOSDType tag="label;" length="120">時間格式</laHourOSDType>
+			<HourOSDTypeOpt1 tag="option;" length="176">12小時制</HourOSDTypeOpt1>
+			<HourOSDTypeOpt2 tag="option;" length="176">24小時制</HourOSDTypeOpt2>
+			<laOSDType tag="label;" length="120">日期格式</laOSDType>
+			<OSDTypeOpt1 tag="option;" length="176">XXXX-XX-XX（年月日）</OSDTypeOpt1>
+			<OSDTypeOpt2 tag="option;" length="176">XX-XX-XXXX（月日年）</OSDTypeOpt2>
+			<OSDTypeOpt3 tag="option;" length="176">XXXX年XX月XX日</OSDTypeOpt3>
+			<OSDTypeOpt4 tag="option;" length="176">XX月XX日XXXX年</OSDTypeOpt4>
+			<OSDTypeOpt5 tag="option;" length="176">XX-XX-XXXX(日月年)</OSDTypeOpt5>
+			<OSDTypeOpt6 tag="option;" length="176">XX日XX月XXXX年</OSDTypeOpt6>
+			<OSDTypeOpt7 tag="option;" length="176">XX/XX/XXXX（月日年）</OSDTypeOpt7>
+			<OSDTypeOpt8 tag="option;" length="176">XXXX/XX/XX（年月日）</OSDTypeOpt8>
+			<OSDTypeOpt9 tag="option;" length="176">XX/XX/XXXX（日月年）</OSDTypeOpt9>
+			<laChannelNameXPos>攝影機名X座標</laChannelNameXPos>
+			<laChannelNameYPos>攝影機名Y座標</laChannelNameYPos>
+			<laOSDAttrib tag="label;" length="120">OSD屬性</laOSDAttrib>
+			<OSDAttribOpt1 tag="option;" length="176">透明，閃爍</OSDAttribOpt1>
+			<OSDAttribOpt2 tag="option;" length="176">透明，不閃爍</OSDAttribOpt2>
+			<OSDAttribOpt3 tag="option;" length="176">閃爍，不透明</OSDAttribOpt3>
+			<OSDAttribOpt4 tag="option;" length="176">不透明，不閃爍</OSDAttribOpt4>
+			<laOSDFontSize tag="label;" length="609">OSD字體大小</laOSDFontSize>
+			<OSDFontSizeOpt1 tag="option;" length="178">小</OSDFontSizeOpt1>
+			<OSDFontSizeOpt3 tag="option;" length="178">大</OSDFontSizeOpt3>
+		</Page>
+		<Js>
+			<ChannelNameXTips>名稱X座標</ChannelNameXTips>
+			<ChannelNameYTips>名稱Y座標</ChannelNameYTips>
+		</Js>
+		<General>
+			<laOSDXPos>日期X座標</laOSDXPos>
+			<laOSDYPos>日期Y座標</laOSDYPos>
+		</General>
+	</OSDSettings>
+	<TextOverlay>
+		<Page>
+			<laStringOverLay>字元疊加設定</laStringOverLay>
+			<laStrContent>字元內容</laStrContent>
+		</Page>
+		<Js>
+			<CharNameLengthTips>字串長度不能大於44</CharNameLengthTips>
+		</Js>
+	</TextOverlay>
+	<VideoMask>
+		<Page>
+			<laUseCover tag="label;" length="308">啟用影像遮罩</laUseCover>
+		</Page>
+		<Js>
+		</Js>
+	</VideoMask>
+	<PictureOverlay>
+		<Page>
+			<laPicUpload>圖片上傳</laPicUpload>
+			<laOverlaySetting>疊加設定</laOverlaySetting>
+			<laEnablePicOverlay>啟用圖片疊加</laEnablePicOverlay>
+			<laPicWidth>圖片寬度</laPicWidth>
+			<laPicHeight>圖片高度</laPicHeight>
+		</Page>
+		<Js>
+		</Js>
+	</PictureOverlay>
+</VideoSettings>

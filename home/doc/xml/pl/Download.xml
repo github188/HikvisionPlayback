@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>Pobierz plik</title>
+		<picturetitle>Pobierz obraz</picturetitle>
+		<laFileName tag="label;" length="140">Nazwa pliku</laFileName>
+		<laFileSize tag="label;" length="90">Rozmiar pliku</laFileSize>
+		<laPictureData tag="label;" length="90">Data pliku</laPictureData>
+		<laDownloadProcess tag="label;" length="90">Postęp</laDownloadProcess>
+		<PictureType1>Czasowo</PictureType1>
+		<PictureType2>Alarm</PictureType2>
+		<PictureType3>Ruch</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>Pobrany</Downloaded>
+		<jsNoPictureTip>Bez plików obrazów.</jsNoPictureTip>
+		<jsSearchPicFailed>Błąd wyszukiwania.</jsSearchPicFailed>
+		<jsDownloadFailed>Pobieranie się nie powiodło.</jsDownloadFailed>
+		<jsTips1>Zakończyć pobieranie?</jsTips1>
+		<jsTips2>Wybierz plik do pobrania.</jsTips2>
+	</Js>
+</Download>

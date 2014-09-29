@@ -1,0 +1,119 @@
+00008000-0005a000 r-xp 00000000 01:00 72         /bin/busybox
+Size:               328 kB
+Rss:                 48 kB
+Shared_Clean:        32 kB
+Shared_Dirty:         0 kB
+Private_Clean:       16 kB
+Private_Dirty:        0 kB
+00062000-00063000 rw-p 00052000 01:00 72         /bin/busybox
+Size:                 4 kB
+Rss:                  4 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        4 kB
+00063000-000d1000 rwxp 00063000 00:00 0          [heap]
+Size:               440 kB
+Rss:                  8 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        8 kB
+40000000-40005000 r-xp 00000000 01:00 159        /lib/ld-uClibc.so.0
+Size:                20 kB
+Rss:                 20 kB
+Shared_Clean:        20 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        0 kB
+40005000-40006000 rw-p 40005000 00:00 0 
+Size:                 4 kB
+Rss:                  4 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        4 kB
+4000c000-4000d000 r--p 00004000 01:00 159        /lib/ld-uClibc.so.0
+Size:                 4 kB
+Rss:                  4 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        4 kB
+4000d000-4000e000 rw-p 00005000 01:00 159        /lib/ld-uClibc.so.0
+Size:                 4 kB
+Rss:                  4 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        4 kB
+4000e000-40011000 r-xp 00000000 01:00 153        /lib/libcrypt.so.0
+Size:                12 kB
+Rss:                  4 kB
+Shared_Clean:         4 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        0 kB
+40011000-40018000 ---p 40011000 00:00 0 
+Size:                28 kB
+Rss:                  0 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        0 kB
+40018000-40019000 r--p 00002000 01:00 153        /lib/libcrypt.so.0
+Size:                 4 kB
+Rss:                  4 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        4 kB
+40019000-4002b000 rw-p 40019000 00:00 0 
+Size:                72 kB
+Rss:                  0 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        0 kB
+4002b000-40074000 r-xp 00000000 01:00 158        /lib/libuClibc-0.9.28.so
+Size:               292 kB
+Rss:                152 kB
+Shared_Clean:       152 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        0 kB
+40074000-4007c000 ---p 40074000 00:00 0 
+Size:                32 kB
+Rss:                  0 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        0 kB
+4007c000-4007d000 r--p 00049000 01:00 158        /lib/libuClibc-0.9.28.so
+Size:                 4 kB
+Rss:                  4 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        4 kB
+4007d000-4007e000 rw-p 0004a000 01:00 158        /lib/libuClibc-0.9.28.so
+Size:                 4 kB
+Rss:                  4 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        4 kB
+4007e000-40082000 rw-p 4007e000 00:00 0 
+Size:                16 kB
+Rss:                  8 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        8 kB
+bea0e000-bea23000 rwxp bea0e000 00:00 0          [stack]
+Size:                84 kB
+Rss:                  4 kB
+Shared_Clean:         0 kB
+Shared_Dirty:         0 kB
+Private_Clean:        0 kB
+Private_Dirty:        4 kB

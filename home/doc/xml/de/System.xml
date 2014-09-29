@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<System>
+	<Common>
+		<Page>
+			<aDeviceInfo tag="a;" length="9999">Gerätinformation</aDeviceInfo>
+			<aTimeSettings tag="a;" length="9999">Zeiteinstellungen</aTimeSettings>
+			<aMaintain tag="a;" length="9999">Instandhaltung</aMaintain>
+			<aTelecontrol>Fernbedienung</aTelecontrol>
+			<laDuplexmode>Duplex-Modus</laDuplexmode>
+			<duplexModeOpt1>Halbduplex</duplexModeOpt1>
+			<duplexModeOpt2>Vollduplex</duplexModeOpt2>
+			<laBaudRate tag="label;" length="150">Baudrate</laBaudRate>
+			<laDataBits tag="label;" length="150">Datenbit</laDataBits>
+			<laStopRate tag="label;" length="150">Stoppbit</laStopRate>
+			<laParityType tag="label;" length="150">Parität</laParityType>
+			<parityTypeOpt1 tag="option;" length="198">Kein</parityTypeOpt1>
+			<parityTypeOpt2 tag="option;" length="198">Gerade</parityTypeOpt2>
+			<parityTypeOpt3 tag="option;" length="198">Ungerade</parityTypeOpt3>
+			<laFlowControl tag="label;" length="150">Flow-Strg.</laFlowControl>
+			<dataFlowControlOpt1 tag="option;" length="198">Kein</dataFlowControlOpt1>
+			<dataFlowControlOpt2 tag="option;" length="198">Hardware</dataFlowControlOpt2>
+			<dataFlowControlOpt3 tag="option;" length="198">Soft-Flow-Strg.</dataFlowControlOpt3>
+			<laDST tag="label;" length="670">DST</laDST>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<DeviceInfo>
+		<Page>
+			<laBaseInfo tag="label;" length="670">Basisinfo</laBaseInfo>
+			<laDeviceName tag="label;" length="150">Gerätname</laDeviceName>
+			<laDeviceType tag="label;" length="148">Modell</laDeviceType>
+			<laDeviceSn tag="label;" length="148">Seriennr.</laDeviceSn>
+			<laFirmwareVersion tag="label;" length="148">Firmware-Version</laFirmwareVersion>
+			<laLogicVersion tag="label;" length="148">Cod.-Version</laLogicVersion>
+			<laDiskNum tag="label;" length="148">Anzahl HDDs</laDiskNum>
+			<laAlarmInNum tag="label;" length="148">Anzahl Alarmeingänge</laAlarmInNum>
+			<laAlarmOutNum tag="label;" length="148">Anzahl Alarmausgänge</laAlarmOutNum>
+			<laParamType tag="label;" length="155">Parametertyp</laParamType>
+			<laParamValue tag="label;" length="526">Parameterwert</laParamValue>
+			<laSupportPnp>IPC Plug and Play</laSupportPnp>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laDeviceID tag="label;" length="150">Gerät  Nr.</laDeviceID>
+		</General>
+	</DeviceInfo>
+	<DeviceStatus>
+		<Page>
+			<laDeviceStatus>Gerätestatus</laDeviceStatus>
+			<laRecordStatus>Aufzeichnungsstatus</laRecordStatus>
+			<laCodeStatus>Codierungsstatus</laCodeStatus>
+			<laConnectStatus>Verbindungsnummer</laConnectStatus>
+			<laRefresh>Aktualisieren</laRefresh>
+		</Page>
+		<Js>
+			<tipsBusy>Beschäftigt</tipsBusy>
+			<RecordStatus1>Benutzt</RecordStatus1>
+			<RecordStatus2>Unbenutzt</RecordStatus2>
+		</Js>
+	</DeviceStatus>
+	<MenuOutput>
+		<Page>
+			<laMenuOutputMode>Menu Output</laMenuOutputMode>
+			<mainCVBS>Main CVBS</mainCVBS>
+		</Page>
+	</MenuOutput>
+	<TimeSettings>
+		<Page>
+			<DVR>
+				<laSpanTitle>Zeiteinstellungen</laSpanTitle>
+				<laEnableDST tag="label;" length="670">DST aktivieren </laEnableDST>
+			</DVR>
+			<laNtpTimeSync tag="label;" length="654">NTP</laNtpTimeSync>
+			<laNtpPort tag="label;" length="150">NTP-Port</laNtpPort>
+			<laNtpInterval tag="label;" length="150">Interval</laNtpInterval>
+			<laSecond tag="label;" length="360">min.</laSecond>
+			<laManualTimeSync tag="label;" length="670">Man. Zeitsynchron.</laManualTimeSync>
+			<laDeviceTime tag="label;" length="150">Gerätezeit</laDeviceTime>
+			<laTimeZoneConfig>Zeitzoneneinstellungen</laTimeZoneConfig>
+			<laTimeZone tag="label;" length="150">Zeitzone</laTimeZone>
+			<laDSTBias tag="label;" length="150">DST-Bias</laDSTBias>
+			<timezoneOpt1 tag="option;" length="274">(GMT-12: 00) Intern. Datumsgrenze West</timezoneOpt1>
+			<timezoneOpt2 tag="option;" length="274">(GMT-11: 00) Midway-Inseln, Samoa</timezoneOpt2>
+			<timezoneOpt3 tag="option;" length="274">(GMT-10: 00) Hawaii</timezoneOpt3>
+			<timezoneOpt4 tag="option;" length="274">(GMT-09: 00) Alaska</timezoneOpt4>
+			<timezoneOpt5 tag="option;" length="274">(GMT-08: 00) Pacific Time (USA &amp; Kanada)</timezoneOpt5>
+			<timezoneOpt6 tag="option;" length="274">(GMT-07: 00) Mountain Time (USA &amp; Kanada)</timezoneOpt6>
+			<timezoneOpt7 tag="option;" length="274">(GMT-06: 00) Central Time (USA &amp; Kanada)</timezoneOpt7>
+			<timezoneOpt8 tag="option;" length="274">(GMT-05: 00) Eastern Time (USA &amp; Kanada)</timezoneOpt8>
+			<timezoneOpt9 tag="option;" length="274">(GMT-04: 30) Caracas</timezoneOpt9>
+			<timezoneOpt10 tag="option;" length="274">(GMT-04: 00) Atlantik (Kanada)</timezoneOpt10>
+			<timezoneOpt11 tag="option;" length="274">(GMT-03: 30) Neufundland</timezoneOpt11>
+			<timezoneOpt12 tag="option;" length="274">(GMT-03: 00) Georgetown, Brasilia</timezoneOpt12>
+			<timezoneOpt13 tag="option;" length="274">(GMT-02: 00) Mid-Atlantic</timezoneOpt13>
+			<timezoneOpt14 tag="option;" length="274">(GMT-01: 00) Kapverdische Inseln, Azoren</timezoneOpt14>
+			<timezoneOpt15 tag="option;" length="274">(GMT +00:00) Dublin, Edinburgh, London</timezoneOpt15>
+			<timezoneOpt16 tag="option;" length="274">(GMT +01:00) Amsterdam, Berlin, Rom, Paris</timezoneOpt16>
+			<timezoneOpt17 tag="option;" length="274">(GMT +02:00) Athen, Jerusalem, Istanbul</timezoneOpt17>
+			<timezoneOpt18 tag="option;" length="274">(GMT +03:00) Bagdad, Kuwait, Moskau</timezoneOpt18>
+			<timezoneOpt19 tag="option;" length="274">(GMT +03:30) Teheran</timezoneOpt19>
+			<timezoneOpt20 tag="option;" length="274">(GMT +04:00) Kaukasus Standard Time</timezoneOpt20>
+			<timezoneOpt21 tag="option;" length="274">(GMT +04:30) Kabul</timezoneOpt21>
+			<timezoneOpt22 tag="option;" length="274">(GMT +05:00) Islamabad, Karachi, Tashkent</timezoneOpt22>
+			<timezoneOpt23 tag="option;" length="274">(GMT +05:30) Madras, Bombay, New Delhi</timezoneOpt23>
+			<timezoneOpt24 tag="option;" length="274">(GMT +05:45) Kathmandu</timezoneOpt24>
+			<timezoneOpt25 tag="option;" length="274">(GMT +06:00) Almaty, Nowosibirsk, Dhaka</timezoneOpt25>
+			<timezoneOpt26 tag="option;" length="274">(GMT +06:30) Yangon</timezoneOpt26>
+			<timezoneOpt27 tag="option;" length="274">(GMT +07:00) Bangkok, Hanoi, Jakarta</timezoneOpt27>
+			<timezoneOpt28 tag="option;" length="274">(GMT +08:00) Peking, Urumqi, Singapur</timezoneOpt28>
+			<timezoneOpt29 tag="option;" length="274">(GMT +09:00) Seoul, Tokio, Osaka, Sapporo</timezoneOpt29>
+			<timezoneOpt30 tag="option;" length="274">(GMT +09:30) Adelaide, Darwin</timezoneOpt30>
+			<timezoneOpt31 tag="option;" length="274">(GMT +10:00) Melbourne, Sydney, Canberra</timezoneOpt31>
+			<timezoneOpt32 tag="option;" length="274">(GMT +11:00) Magadan, Solomon-Inseln</timezoneOpt32>
+			<timezoneOpt33 tag="option;" length="274">(GMT +12:00) Auckland, Wellington, Fidschi</timezoneOpt33>
+			<timezoneOpt34 tag="option;" length="274">(GMT +13:00) Nuku'alofa</timezoneOpt34>
+			<DSTBiasOpt1 tag="option;" length="266">30 min</DSTBiasOpt1>
+			<DSTBiasOpt2 tag="option;" length="266">60 min</DSTBiasOpt2>
+			<DSTBiasOpt3 tag="option;" length="266">90 min</DSTBiasOpt3>
+			<DSTBiasOpt4 tag="option;" length="266">120 min</DSTBiasOpt4>
+			<laSelectTime tag="label;" length="150">Zeiteinstellung</laSelectTime>
+			<laTimeSyncWithPC tag="label;" length="296">Synchr. m. Comp.-Zeit</laTimeSyncWithPC>
+			<trTimeSync>SetTime</trTimeSync>
+		</Page>
+		<Js>
+			<TimeIsNuLLTips>Zeitfeld darf nicht leer sein.</TimeIsNuLLTips>
+			<NtpPortRangeTips>NTP Port </NtpPortRangeTips>
+			<DSTBiasIsNullTips>DST-Bias darf nicht leer sein.</DSTBiasIsNullTips>
+			<DSTMonthSameTips>Startmonat der Sommerzeit kann nicht gleich Endmonat sein.</DSTMonthSameTips>
+			<NTPIntervalRangeTips>Interval</NTPIntervalRangeTips>
+		</Js>
+	</TimeSettings>
+	<Maintain>
+		<Page>
+			<laParamImport tag="label;" length="670">Konf.-Datei imp.</laParamImport>
+			<laImportFile tag="label;" length="150">Konfig.-Datei</laImportFile>
+			<laParamExport tag="label;" length="670">Konf.-Datei exp.</laParamExport>
+			<btnImport tag="input;" length="74">Importieren</btnImport>
+			<btnExportFile tag="input;" length="74">Exportieren</btnExportFile>
+			<laRemoteUpgrade tag="label;" length="670">Remote-Upgrade</laRemoteUpgrade>
+			<laUpgradeFile tag="label;" length="150">Firmware</laUpgradeFile>
+			<laUpgradeExplain tag="label;" length="33">Hinweis</laUpgradeExplain>
+			<laUpgradeExplains tag="label;" length="540">Der Upgrade-Prozess dauert 5 bis 10 Minuten. Gerät bitte nicht auszuschalten. Es wird anschließend automatisch neu gestartet.</laUpgradeExplains>
+			<btnUpgrade tag="input;" length="74">Upgrade</btnUpgrade>
+			<laRestart tag="input;label;" length="74">Neustart</laRestart>
+			<btnCompleteRestore tag="input;" length="74">Standard</btnCompleteRestore>
+			<btnSimpleRestore tag="input;" length="74">Wiederherstellen</btnSimpleRestore>
+			<laRestartDevice tag="label;" length="670">Gerät neu starten</laRestartDevice>
+			<laSimpleReStore tag="label;" length="670">Bis auf die IP-Parameter alle Parameter auf Standardvorgaben zurücksetzen.</laSimpleReStore>
+			<laCompleteReStore tag="label;" length="670">Alle Parameter auf Standardvorgaben zurücksetzen.</laCompleteReStore>
+		</Page>
+		<Js>
+			<tipsNoUpgradeFile>Keine Firmware.</tipsNoUpgradeFile>
+			<tipsUpgradeFailed>Upgrade fehlgeschlagen.</tipsUpgradeFailed>
+			<tipsLanguageMismatch>Sprachversionskonflikt</tipsLanguageMismatch>
+			<tipsGetProgress>Upgrade-Fortschritt konnte nicht abgerufen werden.</tipsGetProgress>
+			<tipsGetStatus>Upgrade-Status konnte nicht abgerufen werden.</tipsGetStatus>
+			<tipsUpdating>Aufrüsten…</tipsUpdating>
+			<tipsUpdateSucc>Upgrade erfolgreich. Gerät bitte neu starten.</tipsUpdateSucc>
+			<tipsUpgradeReboot>Gerät startet nach dem Upgrade automatisch neu. Fortfahren?</tipsUpgradeReboot>
+			<ImportRebootTips>Gerät startet nach dem Import der Konfigurationsdatei automatisch neu. Fortfahren?</ImportRebootTips>
+			<ImportSuccessTips>Die Parameter wurden erfolgreich importiert.</ImportSuccessTips>
+			<ImportFailedTips>Konfigurationsimport fehlgeschlagen.</ImportFailedTips>
+			<ExportSuccessTips>Exportieren der Konfigurationsdatei erfolgreich.</ExportSuccessTips>
+			<ExportFailedTips>Exportieren der Konfigurationsdatei fehlgeschlagen.</ExportFailedTips>
+			<tipsRestoreSucc>Wiederherstellen der Standardvorgaben erfolgreich.</tipsRestoreSucc>
+			<tipsRestoreFailed>Wiederherstellen der Standardvorgaben fehlgeschlagen.</tipsRestoreFailed>
+			<tipsRestoreReboot>Wiederherstellen der Standardvorgaben erfolgreich. Neustart erfolgt.</tipsRestoreReboot>
+			<tipsRestoreReboot1>Gerät wird nach der Wiederherstellung automatisch neu gestartet. Fortfahren?</tipsRestoreReboot1>
+		</Js>
+	</Maintain>
+	<RS232Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>RS-232-Einst.</laSpanTitle>
+				<laPortnumber>RS-232-Port</laPortnumber>
+			</DVR>
+			<laUsemode tag="label;" length="150">Gebrauch</laUsemode>
+			<workModeOpt1 tag="option;" length="198">Konsole</workModeOpt1>
+			<workModeOpt2 tag="option;" length="198">Transp. Kanal</workModeOpt2>
+		</Page>
+		<Js>
+		</Js>
+	</RS232Config>
+	<RS485Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>RS-485-Einst.</laSpanTitle>
+			</DVR>
+			<laDecoderType485 tag="label;" length="150">PTZ-Protokoll</laDecoderType485>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<DecoderaddrTips tag="label;" length="150">PTZ-Adresse</DecoderaddrTips>
+		</General>
+	</RS485Config>
+	<Telecontrol>
+		<Page>
+			<laStudy>Untersuchen</laStudy>
+			<laOpenStartSduty>Remote-Code einlernen</laOpenStartSduty>
+			<laArmDesc>PIR aktivieren</laArmDesc>
+			<laDisarmDesc>PIR deaktivieren</laDisarmDesc>
+			<btnArm>Aktivieren</btnArm>
+			<btnDisarm>Deaktivieren</btnDisarm>
+		</Page>
+		<Js>
+		</Js>
+	</Telecontrol>
+</System>

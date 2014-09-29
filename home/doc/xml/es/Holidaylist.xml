@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Ajuste festivo</laSpanTitle>
+		<laPrompt>Los periodos de vacaciones no se pueden solapar</laPrompt>
+		<laHolidayName>Nombre festivo</laHolidayName>
+		<laHolidayFun>Habilitar festivos</laHolidayFun>
+		<HolidayTypeOpt1>Por fecha</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Por semana</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Por mes</HolidayTypeOpt3>
+		<laStartDate>Fecha inicio</laStartDate>
+		<laEndDate>Fecha de fin</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Editar festivos</EditHolidayTips>
+		<LastTips>Último</LastTips>
+		<DayTips>Fecha</DayTips>
+		<MonthTips>Mes</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Vision en directo</title>
+		<voiceTalk>Iniciar audio dos vías</voiceTalk>
+		<StopvoiceTalk>Parar voz</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Canal audio 2 vías</laTalkNum>
+		<laLight>Luz</laLight>
+		<laWiper>Limpia</laWiper>
+		<laOneKeyFocus>Enfoque un-toque</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Parámetros de video</laVideoEffect>
+		<Patrol>Patrulla</Patrol>
+		<laTrack>Ruta</laTrack>
+		<laPatrolTime tag="label;" length="75">Hora patrulla</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Velocidad patrulla</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Añadir ruta patrulla</laAddPatrolPath>
+		<raVideoParamMode1>Estándar</raVideoParamMode1>
+		<raVideoParamMode2>Interior</raVideoParamMode2>
+		<raVideoParamMode3>Exterior</raVideoParamMode3>
+		<raVideoParamMode4>Luz débil</raVideoParamMode4>
+		<laNoiseReduce>deNoising</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Parar Live View</stoppreview>
+		<recordfailed>Fallo grabación</recordfailed>
+		<stoprecord>Parar grabación</stoprecord>
+		<jsSetVideoParam>Fallo al ajustar parámetros de video</jsSetVideoParam>
+		<jsNetError>Falló manejo o no hay permisos.</jsNetError>
+		<VoiceTalkFailed>Falló uso audio dos vías</VoiceTalkFailed>
+		<ChooseTalkChan>Seleccionar un canal de voz</ChooseTalkChan>
+		<jsRecordSucc>Grabación conseguida.</jsRecordSucc>
+		<jsRecordAllSucc>Todas las grabaciones conseguidas</jsRecordAllSucc>
+		<Start>Inicio</Start>
+		<StartSave>Iniciar grabación</StartSave>
+		<StopSave>Parar grabación</StopSave>
+		<Start3DZoom>Iniciar zoom 3D</Start3DZoom>
+		<Stop3DZoom>Detener zoom 3D</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Parar todo Live View</geStopAllViewing>
+	</General>
+</Preview>

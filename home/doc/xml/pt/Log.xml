@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<Log>
+	<Page>
+		<title>Pesquisar Entrar</title>
+		<laLogSearch tag="label;" length="196">Pesquisar Entrar</laLogSearch>
+		<laSaveLog tag="label;" length="216">Guardar Eventos</laSaveLog>
+		<laLogTime tag="label;" length="131">Entrar Hora</laLogTime>
+		<laLogMajorType tag="label;" length="109">Tipo Maior</laLogMajorType>
+		<laLogMinorType tag="label;" length="109">Modelo menor</laLogMinorType>
+		<laLogRemoteUser tag="label;" length="109">Utilizador Local/Remoto</laLogRemoteUser>
+		<laLogRemoteIP tag="label;" length="109">IP do host remoto</laLogRemoteIP>
+		<laLogLocalUser>Login utlz. local</laLogLocalUser>
+		<ImgSearch>Pesquisar</ImgSearch>
+		<MajorTypeOptions>
+			<MajorTypeOpt1 tag="option;" length="198">Todos os tipos de</MajorTypeOpt1>
+			<MajorTypeOpt2 tag="option;" length="198">Alarme</MajorTypeOpt2>
+			<MajorTypeOpt4 tag="option;" length="198">Operação</MajorTypeOpt4>
+		</MajorTypeOptions>
+		<MinorTypeAlarm>
+			<MinorTypeAlarmOpt1>All:Todos os tipos</MinorTypeAlarmOpt1>
+			<MinorTypeAlarmOpt2>alarmIn:Entrada de Alarme</MinorTypeAlarmOpt2>
+			<MinorTypeAlarmOpt3>alarmOut:Saida de Alarme</MinorTypeAlarmOpt3>
+			<MinorTypeAlarmOpt4>motionStart:Inicio detecção de movimento</MinorTypeAlarmOpt4>
+			<MinorTypeAlarmOpt5>motionStop:Paragem detecção movimento</MinorTypeAlarmOpt5>
+			<MinorTypeAlarmOpt6>hideStart:Tamper Ligado</MinorTypeAlarmOpt6>
+			<MinorTypeAlarmOpt7>hideStop:Tamper desligado</MinorTypeAlarmOpt7>
+			<MinorTypeAlarmOpt8>vcaStart:Iniciar Alarme VCA</MinorTypeAlarmOpt8>
+			<MinorTypeAlarmOpt9>vcaStop:Alarme VCA Parar</MinorTypeAlarmOpt9>
+			<pirStart>Iniciar Alarme PIR</pirStart>
+			<pirStop>Parar Alarme PIR</pirStop>
+			<wlsensorStart>Iniciar Alarme wireless</wlsensorStart>
+			<wlsensorStop>Parar Alarme wireless</wlsensorStop>
+			<callhelpStart>Iniciar Alarme de emergência</callhelpStart>
+			<callhelpStop>Parar Alarme de emergência</callhelpStop>
+		</MinorTypeAlarm>
+		<MinorTypeException>
+			<MinorTypeExpOpt1>All:Todos os tipos</MinorTypeExpOpt1>
+			<MinorTypeExpOpt2>videoLost:Perda de sinal de vídeo</MinorTypeExpOpt2>
+			<MinorTypeExpOpt3>illlegealAccess:Acesso errado</MinorTypeExpOpt3>
+			<MinorTypeExpOpt4>hdFull:HDD Cheio</MinorTypeExpOpt4>
+			<MinorTypeExpOpt5>hdError:Erro HDD</MinorTypeExpOpt5>
+			<MinorTypeExpOpt6>netBroken:Rede desligada</MinorTypeExpOpt6>
+			<MinorTypeExpOpt7>recordError:Erro de Gravação</MinorTypeExpOpt7>
+			<MinorTypeExpOpt8>ipConflict:Conflito endereço de IP</MinorTypeExpOpt8>
+			<MinorTypeExpOpt9>videoException:Exceção de sinal de vídeo</MinorTypeExpOpt9>
+			<MinorTypeExpOpt10>videoFormatMismatch:Input/Output Mismatch Padrão de vídeo</MinorTypeExpOpt10>
+			<MinorTypeExpOpt11>ipcDisconnect:Camara IP desligada</MinorTypeExpOpt11>
+			<MinorTypeExpOpt12>ipcIpConfilict:Conflito endereço IP ou IPC </MinorTypeExpOpt12>
+			<MinorTypeExpOpt13>viAndResMismatch:Incompatibilidade de Resolução</MinorTypeExpOpt13>
+		</MinorTypeException>
+		<MinorTypeInformation>
+			<MinorTypeInforOpt1>All:Todos os tipos</MinorTypeInforOpt1>
+			<MinorTypeInforOpt2>hddInfo:Informação HDD</MinorTypeInforOpt2>
+			<MinorTypeInforOpt3>startRec:Começar a gravar</MinorTypeInforOpt3>
+			<MinorTypeInforOpt4>stopRec:Parar de gravar</MinorTypeInforOpt4>
+			<MinorTypeInforOpt5>delExpiredRec:Excluir Video File Expired</MinorTypeInforOpt5>
+			<MinorTypeInforOpt6>nasInfo:Informação HDD</MinorTypeInforOpt6>
+			<MinorTypeInforOpt7>smartInfo:Informação importante</MinorTypeInforOpt7>
+			<MinorTypeInforOpt8>startPic:Começar captura</MinorTypeInforOpt8>
+			<MinorTypeInforOpt9>stopPic:Parar captura</MinorTypeInforOpt9>
+			<MinorTypeInforOpt10>raidInfo:RAID</MinorTypeInforOpt10>
+		</MinorTypeInformation>
+		<MinorTypeOperation>
+			<MinorTypeOperationOpt1>All:Todos os tipos</MinorTypeOperationOpt1>
+			<MinorTypeOperationOpt2>devicePowerOn:Ligado</MinorTypeOperationOpt2>
+			<MinorTypeOperationOpt3>stopAbnormal:Local: Desligamento Anormal</MinorTypeOperationOpt3>
+			<MinorTypeOperationOpt4>remotePowerOff:Remoto: Desligamento</MinorTypeOperationOpt4>
+			<MinorTypeOperationOpt5>remotePowerRecycle:Reboot: Remoto</MinorTypeOperationOpt5>
+			<MinorTypeOperationOpt6>remoteLogin:Remoto: Acesso</MinorTypeOperationOpt6>
+			<MinorTypeOperationOpt7>remoteLogout:Remoto: Logout</MinorTypeOperationOpt7>
+			<MinorTypeOperationOpt8>remoteCfgPara:Remoto: Configurar Parâmetros</MinorTypeOperationOpt8>
+			<MinorTypeOperationOpt9>remoteUpgrade:Actualização remota</MinorTypeOperationOpt9>
+			<MinorTypeOperationOpt10>remoteStartRec:Remoto: Iniciar a gravação</MinorTypeOperationOpt10>
+			<MinorTypeOperationOpt11>remoteStopRec:Paragem da gravação</MinorTypeOperationOpt11>
+			<MinorTypeOperationOpt12>remoteCtrlPtz:Remoto: Controle de PTZ</MinorTypeOperationOpt12>
+			<MinorTypeOperationOpt13>remoteLockFile:Remoto: File Lock</MinorTypeOperationOpt13>
+			<MinorTypeOperationOpt14>remoteUnlockFile:Remoto: Desbloquear arquivo</MinorTypeOperationOpt14>
+			<MinorTypeOperationOpt15>remoteManulAlarm:Remoto: Trigger saída de alarme</MinorTypeOperationOpt15>
+			<MinorTypeOperationOpt16>remoteFormatHd:Remoto: Initialize HDD</MinorTypeOperationOpt16>
+			<MinorTypeOperationOpt17>remotePlayByFile:Remoto: Reprodução pelo Arquivo</MinorTypeOperationOpt17>
+			<MinorTypeOperationOpt18>remotePlayByTime:Remoto: Playback por Tempo</MinorTypeOperationOpt18>
+			<MinorTypeOperationOpt19>remoteDownloadCfgFile:Remoto: Export arquivo de configuração</MinorTypeOperationOpt19>
+			<MinorTypeOperationOpt20>remoteUploadCfgFile:Ficheiros de configuração remota</MinorTypeOperationOpt20>
+			<MinorTypeOperationOpt21>remoteDownloadRecFile:Remoto: Exportação Ficha Cadastral</MinorTypeOperationOpt21>
+			<MinorTypeOperationOpt22>remotePicBackUp:Remoto: Exportação de Arquivo de Imagem</MinorTypeOperationOpt22>
+			<MinorTypeOperationOpt23>remoteGetPara:Remoto: Parâmetros Get</MinorTypeOperationOpt23>
+			<MinorTypeOperationOpt24>remoteGetStatus:Remoto: Obtenha Estado de Trabalho</MinorTypeOperationOpt24>
+			<MinorTypeOperationOpt25>remoteStartTransChan:Canal transparente estabelecido</MinorTypeOperationOpt25>
+			<MinorTypeOperationOpt26>remoteStopTransChan:Canal transparente fechado</MinorTypeOperationOpt26>
+			<MinorTypeOperationOpt27>startVoiceTalk:Iniciar Áudio bidireccional</MinorTypeOperationOpt27>
+			<MinorTypeOperationOpt28>stopVoiceTalk:Pare de duas vias de áudio</MinorTypeOperationOpt28>
+			<MinorTypeOperationOpt29>remoteArm:Remoto: Armar alarme</MinorTypeOperationOpt29>
+			<MinorTypeOperationOpt30>remoteDisArm:Remoto: Alarme Desarmar</MinorTypeOperationOpt30>
+			<MinorTypeOperationOpt31>remoteAddNas:Remoto: Adic.NetHDD</MinorTypeOperationOpt31>
+			<MinorTypeOperationOpt32>remoteDelNas:Remoto: Apagar NetHDD</MinorTypeOperationOpt32>
+			<MinorTypeOperationOpt33>remoteSetNas:Remoto: Def. NetHDD</MinorTypeOperationOpt33>
+			<MinorTypeOperationOpt34>remoteStartPicRec:Remoto: Iniciar Captura de Imagem</MinorTypeOperationOpt34>
+			<MinorTypeOperationOpt35>remoteStopPicRec:Remoto: Parar Captura de Imagem</MinorTypeOperationOpt35>
+			<MinorTypeOperationOpt36>remoteTagOperation:Remoto: Operar Tag</MinorTypeOperationOpt36>
+			<MinorTypeOperationOpt37>remoteAddIpc:Remoto: Add Camera IP</MinorTypeOperationOpt37>
+			<MinorTypeOperationOpt38>remoteDelIpc:Remoto: Câmera IP Excluir</MinorTypeOperationOpt38>
+			<MinorTypeOperationOpt39>remoteSetIpc:Remoto: Set Câmera IP</MinorTypeOperationOpt39>
+			<MinorTypeOperationOpt40>remoteSetSnmp:Remota: Configurar SNMP</MinorTypeOperationOpt40>
+			<DVR>
+				<DVRMinorTypeOperationOpt1>All:Todos os tipos</DVRMinorTypeOperationOpt1>
+				<DVRMinorTypeOperationOpt2>devicePowerOn:Ligado</DVRMinorTypeOperationOpt2>
+				<DVRMinorTypeOperationOpt3>devicePowerOff:Local: Desligar</DVRMinorTypeOperationOpt3>
+				<DVRMinorTypeOperationOpt4>deviceRecycle:Local: Reiniciar</DVRMinorTypeOperationOpt4>
+				<DVRMinorTypeOperationOpt5>stopAbnormal:Local: Desligamento Anormal</DVRMinorTypeOperationOpt5>
+				<DVRMinorTypeOperationOpt6>localLogin:Local: Login</DVRMinorTypeOperationOpt6>
+				<DVRMinorTypeOperationOpt7>localLogOut:Sair</DVRMinorTypeOperationOpt7>
+				<DVRMinorTypeOperationOpt8>localCfgPara:Local:Configurar Parametros</DVRMinorTypeOperationOpt8>
+				<DVRMinorTypeOperationOpt9>localUpdate:Actualizar</DVRMinorTypeOperationOpt9>
+				<DVRMinorTypeOperationOpt10>localStartRec:Local: iniciar Gravação</DVRMinorTypeOperationOpt10>
+				<DVRMinorTypeOperationOpt11>localStopRec:Local:parar Gravação</DVRMinorTypeOperationOpt11>
+				<DVRMinorTypeOperationOpt12>localStartPicRec:Local: Iniciar Captura</DVRMinorTypeOperationOpt12>
+				<DVRMinorTypeOperationOpt13>localStopPicRec:Local: Parar Captura</DVRMinorTypeOperationOpt13>
+				<DVRMinorTypeOperationOpt14>localCtrlPtz:Local: Controle PTZ</DVRMinorTypeOperationOpt14>
+				<DVRMinorTypeOperationOpt15>localLockFile:Local: bloquear ficheiro</DVRMinorTypeOperationOpt15>
+				<DVRMinorTypeOperationOpt16>localUnlockFile:Local: Bloquear ficheiro</DVRMinorTypeOperationOpt16>
+				<DVRMinorTypeOperationOpt17>localManulAlarm:Local: iniciar Alarme</DVRMinorTypeOperationOpt17>
+				<DVRMinorTypeOperationOpt18>localFormatDisk:Local: Iniciar HDD</DVRMinorTypeOperationOpt18>
+				<DVRMinorTypeOperationOpt19>localPlayByFile:Local: Reprodução por Ficheiro</DVRMinorTypeOperationOpt19>
+				<DVRMinorTypeOperationOpt20>localPlayByTime:Local: reproduzir por data</DVRMinorTypeOperationOpt20>
+				<DVRMinorTypeOperationOpt21>localDownloadCfgFile:Local: exportar Ficheiro Config.</DVRMinorTypeOperationOpt21>
+				<DVRMinorTypeOperationOpt22>localUploadCfgFile:Local: Importar Ficheiro Config.</DVRMinorTypeOperationOpt22>
+				<DVRMinorTypeOperationOpt23>localDownloadRecFile:Local: Exportar ficheiro gravado</DVRMinorTypeOperationOpt23>
+				<DVRMinorTypeOperationOpt24>localDownloadPicFile:Local:exportar ficheiro imagem</DVRMinorTypeOperationOpt24>
+				<DVRMinorTypeOperationOpt25>localAddNas:Local: adicionar HDD</DVRMinorTypeOperationOpt25>
+				<DVRMinorTypeOperationOpt26>localDelNas:Local: Apagar Net HDD</DVRMinorTypeOperationOpt26>
+				<DVRMinorTypeOperationOpt27>localSetNas:Local: HDD Fixo</DVRMinorTypeOperationOpt27>
+				<DVRMinorTypeOperationOpt28>localResetPasswd:Local:Restaurar Admin PWD</DVRMinorTypeOperationOpt28>
+				<DVRMinorTypeOperationOpt29>localTagOperation:Local: operar Tag</DVRMinorTypeOperationOpt29>
+				<DVRMinorTypeOperationOpt30>remotePowerOff:Remoto: Desligamento</DVRMinorTypeOperationOpt30>
+				<DVRMinorTypeOperationOpt31>remotePowerRecycle:Reboot: Remoto</DVRMinorTypeOperationOpt31>
+				<DVRMinorTypeOperationOpt32>remoteLogin:Remoto: Acesso</DVRMinorTypeOperationOpt32>
+				<DVRMinorTypeOperationOpt33>remoteLogout:Remoto: Logout</DVRMinorTypeOperationOpt33>
+				<DVRMinorTypeOperationOpt34>remoteCfgPara:Remoto: Configurar Parâmetros</DVRMinorTypeOperationOpt34>
+				<DVRMinorTypeOperationOpt35>remoteUpgrade:Actualização remota</DVRMinorTypeOperationOpt35>
+				<DVRMinorTypeOperationOpt36>remoteStartRec:Remoto: Iniciar a gravação</DVRMinorTypeOperationOpt36>
+				<DVRMinorTypeOperationOpt37>remoteStopRec:Paragem da gravação</DVRMinorTypeOperationOpt37>
+				<DVRMinorTypeOperationOpt38>remoteCtrlPtz:Remoto: Controle de PTZ</DVRMinorTypeOperationOpt38>
+				<DVRMinorTypeOperationOpt39>remoteLockFile:Remoto: File Lock</DVRMinorTypeOperationOpt39>
+				<DVRMinorTypeOperationOpt40>remoteUnlockFile:Remoto: Desbloquear arquivo</DVRMinorTypeOperationOpt40>
+				<DVRMinorTypeOperationOpt41>remoteManulAlarm:Remoto: Trigger saída de alarme</DVRMinorTypeOperationOpt41>
+				<DVRMinorTypeOperationOpt42>remoteFormatHd:Remoto: Initialize HDD</DVRMinorTypeOperationOpt42>
+				<DVRMinorTypeOperationOpt43>remotePlayByFile:Remoto: Reprodução pelo Arquivo</DVRMinorTypeOperationOpt43>
+				<DVRMinorTypeOperationOpt44>remotePlayByTime:Remoto: Playback por Tempo</DVRMinorTypeOperationOpt44>
+				<DVRMinorTypeOperationOpt45>remoteDownloadCfgFile:Remoto: Export arquivo de configuração</DVRMinorTypeOperationOpt45>
+				<DVRMinorTypeOperationOpt46>remoteUploadCfgFile:Remoto: Ficheiros de configuração</DVRMinorTypeOperationOpt46>
+				<DVRMinorTypeOperationOpt47>remoteDownloadRecFile:Remoto: Exportação Ficha Cadastral</DVRMinorTypeOperationOpt47>
+				<DVRMinorTypeOperationOpt48>remotePicBackUp:Remoto: Exportar ficheiro de imagem</DVRMinorTypeOperationOpt48>
+				<DVRMinorTypeOperationOpt49>remoteGetPara:Remoto: Parâmetros Get</DVRMinorTypeOperationOpt49>
+				<DVRMinorTypeOperationOpt50>remoteGetStatus:Remoto: Estado de funcionamento</DVRMinorTypeOperationOpt50>
+				<DVRMinorTypeOperationOpt51>remoteStartTransChan:Canal transparente estabelecido</DVRMinorTypeOperationOpt51>
+				<DVRMinorTypeOperationOpt52>remoteStopTransChan:Canal transparente fechado</DVRMinorTypeOperationOpt52>
+				<DVRMinorTypeOperationOpt53>startVoiceTalk:Iniciar Áudio bidireccional</DVRMinorTypeOperationOpt53>
+				<DVRMinorTypeOperationOpt54>stopVoiceTalk:Pare de duas vias de áudio</DVRMinorTypeOperationOpt54>
+				<DVRMinorTypeOperationOpt55>remoteArm:Remoto: Armar alarme</DVRMinorTypeOperationOpt55>
+				<DVRMinorTypeOperationOpt56>remoteDisArm:Remoto: Alarme Desarmar</DVRMinorTypeOperationOpt56>
+				<DVRMinorTypeOperationOpt57>remoteAddNas:Remoto: Adic.NetHDD</DVRMinorTypeOperationOpt57>
+				<DVRMinorTypeOperationOpt58>remoteDelNas:Remoto: Apagar NetHDD</DVRMinorTypeOperationOpt58>
+				<DVRMinorTypeOperationOpt59>remoteSetNas:Remoto: Def. NetHDD</DVRMinorTypeOperationOpt59>
+				<DVRMinorTypeOperationOpt60>remoteStartPicRec:Remoto: Iniciar Captura de Imagem</DVRMinorTypeOperationOpt60>
+				<DVRMinorTypeOperationOpt61>remoteStopPicRec:Remoto: Parar Captura de Imagem</DVRMinorTypeOperationOpt61>
+				<DVRMinorTypeOperationOpt62>remoteTagOperation:Remoto: Operar Tag</DVRMinorTypeOperationOpt62>
+				<DVRMinorTypeOperationOpt63>localAddIpc:Local:Adicionar Câmara IP</DVRMinorTypeOperationOpt63>
+				<DVRMinorTypeOperationOpt64>localDelIpc:Local: Apagar Camara IP</DVRMinorTypeOperationOpt64>
+				<DVRMinorTypeOperationOpt65>localSetIpc:Local: Camara IP fixo</DVRMinorTypeOperationOpt65>
+				<DVRMinorTypeOperationOpt66>remoteAddIpc:Remoto: Add Camera IP</DVRMinorTypeOperationOpt66>
+				<DVRMinorTypeOperationOpt67>remoteDelIpc:Remoto: Câmera IP Excluir</DVRMinorTypeOperationOpt67>
+				<DVRMinorTypeOperationOpt68>remoteSetIpc:Remoto: Set Câmera IP</DVRMinorTypeOperationOpt68>
+				<DVRMinorTypeOperationOpt69>localSetSnmp:Local: configurar SNMP</DVRMinorTypeOperationOpt69>
+				<DVRMinorTypeOperationOpt70>remoteSetSnmp:Remota: Configurar SNMP</DVRMinorTypeOperationOpt70>
+			</DVR>
+		</MinorTypeOperation>
+	</Page>
+	<Js>
+		<szTips1>Procura de eventos concluida</szTips1>
+		<szTips3>Procura Falhada</szTips3>
+		<szTips5>Falha ao criar ficheiro</szTips5>
+		<Alarm>Alarme</Alarm>
+		<motionStart>Iniciar Detecção de Movimento</motionStart>
+		<motionStop>Pare de Detecção de Movimento</motionStop>
+		<hideStart>Iniciar à prova de falsificação</hideStart>
+		<hideStop>Parar à prova de falsificação</hideStop>
+		<vcaStart>Iniciar Alarme VCA</vcaStart>
+		<vcaStop>Parar o alarme VCA</vcaStop>
+		<videoException>Exceção de sinal de vídeo</videoException>
+		<videoFormatMismatch>Input/Output Mismatch Padrão de vídeo</videoFormatMismatch>
+		<viAndResMismatch>Resolução de incompatibilidade</viAndResMismatch>
+		<ipcDisconnect>Camara IP desligada</ipcDisconnect>
+		<ipcIpConfilict>Conflito endereço de IPC</ipcIpConfilict>
+		<illlegealAccess>Login invalido</illlegealAccess>
+		<netBroken>Rede Desconectado</netBroken>
+		<recordError>Exceção Gravaçao/Captura</recordError>
+		<ipConflict>Conflito de endereço IP</ipConflict>
+		<Infomation>Informação</Infomation>
+		<hddInfo>Informação HDD</hddInfo>
+		<smartInfo>Informação importante</smartInfo>
+		<startRec>Iniciar gravação </startRec>
+		<stopRec>Parar gravação</stopRec>
+		<delExpiredRec>Excluir Video File Expired</delExpiredRec>
+		<nasInfo>Informações NetHDD</nasInfo>
+		<startPic>Iniciar Captura</startPic>
+		<stopPic>Parar Captura</stopPic>
+		<raidInfo>RAID</raidInfo>
+		<Operation>Operação</Operation>
+		<devicePowerOn>Ligado</devicePowerOn>
+		<devicePowerOff>Local: Desligar</devicePowerOff>
+		<deviceRecycle>Local: Reiniciar</deviceRecycle>
+		<stopAbnormal>Local: Desligamento Anormal</stopAbnormal>
+		<localLogin>Local: Login</localLogin>
+		<localLogOut>Local: Sair</localLogOut>
+		<localCfgPara>Local:Configurar Parametros</localCfgPara>
+		<localUpdate>Local: actualização</localUpdate>
+		<localStartRec>Local: iniciar Gravação</localStartRec>
+		<localStopRec>Local:parar Gravação</localStopRec>
+		<localStartPicRec>Local: Iniciar Captura</localStartPicRec>
+		<localStopPicRec>Local: Parar Captura</localStopPicRec>
+		<localCtrlPtz>Local: Controle PTZ</localCtrlPtz>
+		<localLockFile>Local: bloquear ficheiro</localLockFile>
+		<localUnlockFile>Local: Bloquear ficheiro</localUnlockFile>
+		<localManulAlarm>Local: iniciar Alarme</localManulAlarm>
+		<localFormatDisk>Local: Iniciar HDD</localFormatDisk>
+		<localAddIpc>Local:Adicionar Câmara IP</localAddIpc>
+		<localDelIpc>Local: Apagar Camara IP</localDelIpc>
+		<localSetIpc>Local: Camara IP fixo</localSetIpc>
+		<localPlayByFile>Local:Reproduzir por ficheiro</localPlayByFile>
+		<localPlayByTime>Local: reproduzir por data</localPlayByTime>
+		<localDownloadCfgFile>Local: exportar Ficheiro Config.</localDownloadCfgFile>
+		<localUploadCfgFile>Local: Importar Ficheiro Config.</localUploadCfgFile>
+		<localDownloadRecFile>Local: Exportar ficheiro gravado</localDownloadRecFile>
+		<localDownloadPicFile>Local:exportar ficheiro imagem</localDownloadPicFile>
+		<localAddNas>Local: adicionar HDD</localAddNas>
+		<localDelNas>Local: Apagar Net HDD</localDelNas>
+		<localSetNas>Local: HDD Fixo</localSetNas>
+		<localSetSnmp>Local: configurar SNMP</localSetSnmp>
+		<localResetPasswd>Local:Restaurar Admin PWD</localResetPasswd>
+		<localTagOperation>Local: operar Tag</localTagOperation>
+		<remotePowerOff>Remoto: Desligamento</remotePowerOff>
+		<remotePowerRecycle>Reboot: Remoto</remotePowerRecycle>
+		<remoteLogin>Remoto: Acesso</remoteLogin>
+		<remoteLogout>Remoto: Logout</remoteLogout>
+		<remoteCfgPara>Remoto: Configurar Parâmetros</remoteCfgPara>
+		<remoteUpgrade>Actualização remota</remoteUpgrade>
+		<remoteStartRec>Remoto: Iniciar a gravação</remoteStartRec>
+		<remoteStopRec>Remoto: Parar Gravação</remoteStopRec>
+		<remoteCtrlPtz>Remoto: Controle de PTZ</remoteCtrlPtz>
+		<remoteLockFile>Remoto: File Lock</remoteLockFile>
+		<remoteUnlockFile>Remoto: Desbloquear arquivo</remoteUnlockFile>
+		<remoteManulAlarm>Remoto: Trigger saída de alarme</remoteManulAlarm>
+		<remoteFormatHd>Remoto: Inicial.HDD</remoteFormatHd>
+		<remoteAddIpc>Remoto: Add Camera IP</remoteAddIpc>
+		<remoteDelIpc>Remoto: Câmera IP Excluir</remoteDelIpc>
+		<remoteSetIpc>Remoto: Set Câmera IP</remoteSetIpc>
+		<remotePlayByFile>Remoto: Reprodução pelo Arquivo</remotePlayByFile>
+		<remotePlayByTime>Remoto: Playback por Tempo</remotePlayByTime>
+		<remoteDownloadCfgFile>Remoto: Export arquivo de configuração</remoteDownloadCfgFile>
+		<remoteUploadCfgFile>Ficheiros de configuração remota</remoteUploadCfgFile>
+		<remoteDownloadRecFile>Remoto: Exportação Ficha Cadastral</remoteDownloadRecFile>
+		<remoteGetPara>Remoto: Parâmetros Get</remoteGetPara>
+		<remoteGetStatus>Remoto: Obtenha Estado de Trabalho</remoteGetStatus>
+		<remoteStartTransChan>Canal transparente estabelecido</remoteStartTransChan>
+		<remoteStopTransChan>Canal transparente fechado</remoteStopTransChan>
+		<startVoiceTalk>Iniciar Áudio bidireccional</startVoiceTalk>
+		<stopVoiceTalk>Pare de duas vias de áudio</stopVoiceTalk>
+		<remoteArm>Remoto: Armar alarme</remoteArm>
+		<remoteDisArm>Remoto: Alarme Desarmar</remoteDisArm>
+		<remoteAddNas>Remoto: Adic.NetHDD</remoteAddNas>
+		<remoteDelNas>Remoto: Apagar NetHDD</remoteDelNas>
+		<remoteSetNas>Remoto: Def. NetHDDD</remoteSetNas>
+		<remotePicBackUp>Remoto: Exportação de Arquivo de Imagem</remotePicBackUp>
+		<remoteStartPicRec>Remoto: Iniciar Captura de Imagem</remoteStartPicRec>
+		<remoteStopPicRec>Remoto: Parar Captura de Imagem</remoteStopPicRec>
+		<remoteSetSnmp>Remoto: Configurar SNMP</remoteSetSnmp>
+		<remoteTagOperation>Remoto: Operar Tag</remoteTagOperation>
+		<ExportFailedTips>Falha exportar eventos</ExportFailedTips>
+	</Js>
+</Log>

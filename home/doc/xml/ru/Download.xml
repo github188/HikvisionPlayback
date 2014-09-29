@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>Загрузить файл</title>
+		<picturetitle>Скачать фото</picturetitle>
+		<laFileName tag="label;" length="140">Имя файла</laFileName>
+		<laFileSize tag="label;" length="90">Размер файла</laFileSize>
+		<laPictureData tag="label;" length="90">Дата файла</laPictureData>
+		<laDownloadProcess tag="label;" length="90">Прогресс</laDownloadProcess>
+		<PictureType1>Время</PictureType1>
+		<PictureType2>Тревога</PictureType2>
+		<PictureType3>Детектор движения</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>Загружено</Downloaded>
+		<jsNoPictureTip>Нет файлов изображений.</jsNoPictureTip>
+		<jsSearchPicFailed>Ошибка поиска фотографий.</jsSearchPicFailed>
+		<jsDownloadFailed>Скачивание не удалось</jsDownloadFailed>
+		<jsTips1>Остановить загрузку?</jsTips1>
+		<jsTips2>Пожалуйста, выберите файл для загрузки</jsTips2>
+	</Js>
+</Download>

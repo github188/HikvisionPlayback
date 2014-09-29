@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Nastavení svátků</laSpanTitle>
+		<laPrompt>Období svátků nemohou přesahovat</laPrompt>
+		<laHolidayName>Název svátku</laHolidayName>
+		<laHolidayFun>Povolení svátků</laHolidayFun>
+		<HolidayTypeOpt1>Dle data</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Dle týdne</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Dle měsíce</HolidayTypeOpt3>
+		<laStartDate>Poč. datum</laStartDate>
+		<laEndDate>Koncové datum</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Editace svátků</EditHolidayTips>
+		<LastTips>Poslední</LastTips>
+		<DayTips>Datum</DayTips>
+		<MonthTips>Měsíc</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

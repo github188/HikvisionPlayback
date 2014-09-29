@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Grootte gegevensbestand</lapackSize>
+		<lanetsPreach tag="label;" length="150">Live view voorstelling</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Opslaan</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Sla snapshots in live view op</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Sla clips op</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Sla snapshots tijdens afspelen op</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Downloads opslaan in</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Least Delay</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Balans</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Opt. stroom</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Instellingen gegevensbestand</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Foto- en clipinstellingen</laCaptureClipParams>
+		<trFullFill>Auto-fill</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

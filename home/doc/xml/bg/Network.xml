@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Network>
+	<Common>
+		<Page>
+			<laNetWorkMode>Работен модел</laNetWorkMode>
+			<laEAPOLVersion tag="label;" length="150">EAPOL версия</laEAPOLVersion>
+			<laFriendlyName>Име</laFriendlyName>
+		</Page>
+		<Js>
+		    <jsPortConflict>Портовете са в конфликт.</jsPortConflict>
+		</Js>
+		<General>
+			<gePort tag="label;" length="150">Порт</gePort>
+		</General>
+	</Common>
+	<IpConfig>
+		<Page>
+			<NetworkModeOpt1>Net Fault-tolerance</NetworkModeOpt1>
+			<NetworkModeOpt2>Load Balance</NetworkModeOpt2>
+			<NetworkModeOpt3>Multi-address</NetworkModeOpt3>
+			<laNetCardConfig tag="label;" length="670">Настройки NIC</laNetCardConfig>
+			<laSelectNetCard>NIC избор</laSelectNetCard>
+			<laNetworkType tag="label;" length="150">Тип NIC</laNetworkType>
+			<NetworkTypeOpt1 tag="option;" length="198">10M Half-Dup</NetworkTypeOpt1>
+			<NetworkTypeOpt2 tag="option;" length="198">10M Full-dup</NetworkTypeOpt2>
+			<NetworkTypeOpt3 tag="option;" length="198">100M Half-Dup</NetworkTypeOpt3>
+			<NetworkTypeOpt4 tag="option;" length="198">100M Full-dup</NetworkTypeOpt4>
+			<NetworkTypeOpt5 tag="option;" length="198">10M/100M/1000M Auto</NetworkTypeOpt5>
+			<NetworkTypeOpt6 tag="option;" length="198">1000M Full-Dup</NetworkTypeOpt6>
+			<laDeviceIpAdd tag="label;" length="150">IPv4 Адрес</laDeviceIpAdd>
+			<laDHCP tag="label;" length="670">DHCP</laDHCP>
+			<laSubNetMask tag="label;" length="150">IPv4 Маска на подмрежа</laSubNetMask>
+			<laDefaultGateWay tag="label;" length="150">IPv4 Шлюз по подр.</laDefaultGateWay>
+			<laDeviceIpV6Add>IPv6 Адрес</laDeviceIpV6Add>
+			<laDefaultV6GateWay>IPv6 Шлюз по подр.</laDefaultV6GateWay>
+			<laDNSServerConfig tag="label;" length="670">DNS сървър</laDNSServerConfig>
+			<laPrimaryDNS tag="label;" length="150">DNS Сървър</laPrimaryDNS>
+			<laDNSServer2IP tag="label;" length="150">DNS Сървър 2</laDNSServer2IP>
+			<laPrimayEthernet>Основен NIC</laPrimayEthernet>
+			<laMulticast tag="label;" length="150">Multicast Адрес</laMulticast>
+		</Page>
+		<Js>
+			<jsMaskAdd>Subnet маска</jsMaskAdd>
+			<jsGateAdd>Gateway</jsGateAdd>
+			<jsMtuParam>MTU</jsMtuParam>
+			<jsFirstDNS>Предпочитан DNS адрес</jsFirstDNS>
+			<jsSecondDNS>DNS адрес 2</jsSecondDNS>
+			<MaskAddInvalidTips>Невалиден адрес на маска</MaskAddInvalidTips>
+			<jsMulticastRange>Първия сегмент от IP адреса трябва да е число между 224 и 239.</jsMulticastRange>
+		</Js>
+	</IpConfig>
+	<PortConfig>
+		<Page>
+			<laHttpPort tag="label;" length="150">HTTP Порт</laHttpPort>
+			<laRtspPort tag="label;" length="150">RTSP порт</laRtspPort>
+			<laHttpsPort tag="label;" length="150">HTTPS Порт</laHttpsPort>
+			<laSDKPort>SDK порт</laSDKPort>
+		</Page>
+		<Js>
+			<jsHttpPortParam>HTTP Порт </jsHttpPortParam>
+			<jsRtspPortParam>RTSP порт </jsRtspPortParam>
+			<jsHttpsPortParam>HTTPS Порт </jsHttpsPortParam>
+		</Js>
+	</PortConfig>
+	<DDNS>
+		<Page>
+			<laUseDDNS tag="label;" length="670">Активиране на DDNS</laUseDDNS>
+			<laDDNSType tag="label;" length="150">DDNS Доставчик</laDDNSType>
+		</Page>
+		<Js>
+			<jsDomainAlreadyExist>Домейнът вече съществува</jsDomainAlreadyExist>
+		</Js>
+		<General>
+			<laDeviceDomain tag="label;" length="150">Домейн</laDeviceDomain>
+		</General>
+	</DDNS>
+	<PPPoE>
+		<Page>
+			<laUsePPPOE tag="label;" length="670">Активиране на PPPOE</laUsePPPOE>
+			<laDevicePPPOEIP tag="label;" length="150">Динамично IP</laDevicePPPOEIP>
+		</Page>
+		<Js>
+			<jsPPPOEName>PPPoE Име</jsPPPOEName>
+			<jsPPPOEPassword>PPPoE парола</jsPPPOEPassword>
+		</Js>
+	</PPPoE>
+	<SNMP>
+		<Page>
+			<laEnableV1 tag="label;" length="150">Активиране SNMPv1</laEnableV1>
+			<laEnableV2c tag="label;" length="150">Активиране SNMP v2c</laEnableV2c>
+			<laRwCommunity tag="label;" length="150">SNMP Community запис</laRwCommunity>
+			<laRCommunity tag="label;" length="150">SNMP Community четене</laRCommunity>
+			<laTrapIP tag="label;" length="150">Trap адрес</laTrapIP>
+			<laTrapPort tag="label;" length="150">Trap порт</laTrapPort>
+			<laTrapCommunity tag="label;" length="150">Trap Community</laTrapCommunity>
+			<laEnableV3c tag="label;" length="150">Активиране SNMPv3</laEnableV3c>
+			<laRUserName tag="label;" length="150">Четене потреб. име</laRUserName>
+			<laRwUserName tag="label;" length="150">Потреб. име запис</laRwUserName>
+			<laSecurityLevel tag="label;" length="150">Ниво сигурност</laSecurityLevel>
+			<laAuthAlg tag="label;" length="150">Алгоритъм за оторизиране</laAuthAlg>
+			<laAuthPsd tag="label;" length="150">Парола за оторизация</laAuthPsd>
+			<laPrivacyAlg tag="label;" length="150">Алгоритъм за частен ключ</laPrivacyAlg>
+			<laPrivacyPsd tag="label;" length="150">Парола частен ключ</laPrivacyPsd>
+			<laSNMPPort tag="label;" length="150">SNMP Порт</laSNMPPort>
+			<laSNMPMore tag="label;" length="670">Други SNMP настройки</laSNMPMore>
+		</Page>
+		<Js>
+			<jsOneLeast>Трябва да активирате поне един SNMP тип.</jsOneLeast>
+			<jsTrapIp>Trap IP адрес</jsTrapIp>
+		</Js>
+	</SNMP>
+	<P8021x>
+		<Page>
+			<laEnable8021x tag="label;" length="131">Акт. IEEE 802.1X</laEnable8021x>
+		</Page>
+		<Js>
+		</Js>
+	</P8021x>
+	<QoS>
+		<Page>
+			<laVideoDSCP tag="label;" length="150">Видео/Аудио DSCP</laVideoDSCP>
+			<laEADSCP tag="label;" length="150">DSCP Събитие/Аларма</laEADSCP>
+			<laManageDSCP tag="label;" length="150">Управление DSCP</laManageDSCP>
+			<laEnableQoS>Разреши QoS</laEnableQoS>
+		</Page>
+		<Js>
+		</Js>
+	</QoS>
+	<Socks>
+		<Page>
+			<laEnableSocks>Разреши SOCKS</laEnableSocks>
+			<laSocksServerAddr>Сървър</laSocksServerAddr>
+			<laSocksServerPort>Порт на сървъра</laSocksServerPort>
+			<laSocksVersion>Тип на сървъра</laSocksVersion>
+			<laLocalList>Локални мрежи</laLocalList>
+			<laLocalTips>За разделяне на елементите в локалните мрежи използвайте точка и запетая (;).</laLocalTips>
+		</Page>
+		<Js>
+		</Js>
+	</Socks>
+	<UPnP>
+		<Page>
+			<laEnableUPnP>Активиране UPnP</laEnableUPnP>
+			<laHttpPortMap>Съпоставяне на HTTP портове</laHttpPortMap>
+			<laManagePortMap>Съпоставяне на портовете на устройство</laManagePortMap>
+			<laRtspPortMap>Съпоставяне на RTSP портовете</laRtspPortMap>
+			<laHttpsPortMap>Съпоставяне на HTTPS портове</laHttpsPortMap>
+			<laNatRouterLanAddr>Адрес на маршрутизатор с поддръжка на NAT</laNatRouterLanAddr>
+			<laEnableUPnPNat>Разреши NAT с поддръжка на UPnP™</laEnableUPnPNat>
+			<laUPnPMapType>Сопоставление портов</laUPnPMapType>
+			<laPortsMap>Съпоставяне на портове</laPortsMap>
+			<laProtocolName>Име на протокол</laProtocolName>
+			<laExternalPort>External Port</laExternalPort>
+			<laEnablePortMap>Акт.Mapping</laEnablePortMap>
+			<laNatMapType>Тип NAT свързване</laNatMapType>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<geValid>Валиден</geValid>
+			<geNotValid>Невалиден</geNotValid>
+		</General>
+	</UPnP>
+	<Bonjour>
+		<Page>
+			<laEnableBonjour>Разреши Bonjour</laEnableBonjour>
+		</Page>
+		<Js>
+		</Js>
+	</Bonjour>
+	<HTTPS>
+		<Page>
+			<laCreate>Създай</laCreate>
+			<laCreateSelfCertificate>Създаване на самозаверяващ се сертификат</laCreateSelfCertificate>
+			<laCreateCertificateReq>Създаване на заявка за получаване на сертификат</laCreateCertificateReq>
+			<laInstallSignedCertificate>Инсталиране на сертификат с цифров подпис</laInstallSignedCertificate>
+			<laCreatedRequest>Създадена заявка</laCreatedRequest>
+			<laInstalledCertificate>Инсталиран сертификат</laInstalledCertificate>
+			<laRemove>Изтрий</laRemove>
+			<laValidity>Валидност</laValidity>
+			<laCountry>Страна</laCountry>
+			<laStateOrProvince>Област или район</laStateOrProvince>
+			<laLocality>Населено място</laLocality>
+			<laOrganization>Организация</laOrganization>
+			<laOrganizationalUnit>Подразделение</laOrganizationalUnit>
+			<laCommonName>IP/име на домейн</laCommonName>
+			<laCertificatePath>Път до сертификата</laCertificatePath>
+			<laExample>пример</laExample>
+			<laConfirmInstall>Проверете дали сертификатът е инсталиран</laConfirmInstall>
+		</Page>
+		<Js>
+		</Js>
+	</HTTPS>
+	<FTP>
+		<Page>
+			<laPathDepth tag="label;" length="150">Структура на директория</laPathDepth>
+			<laTopPath tag="label;" length="150">Горна директория</laTopPath>
+			<laSubPath tag="label;" length="150">Под-директория</laSubPath>
+			<laUploadType tag="label;" length="150">Тип ъплоуд</laUploadType>
+			<laUploadPicture tag="label;" length="150">Ъплоуд на снимка</laUploadPicture>
+			<laUploadVideoClip>Ъплоуд на видео клип</laUploadVideoClip>
+			<optPathDepth1 tag="option;" length="198">Запис в основна директория.</optPathDepth1>
+			<optPathDepth2 tag="option;" length="198">Запис в горна директория.</optPathDepth2>
+			<optPathDepth3 tag="option;" length="198">Запис в под-директория.</optPathDepth3>
+			<optTopPath1 tag="option;" length="198">Използва име на устройство</optTopPath1>
+			<optTopPath2 tag="option;" length="198">Използва номер устройство</optTopPath2>
+			<optTopPath3 tag="option;" length="198">Използва IP адрес на у-во</optTopPath3>
+			<optSubPath1 tag="option;" length="198">Използва име на камера</optSubPath1>
+			<optSubPath2 tag="option;" length="198">Използва номер камера</optSubPath2>
+			<laSelectFtp>Изберете FTP</laSelectFtp>
+			<laEnableFTP tag="label;" length="670">Разрешете FTP</laEnableFTP>
+		</Page>
+		<Js>
+		</Js>
+	</FTP>
+	<WIFI>
+		<Page>
+			<laWirelessList>Списък безжични у-ва</laWirelessList>
+			<laSecurityMode>Режим на сигурност</laSecurityMode>
+			<laChannel>Канал</laChannel>
+			<laSignalStrength>Сила на сигнала</laSignalStrength>
+			<laSpeed>Скорост</laSpeed>
+			<laWirelessNetworkMode>Тип мрежа</laWirelessNetworkMode>
+			<laEncryptionType>Тип кодиране</laEncryptionType>
+			<laOpen>Отворен</laOpen>
+			<laShared>Споделен</laShared>
+			<laKeyLength>Дължина на ключа</laKeyLength>
+			<laKeyType>Тип на ключа</laKeyType>
+			<laHex>Hex</laHex>
+			<laKey>Ключ</laKey>
+			<laPEAPVersion>Версия на PEAP</laPEAPVersion>
+			<laPEAPLabel>Табелка на PEAP</laPEAPLabel>
+			<laInnerAuthenticationMode>Вътрешно удостоверяване</laInnerAuthenticationMode>
+			<laAnonymousID>Анонимна идентичност</laAnonymousID>
+			<laIdentify>Идентифицирай</laIdentify>
+			<laPrivateKeyPassword>Парола за разблокиране на частен ключ</laPrivateKeyPassword>
+			<laCACertificate>Сертификат от центъра за сертифициране</laCACertificate>
+			<laUserCertificate>Потребителски сертификат</laUserCertificate>
+			<laPrivateKeyCertificate>Частен ключ</laPrivateKeyCertificate>
+			<laEnableWPS>Разреши WPS</laEnableWPS>
+			<laPinCode>PIN код</laPinCode>
+			<pinCodeGenerate>Създай</pinCodeGenerate>
+			<autoConnect>Свързване с PBC</autoConnect>
+			<manuConnect>PIN код за потребителски маршрутизатор</manuConnect>
+			<laApPinCode>PIN код за маршрутизатор</laApPinCode>
+			<laConnect>Свързване</laConnect>
+			<laSSID>SSID</laSSID>
+		</Page>
+		<Js>
+			<jsTenHex>Моля въведете 10 Hex символа</jsTenHex>
+			<jsXXVIHex>Моля въведете 26 Hex символа</jsXXVIHex>
+			<jsFiveASCII>Моля въведете 5 ASCII символа</jsFiveASCII>
+			<jsTenASCII>Моля въведете 13 ASCII символа</jsTenASCII>
+			<jsEightMoreChar>Моля въведете 8-63 символа</jsEightMoreChar>
+			<jsConnectSuc>Успешно свързване</jsConnectSuc>
+			<jsConnectFail>Неуспешно свързване.</jsConnectFail>
+			<jsConnecting>Свързване...</jsConnecting>
+		</Js>
+	</WIFI>
+</Network>

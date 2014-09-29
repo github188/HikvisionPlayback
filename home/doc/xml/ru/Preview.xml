@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Отображение</title>
+		<voiceTalk>Начало двустороннего аудио</voiceTalk>
+		<StopvoiceTalk>Откл. Голосовую связь</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Двухсторонний аудио канал</laTalkNum>
+		<laLight>Свет</laLight>
+		<laWiper>Стеклоочиститель</laWiper>
+		<laOneKeyFocus>Фокусировка одним прикосновением</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Параметры видео</laVideoEffect>
+		<Patrol>Патруль</Patrol>
+		<laTrack>Путь</laTrack>
+		<laPatrolTime tag="label;" length="75">Время патрулирования</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Скор. патр.</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Добавить путь патрулирования</laAddPatrolPath>
+		<raVideoParamMode1>стандарт</raVideoParamMode1>
+		<raVideoParamMode2>Внутренний</raVideoParamMode2>
+		<raVideoParamMode3>Уличный</raVideoParamMode3>
+		<raVideoParamMode4>Низ. Осв.</raVideoParamMode4>
+		<laNoiseReduce>шумоподав.</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Остановить отображение</stoppreview>
+		<recordfailed>Ошибка записи</recordfailed>
+		<stoprecord>Остановить запись</stoprecord>
+		<jsSetVideoParam>Ошибка установки параметров видео</jsSetVideoParam>
+		<jsNetError>Ошибка операции или отказано в доступе.</jsNetError>
+		<VoiceTalkFailed>Ошибка использования двухстороннего аудио</VoiceTalkFailed>
+		<ChooseTalkChan>Пожалуйста, выберите голосовой канал</ChooseTalkChan>
+		<jsRecordSucc>Запись успешна.</jsRecordSucc>
+		<jsRecordAllSucc>Запись успешна</jsRecordAllSucc>
+		<Start>Старт</Start>
+		<StartSave>Начать запись</StartSave>
+		<StopSave>Остановить запись</StopSave>
+		<Start3DZoom>Включить 3D увеличение</Start3DZoom>
+		<Stop3DZoom>Остановить 3D увеличение</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Остановить все отображение</geStopAllViewing>
+	</General>
+</Preview>

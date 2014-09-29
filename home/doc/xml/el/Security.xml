@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Security>
+	<Common>
+		<Page>
+			<aUser tag="a;" length="9999">Χρήστης</aUser>
+			<aRTSPAuth tag="a;" length="9999">Έλ. ταυτ. RTSP</aRTSPAuth>
+			<aAnonymousVisit>Ανώνυμη επίσκεψη</aAnonymousVisit>
+			<aIPFilter>Φίλτρο διευθύνσεων IP</aIPFilter>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<User>
+		<Page>
+			<DVR>
+				<laSpanTitle>Πληροφορίες χρήστη</laSpanTitle>
+				<laIpBind>Σύνδεση διευθύνσεων IP</laIpBind>
+				<laLocalColonConfig tag="label;" length="125">Τοπικά: Ρύθμιση παραμέτρων</laLocalColonConfig>
+				<laLocalUpgrade>Τοπικά: Αναβάθμιση/Μορφοποίηση</laLocalUpgrade>
+				<laLocalReboot>Τοπικά: Τερματισμός λειτουργίας/Επανεκκίνηση</laLocalReboot>
+				<laLocalSetParam>Τοπικά: Ρύθμιση παραμέτρων</laLocalSetParam>
+				<laLocalLog>Τοπικά: Αναζήση αρχείου καταγραφής</laLocalLog>
+				<laLocalIPCCfg>Τοπ.: Ορ. κάμ. IP </laLocalIPCCfg>
+				<laLocalPlayback>Τοπικά: Αναπαραγωγή</laLocalPlayback>
+				<laLocalManualRecord>Τοπ.: Χειροκ. λειτ.</laLocalManualRecord>
+				<laLocalPTZControl>Τοπ.: Έλ. PTZ</laLocalPTZControl>
+				<laLocalBackup>Τοπικά: Εξαγωγή βίντεο</laLocalBackup>
+				<laRemoteConfig>Απομ. ρύθμ. παρ</laRemoteConfig>
+			</DVR>
+			<laUserType tag="label;" length="150">Level</laUserType>
+			<PriorityOpt1 tag="label;" length="411">Διαχειριστής</PriorityOpt1>
+			<PriorityOpt2 tag="option;" length="198">Χειριστής</PriorityOpt2>
+			<PriorityOpt3 tag="option;" length="198">Χρήστης</PriorityOpt3>
+			<laBasicPermissionBtn tag="label;" length="399">Βασικά δικαιώματα</laBasicPermissionBtn>
+			<laChanPermissionBtn tag="label;" length="148">Ρύθμ. παραμ. κάμ.</laChanPermissionBtn>
+			<laRemoteSetParam tag="label;" length="370">Εξ αποστάσεως: Ρυθμίσεις παραμέτρων</laRemoteSetParam>
+			<laRemoteLog tag="label;" length="370">Εξ. απ.: Αναζ. αρχ. κατ./Διερ. κατ. λειτ.</laRemoteLog>
+			<laRemoteUpgrade tag="label;" length="370">Εξ απ.: Αναβάθμιση/μορφοποίηση</laRemoteUpgrade>
+			<laRemoteTalk tag="label;" length="370">Εξ απ.: Αμφίδρομος ήχος</laRemoteTalk>
+			<laRemoteReboot tag="label;" length="370">Εξ. απ.: Τερματ. λειτ./Επανεκκ.</laRemoteReboot>
+			<laRemoteAlarm tag="label;" length="370">Εξ απ.: Ειδοπ. κέντρου επιτ./Ενεργ. εξ. συν.</laRemoteAlarm>
+			<laRemoteCtrl tag="label;" length="370">Εξ. απ.: Έλεγχος εξόδου βίντεο</laRemoteCtrl>
+			<laRemoteRS tag="label;" length="370">Εξ. απ.: Έλεγχος σειριακής θύρας</laRemoteRS>
+			<laRemotePreview tag="label;" length="119">Εξ αποστάσεως: Ζωντανή προβολή</laRemotePreview>
+			<laRemoteManualRecord tag="label;" length="119">Εξ αποστάσεως: Χειροκίνητη εγγραφή</laRemoteManualRecord>
+			<laRemotePTZControl tag="label;" length="119">Εξ απ.: Έλ PTZ</laRemotePTZControl>
+			<laRemotePlayback tag="label;" length="122">Εξ. απ.: Αναπαραγωγή</laRemotePlayback>
+			<laPermissionConfig>Ρύθμιση δικαιωμάτων</laPermissionConfig>
+		</Page>
+		<Js>
+			<UserAddTips>Προσθήκη χρήστη</UserAddTips>
+			<UserExistTips>Το όνομα χρήστη υπάρχει ήδη.</UserExistTips>
+			<jsPasswordDifferenceTips>Οι κωδικοί πρόσβασης δεν ταιριάζουν.</jsPasswordDifferenceTips>
+			<WrongCharTips> δεν μπορεί να περιέχει</WrongCharTips>
+		</Js>
+		<General>
+			<laUserModify tag="label;" length="550">Τροποποίηση χρήστη</laUserModify>
+		</General>
+	</User>
+	<RTSPAuth>
+		<Page>
+		</Page>
+		<Js>
+		</Js>
+	</RTSPAuth>
+	<IPFilter>
+		<Page>
+			<laEnableIPFilter>Ενεργοποίηση φίλτρου διευθύνσεων IP</laEnableIPFilter>
+			<laIPFilterType>Τύπος φίλτρου διευθύνσεων IP</laIPFilterType>
+			<optAllow>Επιτρέπεται</optAllow>
+			<optDeny>Απαγορεύεται</optDeny>
+			<laAddIPAddress>Προσθήκη διεύθυνσης IP</laAddIPAddress>
+			<laModifyIPAddress>Τροποποίηση διεύθυνσης IP</laModifyIPAddress>
+		</Page>
+		<Js>
+		</Js>
+	</IPFilter>
+</Security>

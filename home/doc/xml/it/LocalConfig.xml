@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Dim. file video</lapackSize>
+		<lanetsPreach tag="label;" length="150">Prestazioni vista live</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Salvare file registrati su</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Salva immagini live su</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Salvare filmati su</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Salvare immagini in playback su</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Salvare file scaricati su</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">In tempo reale</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Bilanciato</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Miglior fluidità</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Imp. file video</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Impostazioni immagini e videoclip</laCaptureClipParams>
+		<trFullFill>Riempi tutto</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

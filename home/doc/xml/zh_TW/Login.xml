@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">用戶名</lausername>
+		<lapassword tag="label;" length="70">密碼</lapassword>
+		<lalogin tag="label;" length="70">登錄</lalogin>
+		<laAnonymous>匿名</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>請輸入用戶名</LoginTips1>
+		<LoginTips2>用戶名長度不能大於16</LoginTips2>
+		<LoginTips3>密碼長度不能大於16</LoginTips3>
+		<LoginTips4>用戶名或密碼不正確</LoginTips4>
+		<LoginTips5>請輸入密碼</LoginTips5>
+		<NetworkErrorTips>網路異常</NetworkErrorTips>
+		<ConnectTimeoutTips>連接超時</ConnectTimeoutTips>
+		<CookieTips>對不起，您的瀏覽器的Cookie功能被禁用，請開啟</CookieTips>
+	</Js>
+</Login>

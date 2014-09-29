@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Security>
+	<Common>
+		<Page>
+			<aUser tag="a;" length="9999">用户</aUser>
+			<aRTSPAuth tag="a;" length="9999">RTSP认证</aRTSPAuth>
+			<aAnonymousVisit>匿名访问</aAnonymousVisit>
+			<aIPFilter>IP地址过滤</aIPFilter>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<User>
+		<Page>
+			<DVR>
+				<laSpanTitle>用户配置</laSpanTitle>
+				<laIpBind>IP地址绑定</laIpBind>
+				<laLocalColonConfig tag="label;" length="125">本地配置</laLocalColonConfig>
+				<laLocalUpgrade>本地升级、格式化</laLocalUpgrade>
+				<laLocalReboot>本地关机、重启</laLocalReboot>
+				<laLocalSetParam>本地设置参数</laLocalSetParam>
+				<laLocalLog>本地查看日志</laLocalLog>
+				<laLocalIPCCfg>本地IPC接入配置</laLocalIPCCfg>
+				<laLocalPlayback>本地回放</laLocalPlayback>
+				<laLocalManualRecord>本地手动操作</laLocalManualRecord>
+				<laLocalPTZControl>本地云台控制</laLocalPTZControl>
+				<laLocalBackup>本地备份</laLocalBackup>
+				<laRemoteConfig>远程配置</laRemoteConfig>
+			</DVR>
+			<laUserType tag="label;" length="150">用户类型</laUserType>
+			<PriorityOpt1 tag="label;" length="411">管理员</PriorityOpt1>
+			<PriorityOpt2 tag="option;" length="198">操作员</PriorityOpt2>
+			<PriorityOpt3 tag="option;" length="198">普通用户</PriorityOpt3>
+			<laBasicPermissionBtn tag="label;" length="354">基本权限</laBasicPermissionBtn>
+			<laChanPermissionBtn tag="label;" length="193">通道权限</laChanPermissionBtn>
+			<laRemoteSetParam tag="label;" length="325">远程设置参数</laRemoteSetParam>
+			<laRemoteLog tag="label;" length="325">远程查看日志、状态</laRemoteLog>
+			<laRemoteUpgrade tag="label;" length="325">远程升级、格式化</laRemoteUpgrade>
+			<laRemoteTalk tag="label;" length="325">远程语音对讲</laRemoteTalk>
+			<laRemoteReboot tag="label;" length="325">远程关机、重启</laRemoteReboot>
+			<laRemoteAlarm tag="label;" length="325">远程请求报警上传、报警输出</laRemoteAlarm>
+			<laRemoteCtrl tag="label;" length="325">远程控制本地输出</laRemoteCtrl>
+			<laRemoteRS tag="label;" length="325">远程控制串口</laRemoteRS>
+			<laRemotePreview tag="label;" length="164">远程预览</laRemotePreview>
+			<laRemoteManualRecord tag="label;" length="164">远程手动录像</laRemoteManualRecord>
+			<laRemotePTZControl tag="label;" length="164">远程云台控制</laRemotePTZControl>
+			<laRemotePlayback tag="label;" length="167">远程回放</laRemotePlayback>
+			<laPermissionConfig>权限设置</laPermissionConfig>
+		</Page>
+		<Js>
+			<UserAddTips>用户添加</UserAddTips>
+			<UserExistTips>该用户名已存在，重新输入</UserExistTips>
+			<jsPasswordDifferenceTips>两次密码输入不同，重新输入</jsPasswordDifferenceTips>
+			<WrongCharTips>不能含有字符</WrongCharTips>
+		</Js>
+		<General>
+			<laUserModify tag="label;" length="550">用户修改</laUserModify>
+		</General>
+	</User>
+	<RTSPAuth>
+		<Page>
+		</Page>
+		<Js>
+		</Js>
+	</RTSPAuth>
+	<IPFilter>
+		<Page>
+			<laEnableIPFilter>启用IP地址过滤</laEnableIPFilter>
+			<laIPFilterType>IP地址过滤方式</laIPFilterType>
+			<optAllow>允许</optAllow>
+			<optDeny>禁止</optDeny>
+			<laAddIPAddress>添加IP地址</laAddIPAddress>
+			<laModifyIPAddress>修改IP地址</laModifyIPAddress>
+		</Page>
+		<Js>
+		</Js>
+	</IPFilter>
+</Security>
+

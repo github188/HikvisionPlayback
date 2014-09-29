@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Main>
+	<Common>
+		<Page>
+			<DVR>
+				<paStartAllView>Összes megtekintése</paStartAllView>
+				<paStartAllRecord>Minden felvétel indítása</paStartAllRecord>
+			</DVR>
+			<laPlugin>Kattintson ide a plug-in letöltéséhez és telepítéséhez. Telepítés alatt zárja be a böngészőt.</laPlugin>
+			<laNotWin32Plugin>Nincs plug-in.</laNotWin32Plugin>
+			<streamTypeOpt1 tag="label;option;" length="134">Fő adatfolyam</streamTypeOpt1>
+			<streamTypeOpt2 tag="label;option;" length="134">Al adatfolyam</streamTypeOpt2>
+			<StreamTypeInOpt4 tag="label;option;" length="104">Harmadik áram</StreamTypeInOpt4>
+			<windowProportionOpt1 tag="label;option;" length="134">Eredeti</windowProportionOpt1>
+			<windowAuto tag="label;option;" length="104">Auto</windowAuto>
+			<laStreamType tag="label;" length="90">Adatfolyam típusa</laStreamType>
+			<lawindowProportion tag="label;" length="90">Képméret</lawindowProportion>
+			<laPlayParams tag="label;" length="91">Élőkép paraméterek</laPlayParams>
+			<opensound>Hang bekapcsolása</opensound>
+			<closesound>Hang ki</closesound>
+			<volume>Hangerő</volume>
+			<stop>Stop</stop>
+			<laSearch tag="label;" length="200">Keresés</laSearch>
+			<DownloadBtn tag="input;" length="80">Letöltés</DownloadBtn>
+			<laChannelNum tag="label;" length="148">Csatornaszám</laChannelNum>
+			<laChannelNo tag="label;" length="109">Csatornasz.</laChannelNo>
+			<laStartTime tag="label;" length="140">Kezdés időpont</laStartTime>
+			<laEndTime tag="label;" length="140">A befejezés ideje</laEndTime>
+			<laHue tag="label;" length="122">Színárnyalat</laHue>
+			<SetPreset>Beállítás</SetPreset>
+			<CleanPreset>Töröl</CleanPreset>
+			<laSerialNumber tag="label;" length="67">Szám</laSerialNumber>
+			<Pattern>Minta</Pattern>
+			<laWirelessAlarm>Vezeték nélküli riasztás</laWirelessAlarm>
+			<laPIRAlarm>PIR riasztás</laPIRAlarm>
+			<OptCallHelp>Vészriasztás</OptCallHelp>
+			<laSharpness tag="label;" length="120">Élesség</laSharpness>
+			<laEnableZoom>e-PTZ engedélyezése</laEnableZoom>
+			<laDisableZoom>e-PTZ tiltása</laDisableZoom>
+		</Page>
+		<Js>
+			<jsUpdatePlugin>Új plugin verzió áll rendelkezésre. Frissíti?</jsUpdatePlugin>
+			<jsUpdateNotWin32>A plugin új verzióját észleltük. A frissítéshez vegye fel a kapcsolatot kereskedőjével.</jsUpdateNotWin32>
+			<exit>Kilép?</exit>
+			<jsPreview>Előkép</jsPreview>
+			<jsRecord>Felvétel</jsRecord>
+			<previewfailed>Élőkép hiba.</previewfailed>
+			<capturefailed>Sikertelen képrögzítés</capturefailed>
+			<stopAllRecord>Minden felvételt leállít</stopAllRecord>
+			<FreeSpaceTips>Nincs elég tárterület</FreeSpaceTips>
+			<jsCreateFileFailed>A fájl létrehozása nem sikerült.</jsCreateFileFailed>
+			<jsNoOperationRight>Nincs jogosultsága.</jsNoOperationRight>
+			<jsOpenSoundFailed>Hanghiba</jsOpenSoundFailed>
+			<jsCaptureSucc>Sikeres rögzítés</jsCaptureSucc>
+			<TotalTips>Teljes </TotalTips>
+			<TiaoTips> Elemek</TiaoTips>
+			<jsFirstPageTips>Kezdőlap/Főlap</jsFirstPageTips>
+			<jsLastPageTips>Utolsó oldal</jsLastPageTips>
+			<jsPrevPageTips>Előző oldal</jsPrevPageTips>
+			<jsNextPageTips>Következő oldal</jsNextPageTips>
+			<tipsTooLong>Az elérési út túl hosszú. Adjon meg egy másikat.</tipsTooLong>
+			<jsVideoDefault>Visszaállítja az alapbeállításokat?</jsVideoDefault>
+			<jsTrue>Igen</jsTrue>
+			<jsFalse>Nem</jsFalse>
+			<jsTimeSegmentErrorTips>A kezdési időnek a befejezési időnél korábbinak kell lennie.</jsTimeSegmentErrorTips>
+			<ptzSpeed>PTZ sebesség</ptzSpeed>
+			<videoLost>Jelvesztés</videoLost>
+			<ExcutePreset>Hív</ExcutePreset>
+			<laZoom>Zoom</laZoom>
+			<laFocus>Fókusz</laFocus>
+			<laIris>Fényrekesz</laIris>
+			<CurrentAddTips>Pillanatnyilag max. </CurrentAddTips>
+		</Js>
+		<General>
+			<capture>Rögzítés</capture>
+			<laOK tag="input;label;" length="88">OK</laOK>
+			<laCancel tag="input;label;" length="88">Mégsem</laCancel>
+			<hdFull tag="option;" length="198">HDD tele</hdFull>
+			<hdError tag="option;" length="198">HDD hiba</hdError>
+			<Exception>Súlyos hibák</Exception>
+			<laBrightness tag="label;" length="122">Fényesség</laBrightness>
+			<laContrast tag="label;" length="122">Kontraszt</laContrast>
+			<laSaturation tag="label;" length="122">Telítettség</laSaturation>
+			<geDefault>Alapértelmezett</geDefault>
+			<alarmIn>Riasztás be</alarmIn>
+			<alarmOut>Riasztás kimenet</alarmOut>
+			<laLensInit tag="label;" length="308">Objektív inicializálása</laLensInit>
+			<laPreset tag="label;" length="31">Preset</laPreset>
+			<SearchingTips>Keresés…</SearchingTips>
+			<laSaveBtn>Mentés</laSaveBtn>
+			<DelDigitalIpBtn tag="input;" length="74">Törlés</DelDigitalIpBtn>
+		</General>
+	</Common>
+	<Main>
+		<Page>
+			<laPreview tag="label;" length="165">Előkép</laPreview>
+			<laPlayback tag="label;" length="165">Lejátszás</laPlayback>
+			<laLog tag="label;" length="165">Napló</laLog>
+			<laConfig tag="label;" length="165">Beállítás</laConfig>
+			<laExit tag="label;" length="974">Kilépés</laExit>
+			<DVR>
+				<laHelp>Súgó</laHelp>
+				<laVersion>Verzió</laVersion>
+			</DVR>
+		</Page>
+		<Js>
+		</Js>
+	</Main>
+</Main>

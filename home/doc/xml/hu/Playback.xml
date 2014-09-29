@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Lejátszás</title>
+		<SlowlyForward>Lassan előre</SlowlyForward>
+		<FastForward>Gyorsan előre</FastForward>
+		<SingleFrame>Egy kép</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Állapot</laCurrentSpeed>
+		<laGotoTime>Menj</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">A lejátszás idejének beállítása</laPlaybackTimeLocalizer>
+		<imgGotoTime>Idősávos visszajátszás</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Parancs</RecordType1>
+		<RecordType2 tag="label;" length="704">Ütemezés</RecordType2>
+		<RecordType3 tag="label;" length="704">Riasztás</RecordType3>
+		<RecordType4 tag="label;" length="704">Kézi</RecordType4>
+		<PictureDownload tag="input;" length="32">Képek letöltése</PictureDownload>
+		<RecordDownload tag="input;" length="32">Felvétel letöltése</RecordDownload>
+		<DVR>
+			<stopAll>Minden visszajátszt leállít</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Visszajátszás szüneteltetése sikertelen</pausefailed>
+		<resumefailed>A lejátszás visszaállítása sikertelen.</resumefailed>
+		<stoprecord>Felvétel vége</stoprecord>
+		<startRecord>Felvétel kezdete</startRecord>
+		<stoprecordfailed>A felvételt nem sikerült megállítani</stoprecordfailed>
+		<startplayfailed>Lejátszási hiba</startplayfailed>
+		<stopplayfailed>Visszajátszás leállítása sikertelen.</stopplayfailed>
+		<jssingleframe>Képenkénti lejátszás</jssingleframe>
+		<jssingleframefailed>A képenkénti lejátszás nem sikerült.</jssingleframefailed>
+		<stopCurrentWndPlay>A folytatáshoz állítsa le a visszajátszást az aktuális ablakban.</stopCurrentWndPlay>
+		<szTips1>Videófájlok sikertelen keresése</szTips1>
+		<szTips3>Nincs fájl</szTips3>
+		<jsSearchFile>Először keresse meg a fájlt.</jsSearchFile>
+		<jsSpeed>Sebesség</jsSpeed>
+		<jsPauseAlready>Szüneteltetve</jsPauseAlready>
+		<jsPause>Szünet</jsPause>
+		<jsResume>Visszaállítás</jsResume>
+		<jsPlayBackError>Rendellenes lejátszás.</jsPlayBackError>
+		<jsRecordError>A felvétel sikertelen.</jsRecordError>
+		<jsPlaybackStop> Lejátszás vége.</jsPlaybackStop>
+		<jsPlayStopAbnormal> A lejátszás hibásan állt le.</jsPlayStopAbnormal>
+		<jsDownload>Keresse meg a letöltendő fájlt.</jsDownload>
+		<jsNotSupportDown>Az eszköz nem támogatja a letöltést.</jsNotSupportDown>
+		<jsDownloadWnd>A letöltés ablak megnyílt.</jsDownloadWnd>
+		<jsClipSucc>A felvétel sikeres.</jsClipSucc>
+		<jsZoomIn>Kicsinyítés</jsZoomIn>
+		<jsZoomOut>Nagyítás</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Válasszon csatornát.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Lejátszás</gePlay>
+	</General>
+</Playback>

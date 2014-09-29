@@ -1,0 +1,8 @@
+rootfs / rootfs rw 0 0
+/dev/root / minix rw 0 0
+proc /proc proc rw 0 0
+none /sys sysfs rw 0 0
+ramfs /home ramfs rw 0 0
+udev /dev tmpfs rw 0 0
+devpts /dev/pts devpts rw 0 0
+/dev/mtdblock2 /dav jffs2 rw 0 0

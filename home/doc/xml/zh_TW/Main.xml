@@ -1,0 +1,109 @@
+﻿<?xml version="1.0"?>
+<Main>
+	<Common>
+		<Page>
+			<DVR>
+				<paStartAllView>全部開始預覽</paStartAllView>
+				<paStartAllRecord>全部開始錄影</paStartAllRecord>
+			</DVR>
+			<laPlugin>請點擊此處下載元件，安裝時請關閉瀏覽器</laPlugin>
+			<laNotWin32Plugin>未偵測到元件</laNotWin32Plugin>
+			<streamTypeOpt1 tag="label;option;" length="134">主串流</streamTypeOpt1>
+			<streamTypeOpt2 tag="label;option;" length="134">子串流</streamTypeOpt2>
+			<StreamTypeInOpt4 tag="label;option;" length="104">第三串流</StreamTypeInOpt4>
+			<windowProportionOpt1 tag="label;option;" length="134">原始尺寸</windowProportionOpt1>
+			<windowAuto tag="label;option;" length="104">自動</windowAuto>
+			<laStreamType tag="label;" length="90">串流類型</laStreamType>
+			<lawindowProportion tag="label;" length="90">影像尺寸</lawindowProportion>
+			<laPlayParams tag="label;" length="91">播放參數</laPlayParams>
+			<opensound>開啟聲音</opensound>
+			<closesound>關閉聲音</closesound>
+			<volume>音量</volume>
+			<stop>停止</stop>
+			<laSearch tag="label;" length="200">搜尋</laSearch>
+			<DownloadBtn tag="input;" length="80">下載</DownloadBtn>
+			<laChannelNum tag="label;" length="148">攝影機個數</laChannelNum>
+			<laChannelNo tag="label;" length="109">設備攝影機編號</laChannelNo>
+			<laStartTime tag="label;" length="140">開始時間</laStartTime>
+			<laEndTime tag="label;" length="140">結束時間</laEndTime>
+			<laHue tag="label;" length="122">色度</laHue>
+			<SetPreset>設定</SetPreset>
+			<CleanPreset>清除</CleanPreset>
+			<laSerialNumber tag="label;" length="67">序號</laSerialNumber>
+			<Pattern>摸式掃描</Pattern>
+			<laWirelessAlarm>無線警報</laWirelessAlarm>
+			<laPIRAlarm>PIR警報</laPIRAlarm>
+			<OptCallHelp>呼救警報</OptCallHelp>
+			<laSharpness tag="label;" length="120">銳利度</laSharpness>
+			<laEnableZoom>啟用數位變焦</laEnableZoom>
+			<laDisableZoom>關閉數位變焦</laDisableZoom>
+		</Page>
+		<Js>
+			<jsUpdatePlugin>元件偵測到新版本，是否更新？</jsUpdatePlugin>
+			<jsUpdateNotWin32>元件檢測到新版本，請與供應商聯繫更新。</jsUpdateNotWin32>
+			<exit>是否登出</exit>
+			<jsPreview>影像預覽</jsPreview>
+			<jsRecord>錄影</jsRecord>
+			<previewfailed>預覽失敗</previewfailed>
+			<capturefailed>擷圖失敗</capturefailed>
+			<stopAllRecord>全部停止錄影</stopAllRecord>
+			<FreeSpaceTips>剩餘空間不足</FreeSpaceTips>
+			<jsCreateFileFailed>建立新檔案失敗</jsCreateFileFailed>
+			<jsNoOperationRight>您沒有權限進行此項操作</jsNoOperationRight>
+			<jsOpenSoundFailed>開啟聲音失敗</jsOpenSoundFailed>
+			<jsCaptureSucc>擷圖成功</jsCaptureSucc>
+			<TotalTips>共</TotalTips>
+			<TiaoTips>條</TiaoTips>
+			<jsFirstPageTips>首頁</jsFirstPageTips>
+			<jsLastPageTips>尾頁</jsLastPageTips>
+			<jsPrevPageTips>上一頁</jsPrevPageTips>
+			<jsNextPageTips>下一頁</jsNextPageTips>
+			<tipsTooLong>檔案路徑過長，請重新選擇</tipsTooLong>
+			<jsVideoDefault>是否恢復預設值？</jsVideoDefault>
+			<jsTrue>是</jsTrue>
+			<jsFalse>否</jsFalse>
+			<jsTimeSegmentErrorTips>開始的時間不能大於或等於結束時間！</jsTimeSegmentErrorTips>
+			<ptzSpeed>PTZ速度</ptzSpeed>
+			<videoLost>影像信號丟失</videoLost>
+			<ExcutePreset>調用</ExcutePreset>
+			<laZoom>調整焦距</laZoom>
+			<laFocus>聚焦</laFocus>
+			<laIris>光圈</laIris>
+			<CurrentAddTips>備援錄影</CurrentAddTips>
+		</Js>
+		<General>
+			<capture>擷圖</capture>
+			<laOK tag="input;label;" length="88">確定</laOK>
+			<laCancel tag="input;label;" length="88">取消</laCancel>
+			<hdFull tag="option;" length="198">硬碟已滿</hdFull>
+			<hdError tag="option;" length="198">硬碟錯誤</hdError>
+			<Exception>異常設定</Exception>
+			<laBrightness tag="label;" length="122">亮度</laBrightness>
+			<laContrast tag="label;" length="122">對比度</laContrast>
+			<laSaturation tag="label;" length="122">飽和度</laSaturation>
+			<geDefault>預設順序</geDefault>
+			<alarmIn>警報輸入設定</alarmIn>
+			<alarmOut>警報輸出設定</alarmOut>
+			<laLensInit tag="label;" length="308">鏡頭初始化</laLensInit>
+			<laPreset tag="label;" length="31">預設點</laPreset>
+			<SearchingTips>正在查詢……</SearchingTips>
+			<laSaveBtn>儲存</laSaveBtn>
+			<DelDigitalIpBtn tag="input;" length="74">刪除</DelDigitalIpBtn>
+		</General>
+	</Common>
+	<Main>
+		<Page>
+			<laPreview tag="label;" length="165">影像預覽</laPreview>
+			<laPlayback tag="label;" length="165">回放</laPlayback>
+			<laLog tag="label;" length="165">日誌</laLog>
+			<laConfig tag="label;" length="165">參數設定</laConfig>
+			<laExit tag="label;" length="974">登出</laExit>
+			<DVR>
+				<laHelp>説明</laHelp>
+				<laVersion>版本</laVersion>
+			</DVR>
+		</Page>
+		<Js>
+		</Js>
+	</Main>
+</Main>

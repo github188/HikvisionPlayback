@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Živý obraz</title>
+		<voiceTalk>Spusť hlasovú komunikáciu</voiceTalk>
+		<StopvoiceTalk>Ukončenie hlasovej komunikácie</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Dvojcestné audio</laTalkNum>
+		<laLight>Svetlo</laLight>
+		<laWiper>Stierač</laWiper>
+		<laOneKeyFocus>Rýchle zaostrenie</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Video parametre</laVideoEffect>
+		<Patrol>Sekvencia</Patrol>
+		<laTrack>Cesta</laTrack>
+		<laPatrolTime tag="label;" length="75">Čas sekvencie</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Rýchlosť sekv.</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Pridať body sekvencie</laAddPatrolPath>
+		<raVideoParamMode1>Štandard</raVideoParamMode1>
+		<raVideoParamMode2>Vnútro</raVideoParamMode2>
+		<raVideoParamMode3>Vonku</raVideoParamMode3>
+		<raVideoParamMode4>Tlm.svetlo</raVideoParamMode4>
+		<laNoiseReduce>Odstr. šumu</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Zastav prehliadanie</stoppreview>
+		<recordfailed>Záznam zlyhal.</recordfailed>
+		<stoprecord>Zastav záznam</stoprecord>
+		<jsSetVideoParam>Nastavenie video parametrov zlyhalo.</jsSetVideoParam>
+		<jsNetError>Operácia zlyhala alebo na jej vykonanie nemáte dostatočné oprávnenie.</jsNetError>
+		<VoiceTalkFailed>Spustenie obojsmernej hlasovej komunikácie zlyhalo.</VoiceTalkFailed>
+		<ChooseTalkChan>Vyberte zvukový kanál.</ChooseTalkChan>
+		<jsRecordSucc>Záznam prebehol úspešne.</jsRecordSucc>
+		<jsRecordAllSucc>Uloženie záznamov prebehlo úspešne.</jsRecordAllSucc>
+		<Start>Spustiť</Start>
+		<StartSave>Spusť záznam</StartSave>
+		<StopSave>Zastav záznam</StopSave>
+		<Start3DZoom>Začať 3D približovanie</Start3DZoom>
+		<Stop3DZoom>Zastaviť 3D približovanie</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Zastav zobrazenie všetkých kanálov</geStopAllViewing>
+	</General>
+</Preview>

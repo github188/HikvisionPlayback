@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">Enregistrer le calendrier</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Gestion du stockage</aHardDisk>
+			<laAdvancedRecordCfg>Avancé</laAdvancedRecordCfg>
+			<laExtractFrame>Extraction d'image</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">DD n°</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Le même disque dur réseau ne peut pas être ajouté deux fois.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Chemin du fichier</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Avancé</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Activer calendrier enreg.</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Act prog acq</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Préenregistrement</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Préenregistrement absent</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5 s</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10 s</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15 s</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20 s</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25 s</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30 s</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Illimité</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Après enregistrement</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1 mn</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2 mn</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5 mn</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10 mn</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Enregistrement redondant</laRedundancyRec>
+			<laRecordOverWrite>Réécriture</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Non</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Oui</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Enregistrer le son</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Modifier calendrier enreg.</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Délai expiré</geRecorderDuration>
+			<EndTimeRangeTips>L'heure de fin ne doit pas dépasser 24:00.</EndTimeRangeTips>
+			<AdvancedTips>Avancé</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>Gestion des disques durs</laSpanTitle>
+				<laHardDiskNo>DD n°</laHardDiskNo>
+				<laDiskProperty>Propriété</laDiskProperty>
+				<laDiskGroup>Groupe de DD</laDiskGroup>
+				<laDiskInit>Initialisation DD</laDiskInit>
+				<laInitState>Etat d'initialisation</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">Liste des disques durs</laDiskTitle>
+			<laCapacity tag="label;" length="100">Capacité</laCapacity>
+			<laFreeSpace tag="label;" length="100">Espace libre</laFreeSpace>
+			<formatDisk tag="input;" length="74">Format</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>Il n'est pas possible de modifier les propriétés du disque dur dans le mode de stockage actuel.</tipsNotSupportEdit>
+				<tipsFormatRo>Echec d'initialisation. Aucun DD accessible en lecture seule ne peut être sélectionné.</tipsFormatRo>
+				<tipsDisk>DD</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Non initialisé</tipsUnformatted>
+			<tipsError>Erreur</tipsError>
+			<tipsIdle>Sommeil</tipsIdle>
+			<tipsMismatch>Non-concordance</tipsMismatch>
+			<tipsFormatting>Formatage en cours</tipsFormatting>
+			<tipsNotexist>N'existe pas</tipsNotexist>
+			<tipsFormatSelect>Formater le disque dur ?</tipsFormatSelect>
+			<tipsFormatAll>Formatage DD terminé</tipsFormatAll>
+			<tipsFormatFailed>Echec d'initialisation du DD</tipsFormatFailed>
+			<tipsFormattingWait>Formatage en cours... Veuillez patienter...</tipsFormattingWait>
+			<tipsSelectDisk>Sélectionnez le disque dur à formater.</tipsSelectDisk>
+			<tipsStorageMode>Configuration du mode de stockage</tipsStorageMode>
+			<tipsArray>Disque virtuel</tipsArray>
+			<jsComplete>Terminé.</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>Réinscriptible</tipsRW>
+			<tipsRO>Lecture seule</tipsRO>
+			<tipsRedund>Redondance</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>DD réseau</laSpanTitle>
+				<Property1Opt1>Réinscriptible</Property1Opt1>
+				<Property1Opt2>Lecture seule</Property1Opt2>
+				<Property1Opt3>Redondance</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Déclarer un disque</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<Log>
+	<Page>
+		<title>Zoek logboek</title>
+		<laLogSearch tag="label;" length="196">Zoek logboek</laLogSearch>
+		<laSaveLog tag="label;" length="216">Sla logboek op </laSaveLog>
+		<laLogTime tag="label;" length="131">Tijd</laLogTime>
+		<laLogMajorType tag="label;" length="109">Belangrijkste type</laLogMajorType>
+		<laLogMinorType tag="label;" length="109">Minder belangrijk type</laLogMinorType>
+		<laLogRemoteUser tag="label;" length="109">Lokale/remote gebr.</laLogRemoteUser>
+		<laLogRemoteIP tag="label;" length="109">Remote host-IP</laLogRemoteIP>
+		<laLogLocalUser>Lokale gebruiker</laLogLocalUser>
+		<ImgSearch>Zoek</ImgSearch>
+		<MajorTypeOptions>
+			<MajorTypeOpt1 tag="option;" length="198">Alle types</MajorTypeOpt1>
+			<MajorTypeOpt2 tag="option;" length="198">Alarm</MajorTypeOpt2>
+			<MajorTypeOpt4 tag="option;" length="198">Uitvoer</MajorTypeOpt4>
+		</MajorTypeOptions>
+		<MinorTypeAlarm>
+			<MinorTypeAlarmOpt1>All: Alle types</MinorTypeAlarmOpt1>
+			<MinorTypeAlarmOpt2>AlarmIn: Alarmingang</MinorTypeAlarmOpt2>
+			<MinorTypeAlarmOpt3>AlarmOut: Alarmuitgang</MinorTypeAlarmOpt3>
+			<MinorTypeAlarmOpt4>motionStart: Start bewegingsdetectie</MinorTypeAlarmOpt4>
+			<MinorTypeAlarmOpt5>motionStop: Stop bewegingsdetectie</MinorTypeAlarmOpt5>
+			<MinorTypeAlarmOpt6>hideStart: Start Tamper-proof</MinorTypeAlarmOpt6>
+			<MinorTypeAlarmOpt7>hideStop: Stop Tamper-proof</MinorTypeAlarmOpt7>
+			<MinorTypeAlarmOpt8>vcaStart: Start VCA-alarm</MinorTypeAlarmOpt8>
+			<MinorTypeAlarmOpt9>vcaStart: Start VCA-alarm</MinorTypeAlarmOpt9>
+			<pirStart>PIR-alarm starten</pirStart>
+			<pirStop>PIR-alarm stoppen</pirStop>
+			<wlsensorStart>Draadloos alarm starten</wlsensorStart>
+			<wlsensorStop>Draadloos alarm stoppen</wlsensorStop>
+			<callhelpStart>Noodalarm starten</callhelpStart>
+			<callhelpStop>Noodalarm stoppen</callhelpStop>
+		</MinorTypeAlarm>
+		<MinorTypeException>
+			<MinorTypeExpOpt1>All: Alle types</MinorTypeExpOpt1>
+			<MinorTypeExpOpt2>videoLost: Videosignaalverlies</MinorTypeExpOpt2>
+			<MinorTypeExpOpt3>illegalAccess: Illegale login</MinorTypeExpOpt3>
+			<MinorTypeExpOpt4>hdFull:HDD vol</MinorTypeExpOpt4>
+			<MinorTypeExpOpt5>hdError:Fout: HDD-fout</MinorTypeExpOpt5>
+			<MinorTypeExpOpt6>netBroken: Netwerk niet verbonden</MinorTypeExpOpt6>
+			<MinorTypeExpOpt7>recordError: Fout bij opnemen/vastleggen</MinorTypeExpOpt7>
+			<MinorTypeExpOpt8>ipConflict:IP Address Conflicted</MinorTypeExpOpt8>
+			<MinorTypeExpOpt9>videoException:Signaalfout-video</MinorTypeExpOpt9>
+			<MinorTypeExpOpt10>videoFormatMismatch: Ingang/Uitgang Videostandaard komt niet overeen.</MinorTypeExpOpt10>
+			<MinorTypeExpOpt11>ipcDisconnect: IP-camera afsluiten</MinorTypeExpOpt11>
+			<MinorTypeExpOpt12>ipcIpConfilict: IP-adres en IPC zijn strijdig met elkaar</MinorTypeExpOpt12>
+			<MinorTypeExpOpt13>viAndResMismatch: Foutieve resolutie.</MinorTypeExpOpt13>
+		</MinorTypeException>
+		<MinorTypeInformation>
+			<MinorTypeInforOpt1>All: Alle types</MinorTypeInforOpt1>
+			<MinorTypeInforOpt2>hddInfo: HDD-info</MinorTypeInforOpt2>
+			<MinorTypeInforOpt3>startRec: Start opname</MinorTypeInforOpt3>
+			<MinorTypeInforOpt4>stopRec: Stop opname</MinorTypeInforOpt4>
+			<MinorTypeInforOpt5>delExpiredRec: Verwijder verlopen video bestand</MinorTypeInforOpt5>
+			<MinorTypeInforOpt6>nasInfo: NetHDD-informatie</MinorTypeInforOpt6>
+			<MinorTypeInforOpt7>smartInfo: S.M.A.R.T. informatie</MinorTypeInforOpt7>
+			<MinorTypeInforOpt8>startPic: Start vastleggen</MinorTypeInforOpt8>
+			<MinorTypeInforOpt9>stopPic: Stop vastleggen</MinorTypeInforOpt9>
+			<MinorTypeInforOpt10>raidInfo: RAID</MinorTypeInforOpt10>
+		</MinorTypeInformation>
+		<MinorTypeOperation>
+			<MinorTypeOperationOpt1>All: Alle types</MinorTypeOperationOpt1>
+			<MinorTypeOperationOpt2>devicePowerOn: Aanzetten</MinorTypeOperationOpt2>
+			<MinorTypeOperationOpt3>stopAbnormal: Abnormale afsluiting</MinorTypeOperationOpt3>
+			<MinorTypeOperationOpt4>remotePowerOff: Op afstand: Afsluiten</MinorTypeOperationOpt4>
+			<MinorTypeOperationOpt5>remotePowerRecycle: Op afstand: Opnieuw starten</MinorTypeOperationOpt5>
+			<MinorTypeOperationOpt6>remoteLogin: Op afstand: inloggen</MinorTypeOperationOpt6>
+			<MinorTypeOperationOpt7>remoteLogout: Op afstand: uitloggen</MinorTypeOperationOpt7>
+			<MinorTypeOperationOpt8>remoteCfgPara: Op afstand: Configureer instellingen</MinorTypeOperationOpt8>
+			<MinorTypeOperationOpt9>remoteUpgrade: Op afstand: Upgraden</MinorTypeOperationOpt9>
+			<MinorTypeOperationOpt10>remoteStartRec: Op afstand: Start opname</MinorTypeOperationOpt10>
+			<MinorTypeOperationOpt11>remoteStopRec: Op afstand: Stop opname</MinorTypeOperationOpt11>
+			<MinorTypeOperationOpt12>remoteCtrlPtz: Op afstand: PTZ-bediening</MinorTypeOperationOpt12>
+			<MinorTypeOperationOpt13>remoteLockFile: Op afstand: Vergrendel bestand</MinorTypeOperationOpt13>
+			<MinorTypeOperationOpt14>remoteUnlockFile: Op afstand: Ontgrendel bestand</MinorTypeOperationOpt14>
+			<MinorTypeOperationOpt15>remoteManualAlarm: Op afstand: Trigger alarm</MinorTypeOperationOpt15>
+			<MinorTypeOperationOpt16>remoteformatHd: Op afstand: Initialiseer HDD</MinorTypeOperationOpt16>
+			<MinorTypeOperationOpt17>remotePlayByFile: Op afstand: Afspelen per bestand</MinorTypeOperationOpt17>
+			<MinorTypeOperationOpt18>remotePlayByTime: Op afstand: Afspelen door tijd</MinorTypeOperationOpt18>
+			<MinorTypeOperationOpt19>remoteDownloadCfgFile: Op afstand: exporteer configuratiebestand</MinorTypeOperationOpt19>
+			<MinorTypeOperationOpt20>remoteUploadCfgFile: Op afstand: Importeer configuratiebestand</MinorTypeOperationOpt20>
+			<MinorTypeOperationOpt21>remoteDownloadRecFile: Op afstand: Exporteer gegevensbestand</MinorTypeOperationOpt21>
+			<MinorTypeOperationOpt22>remotePicBackUp: Op afstand: Exporteer afbeeldingsbestand</MinorTypeOperationOpt22>
+			<MinorTypeOperationOpt23>remoteGetPara: Op afstand: Instellingen ophalen</MinorTypeOperationOpt23>
+			<MinorTypeOperationOpt24>remoteGetStatus: Op afstand: Werkstatus ophalen</MinorTypeOperationOpt24>
+			<MinorTypeOperationOpt25>remoteStartTransChan:Bevestig transparant kanaal</MinorTypeOperationOpt25>
+			<MinorTypeOperationOpt26>remoteStopTransChan:Sluit transparant kanaal af</MinorTypeOperationOpt26>
+			<MinorTypeOperationOpt27>startVloice Talk: Start tweerichtingsaudio</MinorTypeOperationOpt27>
+			<MinorTypeOperationOpt28>stopVoice Talk: Stop tweerichtingsaudio</MinorTypeOperationOpt28>
+			<MinorTypeOperationOpt29>remoteArm: Op afstand: Alarm inschakelen</MinorTypeOperationOpt29>
+			<MinorTypeOperationOpt30>remoteDisArm: Op afstand: Alarm uitschakelen</MinorTypeOperationOpt30>
+			<MinorTypeOperationOpt31>remoteAddNas: Op afstand: Voeg NetHDD toe</MinorTypeOperationOpt31>
+			<MinorTypeOperationOpt32>remoteDelNas: Op afstand: Verwijder NetHDD</MinorTypeOperationOpt32>
+			<MinorTypeOperationOpt33>remoteSetNas: Op afstand: Stel NetHDD in</MinorTypeOperationOpt33>
+			<MinorTypeOperationOpt34>remoteStartPicRec: Op afstand: Start beeldopname</MinorTypeOperationOpt34>
+			<MinorTypeOperationOpt35>remoteStopPicRec: Op afstand: Stop beeld vastleggen</MinorTypeOperationOpt35>
+			<MinorTypeOperationOpt36>remoteTagOperation: Remote: Voer code in</MinorTypeOperationOpt36>
+			<MinorTypeOperationOpt37>remoteAddIpc: Op afstand: Voeg IP-camera toe</MinorTypeOperationOpt37>
+			<MinorTypeOperationOpt38>remoteDelIpc: Op afstand: Verwijder IP-camera</MinorTypeOperationOpt38>
+			<MinorTypeOperationOpt39>remoteSetIpc: Op afstand:  Stel IP-camera in</MinorTypeOperationOpt39>
+			<MinorTypeOperationOpt40>remoteSetSnmp: Op afstand: Configureer SNMP</MinorTypeOperationOpt40>
+			<DVR>
+				<DVRMinorTypeOperationOpt1>All: Alle types</DVRMinorTypeOperationOpt1>
+				<DVRMinorTypeOperationOpt2>devicePowerOn: Aanzetten</DVRMinorTypeOperationOpt2>
+				<DVRMinorTypeOperationOpt3>devicePowerOff:Lokaal: Uitzetten</DVRMinorTypeOperationOpt3>
+				<DVRMinorTypeOperationOpt4>deviceRecycle:Lokaal: Opnieuw starten</DVRMinorTypeOperationOpt4>
+				<DVRMinorTypeOperationOpt5>stopAbnormal: Lokaal: Abnormale afsluiting</DVRMinorTypeOperationOpt5>
+				<DVRMinorTypeOperationOpt6>localLogin: Lokaal: Inloggen</DVRMinorTypeOperationOpt6>
+				<DVRMinorTypeOperationOpt7>localLogOut: Lokaal: Uitloggen</DVRMinorTypeOperationOpt7>
+				<DVRMinorTypeOperationOpt8>localCfgPara: Lokaal: Configureer instellingen</DVRMinorTypeOperationOpt8>
+				<DVRMinorTypeOperationOpt9>localUpdate: Lokaal: Upgraden</DVRMinorTypeOperationOpt9>
+				<DVRMinorTypeOperationOpt10>localStatRec: Lokaal: Start opnemen</DVRMinorTypeOperationOpt10>
+				<DVRMinorTypeOperationOpt11>localStopRec: Lokaal: Stop opnemen</DVRMinorTypeOperationOpt11>
+				<DVRMinorTypeOperationOpt12>localStartPicRec: Lokaal: Start vastleggen</DVRMinorTypeOperationOpt12>
+				<DVRMinorTypeOperationOpt13>localStopPicRec: Lokaal: Stop vastleggen</DVRMinorTypeOperationOpt13>
+				<DVRMinorTypeOperationOpt14>localCtrlPtz: Lokaal: PTZ-bediening</DVRMinorTypeOperationOpt14>
+				<DVRMinorTypeOperationOpt15>localLockFile: Lokaal: Vergrendel bestand</DVRMinorTypeOperationOpt15>
+				<DVRMinorTypeOperationOpt16>localUnlockFile: Lokaal: Ontgrendel bestand</DVRMinorTypeOperationOpt16>
+				<DVRMinorTypeOperationOpt17>localManulAlarm: Lokaal: Start alarm</DVRMinorTypeOperationOpt17>
+				<DVRMinorTypeOperationOpt18>localFormatDisk: Lokaal: Initialiseer HDD</DVRMinorTypeOperationOpt18>
+				<DVRMinorTypeOperationOpt19>localPlayByFile: Lokaal: Afspelen per bestand</DVRMinorTypeOperationOpt19>
+				<DVRMinorTypeOperationOpt20>localPlayByTime: Lokaal: Afspelen per tijd</DVRMinorTypeOperationOpt20>
+				<DVRMinorTypeOperationOpt21>localDownloadCfgFile: Lokaal: Exporteer configuratiebestand</DVRMinorTypeOperationOpt21>
+				<DVRMinorTypeOperationOpt22>localUploadCfgFile: Lokaal: Importeer configuratiebestand</DVRMinorTypeOperationOpt22>
+				<DVRMinorTypeOperationOpt23>localDownloadRecFile: Lokaal: Exporteer gegevensbestand</DVRMinorTypeOperationOpt23>
+				<DVRMinorTypeOperationOpt24>localDownloadPicFile: Lokaal: Exporteer afbeeldingbestand</DVRMinorTypeOperationOpt24>
+				<DVRMinorTypeOperationOpt25>localAddNas: Lokaal: Voeg NetHDD toe</DVRMinorTypeOperationOpt25>
+				<DVRMinorTypeOperationOpt26>localDelNas: Lokaal: Verwijder NetHDD</DVRMinorTypeOperationOpt26>
+				<DVRMinorTypeOperationOpt27>localSetNas: Lokaal: Stel NetHDD in</DVRMinorTypeOperationOpt27>
+				<DVRMinorTypeOperationOpt28>localResetPasswd: Lokaal: Herstel admin's PWD</DVRMinorTypeOperationOpt28>
+				<DVRMinorTypeOperationOpt29>localTagOperation: Lokaal: Voer code in</DVRMinorTypeOperationOpt29>
+				<DVRMinorTypeOperationOpt30>remotePowerOff: Op afstand: Afsluiten</DVRMinorTypeOperationOpt30>
+				<DVRMinorTypeOperationOpt31>remotePowerRecycle: Op afstand: Opnieuw starten</DVRMinorTypeOperationOpt31>
+				<DVRMinorTypeOperationOpt32>remoteLogin: Op afstand: inloggen</DVRMinorTypeOperationOpt32>
+				<DVRMinorTypeOperationOpt33>remoteLogout: Op afstand: uitloggen</DVRMinorTypeOperationOpt33>
+				<DVRMinorTypeOperationOpt34>remoteCfgPara: Op afstand: Configureer instellingen</DVRMinorTypeOperationOpt34>
+				<DVRMinorTypeOperationOpt35>remoteUpgrade: Op afstand: Upgraden</DVRMinorTypeOperationOpt35>
+				<DVRMinorTypeOperationOpt36>remoteStartRec: Op afstand: Start opname</DVRMinorTypeOperationOpt36>
+				<DVRMinorTypeOperationOpt37>remoteStopRec: Op afstand: Stop opname</DVRMinorTypeOperationOpt37>
+				<DVRMinorTypeOperationOpt38>remoteCtrlPtz: Op afstand: PTZ-bediening</DVRMinorTypeOperationOpt38>
+				<DVRMinorTypeOperationOpt39>remoteLockFile: Op afstand: Vergrendel bestand</DVRMinorTypeOperationOpt39>
+				<DVRMinorTypeOperationOpt40>remoteUnlockFile: Op afstand: Ontgrendel bestand</DVRMinorTypeOperationOpt40>
+				<DVRMinorTypeOperationOpt41>remoteManualAlarm: Op afstand: Trigger alarm</DVRMinorTypeOperationOpt41>
+				<DVRMinorTypeOperationOpt42>remoteformatHd: Op afstand: Initialiseer HDD</DVRMinorTypeOperationOpt42>
+				<DVRMinorTypeOperationOpt43>remotePlayByFile: Op afstand: Afspelen per bestand</DVRMinorTypeOperationOpt43>
+				<DVRMinorTypeOperationOpt44>remotePlayByTime: Op afstand: Afspelen door tijd</DVRMinorTypeOperationOpt44>
+				<DVRMinorTypeOperationOpt45>remoteDownloadCfgFile: Op afstand: exporteer configuratiebestand</DVRMinorTypeOperationOpt45>
+				<DVRMinorTypeOperationOpt46>remoteUploadCfgFile: Op afstand: Importeer configuratiebestand</DVRMinorTypeOperationOpt46>
+				<DVRMinorTypeOperationOpt47>remoteDownloadRecFile: Op afstand: Exporteer gegevensbestand</DVRMinorTypeOperationOpt47>
+				<DVRMinorTypeOperationOpt48>remotePicBackUp: Op afstand: Exporteer afbeeldingsbestand</DVRMinorTypeOperationOpt48>
+				<DVRMinorTypeOperationOpt49>remoteGetPara: Op afstand: Instellingen ophalen</DVRMinorTypeOperationOpt49>
+				<DVRMinorTypeOperationOpt50>remoteGetStatus: Op afstand: Werkstatus ophalen</DVRMinorTypeOperationOpt50>
+				<DVRMinorTypeOperationOpt51>remoteStartTransChan:Bevestig transparant kanaal</DVRMinorTypeOperationOpt51>
+				<DVRMinorTypeOperationOpt52>remoteStopTransChan:Sluit transparant kanaal af</DVRMinorTypeOperationOpt52>
+				<DVRMinorTypeOperationOpt53>startVloice Talk: Start tweerichtingsaudio</DVRMinorTypeOperationOpt53>
+				<DVRMinorTypeOperationOpt54>stopVoice Talk: Stop tweerichtingsaudio</DVRMinorTypeOperationOpt54>
+				<DVRMinorTypeOperationOpt55>remoteArm: Op afstand: Alarm inschakelen</DVRMinorTypeOperationOpt55>
+				<DVRMinorTypeOperationOpt56>remoteDisArm: Op afstand: Alarm uitschakelen</DVRMinorTypeOperationOpt56>
+				<DVRMinorTypeOperationOpt57>remoteAddNas: Op afstand: Voeg NetHDD toe</DVRMinorTypeOperationOpt57>
+				<DVRMinorTypeOperationOpt58>remoteDelNas: Op afstand: Verwijder NetHDD</DVRMinorTypeOperationOpt58>
+				<DVRMinorTypeOperationOpt59>remoteSetNas: Op afstand: Stel NetHDD in</DVRMinorTypeOperationOpt59>
+				<DVRMinorTypeOperationOpt60>remoteStartPicRec: Op afstand: Start beeld vastleggen</DVRMinorTypeOperationOpt60>
+				<DVRMinorTypeOperationOpt61>remoteStopPicRec: Op afstand: Stop beeld vastleggen</DVRMinorTypeOperationOpt61>
+				<DVRMinorTypeOperationOpt62>remoteTagOperation: Remote: Voer code in</DVRMinorTypeOperationOpt62>
+				<DVRMinorTypeOperationOpt63>localAddlpc: Lokaal: Voeg IP-camera toe</DVRMinorTypeOperationOpt63>
+				<DVRMinorTypeOperationOpt64>localDellpc: Lokaal: Verwijder IP-camera</DVRMinorTypeOperationOpt64>
+				<DVRMinorTypeOperationOpt65>localSetlpc: Lokaal:  Stel IP-camera in</DVRMinorTypeOperationOpt65>
+				<DVRMinorTypeOperationOpt66>remoteAddIpc: Op afstand: Voeg IP-camera toe</DVRMinorTypeOperationOpt66>
+				<DVRMinorTypeOperationOpt67>remoteDelIpc: Op afstand: Verwijder IP-camera</DVRMinorTypeOperationOpt67>
+				<DVRMinorTypeOperationOpt68>remoteSetIpc: Op afstand:  Stel IP-camera in</DVRMinorTypeOperationOpt68>
+				<DVRMinorTypeOperationOpt69>localSetSnmp: Lokaal: Configureer SNMP</DVRMinorTypeOperationOpt69>
+				<DVRMinorTypeOperationOpt70>remoteSetSnmp: Op afstand: Configureer SNMP</DVRMinorTypeOperationOpt70>
+			</DVR>
+		</MinorTypeOperation>
+	</Page>
+	<Js>
+		<szTips1>Fout! Zoeken logboek mislukt.</szTips1>
+		<szTips3>Fout! Zoeken mislukt.</szTips3>
+		<szTips5>Fout! Maken van bestand mislukt. </szTips5>
+		<Alarm>Alarm</Alarm>
+		<motionStart>Start bewegingsdetectie</motionStart>
+		<motionStop>Stop bewegingsdetectie</motionStop>
+		<hideStart>Start Tamper-proof</hideStart>
+		<hideStop>Stop Tamper-proof</hideStop>
+		<vcaStart>Start VCA-alarm</vcaStart>
+		<vcaStop>Stop VCA-alarm</vcaStop>
+		<videoException>Fout in videosignaal</videoException>
+		<videoFormatMismatch>Ingang/Uitgang Videostandaard komt niet overeen</videoFormatMismatch>
+		<viAndResMismatch>Foutieve resolutie </viAndResMismatch>
+		<ipcDisconnect>IP-camera afsluiten</ipcDisconnect>
+		<ipcIpConfilict>IP-adres en IPC zijn strijdig met elkaar</ipcIpConfilict>
+		<illlegealAccess>Onjuiste login</illlegealAccess>
+		<netBroken>Netwerk afgesloten</netBroken>
+		<recordError>Fout bij opnemen/vastleggen</recordError>
+		<ipConflict>Conflicterend IP-adres</ipConflict>
+		<Infomation>Informatie</Infomation>
+		<hddInfo>HDD-informatie</hddInfo>
+		<smartInfo>S.M.A.R.T.-informatie</smartInfo>
+		<startRec>Start opnemen</startRec>
+		<stopRec>Stop opnemen</stopRec>
+		<delExpiredRec>Verwijder het verlopen videobestand</delExpiredRec>
+		<nasInfo>NetHDD-informatie</nasInfo>
+		<startPic>Start vastleggen</startPic>
+		<stopPic>Stop opnemen</stopPic>
+		<raidInfo>RAID</raidInfo>
+		<Operation>Uitvoer</Operation>
+		<devicePowerOn>Starten</devicePowerOn>
+		<devicePowerOff>Lokaal: Afsluiten</devicePowerOff>
+		<deviceRecycle>Lokaal: Opnieuw starten</deviceRecycle>
+		<stopAbnormal>Lokaal: ongebruikelijke afsluiting</stopAbnormal>
+		<localLogin>Lokaal: Inloggen</localLogin>
+		<localLogOut>Lokaal: Uitloggen</localLogOut>
+		<localCfgPara>Lokaal: Configureer instellingen</localCfgPara>
+		<localUpdate>Lokaal: Upgraden/formatteren</localUpdate>
+		<localStartRec>Lokaal: Start opnemen</localStartRec>
+		<localStopRec>Lokaal: Stop opnemen</localStopRec>
+		<localStartPicRec>Lokaal: Start vastleggen</localStartPicRec>
+		<localStopPicRec>Lokaal: Stop opnemen</localStopPicRec>
+		<localCtrlPtz>Lokaal: PTZ-bediening</localCtrlPtz>
+		<localLockFile>Lokaal: Vergrendel bestand</localLockFile>
+		<localUnlockFile>Lokaal: Bestand ontgrendelen</localUnlockFile>
+		<localManulAlarm>Lokaal: Start alarm</localManulAlarm>
+		<localFormatDisk>Lokaal: Initialiseer HDD</localFormatDisk>
+		<localAddIpc>Lokaal: Voeg IP-camera toe</localAddIpc>
+		<localDelIpc>Lokaal: Verwijder IP-camera</localDelIpc>
+		<localSetIpc>Lokaal: Stel IP-camera in</localSetIpc>
+		<localPlayByFile>Lokaal: Afspelen per bestand</localPlayByFile>
+		<localPlayByTime>Lokaal: Afspelen per tijd</localPlayByTime>
+		<localDownloadCfgFile>Lokaal: Exporteer configuratiebestand</localDownloadCfgFile>
+		<localUploadCfgFile>Lokaal: Importeer configuratiebestand</localUploadCfgFile>
+		<localDownloadRecFile>Lokaal: Exporteer gegevensbestand</localDownloadRecFile>
+		<localDownloadPicFile>Lokaal: Exporteer afbeeldingbestand</localDownloadPicFile>
+		<localAddNas>Lokaal: Voeg NetHDD toe</localAddNas>
+		<localDelNas>Lokaal: Verwijder NetHDD</localDelNas>
+		<localSetNas>Lokaal: Stel NetHDD in</localSetNas>
+		<localSetSnmp>Lokaal: Configureer SNMP</localSetSnmp>
+		<localResetPasswd>Lokaal: Herstel admin's PWD</localResetPasswd>
+		<localTagOperation>Lokaal: Voer code in</localTagOperation>
+		<remotePowerOff>Op afstand: Uitschakelen </remotePowerOff>
+		<remotePowerRecycle>Op afstand: Opnieuw starten</remotePowerRecycle>
+		<remoteLogin>Op afstand: Inloggen</remoteLogin>
+		<remoteLogout>Op afstand: Uitloggen</remoteLogout>
+		<remoteCfgPara>Op afstand: Instellingen configureren</remoteCfgPara>
+		<remoteUpgrade>Op afstand: Upgraden </remoteUpgrade>
+		<remoteStartRec>Op afstand: Start opnemen</remoteStartRec>
+		<remoteStopRec>Op afstand: Stop opnemen</remoteStopRec>
+		<remoteCtrlPtz>Op afstand: PTZ-bediening</remoteCtrlPtz>
+		<remoteLockFile>Op afstand: Vergrendel bestand</remoteLockFile>
+		<remoteUnlockFile>Op afstand: Ontgrendel bestand</remoteUnlockFile>
+		<remoteManulAlarm>Op afstand: Trigger alarm</remoteManulAlarm>
+		<remoteFormatHd>Op afstand: Initialiseer HDD</remoteFormatHd>
+		<remoteAddIpc>Op afstand: Voeg IP-camera toe </remoteAddIpc>
+		<remoteDelIpc>Op afstand: Verwijder IP-camera</remoteDelIpc>
+		<remoteSetIpc>Op afstand: Stel IP-camera in</remoteSetIpc>
+		<remotePlayByFile>Op afstand: Afspelen per bestand</remotePlayByFile>
+		<remotePlayByTime>Op afstand: Afspelen per tijd</remotePlayByTime>
+		<remoteDownloadCfgFile>Op afstand: Exporteer configuratiebestand</remoteDownloadCfgFile>
+		<remoteUploadCfgFile>Op afstand: Importeer configuratiebestand</remoteUploadCfgFile>
+		<remoteDownloadRecFile>Op afstand: Exporteer gegevensbestand</remoteDownloadRecFile>
+		<remoteGetPara>Op afstand: Instellingen ophalen</remoteGetPara>
+		<remoteGetStatus>Op afstand: Werkstatus ophalen</remoteGetStatus>
+		<remoteStartTransChan>Bevestig transparant kanaal</remoteStartTransChan>
+		<remoteStopTransChan>Sluit transparant kanaal af</remoteStopTransChan>
+		<startVoiceTalk>Start tweerichtingsaudio</startVoiceTalk>
+		<stopVoiceTalk>Stop tweerichtingsaudio</stopVoiceTalk>
+		<remoteArm>Op afstand: Alarm inschakelen</remoteArm>
+		<remoteDisArm>Op afstand: Alarm uitschakelen</remoteDisArm>
+		<remoteAddNas>Op afstand: Voeg NetHDD toe</remoteAddNas>
+		<remoteDelNas>Op afstand: Verwijder NetHDD </remoteDelNas>
+		<remoteSetNas>Op afstand: Stel NetHDD in</remoteSetNas>
+		<remotePicBackUp>Op afstand: Exporteer beeldbestand</remotePicBackUp>
+		<remoteStartPicRec>Op afstand: Start beeldopname</remoteStartPicRec>
+		<remoteStopPicRec>Op afstand: Stop beeld vastleggen</remoteStopPicRec>
+		<remoteSetSnmp>Op afstand: SNMP configureren</remoteSetSnmp>
+		<remoteTagOperation>Op afstand: Voer code in</remoteTagOperation>
+		<ExportFailedTips>Fout bij exporteren logboeken.</ExportFailedTips>
+	</Js>
+</Log>

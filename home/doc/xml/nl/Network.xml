@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Network>
+	<Common>
+		<Page>
+			<laNetWorkMode>Werkmodus</laNetWorkMode>
+			<laEAPOLVersion tag="label;" length="150">EAPOL-versie</laEAPOLVersion>
+			<laFriendlyName>Bijnaam</laFriendlyName>
+		</Page>
+		<Js>
+		    <jsPortConflict>Poortconflict</jsPortConflict>
+		</Js>
+		<General>
+			<gePort tag="label;" length="150">Poort</gePort>
+		</General>
+	</Common>
+	<IpConfig>
+		<Page>
+			<NetworkModeOpt1>Net fouttolerantie</NetworkModeOpt1>
+			<NetworkModeOpt2>Belastingsbalans</NetworkModeOpt2>
+			<NetworkModeOpt3>Multi-adres</NetworkModeOpt3>
+			<laNetCardConfig tag="label;" length="670">NIC-instellingen</laNetCardConfig>
+			<laSelectNetCard>Selecteer NIC</laSelectNetCard>
+			<laNetworkType tag="label;" length="150">NIC-type</laNetworkType>
+			<NetworkTypeOpt1 tag="option;" length="198">10M Half-dup</NetworkTypeOpt1>
+			<NetworkTypeOpt2 tag="option;" length="198">10M Full-dup</NetworkTypeOpt2>
+			<NetworkTypeOpt3 tag="option;" length="198">100M Half-dup</NetworkTypeOpt3>
+			<NetworkTypeOpt4 tag="option;" length="198">100M Full-dup</NetworkTypeOpt4>
+			<NetworkTypeOpt5 tag="option;" length="198">10M/100M/1000M Auto</NetworkTypeOpt5>
+			<NetworkTypeOpt6 tag="option;" length="198">1000M Full-dup</NetworkTypeOpt6>
+			<laDeviceIpAdd tag="label;" length="150">IPv4-adres</laDeviceIpAdd>
+			<laDHCP tag="label;" length="670">DHCP</laDHCP>
+			<laSubNetMask tag="label;" length="150">IPv4-subnetmasker</laSubNetMask>
+			<laDefaultGateWay tag="label;" length="150">IPv4-standaard gateway</laDefaultGateWay>
+			<laDeviceIpV6Add>IPv6-adres</laDeviceIpV6Add>
+			<laDefaultV6GateWay>IPv6-standaard gateway</laDefaultV6GateWay>
+			<laDNSServerConfig tag="label;" length="670">DNS-server</laDNSServerConfig>
+			<laPrimaryDNS tag="label;" length="150">Geprefereerde DNS-server</laPrimaryDNS>
+			<laDNSServer2IP tag="label;" length="150">Alternatieve DNS-server</laDNSServer2IP>
+			<laPrimayEthernet>Hoofd-NIC</laPrimayEthernet>
+			<laMulticast tag="label;" length="150">Multicast-adres</laMulticast>
+		</Page>
+		<Js>
+			<jsMaskAdd>Subnetmasker</jsMaskAdd>
+			<jsGateAdd>Gateway</jsGateAdd>
+			<jsMtuParam>MTU</jsMtuParam>
+			<jsFirstDNS>Geprefereerd DNS-adres</jsFirstDNS>
+			<jsSecondDNS>DNS-adressen laten afwisselen (alterneren)</jsSecondDNS>
+			<MaskAddInvalidTips>Fout! Onjuist subnetmask-adres.</MaskAddInvalidTips>
+			<jsMulticastRange>Het eerste deel van het IP-adres moet een geheel getal zijn tussen 224 en 239.</jsMulticastRange>
+		</Js>
+	</IpConfig>
+	<PortConfig>
+		<Page>
+			<laHttpPort tag="label;" length="150">HTTP-poort</laHttpPort>
+			<laRtspPort tag="label;" length="150">RTSP-poort</laRtspPort>
+			<laHttpsPort tag="label;" length="150">HTTPS-poort</laHttpsPort>
+			<laSDKPort>SDK-poort</laSDKPort>
+		</Page>
+		<Js>
+			<jsHttpPortParam>HTTP-poort </jsHttpPortParam>
+			<jsRtspPortParam>RTSP-poort </jsRtspPortParam>
+			<jsHttpsPortParam>HTTPS-poort </jsHttpsPortParam>
+		</Js>
+	</PortConfig>
+	<DDNS>
+		<Page>
+			<laUseDDNS tag="label;" length="670">Zet DDNS aan</laUseDDNS>
+			<laDDNSType tag="label;" length="150">DDNS-type</laDDNSType>
+		</Page>
+		<Js>
+			<jsDomainAlreadyExist>Domein bestaat al</jsDomainAlreadyExist>
+		</Js>
+		<General>
+			<laDeviceDomain tag="label;" length="150">Domein</laDeviceDomain>
+		</General>
+	</DDNS>
+	<PPPoE>
+		<Page>
+			<laUsePPPOE tag="label;" length="670">Zet PPPoE aan</laUsePPPOE>
+			<laDevicePPPOEIP tag="label;" length="150">Dynamisch IP-adres</laDevicePPPOEIP>
+		</Page>
+		<Js>
+			<jsPPPOEName>PPPoE-naam</jsPPPOEName>
+			<jsPPPOEPassword>PPoE-wachtwoord</jsPPPOEPassword>
+		</Js>
+	</PPPoE>
+	<SNMP>
+		<Page>
+			<laEnableV1 tag="label;" length="150">Enable SNMPv1</laEnableV1>
+			<laEnableV2c tag="label;" length="150">Zet SNMP v2c aan</laEnableV2c>
+			<laRwCommunity tag="label;" length="150">Noteer SNMP-groep</laRwCommunity>
+			<laRCommunity tag="label;" length="150">Lees SNMP-gemeenschap</laRCommunity>
+			<laTrapIP tag="label;" length="150">Trap-adres</laTrapIP>
+			<laTrapPort tag="label;" length="150">Trap-poort</laTrapPort>
+			<laTrapCommunity tag="label;" length="150">Trap Community</laTrapCommunity>
+			<laEnableV3c tag="label;" length="150">Zet SNMPv3 aan</laEnableV3c>
+			<laRUserName tag="label;" length="150">Lees gebruikersnaam</laRUserName>
+			<laRwUserName tag="label;" length="150">Noteer gebruikersnaam</laRwUserName>
+			<laSecurityLevel tag="label;" length="150">Beveiligingsniveau</laSecurityLevel>
+			<laAuthAlg tag="label;" length="150">Verificatie-algoritme</laAuthAlg>
+			<laAuthPsd tag="label;" length="150">Verificatiewachtwoord</laAuthPsd>
+			<laPrivacyAlg tag="label;" length="150">Algoritme privésleutel </laPrivacyAlg>
+			<laPrivacyPsd tag="label;" length="150">Wachtwoord privésleutel </laPrivacyPsd>
+			<laSNMPPort tag="label;" length="150">SNMP-poort</laSNMPPort>
+			<laSNMPMore tag="label;" length="670">overige SNMP-instellingen</laSNMPMore>
+		</Page>
+		<Js>
+			<jsOneLeast>Minimaal 1 SNMP-type moet aangezet zijn.</jsOneLeast>
+			<jsTrapIp>Trap-IP-adres</jsTrapIp>
+		</Js>
+	</SNMP>
+	<P8021x>
+		<Page>
+			<laEnable8021x tag="label;" length="131">Zet IEEE 802.1X aan</laEnable8021x>
+		</Page>
+		<Js>
+		</Js>
+	</P8021x>
+	<QoS>
+		<Page>
+			<laVideoDSCP tag="label;" length="150">Video/Audio DSCP</laVideoDSCP>
+			<laEADSCP tag="label;" length="150">Gebeurtenis/Alarm DSCP</laEADSCP>
+			<laManageDSCP tag="label;" length="150">DSCP-beheer</laManageDSCP>
+			<laEnableQoS>QoS aanzetten</laEnableQoS>
+		</Page>
+		<Js>
+		</Js>
+	</QoS>
+	<Socks>
+		<Page>
+			<laEnableSocks>SOCKS aan</laEnableSocks>
+			<laSocksServerAddr>Server</laSocksServerAddr>
+			<laSocksServerPort>Serverpoort</laSocksServerPort>
+			<laSocksVersion>Servertype</laSocksVersion>
+			<laLocalList>Local networks</laLocalList>
+			<laLocalTips>Gebruik een puntkomma (;) om lokale netwerken te scheiden</laLocalTips>
+		</Page>
+		<Js>
+		</Js>
+	</Socks>
+	<UPnP>
+		<Page>
+			<laEnableUPnP>Enable UPnP</laEnableUPnP>
+			<laHttpPortMap>HTTP-poorttoewijzing</laHttpPortMap>
+			<laManagePortMap>Apparaatpoorttoewijzing</laManagePortMap>
+			<laRtspPortMap>RTSP-poorttoewijzing</laRtspPortMap>
+			<laHttpsPortMap>HTTPS-poorttoewijzing</laHttpsPortMap>
+			<laNatRouterLanAddr>NAT-routeradres</laNatRouterLanAddr>
+			<laEnableUPnPNat>UPnP™ NAT aanzetten</laEnableUPnPNat>
+			<laUPnPMapType>Mapping Port Type</laUPnPMapType>
+			<laPortsMap>Poorttoewijzing</laPortsMap>
+			<laProtocolName>Protocolnaam</laProtocolName>
+			<laExternalPort>Externe poort</laExternalPort>
+			<laEnablePortMap>Poorttoew. aan</laEnablePortMap>
+			<laNatMapType>NAT-toew.type</laNatMapType>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<geValid>Juist</geValid>
+			<geNotValid>Onjuist</geNotValid>
+		</General>
+	</UPnP>
+	<Bonjour>
+		<Page>
+			<laEnableBonjour>Bonjour aan</laEnableBonjour>
+		</Page>
+		<Js>
+		</Js>
+	</Bonjour>
+	<HTTPS>
+		<Page>
+			<laCreate>Creëren</laCreate>
+			<laCreateSelfCertificate>Zelf-ondertekend certificaat maken</laCreateSelfCertificate>
+			<laCreateCertificateReq>Certificaatverzoek maken</laCreateCertificateReq>
+			<laInstallSignedCertificate>Ondertekend certificaat installeren</laInstallSignedCertificate>
+			<laCreatedRequest>Verzoek gemaakt</laCreatedRequest>
+			<laInstalledCertificate>Geïnstalleerd certificaat</laInstalledCertificate>
+			<laRemove>Verwijder</laRemove>
+			<laValidity>Geldigheid</laValidity>
+			<laCountry>Land</laCountry>
+			<laStateOrProvince>Provincie</laStateOrProvince>
+			<laLocality>Lokaliteit</laLocality>
+			<laOrganization>Organisatie</laOrganization>
+			<laOrganizationalUnit>Afdeling</laOrganizationalUnit>
+			<laCommonName>IP/ Domein Naam</laCommonName>
+			<laCertificatePath>Pad naar certificaat</laCertificatePath>
+			<laExample>voorbeeld</laExample>
+			<laConfirmInstall>Zorg ervoor dat het certificaat al is geïnstalleerd.</laConfirmInstall>
+		</Page>
+		<Js>
+		</Js>
+	</HTTPS>
+	<FTP>
+		<Page>
+			<laPathDepth tag="label;" length="150">Directorystructuur</laPathDepth>
+			<laTopPath tag="label;" length="150">Parent directory</laTopPath>
+			<laSubPath tag="label;" length="150">Child Directory</laSubPath>
+			<laUploadType tag="label;" length="150">Upload type</laUploadType>
+			<laUploadPicture tag="label;" length="150">Upload foto</laUploadPicture>
+			<laUploadVideoClip>Upload videoclip</laUploadVideoClip>
+			<optPathDepth1 tag="option;" length="198">Opslaan in de root directory</optPathDepth1>
+			<optPathDepth2 tag="option;" length="198">Opslaan in de parent directory</optPathDepth2>
+			<optPathDepth3 tag="option;" length="198">Opslaan in de child directory</optPathDepth3>
+			<optTopPath1 tag="option;" length="198">Gebruik apparaatnaam</optTopPath1>
+			<optTopPath2 tag="option;" length="198">Gebruik apparaatnummer</optTopPath2>
+			<optTopPath3 tag="option;" length="198">Gebruik IP-adres van apparaat</optTopPath3>
+			<optSubPath1 tag="option;" length="198">Gebruik cameranaam</optSubPath1>
+			<optSubPath2 tag="option;" length="198">Gebruik cameranummer</optSubPath2>
+			<laSelectFtp>FTP selecteren</laSelectFtp>
+			<laEnableFTP tag="label;" length="670">FTP aanzetten</laEnableFTP>
+		</Page>
+		<Js>
+		</Js>
+	</FTP>
+	<WIFI>
+		<Page>
+			<laWirelessList>Lijst met draadloze apparatuur</laWirelessList>
+			<laSecurityMode>Beveiligingsmodus</laSecurityMode>
+			<laChannel>Kanaal</laChannel>
+			<laSignalStrength>Signaalsterkte</laSignalStrength>
+			<laSpeed>Snelheid</laSpeed>
+			<laWirelessNetworkMode>Netwerkmodus</laWirelessNetworkMode>
+			<laEncryptionType>Coderingstype</laEncryptionType>
+			<laOpen>Open</laOpen>
+			<laShared>Gedeeld</laShared>
+			<laKeyLength>Sleutellengte</laKeyLength>
+			<laKeyType>Sleuteltype</laKeyType>
+			<laHex>HEX</laHex>
+			<laKey>Sleutel</laKey>
+			<laPEAPVersion>PEAP-versie</laPEAPVersion>
+			<laPEAPLabel>PEAP-label</laPEAPLabel>
+			<laInnerAuthenticationMode>Interne verificatie</laInnerAuthenticationMode>
+			<laAnonymousID>Anonieme identiteit</laAnonymousID>
+			<laIdentify>Identificeren</laIdentify>
+			<laPrivateKeyPassword>Wachtwoord privésleutel</laPrivateKeyPassword>
+			<laCACertificate>CA-certificaat</laCACertificate>
+			<laUserCertificate>Gebruikerscertificaat</laUserCertificate>
+			<laPrivateKeyCertificate>Privésleutel</laPrivateKeyCertificate>
+			<laEnableWPS>WPS aanzetten</laEnableWPS>
+			<laPinCode>PIN-code</laPinCode>
+			<pinCodeGenerate>Maak</pinCodeGenerate>
+			<autoConnect>PBC-verbinding</autoConnect>
+			<manuConnect>PIN-code van router gebruiken</manuConnect>
+			<laApPinCode>PIN-code router</laApPinCode>
+			<laConnect>Verbinden</laConnect>
+			<laSSID>SSID</laSSID>
+		</Page>
+		<Js>
+			<jsTenHex>Voer 10 hextekens in</jsTenHex>
+			<jsXXVIHex>Voer 26 hextekens in</jsXXVIHex>
+			<jsFiveASCII>Voer 5 ASCII-tekens in</jsFiveASCII>
+			<jsTenASCII>Voer 13 ASCII-tekens in</jsTenASCII>
+			<jsEightMoreChar>Voer 8-63 tekens in</jsEightMoreChar>
+			<jsConnectSuc>Verbinding geslaagd</jsConnectSuc>
+			<jsConnectFail>Verbinden mislukt.</jsConnectFail>
+			<jsConnecting>Verbinden...</jsConnecting>
+		</Js>
+	</WIFI>
+</Network>

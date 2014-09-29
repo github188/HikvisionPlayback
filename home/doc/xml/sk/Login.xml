@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">Meno</lausername>
+		<lapassword tag="label;" length="70">Heslo</lapassword>
+		<lalogin tag="label;" length="70">Prihlásiť sa</lalogin>
+		<laAnonymous>Anonym</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>Prosím, zadajte používateľské meno.</LoginTips1>
+		<LoginTips2>Meno nesmie presahovať 16 znakov.</LoginTips2>
+		<LoginTips3>Dĺžka hesla nesmie presiahnuť 16 znakov.</LoginTips3>
+		<LoginTips4>Nesprávne meno alebo heslo. Opakujte voľbu, prosím.</LoginTips4>
+		<LoginTips5>Zadajte heslo, prosím.</LoginTips5>
+		<NetworkErrorTips>Výnimka siete</NetworkErrorTips>
+		<ConnectTimeoutTips>Čas pripojenia vypršal</ConnectTimeoutTips>
+		<CookieTips>Najprv povoľte vo vašom internetovom prehliadači ukladanie súborov cookie.</CookieTips>
+	</Js>
+</Login>

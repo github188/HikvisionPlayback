@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">Record Schedule</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Storage Management</aHardDisk>
+			<laAdvancedRecordCfg>Advanced</laAdvancedRecordCfg>
+			<laExtractFrame>Frame-extracting</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">HDD No.</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>The same NetHDD cannot be added twice.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">File Path</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Advanced</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Enable Record Schedule</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Enable Capture Schedule</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Pre-record</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">No Pre-record</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5s</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10s</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15s</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20s</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25s</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30s</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Not Limited</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Post-record</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1min</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2min</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5min</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10min</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Redundant Record</laRedundancyRec>
+			<laRecordOverWrite>Overwrite</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">No</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Yes</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Record Audio</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Edit Schedule</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Expired Time</geRecorderDuration>
+			<EndTimeRangeTips>The end time cannot exceed 24:00.</EndTimeRangeTips>
+			<AdvancedTips>Advanced</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>HDD Management</laSpanTitle>
+				<laHardDiskNo>HDD No.</laHardDiskNo>
+				<laDiskProperty>Property</laDiskProperty>
+				<laDiskGroup>HDD Group</laDiskGroup>
+				<laDiskInit>HDD Initialization</laDiskInit>
+				<laInitState>Init Status</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">HDD Device List</laDiskTitle>
+			<laCapacity tag="label;" length="100">Capacity</laCapacity>
+			<laFreeSpace tag="label;" length="100">Free space</laFreeSpace>
+			<formatDisk tag="input;" length="74">Format</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>HDD property cannot be edited in current storage mode.</tipsNotSupportEdit>
+				<tipsFormatRo>Initialization failed. No read-only HDD (s) can be selected.</tipsFormatRo>
+				<tipsDisk>HDD</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Uninitialized</tipsUnformatted>
+			<tipsError>Error</tipsError>
+			<tipsIdle>Sleeping</tipsIdle>
+			<tipsMismatch>Mismatched</tipsMismatch>
+			<tipsFormatting>Formatting</tipsFormatting>
+			<tipsNotexist>Not Exist</tipsNotexist>
+			<tipsFormatSelect>Format the HDD?</tipsFormatSelect>
+			<tipsFormatAll>HDD formatting finished.</tipsFormatAll>
+			<tipsFormatFailed>HDD Initialization failed.</tipsFormatFailed>
+			<tipsFormattingWait>Formatting…please wait…</tipsFormattingWait>
+			<tipsSelectDisk>Please select the HDD to format.</tipsSelectDisk>
+			<tipsStorageMode>Storage Mode Settings</tipsStorageMode>
+			<tipsArray>Virtual Disk</tipsArray>
+			<jsComplete>Complete.</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>R/W</tipsRW>
+			<tipsRO>Read-only</tipsRO>
+			<tipsRedund>Redundancy</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>NetHDD</laSpanTitle>
+				<Property1Opt1>R/W</Property1Opt1>
+				<Property1Opt2>Read-only</Property1Opt2>
+				<Property1Opt3>Redundancy</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Set Disk</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>
+

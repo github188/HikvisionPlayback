@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Events>
+	<Common>
+		<Page>
+			<aBlockAlarm tag="a;" length="9999">Szabotázs-figyelés</aBlockAlarm>
+			<aVideoLost tag="a;" length="9999">Jelvesztés</aVideoLost>
+			<aCapturePlan tag="a;" length="9999">Pillanatfelvétel</aCapturePlan>
+			<aOtherAlarm>Egyéb riasztás</aOtherAlarm>
+			<laTimeTabDivBtn tag="label;" length="670">Készenléti idő</laTimeTabDivBtn>
+			<laLinkageTabDivBtn tag="label;" length="670">Kapcsolódás módja</laLinkageTabDivBtn>
+			<laSensitivity tag="label;" length="85">Érzékenység</laSensitivity>
+			<!--<laCommonLinkage>Alarm Linking</laCommonLinkage>-->
+			<!--DVR的，需要修改DVR网页name-->
+			<laNormalLink tag="label;" length="215">Normál kapcsolás</laNormalLink>
+			<laMonitorAlarm>Teljes képernyős megfigyelés</laMonitorAlarm>
+			<laSoundAlarm tag="label;" length="130">Hangjelzés</laSoundAlarm>
+			<laUpload tag="label;" length="130">Felügyeleti központ értesítése</laUpload>
+			<laEmail tag="label;" length="130">E-mail küldése</laEmail>
+			<laLinkageAlarmOutput tag="label;" length="116">Riasztás indítási kimenet</laLinkageAlarmOutput>
+			<laScheduleEdit tag="label;">Ütemezés szerkesztése</laScheduleEdit>
+			<laOtherLink tag="label;" length="271">Egyéb kapcsolat</laOtherLink>
+			<BlockSensitiveOpt1>Alacsony</BlockSensitiveOpt1>
+			<BlockSensitiveOpt2>Közepes</BlockSensitiveOpt2>
+			<BlockSensitiveOpt3>Magas</BlockSensitiveOpt3>
+			<laAlarmname tag="label;" length="150">Riasztás név</laAlarmname>
+			<laCopyalarm tag="label;" length="670">Másolja a riasztásokhoz</laCopyalarm>
+			<laTrigglerecord tag="label;" length="130">Indító csatorna</laTrigglerecord>
+			<laUpdateToFTP tag="label;" length="130">FTP feltöltés</laUpdateToFTP>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laCaptureInterval tag="label;" length="100">Intervallum</laCaptureInterval>
+		</General>
+	</Common>
+	<MotionDetection>
+		<Page>
+			<laUseMotion tag="label;" length="133">Mozgásérzékelés engedélyezése</laUseMotion>
+			<laHighLight>Dinamikus elemzés engedélyezése mozgáshoz</laHighLight>
+		</Page>
+		<Js>
+		</Js>
+	</MotionDetection>
+	<TamperProof>
+		<Page>
+			<laUseKeepout tag="label;" length="671">Szabotázs-figyelés engedélyezése</laUseKeepout>
+		</Page>
+		<Js>
+		</Js>
+	</TamperProof>
+	<VideoLoss>
+		<Page>
+			<laUseVideoLost tag="label;" length="671">Jelvesztésérzékelés engedélyezése</laUseVideoLost>
+		</Page>
+		<Js>
+		</Js>
+	</VideoLoss>
+	<AlarmInput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Riasztási bemenet beállítások</laSpanTitle>
+			</DVR>
+			<laAlarminnumber tag="label;" length="150">Riasztási bemenet száma</laAlarminnumber>
+			<laAlarmtype tag="label;" length="150">Riasztás típusa</laAlarmtype>
+			<triggeringOpt1 tag="option;" length="198">NC</triggeringOpt1>
+			<triggeringOpt2 tag="option;" length="198">NEM</triggeringOpt2>
+			<laTriggleptz tag="label;" length="212">PTZ rákapcsolódás</laTriggleptz>
+			<laPresetnumer tag="label;" length="100">Preset sz.</laPresetnumer>
+			<laCurisenumber tag="label;" length="100">Őrjárat száma</laCurisenumber>
+			<laTrackid tag="label;" length="100">Minta száma</laTrackid>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmInput>
+	<AlarmOutput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Riasztási kimenet beállítások</laSpanTitle>
+			</DVR>
+			<laAlarmoutnumber tag="label;" length="150">Riasztás kimenet</laAlarmoutnumber>
+			<laDefaultstate tag="label;" length="150">Alapér.áll.</laDefaultstate>
+			<defaultStateOpt1 tag="option;" length="198">Magas szint</defaultStateOpt1>
+			<defaultStateOpt2 tag="option;" length="198">Alacsony szint</defaultStateOpt2>
+			<laTrigglestate tag="label;" length="150">Indítási állapot</laTrigglestate>
+			<outputState1 tag="option;" length="198">Impulzus</outputState1>
+			<pulseDurationOpt1 tag="option;" length="198">5 mp</pulseDurationOpt1>
+			<pulseDurationOpt2 tag="option;" length="198">10 mp</pulseDurationOpt2>
+			<pulseDurationOpt3 tag="option;" length="198">30 mp</pulseDurationOpt3>
+			<pulseDurationOpt4 tag="option;" length="198">1 perc</pulseDurationOpt4>
+			<pulseDurationOpt5 tag="option;" length="198">2 perc</pulseDurationOpt5>
+			<pulseDurationOpt6 tag="option;" length="198">5 perc</pulseDurationOpt6>
+			<pulseDurationOpt7 tag="option;" length="198">10 perc</pulseDurationOpt7>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmOutput>
+	<Exception>
+		<Page>
+			<DVR>
+				<laSpanTitle>Súlyos hibák</laSpanTitle>
+			</DVR>
+			<laExceptionType tag="label;" length="150">Súlyos hiba típusa</laExceptionType>
+			<ExceptionTypeOpt3 tag="option;" length="198">Nincs hálózat</ExceptionTypeOpt3>
+			<ExceptionTypeOpt4 tag="option;" length="198">IP címütközés</ExceptionTypeOpt4>
+			<ExceptionTypeOpt5 tag="option;" length="198">Jogtalan bejelentkezés</ExceptionTypeOpt5>
+			<ExceptionTypeOpt6>Videó ki/bemenet szabványa eltér</ExceptionTypeOpt6>
+			<ExceptionTypeOpt7>Videójel kizárása</ExceptionTypeOpt7>
+			<ExceptionTypeOpt8>Felvételi/képrögzítési kivétel</ExceptionTypeOpt8>
+			<ExceptionTypeOpt9>Eltérő felbontás</ExceptionTypeOpt9>
+		</Page>
+		<Js>
+		</Js>
+	</Exception>
+	<Email>
+		<Page>
+			<DVR>
+				<laSpanTitle>E-mail</laSpanTitle>
+			</DVR>
+			<laServerAuthentication tag="label;" length="670">Hitelesítés</laServerAuthentication>
+			<laSMTPServer>SMTP szerver</laSMTPServer>
+			<laUseSSL tag="label;" length="670">SSL engedélyezés</laUseSSL>
+			<laMailInterval tag="label;" length="150">Intervallum</laMailInterval>
+			<MailIntervalOpt1 tag="option;" length="198">2 mp</MailIntervalOpt1>
+			<MailIntervalOpt2 tag="option;" length="198">3 mp</MailIntervalOpt2>
+			<MailIntervalOpt3 tag="option;" length="198">4 mp</MailIntervalOpt3>
+			<MailIntervalOpt4 tag="option;" length="198">5 mp</MailIntervalOpt4>
+			<laAttachment tag="label;" length="314">Csatolt kép</laAttachment>
+			<laEmailAdd>E-mail cím</laEmailAdd>
+			<laChooseReceiver tag="label;" length="150">Válasszon címzettet</laChooseReceiver>
+			<laReceiver tag="label;" length="670">Fogadó</laReceiver>
+			<laSender tag="label;" length="670">Küldő</laSender>
+			<ReceiverNumOpt1 tag="option;" length="198">1. fogadó</ReceiverNumOpt1>
+			<ReceiverNumOpt2 tag="option;" length="198">2. fogadó</ReceiverNumOpt2>
+			<ReceiverNumOpt3 tag="option;" length="198">3. fogadó</ReceiverNumOpt3>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laSenderName tag="label;" length="150">Küldő</laSenderName>
+			<laSenderAddress tag="label;" length="150">A küldő e-mail címe</laSenderAddress>
+			<laReceiverName tag="label;" length="150">Fogadó</laReceiverName>
+			<laReceiverAddress tag="label;" length="150">Receiver's Address</laReceiverAddress>
+			<laReceiverName1 tag="label;" length="150">1. fogadó</laReceiverName1>
+			<laReceiverName2 tag="label;" length="150">2. fogadó</laReceiverName2>
+			<laReceiverAddress1 tag="label;" length="150">1. fogadó címe</laReceiverAddress1>
+			<laReceiverAddress2 tag="label;" length="150">2. fogadó címe</laReceiverAddress2>
+			<laSMTPPort tag="label;" length="150">SMTP port</laSMTPPort>
+		</General>
+	</Email>
+	<CapturePlan>
+		<Page>
+			<laTimingCapture tag="label;" length="670">Időzítés</laTimingCapture>
+			<laEventCapture tag="label;" length="670">Esemény-vezérelt</laEventCapture>
+			<laUseTimingCapture tag="label;" length="651">Időzített pillanatfelvétel engedélyezése</laUseTimingCapture>
+			<laUseEventCapture tag="label;" length="651">Eseményvezérelt pillanatfelvétel engedélyezése</laUseEventCapture>
+			<laPictureCodecType tag="label;" length="100">Formázás</laPictureCodecType>
+			<laPictureQuality tag="label;" length="100">Minőség</laPictureQuality>
+			<laMillisecond>ms</laMillisecond>
+			<optionMillisecond tag="option;" length="78">ms</optionMillisecond>
+			<optionMinute tag="option;" length="78">perc</optionMinute>
+			<optionHour tag="option;" length="78">óra</optionHour>
+			<laCaptureNum>Rögzítés száma</laCaptureNum>
+		</Page>
+	</CapturePlan>
+	<OtherAlarm>
+		<Page>
+			<laEnableWirelessAlarm>Vezeték nélküli riasztás engedélyezése</laEnableWirelessAlarm>
+			<laEnablePIRAlarm>PIR riasztás engedélyezése</laEnablePIRAlarm>
+			<laTriggerWirelessAlarm>Vezeték nélküli riasztás aktiválása</laTriggerWirelessAlarm>
+			<laLightAudioAlarm>Vezeték nélküli hang- és vizuális riasztás</laLightAudioAlarm>
+			<laSelWirelessAlarm>Vezeték nélküli riasztás kiválasztása</laSelWirelessAlarm>
+		</Page>
+	</OtherAlarm>
+</Events>

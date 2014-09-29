@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Urlaubseinstellungen</laSpanTitle>
+		<laPrompt>Urlaubszeiten dürfen sich nicht  überlappen.</laPrompt>
+		<laHolidayName>Urlaubsname</laHolidayName>
+		<laHolidayFun>Urlaub akt.</laHolidayFun>
+		<HolidayTypeOpt1>Nach Datum</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Nach Woche</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Nach Monat</HolidayTypeOpt3>
+		<laStartDate>Startdatum</laStartDate>
+		<laEndDate>Enddatum</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Urlaub bearb.</EditHolidayTips>
+		<LastTips>Letzte</LastTips>
+		<DayTips>Datum</DayTips>
+		<MonthTips>Monat</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

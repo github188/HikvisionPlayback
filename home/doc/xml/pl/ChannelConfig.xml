@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelConfig>
+	<AnalogChan>
+		<Page>
+			<laSpanTitle>Kamera analogowa</laSpanTitle>
+		</Page>
+		<Js>
+		</Js>
+	</AnalogChan>
+	<DigitalChan>
+		<Page>
+			<laSpanTitle>Kamera IP</laSpanTitle>
+			<laIpChanAddress>Adres kamery IP</laIpChanAddress>
+			<laDevicePort>Port zarządzania</laDevicePort>
+			<laProtocol>Protokół</laProtocol>
+			<laIpChanNum>Nr kamery IP</laIpChanNum>
+			<laRegModeType>Tryb rejestracji</laRegModeType>
+			<RegModeTypeOpt>Nazwa domeny</RegModeTypeOpt>
+			<laQuickAdd>Szybkie dodanie</laQuickAdd>
+			<laMaskAddress>Maska podsieci</laMaskAddress>
+			<laSerialNo>Nr seryjny</laSerialNo>
+			<laFirmware>Wersja opr. układ.</laFirmware>
+			<laDeviceChan>Nr kanału</laDeviceChan>
+		</Page>
+		<Js>
+			<HostNameTips>Domena</HostNameTips>
+			<OnLineTips>Online</OnLineTips>
+			<DeleteIpcTips>Usunąć informację o adresie IP?</DeleteIpcTips>
+			<DeleteErrorTips>Usuwanie się nie powiodło.</DeleteErrorTips>
+			<NoOperationTips>Brak uprawnień.</NoOperationTips>
+			<InputIpTips>Wpisz adres IP.</InputIpTips>
+			<InputRightIpTips>Podaj poprawny adres IP.</InputRightIpTips>
+			<InputErrorIpTips>Błędny adres IP. Wpisz ponownie.</InputErrorIpTips>
+			<IpChanExistTips>Ta kamera IP już istnieje.</IpChanExistTips>
+			<ChannelsAddTips> można dodać kanały, wybierz ponownie.</ChannelsAddTips>
+			<ChannelExistTips> Kanał 1 już istnieje.</ChannelExistTips>
+		</Js>
+		<General>
+			<geAdminPassword>Hasło administratora</geAdminPassword>
+		</General>
+	</DigitalChan>
+	<ZeroChan>
+		<Page>
+			<laSpanTitle>Ustawienia kanału 0</laSpanTitle>
+			<laZeroChanEncode>Kodowanie kanału 0</laZeroChanEncode>
+			<laconstantBitRate>Maksymalny bitrate</laconstantBitRate>
+			<laVideoFramerate>Maks. liczba klatek</laVideoFramerate>
+			<laSplitMode>Tryb</laSplitMode>
+			<laSplitTime>Czas sekw.</laSplitTime>
+			<laTimeMode1>Wyl. przelaczanie</laTimeMode1>
+			<laChanOrder>Układ kamer</laChanOrder>
+			<defaultOrder>Fabr.</defaultOrder>
+		</Page>
+		<Js>
+		</Js>
+	</ZeroChan>
+</ChannelConfig>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Zive zobr.</title>
+		<voiceTalk>Spustit dvoucestné audio</voiceTalk>
+		<StopvoiceTalk>Zastavit hlas. přenos</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Dvoucestný audio kanál</laTalkNum>
+		<laLight>Světlo</laLight>
+		<laWiper>Stěrač</laWiper>
+		<laOneKeyFocus>Ostřit jedním dotykem</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Parametry videa</laVideoEffect>
+		<Patrol>Hlídka</Patrol>
+		<laTrack>Cesta</laTrack>
+		<laPatrolTime tag="label;" length="75">Čas hlídky</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Rychlost hlídky</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Přidat cestu hlídky</laAddPatrolPath>
+		<raVideoParamMode1>Standard</raVideoParamMode1>
+		<raVideoParamMode2>Vnitrni</raVideoParamMode2>
+		<raVideoParamMode3>Venkovni</raVideoParamMode3>
+		<raVideoParamMode4>Mat. světlo</raVideoParamMode4>
+		<laNoiseReduce>Odstranění šumu</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Zastavit akt. zobrazení</stoppreview>
+		<recordfailed>Záznam neúspěšný.</recordfailed>
+		<stoprecord>Zastavit záznam</stoprecord>
+		<jsSetVideoParam>Nastavení video parametrů nebylo úspěšné.</jsSetVideoParam>
+		<jsNetError>Akce selhala nebo nemáte oprávnění.</jsNetError>
+		<VoiceTalkFailed>Dvoucestné audio selhalo.</VoiceTalkFailed>
+		<ChooseTalkChan>Zvolte prosím hlasový kanál.</ChooseTalkChan>
+		<jsRecordSucc>Záznam proběhl úspěšně</jsRecordSucc>
+		<jsRecordAllSucc>Všechny záznamy úspěšné</jsRecordAllSucc>
+		<Start>Spustit</Start>
+		<StartSave>Spustit záznam</StartSave>
+		<StopSave>Zastavit záznam</StopSave>
+		<Start3DZoom>Spustit 3D zoom</Start3DZoom>
+		<Stop3DZoom>Zastavit 3D zoom</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Zastavit všechna akt. zobrazení</geStopAllViewing>
+	</General>
+</Preview>

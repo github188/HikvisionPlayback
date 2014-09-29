@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Holiday Settings</laSpanTitle>
+		<laPrompt>The periods of holiday cannot be overlapped.</laPrompt>
+		<laHolidayName>Holiday Name</laHolidayName>
+		<laHolidayFun>Enable Holiday</laHolidayFun>
+		<HolidayTypeOpt1>By Date</HolidayTypeOpt1>
+		<HolidayTypeOpt2>By Week</HolidayTypeOpt2>
+		<HolidayTypeOpt3>By Month</HolidayTypeOpt3>
+		<laStartDate>Start Date</laStartDate>
+		<laEndDate>End Date</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Edit Holiday</EditHolidayTips>
+		<LastTips>Last</LastTips>
+		<DayTips>Date</DayTips>
+		<MonthTips>Month</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Преглед на живо</title>
+		<voiceTalk>Старт гласова линия</voiceTalk>
+		<StopvoiceTalk>Стоп гласова линия</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Двупосочен Аудио Канал</laTalkNum>
+		<laLight>Лампа</laLight>
+		<laWiper>Чистачки</laWiper>
+		<laOneKeyFocus>Бърз фокус</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Видео параметри</laVideoEffect>
+		<Patrol>Патрул</Patrol>
+		<laTrack>Път</laTrack>
+		<laPatrolTime tag="label;" length="75">Време патрул</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Скорост патрул</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Добавяне път патрул</laAddPatrolPath>
+		<raVideoParamMode1>Станд.</raVideoParamMode1>
+		<raVideoParamMode2>На закр.</raVideoParamMode2>
+		<raVideoParamMode3>На откр.</raVideoParamMode3>
+		<raVideoParamMode4>Слабо осветл.</raVideoParamMode4>
+		<laNoiseReduce>Отстр. шум</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Стоп на живо</stoppreview>
+		<recordfailed>Неуспешен запис</recordfailed>
+		<stoprecord>Стоп Запис</stoprecord>
+		<jsSetVideoParam>Неуспешна настр. видео параметри</jsSetVideoParam>
+		<jsNetError>Неуспешна операция или нямате права.</jsNetError>
+		<VoiceTalkFailed>Неуспешно използване на двупосочно аудио.</VoiceTalkFailed>
+		<ChooseTalkChan>Моля, изберете гласов канал</ChooseTalkChan>
+		<jsRecordSucc>Успешен запис.</jsRecordSucc>
+		<jsRecordAllSucc>Всички записи са успешни.</jsRecordAllSucc>
+		<Start>Старт</Start>
+		<StartSave>Старт Запис</StartSave>
+		<StopSave>Стоп Запис</StopSave>
+		<Start3DZoom>Стартиране на 3D-мащабиране</Start3DZoom>
+		<Stop3DZoom>Спиране на 3D-мащабиране</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Спри всичко на живо</geStopAllViewing>
+	</General>
+</Preview>

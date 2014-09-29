@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelConfig>
+	<AnalogChan>
+		<Page>
+			<laSpanTitle>Analog Camera</laSpanTitle>
+		</Page>
+		<Js>
+		</Js>
+	</AnalogChan>
+	
+	<DigitalChan>
+		<Page>
+			<laSpanTitle>IP Camera</laSpanTitle>
+			<laIpChanAddress>IP Camera Address</laIpChanAddress>
+			<laDevicePort>Management Port</laDevicePort>
+			<laProtocol>Protocol</laProtocol>
+			<laIpChanNum>IP Camera No.</laIpChanNum>
+			<laRegModeType>Registration Mode</laRegModeType>
+			<RegModeTypeOpt>Domain Name</RegModeTypeOpt>
+			<laQuickAdd>Quick Add</laQuickAdd>
+			<laMaskAddress>Subnet Mask</laMaskAddress>
+			<laSerialNo>Serial No.</laSerialNo>
+			<laFirmware>Firmware Version</laFirmware>
+			<laDeviceChan>Channel No.</laDeviceChan>
+		</Page>
+		<Js>
+			<HostNameTips>Domain</HostNameTips>
+			<OnLineTips>Online</OnLineTips>
+			<DeleteIpcTips>Delete IP channel information?</DeleteIpcTips>
+			<DeleteErrorTips>Deletion failed.</DeleteErrorTips>
+			<NoOperationTips>No permission.</NoOperationTips>
+			<InputIpTips>Please enter the IP address.</InputIpTips>
+			<InputRightIpTips>Please enter the correct IP address.</InputRightIpTips>
+			<InputErrorIpTips>Incorrect IP address. Please enter again.</InputErrorIpTips>
+			<IpChanExistTips>This IP camera already exists.</IpChanExistTips>
+			<ChannelsAddTips> channels can be added, please re-select.</ChannelsAddTips>
+			<ChannelExistTips> Channel 1 exists.</ChannelExistTips>
+		</Js>
+		<General>
+			<geAdminPassword>Admin Password</geAdminPassword>
+		</General>
+	</DigitalChan>
+	
+	<ZeroChan>
+		<Page>
+			<laSpanTitle>Channel-zero Settings</laSpanTitle>
+			<laZeroChanEncode>Enable Channel-zero Encoding</laZeroChanEncode>
+			<laconstantBitRate>Max. Bitrate</laconstantBitRate>
+			<laVideoFramerate>Max. Frame Rate</laVideoFramerate>
+		    <laSplitMode>Mode</laSplitMode>
+		    <laSplitTime>Dwell Time</laSplitTime>
+		    <laTimeMode1>No Switch</laTimeMode1>
+		    <laChanOrder>Camera Order</laChanOrder>
+		    <defaultOrder>Default</defaultOrder>	
+		</Page>
+		<Js>
+		</Js>
+	</ZeroChan>
+</ChannelConfig>

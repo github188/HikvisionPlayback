@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<Log>
+	<Page>
+		<title>Αρχ. καταγρ. αναζητ.</title>
+		<laLogSearch tag="label;" length="196">Αρχ. καταγρ. αναζητ.</laLogSearch>
+		<laSaveLog tag="label;" length="216">Αποθ. αρχ. καταγραφής</laSaveLog>
+		<laLogTime tag="label;" length="131">Ώρα αρχείου καταγραφής</laLogTime>
+		<laLogMajorType tag="label;" length="109">Κύριος τύπος</laLogMajorType>
+		<laLogMinorType tag="label;" length="109">Δευτ. τύπος</laLogMinorType>
+		<laLogRemoteUser tag="label;" length="109">Τοπ./Απομ. χρήστης </laLogRemoteUser>
+		<laLogRemoteIP tag="label;" length="109">IP απομ. κεντρ. υπ.</laLogRemoteIP>
+		<laLogLocalUser>Τοπ. χρήστης</laLogLocalUser>
+		<ImgSearch>Αναζήτηση</ImgSearch>
+		<MajorTypeOptions>
+			<MajorTypeOpt1 tag="option;" length="198">Όλοι οι τύποι</MajorTypeOpt1>
+			<MajorTypeOpt2 tag="option;" length="198">Συναγερμός</MajorTypeOpt2>
+			<MajorTypeOpt4 tag="option;" length="198">Χειρισμός</MajorTypeOpt4>
+		</MajorTypeOptions>
+		<MinorTypeAlarm>
+			<MinorTypeAlarmOpt1>All:Όλοι οι τύποι</MinorTypeAlarmOpt1>
+			<MinorTypeAlarmOpt2>alarmIn:Είσ. συναγ.</MinorTypeAlarmOpt2>
+			<MinorTypeAlarmOpt3>alarmOut:Έξ. συναγ.</MinorTypeAlarmOpt3>
+			<MinorTypeAlarmOpt4>motionStart:Έν. ανίχν. κίν.</MinorTypeAlarmOpt4>
+			<MinorTypeAlarmOpt5>motionStop:Διακ. ανίχν. κίν.</MinorTypeAlarmOpt5>
+			<MinorTypeAlarmOpt6>hideStart:Έν. ανίχν. παραβ.</MinorTypeAlarmOpt6>
+			<MinorTypeAlarmOpt7>hideStop:Τέλ. ανίχν. παραβ.</MinorTypeAlarmOpt7>
+			<MinorTypeAlarmOpt8>vcaStart:Έναρξη συναγ. VCA</MinorTypeAlarmOpt8>
+			<MinorTypeAlarmOpt9>vcaStop:Παύση συναγ. VCA</MinorTypeAlarmOpt9>
+			<pirStart>Έναρξη συναγερμού PIR</pirStart>
+			<pirStop>Διακοπή συναγερμού PIR</pirStop>
+			<wlsensorStart>Έναρξη ασύρματου συναγερμού</wlsensorStart>
+			<wlsensorStop>Διακοπή ασύρματου συναγερμού</wlsensorStop>
+			<callhelpStart>Έναρξη συναγ. έκτ. αν</callhelpStart>
+			<callhelpStop>Διακ. συναγ. έκτ. αν</callhelpStop>
+		</MinorTypeAlarm>
+		<MinorTypeException>
+			<MinorTypeExpOpt1>All:Όλοι οι τύποι</MinorTypeExpOpt1>
+			<MinorTypeExpOpt2>videoLost: Απώλ. σήμ. βίντεο</MinorTypeExpOpt2>
+			<MinorTypeExpOpt3>illlegealAccess: Μη εξουσ. σύνδ.</MinorTypeExpOpt3>
+			<MinorTypeExpOpt4>hdFull:Σκλ. δίσκ. γεμ</MinorTypeExpOpt4>
+			<MinorTypeExpOpt5>hdError:Σφάλμα σκλ. δίσκ.</MinorTypeExpOpt5>
+			<MinorTypeExpOpt6>netBroken:Δίκτυο αποσ.</MinorTypeExpOpt6>
+			<MinorTypeExpOpt7>recordError:Σφάλμα εγγρ./καταγρ.</MinorTypeExpOpt7>
+			<MinorTypeExpOpt8>ipConflict:Διέν. διευθ. IP</MinorTypeExpOpt8>
+			<MinorTypeExpOpt9>videoException: Εξαίρ. σήμ. βίντεο</MinorTypeExpOpt9>
+			<MinorTypeExpOpt10>videoFormatMismatch: Ασυμφ. προτ. εισ./εξ. βίντεο</MinorTypeExpOpt10>
+			<MinorTypeExpOpt11>ipcDisconnect:Αποσύνδ. κάμ. IP</MinorTypeExpOpt11>
+			<MinorTypeExpOpt12>ipcIpConfilict:Διέν. διευθ. καμ. IP</MinorTypeExpOpt12>
+			<MinorTypeExpOpt13>viAndResMismatch: Ασυμφ. ανάλ.</MinorTypeExpOpt13>
+		</MinorTypeException>
+		<MinorTypeInformation>
+			<MinorTypeInforOpt1>All:Όλοι οι τύποι</MinorTypeInforOpt1>
+			<MinorTypeInforOpt2>hddInfo:Πληρ. σκλ. δίσκ.</MinorTypeInforOpt2>
+			<MinorTypeInforOpt3>startRec:Έν. εγγρ.</MinorTypeInforOpt3>
+			<MinorTypeInforOpt4>stopRec: Παύση Εγγραφής</MinorTypeInforOpt4>
+			<MinorTypeInforOpt5>delExpiredRec:Διαγρ. ληγμ. αρχ. βίντ.</MinorTypeInforOpt5>
+			<MinorTypeInforOpt6>nasInfo:Πληρ. δικτ. σκλ. δίσκ.</MinorTypeInforOpt6>
+			<MinorTypeInforOpt7>smartInfo:Πληρ. S.M.A.R.T.</MinorTypeInforOpt7>
+			<MinorTypeInforOpt8>startPic:Έν. καταγρ.</MinorTypeInforOpt8>
+			<MinorTypeInforOpt9>stopPic:Διακ. καταγρ.</MinorTypeInforOpt9>
+			<MinorTypeInforOpt10>raidInfo:RAID</MinorTypeInforOpt10>
+		</MinorTypeInformation>
+		<MinorTypeOperation>
+			<MinorTypeOperationOpt1>All:Όλοι οι τύποι</MinorTypeOperationOpt1>
+			<MinorTypeOperationOpt2>devicePowerOn:Ενεργ. τροφ.</MinorTypeOperationOpt2>
+			<MinorTypeOperationOpt3>stopAbnormal:Μη ομαλός τερμ. λειτ.</MinorTypeOperationOpt3>
+			<MinorTypeOperationOpt4>remotePowerOff:Εξ. απ.: Τερμ. λειτ.</MinorTypeOperationOpt4>
+			<MinorTypeOperationOpt5>remotePowerRecycle:Εξ απ.: Επαν.</MinorTypeOperationOpt5>
+			<MinorTypeOperationOpt6>remoteLogin:Εξ. απ.: Σύνδ.</MinorTypeOperationOpt6>
+			<MinorTypeOperationOpt7>remoteLogout:Εξ απ.: Αποσ.</MinorTypeOperationOpt7>
+			<MinorTypeOperationOpt8>remoteCfgPara:Εξ. απ.: Ρύθμ. παραμ.</MinorTypeOperationOpt8>
+			<MinorTypeOperationOpt9>remoteUpgrade:Εξ απ.: Αναβ</MinorTypeOperationOpt9>
+			<MinorTypeOperationOpt10>remoteStartRec:Εξ απ.: Έν. εγγρ.</MinorTypeOperationOpt10>
+			<MinorTypeOperationOpt11>remoteStopRec:Εξ απ.: Διακ. εγγρ.</MinorTypeOperationOpt11>
+			<MinorTypeOperationOpt12>remoteCtrlPtz:Εξ απ.: Έλεγχ. PTZ</MinorTypeOperationOpt12>
+			<MinorTypeOperationOpt13>remoteLockFile:Εξ απ.: Κλείδ. αρχ.</MinorTypeOperationOpt13>
+			<MinorTypeOperationOpt14>remoteUnlockFile:Εξ. απ.: Ξεκλείδ. αρχ.</MinorTypeOperationOpt14>
+			<MinorTypeOperationOpt15>remoteManulAlarm:Εξ απ.: Ενεργ. εξ. συν.</MinorTypeOperationOpt15>
+			<MinorTypeOperationOpt16>remoteFormatHd:Εξ. απ.: Αρχικ. σκλ. δίσκ.</MinorTypeOperationOpt16>
+			<MinorTypeOperationOpt17>remotePlayByFile:Εξ. απ.: Αναπαρ. κατά αρχείο</MinorTypeOperationOpt17>
+			<MinorTypeOperationOpt18>remotePlayByTime:Εξ. απ.: Αναπαρ. βάσει χρόνου</MinorTypeOperationOpt18>
+			<MinorTypeOperationOpt19>remoteDownloadCfgFile:Εξ. απ.: Εξαγ. αρχ. παραμ.</MinorTypeOperationOpt19>
+			<MinorTypeOperationOpt20>remoteUploadCfgFile:Εξ. απ.: Εισαγ. αρχ. παραμ.</MinorTypeOperationOpt20>
+			<MinorTypeOperationOpt21>remoteDownloadRecFile:Εξ. απ.: Εξαγ. αρχ. εγγρ.</MinorTypeOperationOpt21>
+			<MinorTypeOperationOpt22>remotePicBackUp:Εξ. απ.: Εξαγ. αρχ. εικ.</MinorTypeOperationOpt22>
+			<MinorTypeOperationOpt23>remoteGetPara:Εξ. απ.: Λήψη παραμ.</MinorTypeOperationOpt23>
+			<MinorTypeOperationOpt24>remoteGetStatus:Εξ. απ.: Λήψη κατ. εργασ.</MinorTypeOperationOpt24>
+			<MinorTypeOperationOpt25>remoteStartTransChan:Σύνδ. διαφ. καν.</MinorTypeOperationOpt25>
+			<MinorTypeOperationOpt26>remoteStopTransChan:Αποσ. διαφ. καν.</MinorTypeOperationOpt26>
+			<MinorTypeOperationOpt27>startVoiceTalk:Έν. αμφ. ήχου</MinorTypeOperationOpt27>
+			<MinorTypeOperationOpt28>stopVoiceTalk:Διακ. αμφ. ήχου</MinorTypeOperationOpt28>
+			<MinorTypeOperationOpt29>remoteArm:Εξ. απ.: Όπλ. συναγ.</MinorTypeOperationOpt29>
+			<MinorTypeOperationOpt30>remoteDisArm:Εξ. απ.: Αφόπλ. συναγ.</MinorTypeOperationOpt30>
+			<MinorTypeOperationOpt31>remoteAddNas:Εξ απ.: Προσθ. δικτ. σκλ. δίσκ.</MinorTypeOperationOpt31>
+			<MinorTypeOperationOpt32>remoteDelNas:Εξ απ.: Διαγρ. δικτ. σκλ. δίσκ.</MinorTypeOperationOpt32>
+			<MinorTypeOperationOpt33>remoteSetNas:Εξ απ.: Ορ. δικτ. σκλ. δίσκ.</MinorTypeOperationOpt33>
+			<MinorTypeOperationOpt34>remoteStartPicRec:Εξ απ.: Έν. κατ. εικ.</MinorTypeOperationOpt34>
+			<MinorTypeOperationOpt35>remoteStopPicRec:Εξ απ.: Διακ. κατ. εικ.</MinorTypeOperationOpt35>
+			<MinorTypeOperationOpt36>remoteTagOperation:Εξ. απ.: Χειρ. ετικ.</MinorTypeOperationOpt36>
+			<MinorTypeOperationOpt37>remoteAddIpc:Εξ απ.: Προσθ. κάμ. IP</MinorTypeOperationOpt37>
+			<MinorTypeOperationOpt38>remoteDelIpc:Εξ απ.: Διαγρ. κάμ. IP </MinorTypeOperationOpt38>
+			<MinorTypeOperationOpt39>remoteSetIpc:Εξ απ.: Ορ. κάμ. IP </MinorTypeOperationOpt39>
+			<MinorTypeOperationOpt40>remoteSetSnmp:Εξ. απ.: Ρύθμ. SNMP</MinorTypeOperationOpt40>
+			<DVR>
+				<DVRMinorTypeOperationOpt1>All:Όλοι οι τύποι</DVRMinorTypeOperationOpt1>
+				<DVRMinorTypeOperationOpt2>devicePowerOn:Ενεργ. τροφ.</DVRMinorTypeOperationOpt2>
+				<DVRMinorTypeOperationOpt3>devicePowerOff:Τοπ.: Τερμ. λειτ.</DVRMinorTypeOperationOpt3>
+				<DVRMinorTypeOperationOpt4>deviceRecycle:Τοπ.: Επανεκκ.</DVRMinorTypeOperationOpt4>
+				<DVRMinorTypeOperationOpt5>stopAbnormal:Τοπ.:Μη ομαλός τερμ. λειτ.</DVRMinorTypeOperationOpt5>
+				<DVRMinorTypeOperationOpt6>localLogin:Τοπ.: Σύνδεση</DVRMinorTypeOperationOpt6>
+				<DVRMinorTypeOperationOpt7>localLogOut:Τοπ.: Αποσ.</DVRMinorTypeOperationOpt7>
+				<DVRMinorTypeOperationOpt8>localCfgPara:Τοπ.: Ρύθμ. παραμ.</DVRMinorTypeOperationOpt8>
+				<DVRMinorTypeOperationOpt9>localUpdate:Τοπ.: Αναβ.</DVRMinorTypeOperationOpt9>
+				<DVRMinorTypeOperationOpt10>localStartRec:Τοπ.: Έν. εγγρ.</DVRMinorTypeOperationOpt10>
+				<DVRMinorTypeOperationOpt11>localStopRec:Τοπ.: Διακ. εγγρ.</DVRMinorTypeOperationOpt11>
+				<DVRMinorTypeOperationOpt12>localStartPicRec:Τοπ.: Έν. καταγρ.</DVRMinorTypeOperationOpt12>
+				<DVRMinorTypeOperationOpt13>localStopPicRec:Τοπ.: Διακ. καταγρ.</DVRMinorTypeOperationOpt13>
+				<DVRMinorTypeOperationOpt14>localCtrlPtz:Τοπ.: Έλ. PTZ</DVRMinorTypeOperationOpt14>
+				<DVRMinorTypeOperationOpt15>localLockFile:Τοπ.: Κλείδ. αρχ.</DVRMinorTypeOperationOpt15>
+				<DVRMinorTypeOperationOpt16>localUnlockFile:Τοπ.: Ξεκλ. αρχ.</DVRMinorTypeOperationOpt16>
+				<DVRMinorTypeOperationOpt17>localManulAlarm:Τοπ.: Έναρξη συναγ.</DVRMinorTypeOperationOpt17>
+				<DVRMinorTypeOperationOpt18>localFormatDisk:Τοπ.: Αρχικ. σκλ. δίσκ.</DVRMinorTypeOperationOpt18>
+				<DVRMinorTypeOperationOpt19>localPlayByFile:Τοπ.: Αναπαρ. κατά αρχείο</DVRMinorTypeOperationOpt19>
+				<DVRMinorTypeOperationOpt20>localPlayByTime:Τοπ.: Αναπαρ. βάσει χρόνου</DVRMinorTypeOperationOpt20>
+				<DVRMinorTypeOperationOpt21>localDownloadCfgFile: Τοπ.: Εξαγ. αρχ. παραμ.</DVRMinorTypeOperationOpt21>
+				<DVRMinorTypeOperationOpt22>localUploadCfgFile:Τοπ.: Εισαγ. αρχ. παραμ.</DVRMinorTypeOperationOpt22>
+				<DVRMinorTypeOperationOpt23>localDownloadRecFile:Τοπ.: Εξαγ. αρχ. εγγρ.</DVRMinorTypeOperationOpt23>
+				<DVRMinorTypeOperationOpt24>localDownloadPicFile:Τοπ.: Εξαγ. αρχ. εικ.</DVRMinorTypeOperationOpt24>
+				<DVRMinorTypeOperationOpt25>localAddNas:Τοπ.: Πρoσθ. δικτ. σκλ. δίσκου</DVRMinorTypeOperationOpt25>
+				<DVRMinorTypeOperationOpt26>localDelNas:Τοπ.: Διαγρ. δικτ. σκλ. δίσκου</DVRMinorTypeOperationOpt26>
+				<DVRMinorTypeOperationOpt27>localSetNas:Τοπ.: Ορ. δικτ. σκλ. δίσκ.</DVRMinorTypeOperationOpt27>
+				<DVRMinorTypeOperationOpt28>localResetPasswd:Τοπ.: Επαν. κωδ. πρ. διαχ.</DVRMinorTypeOperationOpt28>
+				<DVRMinorTypeOperationOpt29>localTagOperation:Τοπ.: Χειρ. ετικ.</DVRMinorTypeOperationOpt29>
+				<DVRMinorTypeOperationOpt30>remotePowerOff:Εξ. απ.: Τερμ. λειτ.</DVRMinorTypeOperationOpt30>
+				<DVRMinorTypeOperationOpt31>remotePowerRecycle:Εξ απ.: Επαν.</DVRMinorTypeOperationOpt31>
+				<DVRMinorTypeOperationOpt32>remoteLogin:Εξ. απ.: Σύνδ.</DVRMinorTypeOperationOpt32>
+				<DVRMinorTypeOperationOpt33>remoteLogout:Εξ απ.: Αποσ.</DVRMinorTypeOperationOpt33>
+				<DVRMinorTypeOperationOpt34>remoteCfgPara:Εξ. απ.: Ρύθμ. παραμ.</DVRMinorTypeOperationOpt34>
+				<DVRMinorTypeOperationOpt35>remoteUpgrade:Εξ απ.: Αναβ</DVRMinorTypeOperationOpt35>
+				<DVRMinorTypeOperationOpt36>remoteStartRec:Εξ απ.: Έν. εγγρ.</DVRMinorTypeOperationOpt36>
+				<DVRMinorTypeOperationOpt37>remoteStopRec:Εξ απ.: Διακ. εγγρ.</DVRMinorTypeOperationOpt37>
+				<DVRMinorTypeOperationOpt38>remoteCtrlPtz:Εξ απ.: Έλεγχ. PTZ</DVRMinorTypeOperationOpt38>
+				<DVRMinorTypeOperationOpt39>remoteLockFile:Εξ απ.: Κλείδ. αρχ.</DVRMinorTypeOperationOpt39>
+				<DVRMinorTypeOperationOpt40>remoteUnlockFile:Εξ. απ.: Ξεκλείδ. αρχ.</DVRMinorTypeOperationOpt40>
+				<DVRMinorTypeOperationOpt41>remoteManulAlarm:Εξ απ.: Ενεργ. εξ. συν.</DVRMinorTypeOperationOpt41>
+				<DVRMinorTypeOperationOpt42>remoteFormatHd:Εξ. απ.: Αρχικ. σκλ. δίσκ.</DVRMinorTypeOperationOpt42>
+				<DVRMinorTypeOperationOpt43>remotePlayByFile:Εξ. απ.: Αναπαρ. κατά αρχείο</DVRMinorTypeOperationOpt43>
+				<DVRMinorTypeOperationOpt44>remotePlayByTime:Εξ. απ.: Αναπαρ. βάσει χρόνου</DVRMinorTypeOperationOpt44>
+				<DVRMinorTypeOperationOpt45>remoteDownloadCfgFile:Εξ. απ.: Εξαγ. αρχ. παραμ.</DVRMinorTypeOperationOpt45>
+				<DVRMinorTypeOperationOpt46>remoteUploadCfgFile:Εξ. απ.: Εισαγ. αρχ. παραμ.</DVRMinorTypeOperationOpt46>
+				<DVRMinorTypeOperationOpt47>remoteDownloadRecFile:Εξ. απ.: Εξαγ. αρχ. εγγρ.</DVRMinorTypeOperationOpt47>
+				<DVRMinorTypeOperationOpt48>remotePicBackUp:Εξ. απ.: Εξαγ. αρχ. εικ.</DVRMinorTypeOperationOpt48>
+				<DVRMinorTypeOperationOpt49>remoteGetPara:Εξ. απ.: Λήψη παραμ.</DVRMinorTypeOperationOpt49>
+				<DVRMinorTypeOperationOpt50>remoteGetStatus:Εξ. απ.: Λήψη κατ. εργασ.</DVRMinorTypeOperationOpt50>
+				<DVRMinorTypeOperationOpt51>remoteStartTransChan:Σύνδ. διαφ. καν.</DVRMinorTypeOperationOpt51>
+				<DVRMinorTypeOperationOpt52>remoteStopTransChan:Αποσ. διαφ. καν.</DVRMinorTypeOperationOpt52>
+				<DVRMinorTypeOperationOpt53>startVoiceTalk:Έν. αμφ. ήχου</DVRMinorTypeOperationOpt53>
+				<DVRMinorTypeOperationOpt54>stopVoiceTalk:Διακ. αμφ. ήχου</DVRMinorTypeOperationOpt54>
+				<DVRMinorTypeOperationOpt55>remoteArm:Εξ. απ.: Όπλ. συναγ.</DVRMinorTypeOperationOpt55>
+				<DVRMinorTypeOperationOpt56>remoteDisArm:Εξ. απ.: Αφόπλ. συναγ.</DVRMinorTypeOperationOpt56>
+				<DVRMinorTypeOperationOpt57>remoteAddNas:Εξ απ.: Προσθ. δικτ. σκλ. δίσκ.</DVRMinorTypeOperationOpt57>
+				<DVRMinorTypeOperationOpt58>remoteDelNas:Εξ απ.: Διαγρ. δικτ. σκλ. δίσκ.</DVRMinorTypeOperationOpt58>
+				<DVRMinorTypeOperationOpt59>remoteSetNas:Εξ απ.: Ορ. δικτ. σκλ. δίσκ.</DVRMinorTypeOperationOpt59>
+				<DVRMinorTypeOperationOpt60>remoteStartPicRec:Εξ απ.: Έν. κατ. εικ.</DVRMinorTypeOperationOpt60>
+				<DVRMinorTypeOperationOpt61>remoteStopPicRec:Εξ απ.: Διακ. κατ. εικ.</DVRMinorTypeOperationOpt61>
+				<DVRMinorTypeOperationOpt62>remoteTagOperation:Εξ. απ.: Χειρ. ετικ.</DVRMinorTypeOperationOpt62>
+				<DVRMinorTypeOperationOpt63>localAddIpc:Τοπ.: Προσθ. κάμ. IP</DVRMinorTypeOperationOpt63>
+				<DVRMinorTypeOperationOpt64>localDelIpc:Τοπ.: Διαγρ.  κάμ. IP</DVRMinorTypeOperationOpt64>
+				<DVRMinorTypeOperationOpt65>localSetIpc:Τοπ.: Ορ. κάμ. IP </DVRMinorTypeOperationOpt65>
+				<DVRMinorTypeOperationOpt66>remoteAddIpc:Εξ απ.: Προσθ. κάμ. IP</DVRMinorTypeOperationOpt66>
+				<DVRMinorTypeOperationOpt67>remoteDelIpc:Εξ απ.: Διαγρ. κάμ. IP </DVRMinorTypeOperationOpt67>
+				<DVRMinorTypeOperationOpt68>remoteSetIpc:Εξ απ.: Ορ. κάμ. IP </DVRMinorTypeOperationOpt68>
+				<DVRMinorTypeOperationOpt69>localSetSnmp:Τοπ.: Ρύθμ. SNMP</DVRMinorTypeOperationOpt69>
+				<DVRMinorTypeOperationOpt70>remoteSetSnmp:Εξ. απ.: Ρύθμ. SNMP</DVRMinorTypeOperationOpt70>
+			</DVR>
+		</MinorTypeOperation>
+	</Page>
+	<Js>
+		<szTips1>Търсене лог приключено.</szTips1>
+		<szTips3>Η αναζήτηση απέτυχε.</szTips3>
+		<szTips5>Αποτυχία δημιουργίας αρχείου.</szTips5>
+		<Alarm>Συναγερμός</Alarm>
+		<motionStart>Έν. ανίχν. κίν.</motionStart>
+		<motionStop>Διακ. ανίχν. κίν.</motionStop>
+		<hideStart>Έν. ανίχν. παραβ.</hideStart>
+		<hideStop>Τέλ. ανίχν. παραβ.</hideStop>
+		<vcaStart>Έναρξη συναγ. VCA</vcaStart>
+		<vcaStop>Παύση συναγ. VCA</vcaStop>
+		<videoException>Εξ. σήμ. βίντ</videoException>
+		<videoFormatMismatch>Ασυμφ. προτ. εισ./εξ. βίντεο</videoFormatMismatch>
+		<viAndResMismatch>Ασυμφ. ανάλ.</viAndResMismatch>
+		<ipcDisconnect>Αποσύνδ. κάμ. IP</ipcDisconnect>
+		<ipcIpConfilict>Διέν. διευθ. καμ. IP</ipcIpConfilict>
+		<illlegealAccess>Παράν. σύνδ.</illlegealAccess>
+		<netBroken>Δίκτυο αποσ.</netBroken>
+		<recordError>Εξαίρ. εγγρ./καταγρ.</recordError>
+		<ipConflict>Διέν. διευθ. IP</ipConflict>
+		<Infomation>Πληροφορίες</Infomation>
+		<hddInfo>Πληρ. σκλ. δίσκ.</hddInfo>
+		<smartInfo>Πληρ. S.M.A.R.T.</smartInfo>
+		<startRec>Έν εγγραφής</startRec>
+		<stopRec>Διακοπή εγγραφής</stopRec>
+		<delExpiredRec>Διαγρ. ληγμ. αρχ. βίντ.</delExpiredRec>
+		<nasInfo>Πληρ. δικτ. σκλ. δίσκ.</nasInfo>
+		<startPic>Έν. καταγραφ</startPic>
+		<stopPic>Διακ. καταγρ </stopPic>
+		<raidInfo>RAID</raidInfo>
+		<Operation>Χειρισμός</Operation>
+		<devicePowerOn>Ενεργ. τροφ.</devicePowerOn>
+		<devicePowerOff>Τοπ.: Τερμ. λειτ.</devicePowerOff>
+		<deviceRecycle>Τοπ.: Επανεκκ.</deviceRecycle>
+		<stopAbnormal>Τοπ.: Μη ομαλός τερμ. λειτ.</stopAbnormal>
+		<localLogin>Τοπ.: Σύνδεση</localLogin>
+		<localLogOut>Τοπ.: Αποσ.</localLogOut>
+		<localCfgPara>Τοπ.: Ρύθμ. παραμ.</localCfgPara>
+		<localUpdate>Τοπ.: Αναβ.</localUpdate>
+		<localStartRec>Τοπ.: Έν. εγγρ.</localStartRec>
+		<localStopRec>Τοπ.: Διακ. εγγρ.</localStopRec>
+		<localStartPicRec>Τοπ.: Έν. καταγρ.</localStartPicRec>
+		<localStopPicRec>Τοπ.: Διακ. καταγρ.</localStopPicRec>
+		<localCtrlPtz>Τοπ.: Έλ. PTZ</localCtrlPtz>
+		<localLockFile>Τοπ.: Κλείδ. αρχ.</localLockFile>
+		<localUnlockFile>Τοπ.: Ξεκλ. αρχ.</localUnlockFile>
+		<localManulAlarm>Τοπ.: Έναρξη συναγ.</localManulAlarm>
+		<localFormatDisk>Τοπ.: Αρχικ. σκλ. δίσκ.</localFormatDisk>
+		<localAddIpc>Τοπ.: Προσθ. κάμ. IP</localAddIpc>
+		<localDelIpc>Τοπ.: Διαγρ.  κάμ. IP</localDelIpc>
+		<localSetIpc>Τοπ.: Ορ. κάμ. IP </localSetIpc>
+		<localPlayByFile>Τοπ.: Αναπαρ. κατά αρχείο</localPlayByFile>
+		<localPlayByTime>Τοπ.: Αναπαρ. βάσει χρόνου</localPlayByTime>
+		<localDownloadCfgFile>Τοπ.: Εξαγ. αρχ. παραμ.</localDownloadCfgFile>
+		<localUploadCfgFile>Τοπ.: Εισαγ. αρχ. παραμ.</localUploadCfgFile>
+		<localDownloadRecFile>Τοπ.: Εξαγ. αρχ. εγγρ.</localDownloadRecFile>
+		<localDownloadPicFile>Τοπ.: Εξαγ. αρχ. εικ.</localDownloadPicFile>
+		<localAddNas>Τοπ.: Πρoσθ. δικτ. σκλ. δίσκου</localAddNas>
+		<localDelNas>Τοπ.: Διαγρ. δικτ. σκλ. δίσκου</localDelNas>
+		<localSetNas>Τοπ.: Ορ. δικτ. σκλ. δίσκ.</localSetNas>
+		<localSetSnmp>Τοπ.: Ρύθμ. SNMP</localSetSnmp>
+		<localResetPasswd>Τοπ.: Επαν. κωδ. πρ. διαχ.</localResetPasswd>
+		<localTagOperation>Τοπ.: Χειρ. ετικ.</localTagOperation>
+		<remotePowerOff>Εξ. απ.: Τερμ. λειτ.</remotePowerOff>
+		<remotePowerRecycle>Εξ απ.: Επαν</remotePowerRecycle>
+		<remoteLogin>Εξ. απ.: Σύνδεση</remoteLogin>
+		<remoteLogout>Εξ απ.: Αποσ</remoteLogout>
+		<remoteCfgPara>Εξ. απ.: Ρύθμ. παραμ.</remoteCfgPara>
+		<remoteUpgrade>Εξ απ.: Αναβ</remoteUpgrade>
+		<remoteStartRec>Εξ απ.: Έν. εγγρ.</remoteStartRec>
+		<remoteStopRec>Εξ απ.: Διακ. εγγρ.</remoteStopRec>
+		<remoteCtrlPtz>Εξ απ.: Έλ PTZ</remoteCtrlPtz>
+		<remoteLockFile>Εξ απ.: Κλείδ. αρχ.</remoteLockFile>
+		<remoteUnlockFile>Εξ. απ.: Ξεκλείδ. αρχ.</remoteUnlockFile>
+		<remoteManulAlarm>Εξ απ.: Ενεργ. εξ. συν.</remoteManulAlarm>
+		<remoteFormatHd>Εξ. απ.: Αρχικ. σκλ. δίσκ.</remoteFormatHd>
+		<remoteAddIpc>Εξ απ.: Προσθ. κάμ. IP</remoteAddIpc>
+		<remoteDelIpc>Εξ απ.: Διαγρ. κάμ. IP </remoteDelIpc>
+		<remoteSetIpc>Εξ απ.: Ορ. κάμ. IP </remoteSetIpc>
+		<remotePlayByFile>Εξ. απ.: Αναπαρ. κατά αρχείο</remotePlayByFile>
+		<remotePlayByTime>Εξ. απ.: Αναπαρ. βάσει χρόνου</remotePlayByTime>
+		<remoteDownloadCfgFile>Εξ. απ.: Εξαγ. αρχ. παραμ.</remoteDownloadCfgFile>
+		<remoteUploadCfgFile>Εξ. απ.: Εισαγ. αρχ. παραμ.</remoteUploadCfgFile>
+		<remoteDownloadRecFile>Εξ. απ.: Εξαγ. αρχ. εγγρ.</remoteDownloadRecFile>
+		<remoteGetPara>Εξ. απ.: Λήψη παραμ.</remoteGetPara>
+		<remoteGetStatus>Εξ. απ.: Λήψη κατ. εργασ.</remoteGetStatus>
+		<remoteStartTransChan>Εγκ. διάφ. καν.</remoteStartTransChan>
+		<remoteStopTransChan>Αποσ. διαφ. καν.</remoteStopTransChan>
+		<startVoiceTalk>Έν. αμφ. ήχου</startVoiceTalk>
+		<stopVoiceTalk>Διακ. αμφ. ήχου</stopVoiceTalk>
+		<remoteArm>Εξ. απ.: Όπλιση συναγ.</remoteArm>
+		<remoteDisArm>Εξ. απ.: Αφόπλ. συναγ.</remoteDisArm>
+		<remoteAddNas>Εξ απ.: Προσθ. δικτ. σκλ. δίσκ.</remoteAddNas>
+		<remoteDelNas>Εξ απ.: Διαγρ. δικτ. σκλ. δίσκ.</remoteDelNas>
+		<remoteSetNas>Εξ απ.: Ορ. δικτ. σκλ. δίσκ.</remoteSetNas>
+		<remotePicBackUp>Εξ. απ.: Εξαγ. αρχ. εικ.</remotePicBackUp>
+		<remoteStartPicRec>Εξ απ.: Έν. κατ. εικ.</remoteStartPicRec>
+		<remoteStopPicRec>Εξ απ.: Διακ. κατ. εικ.</remoteStopPicRec>
+		<remoteSetSnmp>Εξ. απ.: Ρύθμ. SNMP</remoteSetSnmp>
+		<remoteTagOperation>Εξ. απ.: Χειρ. ετικ.</remoteTagOperation>
+		<ExportFailedTips>Ανεπ. εξαγ. αρχ. κατ.</ExportFailedTips>
+	</Js>
+</Log>

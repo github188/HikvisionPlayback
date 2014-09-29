@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<Log>
+	<Page>
+		<title>Events</title>
+		<laLogSearch tag="label;" length="196">Events</laLogSearch>
+		<laSaveLog tag="label;" length="216">Protokoll speichern</laSaveLog>
+		<laLogTime tag="label;" length="131">Zeit</laLogTime>
+		<laLogMajorType tag="label;" length="109">Haupttyp</laLogMajorType>
+		<laLogMinorType tag="label;" length="109">Kleinerer Typ</laLogMinorType>
+		<laLogRemoteUser tag="label;" length="109">Local/Remote-Benutzer</laLogRemoteUser>
+		<laLogRemoteIP tag="label;" length="109">Remote-Host-IP</laLogRemoteIP>
+		<laLogLocalUser>Lok. Benutzer</laLogLocalUser>
+		<ImgSearch>Suchen</ImgSearch>
+		<MajorTypeOptions>
+			<MajorTypeOpt1 tag="option;" length="198">Alle Typen</MajorTypeOpt1>
+			<MajorTypeOpt2 tag="option;" length="198">Alarm</MajorTypeOpt2>
+			<MajorTypeOpt4 tag="option;" length="198">Betrieb</MajorTypeOpt4>
+		</MajorTypeOptions>
+		<MinorTypeAlarm>
+			<MinorTypeAlarmOpt1>Alle: Alle Typen</MinorTypeAlarmOpt1>
+			<MinorTypeAlarmOpt2>Alarmeingang: Alarmeingang</MinorTypeAlarmOpt2>
+			<MinorTypeAlarmOpt3>Alarmausgang: Alarmausgang</MinorTypeAlarmOpt3>
+			<MinorTypeAlarmOpt4>motionStop: Bew.-Erkng. Starten</MinorTypeAlarmOpt4>
+			<MinorTypeAlarmOpt5>motionStop: Bew.-Erkng. stoppen</MinorTypeAlarmOpt5>
+			<MinorTypeAlarmOpt6>hideStart: Sabotageal. starten</MinorTypeAlarmOpt6>
+			<MinorTypeAlarmOpt7>hideStop: Sabotageal. stoppen</MinorTypeAlarmOpt7>
+			<MinorTypeAlarmOpt8>vcaStart: VCA-Alarm starten</MinorTypeAlarmOpt8>
+			<MinorTypeAlarmOpt9>vcaStop: VCA-Alarm stoppen</MinorTypeAlarmOpt9>
+			<pirStart>PIR Alarm starten</pirStart>
+			<pirStop>PIR Alarm stoppen</pirStop>
+			<wlsensorStart>Wireless Alarm starten</wlsensorStart>
+			<wlsensorStop>Wireless Alarm stoppen</wlsensorStop>
+			<callhelpStart>Notalarm starten</callhelpStart>
+			<callhelpStop>Notalarm stoppen</callhelpStop>
+		</MinorTypeAlarm>
+		<MinorTypeException>
+			<MinorTypeExpOpt1>All: Alle Typen</MinorTypeExpOpt1>
+			<MinorTypeExpOpt2>videoLost: Videosignalverlust</MinorTypeExpOpt2>
+			<MinorTypeExpOpt3>illlegealAccess: Illeg. Anmeldung</MinorTypeExpOpt3>
+			<MinorTypeExpOpt4>hdFull: HDD voll
+</MinorTypeExpOpt4>
+			<MinorTypeExpOpt5>hdError: HDD-Fehler</MinorTypeExpOpt5>
+			<MinorTypeExpOpt6>netBroken: Netzwerk getrennt</MinorTypeExpOpt6>
+			<MinorTypeExpOpt7>recordError: Aufz./Erf.-Fehler</MinorTypeExpOpt7>
+			<MinorTypeExpOpt8>ipConflict: IP-Adresskonflikt</MinorTypeExpOpt8>
+			<MinorTypeExpOpt9>videoException: Videosignal-Ausn.</MinorTypeExpOpt9>
+			<MinorTypeExpOpt10>videoFormatMismatch: Abw. Ein-/Ausg.Videostandard</MinorTypeExpOpt10>
+			<MinorTypeExpOpt11>ipcDisconnect: IP-Kamera trennen</MinorTypeExpOpt11>
+			<MinorTypeExpOpt12>ipcIpConfilict: IP-Adresse des IPC-Konflikts</MinorTypeExpOpt12>
+			<MinorTypeExpOpt13>viAndResMismatch: Auflösungskonflikt</MinorTypeExpOpt13>
+		</MinorTypeException>
+		<MinorTypeInformation>
+			<MinorTypeInforOpt1>All: Alle Typen</MinorTypeInforOpt1>
+			<MinorTypeInforOpt2>hddInfo: HDD-Info</MinorTypeInforOpt2>
+			<MinorTypeInforOpt3>startRec: Aufz. starten</MinorTypeInforOpt3>
+			<MinorTypeInforOpt4>stopRec: Aufz. stoppen</MinorTypeInforOpt4>
+			<MinorTypeInforOpt5>delExpiredRec: Abgel. Videod. löschen</MinorTypeInforOpt5>
+			<MinorTypeInforOpt6>nasInfo: NetHDD-Info</MinorTypeInforOpt6>
+			<MinorTypeInforOpt7>smartInfo: S.M.A.R.T. Info</MinorTypeInforOpt7>
+			<MinorTypeInforOpt8>startPic: Erf. starten</MinorTypeInforOpt8>
+			<MinorTypeInforOpt9>stopPic: Erf. stoppen</MinorTypeInforOpt9>
+			<MinorTypeInforOpt10>raidInfo: RAID</MinorTypeInforOpt10>
+		</MinorTypeInformation>
+		<MinorTypeOperation>
+			<MinorTypeOperationOpt1>All: Alle Typen</MinorTypeOperationOpt1>
+			<MinorTypeOperationOpt2>devicePowerOn: Einschalten</MinorTypeOperationOpt2>
+			<MinorTypeOperationOpt3>stopAbnormal: Local: Absch. unnormal</MinorTypeOperationOpt3>
+			<MinorTypeOperationOpt4>remotePowerOff: Remote: Abschalten</MinorTypeOperationOpt4>
+			<MinorTypeOperationOpt5>remotePowerRecycle: Remote: Neustart</MinorTypeOperationOpt5>
+			<MinorTypeOperationOpt6>remoteLogin: Remote: Anmelden</MinorTypeOperationOpt6>
+			<MinorTypeOperationOpt7>remoteLogout: Remote: Abmelden</MinorTypeOperationOpt7>
+			<MinorTypeOperationOpt8>remoteCfgPara: Remote: Parameter konf.</MinorTypeOperationOpt8>
+			<MinorTypeOperationOpt9>remoteUpgrade: Remote: Upgrade</MinorTypeOperationOpt9>
+			<MinorTypeOperationOpt10>remoteStartRec: Remote: Aufz. starten </MinorTypeOperationOpt10>
+			<MinorTypeOperationOpt11>remoteStopRec: Remote: Aufz. stoppen</MinorTypeOperationOpt11>
+			<MinorTypeOperationOpt12>remoteCtrlPtz: Remote: PTZ-Steuerung</MinorTypeOperationOpt12>
+			<MinorTypeOperationOpt13>remoteLockFile: Remote: Datei sperren</MinorTypeOperationOpt13>
+			<MinorTypeOperationOpt14>remoteUnlockFile: Remote: Datei freig.</MinorTypeOperationOpt14>
+			<MinorTypeOperationOpt15>remoteManulAlarm: Remote: Alarmausg. Akt.</MinorTypeOperationOpt15>
+			<MinorTypeOperationOpt16>remoteFormatHd: Remote: HDD init.</MinorTypeOperationOpt16>
+			<MinorTypeOperationOpt17>remotePlayByFile: Remote: Wdg. n. Datei</MinorTypeOperationOpt17>
+			<MinorTypeOperationOpt18>remotePlayByTime: Remote: Wdg. n. Zeit</MinorTypeOperationOpt18>
+			<MinorTypeOperationOpt19>remoteDownloadCfgFile: Remote: Konf.-Datei exp.</MinorTypeOperationOpt19>
+			<MinorTypeOperationOpt20>remoteUploadCfgFile: Remote: Konf.-Datei imp.</MinorTypeOperationOpt20>
+			<MinorTypeOperationOpt21>remoteDownloadRecFile: Remote: Aufz.-Datei exp.</MinorTypeOperationOpt21>
+			<MinorTypeOperationOpt22>remotePicBackUp: Remote: Bilddat. Exp.</MinorTypeOperationOpt22>
+			<MinorTypeOperationOpt23>remoteGetPara: Remote: Parameter abr.</MinorTypeOperationOpt23>
+			<MinorTypeOperationOpt24>remoteGetStatus: Remote: Arbeitsstatus abr.</MinorTypeOperationOpt24>
+			<MinorTypeOperationOpt25>remoteStartTransChan:Transp. Kanal verb.</MinorTypeOperationOpt25>
+			<MinorTypeOperationOpt26>remoteStopTransChan:Transp. Kanal trennen</MinorTypeOperationOpt26>
+			<MinorTypeOperationOpt27>startVoiceTalk: Start 2-Wege-Audio</MinorTypeOperationOpt27>
+			<MinorTypeOperationOpt28>stopVoiceTalk: Stop 2-Wege-Audio</MinorTypeOperationOpt28>
+			<MinorTypeOperationOpt29>remoteArm: Remote: Alarm akt.</MinorTypeOperationOpt29>
+			<MinorTypeOperationOpt30>remoteDisArm: Remote: Alarm deakt.</MinorTypeOperationOpt30>
+			<MinorTypeOperationOpt31>remoteAddNas: Remote: NetHDD hinzu</MinorTypeOperationOpt31>
+			<MinorTypeOperationOpt32>remoteDelNas: Remote: NetHDD löschen</MinorTypeOperationOpt32>
+			<MinorTypeOperationOpt33>remoteSetNas: Remote: NetHDD konf.</MinorTypeOperationOpt33>
+			<MinorTypeOperationOpt34>remoteStartPicRec: Remote: Bilderf. starten </MinorTypeOperationOpt34>
+			<MinorTypeOperationOpt35>remoteStopPicRec: Remote: Bilderf. stoppen</MinorTypeOperationOpt35>
+			<MinorTypeOperationOpt36>remoteTagOperation: Remote: Tag-Betrieb</MinorTypeOperationOpt36>
+			<MinorTypeOperationOpt37>remoteAddIpc: Remote: IP-Kamera hinzu</MinorTypeOperationOpt37>
+			<MinorTypeOperationOpt38>remoteDelIpc: Remote: IP-Kamera löschen</MinorTypeOperationOpt38>
+			<MinorTypeOperationOpt39>remoteSetIpc: Remote: IP-Kamera konf.</MinorTypeOperationOpt39>
+			<MinorTypeOperationOpt40>remoteSetSnmp: Remote: SNMP konf.</MinorTypeOperationOpt40>
+			<DVR>
+				<DVRMinorTypeOperationOpt1>All: Alle Typen</DVRMinorTypeOperationOpt1>
+				<DVRMinorTypeOperationOpt2>devicePowerOn: Einschalten</DVRMinorTypeOperationOpt2>
+				<DVRMinorTypeOperationOpt3>devicePowerOff: Local: Abschalten</DVRMinorTypeOperationOpt3>
+				<DVRMinorTypeOperationOpt4>deviceRecycle: Local: Neustart</DVRMinorTypeOperationOpt4>
+				<DVRMinorTypeOperationOpt5>stopAbnormal: Local: Absch. unnormal</DVRMinorTypeOperationOpt5>
+				<DVRMinorTypeOperationOpt6>locallogin: Local: Anmelden</DVRMinorTypeOperationOpt6>
+				<DVRMinorTypeOperationOpt7>localLogOut: Local: Abmelden</DVRMinorTypeOperationOpt7>
+				<DVRMinorTypeOperationOpt8>localCfgPara: Local: Parameter konf.</DVRMinorTypeOperationOpt8>
+				<DVRMinorTypeOperationOpt9>localUpdate: Local: Upgrade</DVRMinorTypeOperationOpt9>
+				<DVRMinorTypeOperationOpt10>localStartRec: Local: Aufz. starten</DVRMinorTypeOperationOpt10>
+				<DVRMinorTypeOperationOpt11>localStopRec: Local: Aufz. stoppen</DVRMinorTypeOperationOpt11>
+				<DVRMinorTypeOperationOpt12>localStartPicRec: Local: Erf. Starten</DVRMinorTypeOperationOpt12>
+				<DVRMinorTypeOperationOpt13>localStopPicRec: Local: Erf. stoppen</DVRMinorTypeOperationOpt13>
+				<DVRMinorTypeOperationOpt14>localCtrlPtz: Local: PTZ-Steuerung</DVRMinorTypeOperationOpt14>
+				<DVRMinorTypeOperationOpt15>localLockFile: Local: Datei sperren</DVRMinorTypeOperationOpt15>
+				<DVRMinorTypeOperationOpt16>localUnlockFile: Local: Datei freig.</DVRMinorTypeOperationOpt16>
+				<DVRMinorTypeOperationOpt17>localManulAlarm: Local: Alarm starten</DVRMinorTypeOperationOpt17>
+				<DVRMinorTypeOperationOpt18>localFormatDisk: Local: HDD init.</DVRMinorTypeOperationOpt18>
+				<DVRMinorTypeOperationOpt19>localPlayByFile: Local: Wdg. nach Datei</DVRMinorTypeOperationOpt19>
+				<DVRMinorTypeOperationOpt20>localPlayByTime: Local: Wdg. nach Zeit</DVRMinorTypeOperationOpt20>
+				<DVRMinorTypeOperationOpt21>localDownloadCfgFile: Local: Konf.-Datei exp.</DVRMinorTypeOperationOpt21>
+				<DVRMinorTypeOperationOpt22>localUploadCfgFile: Local: Konf.-Datei imp.</DVRMinorTypeOperationOpt22>
+				<DVRMinorTypeOperationOpt23>localDownloadRecFile: Local: Aufz.-Datei exp.</DVRMinorTypeOperationOpt23>
+				<DVRMinorTypeOperationOpt24>localDownloadPicFile: Local: Bilddatei exp.</DVRMinorTypeOperationOpt24>
+				<DVRMinorTypeOperationOpt25>localAddNas: Local: NetHDD hinzu</DVRMinorTypeOperationOpt25>
+				<DVRMinorTypeOperationOpt26>localDelNas: Local: NetHDD löschen</DVRMinorTypeOperationOpt26>
+				<DVRMinorTypeOperationOpt27>localSetNas: Local: NetHDD konf.</DVRMinorTypeOperationOpt27>
+				<DVRMinorTypeOperationOpt28>localResetPasswd: Local: Admin-PWD wiederh.</DVRMinorTypeOperationOpt28>
+				<DVRMinorTypeOperationOpt29>localTagOperation: Local: Tag-Betrieb</DVRMinorTypeOperationOpt29>
+				<DVRMinorTypeOperationOpt30>remotePowerOff: Remote: Abschalten</DVRMinorTypeOperationOpt30>
+				<DVRMinorTypeOperationOpt31>remotePowerRecycle: Remote: Neustart</DVRMinorTypeOperationOpt31>
+				<DVRMinorTypeOperationOpt32>remoteLogin: Remote: Anmelden</DVRMinorTypeOperationOpt32>
+				<DVRMinorTypeOperationOpt33>remoteLogout: Remote: Abmelden</DVRMinorTypeOperationOpt33>
+				<DVRMinorTypeOperationOpt34>remoteCfgPara: Remote: Parameter konf.</DVRMinorTypeOperationOpt34>
+				<DVRMinorTypeOperationOpt35>remoteUpgrade: Remote: Upgrade</DVRMinorTypeOperationOpt35>
+				<DVRMinorTypeOperationOpt36>remoteStartRec: Remote: Aufz. starten </DVRMinorTypeOperationOpt36>
+				<DVRMinorTypeOperationOpt37>remoteStopRec: Remote: Aufz. stoppen</DVRMinorTypeOperationOpt37>
+				<DVRMinorTypeOperationOpt38>remoteCtrlPtz: Remote: PTZ-Steuerung</DVRMinorTypeOperationOpt38>
+				<DVRMinorTypeOperationOpt39>remoteLockFile: Remote: Datei sperren</DVRMinorTypeOperationOpt39>
+				<DVRMinorTypeOperationOpt40>remoteUnlockFile: Remote: Datei freig.</DVRMinorTypeOperationOpt40>
+				<DVRMinorTypeOperationOpt41>remoteManulAlarm: Remote: Alarmausg. Akt.</DVRMinorTypeOperationOpt41>
+				<DVRMinorTypeOperationOpt42>remoteFormatHd: Remote: HDD init.</DVRMinorTypeOperationOpt42>
+				<DVRMinorTypeOperationOpt43>remotePlayByFile: Remote: Wdg. n. Datei</DVRMinorTypeOperationOpt43>
+				<DVRMinorTypeOperationOpt44>remotePlayByTime: Remote: Wdg. n. Zeit</DVRMinorTypeOperationOpt44>
+				<DVRMinorTypeOperationOpt45>remoteDownloadCfgFile: Remote: Konf.-Datei exp.</DVRMinorTypeOperationOpt45>
+				<DVRMinorTypeOperationOpt46>remoteUploadCfgFile: Remote: Konf.-Datei imp.</DVRMinorTypeOperationOpt46>
+				<DVRMinorTypeOperationOpt47>remoteDownloadRecFile: Remote: Aufz.-Datei exp.</DVRMinorTypeOperationOpt47>
+				<DVRMinorTypeOperationOpt48>remotePicBackUp: Remote: Bilddat. Exp.</DVRMinorTypeOperationOpt48>
+				<DVRMinorTypeOperationOpt49>remoteGetPara: Remote: Parameter abr.</DVRMinorTypeOperationOpt49>
+				<DVRMinorTypeOperationOpt50>remoteGetStatus: Remote: Arbeitsstatus abr.</DVRMinorTypeOperationOpt50>
+				<DVRMinorTypeOperationOpt51>remoteStartTransChan:Transp. Kanal verb.</DVRMinorTypeOperationOpt51>
+				<DVRMinorTypeOperationOpt52>remoteStopTransChan:Transp. Kanal trennen</DVRMinorTypeOperationOpt52>
+				<DVRMinorTypeOperationOpt53>startVoiceTalk: Start 2-Wege-Audio</DVRMinorTypeOperationOpt53>
+				<DVRMinorTypeOperationOpt54>stopVoiceTalk: Stop 2-Wege-Audio</DVRMinorTypeOperationOpt54>
+				<DVRMinorTypeOperationOpt55>remoteArm: Remote: Alarm akt.</DVRMinorTypeOperationOpt55>
+				<DVRMinorTypeOperationOpt56>remoteDisArm: Remote: Alarm deakt.</DVRMinorTypeOperationOpt56>
+				<DVRMinorTypeOperationOpt57>remoteAddNas: Remote: NetHDD hinzu</DVRMinorTypeOperationOpt57>
+				<DVRMinorTypeOperationOpt58>remoteDelNas: Remote: NetHDD löschen</DVRMinorTypeOperationOpt58>
+				<DVRMinorTypeOperationOpt59>remoteSetNas: Remote: NetHDD konf.</DVRMinorTypeOperationOpt59>
+				<DVRMinorTypeOperationOpt60>remoteStopPicRec: Remote: Bilderf. starten </DVRMinorTypeOperationOpt60>
+				<DVRMinorTypeOperationOpt61>remoteStopPicRec: Remote: Bilderf. stoppen</DVRMinorTypeOperationOpt61>
+				<DVRMinorTypeOperationOpt62>remoteTagOperation: Remote: Tag-Betrieb</DVRMinorTypeOperationOpt62>
+				<DVRMinorTypeOperationOpt63>localAddIpc: Local: IP-Kamera hinzu</DVRMinorTypeOperationOpt63>
+				<DVRMinorTypeOperationOpt64>localDelIpc: Local: IP-Kamera löschen</DVRMinorTypeOperationOpt64>
+				<DVRMinorTypeOperationOpt65>localSetIpc: Local: IP-Kamera konf.</DVRMinorTypeOperationOpt65>
+				<DVRMinorTypeOperationOpt66>remoteAddIpc: Remote: IP-Kamera hinzu</DVRMinorTypeOperationOpt66>
+				<DVRMinorTypeOperationOpt67>remoteDelIpc: Remote: IP-Kamera löschen</DVRMinorTypeOperationOpt67>
+				<DVRMinorTypeOperationOpt68>remoteSetIpc: Remote: IP-Kamera konf.</DVRMinorTypeOperationOpt68>
+				<DVRMinorTypeOperationOpt69>localSetSnmp: Local: SNMP konf.</DVRMinorTypeOperationOpt69>
+				<DVRMinorTypeOperationOpt70>remoteSetSnmp: Remote: SNMP konf.</DVRMinorTypeOperationOpt70>
+			</DVR>
+		</MinorTypeOperation>
+	</Page>
+	<Js>
+		<szTips1>Suche abgeschlossen.</szTips1>
+		<szTips3>Suche erfolglos</szTips3>
+		<szTips5>Datei konnte nicht erstellt werden.</szTips5>
+		<Alarm>Alarm</Alarm>
+		<motionStart>Start Bew.-Erkng.</motionStart>
+		<motionStop>Stopp Bew.-Erkng.</motionStop>
+		<hideStart>Start Sabotagealarm</hideStart>
+		<hideStop>Stopp Sabotagealarm</hideStop>
+		<vcaStart>Start VCA-Alarm</vcaStart>
+		<vcaStop>Stopp VCA-Alarm</vcaStop>
+		<videoException>Videosignal-Ausnahme</videoException>
+		<videoFormatMismatch>Abw. Ein-/Ausg.Videostandard</videoFormatMismatch>
+		<viAndResMismatch>Auflösungskonflikt</viAndResMismatch>
+		<ipcDisconnect>IP-Kamera trennen</ipcDisconnect>
+		<ipcIpConfilict>IP-Adresse des IPC-Konflikts</ipcIpConfilict>
+		<illlegealAccess>Illegale Anmeldung</illlegealAccess>
+		<netBroken>Netzwerk getrennt</netBroken>
+		<recordError>Aufz./Erf.-Ausn.</recordError>
+		<ipConflict>IP-Adresskonflikt</ipConflict>
+		<Infomation>Information</Infomation>
+		<hddInfo>HDD-Information</hddInfo>
+		<smartInfo>S.M.A.R.T. Info</smartInfo>
+		<startRec>Aufz. starten</startRec>
+		<stopRec>Stopp Aufz.</stopRec>
+		<delExpiredRec>Abgel. Videod. löschen</delExpiredRec>
+		<nasInfo>NetHDD-Information</nasInfo>
+		<startPic>Aufz. Starten</startPic>
+		<stopPic>Stopp Aufz.</stopPic>
+		<raidInfo>RAID</raidInfo>
+		<Operation>Betrieb</Operation>
+		<devicePowerOn>Einschalten</devicePowerOn>
+		<devicePowerOff>Local: Abschalten</devicePowerOff>
+		<deviceRecycle>Local: Neustart</deviceRecycle>
+		<stopAbnormal>Local: Unnormale Absch.</stopAbnormal>
+		<localLogin>Local: Anmelden</localLogin>
+		<localLogOut>Local: Abmelden</localLogOut>
+		<localCfgPara>Local: Parameter konf.</localCfgPara>
+		<localUpdate>Local: Upgrade</localUpdate>
+		<localStartRec>Local: Aufz. Starten</localStartRec>
+		<localStopRec>Local: Aufz. stoppen</localStopRec>
+		<localStartPicRec>Local: Erf. starten</localStartPicRec>
+		<localStopPicRec>Local: Erf. stoppen</localStopPicRec>
+		<localCtrlPtz>Local: PTZ-Strg.</localCtrlPtz>
+		<localLockFile>Local: Datei sperren</localLockFile>
+		<localUnlockFile>Local: Datei freig.</localUnlockFile>
+		<localManulAlarm>Local: Alarm starten</localManulAlarm>
+		<localFormatDisk>Local: HDD init.</localFormatDisk>
+		<localAddIpc>Local: IP-Kamera hinzu</localAddIpc>
+		<localDelIpc>Local: IP-Kamera löschen</localDelIpc>
+		<localSetIpc>Local: IP-Kamera konf.</localSetIpc>
+		<localPlayByFile>Local: Wdg. nach Datei</localPlayByFile>
+		<localPlayByTime>Local: Wdg. nach Zeit</localPlayByTime>
+		<localDownloadCfgFile>Local: Konf.-Datei exp.</localDownloadCfgFile>
+		<localUploadCfgFile>Local: Konf.-Datei imp.</localUploadCfgFile>
+		<localDownloadRecFile>Local: Aufz.-Dat. exp.</localDownloadRecFile>
+		<localDownloadPicFile>Local: Bilddat. exp.</localDownloadPicFile>
+		<localAddNas>Local: NetHDD hinzu</localAddNas>
+		<localDelNas>Local: NetHDD löschen</localDelNas>
+		<localSetNas>Local: NetHDD konf.</localSetNas>
+		<localSetSnmp>Local: SNMP konf.</localSetSnmp>
+		<localResetPasswd>Local: Admin-PWD wiederh.</localResetPasswd>
+		<localTagOperation>Local: Tag-Betrieb</localTagOperation>
+		<remotePowerOff>Remote: Abschaltung / Neustart</remotePowerOff>
+		<remotePowerRecycle>Remote: Neustart</remotePowerRecycle>
+		<remoteLogin>Remote: Anmelden</remoteLogin>
+		<remoteLogout>Remote: Abm.</remoteLogout>
+		<remoteCfgPara>Remote: Konf. Parameter</remoteCfgPara>
+		<remoteUpgrade>Remote: Upgrade</remoteUpgrade>
+		<remoteStartRec>Remote: Start Aufz.</remoteStartRec>
+		<remoteStopRec>Remote: Stopp Aufz.</remoteStopRec>
+		<remoteCtrlPtz>Remote: PTZ-Steuerung</remoteCtrlPtz>
+		<remoteLockFile>Remote: Datei sperr.</remoteLockFile>
+		<remoteUnlockFile>Remote: Datei freig.</remoteUnlockFile>
+		<remoteManulAlarm>Remote: Trigger Alarmausgang</remoteManulAlarm>
+		<remoteFormatHd>Remote: HDD-Init.</remoteFormatHd>
+		<remoteAddIpc>Remote: Hinzu IP-Kamera</remoteAddIpc>
+		<remoteDelIpc>Remote: Lösch. IP-Kamera </remoteDelIpc>
+		<remoteSetIpc>Remote: Einst. IP-Kamera</remoteSetIpc>
+		<remotePlayByFile>Remote: Wiederg./Datei</remotePlayByFile>
+		<remotePlayByTime>Remote: Wiederg./Zeit </remotePlayByTime>
+		<remoteDownloadCfgFile>Remote: Exp. Konfig.-Datei</remoteDownloadCfgFile>
+		<remoteUploadCfgFile>Remote: Imp. Konfig.-Datei</remoteUploadCfgFile>
+		<remoteDownloadRecFile>Remote: Exp. Aufz.-Datei</remoteDownloadRecFile>
+		<remoteGetPara>Remote:  Param. abr.</remoteGetPara>
+		<remoteGetStatus>Remote: Arbeitsstatus abr.</remoteGetStatus>
+		<remoteStartTransChan>Transp. Kanal einr.</remoteStartTransChan>
+		<remoteStopTransChan>Transp. Kn. trennen</remoteStopTransChan>
+		<startVoiceTalk>2-Wege-Audio starten</startVoiceTalk>
+		<stopVoiceTalk>Stopp 2-Wege-Audio</stopVoiceTalk>
+		<remoteArm>Remote: Alarm aktiv.</remoteArm>
+		<remoteDisArm>Remote: Alarm deakt.</remoteDisArm>
+		<remoteAddNas>Remote: Hinzu NetHDD</remoteAddNas>
+		<remoteDelNas>Remote: Lösch. NetHDD</remoteDelNas>
+		<remoteSetNas>Remote: Konf. NetHDD</remoteSetNas>
+		<remotePicBackUp>Remote: Exp. Bilddatei</remotePicBackUp>
+		<remoteStartPicRec>Remote: Start Bilderf.</remoteStartPicRec>
+		<remoteStopPicRec>Remote: Stopp Bilderf.</remoteStopPicRec>
+		<remoteSetSnmp>Remote: Konf. SNMP</remoteSetSnmp>
+		<remoteTagOperation>Remote: Tag-Betrieb</remoteTagOperation>
+		<ExportFailedTips>Protokollexp. fehlg.</ExportFailedTips>
+	</Js>
+</Log>

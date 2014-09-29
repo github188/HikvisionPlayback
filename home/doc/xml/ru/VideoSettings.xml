@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<VideoSettings>
+	<Common>
+		<Page>
+			<aBaseVideoSettings tag="a;" length="9999">Параметры отображения</aBaseVideoSettings>
+			<aOSDSettings tag="a;" length="9999">Параметры OSD</aOSDSettings>
+			<aTextOverlay tag="a;" length="9999">Наложенный текст</aTextOverlay>
+			<aVideoMask tag="a;" length="9999">Маска</aVideoMask>
+			<aModeCenter tag="option;" length="176">Центр</aModeCenter>
+			<aOSDFontSizeOpt2 tag="option;" length="178">Сред</aOSDFontSizeOpt2>
+			<apicinformChannel>Выбор камеры</apicinformChannel>
+			<laVideoPreview>Отображение</laVideoPreview>
+			<aPictureOverlay>Наложение изображения</aPictureOverlay>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laXpos>Координата X</laXpos>
+			<laYpos>Координата Y</laYpos>
+		</General>
+	</Common>
+	<BaseVideoSettings>
+		<Page>
+			<laSpanTitle>Конфигурация параметров экрана</laSpanTitle>
+			<laVideoEffect>Параметры экрана</laVideoEffect>
+			<laGain tag="label;" length="120">Усиление</laGain>
+			<laShutter tag="label;" length="120">Время коррекции</laShutter>
+			<laFocusMode tag="label;" length="308">Режим фокуса</laFocusMode>
+			<laFocusLimited tag="label;" length="308">Миниммальная фокусировка</laFocusLimited>
+			<laIrisMode tag="label;" length="120">Режим экспозиции</laIrisMode>
+			<laIrisLevel tag="label;" length="308">Диафр.</laIrisLevel>
+			<laPowerLine tag="label;" length="120">Стандарт видео</laPowerLine>
+			<laDayNightFilter tag="label;" length="120">Переключение день/ночь</laDayNightFilter>
+			<laDayToNight tag="label;" length="120">Чувствительность</laDayToNight>
+			<laFilterTime tag="label;" length="120">Время переключения</laFilterTime>
+			<laImageFlip tag="label;" length="120">Зеркальный</laImageFlip>
+			<laDSS tag="label;" length="308">Медленный затвор</laDSS>
+			<laDSSLevel tag="label;" length="308">Уровень медленного затвора</laDSSLevel>
+			<laWDR tag="label;" length="120">WDR</laWDR>
+			<laWDRLevel1 tag="label;" length="308">Контрас WDR1</laWDRLevel1>
+			<laWDRLevel2 tag="label;" length="308">Контрас WDR2</laWDRLevel2>
+			<laWDRContrast tag="label;" length="308">Уровень контрастности WDR</laWDRContrast>
+			<laBLC>BLC</laBLC>
+			<laBLCMode tag="label;" length="308">Зона BLC</laBLCMode>
+			<laBLCLevel tag="label;" length="308">Уровень BLC</laBLCLevel>
+			<laWhiteBlance tag="label;" length="120">Баланс белого</laWhiteBlance>
+			<laWhiteBlanceRed tag="label;" length="308">WB Gain Circuit R</laWhiteBlanceRed>
+			<laWhiteBlanceBlue tag="label;" length="308">WB Gain Circuit R</laWhiteBlanceBlue>
+			<laNosiseReduce tag="label;" length="308">Цифровое шумоподавление</laNosiseReduce>
+			<laGeneralLevel tag="label;" length="308">Ур. ум. шума</laGeneralLevel>
+			<laInterFrameNoiseReduce tag="label;" length="308">Уровень DNR</laInterFrameNoiseReduce>
+			<laFrameNoiseReduce tag="label;" length="308">Уровень Space DNR</laFrameNoiseReduce>
+			<IrisFirst>Приоритет диафрагмы</IrisFirst>
+			<ShutterFirst>Приоритет затвора</ShutterFirst>
+			<GainFirst>Приоритетное усиление</GainFirst>
+			<FocusModeAutoManual>Полу-автомат.</FocusModeAutoManual>
+			<IrcutFilterTypeDay tag="option;" length="176">День</IrcutFilterTypeDay>
+			<IrcutFilterTypeNight tag="option;" length="176">Ночь</IrcutFilterTypeNight>
+			<ImageFlipStyleLR tag="option;" length="176">Левый/правый</ImageFlipStyleLR>
+			<ImageFlipStyleUD tag="option;" length="176">Верх/низ</ImageFlipStyleUD>
+			<BLCModeUp>Вверх</BLCModeUp>
+			<BLCModeDown>Вниз</BLCModeDown>
+			<BLCModeLeft>Влево</BLCModeLeft>
+			<BLCModeRight>вправо</BLCModeRight>
+			<WhiteBlanceStyleAuto tag="option;" length="176">Авто</WhiteBlanceStyleAuto>
+			<WhiteBlanceStyle1 tag="option;" length="176">Авто-Баланс белого цвета 1./АББц1</WhiteBlanceStyle1>
+			<WhiteBlanceStyle2 tag="option;" length="176">Авто-Баланс белого цвета 2./АББц2</WhiteBlanceStyle2>
+			<WhiteBlanceStyleManual>Ручной баланс белого</WhiteBlanceStyleManual>
+			<AutoTracing>Автоматическое отслеживание</AutoTracing>
+			<NosiseReduceGeneral>Нормальный режим</NosiseReduceGeneral>
+			<NosiseReduceAdvanced>Экспертный режим</NosiseReduceAdvanced>
+			<ImageResetbutton>Перезагрузка функции перемещения</ImageResetbutton>
+			<ImageRestorebutton>Возобновить</ImageRestorebutton>
+			<laScene tag="label;" length="120">Помещ/улица</laScene>
+			<SceneOptionIndoor tag="option;" length="176">В помещении</SceneOptionIndoor>
+			<SceneOptionOutdoor tag="option;" length="176">На улице</SceneOptionOutdoor>
+			<laAutoIrisLevel tag="label;" length="308">Уровень Автодиафрагмы</laAutoIrisLevel>
+			<laEnableDehaze>Вкл. Ф. анти-мгла</laEnableDehaze>
+			<laDehazeLevel>Уровень ф. анти-мгла</laDehazeLevel>
+			<laEPTZ>EPTZ</laEPTZ>
+			<laZoomLimit>Ограничение ZOOM</laZoomLimit>
+			<laEIS>EIS</laEIS>
+			<SodiumLight>Sodium light</SodiumLight>
+			<MercuryLight>Mercury lamp</MercuryLight>
+			<Onepush>onepush</Onepush>
+			<laIRLightMode>Режим ИК подсветки</laIRLightMode>
+			<laIRLightBright>Яркость ИК подсветки</laIRLightBright>
+			<laIRLightSen>Чувствительность ИК подсветки</laIRLightSen>
+			<laExposureType>Режим экспозиции</laExposureType>
+			<laShutterLevel>Затвор</laShutterLevel>
+			<laEISLevel>Уровень EIS</laEISLevel>
+			<laChromaSuppress>Корректировка цвета</laChromaSuppress>
+			<laHLC>HLC</laHLC>
+			<laHLCLevel>Уровень компенсации засветки</laHLCLevel>
+			<laExpComp>Компенсация выдержки</laExpComp>
+			<laGamaCorrect>Гамма-коррекция</laGamaCorrect>
+			<laSharpnessMode>Резкость</laSharpnessMode>
+			<laDecodeMode>Режим коррекции</laDecodeMode>
+			<laSoftware>Программное обеспечение</laSoftware>
+			<laHardware>Аппаратные средства</laHardware>
+			<laEnhancement>Повышение чувствительности</laEnhancement>
+			<laGrayScale>Шкала серого</laGrayScale>
+			<Schedule>Расписание</Schedule>
+			<EventTrigger>Запуск по событию</EventTrigger>
+			<laOverExposeSuppress>Защита от засветки</laOverExposeSuppress>
+			<daylightLamp>Флуоресцентная лампа</daylightLamp>
+			<laTriggerMode>Статус</laTriggerMode>
+			<OutdoorAuto>Авто наруж.осв.</OutdoorAuto>
+			<SodiumLightAuto>Авто натр.ламп.</SodiumLightAuto>
+			<WarmLightLamp>Тепл.свет ламп.</WarmLightLamp>
+			<NaturalLight>Естеств. свет</NaturalLight>
+			<IncandescentLamp>лампа накаливания</IncandescentLamp>
+			<WBLocked>Закрытая WB</WBLocked>
+		</Page>
+		<Js>
+			<jsResetimage>Перезапустить механизм?</jsResetimage>
+			<jsResetSucceed>Успешно, сброс осуществлен.</jsResetSucceed>
+			<jsResetFailed>Не удалось перезагрузить функцию перемещения</jsResetFailed>
+			<jsResetWaiting>Функция перемещения перезагружается</jsResetWaiting>
+			<jsRestoreimage>Восстановить параметры механизма по умолчанию?</jsRestoreimage>
+			<jsRestoreSucceed>Восстановление параметров функции перемещения по умолчанию успешно завершено</jsRestoreSucceed>
+			<jsRestoreFailed>Ошибка восстановления параметров функции перемещения по умолчанию</jsRestoreFailed>
+			<jsRestoreWaiting>Восснанавливаются параметры перемещения по умолчанию</jsRestoreWaiting>
+			<jsScheduleTimeRange>Минимальный интервал между временем начала и окончания - 10 секунд</jsScheduleTimeRange>
+		</Js>
+	</BaseVideoSettings>
+	<OSDSettings>
+		<Page>
+			<laSpanTitle>Параметры отображения</laSpanTitle>
+			<laOSDConfig>Параметры OSD</laOSDConfig>
+			<laIsShowChanNme tag="label;" length="120">Показ имени</laIsShowChanNme>
+			<laIsShowOSD tag="label;" length="120">Отображение даты</laIsShowOSD>
+			<laIsShowWeek tag="label;" length="120">Отображение недели</laIsShowWeek>
+			<laHourOSDType tag="label;" length="120">Формат времени</laHourOSDType>
+			<HourOSDTypeOpt1 tag="option;" length="176">12-часовой</HourOSDTypeOpt1>
+			<HourOSDTypeOpt2 tag="option;" length="176">24-часовой</HourOSDTypeOpt2>
+			<laOSDType tag="label;" length="120">Формат даты </laOSDType>
+			<OSDTypeOpt1 tag="option;" length="176">ГГГГ-ММ-ДД</OSDTypeOpt1>
+			<OSDTypeOpt2 tag="option;" length="176">ММ-ДД-ГГГГ</OSDTypeOpt2>
+			<OSDTypeOpt3 tag="option;" length="176">ГГГГ ММ ДД</OSDTypeOpt3>
+			<OSDTypeOpt4 tag="option;" length="176">ММ ДД ГГГГ</OSDTypeOpt4>
+			<OSDTypeOpt5 tag="option;" length="176">ДД-ММ-ГГГГ</OSDTypeOpt5>
+			<OSDTypeOpt6 tag="option;" length="176">ДД ММ ГГГГ</OSDTypeOpt6>
+			<OSDTypeOpt7 tag="option;" length="176">ММ/ДД/ГГГГ</OSDTypeOpt7>
+			<OSDTypeOpt8 tag="option;" length="176">ГГГГ/ММ/ДД</OSDTypeOpt8>
+			<OSDTypeOpt9 tag="option;" length="176">ДД/ММ/ГГГГ</OSDTypeOpt9>
+			<laChannelNameXPos>Имя камеры по X-координате</laChannelNameXPos>
+			<laChannelNameYPos>Имя камеры по Y-координате</laChannelNameYPos>
+			<laOSDAttrib tag="label;" length="120">Отображение OSD</laOSDAttrib>
+			<OSDAttribOpt1 tag="option;" length="176">Прозрачный и мигающий</OSDAttribOpt1>
+			<OSDAttribOpt2 tag="option;" length="176">Прозрачный и немигающий</OSDAttribOpt2>
+			<OSDAttribOpt3 tag="option;" length="176">Не прозрачный и мигающий</OSDAttribOpt3>
+			<OSDAttribOpt4 tag="option;" length="176">Непрозрачный и немигающий</OSDAttribOpt4>
+			<laOSDFontSize tag="label;" length="609">Размер OSD</laOSDFontSize>
+			<OSDFontSizeOpt1 tag="option;" length="178">Маленький</OSDFontSizeOpt1>
+			<OSDFontSizeOpt3 tag="option;" length="178">Большой</OSDFontSizeOpt3>
+		</Page>
+		<Js>
+			<ChannelNameXTips>X-координата имени</ChannelNameXTips>
+			<ChannelNameYTips>Y-координата имени</ChannelNameYTips>
+		</Js>
+		<General>
+			<laOSDXPos>X-координата даты</laOSDXPos>
+			<laOSDYPos>Y-координата даты</laOSDYPos>
+		</General>
+	</OSDSettings>
+	<TextOverlay>
+		<Page>
+			<laStringOverLay>Настройки наложения текста</laStringOverLay>
+			<laStrContent>Текст</laStrContent>
+		</Page>
+		<Js>
+			<CharNameLengthTips>Не больше 44 символов</CharNameLengthTips>
+		</Js>
+	</TextOverlay>
+	<VideoMask>
+		<Page>
+			<laUseCover tag="label;" length="308">Активирование видео маски</laUseCover>
+		</Page>
+		<Js>
+		</Js>
+	</VideoMask>
+	<PictureOverlay>
+		<Page>
+			<laPicUpload>Добавить фото</laPicUpload>
+			<laOverlaySetting>Настройка параметров наложения</laOverlaySetting>
+			<laEnablePicOverlay>Включить наложение фото</laEnablePicOverlay>
+			<laPicWidth>Ширина фото</laPicWidth>
+			<laPicHeight>Высота фото</laPicHeight>
+		</Page>
+		<Js>
+		</Js>
+	</PictureOverlay>
+</VideoSettings>

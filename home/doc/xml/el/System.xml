@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<System>
+	<Common>
+		<Page>
+			<aDeviceInfo tag="a;" length="9999">Πληροφορίες συσκευής</aDeviceInfo>
+			<aTimeSettings tag="a;" length="9999">Ρυθμίσεις ώρας</aTimeSettings>
+			<aMaintain tag="a;" length="9999">Συντήρηση</aMaintain>
+			<aTelecontrol>Τηλεχειρισμός</aTelecontrol>
+			<laDuplexmode>Αμφίδρομη λειτ.</laDuplexmode>
+			<duplexModeOpt1>Ημιαμφίδρομα</duplexModeOpt1>
+			<duplexModeOpt2>Πλήρως αμφίδρομα</duplexModeOpt2>
+			<laBaudRate tag="label;" length="150">Ταχύτητα Baud</laBaudRate>
+			<laDataBits tag="label;" length="150">Bit δεδομένων</laDataBits>
+			<laStopRate tag="label;" length="150">Bit διακοπής</laStopRate>
+			<laParityType tag="label;" length="150">Ισοτιμία</laParityType>
+			<parityTypeOpt1 tag="option;" length="198">Κανένα</parityTypeOpt1>
+			<parityTypeOpt2 tag="option;" length="198">Άρτιος</parityTypeOpt2>
+			<parityTypeOpt3 tag="option;" length="198">Περιττός</parityTypeOpt3>
+			<laFlowControl tag="label;" length="150">Έλεγχος ροής</laFlowControl>
+			<dataFlowControlOpt1 tag="option;" length="198">Κανένα</dataFlowControlOpt1>
+			<dataFlowControlOpt2 tag="option;" length="198">Υλικό</dataFlowControlOpt2>
+			<dataFlowControlOpt3 tag="option;" length="198">Έλεγχος ομαλής ροής</dataFlowControlOpt3>
+			<laDST tag="label;" length="670">DST</laDST>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<DeviceInfo>
+		<Page>
+			<laBaseInfo tag="label;" length="670">Βασικές πληροφ.</laBaseInfo>
+			<laDeviceName tag="label;" length="150">Όνομα συσκευής</laDeviceName>
+			<laDeviceType tag="label;" length="148">Μοντέλο</laDeviceType>
+			<laDeviceSn tag="label;" length="148">Αριθμός σειράς</laDeviceSn>
+			<laFirmwareVersion tag="label;" length="148">Έκδ. υλικολογ.</laFirmwareVersion>
+			<laLogicVersion tag="label;" length="148">Έκδοση κωδικοπ.</laLogicVersion>
+			<laDiskNum tag="label;" length="148">Πλήθος σκλ. δίσκ.</laDiskNum>
+			<laAlarmInNum tag="label;" length="148">Πλήθος εισ. συν.</laAlarmInNum>
+			<laAlarmOutNum tag="label;" length="148">Πλήθος εξ. συν.</laAlarmOutNum>
+			<laParamType tag="label;" length="155">Τύπος παραμ.</laParamType>
+			<laParamValue tag="label;" length="526">Τιμή παραμέτρου</laParamValue>
+			<laSupportPnp>Τοποθέτηση και άμεση λειτουργία IPC</laSupportPnp>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laDeviceID tag="label;" length="150">Αρ. συσκευής</laDeviceID>
+		</General>
+	</DeviceInfo>
+	<DeviceStatus>
+		<Page>
+			<laDeviceStatus>Κατάσταση συσκ.</laDeviceStatus>
+			<laRecordStatus>Κατάστ. εγγραφ.</laRecordStatus>
+			<laCodeStatus>Κατάστ. κωδικ.</laCodeStatus>
+			<laConnectStatus>Αριθμός σύνδεσης</laConnectStatus>
+			<laRefresh>Ανανέωση</laRefresh>
+		</Page>
+		<Js>
+			<tipsBusy>Απασχολημένο</tipsBusy>
+			<RecordStatus1>Χρησιμοποιείται</RecordStatus1>
+			<RecordStatus2>Δεν χρησιμοπ.</RecordStatus2>
+		</Js>
+	</DeviceStatus>
+	<MenuOutput>
+		<Page>
+			<laMenuOutputMode>Menu Output</laMenuOutputMode>
+			<mainCVBS>Κυριο CVBS</mainCVBS>
+		</Page>
+	</MenuOutput>
+	<TimeSettings>
+		<Page>
+			<DVR>
+				<laSpanTitle>Ρυθμίσεις ώρας</laSpanTitle>
+				<laEnableDST tag="label;" length="670">Ενεργοπ. DST</laEnableDST>
+			</DVR>
+			<laNtpTimeSync tag="label;" length="654">NTP</laNtpTimeSync>
+			<laNtpPort tag="label;" length="150">Θύρα NTP</laNtpPort>
+			<laNtpInterval tag="label;" length="150">Χρον. διάστημα</laNtpInterval>
+			<laSecond tag="label;" length="360">λεπτό</laSecond>
+			<laManualTimeSync tag="label;" length="670">Χειρ. συγχρ. ρολ.</laManualTimeSync>
+			<laDeviceTime tag="label;" length="150">Ώρα συσκευής</laDeviceTime>
+			<laTimeZoneConfig>Ρυθμ. ζών. ώρας</laTimeZoneConfig>
+			<laTimeZone tag="label;" length="150">Ζώνη ώρας</laTimeZone>
+			<laDSTBias tag="label;" length="150">DST Bias</laDSTBias>
+			<timezoneOpt1 tag="option;" length="274">(GMT-12:00) Δυτική διεθνής γραμμή ημερομηνίας</timezoneOpt1>
+			<timezoneOpt2 tag="option;" length="274">(GMT-11:00) Νήσος Μίντγουεϊ, Σαμόα</timezoneOpt2>
+			<timezoneOpt3 tag="option;" length="274">(GMT-10:00) Χαβάη</timezoneOpt3>
+			<timezoneOpt4 tag="option;" length="274">(GMT-09: 00) Αλάσκα</timezoneOpt4>
+			<timezoneOpt5 tag="option;" length="274">(GMT-08:00) Ώρα Ειρηνικού (ΗΠΑ&amp;Καναδάς)</timezoneOpt5>
+			<timezoneOpt6 tag="option;" length="274">(GMT-07:00) Ορεινή ώρα (ΗΠΑ&amp;Καναδάς)</timezoneOpt6>
+			<timezoneOpt7 tag="option;" length="274">(GMT-06:00) Κεντρική ώρα (ΗΠΑ&amp;Καναδάς)</timezoneOpt7>
+			<timezoneOpt8 tag="option;" length="274">(GMT-05:00) Ανατολική ώρα (ΗΠΑ&amp;Καναδάς)</timezoneOpt8>
+			<timezoneOpt9 tag="option;" length="274">(GMT-04:30) Καράκας</timezoneOpt9>
+			<timezoneOpt10 tag="option;" length="274">(GMT-04:00) Ώρα Ατλαντικού (Καναδάς)</timezoneOpt10>
+			<timezoneOpt11 tag="option;" length="274">(GMT-03:30) Νέα Γη</timezoneOpt11>
+			<timezoneOpt12 tag="option;" length="274">(GMT-03:00) Τζορτζτάουν, Μπραζίλια</timezoneOpt12>
+			<timezoneOpt13 tag="option;" length="274">(GMT-02: 00) Ώρα Μέσου Ατλαντικού</timezoneOpt13>
+			<timezoneOpt14 tag="option;" length="274">(GMT-01: 00) Νησιά Πράσινου Ακρωτηρίου, Αζόρες</timezoneOpt14>
+			<timezoneOpt15 tag="option;" length="274">(GMT+00:00) Δουβλίνο, Εδιμβ., Λονδίνο</timezoneOpt15>
+			<timezoneOpt16 tag="option;" length="274">(GMT+01:00) Άμστ., Βερολίνο, Ρώμη, Παρίσι</timezoneOpt16>
+			<timezoneOpt17 tag="option;" length="274">(GMT+02:00) Αθήνα, Ιερουσαλ., Κωνσταντ.</timezoneOpt17>
+			<timezoneOpt18 tag="option;" length="274">(GMT+03:00) Βαγδάτη, Κουβέιτ, Μόσχα</timezoneOpt18>
+			<timezoneOpt19 tag="option;" length="274">(GMT+03:30) Τεχεράνη</timezoneOpt19>
+			<timezoneOpt20 tag="option;" length="274">(GMT+04:00) Χειμερινή ώρα Καυκάσου</timezoneOpt20>
+			<timezoneOpt21 tag="option;" length="274">(GMT+04:30) Καμπούλ</timezoneOpt21>
+			<timezoneOpt22 tag="option;" length="274">(GMT+05:00) Ισλαμαμπάντ, Καράτσι, Τασκένδη</timezoneOpt22>
+			<timezoneOpt23 tag="option;" length="274">(GMT+05:30) Μαδράς, Βομβάη, Νέο Δελχί</timezoneOpt23>
+			<timezoneOpt24 tag="option;" length="274">(GMT+05:45) Κατμαντού</timezoneOpt24>
+			<timezoneOpt25 tag="option;" length="274">(GMT+06:00) Αλμάτυ, Νοβοσιμπίρσκ, Ντάκα</timezoneOpt25>
+			<timezoneOpt26 tag="option;" length="274">(GMT+06:30) Γιανγκόν</timezoneOpt26>
+			<timezoneOpt27 tag="option;" length="274">(GMT+07:00) Μπανγκόγκ, Ανόι, Τζακάρτα</timezoneOpt27>
+			<timezoneOpt28 tag="option;" length="274">(GMT+08:00) Πεκίνο, Ουρούμκι, Σιγκαπούρη</timezoneOpt28>
+			<timezoneOpt29 tag="option;" length="274">(GMT+09:00) Σεούλ, Τόκiο, Οσάκα, Σαππόρο</timezoneOpt29>
+			<timezoneOpt30 tag="option;" length="274">(GMT+09:30) Αδελαΐδα, Ντάργουιν</timezoneOpt30>
+			<timezoneOpt31 tag="option;" length="274">(GMT+10:00) Μελβούρνη, Σίντνεϋ , Καμπέρα</timezoneOpt31>
+			<timezoneOpt32 tag="option;" length="274">(GMT+11:00) Μάγκανταν, Νησιά Σολομώντα</timezoneOpt32>
+			<timezoneOpt33 tag="option;" length="274">(GMT +12:00) Όκλαντ, Γουέλινγκτον, Φίτζι</timezoneOpt33>
+			<timezoneOpt34 tag="option;" length="274">(GMT +13:00) Νουκουαλόφα</timezoneOpt34>
+			<DSTBiasOpt1 tag="option;" length="266">30 λεπτά</DSTBiasOpt1>
+			<DSTBiasOpt2 tag="option;" length="266">60 λεπτά</DSTBiasOpt2>
+			<DSTBiasOpt3 tag="option;" length="266">90 λεπτά</DSTBiasOpt3>
+			<DSTBiasOpt4 tag="option;" length="266">120 λεπτά</DSTBiasOpt4>
+			<laSelectTime tag="label;" length="150">Ρύθμιση ώρας</laSelectTime>
+			<laTimeSyncWithPC tag="label;" length="296">Συγχρ. με ρολόι υπολ.</laTimeSyncWithPC>
+			<trTimeSync>Συγχρονισμός</trTimeSync>
+		</Page>
+		<Js>
+			<TimeIsNuLLTips>Το πεδίο χρόνου δεν μπορεί να είναι κενό.</TimeIsNuLLTips>
+			<NtpPortRangeTips>NTP Port </NtpPortRangeTips>
+			<DSTBiasIsNullTips>Το DST Bias δεν μπορεί να είναι κενό.</DSTBiasIsNullTips>
+			<DSTMonthSameTips>Ο μήνας έναρξης DST δε μπορεί να είναι ίδιος με το μήνα λήξης.</DSTMonthSameTips>
+			<NTPIntervalRangeTips>Χρον. διάστημα</NTPIntervalRangeTips>
+		</Js>
+	</TimeSettings>
+	<Maintain>
+		<Page>
+			<laParamImport tag="label;" length="670">Εισαγ. αρχ. παραμ.</laParamImport>
+			<laImportFile tag="label;" length="150">Αρχείο παραμ.</laImportFile>
+			<laParamExport tag="label;" length="670">Εξαγ. αρχ. παραμ.</laParamExport>
+			<btnImport tag="input;" length="74">Εισαγωγή</btnImport>
+			<btnExportFile tag="input;" length="74">Εξαγωγή</btnExportFile>
+			<laRemoteUpgrade tag="label;" length="670">Απομ. αναβάθμ.</laRemoteUpgrade>
+			<laUpgradeFile tag="label;" length="150">υλικολογισμικό</laUpgradeFile>
+			<laUpgradeExplain tag="label;" length="33">Σημείωση</laUpgradeExplain>
+			<laUpgradeExplains tag="label;" length="540">Η αναβάθμιση θα διαρκέσει 5 έως 10 λεπτά μέχρι να ολοκληρωθεί. Μην απενεργοποιήσετε την τροφοδοσία. Η συσκευή θα εκτελέσει αυτόματα επανεκκίνηση με το πέρας της διαδικασίας.</laUpgradeExplains>
+			<btnUpgrade tag="input;" length="74">Αναβάθμ.</btnUpgrade>
+			<laRestart tag="input;label;" length="74">Επανεκκίνηση</laRestart>
+			<btnCompleteRestore tag="input;" length="74">Προεπιλ.</btnCompleteRestore>
+			<btnSimpleRestore tag="input;" length="74">Επαναφορά</btnSimpleRestore>
+			<laRestartDevice tag="label;" length="670">Επανεκκ. τη συσκ.</laRestartDevice>
+			<laSimpleReStore tag="label;" length="670">Επαναφορά όλων των παραμέτρων, εκτός από τις παραμέτρους ΙΡ, στις προεπιλεγμένες ρυθμίσεις.</laSimpleReStore>
+			<laCompleteReStore tag="label;" length="670">Επαναφ. παραμ. στις προεπιλ. ρυθμ.</laCompleteReStore>
+		</Page>
+		<Js>
+			<tipsNoUpgradeFile>Κανένα υλικολογισμικό.</tipsNoUpgradeFile>
+			<tipsUpgradeFailed>Ανεπιτυχής αναβάθμιση.</tipsUpgradeFailed>
+			<tipsLanguageMismatch>Ασυμφωνία έκδοσης γλώσσας</tipsLanguageMismatch>
+			<tipsGetProgress>Αποτυχία λήψης της διαδικασίας αναβάθμισης.</tipsGetProgress>
+			<tipsGetStatus>Αποτυχία λήψης της κατάστασης αναβάθμισης.</tipsGetStatus>
+			<tipsUpdating>Αναβάθμιση…</tipsUpdating>
+			<tipsUpdateSucc>Επιτυχής αναβάθμιση. Παρακαλώ επενεκινήστε τη συσκευή.</tipsUpdateSucc>
+			<tipsUpgradeReboot>Η συσκευή θα εκτελέσει αυτόματα επανεκκίνηση μετά την αναβάθμιση. Θέλετε να συνεχίσετε;</tipsUpgradeReboot>
+			<ImportRebootTips>Η συσκευή θα εκτελέσει αυτόματα επανεκκίνηση μετά την εισαγωγή των παραμέτρων. Θέλετε να συνεχίσετε;</ImportRebootTips>
+			<ImportSuccessTips>Επιτυχής εισαγωγή παραμέτρων.</ImportSuccessTips>
+			<ImportFailedTips>Ανεπιτυχής εισαγωγή παραμέτρων.</ImportFailedTips>
+			<ExportSuccessTips>Επιτυχής εξαγωγή αρχείου παραμέτρων.</ExportSuccessTips>
+			<ExportFailedTips>Ανεπιτυχής εξαγωγή αρχείου παραμέτρων.</ExportFailedTips>
+			<tipsRestoreSucc>Επιτυχής επαναφορά προεπιλεγμένων ρυθμίσεων</tipsRestoreSucc>
+			<tipsRestoreFailed>Η επαναφορά προεπιλεγμένων ρυθμίσεων απέτυχε.</tipsRestoreFailed>
+			<tipsRestoreReboot>Επιτυχής επαναφορά προεπιλεγμένων ρυθμίσεων. Εκτελέστε επανεκκίνηση για να τεθεί σε ισχύ. </tipsRestoreReboot>
+			<tipsRestoreReboot1>Η συσκευή θα εκτελέσει αυτόματα επανεκκίνηση μετά την επαναφορά. Θέλετε να συνεχίσετε;</tipsRestoreReboot1>
+		</Js>
+	</Maintain>
+	<RS232Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>Ρυθμίσεις RS232</laSpanTitle>
+				<laPortnumber>Θύρα RS-232</laPortnumber>
+			</DVR>
+			<laUsemode tag="label;" length="150">Χρήση</laUsemode>
+			<workModeOpt1 tag="option;" length="198">Κονσόλα</workModeOpt1>
+			<workModeOpt2 tag="option;" length="198">Διαφανές κανάλι</workModeOpt2>
+		</Page>
+		<Js>
+		</Js>
+	</RS232Config>
+	<RS485Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>Ρυθμίσεις RS-485 </laSpanTitle>
+			</DVR>
+			<laDecoderType485 tag="label;" length="150">Πρωτόκολλο PTZ</laDecoderType485>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<DecoderaddrTips tag="label;" length="150">Διεύθυνση PTZ </DecoderaddrTips>
+		</General>
+	</RS485Config>
+	<Telecontrol>
+		<Page>
+			<laStudy>Μελέτη</laStudy>
+			<laOpenStartSduty>Εκμάθηση απομακρυσμένου κώδικα</laOpenStartSduty>
+			<laArmDesc>Όπλιση PIR</laArmDesc>
+			<laDisarmDesc>Αφόπλιση PIR</laDisarmDesc>
+			<btnArm>Όπλιση</btnArm>
+			<btnDisarm>Αφόπλιση</btnDisarm>
+		</Page>
+		<Js>
+		</Js>
+	</Telecontrol>
+</System>

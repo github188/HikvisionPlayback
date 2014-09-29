@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Network>
+	<Common>
+		<Page>
+			<laNetWorkMode>工作模式</laNetWorkMode>
+			<laEAPOLVersion tag="label;" length="150">EAPOL版本</laEAPOLVersion>
+			<laFriendlyName>別名</laFriendlyName>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<gePort tag="label;" length="150">NTP埠</gePort>
+		</General>
+	</Common>
+	<IpConfig>
+		<Page>
+			<NetworkModeOpt1>網路容錯</NetworkModeOpt1>
+			<NetworkModeOpt2>負載均衡</NetworkModeOpt2>
+			<NetworkModeOpt3>多址設定</NetworkModeOpt3>
+			<laNetCardConfig tag="label;" length="670">網卡參數設定</laNetCardConfig>
+			<laSelectNetCard>網卡選擇</laSelectNetCard>
+			<laNetworkType tag="label;" length="150">NIC Type</laNetworkType>
+			<NetworkTypeOpt1 tag="option;" length="198">10M 半雙工</NetworkTypeOpt1>
+			<NetworkTypeOpt2 tag="option;" length="198">10M 全雙工</NetworkTypeOpt2>
+			<NetworkTypeOpt3 tag="option;" length="198">100M 半雙工</NetworkTypeOpt3>
+			<NetworkTypeOpt4 tag="option;" length="198">100M 全雙工</NetworkTypeOpt4>
+			<NetworkTypeOpt5 tag="option;" length="198">10M/100M/1000M 自動切換</NetworkTypeOpt5>
+			<NetworkTypeOpt6 tag="option;" length="198">1000M 全雙工</NetworkTypeOpt6>
+			<laDeviceIpAdd tag="label;" length="150">設備IPv4位址</laDeviceIpAdd>
+			<laDHCP tag="label;" length="670">DHCP</laDHCP>
+			<laSubNetMask tag="label;" length="150">IPv4子網路遮罩</laSubNetMask>
+			<laDefaultGateWay tag="label;" length="150">IPv4預設閘道</laDefaultGateWay>
+			<laDeviceIpV6Add>設備IPv6位址</laDeviceIpV6Add>
+			<laDefaultV6GateWay>IPv6預設閘道</laDefaultV6GateWay>
+			<laDNSServerConfig tag="label;" length="670">DNS伺服器設定</laDNSServerConfig>
+			<laPrimaryDNS tag="label;" length="150">首選DNS伺服器</laPrimaryDNS>
+			<laDNSServer2IP tag="label;" length="150">備用DNS伺服器</laDNSServer2IP>
+			<laPrimayEthernet>主網卡</laPrimayEthernet>
+			<laMulticast tag="label;" length="150">多播位址</laMulticast>
+		</Page>
+		<Js>
+			<jsMaskAdd>遮罩位址</jsMaskAdd>
+			<jsGateAdd>閘道位址</jsGateAdd>
+			<jsMtuParam>MTU參數</jsMtuParam>
+			<jsFirstDNS>首選DNS位址</jsFirstDNS>
+			<jsSecondDNS>備用DNS位址</jsSecondDNS>
+			<MaskAddInvalidTips>遮罩位址無效</MaskAddInvalidTips>
+			<jsMulticastRange>IP位址第一段為224-239之間的整數</jsMulticastRange>
+		</Js>
+	</IpConfig>
+	<PortConfig>
+		<Page>
+			<laHttpPort tag="label;" length="150">HTTP埠</laHttpPort>
+			<laRtspPort tag="label;" length="150">RTSP埠</laRtspPort>
+			<laHttpsPort tag="label;" length="150">HTTPS埠</laHttpsPort>
+			<laSDKPort>SDK埠</laSDKPort>
+		</Page>
+		<Js>
+			<jsHttpPortParam>HTTP埠</jsHttpPortParam>
+			<jsRtspPortParam>RTSP埠</jsRtspPortParam>
+			<jsHttpsPortParam>HTTPS埠</jsHttpsPortParam>
+		</Js>
+	</PortConfig>
+	<DDNS>
+		<Page>
+			<laUseDDNS tag="label;" length="670">啟用DDNS</laUseDDNS>
+			<laDDNSType tag="label;" length="150">DDNS類型</laDDNSType>
+		</Page>
+		<Js>
+			<jsDomainAlreadyExist>網域名稱已被佔用</jsDomainAlreadyExist>
+		</Js>
+		<General>
+			<laDeviceDomain tag="label;" length="150">設備網域</laDeviceDomain>
+		</General>
+	</DDNS>
+	<PPPoE>
+		<Page>
+			<laUsePPPOE tag="label;" length="670">啟用PPPoE</laUsePPPOE>
+			<laDevicePPPOEIP tag="label;" length="150">設備動態IP</laDevicePPPOEIP>
+		</Page>
+		<Js>
+			<jsPPPOEName>PPPoE用戶名稱</jsPPPOEName>
+			<jsPPPOEPassword>PPPoE密碼</jsPPPOEPassword>
+		</Js>
+	</PPPoE>
+	<SNMP>
+		<Page>
+			<laEnableV1 tag="label;" length="150">啟用SNMPv1</laEnableV1>
+			<laEnableV2c tag="label;" length="150">啟用SNMPv2c</laEnableV2c>
+			<laRwCommunity tag="label;" length="150">寫SNMP資訊</laRwCommunity>
+			<laRCommunity tag="label;" length="150">讀共同體名稱</laRCommunity>
+			<laTrapIP tag="label;" length="150">Trap位址</laTrapIP>
+			<laTrapPort tag="label;" length="150">Trap埠號</laTrapPort>
+			<laTrapCommunity tag="label;" length="150">Trap社群</laTrapCommunity>
+			<laEnableV3c tag="label;" length="150">啟用SNMPv3</laEnableV3c>
+			<laRUserName tag="label;" length="150">讀取安全名稱</laRUserName>
+			<laRwUserName tag="label;" length="150">寫安全名稱</laRwUserName>
+			<laSecurityLevel tag="label;" length="150">安全級別</laSecurityLevel>
+			<laAuthAlg tag="label;" length="150">認證演算法</laAuthAlg>
+			<laAuthPsd tag="label;" length="150">認證密碼</laAuthPsd>
+			<laPrivacyAlg tag="label;" length="150">私鑰演算法</laPrivacyAlg>
+			<laPrivacyPsd tag="label;" length="150">私鑰密碼</laPrivacyPsd>
+			<laSNMPPort tag="label;" length="150">SNMP埠</laSNMPPort>
+			<laSNMPMore tag="label;" length="670">SNMP其他設定</laSNMPMore>
+		</Page>
+		<Js>
+			<jsOneLeast>至少需要啟用一種SNMP</jsOneLeast>
+			<jsTrapIp>Trap IP位址</jsTrapIp>
+		</Js>
+	</SNMP>
+	<P8021x>
+		<Page>
+			<laEnable8021x tag="label;" length="131">啟用IEEE 802.1X</laEnable8021x>
+		</Page>
+		<Js>
+		</Js>
+	</P8021x>
+	<QoS>
+		<Page>
+			<laVideoDSCP tag="label;" length="150">視/音頻DSCP</laVideoDSCP>
+			<laEADSCP tag="label;" length="150">警報DSCP</laEADSCP>
+			<laManageDSCP tag="label;" length="150">管理DSCP</laManageDSCP>
+			<laEnableQoS>啟用QoS</laEnableQoS>
+		</Page>
+		<Js>
+		</Js>
+	</QoS>
+	<Socks>
+		<Page>
+			<laEnableSocks>啟用SOCKS</laEnableSocks>
+			<laSocksServerAddr>伺服器</laSocksServerAddr>
+			<laSocksServerPort>伺服器埠</laSocksServerPort>
+			<laSocksVersion>伺服器類型</laSocksVersion>
+			<laLocalList>本機網路</laLocalList>
+			<laLocalTips>用分號(;)分隔本機網路</laLocalTips>
+		</Page>
+		<Js>
+		</Js>
+	</Socks>
+	<UPnP>
+		<Page>
+			<laEnableUPnP>啟用UPnP™</laEnableUPnP>
+			<laHttpPortMap>HTTP埠映射</laHttpPortMap>
+			<laManagePortMap>設備埠映射</laManagePortMap>
+			<laRtspPortMap>RTSP埠映射</laRtspPortMap>
+			<laHttpsPortMap>HTTPS埠映射</laHttpsPortMap>
+			<laNatRouterLanAddr>NAT路由器位址</laNatRouterLanAddr>
+			<laEnableUPnPNat>啟用UPnP™ NAT</laEnableUPnPNat>
+			<laUPnPMapType>埠映射方式</laUPnPMapType>
+			<laPortsMap>埠映射</laPortsMap>
+			<laProtocolName>協定名稱</laProtocolName>
+			<laExternalPort>外部埠</laExternalPort>
+			<laEnablePortMap>啟用埠映射</laEnablePortMap>
+			<laNatMapType>NAT對應類型</laNatMapType>
+		</Page>
+		<Js>
+			<jsPortConflict>埠號衝突</jsPortConflict>
+		</Js>
+		<General>
+			<geValid>啟用</geValid>
+			<geNotValid>未啟用</geNotValid>
+		</General>
+	</UPnP>
+	<Bonjour>
+		<Page>
+			<laEnableBonjour>啟用Bonjour</laEnableBonjour>
+		</Page>
+		<Js>
+		</Js>
+	</Bonjour>
+	<HTTPS>
+		<Page>
+			<laCreate>新建</laCreate>
+			<laCreateSelfCertificate>新建私有憑證</laCreateSelfCertificate>
+			<laCreateCertificateReq>新建憑證請求</laCreateCertificateReq>
+			<laInstallSignedCertificate>安裝已簽名憑證</laInstallSignedCertificate>
+			<laCreatedRequest>已新建請求</laCreatedRequest>
+			<laInstalledCertificate>已安裝憑證</laInstalledCertificate>
+			<laRemove>刪除</laRemove>
+			<laValidity>有效期限</laValidity>
+			<laCountry>國家</laCountry>
+			<laStateOrProvince>省/洲</laStateOrProvince>
+			<laLocality>地區</laLocality>
+			<laOrganization>組織</laOrganization>
+			<laOrganizationalUnit>單位</laOrganizationalUnit>
+			<laCommonName>網域名稱/IP</laCommonName>
+			<laCertificatePath>憑證路徑</laCertificatePath>
+			<laExample>例如</laExample>
+			<laConfirmInstall>請先確認證書已安裝</laConfirmInstall>
+		</Page>
+		<Js>
+		</Js>
+	</HTTPS>
+	<FTP>
+		<Page>
+			<laPathDepth tag="label;" length="150">目錄結構</laPathDepth>
+			<laTopPath tag="label;" length="150">主目錄</laTopPath>
+			<laSubPath tag="label;" length="150">子目錄</laSubPath>
+			<laUploadType tag="label;" length="150">上傳類型</laUploadType>
+			<laUploadPicture tag="label;" length="150">圖片上傳</laUploadPicture>
+			<laUploadVideoClip>上傳錄影檔</laUploadVideoClip>
+			<optPathDepth1 tag="option;" length="198">儲存在根目錄</optPathDepth1>
+			<optPathDepth2 tag="option;" length="198">使用主目錄</optPathDepth2>
+			<optPathDepth3 tag="option;" length="198">使用子目錄</optPathDepth3>
+			<optTopPath1 tag="option;" length="198">使用設備名稱</optTopPath1>
+			<optTopPath2 tag="option;" length="198">使用設備編號</optTopPath2>
+			<optTopPath3 tag="option;" length="198">使用設備IP位址</optTopPath3>
+			<optSubPath1 tag="option;" length="198">使用攝影機名稱</optSubPath1>
+			<optSubPath2 tag="option;" length="198">使用攝影機編號</optSubPath2>
+			<laSelectFtp>選擇FTP</laSelectFtp>
+			<laEnableFTP tag="label;" length="670">啟用FTP</laEnableFTP>
+		</Page>
+		<Js>
+		</Js>
+	</FTP>
+	<WIFI>
+		<Page>
+			<laWirelessList>無線網路列表</laWirelessList>
+			<laSecurityMode>安全模式</laSecurityMode>
+			<laChannel>頻道</laChannel>
+			<laSignalStrength>訊號強度</laSignalStrength>
+			<laSpeed>速度</laSpeed>
+			<laWirelessNetworkMode>網路模式</laWirelessNetworkMode>
+			<laEncryptionType>加密類型</laEncryptionType>
+			<laOpen>開放式</laOpen>
+			<laShared>共用式</laShared>
+			<laKeyLength>密鑰長度</laKeyLength>
+			<laKeyType>密鑰類型</laKeyType>
+			<laHex>16進位</laHex>
+			<laKey>密鑰</laKey>
+			<laPEAPVersion>PEAP版本</laPEAPVersion>
+			<laPEAPLabel>PEAP標籤</laPEAPLabel>
+			<laInnerAuthenticationMode>內部認證</laInnerAuthenticationMode>
+			<laAnonymousID>匿名身份</laAnonymousID>
+			<laIdentify>身份</laIdentify>
+			<laPrivateKeyPassword>私鑰密碼</laPrivateKeyPassword>
+			<laCACertificate>CA憑證</laCACertificate>
+			<laUserCertificate>用戶憑證</laUserCertificate>
+			<laPrivateKeyCertificate>私鑰</laPrivateKeyCertificate>
+			<laEnableWPS>啟用WPS</laEnableWPS>
+			<laPinCode>PIN碼</laPinCode>
+			<pinCodeGenerate>產生</pinCodeGenerate>
+			<autoConnect>PBC連接</autoConnect>
+			<manuConnect>使用路由器PIN碼</manuConnect>
+			<laApPinCode>路由器PIN碼</laApPinCode>
+			<laConnect>連接</laConnect>
+			<laSSID>SSID</laSSID>
+		</Page>
+		<Js>
+			<jsTenHex>請輸入10個16進位數</jsTenHex>
+			<jsXXVIHex>請輸入26個16進位數</jsXXVIHex>
+			<jsFiveASCII>請輸入5個ASCII字元</jsFiveASCII>
+			<jsTenASCII>請輸入13個ASCII字元</jsTenASCII>
+			<jsEightMoreChar>請輸入8-63個字元</jsEightMoreChar>
+			<jsConnectSuc>連接成功</jsConnectSuc>
+			<jsConnectFail>連接失敗</jsConnectFail>
+			<jsConnecting>正在連接……</jsConnecting>
+		</Js>
+	</WIFI>
+</Network>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Taille du fichier d'enregistrement</lapackSize>
+		<lanetsPreach tag="label;" length="150">Performance d'affichage en direct</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Enregistrer les fichiers dans</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Enregistrer instantanés d'affichage en direct dans</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Enregistrer les clips dans</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Eh lecture, enreg instantanés dans</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Enreg  fich téléchargés dans</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Temps réel</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Equilibré</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Fluidité optimale</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Configuration du fichier d'enregistrement</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Paramètres images et clips</laCaptureClipParams>
+		<trFullFill>Remplir</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

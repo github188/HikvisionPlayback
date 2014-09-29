@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<ParamConfig>
+	<Common>
+		<Page>
+			<laParamConfig>Configuração do Sistema...</laParamConfig>
+			<Tree>
+				<laLocalConfig tag="label;" length="125">Local: Configuração</laLocalConfig>
+				<laBaseConfig tag="label;" length="125">Configurações Basicas</laBaseConfig>
+				<laAdvanceConfig tag="label;" length="125">Conficguração avançada</laAdvanceConfig>
+				<aLocalConfig tag="a;" length="139">Configuração local</aLocalConfig>
+				<aSystem tag="a;" length="139">Sistema</aSystem>
+				<aNetwork tag="a;" length="139">Rede</aNetwork>
+				<aAudioAndVideo tag="a;" length="139">Video / Audio</aAudioAndVideo>
+				<aVideoSettings tag="a;" length="139">Imagem</aVideoSettings>
+				<aSecurity tag="a;" length="139">Segurança</aSecurity>
+				<aEvent tag="a;" length="139">Eventos</aEvent>
+				<aStorage tag="a;" length="139">Armazenamento</aStorage>
+				<DVR>
+					<tree1>Configuração</tree1>
+					<tree2>Config. local</tree2>
+					<tree3>Config. remota</tree3>
+					<tree300>Parâm. equip.</tree300>
+					<tree3000>Info disposit.</tree3000>
+					<tree3001>Config. tempo</tree3001>
+					<tree3002>Estado Dispositivo</tree3002>
+					<tree3003>Menu Output</tree3003>
+					<tree301>Defin. câmara</tree301>
+					<tree3010>Config. display</tree3010>
+					<tree3011>Config. vídeo</tree3011>
+					<tree3012>Config. agenda</tree3012>
+					<tree3013>Deteção mov.</tree3013>
+					<tree3014>Perda de Vídeo</tree3014>
+					<tree3015>Másc.Privac.</tree3015>
+					<tree3016>Tampering</tree3016>
+					<tree3017>Sobrep. texto</tree3017>
+					<tree3018>Defin. férias</tree3018>
+					<tree3019>Parâm. câmara</tree3019>
+					<tree30191>Instantâneo</tree30191>
+					<tree302>Config. rede</tree302>
+					<tree3020>TCP/IP</tree3020>
+					<tree3021>PPPoE</tree3021>
+					<tree3022>DDNS</tree3022>
+					<tree3023>Email</tree3023>
+					<tree3024>NetHDD</tree3024>
+					<tree3025>SNMP</tree3025>
+					<tree3028>Porta</tree3028>
+					<tree3029>FTP</tree3029>
+					<tree30291>QoS</tree30291>
+					<tree30292>SOCKS</tree30292>
+					<tree30293>UPnP™</tree30293>
+					<tree30294>HTTPS</tree30294>
+					<tree30295>Bonjour</tree30295>	
+					<tree303>Config. porta série</tree303>
+					<tree3030>232 Porta serie</tree3030>
+					<tree3031>485 Porta serie</tree3031>
+					<tree304>Config. Alarme</tree304>
+					<tree3040>Entrada de Alarme</tree3040>
+					<tree3041>Saída Alarme</tree3041>
+					<tree305>Excepção </tree305>
+					<tree306>Gestão de Conta</tree306>
+					<tree307>HDD Gestão</tree307>
+					<tree3070>Config. básicas</tree3070>
+					<tree308>Manutenção</tree308>
+					<tree309>Reiniciar</tree309>
+					<tree310>Atual. remota</tree310>
+					<tree311>Contr.câmara</tree311>
+					<tree3110>Câm.Analógica</tree3110>
+					<tree3111>Câmara IP</tree3111>
+					<tree3112>Canal zero</tree3112>
+				</DVR>
+			</Tree>
+			<StartWeekDayOpt1 tag="label;a;" length="42">Seg</StartWeekDayOpt1>
+			<StartWeekDayOpt2 tag="label;a;" length="42">Ter</StartWeekDayOpt2>
+			<StartWeekDayOpt3 tag="label;a;" length="42">Qua</StartWeekDayOpt3>
+			<StartWeekDayOpt4 tag="label;a;" length="42">Qui</StartWeekDayOpt4>
+			<StartWeekDayOpt5 tag="label;a;" length="42">Sex</StartWeekDayOpt5>
+			<StartWeekDayOpt6 tag="label;a;" length="42">Sab</StartWeekDayOpt6>
+			<StartWeekDayOpt0 tag="label;a;" length="45">Dom</StartWeekDayOpt0>
+			<laMonday tag="label;a;" length="42">Seg</laMonday>
+			<laTuesday tag="label;a;" length="42">Ter</laTuesday>
+			<laWednesday tag="label;a;" length="42">Qua</laWednesday>
+			<laThursday tag="label;a;" length="42">Qui</laThursday>
+			<laFriday tag="label;a;" length="42">Sex</laFriday>
+			<laSaturday tag="label;a;" length="42">Sab</laSaturday>
+			<laSunday tag="label;a;" length="45">Dom</laSunday>
+			<laHoliday>Feriado</laHoliday>
+			<laSelectAll tag="label;" length="14">Selecionar tudo</laSelectAll>
+			<CopyTo tag="input;" length="88">Copiar</CopyTo>
+			<laMacAddress tag="label;" length="150">Endereço Mac</laMacAddress>
+			<laChannelName>Nome da Câmera</laChannelName>
+			<laCheckPwd tag="label;" length="150">Confirmar senha</laCheckPwd>
+			<laProtocolType tag="label;" length="150">Protocolo</laProtocolType>
+			<laState tag="label;" length="100">Estado</laState>
+			<StartMonthOpt1 tag="option;" length="58">Janeiro</StartMonthOpt1>
+			<StartMonthOpt2 tag="option;" length="58">Fev</StartMonthOpt2>
+			<StartMonthOpt3 tag="option;" length="58">Mar</StartMonthOpt3>
+			<StartMonthOpt4 tag="option;" length="58">Abril</StartMonthOpt4>
+			<StartMonthOpt5 tag="option;" length="58">Maio</StartMonthOpt5>
+			<StartMonthOpt6 tag="option;" length="58">Jun</StartMonthOpt6>
+			<StartMonthOpt7 tag="option;" length="58">Jul</StartMonthOpt7>
+			<StartMonthOpt8 tag="option;" length="58">Ago</StartMonthOpt8>
+			<StartMonthOpt9 tag="option;" length="58">Set</StartMonthOpt9>
+			<StartMonthOpt10 tag="option;" length="58">Outubro</StartMonthOpt10>
+			<StartMonthOpt11 tag="option;" length="58">Novembro</StartMonthOpt11>
+			<StartMonthOpt12 tag="option;" length="58">Dezembro</StartMonthOpt12>
+			<MdfDigitalIpBtn tag="input;" length="74">Modificar</MdfDigitalIpBtn>
+			<AddDigitalIpBtn>Adicionar</AddDigitalIpBtn>
+			<laDay tag="option;" length="78">Dia</laDay>
+			<StartWeekOpt1 tag="option;" length="68">Primeiro</StartWeekOpt1>
+			<StartWeekOpt2 tag="option;" length="68">Segundo</StartWeekOpt2>
+			<StartWeekOpt3 tag="option;" length="68">Terceiro</StartWeekOpt3>
+			<StartWeekOpt4 tag="option;" length="68">Quarto</StartWeekOpt4>
+			<StartWeekOpt5 tag="option;" length="68">Último</StartWeekOpt5>
+			<laEnable>Activar</laEnable>
+			<btnBrowse tag="input;" length="74">Navegar</btnBrowse>
+			<laVideoResolution tag="label;" length="150">Resolução</laVideoResolution>
+			<laCopyToWeek tag="label;" length="63">Copiar semana</laCopyToWeek>
+			<GoBackListBtn tag="input;" length="88">Voltar</GoBackListBtn>
+			<laEdit>Editar</laEdit>
+			<laNoCopy tag="label;" length="517">(imp. copiar)</laNoCopy>
+			<laProcess tag="label;" length="100">Progresso</laProcess>
+			<aModeManual tag="option;" length="176">Manual</aModeManual>
+			<aLevelLow tag="option;" length="176">Baixo</aLevelLow>
+			<aLevelNormal tag="option;" length="176">Normal</aLevelNormal>
+			<aLevelHigh tag="option;" length="176">Alto</aLevelHigh>
+			<optionSecond tag="option;" length="78">Segundo</optionSecond>
+			<laType tag="label;" length="100">Tipo</laType>
+			<laOClock>Horas</laOClock>
+			<aStyleClose tag="option;" length="176">Fechado</aStyleClose>
+			<aModeAuto tag="option;" length="176">Automático</aModeAuto>
+			<laDelay tag="label;" length="150">Atrasar</laDelay>
+			<OptPirORWlsensorORCallhelp>PIR|Wireless|Emergência</OptPirORWlsensorORCallhelp>
+			<OptAllEvent>Detecção movimento|Entr. alarme</OptAllEvent>
+			<laAuthType tag="label;" length="150">Autenticação</laAuthType>
+			<laAttribute>Propried.</laAttribute>
+			<aEmail tag="a;" length="9999">E-mail</aEmail>
+			<laMountType>Tipo de suporte</laMountType>
+			<laCelling>Teto</laCelling>
+			<laWall>Parede</laWall>
+			<laFloor>Chão</laFloor>
+			<laAnonymous>Anónimo</laAnonymous>
+			<laUploadCertificate>Carregar</laUploadCertificate>
+		</Page>
+		<Js>
+			<laparamCfg>Configuração do Sistema...</laparamCfg>
+			<AnalogChannelNameTips>Camara Analogica</AnalogChannelNameTips>
+			<DigitalChannelNameTips>Câmara IP</DigitalChannelNameTips>
+			<InputTips>Entrada </InputTips>
+			<RangeTips> variação </RangeTips>
+			<WrongTips>Errado </WrongTips>
+			<LengthTips>Não pode exceder comprim.</LengthTips>
+			<NullTips>Não pode estar vazio</NullTips>
+			<WithTimeSegmentTips>com período</WithTimeSegmentTips>
+			<UserNameCharTips> só pode conter letras, números e sublinhados.</UserNameCharTips>
+			<CoverStopMapbuttonTips>Parar de desenhar</CoverStopMapbuttonTips>
+			<ClearRegionTips>Limpar todas as áreas?</ClearRegionTips>
+			<DeleteRegionFailedTips>Falhou</DeleteRegionFailedTips>
+			<DeleteRegionSuccessTips>Removido</DeleteRegionSuccessTips>
+			<DevNameLengthTips>O comprimento do nome não pode ter mais de 32 carateres</DevNameLengthTips>
+			<DevNameNullTips>O nome não pode estar vazio</DevNameNullTips>
+			<DevNameWrongCharTips>O nome não pode conter os seguintes carateres:</DevNameWrongCharTips>
+			<jsPwdCheckMismatch>Passwords não são iguais</jsPwdCheckMismatch>
+			<jsTimeSegmentErrorSegTips>Hora de inicio deve ser anterior a hora de fim</jsTimeSegmentErrorSegTips>
+			<laCopyToChannel>Copiar cãmara</laCopyToChannel>
+			<UserNameLengthTips>Não pode exceder 16 caracteres</UserNameLengthTips>
+			<OffLineTips>Offline</OffLineTips>
+			<OverlappedTips>Não pode sobrepor</OverlappedTips>
+			<LocalTips>Local</LocalTips>
+			<DIPAddInvalidTips>Endereço IP entre 1 e 233</DIPAddInvalidTips>
+			<tipsNormal>Normal</tipsNormal>
+			<jsEmailAdd>Endereço de e-mail</jsEmailAdd>
+			<jsUploadSuc>Carregamento com êxito</jsUploadSuc>
+			<jsUploadFailed>Falha no carregamento</jsUploadFailed>
+		</Js>
+		<General>
+			<geUserName tag="label;" length="150">Nome de usuário</geUserName>
+			<gePassword tag="label;" length="150">Password</gePassword>
+			<laTimerange tag="label;" length="100">Período</laTimerange>
+			<CoverStartMapbutton tag="input;" length="74">Desenhar área</CoverStartMapbutton>
+			<CoverTimebutton tag="input;" length="74">Rem. Tudo</CoverTimebutton>
+			<laServerAdd tag="label;" length="150">Endereço serv.</laServerAdd>
+			<laIpAddress>Endereço de IP</laIpAddress>
+			<aMoveDetection tag="a;" length="9999">Deteção Mov.</aMoveDetection>
+			<laVideoTabDivBtn tag="label;" length="670">configuraçoes</laVideoTabDivBtn>
+			<trDisabled>Inactivo</trDisabled>
+			<WholeDayRecordTypeOpt1 tag="option;" length="118">Normal</WholeDayRecordTypeOpt1>
+			<WholeDayRecordTypeOpt3 tag="option;" length="118">Alarme</WholeDayRecordTypeOpt3>
+			<WholeDayRecordTypeOpt4 tag="option;" length="118">Movimento | Alarme</WholeDayRecordTypeOpt4>
+			<WholeDayRecordTypeOpt5 tag="option;" length="118">Movimento &amp;Alarme</WholeDayRecordTypeOpt5>
+			<laEnableWholeDayRecord tag="label;" length="87">Todo dia</laEnableWholeDayRecord>
+			<laEnableWholeDayCapture tag="label;" length="87">Gravação diária</laEnableWholeDayCapture>
+			<laSectionRecord tag="label;" length="578">Personalizar</laSectionRecord>
+			<laSectionCapture tag="label;" length="578">Personalizar</laSectionCapture>
+			<laWholeDayRecordType tag="label;" length="149">Tipo Video</laWholeDayRecordType>
+			<laWholeDayCaptureType tag="label;" length="149">Tipo de captura</laWholeDayCaptureType>
+			<constantBitRateOpt23>Personalizar</constantBitRateOpt23>
+			<Other>Outras</Other>
+		</General>
+	</Common>
+	<ParamConfig>
+		<Page>
+		</Page>
+		<Js>
+			<Success1>Guardado com sucesso</Success1>
+			<Success2>Guardado com sucesso: Reiniciar Agora?</Success2>
+			<DeleteSuccTips>Arquivo excluído.</DeleteSuccTips>
+			<Success4>Arquivo excluído. Reinicie o dispositivo?</Success4>
+			<Success5>Sucesso!Reinicie ter efeito as configurações</Success5>
+			<Error1>Falha ao definir parâmetros.</Error1>
+			<Error2>Falha ao obter parametros</Error2>
+			<Error3>Inválido conteúdo XML.</Error3>
+			<Error4>Inválido formato XML.</Error4>
+			<Error5>Operação inválida.</Error5>
+			<Error6>Erro do dispositivo.</Error6>
+			<Error7>Dispositivo está ocupado.</Error7>
+			<jsNetworkAbnormal>Rede anormal</jsNetworkAbnormal>
+			<Error10>Nenhuma entrada de alarme / canal de saída.</Error10>
+			<Error11>Erro da senha do usuário.</Error11>
+			<Error12>erro do método</Error12>
+			<Error13>Erro de Parametro</Error13>
+			<Error14>URL inválido ou HTTP.</Error14>
+			<Error400>Erro: ligaçao desconectou ou está com anomalia</Error400>
+			<Error44>Falha Parametro</Error44>
+			<Error55>Definir Câmara</Error55>
+			<Error66>Definir parâmetros de alarme</Error66>
+			<Error77>esta câmara não suporta esta função.</Error77>
+			<Ask>Reiniciar automático apos salvar configuração. Continuar?</Ask>
+			<Ask1>Excluir este usuário?</Ask1>
+			<RestartTips>Você deseja reiniciar o aparelho?</RestartTips>
+			<RestartSuccessTips>Reiniciando ...</RestartSuccessTips>
+			<RestartFailedTips>Falha ao reiniciar o dispositivo.</RestartFailedTips>
+		</Js>
+	</ParamConfig>
+</ParamConfig>

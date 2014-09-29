@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelConfig>
+	<AnalogChan>
+		<Page>
+			<laSpanTitle>Аналог. камера</laSpanTitle>
+		</Page>
+		<Js>
+		</Js>
+	</AnalogChan>
+	<DigitalChan>
+		<Page>
+			<laSpanTitle>IP Камера</laSpanTitle>
+			<laIpChanAddress>Адрес IP Камера</laIpChanAddress>
+			<laDevicePort>Порт управление</laDevicePort>
+			<laProtocol>Протокол</laProtocol>
+			<laIpChanNum>IP Канал No.</laIpChanNum>
+			<laRegModeType>Режим на включване</laRegModeType>
+			<RegModeTypeOpt>Име на домейн</RegModeTypeOpt>
+			<laQuickAdd>Бързо добавяне</laQuickAdd>
+			<laMaskAddress>Subnet маска</laMaskAddress>
+			<laSerialNo>Сериен ном.</laSerialNo>
+			<laFirmware>Фърмуер версия</laFirmware>
+			<laDeviceChan>Ном. канал</laDeviceChan>
+		</Page>
+		<Js>
+			<HostNameTips>Домейн</HostNameTips>
+			<OnLineTips>Онлайн</OnLineTips>
+			<DeleteIpcTips>Изтриване на информация за IP канал?</DeleteIpcTips>
+			<DeleteErrorTips>Неуспешно изтриване.</DeleteErrorTips>
+			<NoOperationTips>Забрана за достъп.</NoOperationTips>
+			<InputIpTips>Моля, въведете IP адрес.</InputIpTips>
+			<InputRightIpTips>Моля, въведете коректен IP адрес.</InputRightIpTips>
+			<InputErrorIpTips>Некоректен IP адрес. Моля въведете отново.</InputErrorIpTips>
+			<IpChanExistTips>Такава IP камера вече съществува.</IpChanExistTips>
+			<ChannelsAddTips> Каналите могат да се добавят, моля изберете отново.</ChannelsAddTips>
+			<ChannelExistTips> Канал 1 съществува</ChannelExistTips>
+		</Js>
+		<General>
+			<geAdminPassword>Админ парола</geAdminPassword>
+		</General>
+	</DigitalChan>
+	<ZeroChan>
+		<Page>
+			<laSpanTitle>Настройки нула</laSpanTitle>
+			<laZeroChanEncode>Кодировка нула</laZeroChanEncode>
+			<laconstantBitRate>Макс. поб. скорост</laconstantBitRate>
+			<laVideoFramerate>Макс. кадри/секунда</laVideoFramerate>
+			<laSplitMode>Режим</laSplitMode>
+		    <laSplitTime>Dwell Time</laSplitTime>
+		    <laTimeMode1>Забрани превключване</laTimeMode1>
+		    <laChanOrder>Подредба камери</laChanOrder>
+			<defaultOrder>Подразб.</defaultOrder>
+		</Page>
+		<Js>
+		</Js>
+	</ZeroChan>
+</ChannelConfig>

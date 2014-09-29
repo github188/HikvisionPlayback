@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Impostazioni festività</laSpanTitle>
+		<laPrompt>I periodi festivi non si possono sovrapporre.</laPrompt>
+		<laHolidayName>Nome festività</laHolidayName>
+		<laHolidayFun>Abilita festività</laHolidayFun>
+		<HolidayTypeOpt1>Per data</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Per settimana</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Per mese</HolidayTypeOpt3>
+		<laStartDate>Data inizio</laStartDate>
+		<laEndDate>Data fine</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Modifica festività</EditHolidayTips>
+		<LastTips>Ultima</LastTips>
+		<DayTips>Data</DayTips>
+		<MonthTips>Mese</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

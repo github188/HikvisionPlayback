@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Μέγ. αρχ. εγγρ.</lapackSize>
+		<lanetsPreach tag="label;" length="150">Απόδ. ζωντ. προβ.</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Αποθήκευση σε</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Αποθ.. στιγμ. ζωντ. προβ. σε</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Αποθήκ. κλιπ σε</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Αποθ. στιγμ. κατά την αναπαρ. σε</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Αποθ. ληφθ. αρχ. σε</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Πραγματ. χρόνος</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Σε ισορροπία</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Βέλτιστη ροή</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Ρυθμ. αρχ. εγγρ</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Ρυθμ. εικ. &amp; κλιπ</laCaptureClipParams>
+		<trFullFill>Πλήρης συμπλ.</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

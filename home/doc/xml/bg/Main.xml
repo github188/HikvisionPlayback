@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Main>
+	<Common>
+		<Page>
+			<DVR>
+				<paStartAllView>Старт всичко на живо</paStartAllView>
+				<paStartAllRecord>Старт всичко на запис</paStartAllRecord>
+			</DVR>
+			<laPlugin>Щракнете тук за сваляне и инсталация на добавка. Затворете браузъра по.</laPlugin>
+			<laNotWin32Plugin>Няма наличен plug-in.</laNotWin32Plugin>
+			<streamTypeOpt1 tag="label;option;" length="134">Главен стр.</streamTypeOpt1>
+			<streamTypeOpt2 tag="label;option;" length="134">Втори стр.</streamTypeOpt2>
+			<StreamTypeInOpt4 tag="label;option;" length="104">Трети поток</StreamTypeInOpt4>
+			<windowProportionOpt1 tag="label;option;" length="134">Оригинален</windowProportionOpt1>
+			<windowAuto tag="label;option;" length="104">Авто</windowAuto>
+			<laStreamType tag="label;" length="90">Тип стрийм</laStreamType>
+			<lawindowProportion tag="label;" length="90">Размер на картина</lawindowProportion>
+			<laPlayParams tag="label;" length="91">Настройки на живо</laPlayParams>
+			<opensound>Аудио вкл.</opensound>
+			<closesound>Аудио изкл.</closesound>
+			<volume>Сила на звука</volume>
+			<stop>Стоп</stop>
+			<laSearch tag="label;" length="200">Търсене</laSearch>
+			<DownloadBtn tag="input;" length="80">Свали</DownloadBtn>
+			<laChannelNum tag="label;" length="148">Брой канали</laChannelNum>
+			<laChannelNo tag="label;" length="109">Ном. канал</laChannelNo>
+			<laStartTime tag="label;" length="140">Начален час</laStartTime>
+			<laEndTime tag="label;" length="140">Крайно време</laEndTime>
+			<laHue tag="label;" length="122">Нюанс</laHue>
+			<SetPreset>Настр.</SetPreset>
+			<CleanPreset>Изчистване</CleanPreset>
+			<laSerialNumber tag="label;" length="67">Ном.</laSerialNumber>
+			<Pattern>Pattern</Pattern>
+			<laWirelessAlarm>Сигнал за тревога по безжичен път</laWirelessAlarm>
+			<laPIRAlarm>Сигнал за тревога въз основа на данните от PIR датчика</laPIRAlarm>
+			<OptCallHelp>Авариен сигнал за тревога</OptCallHelp>
+			<laSharpness tag="label;" length="120">Острота</laSharpness>
+			<laEnableZoom>Разреши e-PTZ</laEnableZoom>
+			<laDisableZoom>Забрани e-PTZ</laDisableZoom>
+		</Page>
+		<Js>
+			<jsUpdatePlugin>Има налична нова версия на добавката. Искате ли да я актуализирате?</jsUpdatePlugin>
+			<jsUpdateNotWin32>Налична е нова версия на plug-in, моля свържете се с производителя за ъпдейт.</jsUpdateNotWin32>
+			<exit>Изход?</exit>
+			<jsPreview>Преглед на живо</jsPreview>
+			<jsRecord>Запис</jsRecord>
+			<previewfailed>Неуспешен преглед.</previewfailed>
+			<capturefailed>Неуспешна снимка!</capturefailed>
+			<stopAllRecord>Спри всички записи</stopAllRecord>
+			<FreeSpaceTips>Няма свободно място.</FreeSpaceTips>
+			<jsCreateFileFailed>Неуспешно създаване на файл</jsCreateFileFailed>
+			<jsNoOperationRight>Забрана за достъп.</jsNoOperationRight>
+			<jsOpenSoundFailed>Неуспешно вкл. аудио</jsOpenSoundFailed>
+			<jsCaptureSucc>Успешна снимка</jsCaptureSucc>
+			<TotalTips>Общо </TotalTips>
+			<TiaoTips> Елементи</TiaoTips>
+			<jsFirstPageTips>Основна страница</jsFirstPageTips>
+			<jsLastPageTips>Посл. стр.</jsLastPageTips>
+			<jsPrevPageTips>Пред. стр.</jsPrevPageTips>
+			<jsNextPageTips>След. стр.</jsNextPageTips>
+			<tipsTooLong>Пътя на файл е твърде дълъг. Моля изберете отново.</tipsTooLong>
+			<jsVideoDefault>Връщане на настр. подразбиране?</jsVideoDefault>
+			<jsTrue>Да</jsTrue>
+			<jsFalse>Не</jsFalse>
+			<jsTimeSegmentErrorTips>Начално време трябва да е по-ранно от крайно време.</jsTimeSegmentErrorTips>
+			<ptzSpeed>PTZ скорост</ptzSpeed>
+			<videoLost>Загуба видео сигнал</videoLost>
+			<ExcutePreset>Изпълни</ExcutePreset>
+			<laZoom>Zoom</laZoom>
+			<laFocus>Фокус</laFocus>
+			<laIris>Ирис</laIris>
+			<CurrentAddTips>Текущо до </CurrentAddTips>
+		</Js>
+		<General>
+			<capture>Снимка</capture>
+			<laOK tag="input;label;" length="88">OK</laOK>
+			<laCancel tag="input;label;" length="88">Отказ</laCancel>
+			<hdFull tag="option;" length="198">Пълен HDD</hdFull>
+			<hdError tag="option;" length="198">Грешка HDD</hdError>
+			<Exception>Изключение</Exception>
+			<laBrightness tag="label;" length="122">Яркост</laBrightness>
+			<laContrast tag="label;" length="122">Контраст</laContrast>
+			<laSaturation tag="label;" length="122">Наситеност</laSaturation>
+			<geDefault>Подразб.</geDefault>
+			<alarmIn>Алармен вход</alarmIn>
+			<alarmOut>Алармен Изход</alarmOut>
+			<laLensInit tag="label;" length="308">Инициализация обектив</laLensInit>
+			<laPreset tag="label;" length="31">Пресет</laPreset>
+			<SearchingTips>Търсене...</SearchingTips>
+			<laSaveBtn>Запис</laSaveBtn>
+			<DelDigitalIpBtn tag="input;" length="74">Изтриване</DelDigitalIpBtn>
+		</General>
+	</Common>
+	<Main>
+		<Page>
+			<laPreview tag="label;" length="165">На живо</laPreview>
+			<laPlayback tag="label;" length="165">Плейбек</laPlayback>
+			<laLog tag="label;" length="165">Лог</laLog>
+			<laConfig tag="label;" length="165">Конфигурация</laConfig>
+			<laExit tag="label;" length="974">Изход</laExit>
+			<DVR>
+				<laHelp>Помощ</laHelp>
+				<laVersion>Версия</laVersion>
+			</DVR>
+		</Page>
+		<Js>
+		</Js>
+	</Main>
+</Main>

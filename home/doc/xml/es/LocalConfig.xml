@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Tamaño fichero grabado</lapackSize>
+		<lanetsPreach tag="label;" length="150">Rendimiento Live View</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Guardar en subdirectorio</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Guar. cap. LV</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Guardar videos en</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Guardar captura en reproducción</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Guardar descargas en</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Tiempo real</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Balanceado</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Mejor fluidez</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Ajustes fichero grabado</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Ajustes Imagen y Video</laCaptureClipParams>
+		<trFullFill>Rellenado completo</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

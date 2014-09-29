@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Ustawienia świąt</laSpanTitle>
+		<laPrompt>Okresy świąteczne nie mogą na siebie nachodzić.</laPrompt>
+		<laHolidayName>Nazwa święta</laHolidayName>
+		<laHolidayFun>Włącz święta</laHolidayFun>
+		<HolidayTypeOpt1>Wg daty</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Wg tygodnia</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Wg miesiąca</HolidayTypeOpt3>
+		<laStartDate>Data początku</laStartDate>
+		<laEndDate>Data końca</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Edycja świąt</EditHolidayTips>
+		<LastTips>Ostatnie</LastTips>
+		<DayTips>Data</DayTips>
+		<MonthTips>Miesiąc</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

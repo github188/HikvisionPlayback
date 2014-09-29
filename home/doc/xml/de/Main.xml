@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Main>
+	<Common>
+		<Page>
+			<DVR>
+				<paStartAllView>Alle Live-Ansichten starten</paStartAllView>
+				<paStartAllRecord>Alle Aufzeichnungen starten</paStartAllRecord>
+			</DVR>
+			<laPlugin>Klicken Sie bitte hier, um das Plug-In herunterzuladen und zu installieren. Schließen Sie zum Installieren des Plug-in den Browser.</laPlugin>
+			<laNotWin32Plugin>Kein Plug-in erkannt.</laNotWin32Plugin>
+			<streamTypeOpt1 tag="label;option;" length="134">Main Stream</streamTypeOpt1>
+			<streamTypeOpt2 tag="label;option;" length="134">Sub-Stream</streamTypeOpt2>
+			<StreamTypeInOpt4 tag="label;option;" length="104">Dritter Stream</StreamTypeInOpt4>
+			<windowProportionOpt1 tag="label;option;" length="134">Original</windowProportionOpt1>
+			<windowAuto tag="label;option;" length="104">Auto</windowAuto>
+			<laStreamType tag="label;" length="90">Stream-Typ</laStreamType>
+			<lawindowProportion tag="label;" length="90">Bildgröße</lawindowProportion>
+			<laPlayParams tag="label;" length="91">Live-Ans.-Parameter</laPlayParams>
+			<opensound>Audio Ein</opensound>
+			<closesound>Audio Aus</closesound>
+			<volume>Lautstärke</volume>
+			<stop>Stoppen</stop>
+			<laSearch tag="label;" length="200">Suchen</laSearch>
+			<DownloadBtn tag="input;" length="80">Download</DownloadBtn>
+			<laChannelNum tag="label;" length="148">Anzahl Kanäle</laChannelNum>
+			<laChannelNo tag="label;" length="109">Kanalnummer</laChannelNo>
+			<laStartTime tag="label;" length="140">Startzeit</laStartTime>
+			<laEndTime tag="label;" length="140">Endzeit</laEndTime>
+			<laHue tag="label;" length="122">Farbton</laHue>
+			<SetPreset>Einstellen</SetPreset>
+			<CleanPreset>Löschen</CleanPreset>
+			<laSerialNumber tag="label;" length="67">Nr.</laSerialNumber>
+			<Pattern>Muster</Pattern>
+			<laWirelessAlarm>Wireless Alarm</laWirelessAlarm>
+			<laPIRAlarm>PIR Alarm</laPIRAlarm>
+			<OptCallHelp>Notalarm</OptCallHelp>
+			<laSharpness tag="label;" length="120">Schärfe</laSharpness>
+			<laEnableZoom>e-PTZ aktivieren</laEnableZoom>
+			<laDisableZoom>e-PTZ deaktivieren</laDisableZoom>
+		</Page>
+		<Js>
+			<jsUpdatePlugin>Neue Plug-in-Version erkannt. Aktualisieren?</jsUpdatePlugin>
+			<jsUpdateNotWin32>Neue Plug-in-Version wurde erkannt. Bitte wenden Sie sich zwecks Aktualisierung an Ihren Händler.</jsUpdateNotWin32>
+			<exit>Abmelden?</exit>
+			<jsPreview>Liveansicht</jsPreview>
+			<jsRecord>Aufzeichnen</jsRecord>
+			<previewfailed>Live-Ansicht fehlgeschlagen</previewfailed>
+			<capturefailed>Erfassung fehlgeschlagen</capturefailed>
+			<stopAllRecord>Alle Aufzeichnungen stoppen</stopAllRecord>
+			<FreeSpaceTips>Nicht genügend Platz.</FreeSpaceTips>
+			<jsCreateFileFailed>Datei konnte nicht erstellt werden.</jsCreateFileFailed>
+			<jsNoOperationRight>Keine Erlaubnis.</jsNoOperationRight>
+			<jsOpenSoundFailed>"Audio ein" fehlgeschlagen</jsOpenSoundFailed>
+			<jsCaptureSucc>Erfassen erfolgreich</jsCaptureSucc>
+			<TotalTips>Gesamt </TotalTips>
+			<TiaoTips> Elemente</TiaoTips>
+			<jsFirstPageTips>Startseite</jsFirstPageTips>
+			<jsLastPageTips>Letzte Seite</jsLastPageTips>
+			<jsPrevPageTips>Vorherige Seite</jsPrevPageTips>
+			<jsNextPageTips>Nächste Seite</jsNextPageTips>
+			<tipsTooLong>Dateipfad zu lang. Bitte erneut wählen.</tipsTooLong>
+			<jsVideoDefault>Standardvorgaben wiederherstellen?</jsVideoDefault>
+			<jsTrue>Ja</jsTrue>
+			<jsFalse>Kein</jsFalse>
+			<jsTimeSegmentErrorTips>Startzeit muss vor Endzeit liegen.</jsTimeSegmentErrorTips>
+			<ptzSpeed>PTZ-Geschwindigkeit</ptzSpeed>
+			<videoLost>Videosignal-Verlust</videoLost>
+			<ExcutePreset>Rufen</ExcutePreset>
+			<laZoom>Zoom</laZoom>
+			<laFocus>Fokus</laFocus>
+			<laIris>Blende</laIris>
+			<CurrentAddTips>Aktuell bis zu </CurrentAddTips>
+		</Js>
+		<General>
+			<capture>Erfassen</capture>
+			<laOK tag="input;label;" length="88">OK</laOK>
+			<laCancel tag="input;label;" length="88">Abbrechen</laCancel>
+			<hdFull tag="option;" length="198">HDD voll</hdFull>
+			<hdError tag="option;" length="198">HDD-Fehler</hdError>
+			<Exception>Ausnahme</Exception>
+			<laBrightness tag="label;" length="122">Helligkeit</laBrightness>
+			<laContrast tag="label;" length="122">Kontrast</laContrast>
+			<laSaturation tag="label;" length="122">Sättigung</laSaturation>
+			<geDefault>Standard</geDefault>
+			<alarmIn>Alarmeingang</alarmIn>
+			<alarmOut>Alarmausgang</alarmOut>
+			<laLensInit tag="label;" length="308">Objektiv-Initialisierung</laLensInit>
+			<laPreset tag="label;" length="31">Preset</laPreset>
+			<SearchingTips>Suche...</SearchingTips>
+			<laSaveBtn>Speichern</laSaveBtn>
+			<DelDigitalIpBtn tag="input;" length="74">Löschen</DelDigitalIpBtn>
+		</General>
+	</Common>
+	<Main>
+		<Page>
+			<laPreview tag="label;" length="165">Liveansicht</laPreview>
+			<laPlayback tag="label;" length="165">Wiedergabe</laPlayback>
+			<laLog tag="label;" length="165">Protokoll</laLog>
+			<laConfig tag="label;" length="165">Konfiguration</laConfig>
+			<laExit tag="label;" length="974">Abmelden</laExit>
+			<DVR>
+				<laHelp>Hilfe</laHelp>
+				<laVersion>Version</laVersion>
+			</DVR>
+		</Page>
+		<Js>
+		</Js>
+	</Main>
+</Main>

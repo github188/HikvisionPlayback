@@ -1,0 +1,79 @@
+.sdmenu 
+{
+	width: 200px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	border-right: 1px solid #C6C6C7;
+	overflow:hidden;
+}
+.sdmenu .displaynone
+{
+    display:none;
+}
+.mainmenu
+{
+	padding-left:6px;
+	border-top: 1px solid #C6C6C7;
+	font-weight:bold;
+	overflow: hidden;
+}
+.collapsed 
+{
+	height: 32px;
+}
+.currentMenu 
+{
+    font-weight:bold;
+}
+.menuspan 
+{
+	display: block;
+	padding: 8px 20px;
+	color: #656565;
+	background: url(expanded.gif) no-repeat 95% 50%;
+	cursor: pointer;
+}
+.collapsed .menuspan
+{
+    background-image: url(collapsed.gif);
+}
+.menulabel
+{
+    font-size:13px;
+	cursor:pointer;
+}
+.submenu
+{
+	*width:133px;
+	padding: 5px 10px;
+	background: #FFFFFF url(point.gif) no-repeat center left;
+	display: block;
+	border-bottom: 1px solid #dddddd;
+	color: #6E83B3;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration: none;
+	margin-left:28px;
+	padding-left:23px;
+	blr:expression(this.onFocus=this.blur());	
+	outline:none;
+}
+.current 
+{
+	color:#932300;
+	font-weight:bold;
+}
+.local 
+{
+	background:url(local.gif) no-repeat 0px 6px;
+	border-width:0px;
+}
+.basic 
+{
+	background:url(basic.gif) no-repeat 0px 6px;
+}
+
+.advanced 
+{
+	background:url(advanced.gif) no-repeat 0px 6px;
+}

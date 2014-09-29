@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Security>
+	<Common>
+		<Page>
+			<aUser tag="a;" length="9999">Utenti</aUser>
+			<aRTSPAuth tag="a;" length="9999">Autenticazione RTSP</aRTSPAuth>
+			<aAnonymousVisit>Accesso Anonimo</aAnonymousVisit>
+			<aIPFilter>Filtro Indirizzi IP</aIPFilter>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<User>
+		<Page>
+			<DVR>
+				<laSpanTitle>Info utente</laSpanTitle>
+				<laIpBind>Binding indirizzo IP</laIpBind>
+				<laLocalColonConfig tag="label;" length="125">Locale: Configurazione</laLocalColonConfig>
+				<laLocalUpgrade>Locale: Aggiorna/Formatta</laLocalUpgrade>
+				<laLocalReboot>Locale: Arresto/Riavvio</laLocalReboot>
+				<laLocalSetParam>Locale: Imp. parametri</laLocalSetParam>
+				<laLocalLog>Locale: Ricerca log</laLocalLog>
+				<laLocalIPCCfg>Locale: Imp. tlc IP</laLocalIPCCfg>
+				<laLocalPlayback>Locale: Playback</laLocalPlayback>
+				<laLocalManualRecord>Locale: Operazione manuale</laLocalManualRecord>
+				<laLocalPTZControl>Locale: Controllo PTZ</laLocalPTZControl>
+				<laLocalBackup>Locale: Esportazione video</laLocalBackup>
+				<laRemoteConfig>Configurazione remota</laRemoteConfig>
+			</DVR>
+			<laUserType tag="label;" length="150">Level</laUserType>
+			<PriorityOpt1 tag="label;" length="411">Amministratore</PriorityOpt1>
+			<PriorityOpt2 tag="option;" length="198">Operatore</PriorityOpt2>
+			<PriorityOpt3 tag="option;" length="198">Utente</PriorityOpt3>
+			<laBasicPermissionBtn tag="label;" length="399">Permessi di base</laBasicPermissionBtn>
+			<laChanPermissionBtn tag="label;" length="148">Configurazione tlc</laChanPermissionBtn>
+			<laRemoteSetParam tag="label;" length="370">Remoto: Imp. parametri</laRemoteSetParam>
+			<laRemoteLog tag="label;" length="370">Remoto: Ricerca log / Interroga stato</laRemoteLog>
+			<laRemoteUpgrade tag="label;" length="370">Remoto: Aggiorna/Formatta</laRemoteUpgrade>
+			<laRemoteTalk tag="label;" length="370">Remoto: Audio bidirezionale</laRemoteTalk>
+			<laRemoteReboot tag="label;" length="370">Remoto: Arresto / Riavvio</laRemoteReboot>
+			<laRemoteAlarm tag="label;" length="370">Remoto: Notifica al centro / Attiva uscita allarme</laRemoteAlarm>
+			<laRemoteCtrl tag="label;" length="370">Remoto: Controllo uscita video</laRemoteCtrl>
+			<laRemoteRS tag="label;" length="370">Remoto: Controllo porta seriale</laRemoteRS>
+			<laRemotePreview tag="label;" length="119">Remoto: Vista live</laRemotePreview>
+			<laRemoteManualRecord tag="label;" length="119">Remoto: Reg. manuale</laRemoteManualRecord>
+			<laRemotePTZControl tag="label;" length="119">Remoto: Controllo PTZ</laRemotePTZControl>
+			<laRemotePlayback tag="label;" length="122">Remoto: Playback</laRemotePlayback>
+			<laPermissionConfig>Impostazione permessi</laPermissionConfig>
+		</Page>
+		<Js>
+			<UserAddTips>Aggiungi utente</UserAddTips>
+			<UserExistTips>Il nome utente esiste già.</UserExistTips>
+			<jsPasswordDifferenceTips>Le password non corrispondono.</jsPasswordDifferenceTips>
+			<WrongCharTips> non può contenere</WrongCharTips>
+		</Js>
+		<General>
+			<laUserModify tag="label;" length="550">Modifica utente</laUserModify>
+		</General>
+	</User>
+	<RTSPAuth>
+		<Page>
+		</Page>
+		<Js>
+		</Js>
+	</RTSPAuth>
+	<IPFilter>
+		<Page>
+			<laEnableIPFilter>Abilita filtro indirizzo IP</laEnableIPFilter>
+			<laIPFilterType>Tipo filtro indirizzo IP</laIPFilterType>
+			<optAllow>Consentito</optAllow>
+			<optDeny>Non consentito</optDeny>
+			<laAddIPAddress>Aggiungi indirizzo IP</laAddIPAddress>
+			<laModifyIPAddress>Modifica indirizzo IP</laModifyIPAddress>
+		</Page>
+		<Js>
+		</Js>
+	</IPFilter>
+</Security>

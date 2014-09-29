@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Events>
+	<Common>
+		<Page>
+			<aBlockAlarm tag="a;" length="9999">Tamper-proof</aBlockAlarm>
+			<aVideoLost tag="a;" length="9999">Videoverlies</aVideoLost>
+			<aCapturePlan tag="a;" length="9999">Snapshot</aCapturePlan>
+			<aOtherAlarm>Ander alarm</aOtherAlarm>
+			<laTimeTabDivBtn tag="label;" length="670">Inschakeltijd</laTimeTabDivBtn>
+			<laLinkageTabDivBtn tag="label;" length="670">Koppelingsmethode</laLinkageTabDivBtn>
+			<laSensitivity tag="label;" length="85">Gevoeligheid</laSensitivity>
+			<!--<laCommonLinkage>Alarm Linking</laCommonLinkage>-->
+			<!--DVR的，需要修改DVR网页name-->
+			<laNormalLink tag="label;" length="215">Normale koppeling</laNormalLink>
+			<laMonitorAlarm>Schermvullend bekijken</laMonitorAlarm>
+			<laSoundAlarm tag="label;" length="130">Geluidssignaal</laSoundAlarm>
+			<laUpload tag="label;" length="130">Waarschuw surveillancecentrum</laUpload>
+			<laEmail tag="label;" length="130">Verzend e-mail</laEmail>
+			<laLinkageAlarmOutput tag="label;" length="116">Trigger alarm</laLinkageAlarmOutput>
+			<laScheduleEdit tag="label;">Voeg tijdschema toe</laScheduleEdit>
+			<laOtherLink tag="label;" length="271">Andere koppeling</laOtherLink>
+			<BlockSensitiveOpt1>Laag</BlockSensitiveOpt1>
+			<BlockSensitiveOpt2>Gemiddeld</BlockSensitiveOpt2>
+			<BlockSensitiveOpt3>Hoog </BlockSensitiveOpt3>
+			<laAlarmname tag="label;" length="150">Alarmnaam</laAlarmname>
+			<laCopyalarm tag="label;" length="670">Kopieer naar alarm</laCopyalarm>
+			<laTrigglerecord tag="label;" length="130">Triggerkanaal</laTrigglerecord>
+			<laUpdateToFTP tag="label;" length="130">Upload naar FTP</laUpdateToFTP>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laCaptureInterval tag="label;" length="100">Interval</laCaptureInterval>
+		</General>
+	</Common>
+	<MotionDetection>
+		<Page>
+			<laUseMotion tag="label;" length="133">Zet bewegingsdetectie aan</laUseMotion>
+			<laHighLight>Dynamische bewegingsanalyse aanzetten</laHighLight>
+		</Page>
+		<Js>
+		</Js>
+	</MotionDetection>
+	<TamperProof>
+		<Page>
+			<laUseKeepout tag="label;" length="671">Zet Tamper-proof aan</laUseKeepout>
+		</Page>
+		<Js>
+		</Js>
+	</TamperProof>
+	<VideoLoss>
+		<Page>
+			<laUseVideoLost tag="label;" length="671">Zet videoverliesdetectie aan</laUseVideoLost>
+		</Page>
+		<Js>
+		</Js>
+	</VideoLoss>
+	<AlarmInput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Instellingen alarmingang</laSpanTitle>
+			</DVR>
+			<laAlarminnumber tag="label;" length="150">Alarmingangnr.</laAlarminnumber>
+			<laAlarmtype tag="label;" length="150">Alarmtype</laAlarmtype>
+			<triggeringOpt1 tag="option;" length="198">NC</triggeringOpt1>
+			<triggeringOpt2 tag="option;" length="198">Geen</triggeringOpt2>
+			<laTriggleptz tag="label;" length="212">PTZ-koppeling</laTriggleptz>
+			<laPresetnumer tag="label;" length="100">Preset-nr.</laPresetnumer>
+			<laCurisenumber tag="label;" length="100">Rondenummer</laCurisenumber>
+			<laTrackid tag="label;" length="100">Patroonnummer</laTrackid>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmInput>
+	<AlarmOutput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Instellingen alarmuitgang</laSpanTitle>
+			</DVR>
+			<laAlarmoutnumber tag="label;" length="150">Alarmuitgang</laAlarmoutnumber>
+			<laDefaultstate tag="label;" length="150">Std. status</laDefaultstate>
+			<defaultStateOpt1 tag="option;" length="198">Hoog niveau</defaultStateOpt1>
+			<defaultStateOpt2 tag="option;" length="198">Laag niveau</defaultStateOpt2>
+			<laTrigglestate tag="label;" length="150">Triggerstatus</laTrigglestate>
+			<outputState1 tag="option;" length="198">Puls</outputState1>
+			<pulseDurationOpt1 tag="option;" length="198">5 s</pulseDurationOpt1>
+			<pulseDurationOpt2 tag="option;" length="198">10 s</pulseDurationOpt2>
+			<pulseDurationOpt3 tag="option;" length="198">30 s</pulseDurationOpt3>
+			<pulseDurationOpt4 tag="option;" length="198">1min</pulseDurationOpt4>
+			<pulseDurationOpt5 tag="option;" length="198">2 min</pulseDurationOpt5>
+			<pulseDurationOpt6 tag="option;" length="198">5 min</pulseDurationOpt6>
+			<pulseDurationOpt7 tag="option;" length="198">10 min </pulseDurationOpt7>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmOutput>
+	<Exception>
+		<Page>
+			<DVR>
+				<laSpanTitle>Uitzondering</laSpanTitle>
+			</DVR>
+			<laExceptionType tag="label;" length="150">Uitzonderingstype</laExceptionType>
+			<ExceptionTypeOpt3 tag="option;" length="198">Netwerk afgesloten</ExceptionTypeOpt3>
+			<ExceptionTypeOpt4 tag="option;" length="198">Conflicterend IP-adres</ExceptionTypeOpt4>
+			<ExceptionTypeOpt5 tag="option;" length="198">Onjuiste login</ExceptionTypeOpt5>
+			<ExceptionTypeOpt6>Ingang/Uitgang Videostandaard komt niet overeen</ExceptionTypeOpt6>
+			<ExceptionTypeOpt7>Fout in videosignaal</ExceptionTypeOpt7>
+			<ExceptionTypeOpt8>Fout bij opnemen/vastleggen</ExceptionTypeOpt8>
+			<ExceptionTypeOpt9>Foutieve resolutie </ExceptionTypeOpt9>
+		</Page>
+		<Js>
+		</Js>
+	</Exception>
+	<Email>
+		<Page>
+			<DVR>
+				<laSpanTitle>E-mail</laSpanTitle>
+			</DVR>
+			<laServerAuthentication tag="label;" length="670">Verificatie</laServerAuthentication>
+			<laSMTPServer>SMTP-server</laSMTPServer>
+			<laUseSSL tag="label;" length="670">Zet SSL aan</laUseSSL>
+			<laMailInterval tag="label;" length="150">Interval</laMailInterval>
+			<MailIntervalOpt1 tag="option;" length="198">2 s</MailIntervalOpt1>
+			<MailIntervalOpt2 tag="option;" length="198">3 s</MailIntervalOpt2>
+			<MailIntervalOpt3 tag="option;" length="198">4 s</MailIntervalOpt3>
+			<MailIntervalOpt4 tag="option;" length="198">5 s</MailIntervalOpt4>
+			<laAttachment tag="label;" length="314">Toegevoegd beeld</laAttachment>
+			<laEmailAdd>E-mailadres</laEmailAdd>
+			<laChooseReceiver tag="label;" length="150">Kies ontvanger</laChooseReceiver>
+			<laReceiver tag="label;" length="670">Ontvanger</laReceiver>
+			<laSender tag="label;" length="670">Afzender</laSender>
+			<ReceiverNumOpt1 tag="option;" length="198">Ontvanger 1</ReceiverNumOpt1>
+			<ReceiverNumOpt2 tag="option;" length="198">Ontvanger 2</ReceiverNumOpt2>
+			<ReceiverNumOpt3 tag="option;" length="198">Ontvanger 3</ReceiverNumOpt3>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laSenderName tag="label;" length="150">Afzender</laSenderName>
+			<laSenderAddress tag="label;" length="150">Adres afzender</laSenderAddress>
+			<laReceiverName tag="label;" length="150">Ontvanger</laReceiverName>
+			<laReceiverAddress tag="label;" length="150">Receiver's Address</laReceiverAddress>
+			<laReceiverName1 tag="label;" length="150">Ontvanger 1</laReceiverName1>
+			<laReceiverName2 tag="label;" length="150">Ontvanger 2</laReceiverName2>
+			<laReceiverAddress1 tag="label;" length="150">Adres ontvanger 1</laReceiverAddress1>
+			<laReceiverAddress2 tag="label;" length="150">Adres ontvanger 2</laReceiverAddress2>
+			<laSMTPPort tag="label;" length="150">SMTP-poort</laSMTPPort>
+		</General>
+	</Email>
+	<CapturePlan>
+		<Page>
+			<laTimingCapture tag="label;" length="670">Normaal</laTimingCapture>
+			<laEventCapture tag="label;" length="670">Getriggerd door gebeurtenis</laEventCapture>
+			<laUseTimingCapture tag="label;" length="651">Zet timing-snapshot aan</laUseTimingCapture>
+			<laUseEventCapture tag="label;" length="651">Zet trigger gebeurtenis-snapshot aan</laUseEventCapture>
+			<laPictureCodecType tag="label;" length="100">Format</laPictureCodecType>
+			<laPictureQuality tag="label;" length="100">Kwaliteit</laPictureQuality>
+			<laMillisecond>milliseconde</laMillisecond>
+			<optionMillisecond tag="option;" length="78">milliseconde</optionMillisecond>
+			<optionMinute tag="option;" length="78">minuut</optionMinute>
+			<optionHour tag="option;" length="78">Uur </optionHour>
+			<laCaptureNum>Vastlegnummer</laCaptureNum>
+		</Page>
+	</CapturePlan>
+	<OtherAlarm>
+		<Page>
+			<laEnableWirelessAlarm>Draadloos alarm aanzetten</laEnableWirelessAlarm>
+			<laEnablePIRAlarm>PIR-alarm aanzetten</laEnablePIRAlarm>
+			<laTriggerWirelessAlarm>Draadloos alarm triggeren</laTriggerWirelessAlarm>
+			<laLightAudioAlarm>Draadloos hoorbaar en zichtbaar alarm</laLightAudioAlarm>
+			<laSelWirelessAlarm>Draadloos alarm selecteren</laSelWirelessAlarm>
+		</Page>
+	</OtherAlarm>
+</Events>

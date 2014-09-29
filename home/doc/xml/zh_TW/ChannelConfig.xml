@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelConfig>
+	<AnalogChan>
+		<Page>
+			<laSpanTitle>類比攝影機</laSpanTitle>
+		</Page>
+		<Js>
+		</Js>
+	</AnalogChan>
+	<DigitalChan>
+		<Page>
+			<laSpanTitle>IP攝影機</laSpanTitle>
+			<laIpChanAddress>IP攝影機位址</laIpChanAddress>
+			<laDevicePort>管理埠</laDevicePort>
+			<laProtocol>協定</laProtocol>
+			<laIpChanNum>IP攝影機編號</laIpChanNum>
+			<laRegModeType>註冊模式</laRegModeType>
+			<RegModeTypeOpt>普通網域名稱</RegModeTypeOpt>
+			<laQuickAdd>快速新增</laQuickAdd>
+			<laMaskAddress>遮罩位址</laMaskAddress>
+			<laSerialNo>設備序列號</laSerialNo>
+			<laFirmware>韌體版本</laFirmware>
+			<laDeviceChan>設備攝影機編號</laDeviceChan>
+		</Page>
+		<Js>
+			<HostNameTips>設備網域</HostNameTips>
+			<OnLineTips>線上</OnLineTips>
+			<DeleteIpcTips>確定刪除該IP攝影機資訊？</DeleteIpcTips>
+			<DeleteErrorTips>刪除失敗</DeleteErrorTips>
+			<NoOperationTips>您沒有權限進行此項操作</NoOperationTips>
+			<InputIpTips>請輸入IP位址！</InputIpTips>
+			<InputRightIpTips>請輸入正確的IP位址！</InputRightIpTips>
+			<InputErrorIpTips>IP位址錯誤，請重新輸入！</InputErrorIpTips>
+			<IpChanExistTips>該網路攝影機已經存在！</IpChanExistTips>
+			<ChannelsAddTips>可新增攝影機，請重新選擇。</ChannelsAddTips>
+			<ChannelExistTips>攝影機:1, 已存在</ChannelExistTips>
+		</Js>
+		<General>
+			<geAdminPassword>管理員密碼</geAdminPassword>
+		</General>
+	</DigitalChan>
+	<ZeroChan>
+		<Page>
+			<laSpanTitle>零攝影機設定</laSpanTitle>
+			<laZeroChanEncode>啟用零攝影機編碼</laZeroChanEncode>
+			<laconstantBitRate>位元率上限</laconstantBitRate>
+			<laVideoFramerate>最大影格速率</laVideoFramerate>
+			<laSplitMode>分割模式</laSplitMode>
+			<laSplitTime>切換時間</laSplitTime>
+			<laTimeMode1>不切換</laTimeMode1>
+			<laChanOrder>攝影機順序</laChanOrder>
+			<defaultOrder>預設順序</defaultOrder>
+		</Page>
+		<Js>
+		</Js>
+	</ZeroChan>
+</ChannelConfig>

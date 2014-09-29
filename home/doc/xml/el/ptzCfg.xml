@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<PTZCfg>
+	<Common>
+		<Page>
+			<aPtzBasic tag="a;" length="9999">Βασικό</aPtzBasic>
+			<aPtzLimit tag="a;" length="9999">Όριο</aPtzLimit>
+			<aPtzHomePos tag="a;" length="9999">Αρχική θέση </aPtzHomePos>
+			<aPtzParkAction tag="a;" length="9999">Ενέργεια στάθμευσης</aPtzParkAction>
+			<aPtzPrivacyMask tag="a;" length="9999">Μάσκα απόκρ</aPtzPrivacyMask>
+			<aPtzTimeTasks tag="a;" length="9999">Προγραμματισμένες εργασίες</aPtzTimeTasks>
+			<aPtzClearCfg tag="a;" length="9999">Απαλοιφή παραμέτρων</aPtzClearCfg>
+			<btnGoto tag="input;" length="80">Μετ. σε</btnGoto>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<autoScan tag="option;" length="200">Αυτόματη σάρωση</autoScan>
+			<frameScan tag="option;" length="200">Σάρωση καρέ</frameScan>
+			<randomScan tag="option;" length="200">Τυχαία σάρωση</randomScan>
+			<patrolScan tag="option;" length="200">Περιπολία</patrolScan>
+			<panoramaScan tag="option;" length="200">Πανοραμική σάρωση</panoramaScan>
+			<tiltScan>Κατακόρ. μετακ.</tiltScan>
+			<periodReboot>Επανεκκίν. dome</periodReboot>
+			<periodAdjust>Ρύθμιση dome</periodAdjust>
+			<auxOutput>Βοηθητ. έξοδος</auxOutput>
+			<autoTrack>Αυτόματος εντοπισμός</autoTrack>
+		</General>
+	</Common>
+	<PtzBasic>
+		<Page>
+			<laPtzBasic tag="label;">Βασικές παράμετροι </laPtzBasic>
+			<laProportionZoom tag="label;">Ενεργοποίηση αναλογικής μετακίνησης</laProportionZoom>
+			<laImageFreeze tag="label;">Ενεργοποίηση προκαθορισμένου παγώματος</laImageFreeze>
+			<laPresetSpeed tag="label;" length="150">Προκαθ. ταχύτ.</laPresetSpeed>
+			<laControlSpeed tag="label;" length="150">Ταχ. ελ. πληκτρ</laControlSpeed>
+			<laAutoScanSpeed tag="label;" length="150">Ταχύτητα αυτόμ. σάρωσης</laAutoScanSpeed>
+			<laPtzOSDDis tag="label;">PTZ OSD</laPtzOSDDis>
+			<laZoomLabel tag="label;" length="150">Κατάσταση zoom</laZoomLabel>
+			<laAzimuth tag="label;" length="150">Κατάσταση PT</laAzimuth>
+			<laPresetLable tag="label;" length="150">Προκαθ. κατάστ.</laPresetLable>
+			<speedLevelOpt1 tag="option;" length="200">2 δευτ.</speedLevelOpt1>
+			<speedLevelOpt2 tag="option;" length="200">5 δευτ.</speedLevelOpt2>
+			<speedLevelOpt3 tag="option;" length="200">10 δευτ.</speedLevelOpt3>
+			<speedLevelOpt4 tag="option;" length="200">Πάντα κλείσιμο</speedLevelOpt4>
+			<speedLevelOpt5 tag="option;" length="200">Πάντα άνοιγμα</speedLevelOpt5>
+			<laSavePowerOff tag="label;">Απενεργ. μνήμης</laSavePowerOff>
+			<laSavePowerType tag="label;" length="150">Ορ. χρ. σημ. συνέχ.</laSavePowerType>
+			<savePowerTypeOpt2 tag="option;" length="200">30 δευτ.</savePowerTypeOpt2>
+			<savePowerTypeOpt3 tag="option;" length="200">60 δευτ.</savePowerTypeOpt3>
+			<savePowerTypeOpt4 tag="option;" length="200">300 δευτ.</savePowerTypeOpt4>
+			<savePowerTypeOpt5 tag="option;" length="200">600 δευτ.</savePowerTypeOpt5>
+		</Page>
+		<Js>
+		</Js>
+	</PtzBasic>
+	<PtzLimiteds>
+		<Page>
+			<laEnableLimit tag="label;" length="134">Ενεργ. ορίου</laEnableLimit>
+			<laLimitType tag="label;" length="150">Τύπος ορίου</laLimitType>
+			<limitTypeOpt1 tag="option;" length="198">Χειροκίνητες διακοπές</limitTypeOpt1>
+			<limitTypeOpt2 tag="option;" length="198">Διακοπές σάρωσης</limitTypeOpt2>
+			<laLimitStatus tag="label;" length="150">Κατάσταση τύπου</laLimitStatus>
+		</Page>
+		<Js>
+			<jsLimited>Με περιορισμό</jsLimited>
+			<jsNoLimited>Χωρίς περιορισμό</jsNoLimited>
+		</Js>
+	</PtzLimiteds>
+	<ParkAction>
+		<Page>
+			<laEnabledPark tag="label;">Ενεργοποίηση ενέργειας στάθμευσης</laEnabledPark>
+			<laParkTime tag="label;" length="150">Χρόνος στάθμευσης</laParkTime>
+			<laActionType tag="label;" length="150">Τύπος ενέργειας</laActionType>
+			<laActionNum tag="label;" length="150">Αναγν. τύπου εν.</laActionNum>
+		</Page>
+		<Js>
+		</Js>
+	</ParkAction>
+	<PrivacyMask>
+		<Page>
+			<laEnablePrivacyMask tag="label;">Ενεργοποίηση μασκών απόκρυψης</laEnablePrivacyMask>
+			<laPrivacyMaskList tag="label;">Λίστα μασκών απόκρυψης </laPrivacyMaskList>
+			<laPrivacyMaskTitle tag="label;" length="246">Όνομα</laPrivacyMaskTitle>
+			<gray tag="option;">γκρι</gray>
+			<red tag="option;">κόκκινο</red>
+			<green tag="option;">πράσινο</green>
+			<blue tag="option;">μπλε</blue>
+			<orange tag="option;">πορτοκαλί</orange>
+			<yellow tag="option;">κίτρινο</yellow>
+			<mosaic tag="option;">μωσαϊκό</mosaic>
+		</Page>
+		<Js>
+			<tipsSelectPrimary>Κάντε κλικ για να ενεργοποιήσετε αυτήν την απόκρυψη απορρήτου</tipsSelectPrimary>
+		</Js>
+	</PrivacyMask>
+	<TimeTasks>
+		<Page>
+			<laEnabledTimeTasks tag="label;">Ενεργοποίηση προγραμματισμένης εργασίας</laEnabledTimeTasks>
+			<laTimeTask tag="label;" length="150">Χρόνος στάθμευσης</laTimeTask>
+			<laTimingTasks tag="label;" length="150">Εργασ. χρονισμού</laTimingTasks>
+			<btnEditingTasks tag="input;" length="80">Επεξ. εργ.</btnEditingTasks>
+			<laTaskCaption tag="label;">Σημείωση: Το κόκκινο και το πράσινο χρώμα χρησιμοποιούνται για να ξεχωρίζουν γειτονικές προγραμματισμένες ενέργειες.</laTaskCaption>
+			<trTaskType>Τύπος εργασίας</trTaskType>
+			<trTaskNum>Αναγν. τύπ. εργ</trTaskNum>
+		</Page>
+		<Js>
+		</Js>
+	</TimeTasks>
+	<ClearCfg>
+		<Page>
+			<laAllPreset tag="label;" length="654">Απαλοιφή όλων των προεπιλογών</laAllPreset>
+			<laAllPatrol tag="label;" length="654">Απαλοιφή όλων των περιπολιών</laAllPatrol>
+			<laAllPattern tag="label;" length="654">Απαλοιφή όλων των υποδειγμάτων</laAllPattern>
+			<laAllMasks tag="label;" length="654">Απαλοιφή όλων των μασκών απόκρυψης</laAllMasks>
+			<laAllLimit tag="label;" length="654">Περιορισμένη απολοιφή όλων των PTZ</laAllLimit>
+			<laAllTasks tag="label;" length="654">Απαλ. όλων των προγραμμ. εργ.</laAllTasks>
+			<laAllPark>Απαλοιφή όλης της ενέργειας στάθμευσης</laAllPark>
+		</Page>
+		<Js>
+		</Js>
+	</ClearCfg>
+</PTZCfg>

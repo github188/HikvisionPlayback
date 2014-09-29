@@ -1,0 +1,227 @@
+﻿<?xml version="1.0"?>
+<ParamConfig>
+	<Common>
+		<Page>
+			<laParamConfig>參數設定</laParamConfig>
+			<Tree>
+				<laLocalConfig tag="label;" length="125">本機設定</laLocalConfig>
+				<laBaseConfig tag="label;" length="125">基本設定</laBaseConfig>
+				<laAdvanceConfig tag="label;" length="125">進階設定</laAdvanceConfig>
+				<aLocalConfig tag="a;" length="139">本機設定</aLocalConfig>
+				<aSystem tag="a;" length="139">系統</aSystem>
+				<aNetwork tag="a;" length="139">網路</aNetwork>
+				<aAudioAndVideo tag="a;" length="139">影像/音頻</aAudioAndVideo>
+				<aVideoSettings tag="a;" length="139">影像</aVideoSettings>
+				<aSecurity tag="a;" length="139">安全</aSecurity>
+				<aEvent tag="a;" length="139">事件</aEvent>
+				<aStorage tag="a;" length="139">儲存</aStorage>
+				<DVR>
+					<tree1>參數設定</tree1>
+					<tree2>本機設定</tree2>
+					<tree3>遠端設定</tree3>
+					<tree300>設備參數</tree300>
+					<tree3000>基本資訊</tree3000>
+					<tree3001>時間設定</tree3001>
+					<tree3002>設備狀態</tree3002>
+					<tree3003>選單輸出</tree3003>
+					<tree301>攝影機設定</tree301>
+					<tree3010>顯示設定</tree3010>
+					<tree3011>影像設定</tree3011>
+					<tree3012>排程設定</tree3012>
+					<tree3013>移動偵測</tree3013>
+					<tree3014>影像遺失</tree3014>
+					<tree3015>影像遮蔽</tree3015>
+					<tree3016>遮蔽警報</tree3016>
+					<tree3017>字元疊加</tree3017>
+					<tree3018>假日設定</tree3018>
+					<tree3019>前端參數</tree3019>
+					<tree30191>擷圖</tree30191>
+					<tree302>網路設定</tree302>
+					<tree3020>TCP/IP</tree3020>
+					<tree3021>PPPoE</tree3021>
+					<tree3022>DDNS</tree3022>
+					<tree3023>郵件</tree3023>
+					<tree3024>網路磁碟</tree3024>
+					<tree3025>SNMP</tree3025>
+					<tree3028>埠</tree3028>
+					<tree3029>FTP</tree3029>
+					<tree30291>QoS</tree30291>
+					<tree30292>SOCKS</tree30292>
+					<tree30293>UPnP™</tree30293>
+					<tree30294>HTTPS</tree30294>
+					<tree30295>Bonjour</tree30295>
+					<tree303>埠設定</tree303>
+					<tree3030>RS-232埠設定</tree3030>
+					<tree3031>RS-485埠設定</tree3031>
+					<tree304>警報設定</tree304>
+					<tree3040>警報輸入設定</tree3040>
+					<tree3041>警報輸出設定</tree3041>
+					<tree305>異常設定</tree305>
+					<tree306>用戶設定</tree306>
+					<tree307>磁碟管理</tree307>
+					<tree3070>基本設定</tree3070>
+					<tree308>系統維護</tree308>
+					<tree309>重新啟動</tree309>
+					<tree310>遠端升級</tree310>
+					<tree311>攝影機管理</tree311>
+					<tree3110>類比攝影機</tree3110>
+					<tree3111>IP攝影機</tree3111>
+					<tree3112>零攝影機設定</tree3112>
+				</DVR>
+			</Tree>
+			<laMonday tag="label;a;" length="29">星期一</laMonday>
+			<laTuesday tag="label;a;" length="27">星期二</laTuesday>
+			<laWednesday tag="label;a;" length="31">星期三</laWednesday>
+			<laThursday tag="label;a;" length="27">星期四</laThursday>
+			<laFriday tag="label;a;" length="20">星期五</laFriday>
+			<laSaturday tag="label;a;" length="24">星期六</laSaturday>
+			<laSunday tag="label;a;" length="31">星期日</laSunday>
+			<laHoliday>假日</laHoliday>
+			<laSelectAll tag="label;" length="40">全選</laSelectAll>
+			<CopyTo tag="input;" length="88">複製</CopyTo>
+			<laMacAddress tag="label;" length="150">MAC位址</laMacAddress>
+			<laChannelName>攝影機名稱</laChannelName>
+			<laCheckPwd tag="label;" length="150">密碼確認</laCheckPwd>
+			<laProtocolType tag="label;" length="150">協定</laProtocolType>
+			<laState tag="label;" length="100">狀態</laState>
+			<StartMonthOpt1 tag="option;" length="58">一月</StartMonthOpt1>
+			<StartMonthOpt2 tag="option;" length="58">二月</StartMonthOpt2>
+			<StartMonthOpt3 tag="option;" length="58">三月</StartMonthOpt3>
+			<StartMonthOpt4 tag="option;" length="58">四月</StartMonthOpt4>
+			<StartMonthOpt5 tag="option;" length="58">五月</StartMonthOpt5>
+			<StartMonthOpt6 tag="option;" length="58">六月</StartMonthOpt6>
+			<StartMonthOpt7 tag="option;" length="58">七月</StartMonthOpt7>
+			<StartMonthOpt8 tag="option;" length="58">八月</StartMonthOpt8>
+			<StartMonthOpt9 tag="option;" length="58">九月</StartMonthOpt9>
+			<StartMonthOpt10 tag="option;" length="58">十月</StartMonthOpt10>
+			<StartMonthOpt11 tag="option;" length="58">十一月</StartMonthOpt11>
+			<StartMonthOpt12 tag="option;" length="58">十二月</StartMonthOpt12>
+			<MdfDigitalIpBtn tag="input;" length="74">修改</MdfDigitalIpBtn>
+			<AddDigitalIpBtn>新增</AddDigitalIpBtn>
+			<laDay tag="option;" length="78">白天</laDay>
+			<StartWeekOpt1 tag="option;" length="68">第一個</StartWeekOpt1>
+			<StartWeekOpt2 tag="option;" length="68">第二個</StartWeekOpt2>
+			<StartWeekOpt3 tag="option;" length="68">第三個</StartWeekOpt3>
+			<StartWeekOpt4 tag="option;" length="68">第四個</StartWeekOpt4>
+			<StartWeekOpt5 tag="option;" length="68">末</StartWeekOpt5>
+			<laEnable>啟用</laEnable>
+			<btnBrowse tag="input;" length="74">瀏覽</btnBrowse>
+			<laVideoResolution tag="label;" length="150">解析度</laVideoResolution>
+			<laCopyToWeek tag="label;" length="78">複製到星期</laCopyToWeek>
+			<GoBackListBtn tag="input;" length="88">返回</GoBackListBtn>
+			<laEdit>編輯</laEdit>
+			<laNoCopy tag="label;" length="517">（無法複製）</laNoCopy>
+			<laProcess tag="label;" length="100">進度</laProcess>
+			<aModeManual tag="option;" length="176">手動</aModeManual>
+			<aLevelLow tag="option;" length="176">低</aLevelLow>
+			<aLevelNormal tag="option;" length="176">正常</aLevelNormal>
+			<aLevelHigh tag="option;" length="176">高</aLevelHigh>
+			<optionSecond tag="option;" length="78">秒</optionSecond>
+			<laType tag="label;" length="100">類型</laType>
+			<laOClock>時間</laOClock>
+			<aStyleClose tag="option;" length="176">關閉</aStyleClose>
+			<aModeAuto tag="option;" length="176">自動</aModeAuto>
+			<laDelay tag="label;" length="150">延時</laDelay>
+			<OptPirORWlsensorORCallhelp>PIR|無線|呼救警報</OptPirORWlsensorORCallhelp>
+			<OptAllEvent>移動偵測|警報輸入|PIR|無線|呼救</OptAllEvent>
+			<laAuthType tag="label;" length="150">伺服器認證</laAuthType>
+			<laAttribute>硬碟屬性</laAttribute>
+			<aEmail tag="a;" length="9999">郵件</aEmail>
+			<laMountType>安裝方式</laMountType>
+			<laCelling>天花板</laCelling>
+			<laWall>牆面</laWall>
+			<laFloor>地板</laFloor>
+			<laAnonymous>匿名</laAnonymous>
+			<laUploadCertificate>上傳</laUploadCertificate>
+		</Page>
+		<Js>
+			<laparamCfg>參數設定</laparamCfg>
+			<AnalogChannelNameTips>類比攝影機</AnalogChannelNameTips>
+			<DigitalChannelNameTips>IP攝影機</DigitalChannelNameTips>
+			<InputTips>請輸入</InputTips>
+			<RangeTips>範圍</RangeTips>
+			<WrongTips>錯誤的</WrongTips>
+			<LengthTips>長度不能超過</LengthTips>
+			<NullTips>不能為空白</NullTips>
+			<WithTimeSegmentTips>與時間區段</WithTimeSegmentTips>
+			<UserNameCharTips>只能包含字母、數字和底線</UserNameCharTips>
+			<CoverStopMapbuttonTips>停止繪製</CoverStopMapbuttonTips>
+			<ClearRegionTips>是否清除所畫區域？</ClearRegionTips>
+			<DeleteRegionFailedTips>清除失敗</DeleteRegionFailedTips>
+			<DeleteRegionSuccessTips>清除成功</DeleteRegionSuccessTips>
+			<DevNameLengthTips>名稱長度不能大於32</DevNameLengthTips>
+			<DevNameNullTips>名稱不能為空！</DevNameNullTips>
+			<DevNameWrongCharTips>名稱不能包含字元</DevNameWrongCharTips>
+			<jsPwdCheckMismatch>兩次密碼輸入不同，重新輸入</jsPwdCheckMismatch>
+			<jsTimeSegmentErrorSegTips>開始時間不能大於結束時間！</jsTimeSegmentErrorSegTips>
+			<laCopyToChannel>複製到攝影機</laCopyToChannel>
+			<UserNameLengthTips>長度不能大於16</UserNameLengthTips>
+			<OffLineTips>離線</OffLineTips>
+			<OverlappedTips>不能有重複！</OverlappedTips>
+			<LocalTips>本機</LocalTips>
+			<DIPAddInvalidTips>IP位址第一段為1-223之間的整數</DIPAddInvalidTips>
+			<tipsNormal>正常</tipsNormal>
+			<jsEmailAdd>E-mail位址</jsEmailAdd>
+			<jsUploadSuc>上傳成功</jsUploadSuc>
+			<jsUploadFailed>上傳失敗</jsUploadFailed>
+		</Js>
+		<General>
+			<geUserName tag="label;" length="150">用戶名</geUserName>
+			<gePassword tag="label;" length="150">密碼</gePassword>
+			<laTimerange tag="label;" length="100">時間區段</laTimerange>
+			<CoverStartMapbutton tag="input;" length="74">繪製區域</CoverStartMapbutton>
+			<CoverTimebutton tag="input;" length="74">清除全部</CoverTimebutton>
+			<laServerAdd tag="label;" length="150">伺服器位址</laServerAdd>
+			<laIpAddress>IP位址</laIpAddress>
+			<aMoveDetection tag="a;" length="9999">移動偵測</aMoveDetection>
+			<laVideoTabDivBtn tag="label;" length="670">區域設定</laVideoTabDivBtn>
+			<trDisabled>禁用</trDisabled>
+			<WholeDayRecordTypeOpt1 tag="option;" length="118">正常</WholeDayRecordTypeOpt1>
+			<WholeDayRecordTypeOpt3 tag="option;" length="118">警報</WholeDayRecordTypeOpt3>
+			<WholeDayRecordTypeOpt4 tag="option;" length="118">動測或警報</WholeDayRecordTypeOpt4>
+			<WholeDayRecordTypeOpt5 tag="option;" length="118">動測和警報</WholeDayRecordTypeOpt5>
+			<laEnableWholeDayRecord tag="label;" length="87">全天擷圖</laEnableWholeDayRecord>
+			<laEnableWholeDayCapture tag="label;" length="87">全天擷圖</laEnableWholeDayCapture>
+			<laSectionRecord tag="label;" length="578">自訂擷圖</laSectionRecord>
+			<laSectionCapture tag="label;" length="578">自訂擷圖</laSectionCapture>
+			<laWholeDayRecordType tag="label;" length="149">錄影類型</laWholeDayRecordType>
+			<laWholeDayCaptureType tag="label;" length="149">擷圖類型</laWholeDayCaptureType>
+			<constantBitRateOpt23>自訂</constantBitRateOpt23>
+			<Other>其他</Other>
+		</General>
+	</Common>
+	<ParamConfig>
+		<Page>
+		</Page>
+		<Js>
+			<Success1>儲存成功！</Success1>
+			<Success2>儲存成功，設備重新啟動後生效！</Success2>
+			<DeleteSuccTips>刪除成功！</DeleteSuccTips>
+			<Success4>刪除成功，設備重啟後生效！</Success4>
+			<Success5>成功，新設定將在重新啟動後生效！</Success5>
+			<Error1>設定參數失敗！</Error1>
+			<Error2>獲取參數失敗！</Error2>
+			<Error3>無效的XML內容</Error3>
+			<Error4>無效的XML格式</Error4>
+			<Error5>無效的操作</Error5>
+			<Error6>設備錯誤</Error6>
+			<Error7>設備忙錄</Error7>
+			<jsNetworkAbnormal>網路異常</jsNetworkAbnormal>
+			<Error10>無警報輸入/輸出攝影機</Error10>
+			<Error11>用戶名密碼錯誤</Error11>
+			<Error12>方法不允許</Error12>
+			<Error13>參數錯誤</Error13>
+			<Error14>無效的URL或HTTP方法</Error14>
+			<Error400>獲取失敗:網路中斷或異常,請檢查！</Error400>
+			<Error44>參數失敗！</Error44>
+			<Error55>設定攝影機</Error55>
+			<Error66>設定警報參數</Error66>
+			<Error77>該攝影機不支援此項功能</Error77>
+			<Ask>儲存參數後設備將自動重新啟動，是否繼續？</Ask>
+			<Ask1>是否刪除該用戶？</Ask1>
+			<RestartTips>是否重新啟動設備？</RestartTips>
+			<RestartSuccessTips>設備正在重啟……</RestartSuccessTips>
+			<RestartFailedTips>重啟設備失敗！</RestartFailedTips>
+		</Js>
+	</ParamConfig>
+</ParamConfig>

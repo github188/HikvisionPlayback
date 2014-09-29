@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Events>
+	<Common>
+		<Page>
+			<aBlockAlarm tag="a;" length="9999">Ανίχν. παραβ.</aBlockAlarm>
+			<aVideoLost tag="a;" length="9999">Απώλ. σήμ. βίντ</aVideoLost>
+			<aCapturePlan tag="a;" length="9999">Στιγμιότυπο</aCapturePlan>
+			<aOtherAlarm>Άλλος συναγερμός</aOtherAlarm>
+			<laTimeTabDivBtn tag="label;" length="670">Χρόνος όπλισ</laTimeTabDivBtn>
+			<laLinkageTabDivBtn tag="label;" length="670">Μέθοδος σύνδεσης</laLinkageTabDivBtn>
+			<laSensitivity tag="label;" length="85">Ευαισθησία</laSensitivity>
+			<!--<laCommonLinkage>Alarm Linking</laCommonLinkage>-->
+			<!--DVR的，需要修改DVR网页name-->
+			<laNormalLink tag="label;" length="215">Κανονική σύνδεση</laNormalLink>
+			<laMonitorAlarm>Παρακολούθηση σε πλήρη οθόνη</laMonitorAlarm>
+			<laSoundAlarm tag="label;" length="130">Ηχητική προειδοποίηση</laSoundAlarm>
+			<laUpload tag="label;" length="130">Ειδοποίηση κέντρου επιτήρησης</laUpload>
+			<laEmail tag="label;" length="130">Αποστολή e-mail</laEmail>
+			<laLinkageAlarmOutput tag="label;" length="116">Ενεργοποίηση εξόδου συναγερμού</laLinkageAlarmOutput>
+			<laScheduleEdit tag="label;">Επεξεργασία χρονοδιαγράμματος</laScheduleEdit>
+			<laOtherLink tag="label;" length="271">Άλλη σύνδεση</laOtherLink>
+			<BlockSensitiveOpt1>Χαμηλή</BlockSensitiveOpt1>
+			<BlockSensitiveOpt2>Μεσαία</BlockSensitiveOpt2>
+			<BlockSensitiveOpt3>Υψηλό</BlockSensitiveOpt3>
+			<laAlarmname tag="label;" length="150">Όνομα συναγ</laAlarmname>
+			<laCopyalarm tag="label;" length="670">Αντ. σε συναγ.</laCopyalarm>
+			<laTrigglerecord tag="label;" length="130">Ενεργοποίηση καναλιού</laTrigglerecord>
+			<laUpdateToFTP tag="label;" length="130">Αποστολή σε FTP</laUpdateToFTP>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laCaptureInterval tag="label;" length="100">Χρον. διάστημα</laCaptureInterval>
+		</General>
+	</Common>
+	<MotionDetection>
+		<Page>
+			<laUseMotion tag="label;" length="133">Ενεργοποίηση ανίχνευσης κίνησης</laUseMotion>
+			<laHighLight>Ενεργοποίηση δυναμικής ανάλυσης για κίνηση</laHighLight>
+		</Page>
+		<Js>
+		</Js>
+	</MotionDetection>
+	<TamperProof>
+		<Page>
+			<laUseKeepout tag="label;" length="671">Ενεργοποίηση ανίχνευσης παραβίασης</laUseKeepout>
+		</Page>
+		<Js>
+		</Js>
+	</TamperProof>
+	<VideoLoss>
+		<Page>
+			<laUseVideoLost tag="label;" length="671">Ενεργοποίηση ανίχνευσης απώλειας βίντεο</laUseVideoLost>
+		</Page>
+		<Js>
+		</Js>
+	</VideoLoss>
+	<AlarmInput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Ρυθμίσεις εισόδου συναγερμού</laSpanTitle>
+			</DVR>
+			<laAlarminnumber tag="label;" length="150">Αρ. εισ. συναγ.</laAlarminnumber>
+			<laAlarmtype tag="label;" length="150">Τύπος συναγ</laAlarmtype>
+			<triggeringOpt1 tag="option;" length="198">NC</triggeringOpt1>
+			<triggeringOpt2 tag="option;" length="198">ΟΧΙ</triggeringOpt2>
+			<laTriggleptz tag="label;" length="212">Σύνδεση PTZ</laTriggleptz>
+			<laPresetnumer tag="label;" length="100">Αρ. προεπιλ</laPresetnumer>
+			<laCurisenumber tag="label;" length="100">Αρ. περιπολ</laCurisenumber>
+			<laTrackid tag="label;" length="100">Αρ. υποδ.</laTrackid>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmInput>
+	<AlarmOutput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Ρυθμίσεις εξόδου συναγερμού</laSpanTitle>
+			</DVR>
+			<laAlarmoutnumber tag="label;" length="150">Έξ. συναγ.</laAlarmoutnumber>
+			<laDefaultstate tag="label;" length="150">Προεπιλ. κατ.</laDefaultstate>
+			<defaultStateOpt1 tag="option;" length="198">Υψηλό επίπεδο</defaultStateOpt1>
+			<defaultStateOpt2 tag="option;" length="198">Χαμηλό επίπεδο</defaultStateOpt2>
+			<laTrigglestate tag="label;" length="150">Κατ. ενεργ. </laTrigglestate>
+			<outputState1 tag="option;" length="198">Παλμός</outputState1>
+			<pulseDurationOpt1 tag="option;" length="198">5 δευτ.</pulseDurationOpt1>
+			<pulseDurationOpt2 tag="option;" length="198">10 δευτ.</pulseDurationOpt2>
+			<pulseDurationOpt3 tag="option;" length="198">30 δευτ.</pulseDurationOpt3>
+			<pulseDurationOpt4 tag="option;" length="198">1 λεπτά</pulseDurationOpt4>
+			<pulseDurationOpt5 tag="option;" length="198">2 λεπτά</pulseDurationOpt5>
+			<pulseDurationOpt6 tag="option;" length="198">5 λεπτά</pulseDurationOpt6>
+			<pulseDurationOpt7 tag="option;" length="198">10 λεπτά</pulseDurationOpt7>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmOutput>
+	<Exception>
+		<Page>
+			<DVR>
+				<laSpanTitle>Εξαίρεση</laSpanTitle>
+			</DVR>
+			<laExceptionType tag="label;" length="150">Τύπος εξαίρεσης</laExceptionType>
+			<ExceptionTypeOpt3 tag="option;" length="198">Δίκτυο αποσ.</ExceptionTypeOpt3>
+			<ExceptionTypeOpt4 tag="option;" length="198">Διέν. διευθ. IP</ExceptionTypeOpt4>
+			<ExceptionTypeOpt5 tag="option;" length="198">Παράν. σύνδ.</ExceptionTypeOpt5>
+			<ExceptionTypeOpt6>Ασυμφ. προτ. εισ./εξ. βίντεο</ExceptionTypeOpt6>
+			<ExceptionTypeOpt7>Εξ. σήμ. βίντ</ExceptionTypeOpt7>
+			<ExceptionTypeOpt8>Εξαίρ. εγγρ./καταγρ.</ExceptionTypeOpt8>
+			<ExceptionTypeOpt9>Ασυμφ. ανάλ.</ExceptionTypeOpt9>
+		</Page>
+		<Js>
+		</Js>
+	</Exception>
+	<Email>
+		<Page>
+			<DVR>
+				<laSpanTitle>E-mail</laSpanTitle>
+			</DVR>
+			<laServerAuthentication tag="label;" length="670">Έλεγχος ταυτότ.</laServerAuthentication>
+			<laSMTPServer>Διακομ. SMTP</laSMTPServer>
+			<laUseSSL tag="label;" length="670">Ενεργοπ. SSL</laUseSSL>
+			<laMailInterval tag="label;" length="150">Χρον. διάστημα</laMailInterval>
+			<MailIntervalOpt1 tag="option;" length="198">2 δευτ.</MailIntervalOpt1>
+			<MailIntervalOpt2 tag="option;" length="198">3 δευτ.</MailIntervalOpt2>
+			<MailIntervalOpt3 tag="option;" length="198">4 δευτ.</MailIntervalOpt3>
+			<MailIntervalOpt4 tag="option;" length="198">5 δευτ.</MailIntervalOpt4>
+			<laAttachment tag="label;" length="314">Συνημμ. εικ.</laAttachment>
+			<laEmailAdd>Διεύθυνση e-mail</laEmailAdd>
+			<laChooseReceiver tag="label;" length="150">Επιλ. παραλήπτη</laChooseReceiver>
+			<laReceiver tag="label;" length="670">Παραλήπτης </laReceiver>
+			<laSender tag="label;" length="670">Αποστολέας </laSender>
+			<ReceiverNumOpt1 tag="option;" length="198">Παραλήπτης 1</ReceiverNumOpt1>
+			<ReceiverNumOpt2 tag="option;" length="198">Παραλήπτης 2</ReceiverNumOpt2>
+			<ReceiverNumOpt3 tag="option;" length="198">Παραλήπτης 3</ReceiverNumOpt3>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laSenderName tag="label;" length="150">Αποστολέας </laSenderName>
+			<laSenderAddress tag="label;" length="150">Διεύθ. αποστολ.</laSenderAddress>
+			<laReceiverName tag="label;" length="150">Παραλήπτης </laReceiverName>
+			<laReceiverAddress tag="label;" length="150">Receiver's Address</laReceiverAddress>
+			<laReceiverName1 tag="label;" length="150">Παραλήπτης 1</laReceiverName1>
+			<laReceiverName2 tag="label;" length="150">Παραλήπτης 2</laReceiverName2>
+			<laReceiverAddress1 tag="label;" length="150">Διεύθ. παραλ. 1</laReceiverAddress1>
+			<laReceiverAddress2 tag="label;" length="150">Διεύθ. παραλ. 2</laReceiverAddress2>
+			<laSMTPPort tag="label;" length="150">Θύρα SMTP</laSMTPPort>
+		</General>
+	</Email>
+	<CapturePlan>
+		<Page>
+			<laTimingCapture tag="label;" length="670">Χρονισμός</laTimingCapture>
+			<laEventCapture tag="label;" length="670">Σκανδάλιση από συμβάν</laEventCapture>
+			<laUseTimingCapture tag="label;" length="651">Ενεργοποίηση στιγμιότυπων χρονισμού</laUseTimingCapture>
+			<laUseEventCapture tag="label;" length="651">Ενεργοποίηση στιγμιότυπου σκανδάλισης από συμβάν</laUseEventCapture>
+			<laPictureCodecType tag="label;" length="100">Μορφή</laPictureCodecType>
+			<laPictureQuality tag="label;" length="100">Ποιότητα</laPictureQuality>
+			<laMillisecond>χιλ. του δευτ.</laMillisecond>
+			<optionMillisecond tag="option;" length="78">χιλ. του δευτ.</optionMillisecond>
+			<optionMinute tag="option;" length="78">λεπτό</optionMinute>
+			<optionHour tag="option;" length="78">ώρα</optionHour>
+			<laCaptureNum>Αριθμός καταγραφής</laCaptureNum>
+		</Page>
+	</CapturePlan>
+	<OtherAlarm>
+		<Page>
+			<laEnableWirelessAlarm>Ενεργοποίηση ασύρματου συναγερμού</laEnableWirelessAlarm>
+			<laEnablePIRAlarm>Ενεργοποίηση συναγερμού PIR</laEnablePIRAlarm>
+			<laTriggerWirelessAlarm>Σκανδάλιση ασύρματου συναγερμού</laTriggerWirelessAlarm>
+			<laLightAudioAlarm>Ασύρματος ηχητικός και οπτικός συναγερμός</laLightAudioAlarm>
+			<laSelWirelessAlarm>Επιλογή ασύρματου συναγερμού</laSelWirelessAlarm>
+		</Page>
+	</OtherAlarm>
+</Events>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>Download File</title>
+		<picturetitle>Download Picture</picturetitle>
+		<laFileName tag="label;" length="140">File Name</laFileName>
+		<laFileSize tag="label;" length="90">File Size</laFileSize>
+		<laPictureData tag="label;" length="90">File Date</laPictureData>
+		<laDownloadProcess tag="label;" length="90">Progress</laDownloadProcess>
+		<PictureType1>Timing</PictureType1>
+		<PictureType2>Alarm</PictureType2>
+		<PictureType3>Motion</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>Downloaded</Downloaded>
+		<jsNoPictureTip>No Pictrue Files.</jsNoPictureTip>
+		<jsSearchPicFailed>Failed to search pictures.</jsSearchPicFailed>
+		<jsDownloadFailed>Downloading failed.</jsDownloadFailed>
+		<jsTips1>Stop downloading?</jsTips1>
+		<jsTips2>Please select the file to download.</jsTips2>
+	</Js>
+</Download>
+

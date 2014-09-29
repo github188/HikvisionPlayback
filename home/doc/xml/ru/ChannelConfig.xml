@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelConfig>
+	<AnalogChan>
+		<Page>
+			<laSpanTitle>Аналоговая камера</laSpanTitle>
+		</Page>
+		<Js>
+		</Js>
+	</AnalogChan>
+	
+	<DigitalChan>
+		<Page>
+			<laSpanTitle>IP камера</laSpanTitle>
+			<laIpChanAddress>Адрес IP камеры</laIpChanAddress>
+			<laDevicePort>Порт управления</laDevicePort>
+			<laProtocol>Протокол</laProtocol>
+			<laIpChanNum>IP камера №</laIpChanNum>
+			<laRegModeType>Режим регистрации</laRegModeType>
+			<RegModeTypeOpt>Домен</RegModeTypeOpt>
+			<laQuickAdd>Быстрое добавление</laQuickAdd>
+			<laMaskAddress>Маска</laMaskAddress>
+			<laSerialNo>Серийный №</laSerialNo>
+			<laFirmware>Версия прошивки</laFirmware>
+			<laDeviceChan>Номер канала</laDeviceChan>
+		</Page>
+		<Js>
+			<HostNameTips>Домен</HostNameTips>
+			<OnLineTips>Онлайн</OnLineTips>
+			<DeleteIpcTips>Удалить информацию по IP каналу?</DeleteIpcTips>
+			<DeleteErrorTips>Нельзя удалить</DeleteErrorTips>
+			<NoOperationTips>В доступе отказано</NoOperationTips>
+			<InputIpTips>Пожалуйста, введите IP адрес</InputIpTips>
+			<InputRightIpTips>Пожалуйста, введите корректный IP адрес.</InputRightIpTips>
+			<InputErrorIpTips>Некорректный IP адрес. Пожалуйста, введите снова</InputErrorIpTips>
+			<IpChanExistTips>IP камера уже сущ.</IpChanExistTips>
+			<ChannelsAddTips> каналов может быть добавлено, пожалуйста, выберите заново.</ChannelsAddTips>
+			<ChannelExistTips> Канал 1 существует.</ChannelExistTips>
+		</Js>
+		<General>
+			<geAdminPassword>Пароль администратора</geAdminPassword>
+		</General>
+	</DigitalChan>
+	
+	<ZeroChan>
+		<Page>
+			<laSpanTitle>Настройка нулевого канала</laSpanTitle>
+			<laZeroChanEncode>Канал Нулевой Кодирования</laZeroChanEncode>
+			<laconstantBitRate>Максимальный битрейт</laconstantBitRate>
+			<laVideoFramerate>Макс. Скорость</laVideoFramerate>
+			<laSplitMode>Режим</laSplitMode>
+		    <laSplitTime>Время задержки</laSplitTime>
+		    <laTimeMode1>Нет переключать</laTimeMode1>
+		    <laChanOrder>Порядок каналов</laChanOrder>
+		    <defaultOrder>Порядок по умолчанию</defaultOrder>	
+		</Page>
+		<Js>
+		</Js>
+	</ZeroChan>
+</ChannelConfig>

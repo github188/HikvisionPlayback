@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Tamanho fich. grav.</lapackSize>
+		<lanetsPreach tag="label;" length="150">Perform. ao vivo</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Guardar como</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Guar. ins. p/</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Gravar clipes para</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Guar. inst. ao repr. p/</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Guardar download fich. p/</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Em Tempo Real</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Equilibrado</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Melhor fluidez</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Parâm. grav. fich.</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Defin.imag/clipe</laCaptureClipParams>
+		<trFullFill>Preencher completo</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

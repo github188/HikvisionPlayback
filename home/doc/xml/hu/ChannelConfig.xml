@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelConfig>
+	<AnalogChan>
+		<Page>
+			<laSpanTitle>Analóg kamera</laSpanTitle>
+		</Page>
+		<Js>
+		</Js>
+	</AnalogChan>
+	<DigitalChan>
+		<Page>
+			<laSpanTitle>IP kamera</laSpanTitle>
+			<laIpChanAddress>IP kamera  címe</laIpChanAddress>
+			<laDevicePort>Menedzsment port</laDevicePort>
+			<laProtocol>Protokoll</laProtocol>
+			<laIpChanNum>IP kamera száma</laIpChanNum>
+			<laRegModeType>Bejegyzés módja</laRegModeType>
+			<RegModeTypeOpt>Domain név</RegModeTypeOpt>
+			<laQuickAdd>Gyors hozzáadás</laQuickAdd>
+			<laMaskAddress>Alhálózati maszk</laMaskAddress>
+			<laSerialNo>Sorozatsz.</laSerialNo>
+			<laFirmware>Firmware verzió</laFirmware>
+			<laDeviceChan>Csatornasz.</laDeviceChan>
+		</Page>
+		<Js>
+			<HostNameTips>Domain</HostNameTips>
+			<OnLineTips>Online</OnLineTips>
+			<DeleteIpcTips>Törli az IP csatorna információt?</DeleteIpcTips>
+			<DeleteErrorTips>A törlés sikertelen</DeleteErrorTips>
+			<NoOperationTips>Nincs jogosultsága.</NoOperationTips>
+			<InputIpTips>Adja meg az IP címet.</InputIpTips>
+			<InputRightIpTips>Adja meg a helyes IP címet.</InputRightIpTips>
+			<InputErrorIpTips>Érvénytelen IP cím. Adja meg újra.</InputErrorIpTips>
+			<IpChanExistTips>Ez az IP kamera már létezik.</IpChanExistTips>
+			<ChannelsAddTips> csatorna adható hozzá, válasszon újra.</ChannelsAddTips>
+			<ChannelExistTips> Az 1. csatorna létezik</ChannelExistTips>
+		</Js>
+		<General>
+			<geAdminPassword>Admin jelszó</geAdminPassword>
+		</General>
+	</DigitalChan>
+	<ZeroChan>
+		<Page>
+			<laSpanTitle>Nullcsatorna beállítások</laSpanTitle>
+			<laZeroChanEncode>Nullcsatorna kódolása</laZeroChanEncode>
+			<laconstantBitRate>Max. bitráta</laconstantBitRate>
+			<laVideoFramerate>Legnagyobb keretméret</laVideoFramerate>
+			<laSplitMode>Mód</laSplitMode>
+			<laSplitTime>Kapcsolási idő</laSplitTime>
+			<laTimeMode1>Kapcsolás tiltása</laTimeMode1>
+			<laChanOrder>Sorrend</laChanOrder>
+			<defaultOrder>Gyári értékek</defaultOrder>
+		</Page>
+		<Js>
+		</Js>
+	</ZeroChan>
+</ChannelConfig>

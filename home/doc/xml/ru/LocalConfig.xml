@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Размер файла записи</lapackSize>
+		<lanetsPreach tag="label;" length="150">Произв-ть отобр.</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Сохранить</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Сохр сним экран</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Сохранять клипы</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Сохр снимки в</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Сохранять загруженные файлы</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Least Delay</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Баланс </netsPreach3>
+		<netsPreach4 tag="label;" length="134">Лучшая гладкость</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Настройки файла записи</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Настройки картинки и клипа</laCaptureClipParams>
+		<trFullFill>Заполнение</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

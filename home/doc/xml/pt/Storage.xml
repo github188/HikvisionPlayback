@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">Agendar gravação</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Gerir Armazenamento</aHardDisk>
+			<laAdvancedRecordCfg>Avançadas</laAdvancedRecordCfg>
+			<laExtractFrame>Extrair Frame</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">HDD N.º</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Não pode adicionar duas vezes o mesmo NetHDD.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Caminho do ficheiro</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Avançadas</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Ativar agendam.de grav.</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Ativar Cap. Plano</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Pré-registo</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Sem pré-gravação</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5s</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10s</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15s</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20s</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25s</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30s</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Sem Limite</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Pós-gravação</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1min</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2 min</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5 min</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10 min</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Registo redundante</laRedundancyRec>
+			<laRecordOverWrite>Reescrever</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Não</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Sim</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Gravar áudio</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Editar agendam. grav.</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Tempo expirado</geRecorderDuration>
+			<EndTimeRangeTips>O tempo final não pode exceder as 24:00.</EndTimeRangeTips>
+			<AdvancedTips>Avançadas</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>Gerir HDD</laSpanTitle>
+				<laHardDiskNo>HDD N.º</laHardDiskNo>
+				<laDiskProperty>Propried.</laDiskProperty>
+				<laDiskGroup>Grupo HDD</laDiskGroup>
+				<laDiskInit>Inic. HDD</laDiskInit>
+				<laInitState>Est.inicial</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">Lista de dispositivos HDD</laDiskTitle>
+			<laCapacity tag="label;" length="100">Capacid.</laCapacity>
+			<laFreeSpace tag="label;" length="100">Espaço livre</laFreeSpace>
+			<formatDisk tag="input;" length="74">Formato</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>Propriedades HDD não podem ser editadas no atual modo de armazenamento.</tipsNotSupportEdit>
+				<tipsFormatRo>Falha na inicialização. Não pode(m) ser selecionado(s) qualquer HDS(s) só de leitura.</tipsFormatRo>
+				<tipsDisk>HDD</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Não inicializ.</tipsUnformatted>
+			<tipsError>Erro</tipsError>
+			<tipsIdle>Hibernar</tipsIdle>
+			<tipsMismatch>Incompatível</tipsMismatch>
+			<tipsFormatting>Formatação</tipsFormatting>
+			<tipsNotexist>Nã existe</tipsNotexist>
+			<tipsFormatSelect>Formatar HDD?</tipsFormatSelect>
+			<tipsFormatAll>Formatação HDD terminada.</tipsFormatAll>
+			<tipsFormatFailed>Inicialização de HDD falhou.</tipsFormatFailed>
+			<tipsFormattingWait>A formatar... aguarde...</tipsFormattingWait>
+			<tipsSelectDisk>Selecione o disco HDD a formatar.</tipsSelectDisk>
+			<tipsStorageMode>Configuração modo gravação</tipsStorageMode>
+			<tipsArray>Disco Virtual</tipsArray>
+			<jsComplete>Completar.</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>Leitura-Escrita</tipsRW>
+			<tipsRO>Só de leitura</tipsRO>
+			<tipsRedund>Redund.</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>NetHDD</laSpanTitle>
+				<Property1Opt1>Leitura-Escrita</Property1Opt1>
+				<Property1Opt2>Só de leitura</Property1Opt2>
+				<Property1Opt3>Redund.</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Def.disco</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

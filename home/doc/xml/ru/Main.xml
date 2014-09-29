@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Main>
+	<Common>
+		<Page>
+			<DVR>
+				<paStartAllView>Запустить все отображение</paStartAllView>
+				<paStartAllRecord>Запустить всю запись</paStartAllRecord>
+			</DVR>
+			<laPlugin>Пожилуйста, щелкните здесь, чтобы загрузить и установить плагин. Закройте браузер при установке плагина.</laPlugin>
+			<laNotWin32Plugin>Плагин не обнаружен</laNotWin32Plugin>
+			<streamTypeOpt1 tag="label;option;" length="134">Основн поток</streamTypeOpt1>
+			<streamTypeOpt2 tag="label;option;" length="134">Доп поток</streamTypeOpt2>
+			<StreamTypeInOpt4 tag="label;option;" length="104">Third Stream</StreamTypeInOpt4>
+			<windowProportionOpt1 tag="label;option;" length="134">Исходное</windowProportionOpt1>
+			<windowAuto tag="label;option;" length="104">Авто</windowAuto>
+			<laStreamType tag="label;" length="90">Тип потока</laStreamType>
+			<lawindowProportion tag="label;" length="90">Размер изображения</lawindowProportion>
+			<laPlayParams tag="label;" length="91">Параметры отображения</laPlayParams>
+			<opensound>Включить аудио</opensound>
+			<closesound>Выкл. Аудио</closesound>
+			<volume>Уровень</volume>
+			<stop>Стоп</stop>
+			<laSearch tag="label;" length="200">Поиск</laSearch>
+			<DownloadBtn tag="input;" length="80">Загрузка</DownloadBtn>
+			<laChannelNum tag="label;" length="148">Количество каналов</laChannelNum>
+			<laChannelNo tag="label;" length="109">Номер канала</laChannelNo>
+			<laStartTime tag="label;" length="140">Начало</laStartTime>
+			<laEndTime tag="label;" length="140">Время оконч.</laEndTime>
+			<laHue tag="label;" length="122">Цветность</laHue>
+			<SetPreset>Уст.</SetPreset>
+			<CleanPreset>Очистить</CleanPreset>
+			<laSerialNumber tag="label;" length="67">№</laSerialNumber>
+			<Pattern>Обход</Pattern>
+			<laWirelessAlarm>Беспроводная сигнализация</laWirelessAlarm>
+			<laPIRAlarm>PIR сигнализации</laPIRAlarm>
+			<OptCallHelp>Аварийная сигнализация</OptCallHelp>
+			<laSharpness tag="label;" length="120">Резкость</laSharpness>
+			<laEnableZoom>Enable e-PTZ</laEnableZoom>
+			<laDisableZoom>Disable e-PTZ</laDisableZoom>
+		</Page>
+		<Js>
+			<jsUpdatePlugin>Обнаружена новая версия плагина, обновить?</jsUpdatePlugin>
+			<jsUpdateNotWin32>Обнаружена новая версия плагина, пожалуйста, свяжитесь с поставщиком для обновления.</jsUpdateNotWin32>
+			<exit>Выйти?</exit>
+			<jsPreview>Отображение</jsPreview>
+			<jsRecord>Запись</jsRecord>
+			<previewfailed>Отображение невозможно</previewfailed>
+			<capturefailed>Ошибка сохранения.</capturefailed>
+			<stopAllRecord>Остановить всю запись</stopAllRecord>
+			<FreeSpaceTips>Недостаточно свободного места</FreeSpaceTips>
+			<jsCreateFileFailed>Ошибка создания файла</jsCreateFileFailed>
+			<jsNoOperationRight>В доступе отказано</jsNoOperationRight>
+			<jsOpenSoundFailed>Ошибка включения звука</jsOpenSoundFailed>
+			<jsCaptureSucc>Успешно сохранено</jsCaptureSucc>
+			<TotalTips>Общ. </TotalTips>
+			<TiaoTips> Элементы</TiaoTips>
+			<jsFirstPageTips>First Page</jsFirstPageTips>
+			<jsLastPageTips>Последняя страница</jsLastPageTips>
+			<jsPrevPageTips>Назад</jsPrevPageTips>
+			<jsNextPageTips>Вперед</jsNextPageTips>
+			<tipsTooLong>Слишком длинный путь к файлу. Пожалуйста, выберите снова.</tipsTooLong>
+			<jsVideoDefault>Восстановить параметры по умолчанию?</jsVideoDefault>
+			<jsTrue>Да</jsTrue>
+			<jsFalse>Нет</jsFalse>
+			<jsTimeSegmentErrorTips>Время начала должно быть раньше времени оконч.</jsTimeSegmentErrorTips>
+			<ptzSpeed>Скорость PTZ</ptzSpeed>
+			<videoLost>Потеря видеосигнала</videoLost>
+			<ExcutePreset>Вызвать</ExcutePreset>
+			<laZoom>Увел</laZoom>
+			<laFocus>Фокус</laFocus>
+			<laIris>Диафр.</laIris>
+			<CurrentAddTips>В настоящее время до </CurrentAddTips>
+		</Js>
+		<General>
+			<capture>Сохранение</capture>
+			<laOK tag="input;label;" length="88">ОК</laOK>
+			<laCancel tag="input;label;" length="88">Отмена</laCancel>
+			<hdFull tag="option;" length="198">HDD заполнен</hdFull>
+			<hdError tag="option;" length="198">Ошибка HDD</hdError>
+			<Exception>Исключение</Exception>
+			<laBrightness tag="label;" length="122">Яркость</laBrightness>
+			<laContrast tag="label;" length="122">Контраст</laContrast>
+			<laSaturation tag="label;" length="122">Насыщенность</laSaturation>
+			<geDefault>По умол.</geDefault>
+			<alarmIn>Тревожный вход</alarmIn>
+			<alarmOut>Выход тревоги</alarmOut>
+			<laLensInit tag="label;" length="308">Инициализация объектива</laLensInit>
+			<laPreset tag="label;" length="31">Предуст.</laPreset>
+			<SearchingTips>Поиск</SearchingTips>
+			<laSaveBtn>Сохр.</laSaveBtn>
+			<DelDigitalIpBtn tag="input;" length="74">Удаление</DelDigitalIpBtn>
+		</General>
+	</Common>
+	<Main>
+		<Page>
+			<laPreview tag="label;" length="165">Отображение</laPreview>
+			<laPlayback tag="label;" length="165">Воспроизв</laPlayback>
+			<laLog tag="label;" length="165">Журнал</laLog>
+			<laConfig tag="label;" length="165">Конфиг системы</laConfig>
+			<laExit tag="label;" length="974">Выход</laExit>
+			<DVR>
+				<laHelp>Помощь</laHelp>
+				<laVersion>Версия</laVersion>
+			</DVR>
+		</Page>
+		<Js>
+		</Js>
+	</Main>
+</Main>

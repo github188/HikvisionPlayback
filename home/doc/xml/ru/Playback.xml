@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Воспроизведение</title>
+		<SlowlyForward>Плавно вперед</SlowlyForward>
+		<FastForward>Перемотать вперед</FastForward>
+		<SingleFrame>Один экран</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Статус</laCurrentSpeed>
+		<laGotoTime>Старт</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Установ время воспроизв</laPlaybackTimeLocalizer>
+		<imgGotoTime>Воспроизведение по временной шкале</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Команда</RecordType1>
+		<RecordType2 tag="label;" length="704">Расписание</RecordType2>
+		<RecordType3 tag="label;" length="704">Тревога</RecordType3>
+		<RecordType4 tag="label;" length="704">Вручную</RecordType4>
+		<PictureDownload tag="input;" length="32">Загрузить изображения</PictureDownload>
+		<RecordDownload tag="input;" length="32">Загрузить запись</RecordDownload>
+		<DVR>
+			<stopAll>Остановить все воспроизведение</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Ошибка остановки воспроизведения.</pausefailed>
+		<resumefailed>Ошибка восстановления воспроизведения.</resumefailed>
+		<stoprecord>Стоп клип</stoprecord>
+		<startRecord>Начало клипа</startRecord>
+		<stoprecordfailed>Ошибка остановки создания клипа.</stoprecordfailed>
+		<startplayfailed>Воспроизведение прервано.</startplayfailed>
+		<stopplayfailed>Не удалось остановить воспроизведение</stopplayfailed>
+		<jssingleframe>Покадровое воспроизведение</jssingleframe>
+		<jssingleframefailed>Ошибка покадрового воспроизведения.</jssingleframefailed>
+		<stopCurrentWndPlay>Пожалуйста, остановите воспроизведение данного окна перед продолжением.</stopCurrentWndPlay>
+		<szTips1>Ошибка поиска файлов видео</szTips1>
+		<szTips3>Нет файлов для записи</szTips3>
+		<jsSearchFile>Пожалуйста, выполните поиск файлов.</jsSearchFile>
+		<jsSpeed>Скор.</jsSpeed>
+		<jsPauseAlready>Пауза</jsPauseAlready>
+		<jsPause>Пауза</jsPause>
+		<jsResume>Возобновить</jsResume>
+		<jsPlayBackError>Некорректное воспроизведение</jsPlayBackError>
+		<jsRecordError>Ошибка создания клипа</jsRecordError>
+		<jsPlaybackStop> Воспроизведение завершено.</jsPlaybackStop>
+		<jsPlayStopAbnormal> воспроизведение завершено некорректно.</jsPlayStopAbnormal>
+		<jsDownload>Пожалуйста, выполните поиск файла для загрузки.</jsDownload>
+		<jsNotSupportDown>Устройство не поддерживает загрузку</jsNotSupportDown>
+		<jsDownloadWnd>Открыто окно загрузки</jsDownloadWnd>
+		<jsClipSucc>Клип успешно создан</jsClipSucc>
+		<jsZoomIn>Zoom In</jsZoomIn>
+		<jsZoomOut>Zoom Out</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Пожалуйста, выберите канал</jsSelectChan>
+			<jsPlayChannel>Канал </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Воспр.</gePlay>
+	</General>
+</Playback>

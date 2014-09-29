@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">Opnameschema</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Gestione Archivi</aHardDisk>
+			<laAdvancedRecordCfg>Gevorderd </laAdvancedRecordCfg>
+			<laExtractFrame>Beelden uitpakken</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">HDD-nr.</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Dezelfde NetHDD kan niet nogmaals worden toegevoegd.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Bestandspad</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Gevorderd</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Zet opnameschema aan</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Vastlegplan aan</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Pre-record</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Geen vooropname</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5 s</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10 s</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15 s</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20 s</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25 s</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30 s</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Niet beperkt</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Post-record</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1min</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2 min</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5 min</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10 min</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Redundant record</laRedundancyRec>
+			<laRecordOverWrite>Overschrijf</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Geen</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Ja</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Audio opnemen</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Voeg tijdschema toe</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Tijd voorbij</geRecorderDuration>
+			<EndTimeRangeTips>De eindtijd kan niet later zijn dan 24:00.</EndTimeRangeTips>
+			<AdvancedTips>Gevorderd</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>HDD-beheer</laSpanTitle>
+				<laHardDiskNo>HDD-nr.</laHardDiskNo>
+				<laDiskProperty>Eigenschap</laDiskProperty>
+				<laDiskGroup>HDD-groep</laDiskGroup>
+				<laDiskInit>HDD-initialisatie</laDiskInit>
+				<laInitState>Beginstatus</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">HDD-apparaatlijst</laDiskTitle>
+			<laCapacity tag="label;" length="100">Capaciteit</laCapacity>
+			<laFreeSpace tag="label;" length="100">Vrije ruimte</laFreeSpace>
+			<formatDisk tag="input;" length="74">Format</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>HDD-eigenschap kan niet worden bewerkt in huidige opslagmodus.</tipsNotSupportEdit>
+				<tipsFormatRo>Fout! Initialiseren mislukt. U kunt geen HDD's met het kenmerk "Alleen lezen" selecteren.</tipsFormatRo>
+				<tipsDisk>HDD</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Uninitialized</tipsUnformatted>
+			<tipsError>Fout </tipsError>
+			<tipsIdle>Slaapt</tipsIdle>
+			<tipsMismatch>Niet overeengekomen</tipsMismatch>
+			<tipsFormatting>Formatteren </tipsFormatting>
+			<tipsNotexist>Bestaatb niet</tipsNotexist>
+			<tipsFormatSelect>HDD formatteren?</tipsFormatSelect>
+			<tipsFormatAll>HDD formatteren geslaagd.</tipsFormatAll>
+			<tipsFormatFailed>Fout! HDD-initialisatie mislukt.</tipsFormatFailed>
+			<tipsFormattingWait>Formatteren … even wachten …</tipsFormattingWait>
+			<tipsSelectDisk>Selecteer de HDD die u wilt formatteren.</tipsSelectDisk>
+			<tipsStorageMode>Instellingen opslagmodus</tipsStorageMode>
+			<tipsArray>Virtuele disk</tipsArray>
+			<jsComplete>Voltooid.</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>R/W</tipsRW>
+			<tipsRO>Alleen lezen</tipsRO>
+			<tipsRedund>Redundantie</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>NetHDD</laSpanTitle>
+				<Property1Opt1>R/W</Property1Opt1>
+				<Property1Opt2>Alleen lezen</Property1Opt2>
+				<Property1Opt3>Redundantie</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Stel disk in</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

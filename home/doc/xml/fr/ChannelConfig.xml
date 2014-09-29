@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelConfig>
+	<AnalogChan>
+		<Page>
+			<laSpanTitle>Caméra analogique</laSpanTitle>
+		</Page>
+		<Js>
+		</Js>
+	</AnalogChan>
+	<DigitalChan>
+		<Page>
+			<laSpanTitle>Caméra IP</laSpanTitle>
+			<laIpChanAddress>Adresse caméra IP</laIpChanAddress>
+			<laDevicePort>Port d'administration</laDevicePort>
+			<laProtocol>Protocole</laProtocol>
+			<laIpChanNum>Caméra IP n°</laIpChanNum>
+			<laRegModeType>Mode inscription</laRegModeType>
+			<RegModeTypeOpt>Nom de domaine</RegModeTypeOpt>
+			<laQuickAdd>Ajout rapide</laQuickAdd>
+			<laMaskAddress>Masque de sous-réseau</laMaskAddress>
+			<laSerialNo>N° série</laSerialNo>
+			<laFirmware>Version micrologiciel</laFirmware>
+			<laDeviceChan>Canal n°</laDeviceChan>
+		</Page>
+		<Js>
+			<HostNameTips>Domaine</HostNameTips>
+			<OnLineTips>En ligne</OnLineTips>
+			<DeleteIpcTips>Supprimer l'adresse IP du canal ?</DeleteIpcTips>
+			<DeleteErrorTips>Échec de la suppression.</DeleteErrorTips>
+			<NoOperationTips>Pas d'autorisation</NoOperationTips>
+			<InputIpTips>Saisissez l'adresse IP.</InputIpTips>
+			<InputRightIpTips>Saisissez l'adresse IP correcte.</InputRightIpTips>
+			<InputErrorIpTips>Adresse IP incorrecte. Ressaisissez-le.</InputErrorIpTips>
+			<IpChanExistTips>Cette caméra IP existe déjà.</IpChanExistTips>
+			<ChannelsAddTips> canaux peuvent être ajoutés. Refaites votre sélection.</ChannelsAddTips>
+			<ChannelExistTips> Canal 1 existant.</ChannelExistTips>
+		</Js>
+		<General>
+			<geAdminPassword>Mot de passe admin</geAdminPassword>
+		</General>
+	</DigitalChan>
+	<ZeroChan>
+		<Page>
+			<laSpanTitle>Réglages canal zéro</laSpanTitle>
+			<laZeroChanEncode>Encodage canal zéro</laZeroChanEncode>
+			<laconstantBitRate>Débit binaire maxi </laconstantBitRate>
+			<laVideoFramerate>IPS maxi</laVideoFramerate>
+			<laSplitMode>Mode</laSplitMode>
+			<laSplitTime>Délais</laSplitTime>
+			<laTimeMode1>Désactiver la commutation</laTimeMode1>
+			<laChanOrder>Ordre des caméras</laChanOrder>
+			<defaultOrder>Défaut</defaultOrder>
+		</Page>
+		<Js>
+		</Js>
+	</ZeroChan>
+</ChannelConfig>

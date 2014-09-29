@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Playback</title>
+		<SlowlyForward>Slow Forward</SlowlyForward>
+		<FastForward>Fast Forward</FastForward>
+		<SingleFrame>Single Frame</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Status</laCurrentSpeed>
+		<laGotoTime>Go to</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Set playback time</laPlaybackTimeLocalizer>
+		<imgGotoTime>Playback by Timebar</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Command</RecordType1>
+		<RecordType2 tag="label;" length="704">Schedule</RecordType2>
+		<RecordType3 tag="label;" length="704">Alarm</RecordType3>
+		<RecordType4 tag="label;" length="704">Manual</RecordType4>
+		<PictureDownload tag="input;" length="32">Download images</PictureDownload>
+		<RecordDownload tag="input;" length="32">Download recording</RecordDownload>
+		<DVR>
+			<stopAll>Stop All Playback</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Failed to pause playback.</pausefailed>
+		<resumefailed>Restoring palyback failed.</resumefailed>
+		<stoprecord>Stop clipping</stoprecord>
+		<startRecord>Start clipping</startRecord>
+		<stoprecordfailed>Failed to stop clipping.</stoprecordfailed>
+		<startplayfailed>Playback failed.</startplayfailed>
+		<stopplayfailed>Failed to stop palyback.</stopplayfailed>
+		<jssingleframe>Playback by Frame</jssingleframe>
+		<jssingleframefailed>Playback by frame failed.</jssingleframefailed>
+		<stopCurrentWndPlay>Please stop playback of the current window before proceeding.</stopCurrentWndPlay>
+		<szTips1>Failed to search video files.</szTips1>
+		<szTips3>No record file.</szTips3>
+		<jsSearchFile>Please search the file first.</jsSearchFile>
+		<jsSpeed>Speed</jsSpeed>
+		<jsPauseAlready>Paused</jsPauseAlready>
+		<jsPause>Pause</jsPause>
+		<jsResume>Restore</jsResume>
+		<jsPlayBackError>Abnormal playback.</jsPlayBackError>
+		<jsRecordError>Failed to clip.</jsRecordError>
+		<jsPlaybackStop> playback finished.</jsPlaybackStop>
+		<jsPlayStopAbnormal> playback finished abnormally.</jsPlayStopAbnormal>
+		<jsDownload>Please search the file to download.</jsDownload>
+		<jsNotSupportDown>Device does not support download.</jsNotSupportDown>
+		<jsDownloadWnd>The download window is opened.</jsDownloadWnd>
+		<jsClipSucc>Clip succeeded.</jsClipSucc>
+		<jsZoomIn>Zoom in</jsZoomIn>
+		<jsZoomOut>Zoom out</jsZoomOut>
+		<jsReversePlay>Reverse</jsReversePlay>
+		<DVR>
+			<jsSelectChan>Please select a channel.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Play</gePlay>
+	</General>
+</Playback>
+

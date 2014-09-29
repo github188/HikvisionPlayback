@@ -1,0 +1,143 @@
+@charset "utf-8";
+#dvEditWnd
+{
+	width:650px;
+	margin:0 auto;
+	border:1px solid #8e8e8e;
+	background:#e7e7e7;
+}
+#dvScheduleTitle
+{
+	height:35px;
+	background:#d8d8d8;
+	line-height:35px;
+	padding-left:10px;
+}
+#dvEditScheduleArea
+{
+	width:600px;
+	margin:20px auto 10px auto;
+}
+#dvEditScheduleArea select
+{
+	width:120px;
+}
+#dvEditWnd .panes span
+{
+	display:inline-block;
+	*float:left;
+}
+#dvTimeSection
+{
+	width:598px;
+}
+#dvTimeSection #dvTimeSecTitle
+{
+	background:#eaeaea;
+	width:598px;
+	height:25px;
+}
+#dvTimeSection span
+{
+	border: 1px solid #c0c0c0;
+	border-left:none;
+	padding-left:5px;
+	height:23px;
+	line-height:23px;
+	vertical-align:central;
+	cursor:pointer;
+}
+#dvTimeSection span.clock
+{
+	background:url(../images/config/timeIcon.png) no-repeat right center;
+}
+/***第一种显示类型**/
+#dvTimeSection.disType1 span.first
+{
+	width:100px;
+}
+#dvTimeSection.disType1 span.second
+{
+	width:240px;
+}
+#dvTimeSection.disType1 span.third
+{
+	width:240px;
+}
+/***第二种显示类型**/
+#dvTimeSection.disType2 span.first
+{
+	width:44px;
+}
+#dvTimeSection.disType2 span.second
+{
+	width:195px;
+}
+#dvTimeSection.disType2 span.third
+{
+	width:195px;
+}
+#dvTimeSection.disType2 span.fouth
+{
+	width:140px;
+}
+/***第三种显示类型**/
+#dvTimeSection.disType3 span.first
+{
+	width:44px;
+}
+#dvTimeSection.disType3 span.second
+{
+	width:132px;
+}
+#dvTimeSection.disType3 span.third
+{
+	width:132px;
+}
+#dvTimeSection.disType3 span.fouth
+{
+	width:130px;
+}
+#dvTimeSection.disType3 span.five
+{
+	width:130px;
+	float:right;
+}
+#dvEditWnd .checkbox
+{
+    vertical-align:text-bottom;
+    cursor:pointer;
+	margin-right:2px;
+} 
+#timeInputWindow
+{
+	position:absolute;
+	top:20px;
+	left:100px;
+	z-index:10000;
+	width:190px;
+	display:none;
+}
+#timeInputWindow span
+{
+	float:left;
+}
+#timeInputWindow .left
+{
+	width:5px;
+	height:37px;
+	background:url(../../images/config/timeInputWindowleft.png) no-repeat;
+}
+#timeInputWindow .mid
+{
+	height:37px;
+	background:url(../../images/config/timeInputWindowmid.png) repeat-x;
+	line-height:37px;
+	vertical-align:central;
+}
+#timeInputWindow .right
+{
+	width:5px;
+	height:37px;
+	background:url(../../images/config/timeInputWindowright.png) no-repeat;
+}

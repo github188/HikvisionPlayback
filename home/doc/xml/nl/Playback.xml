@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Afspelen</title>
+		<SlowlyForward>Langzaam vooruit</SlowlyForward>
+		<FastForward>Snel vooruit</FastForward>
+		<SingleFrame>Eén beeld</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Status </laCurrentSpeed>
+		<laGotoTime>Ga</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Stel afspeeltijd in</laPlaybackTimeLocalizer>
+		<imgGotoTime>Afspelen per tijdbalk</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Commando</RecordType1>
+		<RecordType2 tag="label;" length="704">Schema</RecordType2>
+		<RecordType3 tag="label;" length="704">Alarm</RecordType3>
+		<RecordType4 tag="label;" length="704">Handmatig</RecordType4>
+		<PictureDownload tag="input;" length="32">Afbeeldingen downloaden</PictureDownload>
+		<RecordDownload tag="input;" length="32">Opnamen downloaden</RecordDownload>
+		<DVR>
+			<stopAll>Stop al het afspelen</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Fout! Pauzeren bij afspelen mislukt</pausefailed>
+		<resumefailed>Fout! Herstellen afspelen mislukt.</resumefailed>
+		<stoprecord>Stop clipping</stoprecord>
+		<startRecord>Start clipping</startRecord>
+		<stoprecordfailed>Fout! Clipping mislukt.</stoprecordfailed>
+		<startplayfailed>Fout! Afspelen mislukt.</startplayfailed>
+		<stopplayfailed>Fout! Afspelen stoppen mislukt.</stopplayfailed>
+		<jssingleframe>Afspelen per beeld</jssingleframe>
+		<jssingleframefailed>Fout! Afspelen per beeld mislukt.</jssingleframefailed>
+		<stopCurrentWndPlay>Stop afspelen van huidig scherm, voordat u doorgaat</stopCurrentWndPlay>
+		<szTips1>Fout! Videobestanden zoeken mislukt.</szTips1>
+		<szTips3>Geen gegevensbestand.</szTips3>
+		<jsSearchFile>Zoek eerst het bestand.</jsSearchFile>
+		<jsSpeed>Snelheid</jsSpeed>
+		<jsPauseAlready>Gepauzeerd</jsPauseAlready>
+		<jsPause>Pauze </jsPause>
+		<jsResume>Herstellen</jsResume>
+		<jsPlayBackError>Afwijking tijdens afspelen.</jsPlayBackError>
+		<jsRecordError>Fout bij clipping.</jsRecordError>
+		<jsPlaybackStop> Afspelen  geëindigd.</jsPlaybackStop>
+		<jsPlayStopAbnormal> Afspelen abnormaal geëindigd.</jsPlayStopAbnormal>
+		<jsDownload>Zoek het bestand dat u wilt downloaden.</jsDownload>
+		<jsNotSupportDown>Apparaat ondersteunt downloaden niet.</jsNotSupportDown>
+		<jsDownloadWnd>Het downloadscherm is geopend.</jsDownloadWnd>
+		<jsClipSucc>Clip geslaagd.</jsClipSucc>
+		<jsZoomIn>Inzoomen</jsZoomIn>
+		<jsZoomOut>Uitzoomen</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Kies een kanaal.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Afspelen</gePlay>
+	</General>
+</Playback>

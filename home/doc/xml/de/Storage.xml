@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">Aufzeichnungszeitplan</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Speicherverwaltung</aHardDisk>
+			<laAdvancedRecordCfg>Weiterführend</laAdvancedRecordCfg>
+			<laExtractFrame>Bild-Extraktion</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">HDD-Nr.</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Das gleiche NetHDD darf nicht zweimal hinzugefügt werden.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Dateipfad</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Weiterführend</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Aufnahmezeitplan aktivieren </laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Erfassungspläne akt.</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Voraufzeichnung</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Keine Voraufzeichnung</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5 s</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10 s</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15 s</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20 s</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25 s</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30 s</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Nicht begrenzt</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Nachaufz.</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1min</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2 min</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5 min</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10 min</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Redund. Aufz.</laRedundancyRec>
+			<laRecordOverWrite>Überschreiben</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Kein</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Ja</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Audioaufz.</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Aufz.-Zeitplan bearb.</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Abgelaufene Zeit</geRecorderDuration>
+			<EndTimeRangeTips>Endzeit darf 24:00 nicht überschreiten.</EndTimeRangeTips>
+			<AdvancedTips>Weiterführend</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>HDD-Management</laSpanTitle>
+				<laHardDiskNo>HDD-Nr.</laHardDiskNo>
+				<laDiskProperty>Eigenschaft</laDiskProperty>
+				<laDiskGroup>HDD-Gruppe</laDiskGroup>
+				<laDiskInit>HDD-Initialisierung</laDiskInit>
+				<laInitState>Init-Status</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">HDD-Geräteliste</laDiskTitle>
+			<laCapacity tag="label;" length="100">Kapazität</laCapacity>
+			<laFreeSpace tag="label;" length="100">Fr. Speich.</laFreeSpace>
+			<formatDisk tag="input;" length="74">Format</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>HDD-Eigenschaft kann nicht im aktuellen Speichermodus bearbeitet werden.</tipsNotSupportEdit>
+				<tipsFormatRo>Initialisierung fehlgeschlagen. Keine Nur-Lese-Festplatte(n) wählbar.</tipsFormatRo>
+				<tipsDisk>HDD</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Nicht init.</tipsUnformatted>
+			<tipsError>Fehler</tipsError>
+			<tipsIdle>Schlafend</tipsIdle>
+			<tipsMismatch>Abweichung</tipsMismatch>
+			<tipsFormatting>Formatierung</tipsFormatting>
+			<tipsNotexist>Nicht vorhanden</tipsNotexist>
+			<tipsFormatSelect>HDD formatieren?</tipsFormatSelect>
+			<tipsFormatAll>HDD-Formatierung abgeschlossen.</tipsFormatAll>
+			<tipsFormatFailed>HDD-Initialisierung fehlgeschlagen.</tipsFormatFailed>
+			<tipsFormattingWait>Formatierung... bitte warten...</tipsFormattingWait>
+			<tipsSelectDisk>Wählen Sie bitte die zu formatierende Festplatte.</tipsSelectDisk>
+			<tipsStorageMode>Speichermodus-Einstellungen</tipsStorageMode>
+			<tipsArray>Virtuelle Festplatte</tipsArray>
+			<jsComplete>Vervollständigen</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>R/W</tipsRW>
+			<tipsRO>Nur Lesen</tipsRO>
+			<tipsRedund>Redundanz</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>NetHDD</laSpanTitle>
+				<Property1Opt1>R/W</Property1Opt1>
+				<Property1Opt2>Nur Lesen</Property1Opt2>
+				<Property1Opt3>Redundanz</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Disk-Set</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>影像預覽</title>
+		<voiceTalk>開始對講</voiceTalk>
+		<StopvoiceTalk>停止對講</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">語音對講頻道</laTalkNum>
+		<laLight>燈光</laLight>
+		<laWiper>雨刷</laWiper>
+		<laOneKeyFocus>輔助聚焦</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">影像參數</laVideoEffect>
+		<Patrol>巡航掃描</Patrol>
+		<laTrack>路徑</laTrack>
+		<laPatrolTime tag="label;" length="75">巡邏時間</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">巡邏速度</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">新增巡邏路徑</laAddPatrolPath>
+		<raVideoParamMode1>標準</raVideoParamMode1>
+		<raVideoParamMode2>室內</raVideoParamMode2>
+		<raVideoParamMode3>室外</raVideoParamMode3>
+		<raVideoParamMode4>弱光</raVideoParamMode4>
+		<laNoiseReduce>去雜訊</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>停止預覽</stoppreview>
+		<recordfailed>錄影失敗</recordfailed>
+		<stoprecord>停止錄影</stoprecord>
+		<jsSetVideoParam>設定影像參數失敗</jsSetVideoParam>
+		<jsNetError>操作失敗或沒有權限進行此項操作</jsNetError>
+		<VoiceTalkFailed>對講失敗</VoiceTalkFailed>
+		<ChooseTalkChan>請選擇語音通道</ChooseTalkChan>
+		<jsRecordSucc>錄影成功</jsRecordSucc>
+		<jsRecordAllSucc>全部錄影成功</jsRecordAllSucc>
+		<Start>開始</Start>
+		<StartSave>開始錄影</StartSave>
+		<StopSave>停止錄影</StopSave>
+		<Start3DZoom>開啟3D定位</Start3DZoom>
+		<Stop3DZoom>關閉3D定位</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>全部停止預覽</geStopAllViewing>
+	</General>
+</Preview>

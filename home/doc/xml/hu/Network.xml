@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Network>
+	<Common>
+		<Page>
+			<laNetWorkMode>Üzemmód</laNetWorkMode>
+			<laEAPOLVersion tag="label;" length="150">EAPOL verzió</laEAPOLVersion>
+			<laFriendlyName>Bonjour engedélyezése</laFriendlyName>
+		</Page>
+		<Js>
+		    <jsPortConflict>Portütközés.</jsPortConflict>
+		</Js>
+		<General>
+			<gePort tag="label;" length="150">Port</gePort>
+		</General>
+	</Common>
+	<IpConfig>
+		<Page>
+			<NetworkModeOpt1>Hálózati hibatűrés</NetworkModeOpt1>
+			<NetworkModeOpt2>Terhelés-elosztás</NetworkModeOpt2>
+			<NetworkModeOpt3>Többszörös cím</NetworkModeOpt3>
+			<laNetCardConfig tag="label;" length="670">Hálózati kártya beállításai</laNetCardConfig>
+			<laSelectNetCard>Válassza a hálózati kártyát</laSelectNetCard>
+			<laNetworkType tag="label;" length="150">Hálózati kártya típusa</laNetworkType>
+			<NetworkTypeOpt1 tag="option;" length="198">10M félduplex</NetworkTypeOpt1>
+			<NetworkTypeOpt2 tag="option;" length="198">10M duplex</NetworkTypeOpt2>
+			<NetworkTypeOpt3 tag="option;" length="198">100M félduplex</NetworkTypeOpt3>
+			<NetworkTypeOpt4 tag="option;" length="198">1000M duplex</NetworkTypeOpt4>
+			<NetworkTypeOpt5 tag="option;" length="198">10M/100M/1000M auto</NetworkTypeOpt5>
+			<NetworkTypeOpt6 tag="option;" length="198">1000M duplex</NetworkTypeOpt6>
+			<laDeviceIpAdd tag="label;" length="150">IPv4 cím</laDeviceIpAdd>
+			<laDHCP tag="label;" length="670">DHCP</laDHCP>
+			<laSubNetMask tag="label;" length="150">IPv4 al-háló maszk</laSubNetMask>
+			<laDefaultGateWay tag="label;" length="150">IPv4 alapértelmezett átjáró</laDefaultGateWay>
+			<laDeviceIpV6Add>IPv6 cím</laDeviceIpV6Add>
+			<laDefaultV6GateWay>IPv6 alapértelmezett átjáró</laDefaultV6GateWay>
+			<laDNSServerConfig tag="label;" length="670">DNS szerver</laDNSServerConfig>
+			<laPrimaryDNS tag="label;" length="150">Első DNS szerver</laPrimaryDNS>
+			<laDNSServer2IP tag="label;" length="150">Alternatív DNS</laDNSServer2IP>
+			<laPrimayEthernet>Fő hálózati kártya</laPrimayEthernet>
+			<laMulticast tag="label;" length="150">Multicast cím</laMulticast>
+		</Page>
+		<Js>
+			<jsMaskAdd>Alhálózati maszk</jsMaskAdd>
+			<jsGateAdd>Átjáró</jsGateAdd>
+			<jsMtuParam>MTU</jsMtuParam>
+			<jsFirstDNS>Preferált DNS cím</jsFirstDNS>
+			<jsSecondDNS>Alternatív DNS cím</jsSecondDNS>
+			<MaskAddInvalidTips>Érvénytelen alhálózati maszk</MaskAddInvalidTips>
+			<jsMulticastRange>Az IP cím első szegmense 224 és 239 közötti szám lehet.</jsMulticastRange>
+		</Js>
+	</IpConfig>
+	<PortConfig>
+		<Page>
+			<laHttpPort tag="label;" length="150">HTTP port</laHttpPort>
+			<laRtspPort tag="label;" length="150">RTSP port</laRtspPort>
+			<laHttpsPort tag="label;" length="150">HTTPS port</laHttpsPort>
+			<laSDKPort>SDK-port</laSDKPort>
+		</Page>
+		<Js>
+			<jsHttpPortParam>HTTP Port </jsHttpPortParam>
+			<jsRtspPortParam>RTSP Port </jsRtspPortParam>
+			<jsHttpsPortParam>HTTPS Port </jsHttpsPortParam>
+		</Js>
+	</PortConfig>
+	<DDNS>
+		<Page>
+			<laUseDDNS tag="label;" length="670">DDNS engedélyezése</laUseDDNS>
+			<laDDNSType tag="label;" length="150">DDNS típus</laDDNSType>
+		</Page>
+		<Js>
+			<jsDomainAlreadyExist>Domén már létezik</jsDomainAlreadyExist>
+		</Js>
+		<General>
+			<laDeviceDomain tag="label;" length="150">Domain</laDeviceDomain>
+		</General>
+	</DDNS>
+	<PPPoE>
+		<Page>
+			<laUsePPPOE tag="label;" length="670">PPPOE engedélyezése</laUsePPPOE>
+			<laDevicePPPOEIP tag="label;" length="150">Dinamikus IP</laDevicePPPOEIP>
+		</Page>
+		<Js>
+			<jsPPPOEName>PPPoE név</jsPPPOEName>
+			<jsPPPOEPassword>PPPoE jelszó</jsPPPOEPassword>
+		</Js>
+	</PPPoE>
+	<SNMP>
+		<Page>
+			<laEnableV1 tag="label;" length="150">SNMP v1 engedélyezése</laEnableV1>
+			<laEnableV2c tag="label;" length="150">SNMP v2c engedélyezése</laEnableV2c>
+			<laRwCommunity tag="label;" length="150">Írja be az SNMP communityt </laRwCommunity>
+			<laRCommunity tag="label;" length="150">SNMP community olvasása</laRCommunity>
+			<laTrapIP tag="label;" length="150">Csapda cím</laTrapIP>
+			<laTrapPort tag="label;" length="150">Csapda csatlakozó</laTrapPort>
+			<laTrapCommunity tag="label;" length="150">Csapda Közösség</laTrapCommunity>
+			<laEnableV3c tag="label;" length="150">SNMP v3 engedélyezése</laEnableV3c>
+			<laRUserName tag="label;" length="150">Felhasználónév olvasása</laRUserName>
+			<laRwUserName tag="label;" length="150">Írja be a felhasználónevet</laRwUserName>
+			<laSecurityLevel tag="label;" length="150">Biztonsági szint</laSecurityLevel>
+			<laAuthAlg tag="label;" length="150">Azonosító algoritmus</laAuthAlg>
+			<laAuthPsd tag="label;" length="150">Azonosító jelszó</laAuthPsd>
+			<laPrivacyAlg tag="label;" length="150">Saját kulcs algoritmus</laPrivacyAlg>
+			<laPrivacyPsd tag="label;" length="150">Saját kulcs jelszó</laPrivacyPsd>
+			<laSNMPPort tag="label;" length="150">SNMP port</laSNMPPort>
+			<laSNMPMore tag="label;" length="670">SNMP más beállítása</laSNMPMore>
+		</Page>
+		<Js>
+			<jsOneLeast>Legalább  egy SNMP típust engedélyeznie kell.</jsOneLeast>
+			<jsTrapIp>Csapda IP cím</jsTrapIp>
+		</Js>
+	</SNMP>
+	<P8021x>
+		<Page>
+			<laEnable8021x tag="label;" length="131">IEEE 802.1x enged.</laEnable8021x>
+		</Page>
+		<Js>
+		</Js>
+	</P8021x>
+	<QoS>
+		<Page>
+			<laVideoDSCP tag="label;" length="150">Videó / hang DSCP</laVideoDSCP>
+			<laEADSCP tag="label;" length="150">Esemény/riasztás DSCP</laEADSCP>
+			<laManageDSCP tag="label;" length="150">DSCP menedzsment</laManageDSCP>
+			<laEnableQoS>QoS engedélyezése</laEnableQoS>
+		</Page>
+		<Js>
+		</Js>
+	</QoS>
+	<Socks>
+		<Page>
+			<laEnableSocks>SOCKS engedélyezése</laEnableSocks>
+			<laSocksServerAddr>Kiszolgáló</laSocksServerAddr>
+			<laSocksServerPort>Kiszolgáló portja</laSocksServerPort>
+			<laSocksVersion>Kiszolgáló típusa</laSocksVersion>
+			<laLocalList>Helyi hálózatok</laLocalList>
+			<laLocalTips>A helyi hálózatok elválasztásához használjon pontosvesszőt (;)</laLocalTips>
+		</Page>
+		<Js>
+		</Js>
+	</Socks>
+	<UPnP>
+		<Page>
+			<laEnableUPnP>UPnP engedélyezése</laEnableUPnP>
+			<laHttpPortMap>HTTP portkiosztás</laHttpPortMap>
+			<laManagePortMap>Eszközport-kiosztás</laManagePortMap>
+			<laRtspPortMap>RTSP portkiosztás</laRtspPortMap>
+			<laHttpsPortMap>HTTPS portkiosztás</laHttpsPortMap>
+			<laNatRouterLanAddr>NAT útválasztó címe</laNatRouterLanAddr>
+			<laEnableUPnPNat>UPnP™ NAT engedélyezése</laEnableUPnPNat>
+			<laUPnPMapType>Port mapping típusa</laUPnPMapType>
+			<laPortsMap>Portkiosztás</laPortsMap>
+			<laProtocolName>Protokoll neve</laProtocolName>
+			<laExternalPort>External Port</laExternalPort>
+			<laEnablePortMap>Portkioszt.eng.</laEnablePortMap>
+			<laNatMapType>NAT kioszt.típ.</laNatMapType>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<geValid>Érvényes</geValid>
+			<geNotValid>Nem érvényes</geNotValid>
+		</General>
+	</UPnP>
+	<Bonjour>
+		<Page>
+			<laEnableBonjour>Bonjour engedélyezése</laEnableBonjour>
+		</Page>
+		<Js>
+		</Js>
+	</Bonjour>
+	<HTTPS>
+		<Page>
+			<laCreate>Létrehoz</laCreate>
+			<laCreateSelfCertificate>Önaláírású tanúsítvány létrehozása</laCreateSelfCertificate>
+			<laCreateCertificateReq>Tanúsítvány-kérelem létrehozása</laCreateCertificateReq>
+			<laInstallSignedCertificate>Aláírt tanúsítvány telepítése</laInstallSignedCertificate>
+			<laCreatedRequest>Létrehozott kérelem</laCreatedRequest>
+			<laInstalledCertificate>Telepített tanúsítvány</laInstalledCertificate>
+			<laRemove>Törlés</laRemove>
+			<laValidity>Érvényesség</laValidity>
+			<laCountry>Ország</laCountry>
+			<laStateOrProvince>Állam vagy tartomány</laStateOrProvince>
+			<laLocality>Város</laLocality>
+			<laOrganization>Szervezet</laOrganization>
+			<laOrganizationalUnit>Szervezeti egység</laOrganizationalUnit>
+			<laCommonName>IP / domain</laCommonName>
+			<laCertificatePath>Tanúsítvány elérési útja</laCertificatePath>
+			<laExample>példa</laExample>
+			<laConfirmInstall>Kérjük, ellenőrizze, hogy a tanúsítványt már telepítették-e</laConfirmInstall>
+		</Page>
+		<Js>
+		</Js>
+	</HTTPS>
+	<FTP>
+		<Page>
+			<laPathDepth tag="label;" length="150">Könyvtár-struktúra</laPathDepth>
+			<laTopPath tag="label;" length="150">Főmappa</laTopPath>
+			<laSubPath tag="label;" length="150">Alkönyvtár</laSubPath>
+			<laUploadType tag="label;" length="150">Feltöltés típusa</laUploadType>
+			<laUploadPicture tag="label;" length="150">Kép feltöltése</laUploadPicture>
+			<laUploadVideoClip>Videó feltöltése</laUploadVideoClip>
+			<optPathDepth1 tag="option;" length="198">Gyökérkönyvtárba ment</optPathDepth1>
+			<optPathDepth2 tag="option;" length="198">Főkönyvtárba ment.</optPathDepth2>
+			<optPathDepth3 tag="option;" length="198">Alkönyvtárba ment.</optPathDepth3>
+			<optTopPath1 tag="option;" length="198">Eszköznév használata</optTopPath1>
+			<optTopPath2 tag="option;" length="198">Eszközszám használata</optTopPath2>
+			<optTopPath3 tag="option;" length="198">IP cím használata</optTopPath3>
+			<optSubPath1 tag="option;" length="198">Kameranév használata</optSubPath1>
+			<optSubPath2 tag="option;" length="198">Kameraszám használata</optSubPath2>
+			<laSelectFtp>Válasszon FTP-t</laSelectFtp>
+			<laEnableFTP tag="label;" length="670">FTP engedélyezése</laEnableFTP>
+		</Page>
+		<Js>
+		</Js>
+	</FTP>
+	<WIFI>
+		<Page>
+			<laWirelessList>Vezetéknélküli lista</laWirelessList>
+			<laSecurityMode>Biztonságos mód</laSecurityMode>
+			<laChannel>Csatorna</laChannel>
+			<laSignalStrength>Jelerősség</laSignalStrength>
+			<laSpeed>Sebesség</laSpeed>
+			<laWirelessNetworkMode>Hálózat mód</laWirelessNetworkMode>
+			<laEncryptionType>Titkosítás típusa</laEncryptionType>
+			<laOpen>Megnyit</laOpen>
+			<laShared>Megosztott</laShared>
+			<laKeyLength>Kulcs hossza</laKeyLength>
+			<laKeyType>Kulcs típusa</laKeyType>
+			<laHex>HEX</laHex>
+			<laKey>Kulcs</laKey>
+			<laPEAPVersion>PEAP verzió</laPEAPVersion>
+			<laPEAPLabel>PEAP címke</laPEAPLabel>
+			<laInnerAuthenticationMode>Belső hitelesítés</laInnerAuthenticationMode>
+			<laAnonymousID>Névtelen azonosság</laAnonymousID>
+			<laIdentify>Azonosítás</laIdentify>
+			<laPrivateKeyPassword>Magánkulcsos jelszó</laPrivateKeyPassword>
+			<laCACertificate>CA tanúsítvány</laCACertificate>
+			<laUserCertificate>Felhasználói tanúsítvány</laUserCertificate>
+			<laPrivateKeyCertificate>Magánkulcs</laPrivateKeyCertificate>
+			<laEnableWPS>WPS engedélyezése</laEnableWPS>
+			<laPinCode>PIN-kód</laPinCode>
+			<pinCodeGenerate>Generálás</pinCodeGenerate>
+			<autoConnect>PBC csatlakozás</autoConnect>
+			<manuConnect>Útválasztó PIN-kódjának használata</manuConnect>
+			<laApPinCode>Útválasztó PIN-kódja</laApPinCode>
+			<laConnect>Csatlakoztatás</laConnect>
+			<laSSID>SSID</laSSID>
+		</Page>
+		<Js>
+			<jsTenHex>Adjon meg 10 hexadecimális karaktert</jsTenHex>
+			<jsXXVIHex>Adjon meg 26 hexadecimális karaktert.</jsXXVIHex>
+			<jsFiveASCII>Adjon meg 5 ASCII karaktert</jsFiveASCII>
+			<jsTenASCII>Adjon meg 13 ASCII karaktert</jsTenASCII>
+			<jsEightMoreChar>Adjon meg 8-63 karaktert</jsEightMoreChar>
+			<jsConnectSuc>Csatlakozás sikerült</jsConnectSuc>
+			<jsConnectFail>Csatlakozás sikertelen</jsConnectFail>
+			<jsConnecting>Csatlakozás...</jsConnecting>
+		</Js>
+	</WIFI>
+</Network>

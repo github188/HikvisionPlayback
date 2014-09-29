@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Main>
+	<Common>
+		<Page>
+			<DVR>
+				<paStartAllView>Έναρξη όλων των ζωντανών προβολών</paStartAllView>
+				<paStartAllRecord>Έναρξη όλων των εγγραφών</paStartAllRecord>
+			</DVR>
+			<laPlugin>Κάντε κλικ εδώ για λήψη &amp; εγκατ. της προσθ. Κλείστε το πρόγρ. περιήγ. κατά την εγκατ. της προσθ.</laPlugin>
+			<laNotWin32Plugin>Δεν εντοπίστηκε προσθήκη.</laNotWin32Plugin>
+			<streamTypeOpt1 tag="label;option;" length="134">Κύρια ροή</streamTypeOpt1>
+			<streamTypeOpt2 tag="label;option;" length="134">Δευτερ. ροή</streamTypeOpt2>
+			<StreamTypeInOpt4 tag="label;option;" length="104">Τρίτη συνεχής ροή</StreamTypeInOpt4>
+			<windowProportionOpt1 tag="label;option;" length="134">Αρχικό</windowProportionOpt1>
+			<windowAuto tag="label;option;" length="104">Αυτόματο</windowAuto>
+			<laStreamType tag="label;" length="90">Τύπος ροής</laStreamType>
+			<lawindowProportion tag="label;" length="90">Μέγεθος εικόνας</lawindowProportion>
+			<laPlayParams tag="label;" length="91">Παράμ. ζωντ. προβ.</laPlayParams>
+			<opensound>Ήχος ενεργοποιημένος</opensound>
+			<closesound>Ήχος απενεργοποιημένος</closesound>
+			<volume>Ένταση</volume>
+			<stop>Διακοπή</stop>
+			<laSearch tag="label;" length="200">Αναζήτηση</laSearch>
+			<DownloadBtn tag="input;" length="80">Λήψη</DownloadBtn>
+			<laChannelNum tag="label;" length="148">Πλήθος καναλιών</laChannelNum>
+			<laChannelNo tag="label;" length="109">Αρ. καναλιού</laChannelNo>
+			<laStartTime tag="label;" length="140">Ώρα έναρξης</laStartTime>
+			<laEndTime tag="label;" length="140">Ώρα λήξης</laEndTime>
+			<laHue tag="label;" length="122">Απόχρωση</laHue>
+			<SetPreset>Ρύθμιση</SetPreset>
+			<CleanPreset>Απαλοιφή</CleanPreset>
+			<laSerialNumber tag="label;" length="67">Αρ.</laSerialNumber>
+			<Pattern>Υπόδειγμα</Pattern>
+			<laWirelessAlarm>Ασύρματος συναγερμός</laWirelessAlarm>
+			<laPIRAlarm>Συναγερμός PIR</laPIRAlarm>
+			<OptCallHelp>Συναγερμός έκτακτης ανάγκης</OptCallHelp>
+			<laSharpness tag="label;" length="120">Ευκρίνεια</laSharpness>
+			<laEnableZoom>Ενεργοποίηση e-PTZ</laEnableZoom>
+			<laDisableZoom>Απενεργοποίηση e-PTZ</laDisableZoom>
+		</Page>
+		<Js>
+			<jsUpdatePlugin>Εντοπίστηκε νέα έκδοση της προσθήκης. Να γίνει ενημέρωση;</jsUpdatePlugin>
+			<jsUpdateNotWin32>Εντοπίστηκε νέα έκδοση της προσθήκης. Επικοινωνήστε με τον προμηθευτή για την ενημέρωση.</jsUpdateNotWin32>
+			<exit>Να γίνει αποσύνδεση;</exit>
+			<jsPreview>Ζωντανή προβολή</jsPreview>
+			<jsRecord>Εγγραφή</jsRecord>
+			<previewfailed>Ανεπιτυχής ζωντανή προβολή</previewfailed>
+			<capturefailed>Ανεπιτυχής καταγραφή.</capturefailed>
+			<stopAllRecord>Παύση όλων των εγγραφών</stopAllRecord>
+			<FreeSpaceTips>Ανεπαρκής χώρος.</FreeSpaceTips>
+			<jsCreateFileFailed>Αποτυχία δημιουργίας ενός αρχείου.</jsCreateFileFailed>
+			<jsNoOperationRight>Κανένα δικαίωμα.</jsNoOperationRight>
+			<jsOpenSoundFailed>Η ενεργοποίηση του ήχου απέτυχε.</jsOpenSoundFailed>
+			<jsCaptureSucc>Επιτυχής καταγραφή.</jsCaptureSucc>
+			<TotalTips>Σύνολο </TotalTips>
+			<TiaoTips> Στοιχεία</TiaoTips>
+			<jsFirstPageTips>Αρχική σελίδα</jsFirstPageTips>
+			<jsLastPageTips>Τελευταία σελίδα</jsLastPageTips>
+			<jsPrevPageTips>Προηγούμενη σελίδα</jsPrevPageTips>
+			<jsNextPageTips>Επόμενη σελίδα</jsNextPageTips>
+			<tipsTooLong>Η διαδρομή του αρχείου είναι πολύ μεγάλη. Παρακαλώ επιλέξτε ξανά.</tipsTooLong>
+			<jsVideoDefault>Επαναφορά προεπιλογών;</jsVideoDefault>
+			<jsTrue>Ναι</jsTrue>
+			<jsFalse>Όχι</jsFalse>
+			<jsTimeSegmentErrorTips>Η ώρα έναρξης θα πρέπει να είναι προγενέστερη της ώρας λήξης.</jsTimeSegmentErrorTips>
+			<ptzSpeed>Ταχύτητα PTZ</ptzSpeed>
+			<videoLost>Απώλ. σήμ. βίντ</videoLost>
+			<ExcutePreset>Κλήση</ExcutePreset>
+			<laZoom>Zoom</laZoom>
+			<laFocus>Εστίαση</laFocus>
+			<laIris>Ίριδα</laIris>
+			<CurrentAddTips>Currently up to </CurrentAddTips>
+		</Js>
+		<General>
+			<capture>Καταγραφή</capture>
+			<laOK tag="input;label;" length="88">OK</laOK>
+			<laCancel tag="input;label;" length="88">Άκυρο</laCancel>
+			<hdFull tag="option;" length="198">Σκλ. δίσκ. γεμ</hdFull>
+			<hdError tag="option;" length="198">Σφάλμα σκλ. δίσκ.</hdError>
+			<Exception>Εξαίρεση</Exception>
+			<laBrightness tag="label;" length="122">Φωτεινότητα</laBrightness>
+			<laContrast tag="label;" length="122">Αντίθεση</laContrast>
+			<laSaturation tag="label;" length="122">Κορεσμός</laSaturation>
+			<geDefault>Προεπιλ.</geDefault>
+			<alarmIn>Είσ. συναγ.</alarmIn>
+			<alarmOut>Έξ. συναγ.</alarmOut>
+			<laLensInit tag="label;" length="308">Αρχικοποίηση φακού</laLensInit>
+			<laPreset tag="label;" length="31">Προεπ.</laPreset>
+			<SearchingTips>Αναζήτηση…</SearchingTips>
+			<laSaveBtn>Αποθήκευση</laSaveBtn>
+			<DelDigitalIpBtn tag="input;" length="74">Διαγραφή</DelDigitalIpBtn>
+		</General>
+	</Common>
+	<Main>
+		<Page>
+			<laPreview tag="label;" length="165">Ζωντ. προβ.</laPreview>
+			<laPlayback tag="label;" length="165">Αναπαραγωγή</laPlayback>
+			<laLog tag="label;" length="165">Αρχ. καταγρ.</laLog>
+			<laConfig tag="label;" length="165">Ρύθμ. παραμ.</laConfig>
+			<laExit tag="label;" length="974">Αποσύνδεση</laExit>
+			<DVR>
+				<laHelp>Βοήθεια</laHelp>
+				<laVersion>Έκδοση</laVersion>
+			</DVR>
+		</Page>
+		<Js>
+		</Js>
+	</Main>
+</Main>

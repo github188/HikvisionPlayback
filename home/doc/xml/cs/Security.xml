@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Security>
+	<Common>
+		<Page>
+			<aUser tag="a;" length="9999">Uživatel</aUser>
+			<aRTSPAuth tag="a;" length="9999">Autentifikace RSTP</aRTSPAuth>
+			<aAnonymousVisit>Anonymní návštěva</aAnonymousVisit>
+			<aIPFilter>Filtr IP adresy</aIPFilter>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<User>
+		<Page>
+			<DVR>
+				<laSpanTitle>Informace o uživateli</laSpanTitle>
+				<laIpBind>Přiřazení IP adresy</laIpBind>
+				<laLocalColonConfig tag="label;" length="125">Místní: Konfigurace</laLocalColonConfig>
+				<laLocalUpgrade>Místní: Aktualizace/Formát</laLocalUpgrade>
+				<laLocalReboot>Místní: Vypnutí/Restart</laLocalReboot>
+				<laLocalSetParam>Místní: Nastavení parametrů</laLocalSetParam>
+				<laLocalLog>Místní: Vyhledání deníku</laLocalLog>
+				<laLocalIPCCfg>Místní: Nastavit IP kameru</laLocalIPCCfg>
+				<laLocalPlayback>Místní: Přehrávání</laLocalPlayback>
+				<laLocalManualRecord>Místní: Manuální operace</laLocalManualRecord>
+				<laLocalPTZControl>Místní: kontrola PTZ</laLocalPTZControl>
+				<laLocalBackup>Místní: Export videa</laLocalBackup>
+				<laRemoteConfig>Vzdál. konfigurace</laRemoteConfig>
+			</DVR>
+			<laUserType tag="label;" length="150">Level</laUserType>
+			<PriorityOpt1 tag="label;" length="411">Správce</PriorityOpt1>
+			<PriorityOpt2 tag="option;" length="198">Operátor</PriorityOpt2>
+			<PriorityOpt3 tag="option;" length="198">Uživatel</PriorityOpt3>
+			<laBasicPermissionBtn tag="label;" length="399">Zákl. práva</laBasicPermissionBtn>
+			<laChanPermissionBtn tag="label;" length="148">Konfigurace kamery</laChanPermissionBtn>
+			<laRemoteSetParam tag="label;" length="370">Vzdál.: Nastav. parametry</laRemoteSetParam>
+			<laRemoteLog tag="label;" length="370">Vzdál.: Vyhledat záznam / Zeptat se na stav činnosti</laRemoteLog>
+			<laRemoteUpgrade tag="label;" length="370">Vzdál.: Aktualizovat / formátovat</laRemoteUpgrade>
+			<laRemoteTalk tag="label;" length="370">Vzdál.: Dvoucestné audio</laRemoteTalk>
+			<laRemoteReboot tag="label;" length="370">Vzdál.: Vypnutí/Restart</laRemoteReboot>
+			<laRemoteAlarm tag="label;" length="370">Vzdál.: Oznámit kontrol. centru / Spustit výstup alarmu</laRemoteAlarm>
+			<laRemoteCtrl tag="label;" length="370">Vzdál.: Ovl. video výstupu</laRemoteCtrl>
+			<laRemoteRS tag="label;" length="370">Vzdál.: Ovl. sériov. portu</laRemoteRS>
+			<laRemotePreview tag="label;" length="119">Vzdál.: Akt. zobr.</laRemotePreview>
+			<laRemoteManualRecord tag="label;" length="119">Vzdál.: Manuál. záznam</laRemoteManualRecord>
+			<laRemotePTZControl tag="label;" length="119">Vzdál.: Ovlád. PTZ</laRemotePTZControl>
+			<laRemotePlayback tag="label;" length="122">Vzdál.: Přehrávání</laRemotePlayback>
+			<laPermissionConfig>Nastavení oprávnění</laPermissionConfig>
+		</Page>
+		<Js>
+			<UserAddTips>Přidat uživatele</UserAddTips>
+			<UserExistTips>Uživatelské jméno již existuje.</UserExistTips>
+			<jsPasswordDifferenceTips>Hesla nesouhlasí</jsPasswordDifferenceTips>
+			<WrongCharTips> Nesmí obsahovat</WrongCharTips>
+		</Js>
+		<General>
+			<laUserModify tag="label;" length="550">Upravit uživatele</laUserModify>
+		</General>
+	</User>
+	<RTSPAuth>
+		<Page>
+		</Page>
+		<Js>
+		</Js>
+	</RTSPAuth>
+	<IPFilter>
+		<Page>
+			<laEnableIPFilter>Povolit filtr IP adresy</laEnableIPFilter>
+			<laIPFilterType>Typ filtru IP adresy</laIPFilterType>
+			<optAllow>Povoleno</optAllow>
+			<optDeny>Zakázáno</optDeny>
+			<laAddIPAddress>Přidat IP adresu</laAddIPAddress>
+			<laModifyIPAddress>Upravit IP adresu</laModifyIPAddress>
+		</Page>
+		<Js>
+		</Js>
+	</IPFilter>
+</Security>

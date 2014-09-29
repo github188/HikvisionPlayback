@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<VideoAudio>
+	<Common>
+		<Page>
+			<aVideo tag="a;" length="9999">Video</aVideo>
+			<aAudio tag="a;" length="9999">Audio</aAudio>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<Video>
+		<Page>
+			<DVR>
+				<laSpanTitle>Nastavení videa</laSpanTitle>
+				<laSaving>Ukládání…</laSaving>
+				<laEffectParam>Typ video vstupu</laEffectParam>
+			</DVR>
+			<laInputResolution tag="label;" length="150">Přední-konc. rozlišení</laInputResolution>
+			<StreamTypeInOpt1 tag="option;" length="198">Hl. stream (normál.)</StreamTypeInOpt1>
+			<StreamTypeInOpt2 tag="option;" length="198">Sub Stream</StreamTypeInOpt2>
+			<StreamTypeInOpt3>Hl. stream (událost)</StreamTypeInOpt3>
+			<laUseEventPram>Povolit parametry události</laUseEventPram>
+			<StreamTypeOpt1 tag="option;" length="198">Video stream</StreamTypeOpt1>
+			<StreamTypeOpt2 tag="option;" length="198">Video a audio</StreamTypeOpt2>
+			<laVideoQualityControlType tag="label;" length="150">Typ dat. toku</laVideoQualityControlType>
+			<videoQualityControlTypeOpt1 tag="option;" length="198">Proměnná</videoQualityControlTypeOpt1>
+			<videoQualityControlTypeOpt2 tag="option;" length="198">Konstantní</videoQualityControlTypeOpt2>
+			<lafixedQuality tag="label;" length="150">Kvalita videa</lafixedQuality>
+			<fixedQualityOpt1 tag="option;" length="198">Nejvyšší</fixedQualityOpt1>
+			<fixedQualityOpt2 tag="option;" length="198">Vyšší</fixedQualityOpt2>
+			<fixedQualityOpt3 tag="option;" length="198">Střední</fixedQualityOpt3>
+			<fixedQualityOpt4 tag="option;" length="198">Nízký</fixedQualityOpt4>
+			<fixedQualityOpt5 tag="option;" length="198">Nižší</fixedQualityOpt5>
+			<fixedQualityOpt6 tag="option;" length="198">Nejnižší</fixedQualityOpt6>
+			<laVideoFrameRate tag="label;" length="150">Frekvence snímků</laVideoFrameRate>
+			<maxFrameRateOpt1>Plná frekvence snímků</maxFrameRateOpt1>
+			<laconstantBitRate tag="label;" length="150">Max. dat. tok</laconstantBitRate>
+			<laVideoCodeType tag="label;" length="150">Kódování videa</laVideoCodeType>
+			<laIntervalBPFrame tag="label;" length="150">Typ snímku</laIntervalBPFrame>
+			<laCodecComplexity tag="label;" length="150">Profil</laCodecComplexity>
+			<optionQuality1>Základní profil</optionQuality1>
+			<optionQuality2>Hlavní profil</optionQuality2>
+			<optionQuality3>Vysoký profil</optionQuality3>
+			<trVideoType>Typ videa</trVideoType>
+			<laEnableEventParam>Povolit parametry komprese události</laEnableEventParam>
+		</Page>
+		<Js>
+			<jsCustonBitRate>Uživ. přen. rychlost</jsCustonBitRate>
+		</Js>
+		<General>
+			<laIntervalFrameI tag="label;" length="150">Interval I snímku</laIntervalFrameI>
+			<laMulticast tag="label;" length="150">Adresa multicastu</laMulticast>
+		</General>
+	</Video>
+	<Audio>
+		<Page>
+			<laAudioEncoding tag="label;" length="150">Kódování audia</laAudioEncoding>
+			<laAudioInput tag="label;" length="150">Audio vstup</laAudioInput>
+			<laAudioVolume>Hlasit.</laAudioVolume>
+		</Page>
+		<Js>
+		</Js>
+	</Audio>
+</VideoAudio>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Prehrávanie</title>
+		<SlowlyForward>Spomalené prehrávanie vpred</SlowlyForward>
+		<FastForward>Zrýchlené prehrávanie</FastForward>
+		<SingleFrame>Jeden snímok</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Stav</laCurrentSpeed>
+		<laGotoTime>Prejsť</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Nastaviť čas prehrávania</laPlaybackTimeLocalizer>
+		<imgGotoTime>Prehrávanie podľa časovej osi</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Príkaz</RecordType1>
+		<RecordType2 tag="label;" length="704">Plánovač</RecordType2>
+		<RecordType3 tag="label;" length="704">Alarm</RecordType3>
+		<RecordType4 tag="label;" length="704">Manuálny</RecordType4>
+		<PictureDownload tag="input;" length="32">Stiahnuť obrázky</PictureDownload>
+		<RecordDownload tag="input;" length="32">Stiahnuť záznam</RecordDownload>
+		<DVR>
+			<stopAll>Zastav prehrávanie všetkých kanálov</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Pozastavenie prehrávania zlyhalo.</pausefailed>
+		<resumefailed>Obnovenie prehrávania zlyhalo.</resumefailed>
+		<stoprecord>Zastaviť orezávanie</stoprecord>
+		<startRecord>Spustiť orezávanie</startRecord>
+		<stoprecordfailed>Zlyhalo zastavenie orezávania.</stoprecordfailed>
+		<startplayfailed>Prehrávanie zlyhalo.</startplayfailed>
+		<stopplayfailed>Zastavenie prehrávania zlyhalo.</stopplayfailed>
+		<jssingleframe>Prehrávanie po símkoch</jssingleframe>
+		<jssingleframefailed>Prehrávanie po snímkoch zlyhalo.</jssingleframefailed>
+		<stopCurrentWndPlay>Najskôr zastavte prehrávanie v danom okne.</stopCurrentWndPlay>
+		<szTips1>Vyhľadávanie súborov videa zlyhalo.</szTips1>
+		<szTips3>Žiadny súbor záznamu</szTips3>
+		<jsSearchFile>Najskôr spustite vyhľadávanie ...</jsSearchFile>
+		<jsSpeed>Rýchlosť</jsSpeed>
+		<jsPauseAlready>Pozastavené</jsPauseAlready>
+		<jsPause>Pauza</jsPause>
+		<jsResume>Obnoviť</jsResume>
+		<jsPlayBackError>Počas prehrávania sa vyskytla chyba.</jsPlayBackError>
+		<jsRecordError>Vytvorenie klipu zlyhalo.</jsRecordError>
+		<jsPlaybackStop> Prehrávanie je ukončené.</jsPlaybackStop>
+		<jsPlayStopAbnormal> Prehrávanie skončilo s chybou.</jsPlayStopAbnormal>
+		<jsDownload>Najskôr vyhľadajte súbor, ktorý chcete prevziať.</jsDownload>
+		<jsNotSupportDown>Zariadenie nepodporuje preberanie dát.</jsNotSupportDown>
+		<jsDownloadWnd>Okno preberania je otvorené.</jsDownloadWnd>
+		<jsClipSucc>Klip bol úspešne vytvorený.</jsClipSucc>
+		<jsZoomIn>Zoom +</jsZoomIn>
+		<jsZoomOut>Zoom -</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Vyberte požadovaný kanál.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Prehraj</gePlay>
+	</General>
+</Playback>

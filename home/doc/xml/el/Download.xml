@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>Λήψη αρχείου</title>
+		<picturetitle>Λήψη εικόνας</picturetitle>
+		<laFileName tag="label;" length="140">Όνομα αρχείου</laFileName>
+		<laFileSize tag="label;" length="90">Μέγεθος αρχείου</laFileSize>
+		<laPictureData tag="label;" length="90">Ημερομηνία αρχείου</laPictureData>
+		<laDownloadProcess tag="label;" length="90">Πρόοδος</laDownloadProcess>
+		<PictureType1>Χρονισμός</PictureType1>
+		<PictureType2>Συναγερμός</PictureType2>
+		<PictureType3>Κίνηση</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>Ελήφθη</Downloaded>
+		<jsNoPictureTip>Κανένα αρχείο εικόνας.</jsNoPictureTip>
+		<jsSearchPicFailed>αποτυχια αναζτ εικνς</jsSearchPicFailed>
+		<jsDownloadFailed>Ανεπιτυχής λήψη.</jsDownloadFailed>
+		<jsTips1>Να διακοπεί η λήψη;</jsTips1>
+		<jsTips2>Επιλέξτε φάκελο για λήψη.</jsTips2>
+	</Js>
+</Download>

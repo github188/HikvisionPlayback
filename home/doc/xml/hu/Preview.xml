@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Előkép</title>
+		<voiceTalk>Félduplex audio be</voiceTalk>
+		<StopvoiceTalk>Hangosbeszélő leállítása</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Kétirányú hangcsatorna</laTalkNum>
+		<laLight>Fény</laLight>
+		<laWiper>Ablaktörlő</laWiper>
+		<laOneKeyFocus>Gyors fókusz</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Videó paraméterek</laVideoEffect>
+		<Patrol>Őrjárat</Patrol>
+		<laTrack>Útvonal</laTrack>
+		<laPatrolTime tag="label;" length="75">Őrjárati idő</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Őrjárat sebessége</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Új őrjárat útvonal</laAddPatrolPath>
+		<raVideoParamMode1>Standard</raVideoParamMode1>
+		<raVideoParamMode2>Beltér</raVideoParamMode2>
+		<raVideoParamMode3>Kültér</raVideoParamMode3>
+		<raVideoParamMode4>Sötét</raVideoParamMode4>
+		<laNoiseReduce>Zajmentesítés</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Élőkép vége</stoppreview>
+		<recordfailed>A rögzítés sikertelen.</recordfailed>
+		<stoprecord>Felvétel vége</stoprecord>
+		<jsSetVideoParam>A videóparaméterek beállítása sikertelen</jsSetVideoParam>
+		<jsNetError>Sikertelen művelet, vagy nincs jogosultsága.</jsNetError>
+		<VoiceTalkFailed>Kétirányú hang hiba</VoiceTalkFailed>
+		<ChooseTalkChan>Válasszon hangcsatornát</ChooseTalkChan>
+		<jsRecordSucc>A felvétel sikerült.</jsRecordSucc>
+		<jsRecordAllSucc>Minden felvétel sikerült.</jsRecordAllSucc>
+		<Start>Indul</Start>
+		<StartSave>Felvétel indul</StartSave>
+		<StopSave>Felvétel leáll</StopSave>
+		<Start3DZoom>3D Zoom indítása</Start3DZoom>
+		<Stop3DZoom>3D Zoom leállítása</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Minden élő nézet vége</geStopAllViewing>
+	</General>
+</Preview>

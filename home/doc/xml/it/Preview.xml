@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Vista Live</title>
+		<voiceTalk>Avvio audio bidirezionale</voiceTalk>
+		<StopvoiceTalk>Arresta voice talk</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Canale audio bidir.</laTalkNum>
+		<laLight>Luci</laLight>
+		<laWiper>Tergilente</laWiper>
+		<laOneKeyFocus>Fuoco one-touch</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Parametri video</laVideoEffect>
+		<Patrol>Ronda</Patrol>
+		<laTrack>Percorso</laTrack>
+		<laPatrolTime tag="label;" length="75">Tempo ronda</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Velocità ronda</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Aggiungi percorso ronda</laAddPatrolPath>
+		<raVideoParamMode1>Standard</raVideoParamMode1>
+		<raVideoParamMode2>Interno</raVideoParamMode2>
+		<raVideoParamMode3>Esterno</raVideoParamMode3>
+		<raVideoParamMode4>Luce Dim</raVideoParamMode4>
+		<laNoiseReduce>deNoising</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Arresto vista live</stoppreview>
+		<recordfailed>Registrazione fallita.</recordfailed>
+		<stoprecord>Arresto rec</stoprecord>
+		<jsSetVideoParam>Impossibile impostare i parametri video.</jsSetVideoParam>
+		<jsNetError>Operazione fallita o nessun permesso.</jsNetError>
+		<VoiceTalkFailed>Utilizzo audio bidirezionale fallito.</VoiceTalkFailed>
+		<ChooseTalkChan>Selezionare un canale voce.</ChooseTalkChan>
+		<jsRecordSucc>Registrazione avvenuta.</jsRecordSucc>
+		<jsRecordAllSucc>Tutte le registrazioni riuscite.</jsRecordAllSucc>
+		<Start>Avvio</Start>
+		<StartSave>Avvio registrazione</StartSave>
+		<StopSave>Arresto registrazione</StopSave>
+		<Start3DZoom>Inizio zoom 3D</Start3DZoom>
+		<Stop3DZoom>Fine zoom 3D</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Arresta tutto il live</geStopAllViewing>
+	</General>
+</Preview>

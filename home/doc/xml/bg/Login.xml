@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">Потреб. Име</lausername>
+		<lapassword tag="label;" length="70">Парола</lapassword>
+		<lalogin tag="label;" length="70">Вход</lalogin>
+		<laAnonymous>Анонимен</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>Моля, въведете потреб. име.</LoginTips1>
+		<LoginTips2>Потреб. име трябва да е под 16 символа.</LoginTips2>
+		<LoginTips3>Паролата трябва да е по-къса от 16 символа.</LoginTips3>
+		<LoginTips4>Грешно потреб. име или парола. Моля въведете отново.</LoginTips4>
+		<LoginTips5>Моля въведете парола</LoginTips5>
+		<NetworkErrorTips>Проблем с мрежата</NetworkErrorTips>
+		<ConnectTimeoutTips>Изчакване на връзката</ConnectTimeoutTips>
+		<CookieTips>Моля първо активирайте cookie на браузера.</CookieTips>
+	</Js>
+</Login>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">Harmonogram nagrywania</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Zarządzanie pamięcią masową</aHardDisk>
+			<laAdvancedRecordCfg>Zaawansowane</laAdvancedRecordCfg>
+			<laExtractFrame>Zrzut ramki</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">Nr dysku</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Nie można dwukrotnie dodać tego samego dysku sieciowego.</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Ścieżka dostępu</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Zaawansowane</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Włącz harmonogram zapisu</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Włącz plan przechwytywania</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Prealarm</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Brak prealarmu</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5 s</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10 s</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15 s</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20 s</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25 s</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30 s</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Bez ograniczenia</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Postalarm</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1min</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2 min</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5 min</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10 min</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Nagrywanie nadmiarowe</laRedundancyRec>
+			<laRecordOverWrite>Nadpisz</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Nie</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Tak</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Nagrywanie audio</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Zmień harmonogram nagrywania</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Czas utraty ważności</geRecorderDuration>
+			<EndTimeRangeTips>Koniec nie może przekraczać 24:00.</EndTimeRangeTips>
+			<AdvancedTips>Zaawansowane</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>Zarządzanie dyskami</laSpanTitle>
+				<laHardDiskNo>Nr dysku</laHardDiskNo>
+				<laDiskProperty>Właściwości</laDiskProperty>
+				<laDiskGroup>Grupa dysków</laDiskGroup>
+				<laDiskInit>Uruchomienie dysku</laDiskInit>
+				<laInitState>Stan pierwotny</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">Lista dysków</laDiskTitle>
+			<laCapacity tag="label;" length="100">Pojemność</laCapacity>
+			<laFreeSpace tag="label;" length="100">Wolne miejsce</laFreeSpace>
+			<formatDisk tag="input;" length="74">Formatuj</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>Nie można edytować właściwości dysku w bieżącym trybie pamięci masowej.</tipsNotSupportEdit>
+				<tipsFormatRo>Uruchomienie się nie powiodło. Nie można wybrać dysku (dysków) w trybie tylko do odczytu.</tipsFormatRo>
+				<tipsDisk>Dysk</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Nieuruchomiony</tipsUnformatted>
+			<tipsError>Błąd</tipsError>
+			<tipsIdle>Uśpiony</tipsIdle>
+			<tipsMismatch>Rozbieżny</tipsMismatch>
+			<tipsFormatting>Formatowanie</tipsFormatting>
+			<tipsNotexist>Nie istnieje</tipsNotexist>
+			<tipsFormatSelect>Sformatować dysk?</tipsFormatSelect>
+			<tipsFormatAll>Zakończono formatowanie dysku.</tipsFormatAll>
+			<tipsFormatFailed>Uruchomienie dysku się nie powiodło.</tipsFormatFailed>
+			<tipsFormattingWait>Formatowanie... proszę czekać...</tipsFormattingWait>
+			<tipsSelectDisk>Wybierz dysk do sformatowania.</tipsSelectDisk>
+			<tipsStorageMode>Ustawienia trybów pamięci masowej</tipsStorageMode>
+			<tipsArray>Dysk wirtualny</tipsArray>
+			<jsComplete>Zakończono.</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>Odczyt-zapis</tipsRW>
+			<tipsRO>Tylko do odczytu</tipsRO>
+			<tipsRedund>Nadmiarowość</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>Dysk sieciowy</laSpanTitle>
+				<Property1Opt1>Odczyt-zapis</Property1Opt1>
+				<Property1Opt2>Tylko do odczytu</Property1Opt2>
+				<Property1Opt3>Nadmiarowość</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Ustaw dysk</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

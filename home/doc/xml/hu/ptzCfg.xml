@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<PTZCfg>
+	<Common>
+		<Page>
+			<aPtzBasic tag="a;" length="9999">Alap</aPtzBasic>
+			<aPtzLimit tag="a;" length="9999">Limit</aPtzLimit>
+			<aPtzHomePos tag="a;" length="9999">Kezdő pozíció</aPtzHomePos>
+			<aPtzParkAction tag="a;" length="9999">Parkolási művelet</aPtzParkAction>
+			<aPtzPrivacyMask tag="a;" length="9999">Privát maszk</aPtzPrivacyMask>
+			<aPtzTimeTasks tag="a;" length="9999">Ütemezett feladat</aPtzTimeTasks>
+			<aPtzClearCfg tag="a;" length="9999">Konfiguráció törlése</aPtzClearCfg>
+			<btnGoto tag="input;" length="80">Ugrás</btnGoto>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<autoScan tag="option;" length="200">Automatikus keresés</autoScan>
+			<frameScan tag="option;" length="200">Kép keresés</frameScan>
+			<randomScan tag="option;" length="200">Véletlenszerű keresés</randomScan>
+			<patrolScan tag="option;" length="200">Őrjárat</patrolScan>
+			<panoramaScan tag="option;" length="200">Panoráma keresés</panoramaScan>
+			<tiltScan>Fel-le keresés</tiltScan>
+			<periodReboot>Dóm újraindítás</periodReboot>
+			<periodAdjust>Dóm beállítás</periodAdjust>
+			<auxOutput>Aux kimenet</auxOutput>
+			<autoTrack>Automatikus követés</autoTrack>
+		</General>
+	</Common>
+	<PtzBasic>
+		<Page>
+			<laPtzBasic tag="label;">Alap paraméter</laPtzBasic>
+			<laProportionZoom tag="label;">Arányos pásztázófelvétel engedélyezése</laProportionZoom>
+			<laImageFreeze tag="label;">Az alapbeállítás lefagyásának engedélyezése</laImageFreeze>
+			<laPresetSpeed tag="label;" length="150">Előre beállított sebesség</laPresetSpeed>
+			<laControlSpeed tag="label;" length="150">Billentyűzet vezérlési sebesség</laControlSpeed>
+			<laAutoScanSpeed tag="label;" length="150">Auto keresési sebesség</laAutoScanSpeed>
+			<laPtzOSDDis tag="label;">PTZ OSD</laPtzOSDDis>
+			<laZoomLabel tag="label;" length="150">Zoom állapot</laZoomLabel>
+			<laAzimuth tag="label;" length="150">PT állapot</laAzimuth>
+			<laPresetLable tag="label;" length="150">Előre beállított állapot</laPresetLable>
+			<speedLevelOpt1 tag="option;" length="200">2 mp</speedLevelOpt1>
+			<speedLevelOpt2 tag="option;" length="200">5 mp</speedLevelOpt2>
+			<speedLevelOpt3 tag="option;" length="200">10 mp</speedLevelOpt3>
+			<speedLevelOpt4 tag="option;" length="200">Mindig zárva</speedLevelOpt4>
+			<speedLevelOpt5 tag="option;" length="200">Mindig nyitva</speedLevelOpt5>
+			<laSavePowerOff tag="label;">Kikapcsolási memória</laSavePowerOff>
+			<laSavePowerType tag="label;" length="150">Állítsa be a telepítés időpontját</laSavePowerType>
+			<savePowerTypeOpt2 tag="option;" length="200">30 mp</savePowerTypeOpt2>
+			<savePowerTypeOpt3 tag="option;" length="200">60 mp</savePowerTypeOpt3>
+			<savePowerTypeOpt4 tag="option;" length="200">300 mp</savePowerTypeOpt4>
+			<savePowerTypeOpt5 tag="option;" length="200">600 mp</savePowerTypeOpt5>
+		</Page>
+		<Js>
+		</Js>
+	</PtzBasic>
+	<PtzLimiteds>
+		<Page>
+			<laEnableLimit tag="label;" length="134">Limit engedélyezése</laEnableLimit>
+			<laLimitType tag="label;" length="150">Limit típus</laLimitType>
+			<limitTypeOpt1 tag="option;" length="198">Kézi megállítás</limitTypeOpt1>
+			<limitTypeOpt2 tag="option;" length="198">Keresés megállítása</limitTypeOpt2>
+			<laLimitStatus tag="label;" length="150">Típus állapota</laLimitStatus>
+		</Page>
+		<Js>
+			<jsLimited>Korlátozott</jsLimited>
+			<jsNoLimited>Korlátlan</jsNoLimited>
+		</Js>
+	</PtzLimiteds>
+	<ParkAction>
+		<Page>
+			<laEnabledPark tag="label;">Parkolási művelet engedélyezése</laEnabledPark>
+			<laParkTime tag="label;" length="150">Parkolási idő</laParkTime>
+			<laActionType tag="label;" length="150">Művelet típus</laActionType>
+			<laActionNum tag="label;" length="150">Művelet típus ID</laActionNum>
+		</Page>
+		<Js>
+		</Js>
+	</ParkAction>
+	<PrivacyMask>
+		<Page>
+			<laEnablePrivacyMask tag="label;">Privát maszk engedélyezése</laEnablePrivacyMask>
+			<laPrivacyMaskList tag="label;">Privát maszk listája</laPrivacyMaskList>
+			<laPrivacyMaskTitle tag="label;" length="246">Név</laPrivacyMaskTitle>
+			<gray tag="option;">Szürke</gray>
+			<red tag="option;">piros</red>
+			<green tag="option;">Zöld</green>
+			<blue tag="option;">Kék</blue>
+			<orange tag="option;">narancs</orange>
+			<yellow tag="option;">sárga</yellow>
+			<mosaic tag="option;">mozaik</mosaic>
+		</Page>
+		<Js>
+			<tipsSelectPrimary>Kattintson e bizalmassági maszk hívásához</tipsSelectPrimary>
+		</Js>
+	</PrivacyMask>
+	<TimeTasks>
+		<Page>
+			<laEnabledTimeTasks tag="label;">Ütemezett feladatok engedélyezése</laEnabledTimeTasks>
+			<laTimeTask tag="label;" length="150">Parkolási idő</laTimeTask>
+			<laTimingTasks tag="label;" length="150">Feladatok szinkronizálása</laTimingTasks>
+			<btnEditingTasks tag="input;" length="80">Feladatok szerkesztése</btnEditingTasks>
+			<laTaskCaption tag="label;">Figyelem: piros és zöld színek különböztetik meg a szomszédos feladatokat.</laTaskCaption>
+			<trTaskType>Feladat típus</trTaskType>
+			<trTaskNum>Feladat típus ID</trTaskNum>
+		</Page>
+		<Js>
+		</Js>
+	</TimeTasks>
+	<ClearCfg>
+		<Page>
+			<laAllPreset tag="label;" length="654">Minden előző beállítás törlése</laAllPreset>
+			<laAllPatrol tag="label;" length="654">Minden őrjárat törlése</laAllPatrol>
+			<laAllPattern tag="label;" length="654">Minden minta törlése</laAllPattern>
+			<laAllMasks tag="label;" length="654">Minden Privát maszk törlése</laAllMasks>
+			<laAllLimit tag="label;" length="654">Minden PTZ limit törlése</laAllLimit>
+			<laAllTasks tag="label;" length="654">Minden ütemezett feladat törlése</laAllTasks>
+			<laAllPark>Minden park. műveletet töröl</laAllPark>
+		</Page>
+		<Js>
+		</Js>
+	</ClearCfg>
+</PTZCfg>

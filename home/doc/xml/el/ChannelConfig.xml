@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelConfig>
+	<AnalogChan>
+		<Page>
+			<laSpanTitle>Αναλογική κάμερα</laSpanTitle>
+		</Page>
+		<Js>
+		</Js>
+	</AnalogChan>
+	<DigitalChan>
+		<Page>
+			<laSpanTitle>Κάμερα IP</laSpanTitle>
+			<laIpChanAddress>Διεύθ. κάμ. IP</laIpChanAddress>
+			<laDevicePort>Θύρα διαχ.</laDevicePort>
+			<laProtocol>Πρωτόκολλο</laProtocol>
+			<laIpChanNum>Αριθμός κάμερας IP</laIpChanNum>
+			<laRegModeType>Λειτ. καταχώρ.</laRegModeType>
+			<RegModeTypeOpt>Όνομα τομέα</RegModeTypeOpt>
+			<laQuickAdd>Γρήγ. προσθ.</laQuickAdd>
+			<laMaskAddress>Μάσκα υποδ</laMaskAddress>
+			<laSerialNo>Αριθμός σειράς</laSerialNo>
+			<laFirmware>Έκδ. υλικολογ.</laFirmware>
+			<laDeviceChan>Αρ. καναλιού</laDeviceChan>
+		</Page>
+		<Js>
+			<HostNameTips>Τομέας</HostNameTips>
+			<OnLineTips>Online</OnLineTips>
+			<DeleteIpcTips>Να διαγραφούν οι πληροφορίες καναλιού IP;</DeleteIpcTips>
+			<DeleteErrorTips>Ανεπιτυχής διαγραφή.</DeleteErrorTips>
+			<NoOperationTips>Κανένα δικαίωμα.</NoOperationTips>
+			<InputIpTips>Εισαγάγετε τη διεύθυνση IP.</InputIpTips>
+			<InputRightIpTips>Εισαγάγετε τη σωστή διεύθυνση IP.</InputRightIpTips>
+			<InputErrorIpTips>Εσφαλμένη διεύθυνση IP. Καταχωρίστε την ξανά.</InputErrorIpTips>
+			<IpChanExistTips>Αυτή η κάμερα IP υπάρχει ήδη.</IpChanExistTips>
+			<ChannelsAddTips> μπορούν να προσθεθούν κανάλια, επιλέξτε ξανά</ChannelsAddTips>
+			<ChannelExistTips> Το κανάλι 1 υπάρχει.</ChannelExistTips>
+		</Js>
+		<General>
+			<geAdminPassword>Κωδ. διαχειρ.</geAdminPassword>
+		</General>
+	</DigitalChan>
+	<ZeroChan>
+		<Page>
+			<laSpanTitle>Ρυθμίσεις καναλιού μηδέν</laSpanTitle>
+			<laZeroChanEncode>Κωδ. καν. μηδέν</laZeroChanEncode>
+			<laconstantBitRate>Μέγ. ρυθμ. μετ. bit</laconstantBitRate>
+			<laVideoFramerate>Μέγ. αρ. καρέ</laVideoFramerate>
+			<laSplitMode>Κατάστ</laSplitMode>
+		    <laSplitTime>Χρόνος Εναλλαγής</laSplitTime>
+		    <laTimeMode1>Απενεργοποίηση Switching</laTimeMode1>
+		    <laChanOrder>Σειρά Καμερών</laChanOrder>
+			<defaultOrder>Default</defaultOrder>
+		</Page>
+		<Js>
+		</Js>
+	</ZeroChan>
+</ChannelConfig>

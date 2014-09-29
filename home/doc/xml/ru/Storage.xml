@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">расписание записи</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">Управление хранением</aHardDisk>
+			<laAdvancedRecordCfg>Дополнительные установки</laAdvancedRecordCfg>
+			<laExtractFrame>Извлечение кадров</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">№ HDD</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>Один NetHDD не может быть добавлен дважды</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">Путь к файлу</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>Допол уст</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">Активация расписания записи</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">Вкл. План захвата изображений</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">Предзапись</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">Нет предзаписи</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5с</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10с</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15с</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20с</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25с</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30с</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">Без ограничения</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">Послезапись</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1 мин</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2 мин</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5 мин</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10 мин</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">Зеркальная запись</laRedundancyRec>
+			<laRecordOverWrite>Overwrite</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">Нет</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">Да</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">Запись аудио</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">Редактировать расписание записи</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">Время просроченных записей</geRecorderDuration>
+			<EndTimeRangeTips>Время окончания не может превышать 24:00</EndTimeRangeTips>
+			<AdvancedTips>Дополнительные установки</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>Жесткий диск</laSpanTitle>
+				<laHardDiskNo>№ HDD</laHardDiskNo>
+				<laDiskProperty>Свойство</laDiskProperty>
+				<laDiskGroup>Группа дисков</laDiskGroup>
+				<laDiskInit>Инициализация HDD</laDiskInit>
+				<laInitState>Статус инициализации</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">Список устройств HDD</laDiskTitle>
+			<laCapacity tag="label;" length="100">Емкость</laCapacity>
+			<laFreeSpace tag="label;" length="100">Свободное место</laFreeSpace>
+			<formatDisk tag="input;" length="74">Формат.</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>Свойства диска не редактируются в текущем режиме хранения.</tipsNotSupportEdit>
+				<tipsFormatRo>Ошибка инициализации. Невозможно выбрать HDD только для чтения.</tipsFormatRo>
+				<tipsDisk>Диск</tipsDisk>
+			</DVR>
+			<tipsUnformatted>Неинициализированные</tipsUnformatted>
+			<tipsError>Ошибка</tipsError>
+			<tipsIdle>Бездействие</tipsIdle>
+			<tipsMismatch>Несовпадение </tipsMismatch>
+			<tipsFormatting>Форматирование</tipsFormatting>
+			<tipsNotexist>Not Exist</tipsNotexist>
+			<tipsFormatSelect>Отформатировать жесткий диск?</tipsFormatSelect>
+			<tipsFormatAll>Форматирование HDD завершено.</tipsFormatAll>
+			<tipsFormatFailed>Ошибка инициализации HDD</tipsFormatFailed>
+			<tipsFormattingWait>Formatting…please wait…</tipsFormattingWait>
+			<tipsSelectDisk>Пожылуйста, выберите HDD для форматирования</tipsSelectDisk>
+			<tipsStorageMode>Параметры режима хранения</tipsStorageMode>
+			<tipsArray>Виртуальный диск</tipsArray>
+			<jsComplete>Завершено</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>Чтение/Запись</tipsRW>
+			<tipsRO>Только чтение</tipsRO>
+			<tipsRedund>Зеркальная запись</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>Сетевой HDD</laSpanTitle>
+				<Property1Opt1>Чтение/Запись</Property1Opt1>
+				<Property1Opt2>Только чтение</Property1Opt2>
+				<Property1Opt3>Зеркальная запись</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>Настройки диска</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

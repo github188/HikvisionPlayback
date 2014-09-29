@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Aufz.-Dateigröße</lapackSize>
+		<lanetsPreach tag="label;" length="150">Live-Ans.-Leistung</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Speichern unter</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Live-Schnappsch. sichern unter</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Clips sp. unter</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Schnappsch. sp. bei Wdgb. zu</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Download-Dat. sp. als</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Echtzeit</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Ausgewogen</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Opt. Fluss</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Aufz.-Dateieinst.</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Bild/Beschn.-Einst.</laCaptureClipParams>
+		<trFullFill>Vollst. Füllung</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

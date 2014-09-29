@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Playback</title>
+		<SlowlyForward>Avanti lento</SlowlyForward>
+		<FastForward>Avanti veloce</FastForward>
+		<SingleFrame>Frame singolo</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Stato</laCurrentSpeed>
+		<laGotoTime>Vai</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Imposta ora playback</laPlaybackTimeLocalizer>
+		<imgGotoTime>Playback su barra temporale</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Comando</RecordType1>
+		<RecordType2 tag="label;" length="704">Calendario</RecordType2>
+		<RecordType3 tag="label;" length="704">Allarme</RecordType3>
+		<RecordType4 tag="label;" length="704">Manuale</RecordType4>
+		<PictureDownload tag="input;" length="32">Scarica immagini</PictureDownload>
+		<RecordDownload tag="input;" length="32">Scarica registrazioni</RecordDownload>
+		<DVR>
+			<stopAll>Arresta tutto il playback</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Impossibile mettere in pausa il playback.</pausefailed>
+		<resumefailed>Ripristino playback fallito.</resumefailed>
+		<stoprecord>Arresta videoclip</stoprecord>
+		<startRecord>Avvio videoclip</startRecord>
+		<stoprecordfailed>Impossibile interrompere la clip</stoprecordfailed>
+		<startplayfailed>Playback fallito.</startplayfailed>
+		<stopplayfailed>Impossibile arrestare il playback</stopplayfailed>
+		<jssingleframe>Playback per frame</jssingleframe>
+		<jssingleframefailed>Playback per frame fallito.</jssingleframefailed>
+		<stopCurrentWndPlay>Arrestare il playback della finestra corrente prima di procedere.</stopCurrentWndPlay>
+		<szTips1>Ricerca file video fallita.</szTips1>
+		<szTips3>Nessun file video.</szTips3>
+		<jsSearchFile>Cercare prima il file.</jsSearchFile>
+		<jsSpeed>Velocità</jsSpeed>
+		<jsPauseAlready>In Pausa</jsPauseAlready>
+		<jsPause>Pausa</jsPause>
+		<jsResume>Ripristina</jsResume>
+		<jsPlayBackError>Playback anomalo.</jsPlayBackError>
+		<jsRecordError>Impossibile creare il la videoclip.</jsRecordError>
+		<jsPlaybackStop> Playback completato.</jsPlaybackStop>
+		<jsPlayStopAbnormal> playback interrotto in modo anomalo.</jsPlayStopAbnormal>
+		<jsDownload>Cercare il file da scaricare.</jsDownload>
+		<jsNotSupportDown>Il dispositivo non supporta il download.</jsNotSupportDown>
+		<jsDownloadWnd>La finestra di download è aperta.</jsDownloadWnd>
+		<jsClipSucc>Creazione videoclip avvenuta correttamente.</jsClipSucc>
+		<jsZoomIn>Zoom In</jsZoomIn>
+		<jsZoomOut>Zoom Out</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Selezionare un canale.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Play</gePlay>
+	</General>
+</Playback>

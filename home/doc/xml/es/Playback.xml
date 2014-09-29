@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Reprod.</title>
+		<SlowlyForward>Avance lento</SlowlyForward>
+		<FastForward>Avance rápido</FastForward>
+		<SingleFrame>Cuadro único</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Estado</laCurrentSpeed>
+		<laGotoTime>Ir</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Ajustar hora reproducción</laPlaybackTimeLocalizer>
+		<imgGotoTime>Reproducción por barra de Tiempo</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Comando</RecordType1>
+		<RecordType2 tag="label;" length="704">Programación</RecordType2>
+		<RecordType3 tag="label;" length="704">Alarma</RecordType3>
+		<RecordType4 tag="label;" length="704">Manual</RecordType4>
+		<PictureDownload tag="input;" length="32">Descargar imágenes</PictureDownload>
+		<RecordDownload tag="input;" length="32">Descargar grabaciones</RecordDownload>
+		<DVR>
+			<stopAll>Parar todas las reproducciones</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Fallo pausa de reproducción</pausefailed>
+		<resumefailed>Falló restauración reproducción</resumefailed>
+		<stoprecord>Parar vídeo</stoprecord>
+		<startRecord>Inicio de grabación</startRecord>
+		<stoprecordfailed>Error al parar el video.</stoprecordfailed>
+		<startplayfailed>Reproducción fallida.</startplayfailed>
+		<stopplayfailed>Fallo al parar reproducción</stopplayfailed>
+		<jssingleframe>Reproducir por cuadro</jssingleframe>
+		<jssingleframefailed>Reproducción por cuadro falló.</jssingleframefailed>
+		<stopCurrentWndPlay>Parar la reproducción en la ventana actual antes de continuar</stopCurrentWndPlay>
+		<szTips1>Fallo al buscar ficheros de video.</szTips1>
+		<szTips3>No hay ficheros grabados</szTips3>
+		<jsSearchFile>Buscar primero el fichero.</jsSearchFile>
+		<jsSpeed>Veloc.</jsSpeed>
+		<jsPauseAlready>Pausa</jsPauseAlready>
+		<jsPause>Pausa</jsPause>
+		<jsResume>Restaurar</jsResume>
+		<jsPlayBackError>Reproducción anormal.</jsPlayBackError>
+		<jsRecordError>Fallo de video.</jsRecordError>
+		<jsPlaybackStop> Reproducción finalizada</jsPlaybackStop>
+		<jsPlayStopAbnormal> Reproducción finalizada anormal</jsPlayStopAbnormal>
+		<jsDownload>Buscar el fichero para descargar</jsDownload>
+		<jsNotSupportDown>El dispositivo no soporta la descarga</jsNotSupportDown>
+		<jsDownloadWnd>La ventana de descarga está abierta.</jsDownloadWnd>
+		<jsClipSucc>Video conseguido.</jsClipSucc>
+		<jsZoomIn>Acercar</jsZoomIn>
+		<jsZoomOut>Alejar</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Seleccionar un canal</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Repr.</gePlay>
+	</General>
+</Playback>

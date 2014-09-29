@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">Nombre usuario</lausername>
+		<lapassword tag="label;" length="70">Contraseña</lapassword>
+		<lalogin tag="label;" length="70">Abrir sesión</lalogin>
+		<laAnonymous>Anónimo</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>Introducir nombre de usuario.</LoginTips1>
+		<LoginTips2>El nombre de usuario no puede exceder de 16 caracteres</LoginTips2>
+		<LoginTips3>La contraseña no puede contener más de 16 caracteres</LoginTips3>
+		<LoginTips4>Usuario o contraseña incorrectos. Inténtelo otra vez.</LoginTips4>
+		<LoginTips5>Por favor, introduzca la contraseña</LoginTips5>
+		<NetworkErrorTips>Red anormal</NetworkErrorTips>
+		<ConnectTimeoutTips>Tiempo espera agotado</ConnectTimeoutTips>
+		<CookieTips>Habilitar primero la cookie del navegador</CookieTips>
+	</Js>
+</Login>

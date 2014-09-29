@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">录像文件打包大小</lapackSize>
+		<lanetsPreach tag="label;" length="150">播放性能</lanetsPreach>
+		<laRecordPath tag="label;" length="150">录像文件保存路径</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">预览抓图保存路径</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">回放剪辑保存路径</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">回放抓图保存路径</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">回放下载保存路径</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">实时性好</netsPreach2>
+		<netsPreach3 tag="label;" length="134">均衡</netsPreach3>
+		<netsPreach4 tag="label;" length="134">流畅性好</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">录像文件</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">抓图和剪辑</laCaptureClipParams>
+		<trFullFill>充满</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>
+

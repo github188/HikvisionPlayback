@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<VideoSettings>
+	<Common>
+		<Page>
+			<aBaseVideoSettings tag="a;" length="9999">Scherminstellingen</aBaseVideoSettings>
+			<aOSDSettings tag="a;" length="9999">OSD-instellingen</aOSDSettings>
+			<aTextOverlay tag="a;" length="9999">Tekstoverlap</aTextOverlay>
+			<aVideoMask tag="a;" length="9999">Privacy Mask</aVideoMask>
+			<aModeCenter tag="option;" length="176">Centrum</aModeCenter>
+			<aOSDFontSizeOpt2 tag="option;" length="178">Gemiddeld</aOSDFontSizeOpt2>
+			<apicinformChannel>Selecteer camera</apicinformChannel>
+			<laVideoPreview>Live Kijken</laVideoPreview>
+			<aPictureOverlay>Beeldoverlap</aPictureOverlay>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laXpos>X-coördinaat</laXpos>
+			<laYpos>Y-coördinaat</laYpos>
+		</General>
+	</Common>
+	<BaseVideoSettings>
+		<Page>
+			<laSpanTitle>Front-end configuratieinstelling</laSpanTitle>
+			<laVideoEffect>Front-end instelling</laVideoEffect>
+			<laGain tag="label;" length="120">Gain</laGain>
+			<laShutter tag="label;" length="120">Belichtingstijd</laShutter>
+			<laFocusMode tag="label;" length="308">Focusmodus</laFocusMode>
+			<laFocusLimited tag="label;" length="308">Minimale focus</laFocusLimited>
+			<laIrisMode tag="label;" length="120">Iris modus</laIrisMode>
+			<laIrisLevel tag="label;" length="308">Iris</laIrisLevel>
+			<laPowerLine tag="label;" length="120">Videostandaard</laPowerLine>
+			<laDayNightFilter tag="label;" length="120">Dag/Nacht-schakeling</laDayNightFilter>
+			<laDayToNight tag="label;" length="120">Gevoeligheid</laDayToNight>
+			<laFilterTime tag="label;" length="120">Tijdswitch</laFilterTime>
+			<laImageFlip tag="label;" length="120">Spiegel</laImageFlip>
+			<laDSS tag="label;" length="308">Langzame sluiter</laDSS>
+			<laDSSLevel tag="label;" length="308">Langzaam sluiterniveau</laDSSLevel>
+			<laWDR tag="label;" length="120">WDR</laWDR>
+			<laWDRLevel1 tag="label;" length="308">Wide Dynamic Level 1</laWDRLevel1>
+			<laWDRLevel2 tag="label;" length="308">Wide Dynamic Level 2</laWDRLevel2>
+			<laWDRContrast tag="label;" length="308">Wide Dynamic Contrast</laWDRContrast>
+			<laBLC>BLC</laBLC>
+			<laBLCMode tag="label;" length="308">BLC-gebied</laBLCMode>
+			<laBLCLevel tag="label;" length="308">BLC-niveau</laBLCLevel>
+			<laWhiteBlance tag="label;" length="120">Witbalans</laWhiteBlance>
+			<laWhiteBlanceRed tag="label;" length="308">WB Gain Circuit R</laWhiteBlanceRed>
+			<laWhiteBlanceBlue tag="label;" length="308">WB Gain Circuit B</laWhiteBlanceBlue>
+			<laNosiseReduce tag="label;" length="308">Dig. ruisonderdr.</laNosiseReduce>
+			<laGeneralLevel tag="label;" length="308">DNR-niveau</laGeneralLevel>
+			<laInterFrameNoiseReduce tag="label;" length="308">Tijd DNR-niveau</laInterFrameNoiseReduce>
+			<laFrameNoiseReduce tag="label;" length="308">Space DNR Level</laFrameNoiseReduce>
+			<IrisFirst>Irisprioriteit</IrisFirst>
+			<ShutterFirst>Sluiterprioriteit</ShutterFirst>
+			<GainFirst>Gain-prioriteit</GainFirst>
+			<FocusModeAutoManual>Semi-automatisch</FocusModeAutoManual>
+			<IrcutFilterTypeDay tag="option;" length="176">Dag </IrcutFilterTypeDay>
+			<IrcutFilterTypeNight tag="option;" length="176">Nacht</IrcutFilterTypeNight>
+			<ImageFlipStyleLR tag="option;" length="176">Links/Rechts</ImageFlipStyleLR>
+			<ImageFlipStyleUD tag="option;" length="176">Hoog/Laag</ImageFlipStyleUD>
+			<BLCModeUp>Naar boven</BLCModeUp>
+			<BLCModeDown>Naar beneden</BLCModeDown>
+			<BLCModeLeft>Links</BLCModeLeft>
+			<BLCModeRight>Rechts</BLCModeRight>
+			<WhiteBlanceStyleAuto tag="option;" length="176">Automatisch</WhiteBlanceStyleAuto>
+			<WhiteBlanceStyle1 tag="option;" length="176">AWB1</WhiteBlanceStyle1>
+			<WhiteBlanceStyle2 tag="option;" length="176">AWB2</WhiteBlanceStyle2>
+			<WhiteBlanceStyleManual>MWB</WhiteBlanceStyleManual>
+			<AutoTracing>Auto Tracing</AutoTracing>
+			<NosiseReduceGeneral>Normale modus</NosiseReduceGeneral>
+			<NosiseReduceAdvanced>Expertmodus</NosiseReduceAdvanced>
+			<ImageResetbutton>Interne klok opnieuw starten.</ImageResetbutton>
+			<ImageRestorebutton>Herstellen</ImageRestorebutton>
+			<laScene tag="label;" length="120">Scene Mode</laScene>
+			<SceneOptionIndoor tag="option;" length="176">Binnen</SceneOptionIndoor>
+			<SceneOptionOutdoor tag="option;" length="176">Buiten</SceneOptionOutdoor>
+			<laAutoIrisLevel tag="label;" length="308">Autoirisniveau</laAutoIrisLevel>
+			<laEnableDehaze>Ontwaseming aanzetten</laEnableDehaze>
+			<laDehazeLevel>Ontwasemingniveau</laDehazeLevel>
+			<laEPTZ>E-PTZ</laEPTZ>
+			<laZoomLimit>Zoomlimiet</laZoomLimit>
+			<laEIS>EIS</laEIS>
+			<SodiumLight>Gloeilamp</SodiumLight>
+			<MercuryLight>Kwikdamplamp</MercuryLight>
+			<Onepush>1 druk</Onepush>
+			<laIRLightMode>IR-verlichtingsmodus</laIRLightMode>
+			<laIRLightBright>IR-verlichting helder</laIRLightBright>
+			<laIRLightSen>IR-lichtgevoeligheid</laIRLightSen>
+			<laExposureType>Belichtingsmodus </laExposureType>
+			<laShutterLevel>Sluiter</laShutterLevel>
+			<laEISLevel>EIS-niveau</laEISLevel>
+			<laChromaSuppress>Chroma-onderdr.</laChromaSuppress>
+			<laHLC>HLC</laHLC>
+			<laHLCLevel>HLC-niveau</laHLCLevel>
+			<laExpComp>Bel.comp.</laExpComp>
+			<laGamaCorrect>Gamma Correctie</laGamaCorrect>
+			<laSharpnessMode>Scherptemodus</laSharpnessMode>
+			<laDecodeMode>Correctiemodus</laDecodeMode>
+			<laSoftware>Software</laSoftware>
+			<laHardware>Hardware</laHardware>
+			<laEnhancement>Lichtniveau verbeteren</laEnhancement>
+			<laGrayScale>Grijswaarden</laGrayScale>
+			<Schedule>Schema</Schedule>
+			<EventTrigger>Alarmtriggering</EventTrigger>
+			<laOverExposeSuppress>Overbelichting vermijden</laOverExposeSuppress>
+			<daylightLamp>TL-lamp</daylightLamp>
+			<laTriggerMode>Status </laTriggerMode>
+			<OutdoorAuto>Auto-buiten</OutdoorAuto>
+			<SodiumLightAuto>Auto-natriumlicht</SodiumLightAuto>
+			<WarmLightLamp>Warm licht</WarmLightLamp>
+			<NaturalLight>Natuurl. licht</NaturalLight>
+			<IncandescentLamp>Incandescent Lamp</IncandescentLamp>
+			<WBLocked>Gesloten WB</WBLocked>
+		</Page>
+		<Js>
+			<jsResetimage>Mechanisme opnieuw starten?</jsResetimage>
+			<jsResetSucceed>Geslaagd! Herstart voltooid.</jsResetSucceed>
+			<jsResetFailed>Fout! Opnieuw starten van interne klok is mislukt.</jsResetFailed>
+			<jsResetWaiting>Interne klok wordt opnieuw ingesteld…</jsResetWaiting>
+			<jsRestoreimage>Standaardinstellingsmechanisme herstellen?</jsRestoreimage>
+			<jsRestoreSucceed>Herstellen van standaardinstellingen interne klok</jsRestoreSucceed>
+			<jsRestoreFailed>Herstellen van standaardinstellingen interne klok</jsRestoreFailed>
+			<jsRestoreWaiting>Interne klok is standaardinstellingen aan het herstellen …</jsRestoreWaiting>
+			<jsScheduleTimeRange>Minimuminterval tussen starttijd en eindtijd is 10 seconden.</jsScheduleTimeRange>
+		</Js>
+	</BaseVideoSettings>
+	<OSDSettings>
+		<Page>
+			<laSpanTitle>Scherminstellingen</laSpanTitle>
+			<laOSDConfig>OSD-instellingen</laOSDConfig>
+			<laIsShowChanNme tag="label;" length="120">Schermnaam</laIsShowChanNme>
+			<laIsShowOSD tag="label;" length="120">Geef datum weer</laIsShowOSD>
+			<laIsShowWeek tag="label;" length="120">Geef week weer</laIsShowWeek>
+			<laHourOSDType tag="label;" length="120">Tijdformaat</laHourOSDType>
+			<HourOSDTypeOpt1 tag="option;" length="176">12-uur</HourOSDTypeOpt1>
+			<HourOSDTypeOpt2 tag="option;" length="176">24-uur</HourOSDTypeOpt2>
+			<laOSDType tag="label;" length="120">Datumformaat</laOSDType>
+			<OSDTypeOpt1 tag="option;" length="176">JJJJ-MM-DD</OSDTypeOpt1>
+			<OSDTypeOpt2 tag="option;" length="176">MM-DD-JJJJ</OSDTypeOpt2>
+			<OSDTypeOpt3 tag="option;" length="176">JJJJ MM DD</OSDTypeOpt3>
+			<OSDTypeOpt4 tag="option;" length="176">MM DD JJJJ</OSDTypeOpt4>
+			<OSDTypeOpt5 tag="option;" length="176">DD-MM-YYYY</OSDTypeOpt5>
+			<OSDTypeOpt6 tag="option;" length="176">DD MM YYYY</OSDTypeOpt6>
+			<OSDTypeOpt7 tag="option;" length="176">MM/DD/JJJJ</OSDTypeOpt7>
+			<OSDTypeOpt8 tag="option;" length="176">JJJJ/MM/DD</OSDTypeOpt8>
+			<OSDTypeOpt9 tag="option;" length="176">DD/MM/JJJJ</OSDTypeOpt9>
+			<laChannelNameXPos>Cameranaam X-coördinaat</laChannelNameXPos>
+			<laChannelNameYPos>Cameranaam Y-coördinaat</laChannelNameYPos>
+			<laOSDAttrib tag="label;" length="120">Schermmodus</laOSDAttrib>
+			<OSDAttribOpt1 tag="option;" length="176">Transparent &amp; knipperend</OSDAttribOpt1>
+			<OSDAttribOpt2 tag="option;" length="176">Transparent &amp; niet knipperend</OSDAttribOpt2>
+			<OSDAttribOpt3 tag="option;" length="176">Niet transparant &amp; knipperend</OSDAttribOpt3>
+			<OSDAttribOpt4 tag="option;" length="176">Niet transp &amp; Niet knipper</OSDAttribOpt4>
+			<laOSDFontSize tag="label;" length="609">OSD-grootte</laOSDFontSize>
+			<OSDFontSizeOpt1 tag="option;" length="178">Klein</OSDFontSizeOpt1>
+			<OSDFontSizeOpt3 tag="option;" length="178">Groot</OSDFontSizeOpt3>
+		</Page>
+		<Js>
+			<ChannelNameXTips>Naam X-coördinaat</ChannelNameXTips>
+			<ChannelNameYTips>Naam Y-coördinaat</ChannelNameYTips>
+		</Js>
+		<General>
+			<laOSDXPos>Datum X-coördinaat</laOSDXPos>
+			<laOSDYPos>Datum Y-coördinaat</laOSDYPos>
+		</General>
+	</OSDSettings>
+	<TextOverlay>
+		<Page>
+			<laStringOverLay>Tekstoverlap instellingen</laStringOverLay>
+			<laStrContent>Tekstinhoud</laStrContent>
+		</Page>
+		<Js>
+			<CharNameLengthTips>De lengte kan niet meer dan 44 zijn.</CharNameLengthTips>
+		</Js>
+	</TextOverlay>
+	<VideoMask>
+		<Page>
+			<laUseCover tag="label;" length="308">Zet Privacy Mask aan</laUseCover>
+		</Page>
+		<Js>
+		</Js>
+	</VideoMask>
+	<PictureOverlay>
+		<Page>
+			<laPicUpload>Upload foto</laPicUpload>
+			<laOverlaySetting>Overlapparameters configureren</laOverlaySetting>
+			<laEnablePicOverlay>Beeldoverlap aanzetten</laEnablePicOverlay>
+			<laPicWidth>Fotobreedte</laPicWidth>
+			<laPicHeight>Fotohoogte</laPicHeight>
+		</Page>
+		<Js>
+		</Js>
+	</PictureOverlay>
+</VideoSettings>

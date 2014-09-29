@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<PTZCfg>
+	<Common>
+		<Page>
+			<aPtzBasic tag="a;" length="9999">Основни</aPtzBasic>
+			<aPtzLimit tag="a;" length="9999">Лимит</aPtzLimit>
+			<aPtzHomePos tag="a;" length="9999">Първоначална позиция</aPtzHomePos>
+			<aPtzParkAction tag="a;" length="9999">Операция при покой</aPtzParkAction>
+			<aPtzPrivacyMask tag="a;" length="9999">Лични зони</aPtzPrivacyMask>
+			<aPtzTimeTasks tag="a;" length="9999">Задачи по график</aPtzTimeTasks>
+			<aPtzClearCfg tag="a;" length="9999">Изчисти конфигурация</aPtzClearCfg>
+			<btnGoto tag="input;" length="80">Отиди на</btnGoto>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<autoScan tag="option;" length="200">Авто сканиране</autoScan>
+			<frameScan tag="option;" length="200">Фрейм сканиране</frameScan>
+			<randomScan tag="option;" length="200">Случайно сканиране</randomScan>
+			<patrolScan tag="option;" length="200">Патрул</patrolScan>
+			<panoramaScan tag="option;" length="200">Панорамно сканиране</panoramaScan>
+			<tiltScan>Tilt сканиране</tiltScan>
+			<periodReboot>Рестарт на купола</periodReboot>
+			<periodAdjust>Настройка на купола</periodAdjust>
+			<auxOutput>Aux изход</auxOutput>
+			<autoTrack>Автопроследяване</autoTrack>
+		</General>
+	</Common>
+	<PtzBasic>
+		<Page>
+			<laPtzBasic tag="label;">Основни параметри</laPtzBasic>
+			<laProportionZoom tag="label;">Активиране пропорционален Pan</laProportionZoom>
+			<laImageFreeze tag="label;">Активиране "замръзване при пресет"</laImageFreeze>
+			<laPresetSpeed tag="label;" length="150">Пресет скорост</laPresetSpeed>
+			<laControlSpeed tag="label;" length="150">Скорост на клавиатура</laControlSpeed>
+			<laAutoScanSpeed tag="label;" length="150">Скорост авто сканиране</laAutoScanSpeed>
+			<laPtzOSDDis tag="label;">PTZ OSD</laPtzOSDDis>
+			<laZoomLabel tag="label;" length="150">Zoom статус</laZoomLabel>
+			<laAzimuth tag="label;" length="150">PT статус</laAzimuth>
+			<laPresetLable tag="label;" length="150">Пресет статус</laPresetLable>
+			<speedLevelOpt1 tag="option;" length="200">2 сек</speedLevelOpt1>
+			<speedLevelOpt2 tag="option;" length="200">5 сек</speedLevelOpt2>
+			<speedLevelOpt3 tag="option;" length="200">10сек</speedLevelOpt3>
+			<speedLevelOpt4 tag="option;" length="200">Винаги затворен</speedLevelOpt4>
+			<speedLevelOpt5 tag="option;" length="200">Винаги отворен</speedLevelOpt5>
+			<laSavePowerOff tag="label;">Запис при внезапно изключване</laSavePowerOff>
+			<laSavePowerType tag="label;" length="150">Избор на време на възстановяване</laSavePowerType>
+			<savePowerTypeOpt2 tag="option;" length="200">30 сек</savePowerTypeOpt2>
+			<savePowerTypeOpt3 tag="option;" length="200">60 сек</savePowerTypeOpt3>
+			<savePowerTypeOpt4 tag="option;" length="200">300 сек</savePowerTypeOpt4>
+			<savePowerTypeOpt5 tag="option;" length="200">600cek</savePowerTypeOpt5>
+		</Page>
+		<Js>
+		</Js>
+	</PtzBasic>
+	<PtzLimiteds>
+		<Page>
+			<laEnableLimit tag="label;" length="134">Активирай лимит</laEnableLimit>
+			<laLimitType tag="label;" length="150">Тип лимит</laLimitType>
+			<limitTypeOpt1 tag="option;" length="198">Ръчни стопове</limitTypeOpt1>
+			<limitTypeOpt2 tag="option;" length="198">Стопове сканиране</limitTypeOpt2>
+			<laLimitStatus tag="label;" length="150">Тип статус</laLimitStatus>
+		</Page>
+		<Js>
+			<jsLimited>Лимитиран</jsLimited>
+			<jsNoLimited>Без лимит</jsNoLimited>
+		</Js>
+	</PtzLimiteds>
+	<ParkAction>
+		<Page>
+			<laEnabledPark tag="label;">Активиране операция при покой</laEnabledPark>
+			<laParkTime tag="label;" length="150">Време на покой</laParkTime>
+			<laActionType tag="label;" length="150">Тип операция</laActionType>
+			<laActionNum tag="label;" length="150">ID на тип операция</laActionNum>
+		</Page>
+		<Js>
+		</Js>
+	</ParkAction>
+	<PrivacyMask>
+		<Page>
+			<laEnablePrivacyMask tag="label;">Активиране лични зони</laEnablePrivacyMask>
+			<laPrivacyMaskList tag="label;">Списък лични зони</laPrivacyMaskList>
+			<laPrivacyMaskTitle tag="label;" length="246">Име</laPrivacyMaskTitle>
+			<gray tag="option;">Сиво</gray>
+			<red tag="option;">Червено</red>
+			<green tag="option;">Зелено</green>
+			<blue tag="option;">Синьо</blue>
+			<orange tag="option;">Оранжево</orange>
+			<yellow tag="option;">Жълто</yellow>
+			<mosaic tag="option;">Мозайка</mosaic>
+		</Page>
+		<Js>
+			<tipsSelectPrimary>Щракнете, за да извикате маската за поверителност</tipsSelectPrimary>
+		</Js>
+	</PrivacyMask>
+	<TimeTasks>
+		<Page>
+			<laEnabledTimeTasks tag="label;">Активиране задачи по график</laEnabledTimeTasks>
+			<laTimeTask tag="label;" length="150">Време на покой</laTimeTask>
+			<laTimingTasks tag="label;" length="150">Задачи по време</laTimingTasks>
+			<btnEditingTasks tag="input;" length="80">Редакт. задачи</btnEditingTasks>
+			<laTaskCaption tag="label;">Забележка: Червения и зеления цвят се използват за различаване съседните задачи.</laTaskCaption>
+			<trTaskType>Тип задача</trTaskType>
+			<trTaskNum>ID тип задача</trTaskNum>
+		</Page>
+		<Js>
+		</Js>
+	</TimeTasks>
+	<ClearCfg>
+		<Page>
+			<laAllPreset tag="label;" length="654">Изчисти всички пресети</laAllPreset>
+			<laAllPatrol tag="label;" length="654">Изчисти всички патрули</laAllPatrol>
+			<laAllPattern tag="label;" length="654">Изчисти всички Pattern</laAllPattern>
+			<laAllMasks tag="label;" length="654">Изчисти всички лични зони</laAllMasks>
+			<laAllLimit tag="label;" length="654">Изчисти всички PTZ лимити</laAllLimit>
+			<laAllTasks tag="label;" length="654">Изч. всички зад. по гр.</laAllTasks>
+			<laAllPark>Изч. всички действия по паркиране</laAllPark>
+		</Page>
+		<Js>
+		</Js>
+	</ClearCfg>
+</PTZCfg>

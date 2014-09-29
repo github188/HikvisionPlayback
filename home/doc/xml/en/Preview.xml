@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Live View</title>
+		<voiceTalk>Start Two-way Audio</voiceTalk>
+		<StopvoiceTalk>Stop Two-way Audio</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Two-way Audio Channel</laTalkNum>
+		<laLight>Light</laLight>
+		<laWiper>Wiper</laWiper>
+		<laOneKeyFocus>Auxiliary Focus</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Video parameters</laVideoEffect>
+		<Patrol>Patrol</Patrol>
+		<laTrack>Path</laTrack>
+		<laPatrolTime tag="label;" length="75">Patrol duration</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Patrol Speed</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Add Patrol Path</laAddPatrolPath>
+		<raVideoParamMode1>standard</raVideoParamMode1>
+		<raVideoParamMode2>indoor</raVideoParamMode2>
+		<raVideoParamMode3>outdoor</raVideoParamMode3>
+		<raVideoParamMode4>dimLight</raVideoParamMode4>
+		<laNoiseReduce>deNoising</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Stop Live View</stoppreview>
+		<recordfailed>Recording failed.</recordfailed>
+		<stoprecord>Stop Recording</stoprecord>
+		<jsSetVideoParam>Failed to set video parameters.</jsSetVideoParam>
+		<jsNetError>Operation failed or no permission.</jsNetError>
+		<VoiceTalkFailed>Using two-way audio failed.</VoiceTalkFailed>
+		<ChooseTalkChan>Please select a voice channel.</ChooseTalkChan>
+		<jsRecordSucc>Recording succeeded.</jsRecordSucc>
+		<jsRecordAllSucc>All Record succeeded.</jsRecordAllSucc>
+		<Start>Start</Start>
+		<StartSave>Start recording</StartSave>
+		<StopSave>Stop recording</StopSave>
+		<Start3DZoom>Start 3D Zoom</Start3DZoom>
+		<Stop3DZoom>Stop 3D Zoom</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Stop All Live View</geStopAllViewing>
+	</General>
+</Preview>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Rozmiar pliku z nagraniem</lapackSize>
+		<lanetsPreach tag="label;" length="150">Wydajność obrazu na żywo</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Zapisz do</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Zapisz obraz z podglądu na żywo w</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Zapisz nagrania w</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Zapisz zrzuty z odtwarzania w</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Zapisz pobrane pliki w</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Na żywo</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Zrównoważony</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Najlepsza płynność</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Ustawienia pliku z nagraniem</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Ustawienia obrazu i wideo</laCaptureClipParams>
+		<trFullFill>Pełny ekran</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

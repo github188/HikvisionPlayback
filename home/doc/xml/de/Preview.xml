@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Liveansicht</title>
+		<voiceTalk>2-Wege-Audio starten</voiceTalk>
+		<StopvoiceTalk>Sprache stoppen</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">2-Wege-Audiokanal</laTalkNum>
+		<laLight>Licht</laLight>
+		<laWiper>Wischer</laWiper>
+		<laOneKeyFocus>One-Touch-Fokus</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Videoparameter</laVideoEffect>
+		<Patrol>Patrouille</Patrol>
+		<laTrack>Pfad</laTrack>
+		<laPatrolTime tag="label;" length="75">Patroulliendauer</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Patroulliengeschwindigkeit</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Patroullienpfad hinzufügen</laAddPatrolPath>
+		<raVideoParamMode1>Standard</raVideoParamMode1>
+		<raVideoParamMode2>Innen</raVideoParamMode2>
+		<raVideoParamMode3>Außen</raVideoParamMode3>
+		<raVideoParamMode4>Li. dimmen</raVideoParamMode4>
+		<laNoiseReduce>Rau.-unt.</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Stopp Live-Ansicht</stoppreview>
+		<recordfailed>Aufzeichnung fehlgeschlagen.</recordfailed>
+		<stoprecord>Stopp Aufz.</stoprecord>
+		<jsSetVideoParam>Fehler beim Einstellen der Videoparameter.</jsSetVideoParam>
+		<jsNetError>Operation fehlgeschlagen oder keine Erlaubnis.</jsNetError>
+		<VoiceTalkFailed>Benutzung von 2-Wege-Audio fehlgeschlagen.</VoiceTalkFailed>
+		<ChooseTalkChan>Wählen Sie bitte einen Sprachkanal.</ChooseTalkChan>
+		<jsRecordSucc>Aufzeichnung erfolgreich.</jsRecordSucc>
+		<jsRecordAllSucc>Alle Aufzeichnungen erfolgreich</jsRecordAllSucc>
+		<Start>Starten</Start>
+		<StartSave>Aufzeichnung starten</StartSave>
+		<StopSave>Aufzeichnung stoppen</StopSave>
+		<Start3DZoom>3D Zoom starten</Start3DZoom>
+		<Stop3DZoom>3D Zoom stoppen</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Alle Live-Ansichten stoppen</geStopAllViewing>
+	</General>
+</Preview>

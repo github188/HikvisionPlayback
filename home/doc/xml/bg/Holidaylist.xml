@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Настр. Поч. дни</laSpanTitle>
+		<laPrompt>Периодите за празник не могат да се презастъпват.</laPrompt>
+		<laHolidayName>Име поч. дни</laHolidayName>
+		<laHolidayFun>Разреши празник</laHolidayFun>
+		<HolidayTypeOpt1>По дата</HolidayTypeOpt1>
+		<HolidayTypeOpt2>По седмица</HolidayTypeOpt2>
+		<HolidayTypeOpt3>По месец</HolidayTypeOpt3>
+		<laStartDate>Нач. дата</laStartDate>
+		<laEndDate>Край. дата</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Редакт. празници</EditHolidayTips>
+		<LastTips>Последна</LastTips>
+		<DayTips>Дата</DayTips>
+		<MonthTips>Месец</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

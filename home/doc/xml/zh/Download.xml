@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>文件下载</title>
+		<picturetitle>图片下载</picturetitle>
+		<laFileName tag="label;" length="140">文件名</laFileName>
+		<laFileSize tag="label;" length="90">文件大小</laFileSize>
+		<laDownloadProcess tag="label;" length="90">下载进度</laDownloadProcess>
+		<laPictureData tag="label;" length="90">文件日期</laPictureData>
+		<PictureType1>定时</PictureType1>
+		<PictureType2>报警</PictureType2>
+		<PictureType3>移动侦测</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>已下载</Downloaded>
+		<jsNoPictureTip>没有图片文件</jsNoPictureTip>
+		<jsSearchPicFailed>搜索图片失败</jsSearchPicFailed>
+		<jsDownloadFailed>下载失败</jsDownloadFailed>
+		<jsTips1>停止下载文件？</jsTips1>
+		<jsTips2>请选择文件进行下载!</jsTips2>
+	</Js>
+</Download>
+

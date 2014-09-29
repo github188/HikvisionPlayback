@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Defin.férias</laSpanTitle>
+		<laPrompt>Os períodos de férias não podem ser sobrepostos.</laPrompt>
+		<laHolidayName>Nome férias</laHolidayName>
+		<laHolidayFun>Ativar férias</laHolidayFun>
+		<HolidayTypeOpt1>Por data</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Por semana</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Por mês</HolidayTypeOpt3>
+		<laStartDate>Data Início</laStartDate>
+		<laEndDate>Data Fim</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Edit.Feriado</EditHolidayTips>
+		<LastTips>Último</LastTips>
+		<DayTips>Data</DayTips>
+		<MonthTips>Mês</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<ParamConfig>
+	<Common>
+		<Page>
+			<laParamConfig>Konfigurácia</laParamConfig>
+			<Tree>
+				<laLocalConfig tag="label;" length="125">Lokálna konfigurácia</laLocalConfig>
+				<laBaseConfig tag="label;" length="125">Zákl. konfigurácia</laBaseConfig>
+				<laAdvanceConfig tag="label;" length="125">Rozšírená konfigurácia</laAdvanceConfig>
+				<aLocalConfig tag="a;" length="139">Lokálna konfigurácia</aLocalConfig>
+				<aSystem tag="a;" length="139">Systém</aSystem>
+				<aNetwork tag="a;" length="139">Sieť</aNetwork>
+				<aAudioAndVideo tag="a;" length="139">Video/Audio</aAudioAndVideo>
+				<aVideoSettings tag="a;" length="139">Snímok</aVideoSettings>
+				<aSecurity tag="a;" length="139">Zabezpečenie</aSecurity>
+				<aEvent tag="a;" length="139">Udalosť</aEvent>
+				<aStorage tag="a;" length="139">Úložisko</aStorage>
+				<DVR>
+					<tree1>Konfigurácia</tree1>
+					<tree2>Lokálna konfigurácia</tree2>
+					<tree3>Vzdial. konfig.</tree3>
+					<tree300>Parametre</tree300>
+					<tree3000>Info o zariadení</tree3000>
+					<tree3001>Nastavenie času</tree3001>
+					<tree3002>Stav zariadenia</tree3002>
+					<tree3003>Menu Output</tree3003>
+					<tree301>Nastavenie kamery</tree301>
+					<tree3010>Nast. zobrazenia</tree3010>
+					<tree3011>Nastavenia videa</tree3011>
+					<tree3012>Nast. plánovača</tree3012>
+					<tree3013>Detekcia pohybu</tree3013>
+					<tree3014>Strata videa</tree3014>
+					<tree3015>Privátna maska</tree3015>
+					<tree3016>Detekcia sabotáže</tree3016>
+					<tree3017>Prekrytie textom</tree3017>
+					<tree3018>Nastavenie voľna</tree3018>
+					<tree3019>Param. kamery</tree3019>
+					<tree30191>Uloženie snímky</tree30191>
+					<tree302>Nastavenia siete</tree302>
+					<tree3020>TCP/IP</tree3020>
+					<tree3021>PPPOE</tree3021>
+					<tree3022>DDNS</tree3022>
+					<tree3023>E-mail</tree3023>
+					<tree3024>Sieťový HDD</tree3024>
+					<tree3025>SNMP</tree3025>
+					<tree3028>Port</tree3028>
+					<tree3029>FTP</tree3029>
+					<tree30291>QoS</tree30291>
+					<tree30292>SOCKS</tree30292>
+					<tree30293>UPnP™</tree30293>
+					<tree30294>HTTPS</tree30294>
+					<tree30295>Bonjour</tree30295>
+					<tree303>Nast. RS232 portu</tree303>
+					<tree3030>Sériový port RS232</tree3030>
+					<tree3031>Sériový port RS485</tree3031>
+					<tree304>Nastavenia alarmu</tree304>
+					<tree3040>Alarmový vstup</tree3040>
+					<tree3041>Alarm výstup</tree3041>
+					<tree305>Výnimka</tree305>
+					<tree306>Správa účtov</tree306>
+					<tree307>Správa diskov</tree307>
+					<tree3070>Základné nast.</tree3070>
+					<tree308>Údržba</tree308>
+					<tree309>Reštart</tree309>
+					<tree310>Vzdialená aktualizácia</tree310>
+					<tree311>Správa kamier</tree311>
+					<tree3110>Analóg. kamera</tree3110>
+					<tree3111>IP kamera</tree3111>
+					<tree3112>Multi-kanál</tree3112>
+				</DVR>
+			</Tree>
+			<StartWeekDayOpt1 tag="label;a;" length="29">Po</StartWeekDayOpt1>
+			<StartWeekDayOpt2 tag="label;a;" length="27">Ut</StartWeekDayOpt2>
+			<StartWeekDayOpt3 tag="label;a;" length="31">St</StartWeekDayOpt3>
+			<StartWeekDayOpt4 tag="label;a;" length="27">Št</StartWeekDayOpt4>
+			<StartWeekDayOpt5 tag="label;a;" length="20">Pi</StartWeekDayOpt5>
+			<StartWeekDayOpt6 tag="label;a;" length="24">So</StartWeekDayOpt6>
+			<StartWeekDayOpt0 tag="label;a;" length="31">Ne</StartWeekDayOpt0>
+			<laMonday tag="label;a;" length="29">Po</laMonday>
+			<laTuesday tag="label;a;" length="27">Ut</laTuesday>
+			<laWednesday tag="label;a;" length="31">St</laWednesday>
+			<laThursday tag="label;a;" length="27">Št</laThursday>
+			<laFriday tag="label;a;" length="20">Pi</laFriday>
+			<laSaturday tag="label;a;" length="24">So</laSaturday>
+			<laSunday tag="label;a;" length="31">Ne</laSunday>
+			<laHoliday>Voľné dni</laHoliday>
+			<laSelectAll tag="label;" length="40">Zvoľ všetko</laSelectAll>
+			<CopyTo tag="input;" length="88">Kopíruj</CopyTo>
+			<laMacAddress tag="label;" length="150">MAC adresa</laMacAddress>
+			<laChannelName>Názov kamery</laChannelName>
+			<laCheckPwd tag="label;" length="150">Potvrdiť</laCheckPwd>
+			<laProtocolType tag="label;" length="150">Protokol</laProtocolType>
+			<laState tag="label;" length="100">Stav</laState>
+			<StartMonthOpt1 tag="option;" length="58">Jan</StartMonthOpt1>
+			<StartMonthOpt2 tag="option;" length="58">Feb</StartMonthOpt2>
+			<StartMonthOpt3 tag="option;" length="58">Mar</StartMonthOpt3>
+			<StartMonthOpt4 tag="option;" length="58">Apr</StartMonthOpt4>
+			<StartMonthOpt5 tag="option;" length="58">Máj</StartMonthOpt5>
+			<StartMonthOpt6 tag="option;" length="58">Jún</StartMonthOpt6>
+			<StartMonthOpt7 tag="option;" length="58">Júl</StartMonthOpt7>
+			<StartMonthOpt8 tag="option;" length="58">Aug</StartMonthOpt8>
+			<StartMonthOpt9 tag="option;" length="58">Sep</StartMonthOpt9>
+			<StartMonthOpt10 tag="option;" length="58">Okt</StartMonthOpt10>
+			<StartMonthOpt11 tag="option;" length="58">Nov</StartMonthOpt11>
+			<StartMonthOpt12 tag="option;" length="58">Dec</StartMonthOpt12>
+			<MdfDigitalIpBtn tag="input;" length="74">Uprav</MdfDigitalIpBtn>
+			<AddDigitalIpBtn>Pridať</AddDigitalIpBtn>
+			<laDay tag="option;" length="78">Deň</laDay>
+			<StartWeekOpt1 tag="option;" length="68">Prvý</StartWeekOpt1>
+			<StartWeekOpt2 tag="option;" length="68">Druhý</StartWeekOpt2>
+			<StartWeekOpt3 tag="option;" length="68">Tretí</StartWeekOpt3>
+			<StartWeekOpt4 tag="option;" length="68">Štvrtý</StartWeekOpt4>
+			<StartWeekOpt5 tag="option;" length="68">Posledná</StartWeekOpt5>
+			<laEnable>Povoľ</laEnable>
+			<btnBrowse tag="input;" length="74">Prechádzať</btnBrowse>
+			<laVideoResolution tag="label;" length="150">Rozlíšenie</laVideoResolution>
+			<laCopyToWeek tag="label;" length="78">Kopíruj na týždeň</laCopyToWeek>
+			<GoBackListBtn tag="input;" length="88">Späť</GoBackListBtn>
+			<laEdit>Upraviť</laEdit>
+			<laNoCopy tag="label;" length="517">Nedá sa kopírovať</laNoCopy>
+			<laProcess tag="label;" length="100">Priebeh</laProcess>
+			<aModeManual tag="option;" length="176">Manuálny</aModeManual>
+			<aLevelLow tag="option;" length="176">Nízka</aLevelLow>
+			<aLevelNormal tag="option;" length="176">Štand.</aLevelNormal>
+			<aLevelHigh tag="option;" length="176">Vysoká</aLevelHigh>
+			<optionSecond tag="option;" length="78">druhý</optionSecond>
+			<laType tag="label;" length="100">Typ</laType>
+			<laOClock>hodín</laOClock>
+			<aStyleClose tag="option;" length="176">Zatvor</aStyleClose>
+			<aModeAuto tag="option;" length="176">Auto</aModeAuto>
+			<laDelay tag="label;" length="150">Čas zopnutia</laDelay>
+			<OptPirORWlsensorORCallhelp>PIR|Bezdrôtová|Núdzová</OptPirORWlsensorORCallhelp>
+			<OptAllEvent>Pohybová detekcia|Alarm vstup</OptAllEvent>
+			<laAuthType tag="label;" length="150">Overenie</laAuthType>
+			<laAttribute>Vlastnosť</laAttribute>
+			<aEmail tag="a;" length="9999">E-mail</aEmail>
+			<laMountType>Typ pripojenia</laMountType>
+			<laCelling>Strop</laCelling>
+			<laWall>Stena</laWall>
+			<laFloor>Podlaha</laFloor>
+			<laAnonymous>Anonym</laAnonymous>
+			<laUploadCertificate>Odoslať</laUploadCertificate>
+		</Page>
+		<Js>
+			<laparamCfg>Konfigurácia</laparamCfg>
+			<AnalogChannelNameTips>Analóg. kamera</AnalogChannelNameTips>
+			<DigitalChannelNameTips>IP kamera</DigitalChannelNameTips>
+			<InputTips>Vstup </InputTips>
+			<RangeTips> rozsah </RangeTips>
+			<WrongTips>Nesprávne zadanie </WrongTips>
+			<LengthTips> Dĺžka nesmie byt väčšia </LengthTips>
+			<NullTips> Je potrebné vyplniť.</NullTips>
+			<WithTimeSegmentTips> s periódou </WithTimeSegmentTips>
+			<UserNameCharTips>Užívateľské meno môže obsahovať Iba písmená (a-z, A-Z), čísla (0-9) a podtrhovník (_) .</UserNameCharTips>
+			<CoverStopMapbuttonTips>Koniec výberu</CoverStopMapbuttonTips>
+			<ClearRegionTips>Chcete vymazať všetky oblasti?</ClearRegionTips>
+			<DeleteRegionFailedTips>Zmazanie zlyhalo. </DeleteRegionFailedTips>
+			<DeleteRegionSuccessTips>Odstránené</DeleteRegionSuccessTips>
+			<DevNameLengthTips>Dĺžka názbu nesmie presiahnuť 32 znakov.</DevNameLengthTips>
+			<DevNameNullTips>Názov nesmie byť prázdny.</DevNameNullTips>
+			<DevNameWrongCharTips>Invalid characters: </DevNameWrongCharTips>
+			<jsPwdCheckMismatch>Heslá sa nezhodujú.</jsPwdCheckMismatch>
+			<jsTimeSegmentErrorSegTips> Počiatočný čas musí byť menší ako koncový čas.</jsTimeSegmentErrorSegTips>
+			<laCopyToChannel>Kopíruj na kameru</laCopyToChannel>
+			<UserNameLengthTips> Dĺžka nesmie presiahnuť 16 znakov.</UserNameLengthTips>
+			<OffLineTips>Odpojené</OffLineTips>
+			<OverlappedTips> sa nemôže prekrývať.</OverlappedTips>
+			<LocalTips>Lokálne</LocalTips>
+			<DIPAddInvalidTips>Prvý segment IP adresy musí byť číslo v rozsahu 1 až 233.</DIPAddInvalidTips>
+			<tipsNormal>Štand.</tipsNormal>
+			<jsEmailAdd>E-mailová adresa</jsEmailAdd>
+			<jsUploadSuc>Nahrávanie úspešné</jsUploadSuc>
+			<jsUploadFailed>Nahráv. zlyhalo</jsUploadFailed>
+		</Js>
+		<General>
+			<geUserName tag="label;" length="150">Užív. Meno</geUserName>
+			<gePassword tag="label;" length="150">Heslo</gePassword>
+			<laTimerange tag="label;" length="100">Perióda</laTimerange>
+			<CoverStartMapbutton tag="input;" length="74">Výber oblasti</CoverStartMapbutton>
+			<CoverTimebutton tag="input;" length="74">Odstr. všetko</CoverTimebutton>
+			<laServerAdd tag="label;" length="150">Adresa servera</laServerAdd>
+			<laIpAddress>IP adresa</laIpAddress>
+			<aMoveDetection tag="a;" length="9999">Detekcia pohybu</aMoveDetection>
+			<laVideoTabDivBtn tag="label;" length="670">Nast. oblasti</laVideoTabDivBtn>
+			<trDisabled>Zakázaný</trDisabled>
+			<WholeDayRecordTypeOpt1 tag="option;" length="118">Štand.</WholeDayRecordTypeOpt1>
+			<WholeDayRecordTypeOpt3 tag="option;" length="118">Alarm</WholeDayRecordTypeOpt3>
+			<WholeDayRecordTypeOpt4 tag="option;" length="118">Pohyb | Alarm</WholeDayRecordTypeOpt4>
+			<WholeDayRecordTypeOpt5 tag="option;" length="118">Pohyb a Alarm</WholeDayRecordTypeOpt5>
+			<laEnableWholeDayRecord tag="label;" length="87">Celý deň</laEnableWholeDayRecord>
+			<laEnableWholeDayCapture tag="label;" length="87">Celý deň</laEnableWholeDayCapture>
+			<laSectionRecord tag="label;" length="578">Vlastné</laSectionRecord>
+			<laSectionCapture tag="label;" length="578">Vlastné</laSectionCapture>
+			<laWholeDayRecordType tag="label;" length="149">Typ záznamu</laWholeDayRecordType>
+			<laWholeDayCaptureType tag="label;" length="149">Režim ukladania</laWholeDayCaptureType>
+			<constantBitRateOpt23>Vlastné</constantBitRateOpt23>
+			<Other>Ostatné</Other>
+		</General>
+	</Common>
+	<ParamConfig>
+		<Page>
+		</Page>
+		<Js>
+			<Success1>Ukladanie prebehlo úspešne.</Success1>
+			<Success2>Ukladanie prebehlo úspešne, chcete vykonať reštart zariadenia?</Success2>
+			<DeleteSuccTips>Súbor bol úspešne zmazaný.</DeleteSuccTips>
+			<Success4>Súbor bol úspešne zmazaný. Chcete reštartovať zariadenie?</Success4>
+			<Success5>Parametre boli úspešne uložené, na aplikovanie zvolených nastavení, prosím, reštartujte zariadenie.</Success5>
+			<Error1>Nastavenie parametrov zlyhalo.</Error1>
+			<Error2>Zlyhal príjem parametrov.</Error2>
+			<Error3>Neplatný obsah XML súboru</Error3>
+			<Error4>Neplatný formát XML súboru</Error4>
+			<Error5>Neplatná operácia</Error5>
+			<Error6>Nastala chyba zariadenia.</Error6>
+			<Error7>Zariadenie je zaneprázdnené.</Error7>
+			<jsNetworkAbnormal>Výnimka siete</jsNetworkAbnormal>
+			<Error10>Nie sú dostupné žiadne alarmové vstupy/výstupy.</Error10>
+			<Error11>Neplatné heslo</Error11>
+			<Error12>Chyba 12: nesprávne spracovanie parametra</Error12>
+			<Error13>Zadané nastavenie nie je platné a preto sa nedá aplikovať.</Error13>
+			<Error14>Neplatný odkaz URL alebo HTTP</Error14>
+			<Error400>Chyba: došlo k prerušeniu siete/sieť je v neštandardnom stave</Error400>
+			<Error44> Počas nastavenia parametrov došlo k chybe.</Error44>
+			<Error55>Nastaviť kameru</Error55>
+			<Error66>Nastav parametre alarmu</Error66>
+			<Error77>Kamera nepodporuje danú funkciu.</Error77>
+			<Ask>Po uložení parametrov sa zariadenie automaticky reštartuje. Chcete pokračovať?</Ask>
+			<Ask1>Chcete zmazať zvoleného používateľa?</Ask1>
+			<RestartTips>Zmenili ste nastavenia, chcete zariadenie reštartovať?</RestartTips>
+			<RestartSuccessTips>Prebieha reštart zariadenia ...</RestartSuccessTips>
+			<RestartFailedTips>Reštart systému zlyhal.</RestartFailedTips>
+		</Js>
+	</ParamConfig>
+</ParamConfig>

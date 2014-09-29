@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">Имя польз.</lausername>
+		<lapassword tag="label;" length="70">Пароль</lapassword>
+		<lalogin tag="label;" length="70">Вход</lalogin>
+		<laAnonymous>Анонимный</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>Пожалуйста, введите имя пользователя.</LoginTips1>
+		<LoginTips2>Имя пользователя не может быть длиннее 16 символов.</LoginTips2>
+		<LoginTips3>Длина пароля не может быть более 16 символов.</LoginTips3>
+		<LoginTips4>Имя пользователя или пароль некорректны. Пожалуйста, введите снова.</LoginTips4>
+		<LoginTips5>Пожалуйста, введите пароль.</LoginTips5>
+		<NetworkErrorTips>Проблемы с сетью</NetworkErrorTips>
+		<ConnectTimeoutTips>Тайм-аут соединения</ConnectTimeoutTips>
+		<CookieTips>Пожалуйста, включите cookie браузера</CookieTips>
+	</Js>
+</Login>

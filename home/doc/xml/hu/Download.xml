@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>Fájl letöltése</title>
+		<picturetitle>Kép letöltése</picturetitle>
+		<laFileName tag="label;" length="140">Fájlnév</laFileName>
+		<laFileSize tag="label;" length="90">Fájlméret</laFileSize>
+		<laPictureData tag="label;" length="90">Fájl dátuma</laPictureData>
+		<laDownloadProcess tag="label;" length="90">Folyamat</laDownloadProcess>
+		<PictureType1>Időzítés</PictureType1>
+		<PictureType2>Riasztás</PictureType2>
+		<PictureType3>Mozgás</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>Letöltve</Downloaded>
+		<jsNoPictureTip>Nincs képfájl.</jsNoPictureTip>
+		<jsSearchPicFailed>Képkeresés sikertelen.</jsSearchPicFailed>
+		<jsDownloadFailed>A letöltés sikertelen</jsDownloadFailed>
+		<jsTips1>Megállítja a letöltést?</jsTips1>
+		<jsTips2>Válassza ki a letöltendő fájlt.</jsTips2>
+	</Js>
+</Download>

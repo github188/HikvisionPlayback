@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Preview>
+	<Page>
+		<title>Live Kijken</title>
+		<voiceTalk>Start tweerichtingsaudio</voiceTalk>
+		<StopvoiceTalk>Stop audio</StopvoiceTalk>
+		<laTalkNum tag="label;" length="158">Tweerichtings-audiokanaal</laTalkNum>
+		<laLight>Licht </laLight>
+		<laWiper>Wisser </laWiper>
+		<laOneKeyFocus>Snel inzoomen</laOneKeyFocus>
+		<laPTZ tag="label;" length="22">PTZ</laPTZ>
+		<laVideoEffect tag="label;">Video-instellingen</laVideoEffect>
+		<Patrol>Patrouille</Patrol>
+		<laTrack>Pad </laTrack>
+		<laPatrolTime tag="label;" length="75">Rondetijd</laPatrolTime>
+		<laPatrolSpeed tag="label;" length="75">Patrouillesnelheid</laPatrolSpeed>
+		<laAddPatrolPath tag="label;">Toevoegen ronde-pad </laAddPatrolPath>
+		<raVideoParamMode1>Standaard</raVideoParamMode1>
+		<raVideoParamMode2>Binnen </raVideoParamMode2>
+		<raVideoParamMode3>Buiten</raVideoParamMode3>
+		<raVideoParamMode4>Dim licht</raVideoParamMode4>
+		<laNoiseReduce>Ruisonderdrukk.</laNoiseReduce>
+	</Page>
+	<Js>
+		<stoppreview>Stop live view</stoppreview>
+		<recordfailed>Fout! Opnemen mislukt.</recordfailed>
+		<stoprecord>Stop opnemen</stoprecord>
+		<jsSetVideoParam>Fout! Videogegevens invoeren mislukt.</jsSetVideoParam>
+		<jsNetError>Fout! Handeling mislukt of geen toegang.</jsNetError>
+		<VoiceTalkFailed>Fout! Gebruik 2-richtingsaudio mislukt</VoiceTalkFailed>
+		<ChooseTalkChan>Kies een audiokanaal.</ChooseTalkChan>
+		<jsRecordSucc>Opnemen geslaagd.</jsRecordSucc>
+		<jsRecordAllSucc>All Record succeeded.</jsRecordAllSucc>
+		<Start>Start</Start>
+		<StartSave>Start opnemen</StartSave>
+		<StopSave>Stop opnemen</StopSave>
+		<Start3DZoom>3D-zoom starten</Start3DZoom>
+		<Stop3DZoom>3D-zoom stoppen</Stop3DZoom>
+	</Js>
+	<General>
+		<geStopAllViewing>Stop alle live views</geStopAllViewing>
+	</General>
+</Preview>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Velikost souboru záznamu</lapackSize>
+		<lanetsPreach tag="label;" length="150">Charakteristika akt. zobrazení</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Uložit do</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Uložit snímky z akt. zobrazení do</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Uložit klipy do</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Uložit snímky při přehrávání do</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Uložit stažené soubory do</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Reálný čas</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Vyvážený</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Nejlepší plynulost</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Nastavení souboru záznamu</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Nastav. snímku a klipu</laCaptureClipParams>
+		<trFullFill>Úplné naplnění</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

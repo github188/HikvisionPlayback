@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Szünnap beállítások</laSpanTitle>
+		<laPrompt>A szabadság-időszakok nem fedhetik át egymást.</laPrompt>
+		<laHolidayName>Szünnap neve</laHolidayName>
+		<laHolidayFun>Szünnapok engedélyezése</laHolidayFun>
+		<HolidayTypeOpt1>Dátum szerint</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Hetek szerint</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Hónapok szerint</HolidayTypeOpt3>
+		<laStartDate>Kezdési dátum</laStartDate>
+		<laEndDate>A befejezés dátuma</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Szünnap szerkesztése.</EditHolidayTips>
+		<LastTips>Utolsó</LastTips>
+		<DayTips>Dátum</DayTips>
+		<MonthTips>Hónap</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

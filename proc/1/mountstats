@@ -1,0 +1,8 @@
+device rootfs mounted on / with fstype rootfs
+device /dev/root mounted on / with fstype minix
+device proc mounted on /proc with fstype proc
+device none mounted on /sys with fstype sysfs
+device ramfs mounted on /home with fstype ramfs
+device udev mounted on /dev with fstype tmpfs
+device devpts mounted on /dev/pts with fstype devpts
+device /dev/mtdblock2 mounted on /dav with fstype jffs2

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>回放</title>
+		<SlowlyForward>慢播</SlowlyForward>
+		<FastForward>快播</FastForward>
+		<SingleFrame>單格</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">狀態</laCurrentSpeed>
+		<laGotoTime>調用</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">回放時間點定位</laPlaybackTimeLocalizer>
+		<imgGotoTime>定位時間回放</imgGotoTime>
+		<RecordType1 tag="label;" length="704">觸發錄影</RecordType1>
+		<RecordType2 tag="label;" length="704">計畫</RecordType2>
+		<RecordType3 tag="label;" length="704">警報</RecordType3>
+		<RecordType4 tag="label;" length="704">手動</RecordType4>
+		<PictureDownload tag="input;" length="32">下載圖片</PictureDownload>
+		<RecordDownload tag="input;" length="32">下載錄影檔</RecordDownload>
+		<DVR>
+			<stopAll>全部停止回放</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>回放暫停失敗</pausefailed>
+		<resumefailed>恢復回放失敗</resumefailed>
+		<stoprecord>停止編輯</stoprecord>
+		<startRecord>開始編輯</startRecord>
+		<stoprecordfailed>停止編輯失敗</stoprecordfailed>
+		<startplayfailed>開啟回放失敗</startplayfailed>
+		<stopplayfailed>停止回放失敗</stopplayfailed>
+		<jssingleframe>單格回放</jssingleframe>
+		<jssingleframefailed>單格回放失敗</jssingleframefailed>
+		<stopCurrentWndPlay>請先停止當前視窗的回放</stopCurrentWndPlay>
+		<szTips1>搜尋錄影檔失敗！</szTips1>
+		<szTips3>沒有錄影檔</szTips3>
+		<jsSearchFile>請先搜尋檔案</jsSearchFile>
+		<jsSpeed>速度</jsSpeed>
+		<jsPauseAlready>已暫停</jsPauseAlready>
+		<jsPause>暫停</jsPause>
+		<jsResume>恢復</jsResume>
+		<jsPlayBackError>回放異常</jsPlayBackError>
+		<jsRecordError>編輯失敗</jsRecordError>
+		<jsPlaybackStop>回放結束</jsPlaybackStop>
+		<jsPlayStopAbnormal>回放異常結束</jsPlayStopAbnormal>
+		<jsDownload>請先搜尋回放檔案再下載！</jsDownload>
+		<jsNotSupportDown>該設備不支援下載！</jsNotSupportDown>
+		<jsDownloadWnd>下載視窗已經打開！</jsDownloadWnd>
+		<jsClipSucc>編輯成功</jsClipSucc>
+		<jsZoomIn>放大</jsZoomIn>
+		<jsZoomOut>縮小</jsZoomOut>
+		<DVR>
+			<jsSelectChan>請選擇一個攝影機</jsSelectChan>
+			<jsPlayChannel>攝影機</jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>播放</gePlay>
+	</General>
+</Playback>

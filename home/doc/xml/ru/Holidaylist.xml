@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Настройки выходного</laSpanTitle>
+		<laPrompt>Интервалы выходных не могут пересекаться</laPrompt>
+		<laHolidayName>Назв. вых.</laHolidayName>
+		<laHolidayFun>Включ вых</laHolidayFun>
+		<HolidayTypeOpt1>По дате</HolidayTypeOpt1>
+		<HolidayTypeOpt2>По неделе</HolidayTypeOpt2>
+		<HolidayTypeOpt3>По месяцу</HolidayTypeOpt3>
+		<laStartDate>Начало</laStartDate>
+		<laEndDate>Конец</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Редактировать расписание выходных</EditHolidayTips>
+		<LastTips>последнее</LastTips>
+		<DayTips>Дата</DayTips>
+		<MonthTips>Месяц</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

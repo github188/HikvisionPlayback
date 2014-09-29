@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Record File Size</lapackSize>
+		<lanetsPreach tag="label;" length="150">Live View Performance</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Save record files to</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Save snapshots in live view to</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Save clips to</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Save snapshots when playback to</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Save downloaded files to</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Least Delay</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Balanced</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Best Fluency</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Record File Settings</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Picture and Clip Settings</laCaptureClipParams>
+		<trFullFill>Auto-fill</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

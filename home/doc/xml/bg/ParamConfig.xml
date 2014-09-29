@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<ParamConfig>
+	<Common>
+		<Page>
+			<laParamConfig>Configuration</laParamConfig>
+			<Tree>
+				<laLocalConfig tag="label;" length="125">Локална конфигурация</laLocalConfig>
+				<laBaseConfig tag="label;" length="125">Основна конфигурация</laBaseConfig>
+				<laAdvanceConfig tag="label;" length="125">Разширени настройки</laAdvanceConfig>
+				<aLocalConfig tag="a;" length="139">Локална конфигурация</aLocalConfig>
+				<aSystem tag="a;" length="139">Система</aSystem>
+				<aNetwork tag="a;" length="139">Мрежа</aNetwork>
+				<aAudioAndVideo tag="a;" length="139">Видео/Аудио</aAudioAndVideo>
+				<aVideoSettings tag="a;" length="139">Картина</aVideoSettings>
+				<aSecurity tag="a;" length="139">Сигурност</aSecurity>
+				<aEvent tag="a;" length="139">Събитие</aEvent>
+				<aStorage tag="a;" length="139">Дискове</aStorage>
+				<DVR>
+					<tree1>Конфигурация</tree1>
+					<tree2>Локална конфигурация</tree2>
+					<tree3>Отдалечена конфигурация</tree3>
+					<tree300>Параметри устр.</tree300>
+					<tree3000>Инф. за устр.</tree3000>
+					<tree3001>Настройки време</tree3001>
+					<tree3002>Статус устройство</tree3002>
+					<tree3003>Menu Output</tree3003>
+					<tree301>Настройки камера</tree301>
+					<tree3010>Настройки дисплей</tree3010>
+					<tree3011>Видео настр.</tree3011>
+					<tree3012>Настройки график</tree3012>
+					<tree3013>Детекция движение</tree3013>
+					<tree3014>Няма видео</tree3014>
+					<tree3015>Лични зони</tree3015>
+					<tree3016>Без подпр.</tree3016>
+					<tree3017>Текст върху видео</tree3017>
+					<tree3018>Настр. Поч. дни</tree3018>
+					<tree3019>Предни параметри</tree3019>
+					<tree30191>Снапшот</tree30191>
+					<tree302>Мрежови Настройки</tree302>
+					<tree3020>TCP/IP</tree3020>
+					<tree3021>PPPoE</tree3021>
+					<tree3022>DDNS</tree3022>
+					<tree3023>Имейл</tree3023>
+					<tree3024>Мрежов HDD</tree3024>
+					<tree3025>SNMP</tree3025>
+					<tree3028>Порт</tree3028>
+					<tree3029>FTP</tree3029>
+					<tree30291>QoS</tree30291>
+					<tree30292>SOCKS</tree30292>
+					<tree30293>UPnP™</tree30293>
+					<tree30294>HTTPS</tree30294>
+					<tree30295>Bonjour</tree30295>					
+					<tree303>Наст. сер. порт</tree303>
+					<tree3030>RS232 сер. порт</tree3030>
+					<tree3031>RS485 сер. порт</tree3031>
+					<tree304>Настройки Аларми</tree304>
+					<tree3040>Алармен вход</tree3040>
+					<tree3041>Алармен Изход</tree3041>
+					<tree305>Изключение</tree305>
+					<tree306>Управление потребители</tree306>
+					<tree307>HDD управление</tree307>
+					<tree3070>Basic Settings</tree3070>
+					<tree308>Поддръжка</tree308>
+					<tree309>Рестарт</tree309>
+					<tree310>Отдалечен Ъпгрейд</tree310>
+					<tree311>Управление  камера</tree311>
+					<tree3110>Аналог. камера</tree3110>
+					<tree3111>IP Камера</tree3111>
+					<tree3112>Нулев канал</tree3112>
+				</DVR>
+			</Tree>
+			<StartWeekDayOpt1 tag="label;a;" length="29">Пон</StartWeekDayOpt1>
+			<StartWeekDayOpt2 tag="label;a;" length="27">Вт</StartWeekDayOpt2>
+			<StartWeekDayOpt3 tag="label;a;" length="31">Ср</StartWeekDayOpt3>
+			<StartWeekDayOpt4 tag="label;a;" length="27">Чет</StartWeekDayOpt4>
+			<StartWeekDayOpt5 tag="label;a;" length="20">Пет</StartWeekDayOpt5>
+			<StartWeekDayOpt6 tag="label;a;" length="24">Съб</StartWeekDayOpt6>
+			<StartWeekDayOpt0 tag="label;a;" length="31">Нед</StartWeekDayOpt0>
+			<laMonday tag="label;a;" length="29">Пон</laMonday>
+			<laTuesday tag="label;a;" length="27">Вт</laTuesday>
+			<laWednesday tag="label;a;" length="31">Ср</laWednesday>
+			<laThursday tag="label;a;" length="27">Чет</laThursday>
+			<laFriday tag="label;a;" length="20">Пет</laFriday>
+			<laSaturday tag="label;a;" length="24">Съб</laSaturday>
+			<laSunday tag="label;a;" length="31">Нед</laSunday>
+			<laHoliday>Празник</laHoliday>
+			<laSelectAll tag="label;" length="40">Маркирайте всичко</laSelectAll>
+			<CopyTo tag="input;" length="88">Копиране</CopyTo>
+			<laMacAddress tag="label;" length="150">MAC Адрес</laMacAddress>
+			<laChannelName>Име камера</laChannelName>
+			<laCheckPwd tag="label;" length="150">Потв. парола</laCheckPwd>
+			<laProtocolType tag="label;" length="150">Протокол</laProtocolType>
+			<laState tag="label;" length="100">Статус</laState>
+			<StartMonthOpt1 tag="option;" length="58">Ян</StartMonthOpt1>
+			<StartMonthOpt2 tag="option;" length="58">Фев</StartMonthOpt2>
+			<StartMonthOpt3 tag="option;" length="58">Мар</StartMonthOpt3>
+			<StartMonthOpt4 tag="option;" length="58">Апр</StartMonthOpt4>
+			<StartMonthOpt5 tag="option;" length="58">Май</StartMonthOpt5>
+			<StartMonthOpt6 tag="option;" length="58">Юни</StartMonthOpt6>
+			<StartMonthOpt7 tag="option;" length="58">Юли</StartMonthOpt7>
+			<StartMonthOpt8 tag="option;" length="58">Авг</StartMonthOpt8>
+			<StartMonthOpt9 tag="option;" length="58">Сеп</StartMonthOpt9>
+			<StartMonthOpt10 tag="option;" length="58">Окт</StartMonthOpt10>
+			<StartMonthOpt11 tag="option;" length="58">Ноем</StartMonthOpt11>
+			<StartMonthOpt12 tag="option;" length="58">Дек</StartMonthOpt12>
+			<MdfDigitalIpBtn tag="input;" length="74">Промени</MdfDigitalIpBtn>
+			<AddDigitalIpBtn>Добави</AddDigitalIpBtn>
+			<laDay tag="option;" length="78">Ден</laDay>
+			<StartWeekOpt1 tag="option;" length="68">Първи</StartWeekOpt1>
+			<StartWeekOpt2 tag="option;" length="68">Втори</StartWeekOpt2>
+			<StartWeekOpt3 tag="option;" length="68">Трети</StartWeekOpt3>
+			<StartWeekOpt4 tag="option;" length="68">Четвърти</StartWeekOpt4>
+			<StartWeekOpt5 tag="option;" length="68">Последна</StartWeekOpt5>
+			<laEnable>Разреши</laEnable>
+			<btnBrowse tag="input;" length="74">Преглед</btnBrowse>
+			<laVideoResolution tag="label;" length="150">Резолюция</laVideoResolution>
+			<laCopyToWeek tag="label;" length="78">Копиране към седмица</laCopyToWeek>
+			<GoBackListBtn tag="input;" length="88">Назад</GoBackListBtn>
+			<laEdit>Редакт.</laEdit>
+			<laNoCopy tag="label;" length="517">(не се копира)</laNoCopy>
+			<laProcess tag="label;" length="100">Статус</laProcess>
+			<aModeManual tag="option;" length="176">Ръчен</aModeManual>
+			<aLevelLow tag="option;" length="176">Ниско</aLevelLow>
+			<aLevelNormal tag="option;" length="176">Нормален</aLevelNormal>
+			<aLevelHigh tag="option;" length="176">Високо</aLevelHigh>
+			<optionSecond tag="option;" length="78">секунди</optionSecond>
+			<laType tag="label;" length="100">Тип</laType>
+			<laOClock>часа</laOClock>
+			<aStyleClose tag="option;" length="176">Затворен</aStyleClose>
+			<aModeAuto tag="option;" length="176">Авто</aModeAuto>
+			<laDelay tag="label;" length="150">Време Задърж.</laDelay>
+			<OptPirORWlsensorORCallhelp>Въз основа на данните от PIR датчика|по безжичен път|авариен</OptPirORWlsensorORCallhelp>
+			<OptAllEvent>Детекция движение|Алармен Вход|</OptAllEvent>
+			<laAuthType tag="label;" length="150">Оторизация</laAuthType>
+			<laAttribute>Свойства</laAttribute>
+			<aEmail tag="a;" length="9999">Е-мейл</aEmail>
+			<laMountType>Тип на монтажа</laMountType>
+			<laCelling>На тавана</laCelling>
+			<laWall>На стената</laWall>
+			<laFloor>На пода</laFloor>
+			<laAnonymous>Анонимен</laAnonymous>
+			<laUploadCertificate>Ъплоуд</laUploadCertificate>
+		</Page>
+		<Js>
+			<laparamCfg>Конфигурация</laparamCfg>
+			<AnalogChannelNameTips>Аналог. камера</AnalogChannelNameTips>
+			<DigitalChannelNameTips>IP Камера</DigitalChannelNameTips>
+			<InputTips>Вход </InputTips>
+			<RangeTips> обхват </RangeTips>
+			<WrongTips>Грешен </WrongTips>
+			<LengthTips> Дължината трябва да е по-малка </LengthTips>
+			<NullTips> Не може да е празен.</NullTips>
+			<WithTimeSegmentTips> с период </WithTimeSegmentTips>
+			<UserNameCharTips>Only [a-A], [0-9] and [_] can be used.</UserNameCharTips>
+			<CoverStopMapbuttonTips>Стоп чертане</CoverStopMapbuttonTips>
+			<ClearRegionTips>Изтриване на всички зони?</ClearRegionTips>
+			<DeleteRegionFailedTips>Неуспешно изчистване</DeleteRegionFailedTips>
+			<DeleteRegionSuccessTips>Изчистен</DeleteRegionSuccessTips>
+			<DevNameLengthTips>Името трябва да е под 32 знака.</DevNameLengthTips>
+			<DevNameNullTips>Моля въведете име.</DevNameNullTips>
+			<DevNameWrongCharTips>Името не може да съд. тези симв.:</DevNameWrongCharTips>
+			<jsPwdCheckMismatch>Паролата не съвпада.</jsPwdCheckMismatch>
+			<jsTimeSegmentErrorSegTips> Начално време трябва да е по-ранно от крайно време.</jsTimeSegmentErrorSegTips>
+			<laCopyToChannel>Копиране към камера</laCopyToChannel>
+			<UserNameLengthTips> Дължината трябва да е по-малка от 16.</UserNameLengthTips>
+			<OffLineTips>Офлайн</OffLineTips>
+			<OverlappedTips> Не може да се презастъпват</OverlappedTips>
+			<LocalTips>Локален</LocalTips>
+			<DIPAddInvalidTips>Първия сегмент от IP адреса трябва да е число между 1 и 233.</DIPAddInvalidTips>
+			<tipsNormal>Нормален</tipsNormal>
+			<jsEmailAdd>E-мейл адрес</jsEmailAdd>
+			<jsUploadSuc>Успешно качване</jsUploadSuc>
+			<jsUploadFailed>Неуспешно качване</jsUploadFailed>
+		</Js>
+		<General>
+			<geUserName tag="label;" length="150">Потреб. Име</geUserName>
+			<gePassword tag="label;" length="150">Парола</gePassword>
+			<laTimerange tag="label;" length="100">Период</laTimerange>
+			<CoverStartMapbutton tag="input;" length="74">Оч. зона</CoverStartMapbutton>
+			<CoverTimebutton tag="input;" length="74">Премахни вс.</CoverTimebutton>
+			<laServerAdd tag="label;" length="150">Адрес на сървър</laServerAdd>
+			<laIpAddress>IP адрес</laIpAddress>
+			<aMoveDetection tag="a;" length="9999">Детекция движение</aMoveDetection>
+			<laVideoTabDivBtn tag="label;" length="670">Настройки зона</laVideoTabDivBtn>
+			<trDisabled>Забранен</trDisabled>
+			<WholeDayRecordTypeOpt1 tag="option;" length="118">Нормален</WholeDayRecordTypeOpt1>
+			<WholeDayRecordTypeOpt3 tag="option;" length="118">Аларма</WholeDayRecordTypeOpt3>
+			<WholeDayRecordTypeOpt4 tag="option;" length="118">Движ. или Аларма</WholeDayRecordTypeOpt4>
+			<WholeDayRecordTypeOpt5 tag="option;" length="118">Движ. и Аларма</WholeDayRecordTypeOpt5>
+			<laEnableWholeDayRecord tag="label;" length="87">Целодн. сн.</laEnableWholeDayRecord>
+			<laEnableWholeDayCapture tag="label;" length="87">Целодн. сн.</laEnableWholeDayCapture>
+			<laSectionRecord tag="label;" length="578">Избор</laSectionRecord>
+			<laSectionCapture tag="label;" length="578">Избор</laSectionCapture>
+			<laWholeDayRecordType tag="label;" length="149">Тип запис</laWholeDayRecordType>
+			<laWholeDayCaptureType tag="label;" length="149">Тип снимки</laWholeDayCaptureType>
+			<constantBitRateOpt23>Промяна</constantBitRateOpt23>
+			<Other>Други</Other>
+		</General>
+	</Common>
+	<ParamConfig>
+		<Page>
+		</Page>
+		<Js>
+			<Success1>Успешен запис.</Success1>
+			<Success2>Успешен запис. Рестартиране сега?</Success2>
+			<DeleteSuccTips>Файлът е изтрит.</DeleteSuccTips>
+			<Success4>Файлът е изтрит. Рестартиране?</Success4>
+			<Success5>Успешна операция! Рестартирайте за валидация на промените.</Success5>
+			<Error1>Неуспешно прилагане на настройки.</Error1>
+			<Error2>Неуспешно четене на настройки.</Error2>
+			<Error3>Невалидно XML съдържание.</Error3>
+			<Error4>Невалиден XML формат.</Error4>
+			<Error5>Невалидна операция.</Error5>
+			<Error6>Устройство грешка.</Error6>
+			<Error7>Устройството е заето.</Error7>
+			<jsNetworkAbnormal>Проблем с мрежата</jsNetworkAbnormal>
+			<Error10>Няма аларм вход./изход. канал</Error10>
+			<Error11>Грешка потребител/парола.</Error11>
+			<Error12>Грешен метод</Error12>
+			<Error13>Грешка в параметри.</Error13>
+			<Error14>Невалиден URL или HTTP.</Error14>
+			<Error400>Грешка: мрежата е прекъсната или анормална.</Error400>
+			<Error44> Грешни параметри</Error44>
+			<Error55>Настр. камера</Error55>
+			<Error66>Настр. аларм. параметри</Error66>
+			<Error77>Камерата не поддържа тази функция.</Error77>
+			<Ask>Устройството ще се рестартира автоматично след запис на параметрите. Продължавате ли?</Ask>
+			<Ask1>Изтриване на потребител?</Ask1>
+			<RestartTips>Параметрите са променени. Рестарт сега?</RestartTips>
+			<RestartSuccessTips>Рестартиране...</RestartSuccessTips>
+			<RestartFailedTips>Неуспешен рестарт на у-вото</RestartFailedTips>
+		</Js>
+	</ParamConfig>
+</ParamConfig>
+

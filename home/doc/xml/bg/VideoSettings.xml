@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<VideoSettings>
+	<Common>
+		<Page>
+			<aBaseVideoSettings tag="a;" length="9999">Настройки дисплей</aBaseVideoSettings>
+			<aOSDSettings tag="a;" length="9999">OSD настройки</aOSDSettings>
+			<aTextOverlay tag="a;" length="9999">Текст върху видео</aTextOverlay>
+			<aVideoMask tag="a;" length="9999">Лични зони</aVideoMask>
+			<aModeCenter tag="option;" length="176">Център</aModeCenter>
+			<aOSDFontSizeOpt2 tag="option;" length="178">Средно</aOSDFontSizeOpt2>
+			<apicinformChannel>Избор на камера</apicinformChannel>
+			<laVideoPreview>Преглед на живо</laVideoPreview>
+			<aPictureOverlay>Налагане на изображение</aPictureOverlay>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laXpos>Х координата</laXpos>
+			<laYpos>Y координата</laYpos>
+		</General>
+	</Common>
+	<BaseVideoSettings>
+		<Page>
+			<laSpanTitle>Параметри на резолюцията на клиент</laSpanTitle>
+			<laVideoEffect>Екранни параметри</laVideoEffect>
+			<laGain tag="label;" length="120">Усилване</laGain>
+			<laShutter tag="label;" length="120">Време експозиция</laShutter>
+			<laFocusMode tag="label;" length="308">Фокус режим</laFocusMode>
+			<laFocusLimited tag="label;" length="308">Фокус лимит</laFocusLimited>
+			<laIrisMode tag="label;" length="120">Тип експозиция</laIrisMode>
+			<laIrisLevel tag="label;" length="308">Ирис</laIrisLevel>
+			<laPowerLine tag="label;" length="120">Видео стандарт</laPowerLine>
+			<laDayNightFilter tag="label;" length="120">Превкл. Ден/Нощ</laDayNightFilter>
+			<laDayToNight tag="label;" length="120">Чувствителност</laDayToNight>
+			<laFilterTime tag="label;" length="120">Време превключване</laFilterTime>
+			<laImageFlip tag="label;" length="120">Огледал.</laImageFlip>
+			<laDSS tag="label;" length="308">Бавен затвор</laDSS>
+			<laDSSLevel tag="label;" length="308">Ниво бавен затвор</laDSSLevel>
+			<laWDR tag="label;" length="120">WDR</laWDR>
+			<laWDRLevel1 tag="label;" length="308">Широк дин. ниво 1</laWDRLevel1>
+			<laWDRLevel2 tag="label;" length="308">Широк дин. ниво 2</laWDRLevel2>
+			<laWDRContrast tag="label;" length="308">Ниво WDR контраст</laWDRContrast>
+			<laBLC>BLC</laBLC>
+			<laBLCMode tag="label;" length="308">BLC зона</laBLCMode>
+			<laBLCLevel tag="label;" length="308">BLC ниво</laBLCLevel>
+			<laWhiteBlance tag="label;" length="120">Баланс на бялото</laWhiteBlance>
+			<laWhiteBlanceRed tag="label;" length="308">Усилване WB ниво R</laWhiteBlanceRed>
+			<laWhiteBlanceBlue tag="label;" length="308">Усилване WB ниво B</laWhiteBlanceBlue>
+			<laNosiseReduce tag="label;" length="308">Намал. цифр. шум</laNosiseReduce>
+			<laGeneralLevel tag="label;" length="308">Намал. ниво на шум</laGeneralLevel>
+			<laInterFrameNoiseReduce tag="label;" length="308">DNR ниво</laInterFrameNoiseReduce>
+			<laFrameNoiseReduce tag="label;" length="308">Space DNR ниво</laFrameNoiseReduce>
+			<IrisFirst>Приоритет на ириса</IrisFirst>
+			<ShutterFirst>Приоритет на затвора</ShutterFirst>
+			<GainFirst>Приоритет усилв.</GainFirst>
+			<FocusModeAutoManual>Полу-авто</FocusModeAutoManual>
+			<IrcutFilterTypeDay tag="option;" length="176">Ден</IrcutFilterTypeDay>
+			<IrcutFilterTypeNight tag="option;" length="176">Нощ</IrcutFilterTypeNight>
+			<ImageFlipStyleLR tag="option;" length="176">Ляв/Десен</ImageFlipStyleLR>
+			<ImageFlipStyleUD tag="option;" length="176">Нагоре/Надолу</ImageFlipStyleUD>
+			<BLCModeUp>Нагоре</BLCModeUp>
+			<BLCModeDown>Надолу</BLCModeDown>
+			<BLCModeLeft>Наляво</BLCModeLeft>
+			<BLCModeRight>Надясно</BLCModeRight>
+			<WhiteBlanceStyleAuto tag="option;" length="176">Авто</WhiteBlanceStyleAuto>
+			<WhiteBlanceStyle1 tag="option;" length="176">AWB1</WhiteBlanceStyle1>
+			<WhiteBlanceStyle2 tag="option;" length="176">AWB2</WhiteBlanceStyle2>
+			<WhiteBlanceStyleManual>MWB</WhiteBlanceStyleManual>
+			<AutoTracing>Автоматичен WB</AutoTracing>
+			<NosiseReduceGeneral>Нормален режим</NosiseReduceGeneral>
+			<NosiseReduceAdvanced>Режим експерт</NosiseReduceAdvanced>
+			<ImageResetbutton>Ресет механичен ход</ImageResetbutton>
+			<ImageRestorebutton>Възстановяване</ImageRestorebutton>
+			<laScene tag="label;" length="120">Режим на откр./закр.</laScene>
+			<SceneOptionIndoor tag="option;" length="176">На закрито</SceneOptionIndoor>
+			<SceneOptionOutdoor tag="option;" length="176">На открито</SceneOptionOutdoor>
+			<laAutoIrisLevel tag="label;" length="308">Ниво авто-ирис</laAutoIrisLevel>
+			<laEnableDehaze>Активиране Анти-мъгла</laEnableDehaze>
+			<laDehazeLevel>Ниво Анти-мъгла</laDehazeLevel>
+			<laEPTZ>E-PTZ</laEPTZ>
+			<laZoomLimit>Предел на изменения в мащаба</laZoomLimit>
+			<laEIS>EIS</laEIS>
+			<SodiumLight>с нажежаема жичка</SodiumLight>
+			<MercuryLight>Живачна лампа</MercuryLight>
+			<Onepush>С един бутон</Onepush>
+			<laIRLightMode>Режим ИЧ осветление</laIRLightMode>
+			<laIRLightBright>ИЧ осветеност</laIRLightBright>
+			<laIRLightSen>Чувствителност ИЧ осветеност</laIRLightSen>
+			<laExposureType>Режим експозиция</laExposureType>
+			<laShutterLevel>Затвор</laShutterLevel>
+			<laEISLevel>Ниво на EIS</laEISLevel>
+			<laChromaSuppress>Подаване на сигнал за цветност</laChromaSuppress>
+			<laHLC>HLC</laHLC>
+			<laHLCLevel>Ниво на HLC</laHLCLevel>
+			<laExpComp>Компенсация на експонация</laExpComp>
+			<laGamaCorrect>Удаленное управление</laGamaCorrect>
+			<laSharpnessMode>Режим на настройка на рязкостта</laSharpnessMode>
+			<laDecodeMode>Режим на корекция</laDecodeMode>
+			<laSoftware>Софтуер</laSoftware>
+			<laHardware>Хардуер</laHardware>
+			<laEnhancement>Покачване нивото на осветеност</laEnhancement>
+			<laGrayScale>Оттенък на сивото</laGrayScale>
+			<Schedule>График</Schedule>
+			<EventTrigger>Включване по аларма</EventTrigger>
+			<laOverExposeSuppress>Предотвратяване на преекспонирането</laOverExposeSuppress>
+			<daylightLamp>Флуоресцентна лампа</daylightLamp>
+			<laTriggerMode>Статус</laTriggerMode>
+			<OutdoorAuto>Авто-навън</OutdoorAuto>
+			<SodiumLightAuto>Авто-натриева лампа</SodiumLightAuto>
+			<WarmLightLamp>Лампа с мека светлилна</WarmLightLamp>
+			<NaturalLight>Естествена лампа</NaturalLight>
+			<IncandescentLamp>Incandescent Lamp</IncandescentLamp>
+			<WBLocked>Заключена WB</WBLocked>
+		</Page>
+		<Js>
+			<jsResetimage>Рестартиране на имидж?</jsResetimage>
+			<jsResetSucceed>Ресет-а приключи успешно.</jsResetSucceed>
+			<jsResetFailed>Неуспешен ресет на механичен ход</jsResetFailed>
+			<jsResetWaiting>Механичния ход се ресетва...</jsResetWaiting>
+			<jsRestoreimage>Връщане настр. подразбиране на имидж?</jsRestoreimage>
+			<jsRestoreSucceed>Успешно връщане на настр. подразбиране на механичен ход.</jsRestoreSucceed>
+			<jsRestoreFailed>Неуспешно връщане на настр. подразбиране на механичен ход.</jsRestoreFailed>
+			<jsRestoreWaiting>Връщане настройки подразбиране на механ. ход...</jsRestoreWaiting>
+			<jsScheduleTimeRange>Минималният интервал между началния и крайния час е 10 секунди.</jsScheduleTimeRange>
+		</Js>
+	</BaseVideoSettings>
+	<OSDSettings>
+		<Page>
+			<laSpanTitle>Настройки дисплей</laSpanTitle>
+			<laOSDConfig>OSD настройки</laOSDConfig>
+			<laIsShowChanNme tag="label;" length="120">Показва име на камера</laIsShowChanNme>
+			<laIsShowOSD tag="label;" length="120">Показва Дата</laIsShowOSD>
+			<laIsShowWeek tag="label;" length="120">Показва седмица</laIsShowWeek>
+			<laHourOSDType tag="label;" length="120">Формат  време</laHourOSDType>
+			<HourOSDTypeOpt1 tag="option;" length="176">12-часа</HourOSDTypeOpt1>
+			<HourOSDTypeOpt2 tag="option;" length="176">24-часа</HourOSDTypeOpt2>
+			<laOSDType tag="label;" length="120">Формат дата</laOSDType>
+			<OSDTypeOpt1 tag="option;" length="176">ГГГГ-ММ-ДД</OSDTypeOpt1>
+			<OSDTypeOpt2 tag="option;" length="176">ММ-ДД-ГГГГ</OSDTypeOpt2>
+			<OSDTypeOpt3 tag="option;" length="176">ГГГГ ММ ДД</OSDTypeOpt3>
+			<OSDTypeOpt4 tag="option;" length="176">ММ ДД ГГГГ</OSDTypeOpt4>
+			<OSDTypeOpt5 tag="option;" length="176">ДД-ММ-ГГГГ</OSDTypeOpt5>
+			<OSDTypeOpt6 tag="option;" length="176">ДД ММ ГГГГ</OSDTypeOpt6>
+			<OSDTypeOpt7 tag="option;" length="176">ММ/ДД/ГГГГ</OSDTypeOpt7>
+			<OSDTypeOpt8 tag="option;" length="176">ГГГГ/ММ/ДД</OSDTypeOpt8>
+			<OSDTypeOpt9 tag="option;" length="176">ДД/ММ/ГГГГ</OSDTypeOpt9>
+			<laChannelNameXPos>Име на камера Х-коорд.</laChannelNameXPos>
+			<laChannelNameYPos>Име на камера Y-коорд.</laChannelNameYPos>
+			<laOSDAttrib tag="label;" length="120">OSD режим</laOSDAttrib>
+			<OSDAttribOpt1 tag="option;" length="176">Прозрачен &amp; Премигва</OSDAttribOpt1>
+			<OSDAttribOpt2 tag="option;" length="176">Прозрачен &amp; Не премигва</OSDAttribOpt2>
+			<OSDAttribOpt3 tag="option;" length="176">Непрозрачен &amp; Премигва</OSDAttribOpt3>
+			<OSDAttribOpt4 tag="option;" length="176">Непрозрачен &amp; Непремигва</OSDAttribOpt4>
+			<laOSDFontSize tag="label;" length="609">OSD размер</laOSDFontSize>
+			<OSDFontSizeOpt1 tag="option;" length="178">малък</OSDFontSizeOpt1>
+			<OSDFontSizeOpt3 tag="option;" length="178">Голям</OSDFontSizeOpt3>
+		</Page>
+		<Js>
+			<ChannelNameXTips>X-коорд. Име</ChannelNameXTips>
+			<ChannelNameYTips>Y-коорд. Име</ChannelNameYTips>
+		</Js>
+		<General>
+			<laOSDXPos>Х-коорд. Дата</laOSDXPos>
+			<laOSDYPos>Y-коорд. Дата</laOSDYPos>
+		</General>
+	</OSDSettings>
+	<TextOverlay>
+		<Page>
+			<laStringOverLay>Настройки на текст върху видео</laStringOverLay>
+			<laStrContent>Текст. Съдържание</laStrContent>
+		</Page>
+		<Js>
+			<CharNameLengthTips>Дължината трябва да е по-малка от 44.</CharNameLengthTips>
+		</Js>
+	</TextOverlay>
+	<VideoMask>
+		<Page>
+			<laUseCover tag="label;" length="308">Активиране Видео маска</laUseCover>
+		</Page>
+		<Js>
+		</Js>
+	</VideoMask>
+	<PictureOverlay>
+		<Page>
+			<laPicUpload>Ъплоуд на снимка</laPicUpload>
+			<laOverlaySetting>Настройка параметрите на налагане</laOverlaySetting>
+			<laEnablePicOverlay>Разреши налагане на изображение</laEnablePicOverlay>
+			<laPicWidth>Ширина на изображение</laPicWidth>
+			<laPicHeight>Височина на изображение</laPicHeight>
+		</Page>
+		<Js>
+		</Js>
+	</PictureOverlay>
+</VideoSettings>

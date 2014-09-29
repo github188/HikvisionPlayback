@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Αναπαραγωγή</title>
+		<SlowlyForward>Αργά προς τα εμπρός</SlowlyForward>
+		<FastForward>Γρήγορα προς τα εμπρός</FastForward>
+		<SingleFrame>Ένα καρέ</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Κατάσταση</laCurrentSpeed>
+		<laGotoTime>Μετάβαση</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Ρύθμ. διάρκ. αναπαρ.</laPlaybackTimeLocalizer>
+		<imgGotoTime>Αναπαραγωγή ανά γραμμή χρόνου</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Εντολή</RecordType1>
+		<RecordType2 tag="label;" length="704">Πρόγραμμα</RecordType2>
+		<RecordType3 tag="label;" length="704">Συναγερμός</RecordType3>
+		<RecordType4 tag="label;" length="704">Χειροκίνητα</RecordType4>
+		<PictureDownload tag="input;" length="32">Λήψη εικόνων </PictureDownload>
+		<RecordDownload tag="input;" length="32">Λήψη εγγραφής</RecordDownload>
+		<DVR>
+			<stopAll>Παύση όλων των αναπαραγωγών</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Αποτυχία παύσης αναπαραγωγής.</pausefailed>
+		<resumefailed>Ανεπιτυχής επαναφορά αναπαραγωγής.</resumefailed>
+		<stoprecord>Διακοπή αποκοπής</stoprecord>
+		<startRecord>Έναρξη αποκοπής</startRecord>
+		<stoprecordfailed>Αποτυχία διακοπής αποκοπής.</stoprecordfailed>
+		<startplayfailed>Ανεπιτυχής αναπαραγωγή.</startplayfailed>
+		<stopplayfailed>Αποτυχία διακοπής αναπαραγωγής.</stopplayfailed>
+		<jssingleframe>Αναπαραγωγή ανά καρέ</jssingleframe>
+		<jssingleframefailed>Ανεπιτυχής αναπαραγωγή ανά καρέ.</jssingleframefailed>
+		<stopCurrentWndPlay>Σταματήστε την αναπαραγωγή στο τρέχον παράθυρο πριν συνεχίσετε.</stopCurrentWndPlay>
+		<szTips1>Αποτυχία αναζήτησης αρχείων βίντεο.</szTips1>
+		<szTips3>Κανένα αρχείο εγγραφής.</szTips3>
+		<jsSearchFile>Αναζητήστε πρώτα το αρχείο.</jsSearchFile>
+		<jsSpeed>Ταχύτητα</jsSpeed>
+		<jsPauseAlready>Σε παύση</jsPauseAlready>
+		<jsPause>Παύση</jsPause>
+		<jsResume>Επαναφορά</jsResume>
+		<jsPlayBackError>Μη ομαλή αναπαραγωγή</jsPlayBackError>
+		<jsRecordError>Αποτυχία αποκοπής.</jsRecordError>
+		<jsPlaybackStop> Η αναπαραγωγή ολοκληρώθηκε.</jsPlaybackStop>
+		<jsPlayStopAbnormal> μη ομαλός τερματισμός αναπαραγωγής.</jsPlayStopAbnormal>
+		<jsDownload>Αναζητήστε το αρχείο για λήψη.</jsDownload>
+		<jsNotSupportDown>Η συσκευή δεν υποστηρίζει τη λήψη.</jsNotSupportDown>
+		<jsDownloadWnd>Το παράθυρο λήψης είναι ανοικτό.</jsDownloadWnd>
+		<jsClipSucc>Αποκοπή επιτυχής.</jsClipSucc>
+		<jsZoomIn>Σμίκρυνση</jsZoomIn>
+		<jsZoomOut>Μεγένθυνση</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Επιλέξτε κανάλι.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Αναπαραγωγή</gePlay>
+	</General>
+</Playback>

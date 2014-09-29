@@ -1,0 +1,122 @@
+﻿<?xml version="1.0"?>
+<PTZCfg>
+	<Common>
+		<Page>
+			<aPtzBasic tag="a;" length="9999">基本设置</aPtzBasic>
+			<aPtzLimit tag="a;" length="9999">限位</aPtzLimit>
+			<aPtzHomePos tag="a;" length="9999">零方位角</aPtzHomePos>
+			<aPtzParkAction tag="a;" length="9999">守望</aPtzParkAction>
+			<aPtzPrivacyMask tag="a;" length="9999">隐私遮蔽</aPtzPrivacyMask>
+			<aPtzTimeTasks tag="a;" length="9999">定时任务</aPtzTimeTasks>
+			<aPtzClearCfg tag="a;" length="9999">配置清除</aPtzClearCfg>
+			<btnGoto tag="input;" length="80">调用</btnGoto>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<autoScan tag="option;" length="200">自动扫描</autoScan>
+			<frameScan tag="option;" length="200">帧扫描</frameScan>
+			<randomScan tag="option;" length="200">随机扫描</randomScan>
+			<patrolScan tag="option;" length="200">巡航扫描</patrolScan>
+			<panoramaScan tag="option;" length="200">全景扫描</panoramaScan>
+			<tiltScan>垂直扫描</tiltScan>
+			<periodReboot>球机重启</periodReboot>
+			<periodAdjust>球机校验</periodAdjust>
+			<auxOutput>辅助输出</auxOutput>
+		</General>
+	</Common>
+	<PtzBasic>
+		<Page>
+			<laPtzBasic tag="label;" length="670">基本参数</laPtzBasic>
+			<laProportionZoom tag="label;" length="96">启用比例变倍配置</laProportionZoom>
+			<laImageFreeze tag="label;" length="108">启用预置点视频冻结</laImageFreeze>
+			<laPresetSpeed tag="label;" length="150">预置点速度等级</laPresetSpeed>
+			<laControlSpeed tag="label;" length="150">手控速度等级</laControlSpeed>
+			<laAutoScanSpeed tag="label;" length="150">扫描速度等级</laAutoScanSpeed>
+			<laPtzOSDDis tag="label;" length="670">PTZ OSD显示</laPtzOSDDis>
+			<laZoomLabel tag="label;" length="150">镜头倍数显示</laZoomLabel>
+			<laAzimuth tag="label;" length="150">方位角显示</laAzimuth>
+			<laPresetLable tag="label;" length="150">预置点标题显示</laPresetLable>
+			<speedLevelOpt1 tag="option;" length="198">2秒</speedLevelOpt1>
+			<speedLevelOpt2 tag="option;" length="198">5秒</speedLevelOpt2>
+			<speedLevelOpt3 tag="option;" length="198">10秒</speedLevelOpt3>
+			<speedLevelOpt4 tag="option;" length="198">常关</speedLevelOpt4>
+			<speedLevelOpt5 tag="option;" length="198">常开</speedLevelOpt5>
+			<laSavePowerOff tag="label;" length="670">掉电记忆</laSavePowerOff>
+			<laSavePowerType tag="label;" length="150">掉电记忆模式</laSavePowerType>
+			<savePowerTypeOpt2 tag="option;" length="198">30秒</savePowerTypeOpt2>
+			<savePowerTypeOpt3 tag="option;" length="198">60秒</savePowerTypeOpt3>
+			<savePowerTypeOpt4 tag="option;" length="198">300秒</savePowerTypeOpt4>
+			<savePowerTypeOpt5 tag="option;" length="198">600秒</savePowerTypeOpt5>
+		</Page>
+		<Js>
+		</Js>
+	</PtzBasic>
+	<PtzLimiteds>
+		<Page>
+			<laEnableLimit tag="label;" length="134">启用限位</laEnableLimit>
+			<laLimitType tag="label;" length="150">限位模式</laLimitType>
+			<limitTypeOpt1 tag="option;" length="198">键控限位</limitTypeOpt1>
+			<limitTypeOpt2 tag="option;" length="198">扫描限位</limitTypeOpt2>
+			<laLimitStatus tag="label;" length="150">限位状态</laLimitStatus>
+		</Page>
+		<Js>
+			<jsLimited>已限位</jsLimited>
+			<jsNoLimited>未限位</jsNoLimited>
+		</Js>
+	</PtzLimiteds>
+	<ParkAction>
+		<Page>
+			<laEnabledPark tag="label;">开启守望</laEnabledPark>
+			<laParkTime tag="label;" length="150">守望等待时间</laParkTime>
+			<laActionType tag="label;" length="150">守望模式</laActionType>
+			<laActionNum tag="label;" length="150">守望模式编号</laActionNum>
+		</Page>
+		<Js>
+		</Js>
+	</ParkAction>
+	<PrivacyMask>
+		<Page>
+			<laEnablePrivacyMask tag="label;">启用隐私遮蔽</laEnablePrivacyMask>
+			<laPrivacyMaskList tag="label;">隐私遮蔽区域列表</laPrivacyMaskList>
+			<laPrivacyMaskTitle tag="label;" length="246">隐私块标题</laPrivacyMaskTitle>
+			<gray tag="option;">灰色</gray>
+			<red tag="option;">红色</red>
+			<green tag="option;">绿色</green>
+			<blue tag="option;">蓝色</blue>
+			<orange tag="option;">橙色</orange>
+			<yellow tag="option;">黄色</yellow>
+			<mosaic tag="option;">马赛克</mosaic>
+		</Page>
+		<Js>
+			<tipsSelectPrimary>点击调用此隐私块</tipsSelectPrimary>
+		</Js>
+	</PrivacyMask>
+	<TimeTasks>
+		<Page>
+			<laEnabledTimeTasks tag="label;">启用定时任务</laEnabledTimeTasks>
+			<laTimeTask tag="label;" length="150">任务恢复时间</laTimeTask>
+			<laTimingTasks tag="label;" length="150">定时任务</laTimingTasks>
+			<btnEditingTasks tag="input;" length="80">编辑任务</btnEditingTasks>
+			<laTaskCaption tag="label;">说明：红色和绿色仅用于标示相邻的定时任务。</laTaskCaption>
+			<trTaskType>任务模式</trTaskType>
+			<trTaskNum>任务模式编号</trTaskNum>
+		</Page>
+		<Js>
+		</Js>
+	</TimeTasks>
+	<ClearCfg>
+		<Page>
+			<laAllPreset tag="label;">清除所有的预置点</laAllPreset>
+			<laAllPatrol tag="label;">清除所有的巡航路径</laAllPatrol>
+			<laAllPattern tag="label;">清除所有的花样扫描</laAllPattern>
+			<laAllMasks tag="label;">清除所有的隐私块</laAllMasks>
+			<laAllLimit tag="label;">清除所有的限位设置</laAllLimit>
+			<laAllTasks tag="label;">清除所有的定时任务</laAllTasks>
+			<laAllPark>清除所有的守望</laAllPark>
+		</Page>
+		<Js>
+		</Js>
+	</ClearCfg>
+</PTZCfg>
+

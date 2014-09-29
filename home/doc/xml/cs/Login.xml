@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">Uživ. jméno</lausername>
+		<lapassword tag="label;" length="70">Heslo</lapassword>
+		<lalogin tag="label;" length="70">Přihlásit</lalogin>
+		<laAnonymous>Anonymní</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>Zadejte prosím uživ. jméno.</LoginTips1>
+		<LoginTips2>Uživ. jméno nemůže být delší než 16 znaků.</LoginTips2>
+		<LoginTips3>Heslo nemůže být delší než 16 znaků</LoginTips3>
+		<LoginTips4>Neplatné uživ. jméno nebo heslo. Zadejte je prosím znovu.</LoginTips4>
+		<LoginTips5>Vložte heslo</LoginTips5>
+		<NetworkErrorTips>Nestandardní síť</NetworkErrorTips>
+		<ConnectTimeoutTips>Připojení vypršelo</ConnectTimeoutTips>
+		<CookieTips>Nejprve povolte cookie prohlížeče.</CookieTips>
+	</Js>
+</Login>

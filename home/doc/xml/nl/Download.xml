@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>Bestand downloaden</title>
+		<picturetitle>Download foto</picturetitle>
+		<laFileName tag="label;" length="140">Bestandsnaam</laFileName>
+		<laFileSize tag="label;" length="90">Bestandsgrootte</laFileSize>
+		<laPictureData tag="label;" length="90">Bestandsdatum</laPictureData>
+		<laDownloadProcess tag="label;" length="90">Voortgang</laDownloadProcess>
+		<PictureType1>Normaal</PictureType1>
+		<PictureType2>Alarm</PictureType2>
+		<PictureType3>Beweging</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>Gedownload</Downloaded>
+		<jsNoPictureTip>Geen fotobestanden.</jsNoPictureTip>
+		<jsSearchPicFailed>Foto zoeken mislukt</jsSearchPicFailed>
+		<jsDownloadFailed>Fout! Downloaden mislukt.</jsDownloadFailed>
+		<jsTips1>Downloaden stoppen?</jsTips1>
+		<jsTips2>Selecteer het bestand dat u wilt downloaden.</jsTips2>
+	</Js>
+</Download>

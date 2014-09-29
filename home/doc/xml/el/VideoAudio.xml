@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<VideoAudio>
+	<Common>
+		<Page>
+			<aVideo tag="a;" length="9999">Βίντεο</aVideo>
+			<aAudio tag="a;" length="9999">Ήχος</aAudio>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<Video>
+		<Page>
+			<DVR>
+				<laSpanTitle>Ρυθμίσεις βίντεο</laSpanTitle>
+				<laSaving>Αποθήκευση...</laSaving>
+				<laEffectParam>Τύπος εισ. βίντ</laEffectParam>
+			</DVR>
+			<laInputResolution tag="label;" length="150">Ανάλυση κάμερας</laInputResolution>
+			<StreamTypeInOpt1 tag="option;" length="198">Κύρια ροή (κανον.)</StreamTypeInOpt1>
+			<StreamTypeInOpt2 tag="option;" length="198">Δευτερεύουσα ροή</StreamTypeInOpt2>
+			<StreamTypeInOpt3>Κύρια ροή (συμβάν)</StreamTypeInOpt3>
+			<laUseEventPram>Ενεργοποίηση παραμέτρων συμβάντων</laUseEventPram>
+			<StreamTypeOpt1 tag="option;" length="198">Ροή βίντεο</StreamTypeOpt1>
+			<StreamTypeOpt2 tag="option;" length="198">Εικόνα&amp;Ήχος</StreamTypeOpt2>
+			<laVideoQualityControlType tag="label;" length="150">Τύπος ρυθμ. μετ. bit</laVideoQualityControlType>
+			<videoQualityControlTypeOpt1 tag="option;" length="198">Μεταβλητό</videoQualityControlTypeOpt1>
+			<videoQualityControlTypeOpt2 tag="option;" length="198">Συνεχής</videoQualityControlTypeOpt2>
+			<lafixedQuality tag="label;" length="150">Ποιότητα βίντεο</lafixedQuality>
+			<fixedQualityOpt1 tag="option;" length="198">Ανώτατη</fixedQualityOpt1>
+			<fixedQualityOpt2 tag="option;" length="198">Υψηλότερη</fixedQualityOpt2>
+			<fixedQualityOpt3 tag="option;" length="198">Μεσαία</fixedQualityOpt3>
+			<fixedQualityOpt4 tag="option;" length="198">Χαμηλή</fixedQualityOpt4>
+			<fixedQualityOpt5 tag="option;" length="198">Χαμηλότερη</fixedQualityOpt5>
+			<fixedQualityOpt6 tag="option;" length="198">Κατώτατη</fixedQualityOpt6>
+			<laVideoFrameRate tag="label;" length="150">Ρυθμός καρέ</laVideoFrameRate>
+			<maxFrameRateOpt1>Πλήρ. ρυθμ. καρέ</maxFrameRateOpt1>
+			<laconstantBitRate tag="label;" length="150">Μέγ. ρυθμ. μετ. bit</laconstantBitRate>
+			<laVideoCodeType tag="label;" length="150">Κωδικοπ. βίντεο</laVideoCodeType>
+			<laIntervalBPFrame tag="label;" length="150">Τύπος καρέ</laIntervalBPFrame>
+			<laCodecComplexity tag="label;" length="150">Προφίλ</laCodecComplexity>
+			<optionQuality1>Βασικό προφίλ</optionQuality1>
+			<optionQuality2>Κύριο προφίλ</optionQuality2>
+			<optionQuality3>Υψηλό προφίλ</optionQuality3>
+			<trVideoType>Τύπος βίντεο</trVideoType>
+			<laEnableEventParam>Παράμετροι ενεργοποίησης συμπίεσης συμβάντων</laEnableEventParam>
+		</Page>
+		<Js>
+			<jsCustonBitRate>Προσ. ρυθμ. μετ. bit</jsCustonBitRate>
+		</Js>
+		<General>
+			<laIntervalFrameI tag="label;" length="150">Διάστημα καρέ I</laIntervalFrameI>
+			<laMulticast tag="label;" length="150">Διεύθ. πολλ. διαν.</laMulticast>
+		</General>
+	</Video>
+	<Audio>
+		<Page>
+			<laAudioEncoding tag="label;" length="150">Κωδικοπ. ήχου</laAudioEncoding>
+			<laAudioInput tag="label;" length="150">Είσοδος ήχου</laAudioInput>
+			<laAudioVolume>Ένταση</laAudioVolume>
+		</Page>
+		<Js>
+		</Js>
+	</Audio>
+</VideoAudio>

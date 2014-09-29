@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<Log>
+	<Page>
+		<title>Rechercher dans le journal</title>
+		<laLogSearch tag="label;" length="196">Rechercher dans le journal</laLogSearch>
+		<laSaveLog tag="label;" length="216">Enregistrer journal</laSaveLog>
+		<laLogTime tag="label;" length="131">Temps</laLogTime>
+		<laLogMajorType tag="label;" length="109">Type majeur</laLogMajorType>
+		<laLogMinorType tag="label;" length="109">Type mineur</laLogMinorType>
+		<laLogRemoteUser tag="label;" length="109">Utilisateur local/distant</laLogRemoteUser>
+		<laLogRemoteIP tag="label;" length="109">IP hôte distant</laLogRemoteIP>
+		<laLogLocalUser>Utilisateur local</laLogLocalUser>
+		<ImgSearch>Rechercher</ImgSearch>
+		<MajorTypeOptions>
+			<MajorTypeOpt1 tag="option;" length="198">Tous les types</MajorTypeOpt1>
+			<MajorTypeOpt2 tag="option;" length="198">Alarme</MajorTypeOpt2>
+			<MajorTypeOpt4 tag="option;" length="198">Opération</MajorTypeOpt4>
+		</MajorTypeOptions>
+		<MinorTypeAlarm>
+			<MinorTypeAlarmOpt1>All: Tous les types</MinorTypeAlarmOpt1>
+			<MinorTypeAlarmOpt2>alarmIn: Entrée alarme</MinorTypeAlarmOpt2>
+			<MinorTypeAlarmOpt3>alarmOut: Sortie alarme</MinorTypeAlarmOpt3>
+			<MinorTypeAlarmOpt4>motionStart: Démarrer détection mouvement</MinorTypeAlarmOpt4>
+			<MinorTypeAlarmOpt5>motionStop: Arrêter détection mouvement</MinorTypeAlarmOpt5>
+			<MinorTypeAlarmOpt6>hideStart: Démarrer antisabotage</MinorTypeAlarmOpt6>
+			<MinorTypeAlarmOpt7>hideStop: Arrêter antisabotage</MinorTypeAlarmOpt7>
+			<MinorTypeAlarmOpt8>vcaStart: démarrer alarme amplificateur commandé en tension</MinorTypeAlarmOpt8>
+			<MinorTypeAlarmOpt9>vcaStop: arrêter alarme amplificateur commandé en tension</MinorTypeAlarmOpt9>
+			<pirStart>Démarrer l’alarme PIR</pirStart>
+			<pirStop>Arrêter l’alarme PIR</pirStop>
+			<wlsensorStart>Démarrer l’alarme sans fil</wlsensorStart>
+			<wlsensorStop>Arrêter l’alarme sans fil</wlsensorStop>
+			<callhelpStart>Démarrer l’alarme d’urgence</callhelpStart>
+			<callhelpStop>Arrêter l’alarme d’urgence</callhelpStop>
+		</MinorTypeAlarm>
+		<MinorTypeException>
+			<MinorTypeExpOpt1>All: Tous les types</MinorTypeExpOpt1>
+			<MinorTypeExpOpt2>videoLost : perte de signal vidéo</MinorTypeExpOpt2>
+			<MinorTypeExpOpt3>illlegealAccess : Connexion illégale</MinorTypeExpOpt3>
+			<MinorTypeExpOpt4>hdFull: DD plein</MinorTypeExpOpt4>
+			<MinorTypeExpOpt5>hdError: Erreur DD</MinorTypeExpOpt5>
+			<MinorTypeExpOpt6>netBroken: réseau déconnecté</MinorTypeExpOpt6>
+			<MinorTypeExpOpt7>recordError: Erreur enreg./acquisition</MinorTypeExpOpt7>
+			<MinorTypeExpOpt8>ipConflict:Conflit d'adresse IP</MinorTypeExpOpt8>
+			<MinorTypeExpOpt9>videoException: exception de signal vidéo</MinorTypeExpOpt9>
+			<MinorTypeExpOpt10>videoFormatMismatch: normes vidéo différentes en entrée et en sortie</MinorTypeExpOpt10>
+			<MinorTypeExpOpt11>ipcDisconnect: Déconnexion caméra IP</MinorTypeExpOpt11>
+			<MinorTypeExpOpt12>ipcIpConfilict: Adresse IP des caméras présentant un conflit d'adresses IP</MinorTypeExpOpt12>
+			<MinorTypeExpOpt13>viAndResMismatch: non-concordance de résolution</MinorTypeExpOpt13>
+		</MinorTypeException>
+		<MinorTypeInformation>
+			<MinorTypeInforOpt1>All: Tous les types</MinorTypeInforOpt1>
+			<MinorTypeInforOpt2>hddInfo: Infos DD</MinorTypeInforOpt2>
+			<MinorTypeInforOpt3>startRec: démarrer enregistrement</MinorTypeInforOpt3>
+			<MinorTypeInforOpt4>stopRec: arrêter enregistrement</MinorTypeInforOpt4>
+			<MinorTypeInforOpt5>delExpiredRec: Supprimer fichier vidéo à expiration</MinorTypeInforOpt5>
+			<MinorTypeInforOpt6>nasInfo: infos DD réseau</MinorTypeInforOpt6>
+			<MinorTypeInforOpt7>smartInfo: infos S.M.A.R.T.</MinorTypeInforOpt7>
+			<MinorTypeInforOpt8>startPic: démarrer acquisition</MinorTypeInforOpt8>
+			<MinorTypeInforOpt9>stopPic: arrêter acquisition</MinorTypeInforOpt9>
+			<MinorTypeInforOpt10>raidInfo: RAID</MinorTypeInforOpt10>
+		</MinorTypeInformation>
+		<MinorTypeOperation>
+			<MinorTypeOperationOpt1>All: Tous les types</MinorTypeOperationOpt1>
+			<MinorTypeOperationOpt2>devicePowerOn: Sous tension</MinorTypeOperationOpt2>
+			<MinorTypeOperationOpt3>stopAbnormal: arrêt anormal</MinorTypeOperationOpt3>
+			<MinorTypeOperationOpt4>remotePowerOff: A distance : arrêter </MinorTypeOperationOpt4>
+			<MinorTypeOperationOpt5>remotePowerRecycle: A distance : redémarrer</MinorTypeOperationOpt5>
+			<MinorTypeOperationOpt6>remoteLogin: A distance : se connecter</MinorTypeOperationOpt6>
+			<MinorTypeOperationOpt7>remoteLogout: A distance : se déconnecter</MinorTypeOperationOpt7>
+			<MinorTypeOperationOpt8>remoteCfgPara: A distance: configurer paramètres </MinorTypeOperationOpt8>
+			<MinorTypeOperationOpt9>remoteUpgrade: A distance : mettre à niveau</MinorTypeOperationOpt9>
+			<MinorTypeOperationOpt10>remoteStartRec: Dém enr dist</MinorTypeOperationOpt10>
+			<MinorTypeOperationOpt11>remoteStopRec: Arr enr dist</MinorTypeOperationOpt11>
+			<MinorTypeOperationOpt12>remoteCtrlPtz: A distance : commande VPIZ</MinorTypeOperationOpt12>
+			<MinorTypeOperationOpt13>remoteLockFile: A distance: verrouiller fichier</MinorTypeOperationOpt13>
+			<MinorTypeOperationOpt14>remoteUnlockFile: A distance : déverrouiller fichier</MinorTypeOperationOpt14>
+			<MinorTypeOperationOpt15>remoteManulAlarm: Décl sort al dist</MinorTypeOperationOpt15>
+			<MinorTypeOperationOpt16>remoteFormatHd: A distance : initialiser DD </MinorTypeOperationOpt16>
+			<MinorTypeOperationOpt17>remotePlayByFile: A distance : lire par fichier</MinorTypeOperationOpt17>
+			<MinorTypeOperationOpt18>remotePlayByTime: A distance : lire selon heure</MinorTypeOperationOpt18>
+			<MinorTypeOperationOpt19>remoteDownloadCfgFile: Exp fich config dist</MinorTypeOperationOpt19>
+			<MinorTypeOperationOpt20>remoteUploadCfgFile:Imp fig config dist</MinorTypeOperationOpt20>
+			<MinorTypeOperationOpt21>remoteDownloadRecFile: Exp fich enr dist</MinorTypeOperationOpt21>
+			<MinorTypeOperationOpt22>remotePicBackUp: Exp fich im dist</MinorTypeOperationOpt22>
+			<MinorTypeOperationOpt23>remoteGetPara: A distance : obtenir paramètres</MinorTypeOperationOpt23>
+			<MinorTypeOperationOpt24>remoteGetStatus: A distance : obtenir état fonctionnement</MinorTypeOperationOpt24>
+			<MinorTypeOperationOpt25>remoteStartTransChan:Connecter canal transparent</MinorTypeOperationOpt25>
+			<MinorTypeOperationOpt26>remoteStopTransChan:Déconnecter canal transparent</MinorTypeOperationOpt26>
+			<MinorTypeOperationOpt27>startVoiceTalk: démarrer audio bidirectionnel</MinorTypeOperationOpt27>
+			<MinorTypeOperationOpt28>stopVoiceTalk: arrêter audio bidirectionnel</MinorTypeOperationOpt28>
+			<MinorTypeOperationOpt29>remoteArm: A distance : armement alarme</MinorTypeOperationOpt29>
+			<MinorTypeOperationOpt30>remoteDisArm: A distance : désarmement alarme</MinorTypeOperationOpt30>
+			<MinorTypeOperationOpt31>remoteAddNas: A distance : ajouter DD réseau</MinorTypeOperationOpt31>
+			<MinorTypeOperationOpt32>remoteDelNas : Suppr DD rés dist</MinorTypeOperationOpt32>
+			<MinorTypeOperationOpt33>remoteSetNas: A distance : déclarer DD réseau</MinorTypeOperationOpt33>
+			<MinorTypeOperationOpt34>remoteStartPicRec: Dém acq im dist</MinorTypeOperationOpt34>
+			<MinorTypeOperationOpt35>remoteStopPicRec: Arr acq im dist</MinorTypeOperationOpt35>
+			<MinorTypeOperationOpt36>remoteTagOperation: A distance : actionner étiquette</MinorTypeOperationOpt36>
+			<MinorTypeOperationOpt37>remoteAddIpc: A distance : ajouter caméra IP</MinorTypeOperationOpt37>
+			<MinorTypeOperationOpt38>remoteDelIpc: A distance : supprimer caméra IP</MinorTypeOperationOpt38>
+			<MinorTypeOperationOpt39>remoteSetIpc: A distance : déclarer caméra IP</MinorTypeOperationOpt39>
+			<MinorTypeOperationOpt40>remoteSetSnmp: A distance : configurer SNMP</MinorTypeOperationOpt40>
+			<DVR>
+				<DVRMinorTypeOperationOpt1>All: Tous les types</DVRMinorTypeOperationOpt1>
+				<DVRMinorTypeOperationOpt2>devicePowerOn: Sous tension</DVRMinorTypeOperationOpt2>
+				<DVRMinorTypeOperationOpt3>devicePowerOff: Locale : arrêt</DVRMinorTypeOperationOpt3>
+				<DVRMinorTypeOperationOpt4>deviceRecycle: Locale: redémarrer</DVRMinorTypeOperationOpt4>
+				<DVRMinorTypeOperationOpt5>stopAbnormal: Locale : arrêt anormal</DVRMinorTypeOperationOpt5>
+				<DVRMinorTypeOperationOpt6>localLogin: Locale: se connecter</DVRMinorTypeOperationOpt6>
+				<DVRMinorTypeOperationOpt7>localLogOut: Locale: se déconnecter</DVRMinorTypeOperationOpt7>
+				<DVRMinorTypeOperationOpt8>localCfgPara: Locale: configurer paramètres</DVRMinorTypeOperationOpt8>
+				<DVRMinorTypeOperationOpt9>localUpdate: Locale: mettre à niveau</DVRMinorTypeOperationOpt9>
+				<DVRMinorTypeOperationOpt10>localStartRec: Locale: arrêter enregistrement</DVRMinorTypeOperationOpt10>
+				<DVRMinorTypeOperationOpt11>localStopRec: Locale : arrêter enregistrement</DVRMinorTypeOperationOpt11>
+				<DVRMinorTypeOperationOpt12>localStartPicRec: Locale: démarrer acquisition</DVRMinorTypeOperationOpt12>
+				<DVRMinorTypeOperationOpt13>localStopPicRec: Locale: arrêter acquisition</DVRMinorTypeOperationOpt13>
+				<DVRMinorTypeOperationOpt14>localCtrlPtz: Locale: commande VPIZ</DVRMinorTypeOperationOpt14>
+				<DVRMinorTypeOperationOpt15>localLockFile: Locale: verrouiller fichier</DVRMinorTypeOperationOpt15>
+				<DVRMinorTypeOperationOpt16>localUnlockFile: Locale : déverrouiller fichier</DVRMinorTypeOperationOpt16>
+				<DVRMinorTypeOperationOpt17>localManulAlarm: Locale: démarrer alarme</DVRMinorTypeOperationOpt17>
+				<DVRMinorTypeOperationOpt18>localFormatDisk: Locale: initialiser DD</DVRMinorTypeOperationOpt18>
+				<DVRMinorTypeOperationOpt19>localPlayByFile: Locale: lire par fichier</DVRMinorTypeOperationOpt19>
+				<DVRMinorTypeOperationOpt20>localPlayByTime: Locale: lire selon heure</DVRMinorTypeOperationOpt20>
+				<DVRMinorTypeOperationOpt21>localDownloadCfgFile: Locale : exporter fichier config.</DVRMinorTypeOperationOpt21>
+				<DVRMinorTypeOperationOpt22>localUploadCfgFile: Locale : importer fichier config.</DVRMinorTypeOperationOpt22>
+				<DVRMinorTypeOperationOpt23>localDownloadRecFile: Locale: exporter fichier enreg.</DVRMinorTypeOperationOpt23>
+				<DVRMinorTypeOperationOpt24>localDownloadPicFile: Local: exporter fichier image</DVRMinorTypeOperationOpt24>
+				<DVRMinorTypeOperationOpt25>localAddNas: Locale: ajouter DD réseau</DVRMinorTypeOperationOpt25>
+				<DVRMinorTypeOperationOpt26>localDelNas: Locale: supprimer DD réseau</DVRMinorTypeOperationOpt26>
+				<DVRMinorTypeOperationOpt27>localSetNas: Locale: déclarer DD réseau</DVRMinorTypeOperationOpt27>
+				<DVRMinorTypeOperationOpt28>localResetPasswd: Locale : restaurer MdP admin</DVRMinorTypeOperationOpt28>
+				<DVRMinorTypeOperationOpt29>localTagOperation: Locale : actionner étiquette</DVRMinorTypeOperationOpt29>
+				<DVRMinorTypeOperationOpt30>remotePowerOff: A distance : arrêter </DVRMinorTypeOperationOpt30>
+				<DVRMinorTypeOperationOpt31>remotePowerRecycle: A distance : redémarrer</DVRMinorTypeOperationOpt31>
+				<DVRMinorTypeOperationOpt32>remoteLogin: A distance : se connecter</DVRMinorTypeOperationOpt32>
+				<DVRMinorTypeOperationOpt33>remoteLogout: A distance : se déconnecter</DVRMinorTypeOperationOpt33>
+				<DVRMinorTypeOperationOpt34>remoteCfgPara: A distance: configurer paramètres </DVRMinorTypeOperationOpt34>
+				<DVRMinorTypeOperationOpt35>remoteUpgrade: A distance : mettre à niveau</DVRMinorTypeOperationOpt35>
+				<DVRMinorTypeOperationOpt36>remoteStartRec: Dém enr dist</DVRMinorTypeOperationOpt36>
+				<DVRMinorTypeOperationOpt37>remoteStopRec: Arr enr dist</DVRMinorTypeOperationOpt37>
+				<DVRMinorTypeOperationOpt38>remoteCtrlPtz: A distance : commande VPIZ</DVRMinorTypeOperationOpt38>
+				<DVRMinorTypeOperationOpt39>remoteLockFile: A distance: verrouiller fichier</DVRMinorTypeOperationOpt39>
+				<DVRMinorTypeOperationOpt40>remoteUnlockFile: A distance : déverrouiller fichier</DVRMinorTypeOperationOpt40>
+				<DVRMinorTypeOperationOpt41>remoteManulAlarm: Décl sort al dist</DVRMinorTypeOperationOpt41>
+				<DVRMinorTypeOperationOpt42>remoteFormatHd: A distance : initialiser DD </DVRMinorTypeOperationOpt42>
+				<DVRMinorTypeOperationOpt43>remotePlayByFile: A distance : lire par fichier</DVRMinorTypeOperationOpt43>
+				<DVRMinorTypeOperationOpt44>remotePlayByTime: A distance : lire selon heure</DVRMinorTypeOperationOpt44>
+				<DVRMinorTypeOperationOpt45>remoteDownloadCfgFile: Exp fich config dist</DVRMinorTypeOperationOpt45>
+				<DVRMinorTypeOperationOpt46>remoteUploadCfgFile:Imp fig config dist</DVRMinorTypeOperationOpt46>
+				<DVRMinorTypeOperationOpt47>remoteDownloadRecFile: Exp fich enr dist</DVRMinorTypeOperationOpt47>
+				<DVRMinorTypeOperationOpt48>remotePicBackUp: Exp fich im dist</DVRMinorTypeOperationOpt48>
+				<DVRMinorTypeOperationOpt49>remoteGetPara: A distance : obtenir paramètres</DVRMinorTypeOperationOpt49>
+				<DVRMinorTypeOperationOpt50>remoteGetStatus: A distance : obtenir état fonctionnement</DVRMinorTypeOperationOpt50>
+				<DVRMinorTypeOperationOpt51>remoteStartTransChan:Connecter canal transparent</DVRMinorTypeOperationOpt51>
+				<DVRMinorTypeOperationOpt52>remoteStopTransChan:Déconnecter canal transparent</DVRMinorTypeOperationOpt52>
+				<DVRMinorTypeOperationOpt53>startVoiceTalk: démarrer canal audio bidirectionnel</DVRMinorTypeOperationOpt53>
+				<DVRMinorTypeOperationOpt54>stopVoiceTalk: arrêter canal audio bidirectionnel</DVRMinorTypeOperationOpt54>
+				<DVRMinorTypeOperationOpt55>remoteArm: A distance : armement alarme</DVRMinorTypeOperationOpt55>
+				<DVRMinorTypeOperationOpt56>remoteDisArm: A distance : désarmement alarme</DVRMinorTypeOperationOpt56>
+				<DVRMinorTypeOperationOpt57>remoteAddNas: A distance : ajouter DD réseau</DVRMinorTypeOperationOpt57>
+				<DVRMinorTypeOperationOpt58>remoteDelNas : Suppr DD rés dist</DVRMinorTypeOperationOpt58>
+				<DVRMinorTypeOperationOpt59>remoteSetNas: A distance : déclarer DD réseau</DVRMinorTypeOperationOpt59>
+				<DVRMinorTypeOperationOpt60>remoteStartPicRec: Dém acq im dist</DVRMinorTypeOperationOpt60>
+				<DVRMinorTypeOperationOpt61>remoteStopPicRec: Arr acq im dist</DVRMinorTypeOperationOpt61>
+				<DVRMinorTypeOperationOpt62>remoteTagOperation: A distance : actionner étiquette</DVRMinorTypeOperationOpt62>
+				<DVRMinorTypeOperationOpt63>localAddIpc: Locale: ajouter caméra IP</DVRMinorTypeOperationOpt63>
+				<DVRMinorTypeOperationOpt64>localDelIpc: Locale: supprimer caméra IP</DVRMinorTypeOperationOpt64>
+				<DVRMinorTypeOperationOpt65>localSetIpc: Locale: déclarer caméra IP</DVRMinorTypeOperationOpt65>
+				<DVRMinorTypeOperationOpt66>remoteAddIpc: A distance : ajouter caméra IP</DVRMinorTypeOperationOpt66>
+				<DVRMinorTypeOperationOpt67>remoteDelIpc: A distance : supprimer caméra IP</DVRMinorTypeOperationOpt67>
+				<DVRMinorTypeOperationOpt68>remoteSetIpc: A distance : déclarer caméra IP</DVRMinorTypeOperationOpt68>
+				<DVRMinorTypeOperationOpt69>localSetSnmp:Locale:configurer SNMP</DVRMinorTypeOperationOpt69>
+				<DVRMinorTypeOperationOpt70>remoteSetSnmp:A distance:configurer SNMP</DVRMinorTypeOperationOpt70>
+			</DVR>
+		</MinorTypeOperation>
+	</Page>
+	<Js>
+		<szTips1>Recherche dans le journal terminée.</szTips1>
+		<szTips3>Echec de la recherche.</szTips3>
+		<szTips5>Echec de création du fichier.</szTips5>
+		<Alarm>Alarme</Alarm>
+		<motionStart>Démarrer détection mouvement</motionStart>
+		<motionStop>Arrêter détection mouvement</motionStop>
+		<hideStart>Démarrer antisabotage</hideStart>
+		<hideStop>Arrêter antisabotage</hideStop>
+		<vcaStart>Démarrer alarme amplificateur commandé en tension</vcaStart>
+		<vcaStop>Arrêter alarme amplificateur commandé en tension</vcaStop>
+		<videoException>Exception de signal vidéo</videoException>
+		<videoFormatMismatch>Normes vidéo différentes en entrée et en sortie</videoFormatMismatch>
+		<viAndResMismatch>Incompatibilité de résolution</viAndResMismatch>
+		<ipcDisconnect>Déconnexion caméra IP</ipcDisconnect>
+		<ipcIpConfilict>Adresse IP des caméras présentant un conflit d'adresses IP</ipcIpConfilict>
+		<illlegealAccess>Connexion illégale</illlegealAccess>
+		<netBroken>Réseau déconnecté</netBroken>
+		<recordError>Exception d'enregistrement/acquisition</recordError>
+		<ipConflict>Conflit d'adresse IP</ipConflict>
+		<Infomation>Information</Infomation>
+		<hddInfo>Informations sur DD</hddInfo>
+		<smartInfo>Infos S.M.A.R.T.</smartInfo>
+		<startRec>Démarrer l'enregistrement</startRec>
+		<stopRec>Arrêter enregistrement</stopRec>
+		<delExpiredRec>Fichier vidéo à expiration supprimé</delExpiredRec>
+		<nasInfo>Infos DD réseau</nasInfo>
+		<startPic>Démarrer acquisition</startPic>
+		<stopPic>Arrêter acquisition</stopPic>
+		<raidInfo>RAID</raidInfo>
+		<Operation>Opération</Operation>
+		<devicePowerOn>Sous tension</devicePowerOn>
+		<devicePowerOff>Locale : arrêter</devicePowerOff>
+		<deviceRecycle>Locale : redémarrer</deviceRecycle>
+		<stopAbnormal>Locale : arrêt anormal</stopAbnormal>
+		<localLogin>Locale : se connecter</localLogin>
+		<localLogOut>Locale : se déconnecter</localLogOut>
+		<localCfgPara>Locale : configurer paramètres</localCfgPara>
+		<localUpdate>Locale : mettre à niveau</localUpdate>
+		<localStartRec>Locale : démarrer enregistrement</localStartRec>
+		<localStopRec>Locale : arrêter enregistrement</localStopRec>
+		<localStartPicRec>Locale : démarrer acquisition</localStartPicRec>
+		<localStopPicRec>Local : arrêter acquisition</localStopPicRec>
+		<localCtrlPtz>Locale : commande VPIZ</localCtrlPtz>
+		<localLockFile>Locale : verrouiller fichier</localLockFile>
+		<localUnlockFile>Locale : déverrouiller fichier</localUnlockFile>
+		<localManulAlarm>Locale : arrêter alarme</localManulAlarm>
+		<localFormatDisk>Locale : initialiser DD</localFormatDisk>
+		<localAddIpc>Locale : ajouter caméra IP</localAddIpc>
+		<localDelIpc>Locale : supprimer caméra IP</localDelIpc>
+		<localSetIpc>Locale : déclarer caméra IP</localSetIpc>
+		<localPlayByFile>Locale : lire par fichier</localPlayByFile>
+		<localPlayByTime>Locale : lire selon heure</localPlayByTime>
+		<localDownloadCfgFile>Locale : exporter fichier config.</localDownloadCfgFile>
+		<localUploadCfgFile>Locale : importer fichier config.</localUploadCfgFile>
+		<localDownloadRecFile>Locale : exporter fichier enreg.</localDownloadRecFile>
+		<localDownloadPicFile>Locale : exporter fichier image</localDownloadPicFile>
+		<localAddNas>Locale : ajouter disque dur réseau</localAddNas>
+		<localDelNas>Locale : supprimer DD réseau</localDelNas>
+		<localSetNas>Locale : déclarer DD réseau</localSetNas>
+		<localSetSnmp>Locale : configurer SNMP</localSetSnmp>
+		<localResetPasswd>Locale : restaurer MDP admin</localResetPasswd>
+		<localTagOperation>Locale : actionner étiquette</localTagOperation>
+		<remotePowerOff>A distance : arrêter</remotePowerOff>
+		<remotePowerRecycle>A distance : redémarrer</remotePowerRecycle>
+		<remoteLogin>A distance : se connecter</remoteLogin>
+		<remoteLogout>A distance : se déconnecter</remoteLogout>
+		<remoteCfgPara>A distance : configurer paramètres</remoteCfgPara>
+		<remoteUpgrade>A distance : mettre à niveau</remoteUpgrade>
+		<remoteStartRec>A distance : démarrer enregistrement</remoteStartRec>
+		<remoteStopRec>A distance : arrêter enregistrement</remoteStopRec>
+		<remoteCtrlPtz>A distance : commande VPIZ</remoteCtrlPtz>
+		<remoteLockFile>A distance : verrouiller fichier</remoteLockFile>
+		<remoteUnlockFile>A distance : déverrouiller fichier</remoteUnlockFile>
+		<remoteManulAlarm>A distance : déclencher sortie alarme</remoteManulAlarm>
+		<remoteFormatHd>A distance : initialiser DD</remoteFormatHd>
+		<remoteAddIpc>A distance : ajouter caméra IP</remoteAddIpc>
+		<remoteDelIpc>A distance : supprimer caméra IP</remoteDelIpc>
+		<remoteSetIpc>A distance : déclarer caméra IP</remoteSetIpc>
+		<remotePlayByFile>A distance : lecture par fichier</remotePlayByFile>
+		<remotePlayByTime>A distance : lecture selon heure</remotePlayByTime>
+		<remoteDownloadCfgFile>A distance : exporter fichier config.</remoteDownloadCfgFile>
+		<remoteUploadCfgFile>A distance : importer fichier config.</remoteUploadCfgFile>
+		<remoteDownloadRecFile>A distance : exporter enregistrement</remoteDownloadRecFile>
+		<remoteGetPara>A distance : obtenir paramètres</remoteGetPara>
+		<remoteGetStatus>A distance : obtenir état fonctionnement</remoteGetStatus>
+		<remoteStartTransChan>Etablir un canal transparent</remoteStartTransChan>
+		<remoteStopTransChan>Déconnecter le canal transparent</remoteStopTransChan>
+		<startVoiceTalk>Démarrer audio bidirectionnel</startVoiceTalk>
+		<stopVoiceTalk>Arrêter audio bidirectionnel</stopVoiceTalk>
+		<remoteArm>A distance : armement alarme</remoteArm>
+		<remoteDisArm>A distance : désarmer l'alarme</remoteDisArm>
+		<remoteAddNas>A distance : ajouter DD réseau</remoteAddNas>
+		<remoteDelNas>A distance : supprimer DD réseau</remoteDelNas>
+		<remoteSetNas>A distance : déclarer DD réseau</remoteSetNas>
+		<remotePicBackUp>A distance : exporter fichier image</remotePicBackUp>
+		<remoteStartPicRec>A distance : démarrer acquisition image</remoteStartPicRec>
+		<remoteStopPicRec>A distance : arrêter acquisition image</remoteStopPicRec>
+		<remoteSetSnmp>A distance : configurer SNMP</remoteSetSnmp>
+		<remoteTagOperation>A distance : actionner étiquette</remoteTagOperation>
+		<ExportFailedTips>Echec d'exportation des journaux.</ExportFailedTips>
+	</Js>
+</Log>

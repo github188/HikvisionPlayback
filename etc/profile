@@ -1,0 +1,66 @@
+PATH=.:/bin:/sbin:/dav
+
+if [ -f "/home/pidfile" ]; then
+	cd /
+else
+
+if [ ! -e /home/shellpid ] ; then
+if [ $HOME == "/" ] ; then
+
+/etc/S_udev
+sleep 1
+
+ROOTFS=`/bin/awk "\\$1==\"/dev/root\" {print \\$3}" /proc/mounts`
+if [ "$ROOTFS" == "" ] ; then
+	echo "==================== INITRAM_FS ===================="
+elif [ "$ROOTFS" != "nfs" ] ; then 
+	# awk[\042=" \047=']
+	MTDDEV=`/bin/awk "\\$4==\"\042filesystem\042\" {print \\$1}" /proc/mtd`
+	if [ "$MTDDEV" == "mtd2:" ] ; then 
+		/bin/mount -t jffs2 /dev/mtdblock2 /dav
+
+		if [ -e /dav/guirc.tar.gz ] ; then
+			/bin/tar -zxf /dav/guirc.tar.gz -C /home/
+			echo "decompress application package done."
+		fi
+		
+		if [ -e /dav/webs.tar.gz ] ; then
+			/bin/tar -zxf /dav/webs.tar.gz -C /opt/
+			echo "decompress IE control done."
+		fi
+
+	fi
+	if [ "$MTDDEV" == "mtd3:" ] ; then 
+		/bin/mount -t yaffs2 /dev/mtdblock3 /dav
+	fi
+	if [ "$MTDDEV" == "mtd4:" ] ; then 
+		/bin/mount -t yaffs2 /dev/mtdblock4 /dav
+	fi
+else 
+	echo "==================== NFS ROOT_FS ===================="
+fi 
+
+
+echo 90 > /proc/sys/vm/overcommit_ratio
+echo 2 > /proc/sys/vm/overcommit_memory
+
+echo 5 > /proc/sys/vm/dirty_ratio
+echo 2 > /proc/sys/vm/dirty_background_ratio
+#echo 10 > /proc/sys/vm/dirty_ratio
+#echo 5 > /proc/sys/vm/dirty_background_ratio
+#echo 200 > /proc/sys/vm/dirty_expire_centisecs
+#echo 200 > /proc/sys/vm/dirty_writeback_centisecs
+#echo 2048 > /proc/sys/vm/min_free_kbytes
+
+if [ -e /dav/initrun.sh ] ; then
+	cp /dav/initrun.sh /home/initrun.sh
+	/bin/chmod 777 /home/initrun.sh
+	/home/initrun.sh
+	echo "1" > /home/shellpid
+fi
+
+fi # end check $HOME is COM 
+fi # not need run this script again
+
+fi # end check pidfile
+#/bin/route add default gw 192.0.0.200

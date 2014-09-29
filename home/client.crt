@@ -1,0 +1,73 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: md5WithRSAEncryption
+        Issuer: C=IR, ST=WK, L=Wicklow, O=Camba, OU=changeme, CN=server/name=changeme/emailAddress=mail@host.domain
+        Validity
+            Not Before: Aug 30 15:22:25 2012 GMT
+            Not After : Aug 28 15:22:25 2022 GMT
+        Subject: C=IR, ST=WK, L=Wicklow, O=Camba, OU=changeme, CN=client/name=changeme/emailAddress=mail@host.domain
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:f0:a1:02:61:e0:9a:b4:d8:68:79:9c:26:a7:48:
+                    0a:93:0f:69:ff:9d:23:60:54:78:88:99:49:e7:3c:
+                    76:64:bb:7a:f5:03:2c:b7:ac:75:4b:33:ef:e2:e4:
+                    8a:4e:07:4b:85:59:20:92:25:d8:3c:79:98:a0:c9:
+                    40:eb:94:7c:09:83:1d:27:ac:6f:b9:d2:6f:1b:04:
+                    8a:c9:e3:9e:84:79:5b:1c:8f:f0:8c:2b:ad:e5:1c:
+                    9b:d4:81:e2:0d:61:6f:6c:96:d8:db:b1:c1:7e:fd:
+                    e8:b8:1e:74:9c:56:c4:d2:cc:f1:55:7d:61:59:c7:
+                    4a:10:0e:ef:ab:77:14:17:b7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                35:60:94:9B:50:FE:ED:C1:E1:7E:16:83:03:3A:1B:6D:35:B6:95:B8
+            X509v3 Authority Key Identifier: 
+                keyid:F6:A7:29:31:EF:17:63:C2:B5:44:E2:81:C1:22:ED:29:39:81:72:7B
+                DirName:/C=IR/ST=WK/L=Wicklow/O=Camba/OU=changeme/CN=server/name=changeme/emailAddress=mail@host.domain
+                serial:93:28:F9:A4:11:3D:59:EA
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: md5WithRSAEncryption
+        88:6c:33:58:43:47:c9:1e:72:5d:40:04:3a:1b:6c:ee:90:94:
+        f1:ca:80:54:14:92:3f:76:4d:4f:a9:7c:25:75:f9:78:b4:b9:
+        8f:ab:5c:97:16:3a:4a:d6:99:ee:16:65:16:c5:be:79:06:40:
+        fb:e4:bf:52:e5:48:ee:75:ef:87:19:3c:d8:55:7a:85:95:59:
+        a1:55:3f:e3:73:e1:64:e3:7b:b3:f8:ba:f4:79:ce:e8:17:52:
+        55:69:09:02:a3:d0:f0:9b:5c:c7:4e:1a:99:82:9c:db:60:a0:
+        1f:16:af:4b:48:30:57:8f:ca:4d:29:d3:0f:ec:cf:e1:32:80:
+        d2:bf
+-----BEGIN CERTIFICATE-----
+MIID7TCCA1agAwIBAgIBAjANBgkqhkiG9w0BAQQFADCBlDELMAkGA1UEBhMCSVIx
+CzAJBgNVBAgTAldLMRAwDgYDVQQHEwdXaWNrbG93MQ4wDAYDVQQKEwVDYW1iYTER
+MA8GA1UECxMIY2hhbmdlbWUxDzANBgNVBAMTBnNlcnZlcjERMA8GA1UEKRMIY2hh
+bmdlbWUxHzAdBgkqhkiG9w0BCQEWEG1haWxAaG9zdC5kb21haW4wHhcNMTIwODMw
+MTUyMjI1WhcNMjIwODI4MTUyMjI1WjCBlDELMAkGA1UEBhMCSVIxCzAJBgNVBAgT
+AldLMRAwDgYDVQQHEwdXaWNrbG93MQ4wDAYDVQQKEwVDYW1iYTERMA8GA1UECxMI
+Y2hhbmdlbWUxDzANBgNVBAMTBmNsaWVudDERMA8GA1UEKRMIY2hhbmdlbWUxHzAd
+BgkqhkiG9w0BCQEWEG1haWxAaG9zdC5kb21haW4wgZ8wDQYJKoZIhvcNAQEBBQAD
+gY0AMIGJAoGBAPChAmHgmrTYaHmcJqdICpMPaf+dI2BUeIiZSec8dmS7evUDLLes
+dUsz7+Lkik4HS4VZIJIl2Dx5mKDJQOuUfAmDHSesb7nSbxsEisnjnoR5WxyP8Iwr
+reUcm9SB4g1hb2yW2NuxwX796LgedJxWxNLM8VV9YVnHShAO76t3FBe3AgMBAAGj
+ggFLMIIBRzAJBgNVHRMEAjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5l
+cmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFDVglJtQ/u3B4X4WgwM6G201tpW4
+MIHJBgNVHSMEgcEwgb6AFPanKTHvF2PCtUTigcEi7Sk5gXJ7oYGapIGXMIGUMQsw
+CQYDVQQGEwJJUjELMAkGA1UECBMCV0sxEDAOBgNVBAcTB1dpY2tsb3cxDjAMBgNV
+BAoTBUNhbWJhMREwDwYDVQQLEwhjaGFuZ2VtZTEPMA0GA1UEAxMGc2VydmVyMREw
+DwYDVQQpEwhjaGFuZ2VtZTEfMB0GCSqGSIb3DQEJARYQbWFpbEBob3N0LmRvbWFp
+boIJAJMo+aQRPVnqMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDAN
+BgkqhkiG9w0BAQQFAAOBgQCIbDNYQ0fJHnJdQAQ6G2zukJTxyoBUFJI/dk1PqXwl
+dfl4tLmPq1yXFjpK1pnuFmUWxb55BkD75L9S5Ujude+HGTzYVXqFlVmhVT/jc+Fk
+43uz+Lr0ec7oF1JVaQkCo9Dwm1zHThqZgpzbYKAfFq9LSDBXj8pNKdMP7M/hMoDS
+vw==
+-----END CERTIFICATE-----

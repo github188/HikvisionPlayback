@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelConfig>
+	<AnalogChan>
+		<Page>
+			<laSpanTitle>模拟通道配置</laSpanTitle>
+		</Page>
+		<Js>
+		</Js>
+	</AnalogChan>
+	
+	<DigitalChan>
+		<Page>
+			<laSpanTitle>数字通道配置</laSpanTitle>
+			<laIpChanAddress>IP通道地址</laIpChanAddress>
+			<laDevicePort>管理端口</laDevicePort>
+			<laProtocol>协议</laProtocol>
+			<laIpChanNum>IP通道号</laIpChanNum>
+			<laRegModeType>注册模式</laRegModeType>
+			<RegModeTypeOpt>普通域名</RegModeTypeOpt>
+			<laQuickAdd>快速添加</laQuickAdd>
+			<laMaskAddress>子网掩码</laMaskAddress>
+			<laSerialNo>序列号</laSerialNo>
+			<laFirmware>固件版本</laFirmware>
+			<laDeviceChan>设备通道号</laDeviceChan>
+		</Page>
+		<Js>
+			<HostNameTips>域名</HostNameTips>
+			<OnLineTips>在线</OnLineTips>
+			<DeleteIpcTips>确定删除该IP通道信息？</DeleteIpcTips>
+			<DeleteErrorTips>删除失败</DeleteErrorTips>
+			<NoOperationTips>无此权限</NoOperationTips>
+			<InputIpTips>请输入IP地址！</InputIpTips>
+			<InputRightIpTips>请输入正确的IP地址！</InputRightIpTips>
+			<InputErrorIpTips>错误的IP，请重新输入！</InputErrorIpTips>
+			<IpChanExistTips>该数字通道已经存在！</IpChanExistTips>
+			<ChannelsAddTips>个通道，请重新选择。</ChannelsAddTips>
+			<ChannelExistTips> 通道:1, 已存在</ChannelExistTips>
+		</Js>
+		<General>
+			<geAdminPassword>管理员密码</geAdminPassword>
+		</General>
+	</DigitalChan>
+	
+	<ZeroChan>
+		<Page>
+			<laSpanTitle>零通道配置</laSpanTitle>
+			<laZeroChanEncode>启用零通道编码</laZeroChanEncode>
+			<laconstantBitRate>位率上限</laconstantBitRate>
+			<laVideoFramerate>最大帧率</laVideoFramerate>
+		    <laSplitMode>分割模式</laSplitMode>
+		    <laSplitTime>切换时间</laSplitTime>
+		    <laTimeMode1>不切换</laTimeMode1>
+		    <laChanOrder>通道顺序</laChanOrder>
+		    <defaultOrder>默认顺序</defaultOrder>								
+		</Page>
+		<Js>
+		</Js>  
+	</ZeroChan>
+</ChannelConfig>

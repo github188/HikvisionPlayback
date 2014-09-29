@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">Nome de utilizador</lausername>
+		<lapassword tag="label;" length="70">Pal-passe</lapassword>
+		<lalogin tag="label;" length="70">Login</lalogin>
+		<laAnonymous>Anónimo</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>Introduza o nome de utilizador.</LoginTips1>
+		<LoginTips2>Nome de utilizador não pode exceder 16 caracteres.</LoginTips2>
+		<LoginTips3>O comprimento da palavra-passe não pode ter mais de 16 carateres.</LoginTips3>
+		<LoginTips4>Nome de utilizador ou palavra-passe incorreta. Insira novamente.</LoginTips4>
+		<LoginTips5>Introduza a pal-passe</LoginTips5>
+		<NetworkErrorTips>Rede anormal</NetworkErrorTips>
+		<ConnectTimeoutTips>O tempo de ligação terminou.</ConnectTimeoutTips>
+		<CookieTips>Ative o cookie do navegador primeiro.</CookieTips>
+	</Js>
+</Login>

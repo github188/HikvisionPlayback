@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>Сваляне файл</title>
+		<picturetitle>Изтегляне на изображение</picturetitle>
+		<laFileName tag="label;" length="140">Име файл</laFileName>
+		<laFileSize tag="label;" length="90">Размер на файл</laFileSize>
+		<laPictureData tag="label;" length="90">Дата на създаване на файла</laPictureData>
+		<laDownloadProcess tag="label;" length="90">Статус</laDownloadProcess>
+		<PictureType1>По време</PictureType1>
+		<PictureType2>Аларма</PictureType2>
+		<PictureType3>Детекция движ.</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>Свален</Downloaded>
+		<jsNoPictureTip>Файловете за изображенията липсват.</jsNoPictureTip>
+		<jsSearchPicFailed>Неуспешно търсене картина.</jsSearchPicFailed>
+		<jsDownloadFailed>Проблем със свалянето!</jsDownloadFailed>
+		<jsTips1>Стоп сваляне?</jsTips1>
+		<jsTips2>Моля, изберете файл за сваляне</jsTips2>
+	</Js>
+</Download>

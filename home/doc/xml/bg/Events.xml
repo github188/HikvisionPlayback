@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Events>
+	<Common>
+		<Page>
+			<aBlockAlarm tag="a;" length="9999">Не се подправя</aBlockAlarm>
+			<aVideoLost tag="a;" length="9999">Няма видео</aVideoLost>
+			<aCapturePlan tag="a;" length="9999">Снапшот</aCapturePlan>
+			<aOtherAlarm>Друг сигнал за тревога</aOtherAlarm>
+			<laTimeTabDivBtn tag="label;" length="670">Време "под охрана"</laTimeTabDivBtn>
+			<laLinkageTabDivBtn tag="label;" length="670">Тип свързване</laLinkageTabDivBtn>
+			<laSensitivity tag="label;" length="85">Чувствит.</laSensitivity>
+			<!--<laCommonLinkage>Alarm Linking</laCommonLinkage>-->
+			<!--DVR的，需要修改DVR网页name-->
+			<laNormalLink tag="label;" length="215">Нормална свързаност</laNormalLink>
+			<laMonitorAlarm>Pop-up изображение на монитора.</laMonitorAlarm>
+			<laSoundAlarm tag="label;" length="130">Аудио предупреждение</laSoundAlarm>
+			<laUpload tag="label;" length="130">Уведом. център набл.</laUpload>
+			<laEmail tag="label;" length="130">Изпрати E-mail</laEmail>
+			<laLinkageAlarmOutput tag="label;" length="116">Превк. ал. изх.</laLinkageAlarmOutput>
+			<laScheduleEdit tag="label;">Редакция график</laScheduleEdit>
+			<laOtherLink tag="label;" length="271">Друга свързаност</laOtherLink>
+			<BlockSensitiveOpt1>Ниско</BlockSensitiveOpt1>
+			<BlockSensitiveOpt2>Средно</BlockSensitiveOpt2>
+			<BlockSensitiveOpt3>Високо</BlockSensitiveOpt3>
+			<laAlarmname tag="label;" length="150">Име Аларма</laAlarmname>
+			<laCopyalarm tag="label;" length="670">Копиране към аларма</laCopyalarm>
+			<laTrigglerecord tag="label;" length="130">Превкл. канал</laTrigglerecord>
+			<laUpdateToFTP tag="label;" length="130">Качи в FTP</laUpdateToFTP>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laCaptureInterval tag="label;" length="100">Интервал</laCaptureInterval>
+		</General>
+	</Common>
+	<MotionDetection>
+		<Page>
+			<laUseMotion tag="label;" length="133">Активиране детекция на движение</laUseMotion>
+			<laHighLight>Разреши динамичен анализ за движещи се обекти</laHighLight>
+		</Page>
+		<Js>
+		</Js>
+	</MotionDetection>
+	<TamperProof>
+		<Page>
+			<laUseKeepout tag="label;" length="671">Активиране видео вмешателство</laUseKeepout>
+		</Page>
+		<Js>
+		</Js>
+	</TamperProof>
+	<VideoLoss>
+		<Page>
+			<laUseVideoLost tag="label;" length="671">Активиране "загуба на видео"</laUseVideoLost>
+		</Page>
+		<Js>
+		</Js>
+	</VideoLoss>
+	<AlarmInput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Настройки алармен вход</laSpanTitle>
+			</DVR>
+			<laAlarminnumber tag="label;" length="150">Ал. вход No</laAlarminnumber>
+			<laAlarmtype tag="label;" length="150">Тип аларма</laAlarmtype>
+			<triggeringOpt1 tag="option;" length="198">NC</triggeringOpt1>
+			<triggeringOpt2 tag="option;" length="198">NO</triggeringOpt2>
+			<laTriggleptz tag="label;" length="212">PTZ реакция</laTriggleptz>
+			<laPresetnumer tag="label;" length="100">Ном. пресет</laPresetnumer>
+			<laCurisenumber tag="label;" length="100">Ном. патрул</laCurisenumber>
+			<laTrackid tag="label;" length="100">Шаблон №</laTrackid>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmInput>
+	<AlarmOutput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Настройки алармен изход</laSpanTitle>
+			</DVR>
+			<laAlarmoutnumber tag="label;" length="150">Алармен Изход</laAlarmoutnumber>
+			<laDefaultstate tag="label;" length="150">Статус подр.</laDefaultstate>
+			<defaultStateOpt1 tag="option;" length="198">Високо ниво</defaultStateOpt1>
+			<defaultStateOpt2 tag="option;" length="198">Ниско ниво</defaultStateOpt2>
+			<laTrigglestate tag="label;" length="150">Статус превкл.</laTrigglestate>
+			<outputState1 tag="option;" length="198">Пулс</outputState1>
+			<pulseDurationOpt1 tag="option;" length="198">5 сек</pulseDurationOpt1>
+			<pulseDurationOpt2 tag="option;" length="198">10сек</pulseDurationOpt2>
+			<pulseDurationOpt3 tag="option;" length="198">30 сек</pulseDurationOpt3>
+			<pulseDurationOpt4 tag="option;" length="198">1мин</pulseDurationOpt4>
+			<pulseDurationOpt5 tag="option;" length="198">2мин</pulseDurationOpt5>
+			<pulseDurationOpt6 tag="option;" length="198">5мин</pulseDurationOpt6>
+			<pulseDurationOpt7 tag="option;" length="198">10мин</pulseDurationOpt7>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmOutput>
+	<Exception>
+		<Page>
+			<DVR>
+				<laSpanTitle>Изключение</laSpanTitle>
+			</DVR>
+			<laExceptionType tag="label;" length="150">Тип Събитие</laExceptionType>
+			<ExceptionTypeOpt3 tag="option;" length="198">Изключена Мрежа</ExceptionTypeOpt3>
+			<ExceptionTypeOpt4 tag="option;" length="198">IP адрес конфликт</ExceptionTypeOpt4>
+			<ExceptionTypeOpt5 tag="option;" length="198">Неуспешно вл.</ExceptionTypeOpt5>
+			<ExceptionTypeOpt6>Несъответствие на стандарта на видео изхода</ExceptionTypeOpt6>
+			<ExceptionTypeOpt7>Изключение - видео сигнал</ExceptionTypeOpt7>
+			<ExceptionTypeOpt8>Изключение Запис/Снимка</ExceptionTypeOpt8>
+			<ExceptionTypeOpt9>Невалидна резолюция</ExceptionTypeOpt9>
+		</Page>
+		<Js>
+		</Js>
+	</Exception>
+	<Email>
+		<Page>
+			<DVR>
+				<laSpanTitle>Е-мейл</laSpanTitle>
+			</DVR>
+			<laServerAuthentication tag="label;" length="670">Оторизация</laServerAuthentication>
+			<laSMTPServer>SMTP Сървър</laSMTPServer>
+			<laUseSSL tag="label;" length="670">Актив.  SSL</laUseSSL>
+			<laMailInterval tag="label;" length="150">Интервал</laMailInterval>
+			<MailIntervalOpt1 tag="option;" length="198">2 сек</MailIntervalOpt1>
+			<MailIntervalOpt2 tag="option;" length="198">3 сек</MailIntervalOpt2>
+			<MailIntervalOpt3 tag="option;" length="198">4 сек</MailIntervalOpt3>
+			<MailIntervalOpt4 tag="option;" length="198">5 сек</MailIntervalOpt4>
+			<laAttachment tag="label;" length="314">Прикрепена снимка</laAttachment>
+			<laEmailAdd>E-мейл адрес</laEmailAdd>
+			<laChooseReceiver tag="label;" length="150">Избор приемник</laChooseReceiver>
+			<laReceiver tag="label;" length="670">Приемник</laReceiver>
+			<laSender tag="label;" length="670">От Име</laSender>
+			<ReceiverNumOpt1 tag="option;" length="198">Приемник1</ReceiverNumOpt1>
+			<ReceiverNumOpt2 tag="option;" length="198">Приемник2</ReceiverNumOpt2>
+			<ReceiverNumOpt3 tag="option;" length="198">Приемник3</ReceiverNumOpt3>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laSenderName tag="label;" length="150">От Име</laSenderName>
+			<laSenderAddress tag="label;" length="150">От E-mail Адрес</laSenderAddress>
+			<laReceiverName tag="label;" length="150">Приемник</laReceiverName>
+			<laReceiverAddress tag="label;" length="150">Receiver's Address</laReceiverAddress>
+			<laReceiverName1 tag="label;" length="150">Приемник1</laReceiverName1>
+			<laReceiverName2 tag="label;" length="150">Приемник2</laReceiverName2>
+			<laReceiverAddress1 tag="label;" length="150">Адрес Приемник1</laReceiverAddress1>
+			<laReceiverAddress2 tag="label;" length="150">Адрес Приемник2</laReceiverAddress2>
+			<laSMTPPort tag="label;" length="150">SMTP Порт</laSMTPPort>
+		</General>
+	</Email>
+	<CapturePlan>
+		<Page>
+			<laTimingCapture tag="label;" length="670">По време</laTimingCapture>
+			<laEventCapture tag="label;" length="670">По събитие</laEventCapture>
+			<laUseTimingCapture tag="label;" length="651">Активиране снимка на интервал</laUseTimingCapture>
+			<laUseEventCapture tag="label;" length="651">Активиране снимка при събитие</laUseEventCapture>
+			<laPictureCodecType tag="label;" length="100">Формат</laPictureCodecType>
+			<laPictureQuality tag="label;" length="100">Качество</laPictureQuality>
+			<laMillisecond>милисекунди</laMillisecond>
+			<optionMillisecond tag="option;" length="78">милисекунди</optionMillisecond>
+			<optionMinute tag="option;" length="78">минути</optionMinute>
+			<optionHour tag="option;" length="78">Час</optionHour>
+			<laCaptureNum>Продълж. до засн.</laCaptureNum>
+		</Page>
+	</CapturePlan>
+	<OtherAlarm>
+		<Page>
+			<laEnableWirelessAlarm>Разрешете сигнал за тревога по безжичен път</laEnableWirelessAlarm>
+			<laEnablePIRAlarm>Разрешете сигнал за тревоги въз основа на данните от PIR датчика</laEnablePIRAlarm>
+			<laTriggerWirelessAlarm>Предайте сигнала за тревога по безжичен път</laTriggerWirelessAlarm>
+			<laLightAudioAlarm>Звуков и визуален сигнал за тревога по безжичен път</laLightAudioAlarm>
+			<laSelWirelessAlarm>Изберете сигнал за тревога по безжичен път</laSelWirelessAlarm>
+		</Page>
+	</OtherAlarm>
+</Events>

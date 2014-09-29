@@ -1,0 +1,72 @@
+.tabs {  
+	margin:0; 
+	padding:0;
+	height:26px;
+	height:25px !important;
+	border-bottom:1px solid #C2C2C2;	 	
+}
+
+/* single tab */
+.tabs li {  
+	float:left;	 
+	padding:0; 
+	margin:0;
+	list-style-type:none;
+	margin-right:2px;
+	border:1px solid #C2C2C2;
+	border-bottom:none;
+}
+
+.tabs .hideBorder {
+	border:none;
+}
+
+/* link inside the tab. uses a background image */
+.tabs a { 
+	float:left;
+	display:block;
+	padding:4px 7px;	
+	text-decoration:none;
+	
+	/*border-left:none;*/
+	background-color:#EEEEEE;
+	color:#383838;
+		
+	position:relative;
+	top:1px;
+	/*cxz*/
+	blr:expression(this.onFocus=this.blur());	
+	outline:none;
+	/*-moz-border-radius:4px 4px 0 0;
+	-webkit-border-radius:4px 4px 0 0;*/
+	
+	/*outline:none;*/
+}
+
+.tabs a:hover {
+	background-color:#F7F7F7;
+	color:#333;
+}
+	
+/* selected tab */
+.tabs a.current {
+	background-color:#FFFFFF;
+	border-bottom:2px solid #FFFFFF;	
+	cursor:default;
+}
+
+.tabs a.current:hover {
+	background-color:#FFFFFF;
+}
+
+.panes {
+	border:1px solid #C2C2C2;
+	border-width:0 1px 1px 1px;
+	padding:26px 20px 26px 20px;
+	background-color:#FFFFFF;
+}
+	
+/* tab pane */
+.pane {
+	display:none;
+}

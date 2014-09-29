@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">录像计划</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">存储管理</aHardDisk>
+			<laAdvancedRecordCfg>高级录像参数配置</laAdvancedRecordCfg>
+			<laExtractFrame>抽帧</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">磁盘号</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>不能添加两个相同的网络盘</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">文件路径</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg> 高级参数</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">启用录像计划</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">启用抓图计划</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">预录时间</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">不预录</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5秒</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10秒</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15秒</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20秒</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25秒</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30秒</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">不受限制</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">录像延时</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1分</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2分</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5分</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10分</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">冗余录像</laRedundancyRec>
+			<laRecordOverWrite>循环写入</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">否</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">是</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">记录音频</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">计划编辑</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">录像过期时间</geRecorderDuration>-->
+			<EndTimeRangeTips>结束时间不能大于24:00</EndTimeRangeTips>
+			<AdvancedTips>高级</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>硬盘管理</laSpanTitle>
+				<laHardDiskNo>硬盘号</laHardDiskNo>
+				<laDiskProperty>硬盘属性</laDiskProperty>
+				<laDiskGroup>所属盘组</laDiskGroup>
+				<laDiskInit>硬盘初始化</laDiskInit>
+				<laInitState>初始化状态</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="67">存储设备列表</laDiskTitle>
+			<laCapacity tag="label;" length="100">容量</laCapacity>
+			<laFreeSpace tag="label;" length="100">剩余空间</laFreeSpace>
+			<formatDisk tag="input;" length="74">格式化</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>当前模式下不支持编辑设备属性</tipsNotSupportEdit>
+				<tipsFormatRo>所选盘中有只读盘，不能进行初始化操作</tipsFormatRo>
+				<tipsDisk>硬盘</tipsDisk>
+			</DVR>
+			<tipsUnformatted>未初始化</tipsUnformatted>
+			<tipsError>异常</tipsError>
+			<tipsIdle>休眠</tipsIdle>
+			<tipsMismatch>不匹配</tipsMismatch>
+			<tipsFormatting>正在格式化</tipsFormatting>
+			<tipsNotexist>不存在</tipsNotexist>
+			<tipsFormatSelect>确定格式化硬盘？</tipsFormatSelect>
+			<tipsFormatAll>硬盘已初始化完毕！</tipsFormatAll>
+			<tipsFormatFailed>硬盘格式化失败！</tipsFormatFailed>
+			<tipsFormattingWait>正在格式化,请稍等...</tipsFormattingWait>
+			<tipsSelectDisk>请选择需要格式化的硬盘</tipsSelectDisk>
+			<tipsStorageMode>存储模式配置</tipsStorageMode>
+			<tipsArray>阵列</tipsArray>
+			<jsComplete>完成</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>可读写</tipsRW>
+			<tipsRO>只读</tipsRO>
+			<tipsRedund>冗余</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>网络硬盘</laSpanTitle>
+				<Property1Opt1>可读写</Property1Opt1>
+				<Property1Opt2>只读</Property1Opt2>
+				<Property1Opt3>冗余</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>设置磁盘</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>
+

@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<System>
+	<Common>
+		<Page>
+			<aDeviceInfo tag="a;" length="9999">Информации</aDeviceInfo>
+			<aTimeSettings tag="a;" length="9999">Настройки времени</aTimeSettings>
+			<aMaintain tag="a;" length="9999">Обслуживание</aMaintain>
+			<aTelecontrol>Пульт дистанционного управления</aTelecontrol>
+			<laDuplexmode>Дуплексный режим</laDuplexmode>
+			<duplexModeOpt1>Полудуплекс</duplexModeOpt1>
+			<duplexModeOpt2>Полный дуплекс</duplexModeOpt2>
+			<laBaudRate tag="label;" length="150">Скорость, бод</laBaudRate>
+			<laDataBits tag="label;" length="150">Бит даных</laDataBits>
+			<laStopRate tag="label;" length="150">Стоповый бит</laStopRate>
+			<laParityType tag="label;" length="150">Соответствие</laParityType>
+			<parityTypeOpt1 tag="option;" length="198">Отс.</parityTypeOpt1>
+			<parityTypeOpt2 tag="option;" length="198">Чётный</parityTypeOpt2>
+			<parityTypeOpt3 tag="option;" length="198">Нечётный</parityTypeOpt3>
+			<laFlowControl tag="label;" length="150">Контроль потока</laFlowControl>
+			<dataFlowControlOpt1 tag="option;" length="198">Отс.</dataFlowControlOpt1>
+			<dataFlowControlOpt2 tag="option;" length="198">Аппаратный</dataFlowControlOpt2>
+			<dataFlowControlOpt3 tag="option;" length="198">Программный контроль потока</dataFlowControlOpt3>
+			<laDST tag="label;" length="670">DST</laDST>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<DeviceInfo>
+		<Page>
+			<laBaseInfo tag="label;" length="670">Основная информация</laBaseInfo>
+			<laDeviceName tag="label;" length="150">Имя устройства</laDeviceName>
+			<laDeviceType tag="label;" length="148">Модель</laDeviceType>
+			<laDeviceSn tag="label;" length="148">Серийный №</laDeviceSn>
+			<laFirmwareVersion tag="label;" length="148">Версия прошивки</laFirmwareVersion>
+			<laLogicVersion tag="label;" length="148">Версия кодир.</laLogicVersion>
+			<laDiskNum tag="label;" length="148">Кол-во жестких дисков</laDiskNum>
+			<laAlarmInNum tag="label;" length="148">Кол-во трев. вх.</laAlarmInNum>
+			<laAlarmOutNum tag="label;" length="148">Кол-во трев. вых.</laAlarmOutNum>
+			<laParamType tag="label;" length="155">Параметр</laParamType>
+			<laParamValue tag="label;" length="526">Значение параметра</laParamValue>
+			<laSupportPnp>IPC plug and play</laSupportPnp>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laDeviceID tag="label;" length="150">Номер устройства</laDeviceID>
+		</General>
+	</DeviceInfo>
+	<DeviceStatus>
+		<Page>
+			<laDeviceStatus>Статус устройства</laDeviceStatus>
+			<laRecordStatus>Статус записи</laRecordStatus>
+			<laCodeStatus>Статус кодирования</laCodeStatus>
+			<laConnectStatus>Номер соед.</laConnectStatus>
+			<laRefresh>Обновить</laRefresh>
+		</Page>
+		<Js>
+			<tipsBusy>Занят</tipsBusy>
+			<RecordStatus1>Использовано</RecordStatus1>
+			<RecordStatus2>не использ.</RecordStatus2>
+		</Js>
+	</DeviceStatus>
+	<MenuOutput>
+		<Page>
+			<laMenuOutputMode>Menu Output</laMenuOutputMode>
+			<mainCVBS>Main CVBS</mainCVBS>
+		</Page>
+	</MenuOutput>
+	<TimeSettings>
+		<Page>
+			<DVR>
+				<laSpanTitle>Настройки времени</laSpanTitle>
+				<laEnableDST tag="label;" length="670">Вкл. DST</laEnableDST>
+			</DVR>
+			<laNtpTimeSync tag="label;" length="654">NTP</laNtpTimeSync>
+			<laNtpPort tag="label;" length="150">Порт NTP</laNtpPort>
+			<laNtpInterval tag="label;" length="150">Интервал</laNtpInterval>
+			<laSecond tag="label;" length="360">мин.</laSecond>
+			<laManualTimeSync tag="label;" length="670">Ручная синхронизация времени</laManualTimeSync>
+			<laDeviceTime tag="label;" length="150">Время на устройстве</laDeviceTime>
+			<laTimeZoneConfig>Параметры часового пояса</laTimeZoneConfig>
+			<laTimeZone tag="label;" length="150">Часовой пояс</laTimeZone>
+			<laDSTBias tag="label;" length="150">DST Bias</laDSTBias>
+			<timezoneOpt1 tag="option;" length="274">(GMT-12: 00) Международная линия смены дат</timezoneOpt1>
+			<timezoneOpt2 tag="option;" length="274">(GMT-11: 00) Мидуэй, Самоа</timezoneOpt2>
+			<timezoneOpt3 tag="option;" length="274">(GMT-10: 00) Гавайи</timezoneOpt3>
+			<timezoneOpt4 tag="option;" length="274">(GMT-09: 00) Аляска</timezoneOpt4>
+			<timezoneOpt5 tag="option;" length="274">(GMT-08:00) Тихоокеанское время (США и Канада)</timezoneOpt5>
+			<timezoneOpt6 tag="option;" length="274">(GMT-07:00) Mountain Time (US&amp;Canada)</timezoneOpt6>
+			<timezoneOpt7 tag="option;" length="274">(GMT-06:00) Central Time (US&amp;Canada)</timezoneOpt7>
+			<timezoneOpt8 tag="option;" length="274">(GMT-05:00) Eastern Time(US&amp;Canada)</timezoneOpt8>
+			<timezoneOpt9 tag="option;" length="274">(GMT-04: 30) Каракас</timezoneOpt9>
+			<timezoneOpt10 tag="option;" length="274">(GMT-08:00) Атлантическое время (США и Канада)</timezoneOpt10>
+			<timezoneOpt11 tag="option;" length="274">(GMT-03: 30) Ньюфаундленд</timezoneOpt11>
+			<timezoneOpt12 tag="option;" length="274">(GMT-03: 00) Georgetown</timezoneOpt12>
+			<timezoneOpt13 tag="option;" length="274">(GMT-02: 00) Срединно-Атлантического</timezoneOpt13>
+			<timezoneOpt14 tag="option;" length="274">(GMT-01: 00) Острова Зеленого Мыса, Азорские острова</timezoneOpt14>
+			<timezoneOpt15 tag="option;" length="274">(GMT +00:00) Дублин, Эдинбург, Лондон</timezoneOpt15>
+			<timezoneOpt16 tag="option;" length="274">(GMT +01:00) Амстердам, Берлин, Рим, Париж</timezoneOpt16>
+			<timezoneOpt17 tag="option;" length="274">(GMT +02:00) Афины, Иерусалим, Стамбул</timezoneOpt17>
+			<timezoneOpt18 tag="option;" length="274">(GMT +03:00) Санкт-Петербург, Москва, Ростов-на-Дону</timezoneOpt18>
+			<timezoneOpt19 tag="option;" length="274">(GMT +03:30) Тегеран</timezoneOpt19>
+			<timezoneOpt20 tag="option;" length="274">(GMT +04:00) Caucasus Standard Time</timezoneOpt20>
+			<timezoneOpt21 tag="option;" length="274">(GMT +04:30) Кабул</timezoneOpt21>
+			<timezoneOpt22 tag="option;" length="274">(GMT +05:00) Екатеринбург</timezoneOpt22>
+			<timezoneOpt23 tag="option;" length="274">(GMT +05:30) Мадрас, Бомбей, Дели</timezoneOpt23>
+			<timezoneOpt24 tag="option;" length="274">(GMT +05:45) Катманду</timezoneOpt24>
+			<timezoneOpt25 tag="option;" length="274">(GMT +06:00) Алматы, Новосибирск, Омск</timezoneOpt25>
+			<timezoneOpt26 tag="option;" length="274">(GMT +06:30) Рангун</timezoneOpt26>
+			<timezoneOpt27 tag="option;" length="274">(GMT+07:00) Бангкок, Ханой, Джакарта</timezoneOpt27>
+			<timezoneOpt28 tag="option;" length="274">(GMT+08:00) Пекин, Урумчи, Сингапур</timezoneOpt28>
+			<timezoneOpt29 tag="option;" length="274">(GMT +09:00) Якутск</timezoneOpt29>
+			<timezoneOpt30 tag="option;" length="274">(GMT +09:30) Аделаида, Дарвин</timezoneOpt30>
+			<timezoneOpt31 tag="option;" length="274">(GMT +10:00) Владивосток</timezoneOpt31>
+			<timezoneOpt32 tag="option;" length="274">(GMT +11:00) Магадан, Сахалин, Камчатка</timezoneOpt32>
+			<timezoneOpt33 tag="option;" length="274">(GMT +12:00) Окленд, Веллингтон, Фиджи</timezoneOpt33>
+			<timezoneOpt34 tag="option;" length="274">(GMT +13:00) Нукуалофа</timezoneOpt34>
+			<DSTBiasOpt1 tag="option;" length="266">30 мин</DSTBiasOpt1>
+			<DSTBiasOpt2 tag="option;" length="266">60 мин</DSTBiasOpt2>
+			<DSTBiasOpt3 tag="option;" length="266">90 мин</DSTBiasOpt3>
+			<DSTBiasOpt4 tag="option;" length="266">120 мин</DSTBiasOpt4>
+			<laSelectTime tag="label;" length="150">Время</laSelectTime>
+			<laTimeSyncWithPC tag="label;" length="296">Синхронизировать со временем ПК</laTimeSyncWithPC>
+			<trTimeSync>Time Sync.</trTimeSync>
+		</Page>
+		<Js>
+			<TimeIsNuLLTips>Поле времени не может быть пустым</TimeIsNuLLTips>
+			<NtpPortRangeTips>NTP Порт </NtpPortRangeTips>
+			<DSTBiasIsNullTips>DST Bias не может быть пустым</DSTBiasIsNullTips>
+			<DSTMonthSameTips>Начальный месяц DST не может совпадать с конечным месяцем</DSTMonthSameTips>
+			<NTPIntervalRangeTips>Интервал</NTPIntervalRangeTips>
+		</Js>
+	</TimeSettings>
+	<Maintain>
+		<Page>
+			<laParamImport tag="label;" length="670">Импорт файла конфигурации</laParamImport>
+			<laImportFile tag="label;" length="150">Файл конфигурации</laImportFile>
+			<laParamExport tag="label;" length="670">Экспорт файла конфигурации </laParamExport>
+			<btnImport tag="input;" length="74">Импорт</btnImport>
+			<btnExportFile tag="input;" length="74">Рез. Коп</btnExportFile>
+			<laRemoteUpgrade tag="label;" length="670">удалённое обновление</laRemoteUpgrade>
+			<laUpgradeFile tag="label;" length="150">ПО</laUpgradeFile>
+			<laUpgradeExplain tag="label;" length="33">Примечание</laUpgradeExplain>
+			<laUpgradeExplains tag="label;" length="540">Процесс обновления займет от 5 до 10 минут, пожалуйста, не выключайте устройство. Устройство будет автоматически перезагружено после обновления.</laUpgradeExplains>
+			<btnUpgrade tag="input;" length="74">Обновить</btnUpgrade>
+			<laRestart tag="input;label;" length="74">Перезагрузка</laRestart>
+			<btnCompleteRestore tag="input;" length="74">По умол.</btnCompleteRestore>
+			<btnSimpleRestore tag="input;" length="74">Возобновить</btnSimpleRestore>
+			<laRestartDevice tag="label;" length="670">Перезагрузка устройства</laRestartDevice>
+			<laSimpleReStore tag="label;" length="670">Сброс всех параметров, кроме IP, на заводские</laSimpleReStore>
+			<laCompleteReStore tag="label;" length="670">Восстановление параметров по умолчанию</laCompleteReStore>
+		</Page>
+		<Js>
+			<tipsNoUpgradeFile>Нет ПО.</tipsNoUpgradeFile>
+			<tipsUpgradeFailed>Ошибка обновления.</tipsUpgradeFailed>
+			<tipsLanguageMismatch>Несовпадение версии языка</tipsLanguageMismatch>
+			<tipsGetProgress>Ошибка получения статуса обновления</tipsGetProgress>
+			<tipsGetStatus>Ошибка получения статуса обновления</tipsGetStatus>
+			<tipsUpdating>Обновление</tipsUpdating>
+			<tipsUpdateSucc>Обновление завершено успешно. Перезагрузите устройство.</tipsUpdateSucc>
+			<tipsUpgradeReboot>Устройство будет перезагружено после обновления, продолжить?</tipsUpgradeReboot>
+			<ImportRebootTips>Устройство будет перезагружено автоматически после окончания импорта конфигурации. Продолжить?</ImportRebootTips>
+			<ImportSuccessTips>Импорт параметров завершен успешно</ImportSuccessTips>
+			<ImportFailedTips>Ошибка импорта конфигурации</ImportFailedTips>
+			<ExportSuccessTips>Экспорт файла конфигурации завершен успешно</ExportSuccessTips>
+			<ExportFailedTips>Ошибка экспорта конфигурационного файла</ExportFailedTips>
+			<tipsRestoreSucc>Параметры по умолчанию успешно восстановлены.</tipsRestoreSucc>
+			<tipsRestoreFailed>Ошибка восстановления параметров по умолчанию</tipsRestoreFailed>
+			<tipsRestoreReboot>Параметры по умолчанию успешно восстановлены. Перезагрузите устройство.</tipsRestoreReboot>
+			<tipsRestoreReboot1>Устройство будет перезагружено автоматически после восстановления параметров. Продолжить?</tipsRestoreReboot1>
+		</Js>
+	</Maintain>
+	<RS232Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>Настройки RS-232</laSpanTitle>
+				<laPortnumber>Порт RS-232</laPortnumber>
+			</DVR>
+			<laUsemode tag="label;" length="150">Использование</laUsemode>
+			<workModeOpt1 tag="option;" length="198">Консоль</workModeOpt1>
+			<workModeOpt2 tag="option;" length="198">Сквозной канал</workModeOpt2>
+		</Page>
+		<Js>
+		</Js>
+	</RS232Config>
+	<RS485Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>Параметры RS-485</laSpanTitle>
+			</DVR>
+			<laDecoderType485 tag="label;" length="150">Контроль PTZ</laDecoderType485>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<DecoderaddrTips tag="label;" length="150">PTZ Адрес</DecoderaddrTips>
+		</General>
+	</RS485Config>
+	<Telecontrol>
+		<Page>
+			<laStudy>Детекция</laStudy>
+			<laOpenStartSduty>Детекция удаленного кода</laOpenStartSduty>
+			<laArmDesc>Активация PIR</laArmDesc>
+			<laDisarmDesc>Деактивация PIR</laDisarmDesc>
+			<btnArm>Активировать</btnArm>
+			<btnDisarm>Деактивировать</btnDisarm>
+		</Page>
+		<Js>
+		</Js>
+	</Telecontrol>
+</System>

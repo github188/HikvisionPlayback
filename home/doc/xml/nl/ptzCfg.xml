@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<PTZCfg>
+	<Common>
+		<Page>
+			<aPtzBasic tag="a;" length="9999">Basis</aPtzBasic>
+			<aPtzLimit tag="a;" length="9999">Grens</aPtzLimit>
+			<aPtzHomePos tag="a;" length="9999">Beginpositie</aPtzHomePos>
+			<aPtzParkAction tag="a;" length="9999">Park Action</aPtzParkAction>
+			<aPtzPrivacyMask tag="a;" length="9999">Privacy Mask</aPtzPrivacyMask>
+			<aPtzTimeTasks tag="a;" length="9999">Geplande taken</aPtzTimeTasks>
+			<aPtzClearCfg tag="a;" length="9999">Wis de configuratie</aPtzClearCfg>
+			<btnGoto tag="input;" length="80">Ga naar </btnGoto>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<autoScan tag="option;" length="200">Auto scan</autoScan>
+			<frameScan tag="option;" length="200">Scan beeld</frameScan>
+			<randomScan tag="option;" length="200">Willekeurige scan</randomScan>
+			<patrolScan tag="option;" length="200">Patrouille</patrolScan>
+			<panoramaScan tag="option;" length="200">Panoramascan</panoramaScan>
+			<tiltScan>Tilt scan</tiltScan>
+			<periodReboot>Dome opnieuw starten</periodReboot>
+			<periodAdjust>Dome afstellen</periodAdjust>
+			<auxOutput>Aux-uitgang</auxOutput>
+			<autoTrack>Autom. traceren</autoTrack>
+		</General>
+	</Common>
+	<PtzBasic>
+		<Page>
+			<laPtzBasic tag="label;">Basisparameter</laPtzBasic>
+			<laProportionZoom tag="label;">Zet proportioneel pannen aan</laProportionZoom>
+			<laImageFreeze tag="label;">Zet preset bevriezen aan</laImageFreeze>
+			<laPresetSpeed tag="label;" length="150">Preset snelheid</laPresetSpeed>
+			<laControlSpeed tag="label;" length="150">Toetsenbordsnelheid </laControlSpeed>
+			<laAutoScanSpeed tag="label;" length="150">Autoscansnelheid</laAutoScanSpeed>
+			<laPtzOSDDis tag="label;">PTZ OSD</laPtzOSDDis>
+			<laZoomLabel tag="label;" length="150">Zoomstatus</laZoomLabel>
+			<laAzimuth tag="label;" length="150">PT-status</laAzimuth>
+			<laPresetLable tag="label;" length="150">Preset status</laPresetLable>
+			<speedLevelOpt1 tag="option;" length="200">2 s</speedLevelOpt1>
+			<speedLevelOpt2 tag="option;" length="200">5 s</speedLevelOpt2>
+			<speedLevelOpt3 tag="option;" length="200">10 s</speedLevelOpt3>
+			<speedLevelOpt4 tag="option;" length="200">Altijd afsluiten</speedLevelOpt4>
+			<speedLevelOpt5 tag="option;" length="200">Altijd openen</speedLevelOpt5>
+			<laSavePowerOff tag="label;">Geheugen uitzetten</laSavePowerOff>
+			<laSavePowerType tag="label;" length="150">Hervattijdstip instellen</laSavePowerType>
+			<savePowerTypeOpt2 tag="option;" length="200">30 s</savePowerTypeOpt2>
+			<savePowerTypeOpt3 tag="option;" length="200">60 s</savePowerTypeOpt3>
+			<savePowerTypeOpt4 tag="option;" length="200">300 s</savePowerTypeOpt4>
+			<savePowerTypeOpt5 tag="option;" length="200">600 s</savePowerTypeOpt5>
+		</Page>
+		<Js>
+		</Js>
+	</PtzBasic>
+	<PtzLimiteds>
+		<Page>
+			<laEnableLimit tag="label;" length="134">Zet limiet aan</laEnableLimit>
+			<laLimitType tag="label;" length="150">Grenstype</laLimitType>
+			<limitTypeOpt1 tag="option;" length="198">Handmatige stops</limitTypeOpt1>
+			<limitTypeOpt2 tag="option;" length="198">Scanstops</limitTypeOpt2>
+			<laLimitStatus tag="label;" length="150">Statustype</laLimitStatus>
+		</Page>
+		<Js>
+			<jsLimited>Beperkt</jsLimited>
+			<jsNoLimited>Geen limiet</jsNoLimited>
+		</Js>
+	</PtzLimiteds>
+	<ParkAction>
+		<Page>
+			<laEnabledPark tag="label;">Parkeeractie aanzetten</laEnabledPark>
+			<laParkTime tag="label;" length="150">Parkeertijd</laParkTime>
+			<laActionType tag="label;" length="150">Actietype</laActionType>
+			<laActionNum tag="label;" length="150">Actietype ID</laActionNum>
+		</Page>
+		<Js>
+		</Js>
+	</ParkAction>
+	<PrivacyMask>
+		<Page>
+			<laEnablePrivacyMask tag="label;">Zet Privacy Masks aan</laEnablePrivacyMask>
+			<laPrivacyMaskList tag="label;">Privacy Mask lijst</laPrivacyMaskList>
+			<laPrivacyMaskTitle tag="label;" length="246">Naam </laPrivacyMaskTitle>
+			<gray tag="option;">Grijs</gray>
+			<red tag="option;">Rood</red>
+			<green tag="option;">Groen</green>
+			<blue tag="option;">Blauw</blue>
+			<orange tag="option;">Oranje</orange>
+			<yellow tag="option;">Geel</yellow>
+			<mosaic tag="option;">Mozaïek</mosaic>
+		</Page>
+		<Js>
+			<tipsSelectPrimary>Klikken om dit privacy mask aan te roepen</tipsSelectPrimary>
+		</Js>
+	</PrivacyMask>
+	<TimeTasks>
+		<Page>
+			<laEnabledTimeTasks tag="label;">Voer geplande taak uit</laEnabledTimeTasks>
+			<laTimeTask tag="label;" length="150">Parkeertijd</laTimeTask>
+			<laTimingTasks tag="label;" length="150">Timing-taken</laTimingTasks>
+			<btnEditingTasks tag="input;" length="80">Bewerk taken</btnEditingTasks>
+			<laTaskCaption tag="label;">Let op! Rood en groen worden gebruikt als onderscheiding met aangrenzende taken</laTaskCaption>
+			<trTaskType>Taaktype</trTaskType>
+			<trTaskNum>Taaktype ID</trTaskNum>
+		</Page>
+		<Js>
+		</Js>
+	</TimeTasks>
+	<ClearCfg>
+		<Page>
+			<laAllPreset tag="label;" length="654">Wis alle presets</laAllPreset>
+			<laAllPatrol tag="label;" length="654">Wis alle rondes</laAllPatrol>
+			<laAllPattern tag="label;" length="654">Wis alle patronen</laAllPattern>
+			<laAllMasks tag="label;" length="654">Wis alle privacy masks</laAllMasks>
+			<laAllLimit tag="label;" length="654">Wis ALLE PTZ-beperkingen</laAllLimit>
+			<laAllTasks tag="label;" length="654">Wis alle geplande taken</laAllTasks>
+			<laAllPark>Alle parkeeracties opheffen</laAllPark>
+		</Page>
+		<Js>
+		</Js>
+	</ClearCfg>
+</PTZCfg>

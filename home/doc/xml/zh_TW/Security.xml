@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<Security>
+	<Common>
+		<Page>
+			<aUser tag="a;" length="9999">普通用戶</aUser>
+			<aRTSPAuth tag="a;" length="9999">RTSP認證</aRTSPAuth>
+			<aAnonymousVisit>匿名存取</aAnonymousVisit>
+			<aIPFilter>IP位址過濾</aIPFilter>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<User>
+		<Page>
+			<DVR>
+				<laSpanTitle>用戶設定</laSpanTitle>
+				<laIpBind>IP位址綁定</laIpBind>
+				<laLocalColonConfig tag="label;" length="125">本機設定</laLocalColonConfig>
+				<laLocalUpgrade>本機升級、格式化</laLocalUpgrade>
+				<laLocalReboot>本機關機、重新啟動</laLocalReboot>
+				<laLocalSetParam>本機設定參數</laLocalSetParam>
+				<laLocalLog>本機調閱日誌</laLocalLog>
+				<laLocalIPCCfg>本機設定IP攝影機</laLocalIPCCfg>
+				<laLocalPlayback>本機回放</laLocalPlayback>
+				<laLocalManualRecord>本機手動操作</laLocalManualRecord>
+				<laLocalPTZControl>本機PTZ控制</laLocalPTZControl>
+				<laLocalBackup>本機備份</laLocalBackup>
+				<laRemoteConfig>遠端設定</laRemoteConfig>
+			</DVR>
+			<laUserType tag="label;" length="150">用戶類型</laUserType>
+			<PriorityOpt1 tag="label;" length="411">管理員</PriorityOpt1>
+			<PriorityOpt2 tag="option;" length="198">操作員</PriorityOpt2>
+			<PriorityOpt3 tag="option;" length="198">普通用戶</PriorityOpt3>
+			<laBasicPermissionBtn tag="label;" length="399">基本許可權</laBasicPermissionBtn>
+			<laChanPermissionBtn tag="label;" length="148">攝影機設定</laChanPermissionBtn>
+			<laRemoteSetParam tag="label;" length="370">遠端設定參數</laRemoteSetParam>
+			<laRemoteLog tag="label;" length="370">遠端查看日誌、狀態</laRemoteLog>
+			<laRemoteUpgrade tag="label;" length="370">遠端升級、格式化</laRemoteUpgrade>
+			<laRemoteTalk tag="label;" length="370">遠端語音對講</laRemoteTalk>
+			<laRemoteReboot tag="label;" length="370">遠端關機、重啟</laRemoteReboot>
+			<laRemoteAlarm tag="label;" length="370">遠端請求警報上傳、警報輸出</laRemoteAlarm>
+			<laRemoteCtrl tag="label;" length="370">遠端控制本地輸出</laRemoteCtrl>
+			<laRemoteRS tag="label;" length="370">遠端控制埠口</laRemoteRS>
+			<laRemotePreview tag="label;" length="119">遠端預覽</laRemotePreview>
+			<laRemoteManualRecord tag="label;" length="119">遠端手動錄影</laRemoteManualRecord>
+			<laRemotePTZControl tag="label;" length="119">遠端PTZ控制</laRemotePTZControl>
+			<laRemotePlayback tag="label;" length="122">遠端回放</laRemotePlayback>
+			<laPermissionConfig>權限設定</laPermissionConfig>
+		</Page>
+		<Js>
+			<UserAddTips>用戶新增</UserAddTips>
+			<UserExistTips>該用戶名已存在，重新輸入</UserExistTips>
+			<jsPasswordDifferenceTips>兩次密碼輸入不同，重新輸入</jsPasswordDifferenceTips>
+			<WrongCharTips>不能包含字元</WrongCharTips>
+		</Js>
+		<General>
+			<laUserModify tag="label;" length="550">用戶修改</laUserModify>
+		</General>
+	</User>
+	<RTSPAuth>
+		<Page>
+		</Page>
+		<Js>
+		</Js>
+	</RTSPAuth>
+	<IPFilter>
+		<Page>
+			<laEnableIPFilter>啟用IP位址過濾</laEnableIPFilter>
+			<laIPFilterType>IP位址過濾方式</laIPFilterType>
+			<optAllow>允許</optAllow>
+			<optDeny>禁止</optDeny>
+			<laAddIPAddress>新增IP位址</laAddIPAddress>
+			<laModifyIPAddress>修改IP位址</laModifyIPAddress>
+		</Page>
+		<Js>
+		</Js>
+	</IPFilter>
+</Security>

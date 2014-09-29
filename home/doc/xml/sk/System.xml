@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<System>
+	<Common>
+		<Page>
+			<aDeviceInfo tag="a;" length="9999">Info o zariadení</aDeviceInfo>
+			<aTimeSettings tag="a;" length="9999">Nastavenie času</aTimeSettings>
+			<aMaintain tag="a;" length="9999">Údržba</aMaintain>
+			<aTelecontrol>Diaľk. ovládanie</aTelecontrol>
+			<laDuplexmode>Duplexný režim</laDuplexmode>
+			<duplexModeOpt1>Half-duplex</duplexModeOpt1>
+			<duplexModeOpt2>Full-duplex</duplexModeOpt2>
+			<laBaudRate tag="label;" length="150">Prenos. rýchlosť</laBaudRate>
+			<laDataBits tag="label;" length="150">Údajový bit</laDataBits>
+			<laStopRate tag="label;" length="150">Stop Bit</laStopRate>
+			<laParityType tag="label;" length="150">Parita</laParityType>
+			<parityTypeOpt1 tag="option;" length="198">Žiadny</parityTypeOpt1>
+			<parityTypeOpt2 tag="option;" length="198">Párny</parityTypeOpt2>
+			<parityTypeOpt3 tag="option;" length="198">Nepárne</parityTypeOpt3>
+			<laFlowControl tag="label;" length="150">Kontrola toku</laFlowControl>
+			<dataFlowControlOpt1 tag="option;" length="198">Žiadny</dataFlowControlOpt1>
+			<dataFlowControlOpt2 tag="option;" length="198">Hardvér</dataFlowControlOpt2>
+			<dataFlowControlOpt3 tag="option;" length="198">Soft. kontrola toku</dataFlowControlOpt3>
+			<laDST tag="label;" length="670">Posun času</laDST>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<DeviceInfo>
+		<Page>
+			<laBaseInfo tag="label;" length="670">Základné info</laBaseInfo>
+			<laDeviceName tag="label;" length="150">Názov zariadenia</laDeviceName>
+			<laDeviceType tag="label;" length="148">Model</laDeviceType>
+			<laDeviceSn tag="label;" length="148">Sériové číslo</laDeviceSn>
+			<laFirmwareVersion tag="label;" length="148">Verzia firmvéru</laFirmwareVersion>
+			<laLogicVersion tag="label;" length="148">Verzia kódovania</laLogicVersion>
+			<laDiskNum tag="label;" length="148">Počet diskov</laDiskNum>
+			<laAlarmInNum tag="label;" length="148">Počet alarmových vstupov</laAlarmInNum>
+			<laAlarmOutNum tag="label;" length="148">Počet alarmových výstupov</laAlarmOutNum>
+			<laParamType tag="label;" length="155">Typ parametrov</laParamType>
+			<laParamValue tag="label;" length="526">Hodnota</laParamValue>
+			<laSupportPnp>IPC P-n-P</laSupportPnp>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laDeviceID tag="label;" length="150">Č. zariadenia</laDeviceID>
+		</General>
+	</DeviceInfo>
+	<DeviceStatus>
+		<Page>
+			<laDeviceStatus>Stav zariadenia</laDeviceStatus>
+			<laRecordStatus>Stav záznamu</laRecordStatus>
+			<laCodeStatus>Stav kódovania</laCodeStatus>
+			<laConnectStatus>Počet pripojení</laConnectStatus>
+			<laRefresh>Obnov</laRefresh>
+		</Page>
+		<Js>
+			<tipsBusy>Zaneprázdnený</tipsBusy>
+			<RecordStatus1>Používa sa</RecordStatus1>
+			<RecordStatus2>Nepoužíva sa</RecordStatus2>
+		</Js>
+	</DeviceStatus>
+	<MenuOutput>
+		<Page>
+			<laMenuOutputMode>Menu Output</laMenuOutputMode>
+			<mainCVBS>BNC výstup</mainCVBS>
+		</Page>
+	</MenuOutput>
+	<TimeSettings>
+		<Page>
+			<DVR>
+				<laSpanTitle>Nastavenie času</laSpanTitle>
+				<laEnableDST tag="label;" length="670">Povoľ posun času</laEnableDST>
+			</DVR>
+			<laNtpTimeSync tag="label;" length="654">NTP</laNtpTimeSync>
+			<laNtpPort tag="label;" length="150">NTP Port</laNtpPort>
+			<laNtpInterval tag="label;" length="150">Interval</laNtpInterval>
+			<laSecond tag="label;" length="360">min.</laSecond>
+			<laManualTimeSync tag="label;" length="670">Man.Synch.Času</laManualTimeSync>
+			<laDeviceTime tag="label;" length="150">Čas zariadenia</laDeviceTime>
+			<laTimeZoneConfig>Nast. časovej zóny</laTimeZoneConfig>
+			<laTimeZone tag="label;" length="150">Časové pásmo</laTimeZone>
+			<laDSTBias tag="label;" length="150">Posuň čas o</laDSTBias>
+			<timezoneOpt1 tag="option;" length="274">(GMT-12:00) Západná hranica zmeny dátumu</timezoneOpt1>
+			<timezoneOpt2 tag="option;" length="274">(GMT-11:00) Midway Island,Samoa</timezoneOpt2>
+			<timezoneOpt3 tag="option;" length="274">(GMT-10:00) Havaj</timezoneOpt3>
+			<timezoneOpt4 tag="option;" length="274">(GMT-09:00) Aljaška</timezoneOpt4>
+			<timezoneOpt5 tag="option;" length="274">(GMT-08:00) Pacifický čas (USA a Kanada)</timezoneOpt5>
+			<timezoneOpt6 tag="option;" length="274">(GMT-07:00) Horský čas (USA a Kanada)</timezoneOpt6>
+			<timezoneOpt7 tag="option;" length="274">(GMT-06:00) Centrálny čas (USA a Kanada)</timezoneOpt7>
+			<timezoneOpt8 tag="option;" length="274">(GMT-05:00) Východný čas (USA a Kanada)</timezoneOpt8>
+			<timezoneOpt9 tag="option;" length="274">(GMT-04:30) Caracas</timezoneOpt9>
+			<timezoneOpt10 tag="option;" length="274">(GMT-04:00) Atlantický čas (Kanada)</timezoneOpt10>
+			<timezoneOpt11 tag="option;" length="274">(GMT-03:30) Newfoundland</timezoneOpt11>
+			<timezoneOpt12 tag="option;" length="274">(GMT-03:00) Georgetown, Brazília</timezoneOpt12>
+			<timezoneOpt13 tag="option;" length="274">(GMT-02:00) Stredný Atlantik</timezoneOpt13>
+			<timezoneOpt14 tag="option;" length="274">(GMT-01:00) Ostrovy Cape Verde, Azory</timezoneOpt14>
+			<timezoneOpt15 tag="option;" length="274">(GMT+00:00) Dublin, Edinburgh, Londýn</timezoneOpt15>
+			<timezoneOpt16 tag="option;" length="274">(GMT+01:00) Amsterdam, Berlín, Rím, Paríž</timezoneOpt16>
+			<timezoneOpt17 tag="option;" length="274">(GMT+02:00) Atény, Jeruzalem, Istanbul</timezoneOpt17>
+			<timezoneOpt18 tag="option;" length="274">(GMT+03:00) Bagdad, Kuvajt, Moskva</timezoneOpt18>
+			<timezoneOpt19 tag="option;" length="274">(GMT+03:30) Teherán</timezoneOpt19>
+			<timezoneOpt20 tag="option;" length="274">(GMT+04:00) Kaukazský štandardný čas</timezoneOpt20>
+			<timezoneOpt21 tag="option;" length="274">(GMT+04:30) Kábul</timezoneOpt21>
+			<timezoneOpt22 tag="option;" length="274">(GMT+05:00) Islamabad, Karáči, Taškent</timezoneOpt22>
+			<timezoneOpt23 tag="option;" length="274">(GMT+05:30) Madras, Bombaj, New Delhi</timezoneOpt23>
+			<timezoneOpt24 tag="option;" length="274">(GMT+05:45) Káthmandu</timezoneOpt24>
+			<timezoneOpt25 tag="option;" length="274">(GMT+06:00) Almaty, Novosibirsk, Dhaka</timezoneOpt25>
+			<timezoneOpt26 tag="option;" length="274">(GMT+06:30) Yangon</timezoneOpt26>
+			<timezoneOpt27 tag="option;" length="274">(GMT+07:00) Bangkok, Hanoi, Jakarta</timezoneOpt27>
+			<timezoneOpt28 tag="option;" length="274">(GMT+08:00) Peking, Urumqi, Singapúr</timezoneOpt28>
+			<timezoneOpt29 tag="option;" length="274">(GMT+09:00) Soul, Tokio, Osaka, Sapporo</timezoneOpt29>
+			<timezoneOpt30 tag="option;" length="274">(GMT+09:30) Adelaide, Darwin</timezoneOpt30>
+			<timezoneOpt31 tag="option;" length="274">(GMT+10:00) Melbourne, Sydney, Canberra</timezoneOpt31>
+			<timezoneOpt32 tag="option;" length="274">(GMT+11:00) Magadan, Šalamúnove ostrovy</timezoneOpt32>
+			<timezoneOpt33 tag="option;" length="274">(GMT+12:00) Auckland, Wellington, Fidži</timezoneOpt33>
+			<timezoneOpt34 tag="option;" length="274">(GMT+13:00) Nuku'alofa</timezoneOpt34>
+			<DSTBiasOpt1 tag="option;" length="266">30 min</DSTBiasOpt1>
+			<DSTBiasOpt2 tag="option;" length="266">60 min</DSTBiasOpt2>
+			<DSTBiasOpt3 tag="option;" length="266">90 min</DSTBiasOpt3>
+			<DSTBiasOpt4 tag="option;" length="266">120 min</DSTBiasOpt4>
+			<laSelectTime tag="label;" length="150">Nastav čas</laSelectTime>
+			<laTimeSyncWithPC tag="label;" length="296">Synchronizuj čas s PC</laTimeSyncWithPC>
+			<trTimeSync>Synchronizácia</trTimeSync>
+		</Page>
+		<Js>
+			<TimeIsNuLLTips>Je potrebné vyplniť časové pole.</TimeIsNuLLTips>
+			<NtpPortRangeTips>NTP Port </NtpPortRangeTips>
+			<DSTBiasIsNullTips>Nastavenie posunu času nemôže byť prázdne.</DSTBiasIsNullTips>
+			<DSTMonthSameTips>Počiatočný a koncový mesiac posunu času nemôže byť rovnaký.</DSTMonthSameTips>
+			<NTPIntervalRangeTips>Interval</NTPIntervalRangeTips>
+		</Js>
+	</TimeSettings>
+	<Maintain>
+		<Page>
+			<laParamImport tag="label;" length="670">Importuj konfig.</laParamImport>
+			<laImportFile tag="label;" length="150">Konfiguračný súbor</laImportFile>
+			<laParamExport tag="label;" length="670">Exportuj konfig.</laParamExport>
+			<btnImport tag="input;" length="74">Import</btnImport>
+			<btnExportFile tag="input;" length="74">Export</btnExportFile>
+			<laRemoteUpgrade tag="label;" length="670">Vzdialená aktualizácia</laRemoteUpgrade>
+			<laUpgradeFile tag="label;" length="150">Firmware</laUpgradeFile>
+			<laUpgradeExplain tag="label;" length="33">Poznámka</laUpgradeExplain>
+			<laUpgradeExplains tag="label;" length="540">Proces aktualizácie môže trvať 5 až 10 minút. Počas aktualizácie, prosím, nevypínajte zariadenie, ani ho neodpájajte od zdroja elektrického prúdu. Po ukončení procesu aktualizácie sa zariadenie automaticky reštartuje.</laUpgradeExplains>
+			<btnUpgrade tag="input;" length="74">Aktualizácia</btnUpgrade>
+			<laRestart tag="input;label;" length="74">Reštart</laRestart>
+			<btnCompleteRestore tag="input;" length="74">Pôvodné</btnCompleteRestore>
+			<btnSimpleRestore tag="input;" length="74">Obnoviť</btnSimpleRestore>
+			<laRestartDevice tag="label;" length="670">Reštart zariadenia.</laRestartDevice>
+			<laSimpleReStore tag="label;" length="670">Obnovenie všetkých parametrov na pôvodné hodnoty, okrem parametrov IP.</laSimpleReStore>
+			<laCompleteReStore tag="label;" length="670">Obnoví všetky parametre na predvolené nastavenia.</laCompleteReStore>
+		</Page>
+		<Js>
+			<tipsNoUpgradeFile>Cesta k súboru aktualizácie je neplatná alebo je zadaný súbor poškodený.</tipsNoUpgradeFile>
+			<tipsUpgradeFailed>Aktualizácia zlyhala.</tipsUpgradeFailed>
+			<tipsLanguageMismatch>Jazyk lokalizácie nesúhlasí</tipsLanguageMismatch>
+			<tipsGetProgress>Zlyhal príjem informácií o postupe aktualizácie.</tipsGetProgress>
+			<tipsGetStatus>Zlyhal príjem informácií o stave aktualizácie.</tipsGetStatus>
+			<tipsUpdating>Prebieha aktualizácia ...</tipsUpdating>
+			<tipsUpdateSucc>Aktualizácia bola úspešne dokončená. Prosím, reštartujte zariadenie.</tipsUpdateSucc>
+			<tipsUpgradeReboot>Po ukončení aktualizácie sa zariadenie automaticky reštartuje, chcete prokračovať?</tipsUpgradeReboot>
+			<ImportRebootTips>Po ukončení importu konfigurácie sa zariadenie automaticky reštartuje. Chcete prokračovať?</ImportRebootTips>
+			<ImportSuccessTips>Import nastavení prebehol úspešne.</ImportSuccessTips>
+			<ImportFailedTips>Import konfigurácie zlyhal.</ImportFailedTips>
+			<ExportSuccessTips>Export konfiguračného súboru prebehol úsešne.</ExportSuccessTips>
+			<ExportFailedTips>Export konfiguračného súboru zlyhal.</ExportFailedTips>
+			<tipsRestoreSucc>Obnovenie pôvodných nastavení prebehlo úspešne.</tipsRestoreSucc>
+			<tipsRestoreFailed>Obnovenie pôvodných nastavení zlyhalo.</tipsRestoreFailed>
+			<tipsRestoreReboot>Obnovenie pôvodných nastavení prebehlo úspešne. Na uplatnenie zmien, prosím, reštartujte zariadenie.</tipsRestoreReboot>
+			<tipsRestoreReboot1>Po ukončení obnovenia sa zariadenie automaticky reštartuje. Chcete pokračovať?</tipsRestoreReboot1>
+		</Js>
+	</Maintain>
+	<RS232Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>Nastavenia RS232</laSpanTitle>
+				<laPortnumber>Port RS-232</laPortnumber>
+			</DVR>
+			<laUsemode tag="label;" length="150">Využitie</laUsemode>
+			<workModeOpt1 tag="option;" length="198">Konzola</workModeOpt1>
+			<workModeOpt2 tag="option;" length="198">Transparentný kanál</workModeOpt2>
+		</Page>
+		<Js>
+		</Js>
+	</RS232Config>
+	<RS485Config>
+		<Page>
+			<DVR>
+				<laSpanTitle>Nastavenia RS485</laSpanTitle>
+			</DVR>
+			<laDecoderType485 tag="label;" length="150">PTZ protokol</laDecoderType485>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<DecoderaddrTips tag="label;" length="150">PTZ adresa</DecoderaddrTips>
+		</General>
+	</RS485Config>
+	<Telecontrol>
+		<Page>
+			<laStudy>Preskúmať</laStudy>
+			<laOpenStartSduty>Preskúmať vzdialený kód</laOpenStartSduty>
+			<laArmDesc>Zapni stráženie PIR snímača</laArmDesc>
+			<laDisarmDesc>Vypni stráženie PIR snímača</laDisarmDesc>
+			<btnArm>Zapni stráženie</btnArm>
+			<btnDisarm>Vypni stráženie</btnDisarm>
+		</Page>
+		<Js>
+		</Js>
+	</Telecontrol>
+</System>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Main>
+	<Common>
+		<Page>
+			<DVR>
+				<paStartAllView>Start alle live views</paStartAllView>
+				<paStartAllRecord>Start alle opnamen</paStartAllRecord>
+			</DVR>
+			<laPlugin>Please click here to download and install the plug-in. Close the browser when installing the plug-in.</laPlugin>
+			<laNotWin32Plugin>Geen plug-in.</laNotWin32Plugin>
+			<streamTypeOpt1 tag="label;option;" length="134">Hoofdstream</streamTypeOpt1>
+			<streamTypeOpt2 tag="label;option;" length="134">Substream</streamTypeOpt2>
+			<StreamTypeInOpt4 tag="label;option;" length="104">Derde Stream</StreamTypeInOpt4>
+			<windowProportionOpt1 tag="label;option;" length="134">Origineel</windowProportionOpt1>
+			<windowAuto tag="label;option;" length="104">Auto</windowAuto>
+			<laStreamType tag="label;" length="90">Streamtype</laStreamType>
+			<lawindowProportion tag="label;" length="90">Beeldgrootte</lawindowProportion>
+			<laPlayParams tag="label;" length="91">Live view instellingen</laPlayParams>
+			<opensound>Audio aan</opensound>
+			<closesound>Audio uit </closesound>
+			<volume>Volume</volume>
+			<stop>Stop</stop>
+			<laSearch tag="label;" length="200">Zoek</laSearch>
+			<DownloadBtn tag="input;" length="80">Downloaden  </DownloadBtn>
+			<laChannelNum tag="label;" length="148">Aantal kanalen</laChannelNum>
+			<laChannelNo tag="label;" length="109">Kanaalnummer</laChannelNo>
+			<laStartTime tag="label;" length="140">Starttijd</laStartTime>
+			<laEndTime tag="label;" length="140">Eindtijd</laEndTime>
+			<laHue tag="label;" length="122">Kleurtoon</laHue>
+			<SetPreset>Instellen</SetPreset>
+			<CleanPreset>Herstel</CleanPreset>
+			<laSerialNumber tag="label;" length="67">Nummer</laSerialNumber>
+			<Pattern>Patroon</Pattern>
+			<laWirelessAlarm>Draadloos alarm</laWirelessAlarm>
+			<laPIRAlarm>PIR-alarm</laPIRAlarm>
+			<OptCallHelp>Noodalarm</OptCallHelp>
+			<laSharpness tag="label;" length="120">Scherpte</laSharpness>
+			<laEnableZoom>e-PTZ aan</laEnableZoom>
+			<laDisableZoom>e-PTZ uit</laDisableZoom>
+		</Page>
+		<Js>
+			<jsUpdatePlugin>Nieuwe versie plug-in gedetecteerd. Update uitvoeren?</jsUpdatePlugin>
+			<jsUpdateNotWin32>Nieuwe versie van plug-in gedetecteerd. Neem contact op met uw leverancier voor een update.</jsUpdateNotWin32>
+			<exit>Uitloggen?</exit>
+			<jsPreview>Live Kijken</jsPreview>
+			<jsRecord>Opnemen</jsRecord>
+			<previewfailed>Fout! Live view mislukt.</previewfailed>
+			<capturefailed>Vastleggen mislukt.</capturefailed>
+			<stopAllRecord>Stop alle opnamen</stopAllRecord>
+			<FreeSpaceTips>Onvoldoende ruimte</FreeSpaceTips>
+			<jsCreateFileFailed>Fout bij maken van een bestand</jsCreateFileFailed>
+			<jsNoOperationRight>Geen toestemming</jsNoOperationRight>
+			<jsOpenSoundFailed>Fout bij inschakelen audio.</jsOpenSoundFailed>
+			<jsCaptureSucc>Vastleggen gelukt</jsCaptureSucc>
+			<TotalTips>Totaal </TotalTips>
+			<TiaoTips> Onderdelen</TiaoTips>
+			<jsFirstPageTips>Startpagina</jsFirstPageTips>
+			<jsLastPageTips>Laatste pagina</jsLastPageTips>
+			<jsPrevPageTips>Vorige pagina</jsPrevPageTips>
+			<jsNextPageTips>Volgende pagina</jsNextPageTips>
+			<tipsTooLong>Bestandspad is te lang. Kies opnieuw.</tipsTooLong>
+			<jsVideoDefault>Standaardinstellingen herstellen?</jsVideoDefault>
+			<jsTrue>Ja</jsTrue>
+			<jsFalse>Geen</jsFalse>
+			<jsTimeSegmentErrorTips>Starttijd moet eerder zijn dan eindtijd.</jsTimeSegmentErrorTips>
+			<ptzSpeed>PTZ-snelheid </ptzSpeed>
+			<videoLost>Videosignaalverlies</videoLost>
+			<ExcutePreset>Bel</ExcutePreset>
+			<laZoom>Uitzoomen </laZoom>
+			<laFocus>Focus  </laFocus>
+			<laIris>Iris </laIris>
+			<CurrentAddTips>Tot op dit moment </CurrentAddTips>
+		</Js>
+		<General>
+			<capture>Vastleggen</capture>
+			<laOK tag="input;label;" length="88">OK</laOK>
+			<laCancel tag="input;label;" length="88">Stop</laCancel>
+			<hdFull tag="option;" length="198">HDD vol</hdFull>
+			<hdError tag="option;" length="198">Fout! HDD  </hdError>
+			<Exception>Uitzondering</Exception>
+			<laBrightness tag="label;" length="122">Helderheid</laBrightness>
+			<laContrast tag="label;" length="122">Contrast</laContrast>
+			<laSaturation tag="label;" length="122">Verzadiging</laSaturation>
+			<geDefault>Standaard</geDefault>
+			<alarmIn>Alarmingang</alarmIn>
+			<alarmOut>Alarmuitgang</alarmOut>
+			<laLensInit tag="label;" length="308">Lens initialiseren</laLensInit>
+			<laPreset tag="label;" length="31">Preset</laPreset>
+			<SearchingTips>Zoeken …</SearchingTips>
+			<laSaveBtn>Opslaan </laSaveBtn>
+			<DelDigitalIpBtn tag="input;" length="74">Wissen  </DelDigitalIpBtn>
+		</General>
+	</Common>
+	<Main>
+		<Page>
+			<laPreview tag="label;" length="165">Live Kijken</laPreview>
+			<laPlayback tag="label;" length="165">Afspelen</laPlayback>
+			<laLog tag="label;" length="165">Logboek</laLog>
+			<laConfig tag="label;" length="165">Configuratie</laConfig>
+			<laExit tag="label;" length="974">Uitloggen </laExit>
+			<DVR>
+				<laHelp>Help</laHelp>
+				<laVersion>Versie</laVersion>
+			</DVR>
+		</Page>
+		<Js>
+		</Js>
+	</Main>
+</Main>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Paramètres des congés</laSpanTitle>
+		<laPrompt>Les périodes de vacances ne doivent pas se chevaucher.</laPrompt>
+		<laHolidayName>Nom des congés</laHolidayName>
+		<laHolidayFun>Activer congés</laHolidayFun>
+		<HolidayTypeOpt1>Par date</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Par semaine</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Par mois</HolidayTypeOpt3>
+		<laStartDate>Date de début</laStartDate>
+		<laEndDate>Date de fin</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Editer congés</EditHolidayTips>
+		<LastTips>Dernière</LastTips>
+		<DayTips>Date</DayTips>
+		<MonthTips>Mois</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

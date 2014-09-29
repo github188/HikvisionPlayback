@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<VideoAudio>
+	<Common>
+		<Page>
+			<aVideo tag="a;" length="9999">Videó</aVideo>
+			<aAudio tag="a;" length="9999">Hang</aAudio>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<Video>
+		<Page>
+			<DVR>
+				<laSpanTitle>Video beállítása</laSpanTitle>
+				<laSaving>Mentés…</laSaving>
+				<laEffectParam>Videóbemenet típusa</laEffectParam>
+			</DVR>
+			<laInputResolution tag="label;" length="150">A fényképezőgép felbontása</laInputResolution>
+			<StreamTypeInOpt1 tag="option;" length="198">Fő adatfolyam (normál)</StreamTypeInOpt1>
+			<StreamTypeInOpt2 tag="option;" length="198">Al adatfolyam</StreamTypeInOpt2>
+			<StreamTypeInOpt3>Fő adatfolyam (esemény)</StreamTypeInOpt3>
+			<laUseEventPram>Esemény paraméterek engedélyezése</laUseEventPram>
+			<StreamTypeOpt1 tag="option;" length="198">Videó adatfolyam</StreamTypeOpt1>
+			<StreamTypeOpt2 tag="option;" length="198">Videó és audió</StreamTypeOpt2>
+			<laVideoQualityControlType tag="label;" length="150">Bitráta típusa</laVideoQualityControlType>
+			<videoQualityControlTypeOpt1 tag="option;" length="198">Változó</videoQualityControlTypeOpt1>
+			<videoQualityControlTypeOpt2 tag="option;" length="198">Konstans</videoQualityControlTypeOpt2>
+			<lafixedQuality tag="label;" length="150">Képminőség</lafixedQuality>
+			<fixedQualityOpt1 tag="option;" length="198">Legjobb</fixedQualityOpt1>
+			<fixedQualityOpt2 tag="option;" length="198">Magasabb</fixedQualityOpt2>
+			<fixedQualityOpt3 tag="option;" length="198">Közepes</fixedQualityOpt3>
+			<fixedQualityOpt4 tag="option;" length="198">Alacsony</fixedQualityOpt4>
+			<fixedQualityOpt5 tag="option;" length="198">Alacsonyabb</fixedQualityOpt5>
+			<fixedQualityOpt6 tag="option;" length="198">Leggyengébb</fixedQualityOpt6>
+			<laVideoFrameRate tag="label;" length="150">Keretméret</laVideoFrameRate>
+			<maxFrameRateOpt1>Teljes kép</maxFrameRateOpt1>
+			<laconstantBitRate tag="label;" length="150">Max. bitráta</laconstantBitRate>
+			<laVideoCodeType tag="label;" length="150">Videó kódolás</laVideoCodeType>
+			<laIntervalBPFrame tag="label;" length="150">Keret típusa</laIntervalBPFrame>
+			<laCodecComplexity tag="label;" length="150">Profil</laCodecComplexity>
+			<optionQuality1>Alap profil</optionQuality1>
+			<optionQuality2>Fő profil</optionQuality2>
+			<optionQuality3>Magas profil</optionQuality3>
+			<trVideoType>Videó típusa</trVideoType>
+			<laEnableEventParam>Eseménytömörítési paraméterek engedélyezése</laEnableEventParam>
+		</Page>
+		<Js>
+			<jsCustonBitRate>Testreszabott bitráta</jsCustonBitRate>
+		</Js>
+		<General>
+			<laIntervalFrameI tag="label;" length="150">I kép gyakoriság</laIntervalFrameI>
+			<laMulticast tag="label;" length="150">Multicast cím</laMulticast>
+		</General>
+	</Video>
+	<Audio>
+		<Page>
+			<laAudioEncoding tag="label;" length="150">Hang kódolása</laAudioEncoding>
+			<laAudioInput tag="label;" length="150">Hang bemenet</laAudioInput>
+			<laAudioVolume>Hangerő</laAudioVolume>
+		</Page>
+		<Js>
+		</Js>
+	</Audio>
+</VideoAudio>

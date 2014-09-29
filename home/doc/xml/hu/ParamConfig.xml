@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<ParamConfig>
+	<Common>
+		<Page>
+			<laParamConfig>Beállítás</laParamConfig>
+			<Tree>
+				<laLocalConfig tag="label;" length="125">Helyi beállítás</laLocalConfig>
+				<laBaseConfig tag="label;" length="125">Alapbeállítások</laBaseConfig>
+				<laAdvanceConfig tag="label;" length="125">Haladó beállítások</laAdvanceConfig>
+				<aLocalConfig tag="a;" length="139">Helyi beállítás</aLocalConfig>
+				<aSystem tag="a;" length="139">Rendszer</aSystem>
+				<aNetwork tag="a;" length="139">Hálózat</aNetwork>
+				<aAudioAndVideo tag="a;" length="139">Kép/hang</aAudioAndVideo>
+				<aVideoSettings tag="a;" length="139">Kép</aVideoSettings>
+				<aSecurity tag="a;" length="139">Biztonság</aSecurity>
+				<aEvent tag="a;" length="139">Események</aEvent>
+				<aStorage tag="a;" length="139">Tárolás</aStorage>
+				<DVR>
+					<tree1>Beállítás</tree1>
+					<tree2>Helyi beállítás</tree2>
+					<tree3>Távoli konfiguráció</tree3>
+					<tree300>Eszköz paraméterek</tree300>
+					<tree3000>Eszközinformáció</tree3000>
+					<tree3001>Idő beállítása</tree3001>
+					<tree3002>Eszközállapot</tree3002>
+					<tree3003>Menu Output</tree3003>
+					<tree301>Kamera beállítása</tree301>
+					<tree3010>Kijelző beállítása</tree3010>
+					<tree3011>Video beállítása</tree3011>
+					<tree3012>Ütemezés beállítása</tree3012>
+					<tree3013>Mozgásérzékelés</tree3013>
+					<tree3014>Jelvesztés</tree3014>
+					<tree3015>Privát maszk</tree3015>
+					<tree3016>Szabotázs-figyelés</tree3016>
+					<tree3017>Egyéni szöveg</tree3017>
+					<tree3018>Szünnap beállítások</tree3018>
+					<tree3019>Fényképezőgép paraméterek</tree3019>
+					<tree30191>Pillanatfelvétel</tree30191>
+					<tree302>Hálózat beállítások</tree302>
+					<tree3020>TCP/IP</tree3020>
+					<tree3021>PPPoE</tree3021>
+					<tree3022>DDNS</tree3022>
+					<tree3023>E-mail</tree3023>
+					<tree3024>NetHDD</tree3024>
+					<tree3025>SNMP</tree3025>
+					<tree3028>Port</tree3028>
+					<tree3029>FTP</tree3029>
+					<tree30291>QoS</tree30291>
+					<tree30292>SOCKS</tree30292>
+					<tree30293>UPnP™</tree30293>
+					<tree30294>HTTPS</tree30294>
+					<tree30295>Bonjour</tree30295>
+					<tree303>Soros port beállítások</tree303>
+					<tree3030>232 soros port</tree3030>
+					<tree3031>485 soros port</tree3031>
+					<tree304>Riasztási beállítások</tree304>
+					<tree3040>Riasztás be</tree3040>
+					<tree3041>Riasztás kimenet</tree3041>
+					<tree305>Súlyos hibák</tree305>
+					<tree306>Felhasználók kezelése</tree306>
+					<tree307>HDD-k kezelése</tree307>
+					<tree3070>Alapbeállítások</tree3070>
+					<tree308>Karbantartás</tree308>
+					<tree309>Újraindítás</tree309>
+					<tree310>Távoli frissítés</tree310>
+					<tree311>Kamera kezelés</tree311>
+					<tree3110>Analóg kamera</tree3110>
+					<tree3111>IP kamera</tree3111>
+					<tree3112>Nullcsatorna</tree3112>
+				</DVR>
+			</Tree>
+			<StartWeekDayOpt1 tag="label;a;" length="29">Hé</StartWeekDayOpt1>
+			<StartWeekDayOpt2 tag="label;a;" length="27">Kedd</StartWeekDayOpt2>
+			<StartWeekDayOpt3 tag="label;a;" length="31">Sze</StartWeekDayOpt3>
+			<StartWeekDayOpt4 tag="label;a;" length="27">Csüt</StartWeekDayOpt4>
+			<StartWeekDayOpt5 tag="label;a;" length="20">Pé</StartWeekDayOpt5>
+			<StartWeekDayOpt6 tag="label;a;" length="24">Szo</StartWeekDayOpt6>
+			<StartWeekDayOpt0 tag="label;a;" length="31">Vas</StartWeekDayOpt0>
+			<laMonday tag="label;a;" length="29">Hé</laMonday>
+			<laTuesday tag="label;a;" length="27">Kedd</laTuesday>
+			<laWednesday tag="label;a;" length="31">Sze</laWednesday>
+			<laThursday tag="label;a;" length="27">Csüt</laThursday>
+			<laFriday tag="label;a;" length="20">Pé</laFriday>
+			<laSaturday tag="label;a;" length="24">Szo</laSaturday>
+			<laSunday tag="label;a;" length="31">Vas</laSunday>
+			<laHoliday>Szünnapok</laHoliday>
+			<laSelectAll tag="label;" length="40">Az összes kiválasztása</laSelectAll>
+			<CopyTo tag="input;" length="88">Másolás</CopyTo>
+			<laMacAddress tag="label;" length="150">MAC cím</laMacAddress>
+			<laChannelName>A kamera neve</laChannelName>
+			<laCheckPwd tag="label;" length="150">Újra</laCheckPwd>
+			<laProtocolType tag="label;" length="150">Protokoll</laProtocolType>
+			<laState tag="label;" length="100">Állapot</laState>
+			<StartMonthOpt1 tag="option;" length="58">Január</StartMonthOpt1>
+			<StartMonthOpt2 tag="option;" length="58">Feb</StartMonthOpt2>
+			<StartMonthOpt3 tag="option;" length="58">Március</StartMonthOpt3>
+			<StartMonthOpt4 tag="option;" length="58">Ápr</StartMonthOpt4>
+			<StartMonthOpt5 tag="option;" length="58">Május</StartMonthOpt5>
+			<StartMonthOpt6 tag="option;" length="58">Június</StartMonthOpt6>
+			<StartMonthOpt7 tag="option;" length="58">Július</StartMonthOpt7>
+			<StartMonthOpt8 tag="option;" length="58">Aug</StartMonthOpt8>
+			<StartMonthOpt9 tag="option;" length="58">Szeptember</StartMonthOpt9>
+			<StartMonthOpt10 tag="option;" length="58">Okt</StartMonthOpt10>
+			<StartMonthOpt11 tag="option;" length="58">Nov</StartMonthOpt11>
+			<StartMonthOpt12 tag="option;" length="58">Dec</StartMonthOpt12>
+			<MdfDigitalIpBtn tag="input;" length="74">Módosít</MdfDigitalIpBtn>
+			<AddDigitalIpBtn>Új</AddDigitalIpBtn>
+			<laDay tag="option;" length="78">Nap</laDay>
+			<StartWeekOpt1 tag="option;" length="68">Első</StartWeekOpt1>
+			<StartWeekOpt2 tag="option;" length="68">Második</StartWeekOpt2>
+			<StartWeekOpt3 tag="option;" length="68">Harmadik</StartWeekOpt3>
+			<StartWeekOpt4 tag="option;" length="68">Negyedik</StartWeekOpt4>
+			<StartWeekOpt5 tag="option;" length="68">Utolsó</StartWeekOpt5>
+			<laEnable>Engedélyezés</laEnable>
+			<btnBrowse tag="input;" length="74">Böngészés</btnBrowse>
+			<laVideoResolution tag="label;" length="150">Felbontás</laVideoResolution>
+			<laCopyToWeek tag="label;" length="78">Egész hét</laCopyToWeek>
+			<GoBackListBtn tag="input;" length="88">Vissza</GoBackListBtn>
+			<laEdit>Szerkesztés</laEdit>
+			<laNoCopy tag="label;" length="517">(nem másolható)</laNoCopy>
+			<laProcess tag="label;" length="100">Folyamat</laProcess>
+			<aModeManual tag="option;" length="176">Kézi</aModeManual>
+			<aLevelLow tag="option;" length="176">Alacsony</aLevelLow>
+			<aLevelNormal tag="option;" length="176">Normál</aLevelNormal>
+			<aLevelHigh tag="option;" length="176">Magas</aLevelHigh>
+			<optionSecond tag="option;" length="78">második</optionSecond>
+			<laType tag="label;" length="100">Típus</laType>
+			<laOClock>órakor</laOClock>
+			<aStyleClose tag="option;" length="176">Bezár</aStyleClose>
+			<aModeAuto tag="option;" length="176">Auto</aModeAuto>
+			<laDelay tag="label;" length="150">Tartásidő</laDelay>
+			<OptPirORWlsensorORCallhelp>PIR|Vezeték nélküli|Vész</OptPirORWlsensorORCallhelp>
+			<OptAllEvent>Mozgásérzékelés|Riasztás be</OptAllEvent>
+			<laAuthType tag="label;" length="150">Hitelesítés</laAuthType>
+			<laAttribute>Tulajdonság</laAttribute>
+			<aEmail tag="a;" length="9999">E-mail</aEmail>
+			<laMountType>Felszerelés típusa</laMountType>
+			<laCelling>Mennyezeti</laCelling>
+			<laWall>Fali</laWall>
+			<laFloor>Padlóra szerelt</laFloor>
+			<laAnonymous>Névtelen</laAnonymous>
+			<laUploadCertificate>Feltöltés</laUploadCertificate>
+		</Page>
+		<Js>
+			<laparamCfg>Beállítás</laparamCfg>
+			<AnalogChannelNameTips>Analóg kamera</AnalogChannelNameTips>
+			<DigitalChannelNameTips>IP kamera</DigitalChannelNameTips>
+			<InputTips>Bevitel </InputTips>
+			<RangeTips> tartomány </RangeTips>
+			<WrongTips>Rossz </WrongTips>
+			<LengthTips> nem lehet hosszabb </LengthTips>
+			<NullTips> nem lehet üres.</NullTips>
+			<WithTimeSegmentTips> időszakkal </WithTimeSegmentTips>
+			<UserNameCharTips>Csak betűk (a-z, A-Z), számok (0-9) és aláhúzás (_) szerepelhet a felhasználónévben.</UserNameCharTips>
+			<CoverStopMapbuttonTips>Rajzolás vége</CoverStopMapbuttonTips>
+			<ClearRegionTips>Töröl minden területet?</ClearRegionTips>
+			<DeleteRegionFailedTips>A törlés sikertelen.</DeleteRegionFailedTips>
+			<DeleteRegionSuccessTips>Törölve</DeleteRegionSuccessTips>
+			<DevNameLengthTips>A név max. 32 karakter hosszú lehet.</DevNameLengthTips>
+			<DevNameNullTips>A név nem lehet üres.</DevNameNullTips>
+			<DevNameWrongCharTips>Invalid characters: </DevNameWrongCharTips>
+			<jsPwdCheckMismatch>Jelszavak nem egyeznek.</jsPwdCheckMismatch>
+			<jsTimeSegmentErrorSegTips> A kezdési időnek meg kell előznie a befejezés idejét.</jsTimeSegmentErrorSegTips>
+			<laCopyToChannel>Másolja erre a kamerára</laCopyToChannel>
+			<UserNameLengthTips> nem lehet hosszabb 16-nál.</UserNameLengthTips>
+			<OffLineTips>Offline</OffLineTips>
+			<OverlappedTips> nem fedheti át</OverlappedTips>
+			<LocalTips>Helyi</LocalTips>
+			<DIPAddInvalidTips>Az IP cím első szegmense 1 és 233 közötti szám lehet.</DIPAddInvalidTips>
+			<tipsNormal>Normál</tipsNormal>
+			<jsEmailAdd>E-mail cím</jsEmailAdd>
+			<jsUploadSuc>Feltöltés sikerült</jsUploadSuc>
+			<jsUploadFailed>Feltöltés sikertelen</jsUploadFailed>
+		</Js>
+		<General>
+			<geUserName tag="label;" length="150">Felhasználónév</geUserName>
+			<gePassword tag="label;" length="150">Jelszó</gePassword>
+			<laTimerange tag="label;" length="100">Időszak</laTimerange>
+			<CoverStartMapbutton tag="input;" length="74">Terület. rajz.</CoverStartMapbutton>
+			<CoverTimebutton tag="input;" length="74">Mind törl</CoverTimebutton>
+			<laServerAdd tag="label;" length="150">Szerver cím</laServerAdd>
+			<laIpAddress>IP cím</laIpAddress>
+			<aMoveDetection tag="a;" length="9999">Mozgásérzékelés</aMoveDetection>
+			<laVideoTabDivBtn tag="label;" length="670">Terület beállításai</laVideoTabDivBtn>
+			<trDisabled>Tiltás</trDisabled>
+			<WholeDayRecordTypeOpt1 tag="option;" length="118">Normál</WholeDayRecordTypeOpt1>
+			<WholeDayRecordTypeOpt3 tag="option;" length="118">Riasztás</WholeDayRecordTypeOpt3>
+			<WholeDayRecordTypeOpt4 tag="option;" length="118">Mozgás/riasztás</WholeDayRecordTypeOpt4>
+			<WholeDayRecordTypeOpt5 tag="option;" length="118">Mozgás és riasztás</WholeDayRecordTypeOpt5>
+			<laEnableWholeDayRecord tag="label;" length="87">Minden nap</laEnableWholeDayRecord>
+			<laEnableWholeDayCapture tag="label;" length="87">Minden nap</laEnableWholeDayCapture>
+			<laSectionRecord tag="label;" length="578">Testreszabás</laSectionRecord>
+			<laSectionCapture tag="label;" length="578">Testreszabás</laSectionCapture>
+			<laWholeDayRecordType tag="label;" length="149">Felvétel típusa</laWholeDayRecordType>
+			<laWholeDayCaptureType tag="label;" length="149">Képrögzítés típusa</laWholeDayCaptureType>
+			<constantBitRateOpt23>Testreszab</constantBitRateOpt23>
+			<Other>Más</Other>
+		</General>
+	</Common>
+	<ParamConfig>
+		<Page>
+		</Page>
+		<Js>
+			<Success1>Sikeres mentés.</Success1>
+			<Success2>Sikeresen elmentette. Újraindítja?</Success2>
+			<DeleteSuccTips>Fájl törölve.</DeleteSuccTips>
+			<Success4>Fájl törölve. Újraindítja az eszközt?</Success4>
+			<Success5>Sikerült! Indítsa újra az eszközt, így láthatja az új beállítás hatását. </Success5>
+			<Error1>A paraméterek beállítása sikertelen.</Error1>
+			<Error2>A paraméterek lekérése sikertelen.</Error2>
+			<Error3>Érvénytelen XML tartalom.</Error3>
+			<Error4>Érvénytelen XML formátum.</Error4>
+			<Error5>Érvénytelen művelet</Error5>
+			<Error6>Eszközhiba.</Error6>
+			<Error7>Az eszköz foglalt.</Error7>
+			<jsNetworkAbnormal>Rendellenes hálózat</jsNetworkAbnormal>
+			<Error10>Nincs riasztási ki- / bemenet.</Error10>
+			<Error11>Felhasználói jelszó hiba.</Error11>
+			<Error12>Módszerhiba</Error12>
+			<Error13>Paraméter hiba.</Error13>
+			<Error14>Érvénytelen URL vagy HTTP.</Error14>
+			<Error400>Hiba: a hálózat lecsatlakoztatva, vagy rendellenes.</Error400>
+			<Error44> Rossz paraméterek</Error44>
+			<Error55>Kamerabeállítások</Error55>
+			<Error66>Riasztási paraméterek beállítása</Error66>
+			<Error77>Ezt a funkciót a kamera nem támogatja.</Error77>
+			<Ask>Mentés után az eszköz automatikusan újraindul. Folytatja?</Ask>
+			<Ask1>Törli ezt a felhasználót?</Ask1>
+			<RestartTips>Paraméterek megváltoztak. Újraindítja most?</RestartTips>
+			<RestartSuccessTips>Újraindítás…</RestartSuccessTips>
+			<RestartFailedTips>Az újraindítás sikertelen</RestartFailedTips>
+		</Js>
+	</ParamConfig>
+</ParamConfig>

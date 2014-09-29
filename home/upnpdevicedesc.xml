@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:schemas-upnp-org:device:EmbeddedNetDevice:1</deviceType>
+    <friendlyName>HIKVISION DS-2CD8464F-EIW - 412618253</friendlyName>
+    <manufacturer>HIKVISION</manufacturer>
+    <manufacturerURL>http://www.hikvision.com</manufacturerURL>
+    <modelDescription>IP Camera</modelDescription>
+    <modelName>HIKVISION DS-2CD8464F-EIW</modelName>
+    <modelNumber>DS-2CD8464F-EIW</modelNumber>
+    <modelURL>http://www.hikvision.com</modelURL>
+    <serialNumber>412618253</serialNumber>
+    <UDN>uuid:Upnp-DS-2CD8464F-EIW-1_0-412618253</UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:EmbeddedNetDeviceControl:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:EmbeddedNetDeviceControl</serviceId>
+        <controlURL>/</controlURL>
+        <eventSubURL>/</eventSubURL>
+        <SCPDURL>/</SCPDURL>
+      </service>
+    </serviceList>
+   <presentationURL>http://192.168.1.5:80</presentationURL>
+</device>
+</root>

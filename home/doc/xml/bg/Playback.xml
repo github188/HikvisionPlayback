@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Плейбек</title>
+		<SlowlyForward>Бавно напред</SlowlyForward>
+		<FastForward>Бързо напред</FastForward>
+		<SingleFrame>Единичен кадър</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Статус</laCurrentSpeed>
+		<laGotoTime>Старт</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Настр. плейбек време</laPlaybackTimeLocalizer>
+		<imgGotoTime>Плейбек по времева линия</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Команда</RecordType1>
+		<RecordType2 tag="label;" length="704">График</RecordType2>
+		<RecordType3 tag="label;" length="704">Аларма</RecordType3>
+		<RecordType4 tag="label;" length="704">Ръчен</RecordType4>
+		<PictureDownload tag="input;" length="32">Сваляне снимки</PictureDownload>
+		<RecordDownload tag="input;" length="32">Сваляне записи</RecordDownload>
+		<DVR>
+			<stopAll>Спри всички възпроизвеждания</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Неуспешна пауза във възпроизвеждане</pausefailed>
+		<resumefailed>Неуспешно продължаване на възпроизвеждане.</resumefailed>
+		<stoprecord>Стоп клип</stoprecord>
+		<startRecord>Старт клип</startRecord>
+		<stoprecordfailed>Неуспешен стоп на клип.</stoprecordfailed>
+		<startplayfailed>Неуспешно възпроизвеждане</startplayfailed>
+		<stopplayfailed>Неуспешно спиране на възпроизвеждане.</stopplayfailed>
+		<jssingleframe>Плейбек по кадър</jssingleframe>
+		<jssingleframefailed>Неуспешен плейбек по кадър.</jssingleframefailed>
+		<stopCurrentWndPlay>Моля, спрете възпроизвеждането в текущия прозорец и след това продължете.</stopCurrentWndPlay>
+		<szTips1>Неуспешно търсене видео файлове</szTips1>
+		<szTips3>Няма файл за запис</szTips3>
+		<jsSearchFile>Моля, първо стартирайте търсене на файл.</jsSearchFile>
+		<jsSpeed>Скорост</jsSpeed>
+		<jsPauseAlready>Пауза</jsPauseAlready>
+		<jsPause>Пауза</jsPause>
+		<jsResume>Възстановяване</jsResume>
+		<jsPlayBackError>Грешка при плейбек.</jsPlayBackError>
+		<jsRecordError>Неуспешен клип.</jsRecordError>
+		<jsPlaybackStop> Плейбек приключен.</jsPlaybackStop>
+		<jsPlayStopAbnormal> Плейбек приключи с грешка.</jsPlayStopAbnormal>
+		<jsDownload>Моля, потърсете файл за сваляне.</jsDownload>
+		<jsNotSupportDown>Устройството не поддържа сваляне.</jsNotSupportDown>
+		<jsDownloadWnd>Прозореца за сваляне е отворен.</jsDownloadWnd>
+		<jsClipSucc>Успешен клип.</jsClipSucc>
+		<jsZoomIn>Zoom In</jsZoomIn>
+		<jsZoomOut>Zoom Out</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Моля, изберете канал</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Play</gePlay>
+	</General>
+</Playback>

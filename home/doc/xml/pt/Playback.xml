@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Playback>
+	<Page>
+		<title>Reprodução</title>
+		<SlowlyForward>Avançar lento</SlowlyForward>
+		<FastForward>Avanço rápido</FastForward>
+		<SingleFrame>Frame única</SingleFrame>
+		<laCurrentSpeed tag="label;" length="38">Estado</laCurrentSpeed>
+		<laGotoTime>Ir</laGotoTime>
+		<laPlaybackTimeLocalizer tag="label;" length="214">Definir tempo de reprodução</laPlaybackTimeLocalizer>
+		<imgGotoTime>Reproduzir por data/hora</imgGotoTime>
+		<RecordType1 tag="label;" length="704">Comando</RecordType1>
+		<RecordType2 tag="label;" length="704">Horário</RecordType2>
+		<RecordType3 tag="label;" length="704">Alarme</RecordType3>
+		<RecordType4 tag="label;" length="704">Manual</RecordType4>
+		<PictureDownload tag="input;" length="32">Descarregar imagens</PictureDownload>
+		<RecordDownload tag="input;" length="32">Descarregar gravação</RecordDownload>
+		<DVR>
+			<stopAll>Parar todas as reproduções</stopAll>
+		</DVR>
+	</Page>
+	<Js>
+		<pausefailed>Falha ao pausar a reprodução.</pausefailed>
+		<resumefailed>Restauro da reprodução falhou.</resumefailed>
+		<stoprecord>Parar recorte</stoprecord>
+		<startRecord>Iniciar corte</startRecord>
+		<stoprecordfailed>Falha ao parar o recorte.</stoprecordfailed>
+		<startplayfailed>A reprod. falhou.</startplayfailed>
+		<stopplayfailed>Falha ao parar reprodução.</stopplayfailed>
+		<jssingleframe>Reproduzir por frame</jssingleframe>
+		<jssingleframefailed>Falha ao reproduzir por frame.</jssingleframefailed>
+		<stopCurrentWndPlay>Pare a reprodução desta janela antes de prosseguir.</stopCurrentWndPlay>
+		<szTips1>Falha ao procurar ficheiros de vídeo.</szTips1>
+		<szTips3>Nenhum ficheiro gravado.</szTips3>
+		<jsSearchFile>Procure o ficheiro primeiro.</jsSearchFile>
+		<jsSpeed>Veloc.</jsSpeed>
+		<jsPauseAlready>Em pausa</jsPauseAlready>
+		<jsPause>Pausa</jsPause>
+		<jsResume>Restaurar</jsResume>
+		<jsPlayBackError>Reprodução anormal.</jsPlayBackError>
+		<jsRecordError>Falha a cortar.</jsRecordError>
+		<jsPlaybackStop> Reprodução terminada.</jsPlaybackStop>
+		<jsPlayStopAbnormal> Reprodução terminou anormalmente.</jsPlayStopAbnormal>
+		<jsDownload>Procure o ficheiro para descarregar.</jsDownload>
+		<jsNotSupportDown>Este dispositivo não suporta o download.</jsNotSupportDown>
+		<jsDownloadWnd>A janela de download é aberta.</jsDownloadWnd>
+		<jsClipSucc>Corte bem sucedido</jsClipSucc>
+		<jsZoomIn>Zoom In</jsZoomIn>
+		<jsZoomOut>Zoom Out</jsZoomOut>
+		<DVR>
+			<jsSelectChan>Selecione um canal.</jsSelectChan>
+			<jsPlayChannel>Camera </jsPlayChannel>
+		</DVR>
+	</Js>
+	<General>
+		<gePlay>Reproduzir</gePlay>
+	</General>
+</Playback>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Network>
+	<Common>
+		<Page>
+			<laNetWorkMode>Pracovní režim</laNetWorkMode>
+			<laEAPOLVersion tag="label;" length="150">Verze EAPOL</laEAPOLVersion>
+			<laFriendlyName>Prezdivka</laFriendlyName>
+		</Page>
+		<Js>
+		    <jsPortConflict>Konflikt portů.</jsPortConflict>
+		</Js>
+		<General>
+			<gePort tag="label;" length="150">Port</gePort>
+		</General>
+	</Common>
+	<IpConfig>
+		<Page>
+			<NetworkModeOpt1>Tolerance chyb sítě</NetworkModeOpt1>
+			<NetworkModeOpt2>Nahrát vyvážení</NetworkModeOpt2>
+			<NetworkModeOpt3>Multi-adresa</NetworkModeOpt3>
+			<laNetCardConfig tag="label;" length="670">Nastav. NIC</laNetCardConfig>
+			<laSelectNetCard>Vybrat NIC</laSelectNetCard>
+			<laNetworkType tag="label;" length="150">Typ NIC</laNetworkType>
+			<NetworkTypeOpt1 tag="option;" length="198">10 M Poloviční dup.</NetworkTypeOpt1>
+			<NetworkTypeOpt2 tag="option;" length="198">10 M Plný dup.</NetworkTypeOpt2>
+			<NetworkTypeOpt3 tag="option;" length="198">100 M Poloviční dup.</NetworkTypeOpt3>
+			<NetworkTypeOpt4 tag="option;" length="198">100 M Plný dup.</NetworkTypeOpt4>
+			<NetworkTypeOpt5 tag="option;" length="198">10 M / 100 M / 1000 M Auto</NetworkTypeOpt5>
+			<NetworkTypeOpt6 tag="option;" length="198">1000 M Plný dup.</NetworkTypeOpt6>
+			<laDeviceIpAdd tag="label;" length="150">Adresa IPv4</laDeviceIpAdd>
+			<laDHCP tag="label;" length="670">DHCP</laDHCP>
+			<laSubNetMask tag="label;" length="150">Maska podsítě IPv4</laSubNetMask>
+			<laDefaultGateWay tag="label;" length="150">Výchozí brána IPv4</laDefaultGateWay>
+			<laDeviceIpV6Add>Adresa IPv6</laDeviceIpV6Add>
+			<laDefaultV6GateWay>Výchozí brána IPv6</laDefaultV6GateWay>
+			<laDNSServerConfig tag="label;" length="670">DNS server</laDNSServerConfig>
+			<laPrimaryDNS tag="label;" length="150">Preferovaný DNS server</laPrimaryDNS>
+			<laDNSServer2IP tag="label;" length="150">Alter. DNS server</laDNSServer2IP>
+			<laPrimayEthernet>Hlavní NIC</laPrimayEthernet>
+			<laMulticast tag="label;" length="150">Adresa multicastu</laMulticast>
+		</Page>
+		<Js>
+			<jsMaskAdd>Maska podsítě</jsMaskAdd>
+			<jsGateAdd>Brána</jsGateAdd>
+			<jsMtuParam>MTU</jsMtuParam>
+			<jsFirstDNS>Preferovaná DNS adresa</jsFirstDNS>
+			<jsSecondDNS>Alter. DNS adresa</jsSecondDNS>
+			<MaskAddInvalidTips>Neplatná adresa masky podsítě</MaskAddInvalidTips>
+			<jsMulticastRange>První část IP adresy musí být v rozsahu 224-239.</jsMulticastRange>
+		</Js>
+	</IpConfig>
+	<PortConfig>
+		<Page>
+			<laHttpPort tag="label;" length="150">HTTP port</laHttpPort>
+			<laRtspPort tag="label;" length="150">RSTP port</laRtspPort>
+			<laHttpsPort tag="label;" length="150">HTTPS port</laHttpsPort>
+			<laSDKPort>SDK port</laSDKPort>
+		</Page>
+		<Js>
+			<jsHttpPortParam>HTTP Port </jsHttpPortParam>
+			<jsRtspPortParam>RTSP Port </jsRtspPortParam>
+			<jsHttpsPortParam>HTTPS Port </jsHttpsPortParam>
+		</Js>
+	</PortConfig>
+	<DDNS>
+		<Page>
+			<laUseDDNS tag="label;" length="670">Povolit DDNS</laUseDDNS>
+			<laDDNSType tag="label;" length="150">Typ DDNS</laDDNSType>
+		</Page>
+		<Js>
+			<jsDomainAlreadyExist>Doména již existuje</jsDomainAlreadyExist>
+		</Js>
+		<General>
+			<laDeviceDomain tag="label;" length="150">Doména</laDeviceDomain>
+		</General>
+	</DDNS>
+	<PPPoE>
+		<Page>
+			<laUsePPPOE tag="label;" length="670">Povolit PPPoE</laUsePPPOE>
+			<laDevicePPPOEIP tag="label;" length="150">Dynamický IP</laDevicePPPOEIP>
+		</Page>
+		<Js>
+			<jsPPPOEName>Název PPPoE</jsPPPOEName>
+			<jsPPPOEPassword>Heslo PPPoE</jsPPPOEPassword>
+		</Js>
+	</PPPoE>
+	<SNMP>
+		<Page>
+			<laEnableV1 tag="label;" length="150">Povolit SNMPv1</laEnableV1>
+			<laEnableV2c tag="label;" length="150">Povolit SNMP v2c</laEnableV2c>
+			<laRwCommunity tag="label;" length="150">Zapsat komunitu SNMP</laRwCommunity>
+			<laRCommunity tag="label;" length="150">Číst komunitu SNMP</laRCommunity>
+			<laTrapIP tag="label;" length="150">Zachycení adresy</laTrapIP>
+			<laTrapPort tag="label;" length="150">Zachycení portu</laTrapPort>
+			<laTrapCommunity tag="label;" length="150">Zachycení komunity</laTrapCommunity>
+			<laEnableV3c tag="label;" length="150">Povolit SNMPv3</laEnableV3c>
+			<laRUserName tag="label;" length="150">Číst uživ. jméno</laRUserName>
+			<laRwUserName tag="label;" length="150">Zapsat uživ. jméno</laRwUserName>
+			<laSecurityLevel tag="label;" length="150">Úroveň zabezpečení</laSecurityLevel>
+			<laAuthAlg tag="label;" length="150">Algoritmus autentifikace</laAuthAlg>
+			<laAuthPsd tag="label;" length="150">Heslo autentifikace</laAuthPsd>
+			<laPrivacyAlg tag="label;" length="150">Algoritmus se soukr. klíčem</laPrivacyAlg>
+			<laPrivacyPsd tag="label;" length="150">Heslo soukr. klíče</laPrivacyPsd>
+			<laSNMPPort tag="label;" length="150">SNMP port</laSNMPPort>
+			<laSNMPMore tag="label;" length="670">Další nastavení SNMP</laSNMPMore>
+		</Page>
+		<Js>
+			<jsOneLeast>Nejméně jeden typ SNMP musí být povolen</jsOneLeast>
+			<jsTrapIp>Zachycení IP adresy</jsTrapIp>
+		</Js>
+	</SNMP>
+	<P8021x>
+		<Page>
+			<laEnable8021x tag="label;" length="131">Povolit IEEE 802.1X</laEnable8021x>
+		</Page>
+		<Js>
+		</Js>
+	</P8021x>
+	<QoS>
+		<Page>
+			<laVideoDSCP tag="label;" length="150">Video/Audio DSCP</laVideoDSCP>
+			<laEADSCP tag="label;" length="150">DSCP události/alarmu</laEADSCP>
+			<laManageDSCP tag="label;" length="150">Správa DSCP</laManageDSCP>
+			<laEnableQoS>Povolit QoS</laEnableQoS>
+		</Page>
+		<Js>
+		</Js>
+	</QoS>
+	<Socks>
+		<Page>
+			<laEnableSocks>Povolit SOCKS</laEnableSocks>
+			<laSocksServerAddr>Server</laSocksServerAddr>
+			<laSocksServerPort>Port serveru</laSocksServerPort>
+			<laSocksVersion>Typ serveru</laSocksVersion>
+			<laLocalList>Místní sítě</laLocalList>
+			<laLocalTips>K oddělení místních sítí použijte středník (;)</laLocalTips>
+		</Page>
+		<Js>
+		</Js>
+	</Socks>
+	<UPnP>
+		<Page>
+			<laEnableUPnP>Povol UPnP</laEnableUPnP>
+			<laHttpPortMap>Mapování HTTP portu</laHttpPortMap>
+			<laManagePortMap>Mapování portu zařízení</laManagePortMap>
+			<laRtspPortMap>Mapování RTSP portu</laRtspPortMap>
+			<laHttpsPortMap>Mapování HTTPS portu</laHttpsPortMap>
+			<laNatRouterLanAddr>Adresa NAT směrovače</laNatRouterLanAddr>
+			<laEnableUPnPNat>Povolit UPnP™ NAT</laEnableUPnPNat>
+			<laUPnPMapType>Typ mapov.portu</laUPnPMapType>
+			<laPortsMap>Mapování portu</laPortsMap>
+			<laProtocolName>Nazev protokolu</laProtocolName>
+			<laExternalPort>Ext. port</laExternalPort>
+			<laEnablePortMap>Povol mapovani portu</laEnablePortMap>
+			<laNatMapType>Typ mapování NAT</laNatMapType>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<geValid>Platné</geValid>
+			<geNotValid>Neplatné</geNotValid>
+		</General>
+	</UPnP>
+	<Bonjour>
+		<Page>
+			<laEnableBonjour>Povolit Bonjour</laEnableBonjour>
+		</Page>
+		<Js>
+		</Js>
+	</Bonjour>
+	<HTTPS>
+		<Page>
+			<laCreate>Create</laCreate>
+			<laCreateSelfCertificate>Vytvořit certifikát s vlastním podpisem</laCreateSelfCertificate>
+			<laCreateCertificateReq>Vytvořit požadavek na certifikát</laCreateCertificateReq>
+			<laInstallSignedCertificate>Instalovat podepsaný certifikát</laInstallSignedCertificate>
+			<laCreatedRequest>Vytvořit požadavek</laCreatedRequest>
+			<laInstalledCertificate>Instalovaný certifikát</laInstalledCertificate>
+			<laRemove>Smaz</laRemove>
+			<laValidity>Platnost</laValidity>
+			<laCountry>Země</laCountry>
+			<laStateOrProvince>Stát či oblast</laStateOrProvince>
+			<laLocality>Místo</laLocality>
+			<laOrganization>Organizace</laOrganization>
+			<laOrganizationalUnit>Organizační jednotka</laOrganizationalUnit>
+			<laCommonName>Nazev IP/domena</laCommonName>
+			<laCertificatePath>Cesta k certifikátu</laCertificatePath>
+			<laExample>příklad</laExample>
+			<laConfirmInstall>Ujistěte se prosím, že je certifikát již nainstalován</laConfirmInstall>
+		</Page>
+		<Js>
+		</Js>
+	</HTTPS>
+	<FTP>
+		<Page>
+			<laPathDepth tag="label;" length="150">Adresářová struktura</laPathDepth>
+			<laTopPath tag="label;" length="150">Nadřazený adresář</laTopPath>
+			<laSubPath tag="label;" length="150">Podadresář</laSubPath>
+			<laUploadType tag="label;" length="150">Typ nahrávání</laUploadType>
+			<laUploadPicture tag="label;" length="150">Nahrát obrázek</laUploadPicture>
+			<laUploadVideoClip>Nahrát videoklip</laUploadVideoClip>
+			<optPathDepth1 tag="option;" length="198">Uložit do kořenového adresáře.</optPathDepth1>
+			<optPathDepth2 tag="option;" length="198">Uložit do nadřaz. adresáře</optPathDepth2>
+			<optPathDepth3 tag="option;" length="198">Uložit do podadresáře</optPathDepth3>
+			<optTopPath1 tag="option;" length="198">Použít název zařízení</optTopPath1>
+			<optTopPath2 tag="option;" length="198">Použít číslo zařízení</optTopPath2>
+			<optTopPath3 tag="option;" length="198">Použít IP adresu zařízení</optTopPath3>
+			<optSubPath1 tag="option;" length="198">Použít název kamery</optSubPath1>
+			<optSubPath2 tag="option;" length="198">Použít číslo kamery</optSubPath2>
+			<laSelectFtp>Vybrat FTP</laSelectFtp>
+			<laEnableFTP tag="label;" length="670">Povolit FTP</laEnableFTP>
+		</Page>
+		<Js>
+		</Js>
+	</FTP>
+	<WIFI>
+		<Page>
+			<laWirelessList>Seznam bezdrát.</laWirelessList>
+			<laSecurityMode>Bezp. režim</laSecurityMode>
+			<laChannel>Kanál</laChannel>
+			<laSignalStrength>Síla signálu</laSignalStrength>
+			<laSpeed>Rychlost</laSpeed>
+			<laWirelessNetworkMode>Režim sítě</laWirelessNetworkMode>
+			<laEncryptionType>Typ šifrování</laEncryptionType>
+			<laOpen>Otevřít</laOpen>
+			<laShared>Sdílené</laShared>
+			<laKeyLength>Délka klíče</laKeyLength>
+			<laKeyType>Typ klíče</laKeyType>
+			<laHex>HEX</laHex>
+			<laKey>Klíč</laKey>
+			<laPEAPVersion>Verze PEAP</laPEAPVersion>
+			<laPEAPLabel>Označení PEAP</laPEAPLabel>
+			<laInnerAuthenticationMode>Vnitřní autentifikace</laInnerAuthenticationMode>
+			<laAnonymousID>Anonymní identita</laAnonymousID>
+			<laIdentify>Identifikovat</laIdentify>
+			<laPrivateKeyPassword>Heslo privátního klíče</laPrivateKeyPassword>
+			<laCACertificate>Certifikát CA</laCACertificate>
+			<laUserCertificate>Certifikát uživatele</laUserCertificate>
+			<laPrivateKeyCertificate>Privátní klíč</laPrivateKeyCertificate>
+			<laEnableWPS>Povolit WPS</laEnableWPS>
+			<laPinCode>PIN kód</laPinCode>
+			<pinCodeGenerate>Generovat</pinCodeGenerate>
+			<autoConnect>Připojení PBC</autoConnect>
+			<manuConnect>Použít PIN kód směrovače</manuConnect>
+			<laApPinCode>PIN kód směrovače</laApPinCode>
+			<laConnect>Připojit</laConnect>
+			<laSSID>SSID</laSSID>
+		</Page>
+		<Js>
+			<jsTenHex>Vložte 10 hex znaků</jsTenHex>
+			<jsXXVIHex>Vložte 26 hex znaků</jsXXVIHex>
+			<jsFiveASCII>Vložte 5 ASCII znaků</jsFiveASCII>
+			<jsTenASCII>Vložte 13 ASCII znaků</jsTenASCII>
+			<jsEightMoreChar>Vložte 8-63 znaků</jsEightMoreChar>
+			<jsConnectSuc>Úspěšně připojeno</jsConnectSuc>
+			<jsConnectFail>Připojení se nezdařilo.</jsConnectFail>
+			<jsConnecting>Probíhá připojování...</jsConnecting>
+		</Js>
+	</WIFI>
+</Network>

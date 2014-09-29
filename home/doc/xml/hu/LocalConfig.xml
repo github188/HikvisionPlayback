@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<LocalConfig>
+	<Page>
+		<lapackSize tag="label;" length="150">Fájlméret</lapackSize>
+		<lanetsPreach tag="label;" length="150">Élőkép teljesítmény</lanetsPreach>
+		<laRecordPath tag="label;" length="150">Mentés helye</laRecordPath>
+		<laPreviewPicPath tag="label;" length="150">Élőképek helye</laPreviewPicPath>
+		<laPlaybackFilePath tag="label;" length="150">Felvételek mentése ide</laPlaybackFilePath>
+		<laPlaybackPicPath tag="label;" length="150">Pillanatfelv. ment. lejátszáskor ide</laPlaybackPicPath>
+		<laDownloadPath tag="label;" length="150">Letöltött fájlok mentése ide</laDownloadPath>
+		<netsPreach2 tag="label;" length="134">Reális idő</netsPreach2>
+		<netsPreach3 tag="label;" length="134">Egyensúly</netsPreach3>
+		<netsPreach4 tag="label;" length="134">Leggördülékenyebb</netsPreach4>
+		<laRecordFileParams tag="label;" length="670">Fájlbeállítások</laRecordFileParams>
+		<laCaptureClipParams tag="label;" length="670">Kép és felvétel beáll.</laCaptureClipParams>
+		<trFullFill>Teljes töltet</trFullFill>
+	</Page>
+	<Js>
+	</Js>
+</LocalConfig>

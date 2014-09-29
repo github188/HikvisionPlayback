@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<ParamConfig>
+	<Common>
+		<Page>
+			<laParamConfig>Configuration</laParamConfig>
+			<Tree>
+				<laLocalConfig tag="label;" length="125">Τοπική ρύθμ. παραμ</laLocalConfig>
+				<laBaseConfig tag="label;" length="125">Βασική ρύθμιση</laBaseConfig>
+				<laAdvanceConfig tag="label;" length="125">Σύνθετες ρυθμίσεις</laAdvanceConfig>
+				<aLocalConfig tag="a;" length="139">Τοπική ρύθμ. παραμ</aLocalConfig>
+				<aSystem tag="a;" length="139">Σύστημα</aSystem>
+				<aNetwork tag="a;" length="139">Δίκτυο</aNetwork>
+				<aAudioAndVideo tag="a;" length="139">Εικόνα/Ήχος</aAudioAndVideo>
+				<aVideoSettings tag="a;" length="139">Εικόνα</aVideoSettings>
+				<aSecurity tag="a;" length="139">Ασφάλεια</aSecurity>
+				<aEvent tag="a;" length="139">Συμβάντα</aEvent>
+				<aStorage tag="a;" length="139">Αποθήκευση</aStorage>
+				<DVR>
+					<tree1>Ρύθμ. παραμ</tree1>
+					<tree2>Τοπική ρύθμ. παραμ</tree2>
+					<tree3>Απομ. ρύθμ. παρ</tree3>
+					<tree300>Παράμ. συσκευής</tree300>
+					<tree3000>Πληροφ. συσκ.</tree3000>
+					<tree3001>Ρυθμίσεις χρόνου</tree3001>
+					<tree3002>Κατάσταση συσκ.</tree3002>
+					<tree3003>Menu Output</tree3003>
+					<tree301>Ρυθμ. κάμερας</tree301>
+					<tree3010>Ρυθμ. οθόνης</tree3010>
+					<tree3011>Ρυθμίσεις βίντεο</tree3011>
+					<tree3012>Ρυθμίσ. προγρ.</tree3012>
+					<tree3013>Ανίχν. κίνησης</tree3013>
+					<tree3014>Απώλ. σήμ. βίντ</tree3014>
+					<tree3015>Μάσκα απόκρυψης</tree3015>
+					<tree3016>Ανίχν. παραβ.</tree3016>
+					<tree3017>Υπέρθεση κειμ.</tree3017>
+					<tree3018>Ρυθμίσ. αργιών</tree3018>
+					<tree3019>Κάμερα</tree3019>
+					<tree30191>Στιγμιότυπο</tree30191>
+					<tree302>Ρυθμίσ. δικτύου</tree302>
+					<tree3020>TCP/IP</tree3020>
+					<tree3021>PPPoE</tree3021>
+					<tree3022>DDNS</tree3022>
+					<tree3023>E-mail</tree3023>
+					<tree3024>Δικτ. σκλ. δίσκ</tree3024>
+					<tree3025>SNMP</tree3025>
+					<tree3028>Θύρα</tree3028>
+					<tree3029>FTP</tree3029>
+					<tree30291>QoS</tree30291>
+					<tree30292>SOCKS</tree30292>
+					<tree30293>UPnP™</tree30293>
+					<tree30294>HTTPS</tree30294>
+					<tree30295>Bonjour</tree30295>					
+					<tree303>Ρυθμ. σειρ. θύρ</tree303>
+					<tree3030>Σειρ. θύρα 232 </tree3030>
+					<tree3031>Σειρ. θύρα 485</tree3031>
+					<tree304>Ρυθμ. συναγερμ.</tree304>
+					<tree3040>Είσοδος συναγ.</tree3040>
+					<tree3041>Έξοδος συναγ.</tree3041>
+					<tree305>Εξαίρεση</tree305>
+					<tree306>Διαχ. χρηστών</tree306>
+					<tree307>Διαχ. σκλ. δίσκ</tree307>
+					<tree3070>Βασικές ρυθμ.</tree3070>
+					<tree308>Συντήρηση</tree308>
+					<tree309>Επανεκκίνηση</tree309>
+					<tree310>Απομ. αναβάθμ.</tree310>
+					<tree311>Διαχ. κάμερας</tree311>
+					<tree3110>Αναλογ. κάμερα</tree3110>
+					<tree3111>Κάμερα IP</tree3111>
+					<tree3112>Κανάλι μηδέν</tree3112>
+				</DVR>
+			</Tree>
+			<StartWeekDayOpt1 tag="label;a;" length="29">Δευ</StartWeekDayOpt1>
+			<StartWeekDayOpt2 tag="label;a;" length="27">Τρί</StartWeekDayOpt2>
+			<StartWeekDayOpt3 tag="label;a;" length="31">Τετ</StartWeekDayOpt3>
+			<StartWeekDayOpt4 tag="label;a;" length="27">Πέμ</StartWeekDayOpt4>
+			<StartWeekDayOpt5 tag="label;a;" length="20">Παρ</StartWeekDayOpt5>
+			<StartWeekDayOpt6 tag="label;a;" length="24">Σάβ</StartWeekDayOpt6>
+			<StartWeekDayOpt0 tag="label;a;" length="31">Κυρ</StartWeekDayOpt0>
+			<laMonday tag="label;a;" length="29">Δευ</laMonday>
+			<laTuesday tag="label;a;" length="27">Τρί</laTuesday>
+			<laWednesday tag="label;a;" length="31">Τετ</laWednesday>
+			<laThursday tag="label;a;" length="27">Πέμ</laThursday>
+			<laFriday tag="label;a;" length="20">Παρ</laFriday>
+			<laSaturday tag="label;a;" length="24">Σάβ</laSaturday>
+			<laSunday tag="label;a;" length="31">Κυρ</laSunday>
+			<laHoliday>Αργία</laHoliday>
+			<laSelectAll tag="label;" length="40">Επιλογή όλων</laSelectAll>
+			<CopyTo tag="input;" length="88">Αντιγραφή</CopyTo>
+			<laMacAddress tag="label;" length="150">Διεύθυνση MAC</laMacAddress>
+			<laChannelName>Όνομα κάμερ.</laChannelName>
+			<laCheckPwd tag="label;" length="150">Επιβεβαίωση</laCheckPwd>
+			<laProtocolType tag="label;" length="150">Πρωτόκολλο</laProtocolType>
+			<laState tag="label;" length="100">Κατάσταση</laState>
+			<StartMonthOpt1 tag="option;" length="58">Ιανουάριος</StartMonthOpt1>
+			<StartMonthOpt2 tag="option;" length="58">Φεβρουάριος</StartMonthOpt2>
+			<StartMonthOpt3 tag="option;" length="58">Μάρτιος</StartMonthOpt3>
+			<StartMonthOpt4 tag="option;" length="58">Απρίλιος</StartMonthOpt4>
+			<StartMonthOpt5 tag="option;" length="58">Μάιος</StartMonthOpt5>
+			<StartMonthOpt6 tag="option;" length="58">Ιούνιος</StartMonthOpt6>
+			<StartMonthOpt7 tag="option;" length="58">Ιούλιος</StartMonthOpt7>
+			<StartMonthOpt8 tag="option;" length="58">Αύγουστος</StartMonthOpt8>
+			<StartMonthOpt9 tag="option;" length="58">Σεπτέμβριος</StartMonthOpt9>
+			<StartMonthOpt10 tag="option;" length="58">Οκτώβριος</StartMonthOpt10>
+			<StartMonthOpt11 tag="option;" length="58">Νοέμβριος</StartMonthOpt11>
+			<StartMonthOpt12 tag="option;" length="58">Δεκέμβριος</StartMonthOpt12>
+			<MdfDigitalIpBtn tag="input;" length="74">Τροποπ.</MdfDigitalIpBtn>
+			<AddDigitalIpBtn>Προσθήκη</AddDigitalIpBtn>
+			<laDay tag="option;" length="78">Ημέρα</laDay>
+			<StartWeekOpt1 tag="option;" length="68">Πρώτη</StartWeekOpt1>
+			<StartWeekOpt2 tag="option;" length="68">Δεύτερη</StartWeekOpt2>
+			<StartWeekOpt3 tag="option;" length="68">Τρίτη</StartWeekOpt3>
+			<StartWeekOpt4 tag="option;" length="68">Τέταρτη</StartWeekOpt4>
+			<StartWeekOpt5 tag="option;" length="68">Τελευταίο</StartWeekOpt5>
+			<laEnable>Ενεργοπ</laEnable>
+			<btnBrowse tag="input;" length="74">Περιήγηση</btnBrowse>
+			<laVideoResolution tag="label;" length="150">Ανάλυση</laVideoResolution>
+			<laCopyToWeek tag="label;" length="78">Αντ. σε εβδ.</laCopyToWeek>
+			<GoBackListBtn tag="input;" length="88">Πίσω</GoBackListBtn>
+			<laEdit>Επεξεργασία</laEdit>
+			<laNoCopy tag="label;" length="517">(αδύνατη η αντιγραφή)</laNoCopy>
+			<laProcess tag="label;" length="100">Πρόοδος</laProcess>
+			<aModeManual tag="option;" length="176">Χειροκίνητα</aModeManual>
+			<aLevelLow tag="option;" length="176">Χαμηλή</aLevelLow>
+			<aLevelNormal tag="option;" length="176">Κανονικό</aLevelNormal>
+			<aLevelHigh tag="option;" length="176">Υψηλό</aLevelHigh>
+			<optionSecond tag="option;" length="78">δευτ.</optionSecond>
+			<laType tag="label;" length="100">Τύπος</laType>
+			<laOClock>o'clock</laOClock>
+			<aStyleClose tag="option;" length="176">Κλειστό</aStyleClose>
+			<aModeAuto tag="option;" length="176">Αυτόμ.</aModeAuto>
+			<laDelay tag="label;" length="150">Παύση για</laDelay>
+			<OptPirORWlsensorORCallhelp>PIR|Ασύρματος|Έκτακτη</OptPirORWlsensorORCallhelp>
+			<OptAllEvent>Ανίχνευση Κίνησης|Είσοδος Συναγερμού</OptAllEvent>
+			<laAuthType tag="label;" length="150">Έλεγχος ταυτότ.</laAuthType>
+			<laAttribute>Ιδιότητα</laAttribute>
+			<aEmail tag="a;" length="9999">E-mail</aEmail>
+			<laMountType>Τύπος τοποθέτησης</laMountType>
+			<laCelling>Οροφή</laCelling>
+			<laWall>Τοίχος</laWall>
+			<laFloor>Δάπεδο</laFloor>
+			<laAnonymous>Ανώνυμο</laAnonymous>
+			<laUploadCertificate>Ανεβασμα</laUploadCertificate>
+		</Page>
+		<Js>
+			<laparamCfg>Ρύθμιση παραμέτρων</laparamCfg>
+			<AnalogChannelNameTips>Αναλογική κάμερα</AnalogChannelNameTips>
+			<DigitalChannelNameTips>Κάμερα IP</DigitalChannelNameTips>
+			<InputTips>Είσοδος </InputTips>
+			<RangeTips> εύρος </RangeTips>
+			<WrongTips>Λάθος </WrongTips>
+			<LengthTips> το μήκος δεν μπορεί να υπερβαίνει το </LengthTips>
+			<NullTips> δεν μπορεί να είναι κενό.</NullTips>
+			<WithTimeSegmentTips> με περίοδο </WithTimeSegmentTips>
+			<UserNameCharTips>Μόνο γράμματα (az, AZ), αριθμητικά (0-9) και υπογραμμίζουν (_) μπορεί να περιέχονται σε Όνομα Χρήστη.</UserNameCharTips>
+			<CoverStopMapbuttonTips>Διακοπή σχεδ.</CoverStopMapbuttonTips>
+			<ClearRegionTips>Να διαγραφούν όλες οι περιοχές?</ClearRegionTips>
+			<DeleteRegionFailedTips>Αποτυχία απαλοιφής</DeleteRegionFailedTips>
+			<DeleteRegionSuccessTips>Έγινε απαλοιφή</DeleteRegionSuccessTips>
+			<DevNameLengthTips>Αδύνατη η χρήση άνω των 32 χαρακτήρων.</DevNameLengthTips>
+			<DevNameNullTips>Το όνομα δεν μπορεί να είναι κενό.</DevNameNullTips>
+			<DevNameWrongCharTips>Invalid characters: </DevNameWrongCharTips>
+			<jsPwdCheckMismatch>Οι κωδικοί πρόσβασης δεν ταιριάζουν.</jsPwdCheckMismatch>
+			<jsTimeSegmentErrorSegTips> 'Η ώρα έναρξης θα πρέπει να είναι προγενέστερη της ώρας λήξης.</jsTimeSegmentErrorSegTips>
+			<laCopyToChannel>Αντ. στην κάμ.</laCopyToChannel>
+			<UserNameLengthTips> το μήκος δεν μπορεί να υπερβαίνει το 16.</UserNameLengthTips>
+			<OffLineTips>Χωρίς σύνδ</OffLineTips>
+			<OverlappedTips> δεν μπορεί να επικαλύπτεται.</OverlappedTips>
+			<LocalTips>Τοπικά</LocalTips>
+			<DIPAddInvalidTips>Το πρώτο τμήμα της IP πρέπει να είναι ακέραιος μεταξύ 1 και 223.</DIPAddInvalidTips>
+			<tipsNormal>Κανονικό</tipsNormal>
+			<jsEmailAdd>Διεύθυνση e-mail</jsEmailAdd>
+			<jsUploadSuc>Επιτυχής αποστολή</jsUploadSuc>
+			<jsUploadFailed>Ανεπιτυχής αποστολή</jsUploadFailed>
+		</Js>
+		<General>
+			<geUserName tag="label;" length="150">Όν. χρ.</geUserName>
+			<gePassword tag="label;" length="150">Κωδ. πρόσβασης</gePassword>
+			<laTimerange tag="label;" length="100">Περίοδος</laTimerange>
+			<CoverStartMapbutton tag="input;" length="74">Ορισμός Περιοχής</CoverStartMapbutton>
+			<CoverTimebutton tag="input;" length="74">Απαλ. όλ.</CoverTimebutton>
+			<laServerAdd tag="label;" length="150">Διεύθ. διακομ.</laServerAdd>
+			<laIpAddress>Διεύθυνση IP</laIpAddress>
+			<aMoveDetection tag="a;" length="9999">Ανίχν. κίνησης</aMoveDetection>
+			<laVideoTabDivBtn tag="label;" length="670">Ρυθμ. περ.</laVideoTabDivBtn>
+			<trDisabled>Απενεργ.</trDisabled>
+			<WholeDayRecordTypeOpt1 tag="option;" length="118">Κανονικό</WholeDayRecordTypeOpt1>
+			<WholeDayRecordTypeOpt3 tag="option;" length="118">Συναγερμός</WholeDayRecordTypeOpt3>
+			<WholeDayRecordTypeOpt4 tag="option;" length="118">Κίν. | Συναγ </WholeDayRecordTypeOpt4>
+			<WholeDayRecordTypeOpt5 tag="option;" length="118">Κίν. &amp; Συναγ </WholeDayRecordTypeOpt5>
+			<laEnableWholeDayRecord tag="label;" length="87">Ολοήμερη</laEnableWholeDayRecord>
+			<laEnableWholeDayCapture tag="label;" length="87">Ολοήμερη</laEnableWholeDayCapture>
+			<laSectionRecord tag="label;" length="578">Προσαρμογή</laSectionRecord>
+			<laSectionCapture tag="label;" length="578">Προσαρμογή</laSectionCapture>
+			<laWholeDayRecordType tag="label;" length="149">Τύπος εγγραφής</laWholeDayRecordType>
+			<laWholeDayCaptureType tag="label;" length="149">Τύπος καταγραφ.</laWholeDayCaptureType>
+			<constantBitRateOpt23>Προσαρμογή</constantBitRateOpt23>
+			<Other>Άλλα</Other>
+		</General>
+	</Common>
+	<ParamConfig>
+		<Page>
+		</Page>
+		<Js>
+			<Success1>Επιτυχής αποθήκευση.</Success1>
+			<Success2>Επιτυχής αποθήκευση. Να εκτελεστεί επανεκκίνηση τώρα;</Success2>
+			<DeleteSuccTips>Το αρχείο διαγράφηκε.</DeleteSuccTips>
+			<Success4>Το αρχείο διαγράφηκε. Να εκτελεστεί επανεκκίνηση της συσκευής;</Success4>
+			<Success5>Ολοκληρώθηκε με επιτυχία! Επανεκκινήστε τη συσκευή για να τεθούν σε ισχύ οι νέες ρυθμίσεις.</Success5>
+			<Error1>Αποτυχία ρύθμισης παραμέτρων.</Error1>
+			<Error2>Αποτυχία λήψης παραμέτρων.</Error2>
+			<Error3>Μη έγκυρο περιεχόμενο XML.</Error3>
+			<Error4>Μη έγκυρη μορφή XML.</Error4>
+			<Error5>Μη έγκυρη ενέργεια.</Error5>
+			<Error6>Σφάλμα συσκευής</Error6>
+			<Error7>Η συσκευή είναι απασχολημένη.</Error7>
+			<jsNetworkAbnormal>Μη ομαλό δίκτυο</jsNetworkAbnormal>
+			<Error10>Κανένα κανάλι εισόδου/εξόδου συναγερμού.</Error10>
+			<Error11>Σφάλμα κωδικού πρόσβασης χρήστη.</Error11>
+			<Error12>Σφάλμα μεθόδου.</Error12>
+			<Error13>Σφάλμα παραμέτρου.</Error13>
+			<Error14>Μη έγκυρη URL ή HTTP.</Error14>
+			<Error400>Σφάλμα: το δίκτυο αποσυνδεδεμένο ή μη φυσιολογικό.</Error400>
+			<Error44> αποτυχία παραμέτρων</Error44>
+			<Error55>Ρύθμιση κάμερας</Error55>
+			<Error66>Ρύθμιση παραμέτρων συναγερμού</Error66>
+			<Error77>Η κάμερα δεν υποστηρίζει τη λειτουργία.</Error77>
+			<Ask>Η συσκευή θα εκτελέσει αυτόματα επανεκκίνηση μετά την αποθήκευση των παραμέτρων. Θέλετε να συνεχίσετε;</Ask>
+			<Ask1>Να διαγραφεί αυτός ο χρήστης;</Ask1>
+			<RestartTips>Οι παράμετροι τροποποιήθηκαν. Να εκτελεστεί επανεκκίνηση τώρα;</RestartTips>
+			<RestartSuccessTips>Επανεκκίνηση…</RestartSuccessTips>
+			<RestartFailedTips>Αποτυχία επανεκκίνησης της συσκευής.</RestartFailedTips>
+		</Js>
+	</ParamConfig>
+</ParamConfig>
+

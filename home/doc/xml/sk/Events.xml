@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Events>
+	<Common>
+		<Page>
+			<aBlockAlarm tag="a;" length="9999">Detekcia sabotáže</aBlockAlarm>
+			<aVideoLost tag="a;" length="9999">Strata videa</aVideoLost>
+			<aCapturePlan tag="a;" length="9999">Uloženie snímky</aCapturePlan>
+			<aOtherAlarm>Iná signalizácia</aOtherAlarm>
+			<laTimeTabDivBtn tag="label;" length="670">Čas stráženia</laTimeTabDivBtn>
+			<laLinkageTabDivBtn tag="label;" length="670">Väzba</laLinkageTabDivBtn>
+			<laSensitivity tag="label;" length="85">Citlivosť</laSensitivity>
+			<!--<laCommonLinkage>Alarm Linking</laCommonLinkage>-->
+			<!--DVR的，需要修改DVR网页name-->
+			<laNormalLink tag="label;" length="215">Štandardná väzba</laNormalLink>
+			<laMonitorAlarm>Celá obrazovka</laMonitorAlarm>
+			<laSoundAlarm tag="label;" length="130">Upozornenie zvukom</laSoundAlarm>
+			<laUpload tag="label;" length="130">Upozornenie dohľadového centra</laUpload>
+			<laEmail tag="label;" length="130">Pošli e-mail</laEmail>
+			<laLinkageAlarmOutput tag="label;" length="116">Spustenie alarmového výstupu</laLinkageAlarmOutput>
+			<laScheduleEdit tag="label;">Uprav čas plánovača</laScheduleEdit>
+			<laOtherLink tag="label;" length="271">Ďalšie väzby</laOtherLink>
+			<BlockSensitiveOpt1>Nízka</BlockSensitiveOpt1>
+			<BlockSensitiveOpt2>Stredný</BlockSensitiveOpt2>
+			<BlockSensitiveOpt3>Vysoká</BlockSensitiveOpt3>
+			<laAlarmname tag="label;" length="150">Názov alarmu</laAlarmname>
+			<laCopyalarm tag="label;" length="670">Kopíruj na alarm</laCopyalarm>
+			<laTrigglerecord tag="label;" length="130">Spustenie kanálu</laTrigglerecord>
+			<laUpdateToFTP tag="label;" length="130">Nahrať na FTP</laUpdateToFTP>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laCaptureInterval tag="label;" length="100">Interval</laCaptureInterval>
+		</General>
+	</Common>
+	<MotionDetection>
+		<Page>
+			<laUseMotion tag="label;" length="133">Povoľ pohybovú detekciu</laUseMotion>
+			<laHighLight>Aktiv. dynam. analýzu pre pohyb</laHighLight>
+		</Page>
+		<Js>
+		</Js>
+	</MotionDetection>
+	<TamperProof>
+		<Page>
+			<laUseKeepout tag="label;" length="671">Povoliť detekciu sabotáže videa</laUseKeepout>
+		</Page>
+		<Js>
+		</Js>
+	</TamperProof>
+	<VideoLoss>
+		<Page>
+			<laUseVideoLost tag="label;" length="671">Povoľ detekciu straty videa</laUseVideoLost>
+		</Page>
+		<Js>
+		</Js>
+	</VideoLoss>
+	<AlarmInput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Nastavenia alarmového vstupu</laSpanTitle>
+			</DVR>
+			<laAlarminnumber tag="label;" length="150">Č. AlarmVstupu</laAlarminnumber>
+			<laAlarmtype tag="label;" length="150">Typ alarmu</laAlarmtype>
+			<triggeringOpt1 tag="option;" length="198">NC</triggeringOpt1>
+			<triggeringOpt2 tag="option;" length="198">Nie</triggeringOpt2>
+			<laTriggleptz tag="label;" length="212">Väzba na PTZ</laTriggleptz>
+			<laPresetnumer tag="label;" length="100">Číslo presetu</laPresetnumer>
+			<laCurisenumber tag="label;" length="100">Č. sekvencie</laCurisenumber>
+			<laTrackid tag="label;" length="100">Č. trasy</laTrackid>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmInput>
+	<AlarmOutput>
+		<Page>
+			<DVR>
+				<laSpanTitle>Nastavenia alarmového výstupu</laSpanTitle>
+			</DVR>
+			<laAlarmoutnumber tag="label;" length="150">Alarm výstup</laAlarmoutnumber>
+			<laDefaultstate tag="label;" length="150">Pôvodný stav</laDefaultstate>
+			<defaultStateOpt1 tag="option;" length="198">Vysoká úroveň</defaultStateOpt1>
+			<defaultStateOpt2 tag="option;" length="198">Nízka úroveň</defaultStateOpt2>
+			<laTrigglestate tag="label;" length="150">Stav spúšťania</laTrigglestate>
+			<outputState1 tag="option;" length="198">Pulz</outputState1>
+			<pulseDurationOpt1 tag="option;" length="198">5 s</pulseDurationOpt1>
+			<pulseDurationOpt2 tag="option;" length="198">10 s</pulseDurationOpt2>
+			<pulseDurationOpt3 tag="option;" length="198">30 s</pulseDurationOpt3>
+			<pulseDurationOpt4 tag="option;" length="198">1min</pulseDurationOpt4>
+			<pulseDurationOpt5 tag="option;" length="198">2 min</pulseDurationOpt5>
+			<pulseDurationOpt6 tag="option;" length="198">5 min</pulseDurationOpt6>
+			<pulseDurationOpt7 tag="option;" length="198">10 min</pulseDurationOpt7>
+		</Page>
+		<Js>
+		</Js>
+	</AlarmOutput>
+	<Exception>
+		<Page>
+			<DVR>
+				<laSpanTitle>Výnimka</laSpanTitle>
+			</DVR>
+			<laExceptionType tag="label;" length="150">Typ výnimky</laExceptionType>
+			<ExceptionTypeOpt3 tag="option;" length="198">Sieť je odpojená</ExceptionTypeOpt3>
+			<ExceptionTypeOpt4 tag="option;" length="198">Konflikt IP adries</ExceptionTypeOpt4>
+			<ExceptionTypeOpt5 tag="option;" length="198">Neoprávnený pokus o prístup</ExceptionTypeOpt5>
+			<ExceptionTypeOpt6>Nesúlad video štandardov</ExceptionTypeOpt6>
+			<ExceptionTypeOpt7>Výnimka videosignálu</ExceptionTypeOpt7>
+			<ExceptionTypeOpt8>Výnimka uloženia</ExceptionTypeOpt8>
+			<ExceptionTypeOpt9>Chyba nastavenia rozlíšenia</ExceptionTypeOpt9>
+		</Page>
+		<Js>
+		</Js>
+	</Exception>
+	<Email>
+		<Page>
+			<DVR>
+				<laSpanTitle>E-mail</laSpanTitle>
+			</DVR>
+			<laServerAuthentication tag="label;" length="670">Overenie</laServerAuthentication>
+			<laSMTPServer>SMTP Server</laSMTPServer>
+			<laUseSSL tag="label;" length="670">Povoľ SSL</laUseSSL>
+			<laMailInterval tag="label;" length="150">Interval</laMailInterval>
+			<MailIntervalOpt1 tag="option;" length="198">2 s</MailIntervalOpt1>
+			<MailIntervalOpt2 tag="option;" length="198">3 s</MailIntervalOpt2>
+			<MailIntervalOpt3 tag="option;" length="198">4 s</MailIntervalOpt3>
+			<MailIntervalOpt4 tag="option;" length="198">5 s</MailIntervalOpt4>
+			<laAttachment tag="label;" length="314">Obrazová príloha</laAttachment>
+			<laEmailAdd>E-mailová adresa</laEmailAdd>
+			<laChooseReceiver tag="label;" length="150">Zvoľ príjemcu</laChooseReceiver>
+			<laReceiver tag="label;" length="670">Príjemca</laReceiver>
+			<laSender tag="label;" length="670">Odosielateľ</laSender>
+			<ReceiverNumOpt1 tag="option;" length="198">Príjemca1</ReceiverNumOpt1>
+			<ReceiverNumOpt2 tag="option;" length="198">Príjemca2</ReceiverNumOpt2>
+			<ReceiverNumOpt3 tag="option;" length="198">Príjemca3</ReceiverNumOpt3>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laSenderName tag="label;" length="150">Odosielateľ</laSenderName>
+			<laSenderAddress tag="label;" length="150">Adresa odosielateľa</laSenderAddress>
+			<laReceiverName tag="label;" length="150">Príjemca</laReceiverName>
+			<laReceiverAddress tag="label;" length="150">Receiver's Address</laReceiverAddress>
+			<laReceiverName1 tag="label;" length="150">Príjemca1</laReceiverName1>
+			<laReceiverName2 tag="label;" length="150">Príjemca2</laReceiverName2>
+			<laReceiverAddress1 tag="label;" length="150">Adresa príjemcu1</laReceiverAddress1>
+			<laReceiverAddress2 tag="label;" length="150">Adresa príjemcu2</laReceiverAddress2>
+			<laSMTPPort tag="label;" length="150">SMTP port</laSMTPPort>
+		</General>
+	</Email>
+	<CapturePlan>
+		<Page>
+			<laTimingCapture tag="label;" length="670">Plánovač ukladania snímkov</laTimingCapture>
+			<laEventCapture tag="label;" length="670">Vyvolanie udalosťou</laEventCapture>
+			<laUseTimingCapture tag="label;" length="651">Zap. plánovač ukladania snímkov</laUseTimingCapture>
+			<laUseEventCapture tag="label;" length="651">Povoľ uloženie snímky pri udalosti</laUseEventCapture>
+			<laPictureCodecType tag="label;" length="100">Formát</laPictureCodecType>
+			<laPictureQuality tag="label;" length="100">Kvalita</laPictureQuality>
+			<laMillisecond>milisekunda</laMillisecond>
+			<optionMillisecond tag="option;" length="78">milisekunda</optionMillisecond>
+			<optionMinute tag="option;" length="78">minúta</optionMinute>
+			<optionHour tag="option;" length="78">hodina</optionHour>
+			<laCaptureNum>Číslo zachytenia</laCaptureNum>
+		</Page>
+	</CapturePlan>
+	<OtherAlarm>
+		<Page>
+			<laEnableWirelessAlarm>Aktivovať bezdrôtovú signalizáciu</laEnableWirelessAlarm>
+			<laEnablePIRAlarm>Aktivovať signalizáciu PIR</laEnablePIRAlarm>
+			<laTriggerWirelessAlarm>Spustiť bezdrôtovú signalizáciu</laTriggerWirelessAlarm>
+			<laLightAudioAlarm>Bezdrôtová viditeľná a vizuálna signalizácia</laLightAudioAlarm>
+			<laSelWirelessAlarm>Vybrať bezdrôtovú signalizáciu</laSelWirelessAlarm>
+		</Page>
+	</OtherAlarm>
+</Events>

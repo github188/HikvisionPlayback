@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Login>
+	<Page>
+		<lausername tag="label;" length="70">Όν. χρ.</lausername>
+		<lapassword tag="label;" length="70">Κωδ. πρόσβασης</lapassword>
+		<lalogin tag="label;" length="70">Σύνδεση</lalogin>
+		<laAnonymous>Ανώνυμο</laAnonymous>
+	</Page>
+	<Js>
+		<LoginTips1>Εισαγάγετε το όνομα χρήστη.</LoginTips1>
+		<LoginTips2>Το όνομα χρήστη  δεν μπορεί να υπερβαίνει τους 16 χαρακτήρες.</LoginTips2>
+		<LoginTips3>Το μήκος του κωδικού πρόσβασης δεν μπορεί να είναι μεγαλύτερο από 16 χαρακτήρες.</LoginTips3>
+		<LoginTips4>Το όνομα ή ο κωδικός χρήστη είναι εσφαλμένος. Καταχωρίστε τα ξανά.</LoginTips4>
+		<LoginTips5>Εισαγάγετε τον κωδικό πρόσβασης.</LoginTips5>
+		<NetworkErrorTips>Μη ομαλό δίκτυο</NetworkErrorTips>
+		<ConnectTimeoutTips>Λήξη χρονικού ορίου σύνδεσης.</ConnectTimeoutTips>
+		<CookieTips>Ενεργοποιήστε πρώτα τα cookie στο πρόγραμμα περιήγησης.</CookieTips>
+	</Js>
+</Login>

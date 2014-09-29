@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Holidaylist>
+	<Page>
+		<laSpanTitle>Nastavenie voľna</laSpanTitle>
+		<laPrompt>Obdobia dní voľna sa nesmú prekrývať.</laPrompt>
+		<laHolidayName>Názov voľna</laHolidayName>
+		<laHolidayFun>Zap. voľné dni</laHolidayFun>
+		<HolidayTypeOpt1>Podľa dátumu</HolidayTypeOpt1>
+		<HolidayTypeOpt2>Podľa týždňa</HolidayTypeOpt2>
+		<HolidayTypeOpt3>Podľa mesiaca</HolidayTypeOpt3>
+		<laStartDate>Počiatočný dátum</laStartDate>
+		<laEndDate>Koncový dátum</laEndDate>
+	</Page>
+	<Js>
+		<EditHolidayTips>Uprav voľno</EditHolidayTips>
+		<LastTips>Posledná</LastTips>
+		<DayTips>Dátum</DayTips>
+		<MonthTips>Mesiac</MonthTips>
+		<MonthAndIndexTips>(No need)</MonthAndIndexTips>
+		<WeekAndIndexTips>(No need)</WeekAndIndexTips>
+	</Js>
+</Holidaylist>

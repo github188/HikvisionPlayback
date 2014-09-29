@@ -1,0 +1,109 @@
+﻿<?xml version="1.0"?>
+<Storage>
+	<Common>
+		<Page>
+			<aRecordPlan tag="a;" length="9999">錄影排程</aRecordPlan>
+			<aHardDisk tag="a;" length="9999">儲存管理</aHardDisk>
+			<laAdvancedRecordCfg>進階</laAdvancedRecordCfg>
+			<laExtractFrame>擷取影格</laExtractFrame>
+			<laDiskNumer tag="label;" length="76">磁碟編號</laDiskNumer>
+		</Page>
+		<Js>
+			<jsNoSameNFS>不能新增兩個相同的網路磁碟</jsNoSameNFS>
+		</Js>
+		<General>
+			<laFilePath tag="label;" length="259">檔案路徑</laFilePath>
+		</General>
+	</Common>
+	<RecordPlan>
+		<Page>
+			<DVR>
+				<RecordCfg>進階</RecordCfg>
+			</DVR>
+			<laEnableRecordPlan tag="label;" length="654">啟用錄影排程</laEnableRecordPlan>
+			<laEnableCapturePlan tag="label;" length="654">啟用擷圖計畫</laEnableCapturePlan>
+			<laPreRecordTime tag="label;" length="150">預錄時間</laPreRecordTime>
+			<PreRecordTimeOpt1 tag="option;" length="198">不預錄</PreRecordTimeOpt1>
+			<PreRecordTimeOpt2 tag="option;" length="198">5秒</PreRecordTimeOpt2>
+			<PreRecordTimeOpt3 tag="option;" length="198">10秒</PreRecordTimeOpt3>
+			<PreRecordTimeOpt4 tag="option;" length="198">15秒</PreRecordTimeOpt4>
+			<PreRecordTimeOpt5 tag="option;" length="198">20秒</PreRecordTimeOpt5>
+			<PreRecordTimeOpt6 tag="option;" length="198">25秒</PreRecordTimeOpt6>
+			<PreRecordTimeOpt7 tag="option;" length="198">30秒</PreRecordTimeOpt7>
+			<PreRecordTimeOpt8 tag="option;" length="198">不受限制</PreRecordTimeOpt8>
+			<laRecordTime tag="label;" length="150">錄影延遲</laRecordTime>
+			<RecordTimeOpt1 tag="option;" length="198">1min</RecordTimeOpt1>
+			<RecordTimeOpt2 tag="option;" length="198">2分</RecordTimeOpt2>
+			<RecordTimeOpt3 tag="option;" length="198">5分</RecordTimeOpt3>
+			<RecordTimeOpt4 tag="option;" length="198">10分</RecordTimeOpt4>
+			<laRedundancyRec tag="label;" length="150">備援錄影</laRedundancyRec>
+			<laRecordOverWrite>覆寫</laRecordOverWrite>
+			<RedundancyRecOpt1 tag="option;" length="198">否</RedundancyRecOpt1>
+			<RedundancyRecOpt2 tag="option;" length="198">是</RedundancyRecOpt2>
+			<laAudioRec tag="label;" length="150">記錄聲音</laAudioRec>
+			<laRecordPlanEdit tag="label;" length="630">計畫編輯</laRecordPlanEdit>
+		</Page>
+		<Js>
+			<geRecorderDuration tag="label;" length="150">錄影過期時間</geRecorderDuration>
+			<EndTimeRangeTips>結束時間不能大於24:00</EndTimeRangeTips>
+			<AdvancedTips>進階</AdvancedTips>
+		</Js>
+	</RecordPlan>
+	<DiskInfo>
+		<Page>
+			<DVR>
+				<laSpanTitle>磁碟管理</laSpanTitle>
+				<laHardDiskNo>磁碟編號</laHardDiskNo>
+				<laDiskProperty>硬碟屬性</laDiskProperty>
+				<laDiskGroup>所屬硬碟群組</laDiskGroup>
+				<laDiskInit>硬碟初始化</laDiskInit>
+				<laInitState>初始化狀態</laInitState>
+			</DVR>
+			<laDiskTitle tag="label;" length="85">儲存設備列表</laDiskTitle>
+			<laCapacity tag="label;" length="100">容量</laCapacity>
+			<laFreeSpace tag="label;" length="100">剩餘空間</laFreeSpace>
+			<formatDisk tag="input;" length="74">格式化</formatDisk>
+		</Page>
+		<Js>
+			<DVR>
+				<tipsNotSupportEdit>當前模式下不支援編輯設備屬性</tipsNotSupportEdit>
+				<tipsFormatRo>所選硬碟中有唯讀硬碟，不能進行初始化操作</tipsFormatRo>
+				<tipsDisk>硬碟</tipsDisk>
+			</DVR>
+			<tipsUnformatted>未初始化</tipsUnformatted>
+			<tipsError>異常</tipsError>
+			<tipsIdle>休眠</tipsIdle>
+			<tipsMismatch>不一致</tipsMismatch>
+			<tipsFormatting>正在格式化</tipsFormatting>
+			<tipsNotexist>不存在</tipsNotexist>
+			<tipsFormatSelect>確定格式化硬碟？</tipsFormatSelect>
+			<tipsFormatAll>硬碟已初始化完畢！</tipsFormatAll>
+			<tipsFormatFailed>硬碟格式化失敗！</tipsFormatFailed>
+			<tipsFormattingWait>正在格式化，請稍候……</tipsFormattingWait>
+			<tipsSelectDisk>請選擇需要格式化的硬碟</tipsSelectDisk>
+			<tipsStorageMode>儲存模式設定</tipsStorageMode>
+			<tipsArray>虛擬磁碟</tipsArray>
+			<jsComplete>完成</jsComplete>
+		</Js>
+		<General>
+			<tipsRW>可讀寫</tipsRW>
+			<tipsRO>唯讀</tipsRO>
+			<tipsRedund>備援</tipsRedund>
+		</General>
+	</DiskInfo>
+	<NAS>
+		<Page>
+			<DVR>
+				<laSpanTitle>網路磁碟</laSpanTitle>
+				<Property1Opt1>可讀寫</Property1Opt1>
+				<Property1Opt2>唯讀</Property1Opt2>
+				<Property1Opt3>備援</Property1Opt3>
+			</DVR>
+		</Page>
+		<Js>
+			<DVR>
+				<jsSetDisk>設定磁碟</jsSetDisk>
+			</DVR>
+		</Js>
+	</NAS>
+</Storage>

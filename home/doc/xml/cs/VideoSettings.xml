@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<VideoSettings>
+	<Common>
+		<Page>
+			<aBaseVideoSettings tag="a;" length="9999">Nastavení monitoru</aBaseVideoSettings>
+			<aOSDSettings tag="a;" length="9999">Nastavení OSD</aOSDSettings>
+			<aTextOverlay tag="a;" length="9999">Překrytí textu</aTextOverlay>
+			<aVideoMask tag="a;" length="9999">Privátní maska</aVideoMask>
+			<aModeCenter tag="option;" length="176">Střed</aModeCenter>
+			<aOSDFontSizeOpt2 tag="option;" length="178">Střední</aOSDFontSizeOpt2>
+			<apicinformChannel>Zvolit kameru</apicinformChannel>
+			<laVideoPreview>Zive zobr.</laVideoPreview>
+			<aPictureOverlay>Překrytí obrazu</aPictureOverlay>
+		</Page>
+		<Js>
+		</Js>
+		<General>
+			<laXpos>Souřadnice X</laXpos>
+			<laYpos>Souřadnice Y</laYpos>
+		</General>
+	</Common>
+	<BaseVideoSettings>
+		<Page>
+			<laSpanTitle>Nastavení předního.-konc. parametru</laSpanTitle>
+			<laVideoEffect>Přední-konc. parametr</laVideoEffect>
+			<laGain tag="label;" length="120">Zisk</laGain>
+			<laShutter tag="label;" length="120">Čas expozice</laShutter>
+			<laFocusMode tag="label;" length="308">Režim ostření</laFocusMode>
+			<laFocusLimited tag="label;" length="308">Minimální ostř.</laFocusLimited>
+			<laIrisMode tag="label;" length="120">Režim expozice</laIrisMode>
+			<laIrisLevel tag="label;" length="308">Clona</laIrisLevel>
+			<laPowerLine tag="label;" length="120">Video standard</laPowerLine>
+			<laDayNightFilter tag="label;" length="120">Přepnutí den/noc</laDayNightFilter>
+			<laDayToNight tag="label;" length="120">Citlivost</laDayToNight>
+			<laFilterTime tag="label;" length="120">Přepnutí času</laFilterTime>
+			<laImageFlip tag="label;" length="120">Zrcadlo</laImageFlip>
+			<laDSS tag="label;" length="308">Pomalá závěrka</laDSS>
+			<laDSSLevel tag="label;" length="308">Úroveň pomalé závěrky</laDSSLevel>
+			<laWDR tag="label;" length="120">WDR</laWDR>
+			<laWDRLevel1 tag="label;" length="308">Úroveň WDR 1</laWDRLevel1>
+			<laWDRLevel2 tag="label;" length="308">Úroveň WDR 2</laWDRLevel2>
+			<laWDRContrast tag="label;" length="308">Úroveň kontrastu WDR</laWDRContrast>
+			<laBLC>BLC</laBLC>
+			<laBLCMode tag="label;" length="308">Oblast BLC</laBLCMode>
+			<laBLCLevel tag="label;" length="308">Úroveň BLC</laBLCLevel>
+			<laWhiteBlance tag="label;" length="120">Vyvážení bílé</laWhiteBlance>
+			<laWhiteBlanceRed tag="label;" length="308">WB zisk obvod R</laWhiteBlanceRed>
+			<laWhiteBlanceBlue tag="label;" length="308">WB zisk obvod B</laWhiteBlanceBlue>
+			<laNosiseReduce tag="label;" length="308">Dig. redukce sumu</laNosiseReduce>
+			<laGeneralLevel tag="label;" length="308">Úroveň potlačení šumu</laGeneralLevel>
+			<laInterFrameNoiseReduce tag="label;" length="308">Časová úroveň DNR</laInterFrameNoiseReduce>
+			<laFrameNoiseReduce tag="label;" length="308">Prostorová úroveň DNR</laFrameNoiseReduce>
+			<IrisFirst>Priorita clony</IrisFirst>
+			<ShutterFirst>Priorita závěrky</ShutterFirst>
+			<GainFirst>Priorita zisku</GainFirst>
+			<FocusModeAutoManual>Polo-auto</FocusModeAutoManual>
+			<IrcutFilterTypeDay tag="option;" length="176">Den</IrcutFilterTypeDay>
+			<IrcutFilterTypeNight tag="option;" length="176">Noc</IrcutFilterTypeNight>
+			<ImageFlipStyleLR tag="option;" length="176">Vlevo/Vpravo</ImageFlipStyleLR>
+			<ImageFlipStyleUD tag="option;" length="176">Nahoru/Dolů</ImageFlipStyleUD>
+			<BLCModeUp>Nahoru</BLCModeUp>
+			<BLCModeDown>Dolů</BLCModeDown>
+			<BLCModeLeft>Vlevo</BLCModeLeft>
+			<BLCModeRight>Vpravo</BLCModeRight>
+			<WhiteBlanceStyleAuto tag="option;" length="176">Auto</WhiteBlanceStyleAuto>
+			<WhiteBlanceStyle1 tag="option;" length="176">AWB1</WhiteBlanceStyle1>
+			<WhiteBlanceStyle2 tag="option;" length="176">AWB2</WhiteBlanceStyle2>
+			<WhiteBlanceStyleManual>MWB</WhiteBlanceStyleManual>
+			<AutoTracing>Autotrace WB</AutoTracing>
+			<NosiseReduceGeneral>Normální režim</NosiseReduceGeneral>
+			<NosiseReduceAdvanced>Pokročilý režim</NosiseReduceAdvanced>
+			<ImageResetbutton>Resetování mechanického pohybu</ImageResetbutton>
+			<ImageRestorebutton>Obnovit</ImageRestorebutton>
+			<laScene tag="label;" length="120">Vnitřní/venk. režim</laScene>
+			<SceneOptionIndoor tag="option;" length="176">Vnitřní</SceneOptionIndoor>
+			<SceneOptionOutdoor tag="option;" length="176">Venkovní</SceneOptionOutdoor>
+			<laAutoIrisLevel tag="label;" length="308">Auto úrov. clony</laAutoIrisLevel>
+			<laEnableDehaze>Povolit odstranění zamlžení</laEnableDehaze>
+			<laDehazeLevel>Úroveň odstranění zamlžení</laDehazeLevel>
+			<laEPTZ>E-PTZ</laEPTZ>
+			<laZoomLimit>Limit zoomu</laZoomLimit>
+			<laEIS>EIS</laEIS>
+			<SodiumLight>Incandescent lamp</SodiumLight>
+			<MercuryLight>Rtuťové světlo</MercuryLight>
+			<Onepush>jeden stisk</Onepush>
+			<laIRLightMode>Režim IR světla</laIRLightMode>
+			<laIRLightBright>Jas IR světla</laIRLightBright>
+			<laIRLightSen>Citlivost IR světla</laIRLightSen>
+			<laExposureType>Režim snímaní</laExposureType>
+			<laShutterLevel>Závěrka</laShutterLevel>
+			<laEISLevel>Úroveň EIS</laEISLevel>
+			<laChromaSuppress>Potlačení sytosti</laChromaSuppress>
+			<laHLC>HLC</laHLC>
+			<laHLCLevel>Úroveň HLC</laHLCLevel>
+			<laExpComp>Kompenzace expozice</laExpComp>
+			<laGamaCorrect>Gamma korekce</laGamaCorrect>
+			<laSharpnessMode>Režim ostrosti</laSharpnessMode>
+			<laDecodeMode>Opravný režim</laDecodeMode>
+			<laSoftware>Software</laSoftware>
+			<laHardware>Hardware</laHardware>
+			<laEnhancement>Zesílení osvětlení</laEnhancement>
+			<laGrayScale>Odstíny šedi</laGrayScale>
+			<Schedule>Rozvrh</Schedule>
+			<EventTrigger>Aktivováno vstupem alarmu</EventTrigger>
+			<laOverExposeSuppress>Zabránění přesvětlení</laOverExposeSuppress>
+			<daylightLamp>Fluorescenční lampa</daylightLamp>
+			<laTriggerMode>Stav</laTriggerMode>
+			<OutdoorAuto>Auto-Venkovní</OutdoorAuto>
+			<SodiumLightAuto>Auto-Sodík. světlo</SodiumLightAuto>
+			<WarmLightLamp>Lampa s teplým světlem</WarmLightLamp>
+			<NaturalLight>Přírodní světlo</NaturalLight>
+			<IncandescentLamp>Žárovka</IncandescentLamp>
+			<WBLocked>Kryté WB</WBLocked>
+		</Page>
+		<Js>
+			<jsResetimage>Restartovat zařízení?</jsResetimage>
+			<jsResetSucceed>Úspěšně dokončeno, resetování je kompletní.</jsResetSucceed>
+			<jsResetFailed>Resetování mechanického pohybu se nezdařilo</jsResetFailed>
+			<jsResetWaiting>Mechanický pohyb je restartován...</jsResetWaiting>
+			<jsRestoreimage>Obnovit výchozí nastavení zařízení?</jsRestoreimage>
+			<jsRestoreSucceed>Obnova mechanického pohybu do výchozího nastavení proběhla úspěšně.</jsRestoreSucceed>
+			<jsRestoreFailed>Obnova mechanického pohybu do výchozího nastavení se nezdařilo.</jsRestoreFailed>
+			<jsRestoreWaiting>Mechanický pohyb je restartován do výchozího nastavení...</jsRestoreWaiting>
+			<jsScheduleTimeRange>Minimální interval mezi počátečním a koncovým časem je 10 sekund.</jsScheduleTimeRange>
+		</Js>
+	</BaseVideoSettings>
+	<OSDSettings>
+		<Page>
+			<laSpanTitle>Nastavení monitoru</laSpanTitle>
+			<laOSDConfig>Nastavení OSD</laOSDConfig>
+			<laIsShowChanNme tag="label;" length="120">Zobr. název</laIsShowChanNme>
+			<laIsShowOSD tag="label;" length="120">Zobr. datum</laIsShowOSD>
+			<laIsShowWeek tag="label;" length="120">Zobr. týden</laIsShowWeek>
+			<laHourOSDType tag="label;" length="120">Formát času</laHourOSDType>
+			<HourOSDTypeOpt1 tag="option;" length="176">12-hod.</HourOSDTypeOpt1>
+			<HourOSDTypeOpt2 tag="option;" length="176">24-hod.</HourOSDTypeOpt2>
+			<laOSDType tag="label;" length="120">Formát data</laOSDType>
+			<OSDTypeOpt1 tag="option;" length="176">RRRR-MM-DD</OSDTypeOpt1>
+			<OSDTypeOpt2 tag="option;" length="176">MM-DD-RRRR</OSDTypeOpt2>
+			<OSDTypeOpt3 tag="option;" length="176">RRRR MM DD</OSDTypeOpt3>
+			<OSDTypeOpt4 tag="option;" length="176">MM DD RRRR</OSDTypeOpt4>
+			<OSDTypeOpt5 tag="option;" length="176">DD-MM-RRRR</OSDTypeOpt5>
+			<OSDTypeOpt6 tag="option;" length="176">DD MM RRRR</OSDTypeOpt6>
+			<OSDTypeOpt7 tag="option;" length="176">MM/DD/RRRR</OSDTypeOpt7>
+			<OSDTypeOpt8 tag="option;" length="176">RRRR/MM/DD</OSDTypeOpt8>
+			<OSDTypeOpt9 tag="option;" length="176">DD/MM/RRRR</OSDTypeOpt9>
+			<laChannelNameXPos>Souřad. X názvu kamery</laChannelNameXPos>
+			<laChannelNameYPos>Souřad. Y názvu kamery</laChannelNameYPos>
+			<laOSDAttrib tag="label;" length="120">Zobrazení OSD</laOSDAttrib>
+			<OSDAttribOpt1 tag="option;" length="176">Transparentní a blikající</OSDAttribOpt1>
+			<OSDAttribOpt2 tag="option;" length="176">Transparentní a neblikající</OSDAttribOpt2>
+			<OSDAttribOpt3 tag="option;" length="176">Netransparentní a neblikající</OSDAttribOpt3>
+			<OSDAttribOpt4 tag="option;" length="176">Netransparentní a neblikající</OSDAttribOpt4>
+			<laOSDFontSize tag="label;" length="609">Velikost OSD</laOSDFontSize>
+			<OSDFontSizeOpt1 tag="option;" length="178">Malé</OSDFontSizeOpt1>
+			<OSDFontSizeOpt3 tag="option;" length="178">Velký</OSDFontSizeOpt3>
+		</Page>
+		<Js>
+			<ChannelNameXTips>Souřadnice X názvu</ChannelNameXTips>
+			<ChannelNameYTips>Souřadnice Y názvu</ChannelNameYTips>
+		</Js>
+		<General>
+			<laOSDXPos>Souřadnice X data</laOSDXPos>
+			<laOSDYPos>Souřadnice Y data</laOSDYPos>
+		</General>
+	</OSDSettings>
+	<TextOverlay>
+		<Page>
+			<laStringOverLay>Nastav. přepisu textu</laStringOverLay>
+			<laStrContent>Obsah textu</laStrContent>
+		</Page>
+		<Js>
+			<CharNameLengthTips>Délka nemůže přesáhnout 44</CharNameLengthTips>
+		</Js>
+	</TextOverlay>
+	<VideoMask>
+		<Page>
+			<laUseCover tag="label;" length="308">Povolit privátní masku</laUseCover>
+		</Page>
+		<Js>
+		</Js>
+	</VideoMask>
+	<PictureOverlay>
+		<Page>
+			<laPicUpload>Nahrát obrázek</laPicUpload>
+			<laOverlaySetting>Konfigurovat parametry překrytí</laOverlaySetting>
+			<laEnablePicOverlay>Povolit překrytí obrázku</laEnablePicOverlay>
+			<laPicWidth>Šířka obrázku</laPicWidth>
+			<laPicHeight>Výška obrázku</laPicHeight>
+		</Page>
+		<Js>
+		</Js>
+	</PictureOverlay>
+</VideoSettings>

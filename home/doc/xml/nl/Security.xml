@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Security>
+	<Common>
+		<Page>
+			<aUser tag="a;" length="9999">Gebruiker</aUser>
+			<aRTSPAuth tag="a;" length="9999">RTSP-authenticiteit</aRTSPAuth>
+			<aAnonymousVisit>Anoniem bezoek</aAnonymousVisit>
+			<aIPFilter>IP-adresfilter</aIPFilter>
+		</Page>
+		<Js>
+		</Js>
+	</Common>
+	<User>
+		<Page>
+			<DVR>
+				<laSpanTitle>Gebruikersinformatie</laSpanTitle>
+				<laIpBind>IP-adresband</laIpBind>
+				<laLocalColonConfig tag="label;" length="125">Lokaal: Configuratie</laLocalColonConfig>
+				<laLocalUpgrade>Lokaal: Upgraden/formatteren</laLocalUpgrade>
+				<laLocalReboot>Lokaal: Afsluiten/opnieuw starten</laLocalReboot>
+				<laLocalSetParam>Lokaal: Parameter instellen</laLocalSetParam>
+				<laLocalLog>Lokaal: Logboek zoeken</laLocalLog>
+				<laLocalIPCCfg>Lokaal: Stel IP-camera in</laLocalIPCCfg>
+				<laLocalPlayback>Lokaal: Afspelen</laLocalPlayback>
+				<laLocalManualRecord>Lokaal: Handmatige bediening</laLocalManualRecord>
+				<laLocalPTZControl>Lokaal: PTZ-bediening</laLocalPTZControl>
+				<laLocalBackup>Lokaal: Video exporteren</laLocalBackup>
+				<laRemoteConfig>Op afstand configureren</laRemoteConfig>
+			</DVR>
+			<laUserType tag="label;" length="150">Level</laUserType>
+			<PriorityOpt1 tag="label;" length="411">Beheerder </PriorityOpt1>
+			<PriorityOpt2 tag="option;" length="198">Operator</PriorityOpt2>
+			<PriorityOpt3 tag="option;" length="198">Gebruiker</PriorityOpt3>
+			<laBasicPermissionBtn tag="label;" length="399">Basistoegang</laBasicPermissionBtn>
+			<laChanPermissionBtn tag="label;" length="148">Cameraconfiguratie</laChanPermissionBtn>
+			<laRemoteSetParam tag="label;" length="370">Op afstand: Parameterinstellingen</laRemoteSetParam>
+			<laRemoteLog tag="label;" length="370">Op afstand: Zoek logboek/Vraag werkstatus uit</laRemoteLog>
+			<laRemoteUpgrade tag="label;" length="370">Op afstand: Upgraden / formatteren</laRemoteUpgrade>
+			<laRemoteTalk tag="label;" length="370">Op afstand: 2-richtingsaudio</laRemoteTalk>
+			<laRemoteReboot tag="label;" length="370">Op afstand: Uitschakelen / Opnieuw starten</laRemoteReboot>
+			<laRemoteAlarm tag="label;" length="370">Op afstand: Waarschuw surv.centr./Trigg. alarmuitg</laRemoteAlarm>
+			<laRemoteCtrl tag="label;" length="370">Op afstand: Video-uitgang regelen</laRemoteCtrl>
+			<laRemoteRS tag="label;" length="370">Op afstand: Seriële poort regelen</laRemoteRS>
+			<laRemotePreview tag="label;" length="119">Op afstand: Live View</laRemotePreview>
+			<laRemoteManualRecord tag="label;" length="119">Op afstand: Handmatig opnemen</laRemoteManualRecord>
+			<laRemotePTZControl tag="label;" length="119">Op afstand: PTZ-bediening</laRemotePTZControl>
+			<laRemotePlayback tag="label;" length="122">Op afstand: Afspelen</laRemotePlayback>
+			<laPermissionConfig>Toegangsinstelling</laPermissionConfig>
+		</Page>
+		<Js>
+			<UserAddTips>Voeg gebruiker toe</UserAddTips>
+			<UserExistTips>Gebruikersnaam bestaat al.</UserExistTips>
+			<jsPasswordDifferenceTips>Wachtwoorden komen niet overeen.</jsPasswordDifferenceTips>
+			<WrongCharTips> kan niet bevatten</WrongCharTips>
+		</Js>
+		<General>
+			<laUserModify tag="label;" length="550">Pas gebruikergegevens aan</laUserModify>
+		</General>
+	</User>
+	<RTSPAuth>
+		<Page>
+		</Page>
+		<Js>
+		</Js>
+	</RTSPAuth>
+	<IPFilter>
+		<Page>
+			<laEnableIPFilter>IP-adresfilter aanzetten</laEnableIPFilter>
+			<laIPFilterType>Type IP-adresfilter</laIPFilterType>
+			<optAllow>Toegestaan</optAllow>
+			<optDeny>Verboden</optDeny>
+			<laAddIPAddress>IP-adres toevoegen</laAddIPAddress>
+			<laModifyIPAddress>IP-adres wijzigen</laModifyIPAddress>
+		</Page>
+		<Js>
+		</Js>
+	</IPFilter>
+</Security>

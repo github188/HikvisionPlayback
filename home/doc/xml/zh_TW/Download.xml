@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Download>
+	<Page>
+		<title>檔案下載</title>
+		<picturetitle>圖片下載</picturetitle>
+		<laFileName tag="label;" length="140">檔案名</laFileName>
+		<laFileSize tag="label;" length="90">檔案大小</laFileSize>
+		<laPictureData tag="label;" length="90">檔案日期</laPictureData>
+		<laDownloadProcess tag="label;" length="90">進度</laDownloadProcess>
+		<PictureType1>排程</PictureType1>
+		<PictureType2>警報</PictureType2>
+		<PictureType3>移動偵測</PictureType3>
+	</Page>
+	<Js>
+		<Downloaded>已下載</Downloaded>
+		<jsNoPictureTip>沒有圖片檔案</jsNoPictureTip>
+		<jsSearchPicFailed>搜尋圖片失敗</jsSearchPicFailed>
+		<jsDownloadFailed>下載失敗</jsDownloadFailed>
+		<jsTips1>停止下載檔案？</jsTips1>
+		<jsTips2>請選擇檔案進行下載!</jsTips2>
+	</Js>
+</Download>

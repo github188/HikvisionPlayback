@@ -6,7 +6,7 @@ body
 	overflow:hidden;
     margin: 0px;
     padding: 0px;
-    background-color: #ffffff;
+    background-color: transparent;
     overflow:hidden;
 }
 ::-webkit-scrollbar {

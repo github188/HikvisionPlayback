@@ -25,7 +25,7 @@ public partial class playback : System.Web.UI.Page
     {
         get
         {
-            return Request.QueryString["id"] ?? "";
+            return Request.QueryString["camera"] ?? "";
         }
     }
 

@@ -23,35 +23,24 @@
     var m_lUserName = '<%=m_UserName%>';
     var m_lPassword = '<%=m_Password%>';
     var m_channel = '<%=m_Channel%>';
+    var m_datetime = '';
 
-    /*$(document).ready(function () {
-        var EvercamApi = "https://api.evercam.io/v1";
-        var cameraId = '<=cameraId %>';
-        var token = '<=token %>';
-        $.ajax({
-            type: "GET",
-            crossDomain: true,
-            url: EvercamApi + "/cameras/" + cameraId + ".json",
-            beforeSend: function (xhrObj) {
-                xhrObj.setRequestHeader("Authorization", "bearer " + token);
-            },
-            //data: s,
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            success: function (response) {
-                var cam = response.cameras;
-                m_szHostName = cam.external_host;
-                m_lHttpPort = cam.external_http_port;
-                m_lRtspPort = cam.external_rtsp_port;
-                m_lUserName = cam.cam_username;
-                m_lPassword = cam.cam_password;
-                InitPlayback();
-            },
-            error: function (xhrc, ajaxOptionsc, thrownErrorc) {
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regexS = "[\\?&]" + name + "=([^&#]*)";
+        var regex = new RegExp(regexS);
+        var results = regex.exec(window.location.href);
+        if (results == null) {
+            return "";
+        }
+        else {
+            return decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+    }
 
-            }
-        });
-    });*/
+    $(document).ready(function () {
+        m_datetime = getUrlParameter('date_time');
+    });
 </script>
 
 <script type="text/javascript" src="../script/jquery.cookie.js"></script>

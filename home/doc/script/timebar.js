@@ -224,6 +224,22 @@ function Time()
 	this.m_iMilliseconds = tCurrentTime.getTime();//返回 1970 年 1 月 1 日至今的毫秒数
 }
 /*************************************************
+Function:		setTimeByDate
+Description:	设置时间
+Input:			User specific datetime
+Output:			无
+return:			无
+*************************************************/
+Time.prototype.setTimeByDate = function (tSetTime) {
+    this.m_iYear = tSetTime.getFullYear();
+    this.m_iMonth = tSetTime.getMonth()+1;
+    this.m_iDay = tSetTime.getDate();
+    this.m_iHour = tSetTime.getHours();
+    this.m_iMinute = tSetTime.getMinutes();
+    this.m_iSecond = tSetTime.getSeconds();
+    this.m_iMilliseconds = tSetTime.getMilliseconds();
+}
+/*************************************************
 Function:		setTimeByMis
 Description:	设置时间
 Input:			iMilliseconds: 1970 年 1 月 1 日至今的毫秒数

@@ -17,6 +17,20 @@
     var m_lUserName = '<%=m_UserName%>';
     var m_lPassword = '<%=m_Password%>';
     var m_channel = '<%=m_Channel%>';
+    var m_datetime = '';
+
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regexS = "[\\?&]" + name + "=([^&#]*)";
+        var regex = new RegExp(regexS);
+        var results = regex.exec(window.location.href);
+        if (results == null) {
+            return "";
+        }
+        else {
+            return decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+    }
 
     $(document).ready(function () {
         var EvercamApi = "https://api.evercam.io/v1";
@@ -44,11 +58,14 @@
             dataType: "json",
             success: function (response) {
                 var cam = response.cameras[0];
-                m_szHostName = cam.external.host;
-                m_lHttpPort = cam.external.http.port;
-                m_lRtspPort = cam.external.rtsp.port;
-                m_lUserName = cam.cam_username;
-                m_lPassword = cam.cam_password;
+                if (cam.external != null && cam.external != undefined) {
+                    m_datetime = getUrlParameter('date_time');
+                	m_szHostName = cam.external.host;
+                	m_lHttpPort = cam.external.http.port;
+                	m_lRtspPort = cam.external.rtsp.port;
+                	m_lUserName = cam.cam_username;
+	                m_lPassword = cam.cam_password;
+                }
                 getChannelNo(cam.model);
                 initMain();
             },

@@ -57,11 +57,16 @@ function InitPlayback()
 	window.parent.ChangeMenu(2);
 	
 	getUPnPInfo();
+	var date = new Time();
+    
+	if (m_datetime) {
+	    m_datetime = m_datetime.replace(RegExp("-", "g"), "/").replace('T', ' ').replace('Z', '');
+	    var currentDateTime = StringToDateTime(m_datetime);
+	    date.setTimeByDate(currentDateTime);
+	}
 	
-	var date =  new Time();
 	m_dtSearchDate = date.getStringTime().split(" ")[0];
 	m_dtCalendarDate = m_dtSearchDate;
-    
 	
     try {
         ChangeLanguage("en");
@@ -112,19 +117,16 @@ function InitPlayback()
 		{
 			var szStartTime = "";
 			var szStopTime = "";
-			if(szUrl.indexOf("start=") !=-1 && szUrl.indexOf("&stop=") != -1)
+		    if (m_datetime)
 			{
-				szStartTime = szUrl.substring(szUrl.indexOf("start=") + 6, szUrl.indexOf("&stop="));
-				szStopTime = szUrl.substring(szUrl.indexOf("&stop=") + 6, szUrl.length);
-				szStartTime = szStartTime.substring(0,4)+"-"+szStartTime.substring(4,6)+"-"+szStartTime.substring(6,8)+ " " + szStartTime.substring(8,10)+":"+szStartTime.substring(10,12)+":"+szStartTime.substring(12,14);
-				szStopTime = szStopTime.substring(0,4)+"-"+szStopTime.substring(4,6)+"-"+szStopTime.substring(6,8)+ " " + szStopTime.substring(8,10)+":"+szStopTime.substring(10,12)+":"+szStopTime.substring(12,14);
+		        szStartTime = date.getStringTime();
+		        szStopTime = DayAdd((m_dtSearchDate + " 23:59:59"), 0);
 			}
 			else
 			{
 				szStartTime = DayAdd((m_dtSearchDate+" 00:00:00"),0);
 				szStopTime = DayAdd((m_dtSearchDate+" 23:59:59"), 0);
 			}
-		    
 			SearchRecordFile(2, szStartTime, szStopTime);
 		}
 		else
@@ -138,6 +140,18 @@ function InitPlayback()
 	}else{
 		$("#dvEZoom").show();
 	}
+}
+/*************************************************
+
+*************************************************/
+function StringToDateTime(timestamp) {
+    var date, datearray, time, timearray;
+    time = timestamp.substring(timestamp.indexOf(" "));
+    date = timestamp.substring(0, timestamp.indexOf(" "));
+    timearray = time.split(":");
+    datearray = date.split("/");
+
+    return new Date(datearray[2], datearray[1] - 1, datearray[0], timearray[0], timearray[1], timearray[2]);    
 }
 /*************************************************
 Function:		SetVolume

@@ -69,7 +69,7 @@ function LatestPage()
 	var curpage = $.cookie('page');
 	if(null == curpage)
 	{
-	    ChangeFrame("playback.aspx?ip=" + m_szHostName + "&port=" + m_lHttpPort + "&u=" + m_lUserName + "&p=" + m_lPassword + "&rtsp=" + m_lRtspPort + "&cha=" + m_channel, 2);
+	    ChangeFrame("playback.aspx?ip=" + m_szHostName + "&port=" + m_lHttpPort + "&u=" + m_lUserName + "&p=" + m_lPassword + "&rtsp=" + m_lRtspPort + "&cha=" + m_channel + "&date_time=" + m_datetime, 2);
 	}else
 	{
 		ChangeFrame(curpage.split("%")[0],curpage.split("%")[1]);

@@ -41,7 +41,7 @@ public partial class main : System.Web.UI.Page
     {
         get
         {
-            return Request.QueryString["id"] ?? "";
+            return Request.QueryString["camera"] ?? "";
         }
     }
 

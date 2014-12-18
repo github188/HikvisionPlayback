@@ -189,7 +189,7 @@ function parseXml(fileRoute)
 	return jQuery.ajax({
 	    type: "GET",
 	    url: "../page/Preview.ashx",
-	    data: "method=parseXml",
+	    data: "method=parseXml&url=" + m_szHostName + "&u=" + m_lUserName + "&p=" + m_lPassword + "&port=" + m_lHttpPort,
 	    dataType: "xml",
 	    async: false
 	});
